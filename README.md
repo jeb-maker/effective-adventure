@@ -45,11 +45,35 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 | [0006](idees/0006-assistant-implantation-commerciale/) | Assistant d'implantation commerciale (SIRENE) | 💡 Capturée | — | 2026-06-20 |
 | [0007](idees/0007-fiche-commune-intelligente/) | Fiche commune intelligente (finances locales) | 💡 Capturée | — | 2026-06-20 |
 | [0008](idees/0008-veille-ao-boamp/) | Veille d'appels d'offres (BOAMP) | ❌ Écartée | — | 2026-06-20 |
+| [0009](idees/0009-dpe-passoires-thermiques/) | Ciblage rénovation énergétique (passoires thermiques) | 🔁 À retravailler | 60 | 2026-06-20 |
+| [0010](idees/0010-boussole-aides-publiques/) | Boussole des aides et subventions publiques | 🔁 À retravailler | 55 | 2026-06-20 |
+| [0011](idees/0011-risques-adresse/) | Diagnostic des risques par adresse (Géorisques) | 🔁 À retravailler | 60 | 2026-06-20 |
+| [0012](idees/0012-acces-aux-soins/) | Observatoire de l'accès aux soins (déserts médicaux) | 🔁 À retravailler | 57 | 2026-06-20 |
+| [0013](idees/0013-choisir-son-ecole/) | Aide au choix d'établissement scolaire (IPS) | 🔁 À retravailler | 59 | 2026-06-20 |
+| [0014](idees/0014-analyse-electorale-fine/) | Analyse électorale fine (bureau de vote) | 🔁 À retravailler | 55 | 2026-06-20 |
+| [0015](idees/0015-deserts-de-mobilite/) | Observatoire des déserts de mobilité | ❌ Écartée | 54 | 2026-06-20 |
+| [0016](idees/0016-accessibilite-handicap-erp/) | Accessibilité handicap des lieux (ERP) | ❌ Écartée | 52 | 2026-06-20 |
+| [0017](idees/0017-empreinte-carbone-territoire/) | Empreinte carbone des territoires / PME | 🔁 À retravailler | 56 | 2026-06-20 |
+| [0018](idees/0018-transparence-vie-publique/) | Transparence de la vie publique | ❌ Écartée | 50 | 2026-06-20 |
 
 ---
 
 ## État actuel
 
-- **Candidate prioritaire** : 0001 (Radar de la commande publique).
-- **Pari à fort sens / à retravailler** : 0002 (qui paie ?), 0003 (recentrer).
-- Idées écartées conservées avec leur analyse pour ne pas les reproposer.
+- **18 idées** enregistrées, dont 12 analysées avec scoring complet.
+- **Candidate prioritaire** : **0001** (Radar de la commande publique, 76/100) —
+  seule idée au-dessus du seuil Go à ce jour.
+- **À retravailler** (55–69) : 0002, 0009, 0010, 0011, 0012, 0013, 0014, 0017
+  (+ 0003). Point commun récurrent : **données prêtes mais marché saturé et/ou
+  payeur non identifié**. Le levier est presque toujours de **pivoter vers un
+  payeur précis** ou un créneau non couvert.
+- **Écartées** (< 55 ou critère éliminatoire) : 0004, 0005, 0008, 0015, 0016,
+  0018 — conservées avec leur analyse pour ne pas les reproposer.
+
+### Enseignement transverse
+
+La quasi-totalité des idées « grand public / cartographie » sont **déjà servies
+par un service public gratuit** (Errial, acceslibre, CartoSanté, Go Rénove…) ou
+saturées côté commercial. Les idées qui résistent sont celles qui ciblent un
+**payeur B2B/B2G sur une donnée chiffrée traçable** (modèle 0001), pas un
+assistant grand public.
