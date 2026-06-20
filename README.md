@@ -55,15 +55,24 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 | [0016](idees/0016-accessibilite-handicap-erp/) | Accessibilité handicap des lieux (ERP) | ❌ Écartée | 52 | 2026-06-20 |
 | [0017](idees/0017-empreinte-carbone-territoire/) | Empreinte carbone des territoires / PME | ❌ Écartée | 44 ⤵ | 2026-06-20 |
 | [0018](idees/0018-transparence-vie-publique/) | Transparence de la vie publique | ❌ Écartée | 50 | 2026-06-20 |
+| [0019](idees/0019-sourcing-achat-public/) | Sourcing & benchmark prix pour acheteurs publics | ❌ Écartée | 53 | 2026-06-20 |
+| [0020](idees/0020-benchmark-financier-collectivites/) | Benchmark financier inter-collectivités | ❌ Écartée | 53 | 2026-06-20 |
+| [0021](idees/0021-veille-fonciere-amenageurs/) | Veille foncière & urbanisme (promoteurs) | ❌ Écartée | 50 | 2026-06-20 |
+| [0022](idees/0022-due-diligence-tiers/) | Due diligence & scoring de tiers (B2B) | ❌ Écartée | 53 | 2026-06-20 |
+| [0023](idees/0023-conformite-open-data-collectivites/) | Conformité publication open data (collectivités) | ❌ Écartée | 47 | 2026-06-20 |
+| [0024](idees/0024-risque-climat-actifs/) | Exposition climat d'un portefeuille d'actifs (B2B) | ❌ Écartée | 54 | 2026-06-20 |
 
 ---
 
 ## État actuel
 
-- **18 idées** enregistrées, dont 13 analysées avec scoring complet.
+- **24 idées** enregistrées, dont 19 analysées avec scoring complet.
 - **6 idées passées en revue critique adversariale** (`revue.md` dans leur
   dossier). Effet **massif** : tous les scores ont baissé et **aucune idée ne
   dépasse aujourd'hui le seuil Go (≥70)**.
+- **Vague B2B/B2G (0019–0024)** : 6 idées « payeur pro + donnée chiffrée »
+  testées avec consigne de chasse aux concurrents → **toutes écartées (47–54)**,
+  marchés déjà occupés (marchespublics.ai, OFGL, Kel Foncier, Pappers, NamR…).
 - **Tête de classement** : **0001** (Radar de la commande publique) à **66/100**
   (🔁 à retravailler) — meilleure idée mais plus « validée ». La revue a trouvé
   des concurrents directs omis (Maître AO, Nextend.ai, marchespublics.ai) et un
@@ -71,7 +80,7 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 - **À retravailler** : 0001 (66), 0002 (57), 0009 (60), 0011 (60), 0013 (59),
   0003 (—).
 - **Écartées** : 0004, 0005, 0006, 0008, 0010, 0012, 0014, 0015, 0016, 0017,
-  0018 — conservées avec leur analyse.
+  0018, 0019, 0020, 0021, 0022, 0023, 0024 — conservées avec leur analyse.
 - **Encore à analyser** : 0007 (💡 capturée).
 
 > ⤵ dans le registre = score abaissé après revue critique.
@@ -86,3 +95,13 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
    Rénove, udata-hydra…) ou saturées côté commercial.
 3. Même les idées B2B « donnée chiffrée traçable » ont déjà des concurrents :
    l'avantage doit venir d'une **niche/distribution**, pas de la donnée seule.
+4. **La donnée ouverte seule n'est pas un avantage compétitif** : elle est par
+   définition accessible à tous. Les 24 idées confirment que la valeur défendable
+   vient d'un **enrichissement propriétaire**, d'une **distribution captive**
+   (partenariat, canal) ou d'une **niche réglementaire pointue** — pas du dataset.
+
+### Piste pour la suite
+
+Arrêter de chercher « quel dataset exploiter » (tous sont déjà exploités).
+Partir plutôt d'un **payeur précis avec une douleur chère et mal servie**, puis
+voir si une donnée ouverte y répond — l'inverse de la démarche menée jusqu'ici.
