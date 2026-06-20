@@ -42,7 +42,7 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 | [0003](idees/0003-copilote-territorial-rag/) | Copilote d'études territoriales (RAG) | 🔁 À retravailler | — | 2026-06-20 |
 | [0004](idees/0004-dossier-immobilier-intelligent/) | Dossier immobilier intelligent (DVF enrichi) | ❌ Écartée | — | 2026-06-20 |
 | [0005](idees/0005-sante-environnement-local/) | Santé-environnement locale (eau / air) | ❌ Écartée | — | 2026-06-20 |
-| [0006](idees/0006-assistant-implantation-commerciale/) | Assistant d'implantation commerciale (SIRENE) | 💡 Capturée | — | 2026-06-20 |
+| [0006](idees/0006-assistant-implantation-commerciale/) | Assistant d'implantation commerciale (SIRENE) | ❌ Écartée | 50 | 2026-06-20 |
 | [0007](idees/0007-fiche-commune-intelligente/) | Fiche commune intelligente (finances locales) | 💡 Capturée | — | 2026-06-20 |
 | [0008](idees/0008-veille-ao-boamp/) | Veille d'appels d'offres (BOAMP) | ❌ Écartée | — | 2026-06-20 |
 | [0009](idees/0009-dpe-passoires-thermiques/) | Ciblage rénovation énergétique (passoires thermiques) | 🔁 À retravailler | 60 | 2026-06-20 |
@@ -60,15 +60,16 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 
 ## État actuel
 
-- **18 idées** enregistrées, dont 12 analysées avec scoring complet.
+- **18 idées** enregistrées, dont 13 analysées avec scoring complet.
 - **Candidate prioritaire** : **0001** (Radar de la commande publique, 76/100) —
   seule idée au-dessus du seuil Go à ce jour.
 - **À retravailler** (55–69) : 0002, 0009, 0010, 0011, 0012, 0013, 0014, 0017
   (+ 0003). Point commun récurrent : **données prêtes mais marché saturé et/ou
   payeur non identifié**. Le levier est presque toujours de **pivoter vers un
   payeur précis** ou un créneau non couvert.
-- **Écartées** (< 55 ou critère éliminatoire) : 0004, 0005, 0008, 0015, 0016,
-  0018 — conservées avec leur analyse pour ne pas les reproposer.
+- **Écartées** (< 55 ou critère éliminatoire) : 0004, 0005, 0006, 0008, 0015,
+  0016, 0018 — conservées avec leur analyse pour ne pas les reproposer.
+- **Encore à analyser** : 0007 (💡 capturée).
 
 ### Enseignement transverse
 
