@@ -1,9 +1,12 @@
 # Observatoire de l'accès aux soins (déserts médicaux)
 
 - **ID** : 0012
-- **Statut** : 🔁 À retravailler
-- **Score** : 57 / 100
+- **Statut** : ❌ Écartée
+- **Score** : 44 / 100
 - **Dernière mise à jour** : 2026-06-20
+- **Révision critique** : voir [`revue.md`](revue.md) — score abaissé de **57 à 44**
+  (écartée) après audit adversarial (existant omis : Observatoire CNAM/Data ameli,
+  Observatoire SKEMA-UniCA ; payeur et différenciation surévalués).
 - **Pitch (1 phrase)** : Mesurer et cartographier l'accès aux soins (APL, démographie
   médicale, annuaire santé, temps d'accès) pour identifier les déserts médicaux,
   à destination des collectivités, ARS, citoyens et soignants en installation.

@@ -1,9 +1,12 @@
 # Empreinte carbone des territoires / PME
 
 - **ID** : 0017
-- **Statut** : 🔁 À retravailler
-- **Score** : 56 / 100
+- **Statut** : ❌ Écartée
+- **Score** : 44 / 100
 - **Dernière mise à jour** : 2026-06-20
+- **Révision critique** : voir [`revue.md`](revue.md) — score abaissé de **56 à 44**
+  (écartée) après audit adversarial (pivot territorial déjà couvert par RARE/OREC ;
+  licence ecoinvent payante pour un SaaS ; PME non solvable).
 - **Pitch (1 phrase)** : Un outil qui s'appuie sur les facteurs d'émission ouverts
   de l'ADEME (Base Carbone / Base Empreinte) et sur les données locales d'énergie
   pour aider PME et collectivités à estimer et suivre leur empreinte carbone (bilan GES).

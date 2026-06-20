@@ -1,9 +1,13 @@
 # Radar de la commande publique (intelligence d'attribution)
 
 - **ID** : 0001
-- **Statut** : ✅ Validée (Go)
-- **Score** : 76 / 100
+- **Statut** : 🔁 À retravailler
+- **Score** : 66 / 100
 - **Dernière mise à jour** : 2026-06-20
+- **Révision critique** : voir [`revue.md`](revue.md) — score abaissé de **76 à 66**
+  après audit adversarial (concurrents directs omis : Maître AO, Nextend.ai,
+  marchespublics.ai… ; `montant` DECP ≠ dépense réelle ; délais de publication).
+  L'analyse ci-dessous reflète le 1er passage et reste à corriger.
 - **Pitch (1 phrase)** : Un outil d'**intelligence concurrentielle** sur les
   marchés publics **attribués** (qui a gagné quoi, où, à quel prix, chez quels
   acheteurs récurrents) — pas une énième veille d'avis à venir.

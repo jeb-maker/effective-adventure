@@ -45,3 +45,12 @@ Produis un RAPPORT DE REVUE en Markdown avec :
 
 Ne réécris pas la fiche : produis uniquement le rapport critique.
 ```
+
+---
+
+## Convention de stockage
+
+Le rapport de revue est écrit dans `idees/<id>-<slug>/revue.md` (à côté du
+`README.md` de l'idée). Le réviseur **ne modifie pas** le `README.md` de l'idée :
+si la revue change le verdict, c'est l'orchestrateur qui applique l'ajustement du
+score/statut dans la fiche et le registre, en traçant la décision.

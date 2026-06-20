@@ -1,9 +1,12 @@
 # Analyse électorale fine (bureau de vote)
 
 - **ID** : 0014
-- **Statut** : 🔁 À retravailler
-- **Score** : 55 / 100
+- **Statut** : ❌ Écartée
+- **Score** : 37 / 100
 - **Dernière mise à jour** : 2026-06-20
+- **Révision critique** : voir [`revue.md`](revue.md) — score abaissé de **55 à 37**
+  (écartée) après audit adversarial (pivot déjà couvert : Ballotage/Datagère,
+  Qomon, Politicae… ; C3 surévalué malgré données hétérogènes).
 - **Pitch (1 phrase)** : Exploiter les résultats électoraux au **bureau de vote**
   croisés avec la socio-démographie INSEE pour analyser participation,
   abstention, basculements et sociologie du vote — pour journalistes, partis,

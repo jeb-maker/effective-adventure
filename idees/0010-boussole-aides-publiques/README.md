@@ -1,9 +1,12 @@
 # Boussole des aides et subventions publiques
 
 - **ID** : 0010
-- **Statut** : 🔁 À retravailler
-- **Score** : 55 / 100
+- **Statut** : ❌ Écartée
+- **Score** : 42 / 100
 - **Dernière mise à jour** : 2026-06-20
+- **Révision critique** : voir [`revue.md`](revue.md) — score abaissé de **55 à 42**
+  (écartée) après audit adversarial (concurrents omis : Éclaireur Public,
+  subvention360, simulateur DGE… ; pivot non vierge, recoupe 0001).
 - **Pitch (1 phrase)** : Un assistant qui agrège les aides/subventions publiques (entreprises,
   associations, collectivités, particuliers) à partir des données ouvertes et répond
   « à quelles aides ai-je droit / qu'existe-t-il sur mon territoire ? ».

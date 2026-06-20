@@ -2,8 +2,11 @@
 
 - **ID** : 0002
 - **Statut** : 🔁 À retravailler
-- **Score** : 71 / 100
+- **Score** : 57 / 100
 - **Dernière mise à jour** : 2026-06-20
+- **Révision critique** : voir [`revue.md`](revue.md) — score abaissé de **71 à 57**
+  après audit adversarial (existant public sous-estimé : udata-hydra, Observatoire
+  OpenDataFrance, validation schéma intégrée, modèle transport).
 - **Pitch (1 phrase)** : Monitoring **continu et transversal** de la qualité
   réelle des jeux de données ouverts (liens morts, fichiers illisibles,
   fraîcheur, dérive de schéma), orienté **producteurs** — généraliser à tous les
