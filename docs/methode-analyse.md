@@ -125,3 +125,7 @@ score. Dans ce cas, le justifier explicitement dans le verdict.
 
 > Convention d'`id` : numérotation à 4 chiffres (`0001`, `0002`, …) dans l'ordre
 > de capture. Le slug est en minuscules, mots séparés par des tirets.
+
+Pour exécuter ce workflow de façon reproductible, des **prompts prêts à l'emploi**
+(un par étape) sont disponibles dans [`prompts/`](prompts/). Ils renvoient à ce
+document plutôt que de redéfinir les règles.

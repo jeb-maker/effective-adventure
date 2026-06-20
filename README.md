@@ -10,6 +10,8 @@ rigoureuse et comparable**.
   vie) est dans [`docs/methode-analyse.md`](docs/methode-analyse.md).
 - Le **modèle** à copier pour une nouvelle idée est dans
   [`docs/modele-idee.md`](docs/modele-idee.md).
+- Les **prompts d'analyse réutilisables** (capture, recherche existant, analyse,
+  revue critique) sont dans [`docs/prompts/`](docs/prompts/).
 - Chaque idée vit dans `idees/<id>-<slug>/README.md`.
 - Le **registre** ci-dessous est l'index unique (à tenir à jour à chaque ajout).
 
