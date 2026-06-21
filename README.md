@@ -12,6 +12,8 @@ rigoureuse et comparable**.
   [`docs/modele-idee.md`](docs/modele-idee.md).
 - Les **prompts d'analyse réutilisables** (capture, recherche existant, analyse,
   revue critique) sont dans [`docs/prompts/`](docs/prompts/).
+- Le **catalogue des sources complémentaires vérifiées** (croisements, disponibilité)
+  est dans [`docs/sources-complementaires.md`](docs/sources-complementaires.md).
 - Chaque idée vit dans `idees/<id>-<slug>/README.md`.
 - Le **registre** ci-dessous est l'index unique (à tenir à jour à chaque ajout).
 
@@ -61,12 +63,20 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 | [0022](idees/0022-due-diligence-tiers/) | Due diligence & scoring de tiers (B2B) | ❌ Écartée | 53 | 2026-06-20 |
 | [0023](idees/0023-conformite-open-data-collectivites/) | Conformité publication open data (collectivités) | ❌ Écartée | 47 | 2026-06-20 |
 | [0024](idees/0024-risque-climat-actifs/) | Exposition climat d'un portefeuille d'actifs (B2B) | ❌ Écartée | 54 | 2026-06-20 |
+| [0025](idees/0025-coproprietes-renovation-rnic/) | Pilotage rénovation copropriétés (RNIC × DPE × DECP) | 💡 Capturée | — | 2026-06-21 |
+| [0026](idees/0026-exposition-parcelles-agricoles/) | Exposition risques parcelles agricoles (RPG × Géorisques × Hub'Eau) | 💡 Capturée | — | 2026-06-21 |
+| [0027](idees/0027-transparence-subventions-marches/) | Transparence subventions × marchés (DECP × SCDL × RNA) | 💡 Capturée | — | 2026-06-21 |
+| [0028](idees/0028-tensions-emploi-territoire/) | Tensions emploi par territoire (France Travail × SIRENE × FiLoSoFi) | 💡 Capturée | — | 2026-06-21 |
 
 ---
 
 ## État actuel
 
-- **24 idées** enregistrées, dont 19 analysées avec scoring complet.
+- **28 idées** enregistrées, dont 19 analysées avec scoring complet et **4 nouvelles
+  idées capturées** (0025–0028) issues du travail de croisements de données (juin 2026).
+- **8 idées enrichies** avec croisements et sources complémentaires vérifiées
+  (0003, 0006, 0007, 0009, 0018, 0019, 0021, 0024) — voir
+  [`docs/sources-complementaires.md`](docs/sources-complementaires.md).
 - **6 idées passées en revue critique adversariale** (`revue.md` dans leur
   dossier). Effet **massif** : tous les scores ont baissé et **aucune idée ne
   dépasse aujourd'hui le seuil Go (≥70)**.
@@ -81,7 +91,7 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
   0003 (—).
 - **Écartées** : 0004, 0005, 0006, 0008, 0010, 0012, 0014, 0015, 0016, 0017,
   0018, 0019, 0020, 0021, 0022, 0023, 0024 — conservées avec leur analyse.
-- **Encore à analyser** : 0007 (💡 capturée).
+- **Encore à analyser** : 0007 (💡 capturée), 0025, 0026, 0027, 0028 (💡 capturées).
 
 > ⤵ dans le registre = score abaissé après revue critique.
 
