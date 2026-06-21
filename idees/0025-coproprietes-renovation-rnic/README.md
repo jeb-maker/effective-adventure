@@ -2,8 +2,8 @@
 
 - **ID** : 0025
 - **Statut** : 🔁 À retravailler
-- **Score** : 64 / 100
-- **Dernière mise à jour** : 2026-06-21
+- **Score** : 55 / 100 ⤵
+- **Dernière mise à jour** : 2026-06-21 (revue critique : [`revue.md`](revue.md))
 - **Pitch (1 phrase)** : Pour syndics professionnels et bailleurs : croiser le
   registre national des copropriétés (RNIC), les DPE et les marchés publics de
   rénovation (DECP) pour prioriser les copropriétés à rénover et tracer les
@@ -211,18 +211,23 @@ Modéré :
 |---|---|---|---|---|
 | C1 | Intensité du problème | 3 | 4 | 12 |
 | C2 | Cible solvable (qui paie) | 3 | 3 | 9 |
-| C3 | Disponibilité & fiabilité données | 3 | 4 | 12 |
-| C4 | Espace concurrentiel libre | 2 | 2 | 4 |
-| C5 | Différenciation défendable | 2 | 2 | 4 |
-| C6 | Faisabilité & fiabilité technique | 2 | 4 | 8 |
+| C3 | Disponibilité & fiabilité données | 3 | 3 | 9 |
+| C4 | Espace concurrentiel libre | 2 | 1 | 2 |
+| C5 | Différenciation défendable | 2 | 1 | 2 |
+| C6 | Faisabilité & fiabilité technique | 2 | 3 | 6 |
 | C7 | Facilité du MVP | 2 | 3 | 6 |
-| C8 | Maîtrise des risques | 2 | 4 | 8 |
+| C8 | Maîtrise des risques | 2 | 3 | 6 |
 | C9 | Monétisation / impact | 2 | 2 | 4 |
-| | **Total** | | | **67 / 105** |
+| | **Total** | | | **56 / 105** |
 
-**Score /100** : 67 / 105 × 100 = **64**
+**Score /100** : 56 / 105 × 100 = **53** → **55** retenu (cf. [`revue.md`](revue.md)).
 
-Justification :
+Justification (post-revue 2026-06-21) :
+- **C4 = 1**, **C5 = 1** : ScanReno Syndic + LogicielSyndic + Go Rénove PRO ; jointure DECP via SIRET syndic = titulaire **douteuse** (revue §1 A1).
+- **C3 = 3**, **C6 = 3** : RNIC excellent ; jointure DPE adresse et DECP métier non validées.
+- **C8 = 3** : risque analytics trompeuses si mauvaises jointures.
+
+Justification initiale (2026-06-21, pré-revue) :
 - **C1 = 4** : contrainte réglementaire DPE collectif 2026 + PPT = douleur forte ;
   pas 5 car workflows syndic déjà outillés.
 - **C2 = 3** : syndics paient (ScanReno, Doctimmo) ; pas 4 car WTP pour couche
@@ -241,7 +246,7 @@ Justification :
 
 ## 11. Verdict & décision
 
-🔁 **À retravailler** (score **64/100**).
+🔁 **À retravailler** (score **55/100** ⤵, cf. [`revue.md`](revue.md)).
 
 L'idée corrige deux faiblesses de **0009** (légalité, cible B2B syndic) et s'appuie
 sur des **données vérifiées** (RNIC ouvert, SIRET syndic ~76 % sur pro). Mais le

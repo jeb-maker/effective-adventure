@@ -63,24 +63,25 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 | [0022](idees/0022-due-diligence-tiers/) | Due diligence & scoring de tiers (B2B) | ❌ Écartée | 53 | 2026-06-20 |
 | [0023](idees/0023-conformite-open-data-collectivites/) | Conformité publication open data (collectivités) | ❌ Écartée | 47 | 2026-06-20 |
 | [0024](idees/0024-risque-climat-actifs/) | Exposition climat d'un portefeuille d'actifs (B2B) | ❌ Écartée | 54 | 2026-06-20 |
-| [0025](idees/0025-coproprietes-renovation-rnic/) | Pilotage rénovation copropriétés (RNIC × DPE × DECP) | 🔁 À retravailler | 64 | 2026-06-21 |
-| [0026](idees/0026-exposition-parcelles-agricoles/) | Exposition risques parcelles agricoles (RPG × Géorisques × Hub'Eau) | 💡 Capturée | — | 2026-06-21 |
-| [0027](idees/0027-transparence-subventions-marches/) | Transparence subventions × marchés (DECP × SCDL × RNA) | 💡 Capturée | — | 2026-06-21 |
+| [0025](idees/0025-coproprietes-renovation-rnic/) | Pilotage rénovation copropriétés (RNIC × DPE × DECP) | 🔁 À retravailler | 55 ⤵ | 2026-06-21 |
+| [0026](idees/0026-exposition-parcelles-agricoles/) | Exposition risques parcelles agricoles (RPG × Géorisques × Hub'Eau) | ❌ Écartée | 52 | 2026-06-21 |
+| [0027](idees/0027-transparence-subventions-marches/) | Transparence subventions × marchés (DECP × SCDL × RNA) | ❌ Écartée | 42 | 2026-06-21 |
 | [0028](idees/0028-tensions-emploi-territoire/) | Tensions emploi par territoire (France Travail × SIRENE × FiLoSoFi) | 💡 Capturée | — | 2026-06-21 |
 
 ---
 
 ## État actuel
 
-- **28 idées** enregistrées, dont **21 analysées** avec scoring complet (dont 0007
-  et 0025, juin 2026) et **3 idées capturées** restantes (0026–0028).
+- **28 idées** enregistrées, dont **23 analysées** avec scoring complet et **1 idée
+  capturée** restante (0028).
 - **8 idées enrichies** avec croisements et sources complémentaires vérifiées
   (0003, 0006, 0007, 0009, 0018, 0019, 0021, 0024) — voir
   [`docs/sources-complementaires.md`](docs/sources-complementaires.md).
-- **2 analyses complètes** ajoutées (0007 → 59/100, 0025 → 64/100).
-- **6 idées passées en revue critique adversariale** (`revue.md` dans leur
-  dossier). Effet **massif** : tous les scores ont baissé et **aucune idée ne
-  dépasse aujourd'hui le seuil Go (≥70)**.
+- **4 analyses complètes** ajoutées (0007 → 59, 0025 → 55 ⤵, 0026 → 52 ❌,
+  0027 → 42 ❌).
+- **7 idées passées en revue critique adversariale** (`revue.md` dans leur
+  dossier, dont **0025** en juin 2026). Effet **massif** : tous les scores ont
+  baissé et **aucune idée ne dépasse aujourd'hui le seuil Go (≥70)**.
 - **Vague B2B/B2G (0019–0024)** : 6 idées « payeur pro + donnée chiffrée »
   testées avec consigne de chasse aux concurrents → **toutes écartées (47–54)**,
   marchés déjà occupés (marchespublics.ai, OFGL, Kel Foncier, Pappers, NamR…).
@@ -89,10 +90,11 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
   des concurrents directs omis (Maître AO, Nextend.ai, marchespublics.ai) et un
   piège sémantique (`montant` DECP ≠ dépense réelle).
 - **À retravailler** : 0001 (66), 0002 (57), 0009 (60), 0011 (60), 0013 (59),
-  0003 (—).
+  0003 (—), 0007 (59), 0025 (55 ⤵).
 - **Écartées** : 0004, 0005, 0006, 0008, 0010, 0012, 0014, 0015, 0016, 0017,
-  0018, 0019, 0020, 0021, 0022, 0023, 0024 — conservées avec leur analyse.
-- **Encore à analyser** : 0007 (💡 capturée), 0025, 0026, 0027, 0028 (💡 capturées).
+  0018, 0019, 0020, 0021, 0022, 0023, 0024, **0026**, **0027** — conservées
+  avec leur analyse.
+- **Encore à analyser** : 0028 (💡 capturée).
 
 > ⤵ dans le registre = score abaissé après revue critique.
 
