@@ -45,7 +45,7 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 | [0004](idees/0004-dossier-immobilier-intelligent/) | Dossier immobilier intelligent (DVF enrichi) | ❌ Écartée | — | 2026-06-20 |
 | [0005](idees/0005-sante-environnement-local/) | Santé-environnement locale (eau / air) | ❌ Écartée | — | 2026-06-20 |
 | [0006](idees/0006-assistant-implantation-commerciale/) | Assistant d'implantation commerciale (SIRENE) | ❌ Écartée | 50 | 2026-06-20 |
-| [0007](idees/0007-fiche-commune-intelligente/) | Fiche commune intelligente (finances locales) | 💡 Capturée | — | 2026-06-20 |
+| [0007](idees/0007-fiche-commune-intelligente/) | Fiche commune intelligente (finances locales) | 🔁 À retravailler | 59 | 2026-06-21 |
 | [0008](idees/0008-veille-ao-boamp/) | Veille d'appels d'offres (BOAMP) | ❌ Écartée | — | 2026-06-20 |
 | [0009](idees/0009-dpe-passoires-thermiques/) | Ciblage rénovation énergétique (passoires thermiques) | 🔁 À retravailler | 60 | 2026-06-20 |
 | [0010](idees/0010-boussole-aides-publiques/) | Boussole des aides et subventions publiques | ❌ Écartée | 42 ⤵ | 2026-06-20 |
@@ -63,7 +63,7 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 | [0022](idees/0022-due-diligence-tiers/) | Due diligence & scoring de tiers (B2B) | ❌ Écartée | 53 | 2026-06-20 |
 | [0023](idees/0023-conformite-open-data-collectivites/) | Conformité publication open data (collectivités) | ❌ Écartée | 47 | 2026-06-20 |
 | [0024](idees/0024-risque-climat-actifs/) | Exposition climat d'un portefeuille d'actifs (B2B) | ❌ Écartée | 54 | 2026-06-20 |
-| [0025](idees/0025-coproprietes-renovation-rnic/) | Pilotage rénovation copropriétés (RNIC × DPE × DECP) | 💡 Capturée | — | 2026-06-21 |
+| [0025](idees/0025-coproprietes-renovation-rnic/) | Pilotage rénovation copropriétés (RNIC × DPE × DECP) | 🔁 À retravailler | 64 | 2026-06-21 |
 | [0026](idees/0026-exposition-parcelles-agricoles/) | Exposition risques parcelles agricoles (RPG × Géorisques × Hub'Eau) | 💡 Capturée | — | 2026-06-21 |
 | [0027](idees/0027-transparence-subventions-marches/) | Transparence subventions × marchés (DECP × SCDL × RNA) | 💡 Capturée | — | 2026-06-21 |
 | [0028](idees/0028-tensions-emploi-territoire/) | Tensions emploi par territoire (France Travail × SIRENE × FiLoSoFi) | 💡 Capturée | — | 2026-06-21 |
@@ -72,11 +72,12 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 
 ## État actuel
 
-- **28 idées** enregistrées, dont 19 analysées avec scoring complet et **4 nouvelles
-  idées capturées** (0025–0028) issues du travail de croisements de données (juin 2026).
+- **28 idées** enregistrées, dont **21 analysées** avec scoring complet (dont 0007
+  et 0025, juin 2026) et **3 idées capturées** restantes (0026–0028).
 - **8 idées enrichies** avec croisements et sources complémentaires vérifiées
   (0003, 0006, 0007, 0009, 0018, 0019, 0021, 0024) — voir
   [`docs/sources-complementaires.md`](docs/sources-complementaires.md).
+- **2 analyses complètes** ajoutées (0007 → 59/100, 0025 → 64/100).
 - **6 idées passées en revue critique adversariale** (`revue.md` dans leur
   dossier). Effet **massif** : tous les scores ont baissé et **aucune idée ne
   dépasse aujourd'hui le seuil Go (≥70)**.
