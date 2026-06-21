@@ -3,7 +3,7 @@
 - **ID** : 0021
 - **Statut** : ❌ Écartée
 - **Score** : 50 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Dernière mise à jour** : 2026-06-21
 - **Pitch (1 phrase)** : Outil B2B pour promoteurs, aménageurs et marchands de biens :
   détecter des opportunités foncières en croisant permis (Sitadel), DVF, PLU/zonage,
   friches (Cartofriches), parcelles et propriétaires personnes morales — distinct du
@@ -66,6 +66,21 @@ stack données** et concurrence B2B encore plus dense.
 | MAJIC unifié (communauté) | https://www.data.gouv.fr/datasets/fichiers-des-locaux-et-des-parcelles-des-personnes-morales-version-unifiee | Licence Ouverte 2.0 | Parquet national | MàJ **3 nov. 2025** | Reprise communautaire, pas producteur officiel ; dénominations bruitées |
 | Cartofriches — sites référencés | https://www.data.gouv.fr/datasets/sites-references-dans-cartofriches | Licence Ouverte 2.0 | CSV/Geo (table nationale) | ~trimestrielle ; MàJ **15 juin 2026** | **Non exhaustif** (~3 000 sites nationaux + locales) ; hétérogène territorialement ; « friche potentielle » ≠ terrain disponible (https://www.data.gouv.fr/datasets/sites-references-dans-cartofriches, 2026-06-20) |
 | Base SIRENE (enrichissement PM) | https://www.data.gouv.fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret | Licence Ouverte | CSV/Parquet/API | Mensuelle | Lien MAJIC → SIREN pas toujours trivial ; RGPD |
+| **RPG** (registre parcellaire graphique) | https://www.data.gouv.fr/datasets/registre-parcellaire-graphique-agricole | LO 2.0 | CSV/GeoJSON | MàJ **20 juin 2026** (vérifié 2026-06-21) | Parcelles agricoles ; pression foncière vs zonage PLU |
+| **Cartes de bruit** (zones stratégiques) | https://www.data.gouv.fr/datasets/zones-de-bruit-des-cartes-de-bruit-strategiques-4eme-echeance-1 | LO 2.0 | Shapefile | Variable par territoire | Couverture inégale ; complément risques pour implantation |
+
+> [`docs/sources-complementaires.md`](../../docs/sources-complementaires.md)
+
+### 3bis. Croisements envisagés
+
+| Croisement | Signal foncier | Faisabilité |
+|---|---|---|
+| **Sitadel × DVF+ × MAJIC PM** | Permis déposé → ventes réalisées → propriétaire PM | **Bonne** (cœur du seed) — déjà fait par Kel Foncier |
+| **MAJIC × RPG × GPU** | Parcelle agricole en zone constructible PLU (pression foncière) | Spatial PostGIS — **bonne** |
+| **Cartofriches × Sitadel × DVF** | Friche référencée avec permis/valeur en hausse | **Moyenne** — Cartofriches non exhaustif |
+| **DPE × parcelle** (via BDNB) | Passoires sur foncier à potentiel | Adresse — voir 0009/0025 |
+
+Voir [0026](../0026-exposition-parcelles-agricoles/) pour l'angle agricole (RPG × risques).
 
 **Synthèse données** : le cœur tabulaire (Sitadel, DVF, MAJIC PM) est **SQL-able** une fois
 ingéré et géo-jointé — conforme au principe RAG(sens)/SQL(chiffres). Le maillon faible

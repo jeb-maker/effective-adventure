@@ -3,7 +3,7 @@
 - **ID** : 0019
 - **Statut** : ❌ Écartée
 - **Score** : 53 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Dernière mise à jour** : 2026-06-21
 - **Pitch (1 phrase)** : Outil B2G pour les acheteurs publics (collectivités,
   hôpitaux, ministères) : à partir des DECP (marchés attribués) + recensement,
   benchmarker les prix payés par CPV, identifier des fournisseurs (sourcing),
@@ -62,7 +62,22 @@ standalone DECP est difficile à arracher face au gratuit et au bundling.
 | API tabulaire data.gouv (DECP) | https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-consolidees-format-tabulaire | Licence Ouverte 2.0 | JSON tabulaire via API | ~quotidienne | Rate limit ~100 req/s ; volumétrie importante |
 | Référentiel schéma DECP v2.0 (fusion recensement) | https://www.data.gouv.fr/datasets/referentiel-de-donnees-marches-publics | — | Documentation schéma | — | Depuis **01/01/2024**, recensement économique et DECP fusionnés en une seule liste « données essentielles » (≥ 40 k€ HT) ; **plus de jeu REAP séparé** |
 | Base SIRENE (enrichissement fournisseurs) | https://www.data.gouv.fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret | Licence Ouverte | CSV | Mensuelle (INSEE) | Enrichissement titulaires (NAF, effectif) ; pas de lien automatique CPV↔NAF fiable à 100 % |
-| Statistiques agrégées OECP (recensement annuel) | https://www.weka.fr/actualite/commande-publique/article/recensement-des-marches-publics-les-resultats-2024-sont-connus-212163/ | — (publication presse, source OECP mars 2026) | Rapport PDF / articles | Annuelle (2024 publié mars 2026) | Agrégats nationaux, pas outil de benchmark unitaire ; **223 383 marchés** recensés en 2024 pour **> 233,3 Md€** (Weka citant OECP) |
+| **Subventions SCDL** | Schéma https://schema.data.gouv.fr/scdl/subventions/ | LO 2.0 | CSV par collectivité | Hétérogène (vérifié 2026-06-21) | Pas de consolidation nationale ; obligation > 23 k€ |
+| **RNA** (associations bénéficiaires) | https://www.data.gouv.fr/datasets/repertoire-national-des-associations | LO 2.0 | CSV | MàJ mai 2026 | Lien subvention→RNA pas toujours structuré |
+| Statistiques agrégées OECP (recensement annuel) | https://www.weka.fr/actualite/commande-publique/article/recensement-des-marches-publics-les-resultats-2024-sont-connus-212163/ | — (publication presse, source OECP mars 2026) | Rapport PDF / articles | Annuelle (2024 publié mars 2026) | Agrégats nationaux, pas outil de benchmark unitaire |
+
+> [`docs/sources-complementaires.md`](../../docs/sources-complementaires.md)
+
+### 3bis. Croisements envisagés
+
+| Croisement | Valeur acheteur | Limite |
+|---|---|---|
+| DECP × subventions SCDL (même SIRET) | Fournisseur titulaire de marchés ET bénéficiaire de subventions publiques | Couverture SCDL incomplète |
+| DECP × SIRENE (NAF) | Sourcing fournisseurs par secteur sur marchés comparables | CPV ↔ NAF = heuristique |
+| DECP acheteur × OFGL | Acheteur comparable par strate financière (extension benchmark inter-collectivités) | Code commune / SIRET acheteur |
+
+Voir idée [0027](../0027-transparence-subventions-marches/) pour l'angle transparence
+(journalistes) du croisement subventions × marchés.
 
 > **Note recensement vs DECP** : depuis le décret n°2022-767 et les arrêtés du
 > 22/12/2022 (en vigueur 01/01/2024), le recensement économique (ex-REAP) et les

@@ -3,7 +3,7 @@
 - **ID** : 0018
 - **Statut** : ❌ Écartée
 - **Score** : 50 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Dernière mise à jour** : 2026-06-21
 - **Pitch (1 phrase)** : Croiser les données ouvertes de la HATVP (déclarations
   d'intérêts, répertoire des représentants d'intérêts) et le financement de la
   vie politique pour montrer « qui influence quoi » et signaler les conflits
@@ -48,10 +48,29 @@ un autre produit (veille d'influence offensive) que celui décrit par le seed
 | Comptes des partis et groupements politiques (CNCCFP) | https://www.data.gouv.fr/datasets/comptes-des-partis-et-groupements-politiques | Licence Ouverte (fr-lo) | CSV | Annuelle | Postes comptables agrégés ; certains comptes en francs CFP ; pas de détail donateurs |
 | Comptes de campagne (CNCCFP) | https://www.data.gouv.fr/organizations/commission-nationale-des-comptes-de-campagne-et-des-financements-politiques-cnccfp/datasets | Licence Ouverte | CSV | Par scrutin | Granularité variable ; pas d'identité des donateurs |
 | Code source répertoire (AGORA) | https://gitlab.com/hatvp-open/agora | (dépôt public) | Code | — | Outil de gestion, pas un produit d'analyse |
+| **RNE** (répertoire national des élus) | https://www.data.gouv.fr/datasets/repertoire-national-des-elus-1 | LO 2.0 | CSV (12 mandats) | MàJ **9 juin 2026** (vérifié 2026-06-21) | Trimestriel ; matching nominatif avec HATVP = risque faux positifs |
+| **RNA** (associations) | https://www.data.gouv.fr/datasets/repertoire-national-des-associations | LO 2.0 | CSV départementaux | MàJ **31 mai 2026** | Alsace-Moselle exclue ; RNA ≠ SIREN systématique |
+| **DECP** (marchés attribués) | https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-consolidees-format-tabulaire | LO 2.0 | Parquet/CSV | ~quotidienne | Déjà croisé par VigiCité ; montant ≠ dépense réelle |
+| **Subventions SCDL** | Schéma https://schema.data.gouv.fr/scdl/subventions/ | LO 2.0 | CSV par collectivité | Hétérogène (jeux MàJ juin 2026 sur certains dépts.) | **Pas de consolidation nationale** ; obligation > 23 k€ |
 
-> Toutes URL consultées le 2026-06-20. La structure XML des déclarations est
-> documentée par la HATVP (`opendata-structure.xlsx`, cité dans la notice
-> open data — à vérifier que le lien historique est encore actif).
+> [`docs/sources-complementaires.md`](../../docs/sources-complementaires.md)
+
+### 3bis. Croisements envisagés
+
+| Croisement | Question | Risque / limite |
+|---|---|---|
+| HATVP × RNE × DECP | Élu déclarant un intérêt × marchés sur son territoire | **Diffamation** si matching automatique non qualifié ; VigiCité le fait déjà |
+| RNA × subventions SCDL | Association bénéficiaire × subventions versées | SQL traçable si SIRET/RNA présent ; couverture SCDL faible |
+| DECP × subventions × SIRENE | Entreprise titulaire de marchés ET bénéficiaire de subventions | Transparence « qui touche quoi » — voir [0027](../0027-transparence-subventions-marches/) |
+| Lobbying AGORA × DECP (CPV) | Secteurs lobbyés vs marchés attribués | Interprétation déclarative ; pas de lien causal |
+
+**Recyclage possible** (cf. §11) : brique **API requêtable** DECP × subventions × RNA,
+strictement limitée aux champs diffusables — pas un nouveau portail citoyen.
+
+> Toutes URL consultées le 2026-06-20 sauf sources complémentaires (2026-06-21).
+> La structure XML des déclarations est documentée par la HATVP
+> (`opendata-structure.xlsx`, cité dans la notice open data — à vérifier que le
+> lien historique est encore actif).
 
 ## 4. Existant / concurrence
 **Verdict de saturation : saturé sur le créneau citoyen/transparence.** Les

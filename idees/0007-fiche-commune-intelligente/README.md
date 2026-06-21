@@ -3,7 +3,7 @@
 - **ID** : 0007
 - **Statut** : 💡 Capturée
 - **Score** : — / 100 (à analyser)
-- **Dernière mise à jour** : 2026-06-20
+- **Dernière mise à jour** : 2026-06-21
 - **Pitch (1 phrase)** : Transformer les données d'une commune en explications
   claires (« pourquoi ma taxe augmente ? », « ma commune investit-elle plus que
   des communes comparables ? »).
@@ -13,8 +13,39 @@
 ## 1. Problème / douleur
 Les comptes/indicateurs communaux sont publics mais illisibles pour le citoyen.
 
-## 3. Données sources (pistes)
-Comptes individuels des communes (DGFiP), OFGL, fiscalité locale, INSEE.
+## 2. Cible & qui paie
+- **Citoyens** : utilisateurs, ne paient pas.
+- **Élus / DGS / communicants** : pourraient payer un outil d'explication pédagogique
+  (budget communication), mais les dashboards OFGL sont déjà gratuits.
+- **Journalistes locaux** : usage ponctuel, budget faible.
+
+## 3. Données sources
+
+| Source | URL | Licence | Format | Fraîcheur | Limites |
+|---|---|---|---|---|---|
+| Comptes individuels DGFiP | https://www.data.gouv.fr/datasets/comptes-individuels-des-communes | LO 2.0 | CSV | Annuelle | Lisibilité faible sans agrégation |
+| OFGL (comptes, REI, agrégats) | https://data.ofgl.fr/ — API Explore | LO 2.0 | API/CSV | Continue | Déjà très bien outillé côté public |
+| REI (recensement équipements) | https://www.data.gouv.fr/datasets/recensement-des-equipements-des-services-aux-particuliers | LO 2.0 | CSV | Millésime REI | Complément services de proximité |
+| API Melodi (catalogue INSEE) | https://www.data.gouv.fr/dataservices/api-melodi | LO (Insee) | REST JSON | Continue (vérifié 2026-06-21) | Compte portail-api.insee.fr requis |
+| FiLoSoFi IRIS (revenus) | https://www.insee.fr/fr/statistiques/8229323 | LO (Insee) | CSV | Revenus 2021 | Communes ≥ 5 000 hab. pour IRIS |
+| SSMSI délinquance (communal) | https://www.data.gouv.fr/datasets/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales | LO 2.0 | CSV | MàJ mars 2026 | Faits enregistrés, pas géolocalisé adresse |
+| APL (accès aux soins) | https://data.drees.solidarites-sante.gouv.fr/ | LO 2.0 | CSV/API | Annuelle DREES | Indicateur agrégé, pas adresse |
+
+> Vérification détaillée des sources complémentaires :
+> [`docs/sources-complementaires.md`](../../docs/sources-complementaires.md)
+
+### 3bis. Croisements envisagés
+
+| Croisement | Question citoyenne | Clé |
+|---|---|---|
+| OFGL × communes comparables (Melodi) | « Ma commune dépense-t-elle plus que des communes similaires ? » | Code commune INSEE + strate démographique |
+| DGFiP × REI | « Où vont les investissements vs les équipements manquants ? » | Code commune |
+| FiLoSoFi × SSMSI | « Pouvoir d'achat local vs statistiques de délinquance » | Code commune INSEE |
+| APL × démographie Melodi | « Désert médical + vieillissement de la population » | Code commune |
+| Fiscalité locale × OFGL | « Pourquoi ma taxe augmente ? » (RAG sur définitions + SQL sur taux) | Code commune |
+
+Architecture cible : **SQL** pour tous les chiffres (OFGL, DGFiP, SSMSI) ; **RAG** uniquement
+sur les définitions comptables et fiscales (guides Etalab, glossaire OFGL).
 
 ## 4. Existant / concurrence
 Dashboards déjà présents :

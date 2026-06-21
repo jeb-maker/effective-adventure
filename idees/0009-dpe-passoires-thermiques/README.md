@@ -3,7 +3,7 @@
 - **ID** : 0009
 - **Statut** : 🔁 À retravailler
 - **Score** : 60 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Dernière mise à jour** : 2026-06-21
 - **Pitch (1 phrase)** : Exploiter la base nationale des DPE (ADEME) pour
   identifier et cibler les logements classés **F/G** ("passoires thermiques") à
   rénover — pour les artisans RGE, les collectivités et les bailleurs.
@@ -54,6 +54,25 @@ freemium et **juridiquement contrainte** pour son usage phare.
 | Base Adresse Nationale (BAN) | https://www.data.gouv.fr/datasets/base-adresse-nationale | Licence Ouverte | API/CSV | continue | Géocodage des adresses DPE (fiabiliser les positions) |
 | BDNB – Base de Données Nationale des Bâtiments (CSTB) | https://www.data.gouv.fr/datasets/base-de-donnees-nationale-des-batiments | Licence Ouverte 2.0 | GeoPackage / PostgreSQL, API | millésimée (ex. 2025-07) | ~32 M bâtiments, >170 champs open data ; intègre déjà les DPE — donc l'enrichissement « maison » est déjà fait par le CSTB |
 | Cadastre / DVF (compléments) | https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres | Licence Ouverte | CSV | semestrielle (DGFiP) | Croisement prix/ventes pour scorer un bien |
+| **RNIC** (copropriétés) | https://www.data.gouv.fr/datasets/registre-national-dimmatriculation-des-coproprietes | LO 2.0 | CSV ~430 Mo/trim. | MàJ **17 juin 2026** ; quotidien depuis avr. 2026 (vérifié 2026-06-21) | Pas de propriétaire ; SIRET syndic parfois absent ; colonnes renommées avr. 2026 |
+| **RPLS** (logement social) | Ex. https://www.data.gouv.fr/datasets/repertoire-des-logements-locatifs-des-bailleurs-sociaux-rpls-2021 | LO 2.0 | CSV | **Fragmenté** — pas de national consolidé (Ithéa 2021, MàJ 2023) | Couverture partielle ; millésimes locaux sur data.gouv |
+| **Cartes de bruit** (4e échéance) | https://www.data.gouv.fr/datasets/zones-de-bruit-des-cartes-de-bruit-strategiques-4eme-echeance-1 | LO 2.0 | Shapefile | Variable par agglomération | Couverture nationale **inégale** ; couches éclatées |
+
+> [`docs/sources-complementaires.md`](../../docs/sources-complementaires.md)
+
+### 3bis. Croisements envisagés
+
+| Croisement | Cas d'usage | Faisabilité |
+|---|---|---|
+| **DPE × RNIC** | Prioriser les copropriétés avec le plus de lots F/G | Jointure adresse (BAN) — **moyenne** |
+| **RNIC × DECP** (titulaires RGE) | Quels syndics / entreprises ont déjà des marchés rénovation sur des copropriétés du portefeuille ? | SIRET — **bonne** |
+| **RPLS × DPE** | Performance énergétique du parc HLM (bailleurs) | Adresse — **moyenne** ; données RPLS fragmentées |
+| **DPE × cartes bruit** | Double pénalité énergie + nuisance sonore | Spatial — **moyenne** (couverture bruit) |
+| **BDNB × RNIC** | Enrichissement bâti déjà fait par CSTB — RNIC apporte la **gouvernance** copropriété (syndic, procédures) | Adresse / commune |
+
+**Piste pivot** (cf. prochaine étape §11) : outil B2B **syndics professionnels /
+bailleurs** — ordonnancement des travaux sur portefeuille de copropriétés, pas
+prospection artisan. Voir idée dédiée [0025](../0025-coproprietes-renovation-rnic/).
 
 **Volume (à citer, non halluciné)** : > 14 millions de DPE enregistrés entre
 juillet 2021 et février 2026 selon une extraction de la base ADEME

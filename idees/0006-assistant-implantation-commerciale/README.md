@@ -3,7 +3,7 @@
 - **ID** : 0006
 - **Statut** : ❌ Écartée
 - **Score** : 50 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Dernière mise à jour** : 2026-06-21
 - **Pitch (1 phrase)** : Aide à la décision pour indépendants/franchises sur le choix
   d'emplacement : concurrence locale (SIRENE/BODACC), pouvoir d'achat et démographie
   (INSEE), flux/mobilité — expliqué clairement pour des non-experts.
@@ -52,6 +52,24 @@ sur la conformité ELM.
 | Comptages mobilité / piétons | Schéma national : https://schema.data.gouv.fr/etalab/schema-comptage-mobilites/ ; ex. Toulouse : https://www.data.gouv.fr/datasets/comptages-routiers-et-pietons-2025 | Licence Ouverte 2.0 (selon producteur) | CSV normalisé | Variable par collectivité | **Pas de couverture nationale homogène** ; souvent local (Toulouse, Poitiers…) ; flux « piéton » des SaaS concurrents reposent en partie sur données propriétaires (à vérifier par acteur) |
 | Isochrones / temps de trajet | Moteurs tiers (OSRM, Valhalla, APIs routage) | Variable (souvent open source + données OSM) | API | Temps réel selon moteur | **Pas une donnée ouverte unique** ; coût calcul + dépendance service externe |
 | OpenStreetMap France | https://www.data.gouv.fr/datasets/donnees-openstreetmap-integrales-de-france-metropolitaine | ODbL (OSM) | PBF | 2026-06-19 (fiche data.gouv.fr) | Réseau routier pour isochrones ; pas de flux piéton direct |
+| **API Marché du travail** (France Travail) | https://www.data.gouv.fr/dataservices/api-marche-du-travail | LO 2.0 | REST JSON | Réf. déc. 2025 (vérifié 2026-06-21) | Compte OAuth France Travail ; demandeurs d'emploi par métier/territoire |
+| **API Informations emploi territoire** | https://www.data.gouv.fr/dataservices/api-informations-sur-lemploi-dans-un-territoire | LO 2.0 | REST JSON | Réf. déc. 2025 | Complément démo-éco territoriale (établissements, salariés) |
+| **SSMSI délinquance** (communal) | https://www.data.gouv.fr/datasets/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales | LO 2.0 | CSV | MàJ mars 2026 | Agrégat communal, pas adresse ; faits enregistrés |
+
+> [`docs/sources-complementaires.md`](../../docs/sources-complementaires.md)
+
+### 3bis. Croisements envisagés
+
+| Croisement | Valeur pour l'implantation | Clé |
+|---|---|---|
+| SIRENE (concurrence NAF) × FiLoSoFi | Pouvoir d'achat local vs densité concurrentielle | IRIS / coordonnées |
+| France Travail × SIRENE | Tension sur les métiers du commerce de proximité (recrutement) | Code commune + ROME/NAF |
+| BPE × SIRENE | Équipements attracteurs vs commerces existants | Coordonnées |
+| SSMSI × FiLoSoFi | Quartier à faible revenu + indicateurs délinquance (signal prudent) | Code commune |
+| DVF × SIRENE | Prix immobilier résidentiel comme proxy de dynamisme (faible pour commercial) | Commune |
+
+Ces croisements **ne comblent pas** le trou du flux piéton (donnée propriétaire des
+concurrents). Voir idée [0028](../0028-tensions-emploi-territoire/) pour l'angle emploi.
 
 **Synthèse données :** le cœur (SIRENE + INSEE démo/revenus + BPE) est **solide et SQL-able**.
 Le maillon faible du pitch est le **flux/mobilité** : pas de jeu national ouvert

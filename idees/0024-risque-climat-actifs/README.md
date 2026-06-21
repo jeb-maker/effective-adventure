@@ -3,7 +3,7 @@
 - **ID** : 0024
 - **Statut** : ❌ Écartée
 - **Score** : 54 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Dernière mise à jour** : 2026-06-21
 - **Pitch (1 phrase)** : Outil B2B pour scorer en masse l'exposition d'un portefeuille de biens (batch d'adresses) aux risques naturels et climatiques (inondation, RGA, submersion, sécheresse, sismique) via Géorisques + données climat, pour tarification, provisionnement et reporting TCFD/CSRD — distinct du diagnostic unitaire grand public (0011).
 
 ---
@@ -46,6 +46,18 @@ Les assureurs, foncières, gestionnaires d'actifs et banques doivent **quantifie
 | Base Adresse Nationale (géocodage batch) | https://api-adresse.data.gouv.fr | LO 2.0 | REST JSON | Continue (IGN/DINUM) | Précision d'appariement variable ; 50 req/s/IP documenté |
 | GASPAR / CatNat / PPR | Endpoints `/api/v1/gaspar/*`, `/api/v1/ppr`, `/api/v1/catnat` | LO 2.0 | JSON | À chaque arrêté | Maille souvent communale ; historique ≠ projection |
 | Zonage sismique | `/api/v1/zonage_sismique` | LO 2.0 | JSON | Réglementaire (décret 2010-1255) | Zones 1–5, maille communale |
+| **Cartes de bruit** (exposition nuisance) | https://www.data.gouv.fr/datasets/zones-de-bruit-des-cartes-de-bruit-strategiques-4eme-echeance-1 | LO 2.0 | Shapefile | Variable (vérifié 2026-06-21) | Couverture inégale ; complément « qualité de vie » du risque physique |
+| **Copernicus Land** (occupation sols, végétation) | https://land.copernicus.eu/ | UE gratuit | Raster/API | Continu | Résolution ~10–100 m ; expertise SIG ; complément DRIAS |
+
+> [`docs/sources-complementaires.md`](../../docs/sources-complementaires.md)
+
+### 3bis. Croisements envisagés
+
+| Croisement | Apport vs Géorisques seul | Limite |
+|---|---|---|
+| Géorisques × DRIAS × Copernicus | Scénario climat + aléa actuel + évolution occupation sols | DRIAS sans API REST ; maille 8 km |
+| Géorisques × cartes bruit | Nuisance sonore comme risque « qualitatif » du portefeuille | Couverture bruit partielle |
+| Batch BAN × endpoints Géorisques | Pipeline technique identique — la valeur est le **modèle de vulnérabilité**, pas le croisement brut | Quota 10 req/s |
 
 **Synthèse données** : excellent pour l'**exposition réglementaire actuelle** (Géorisques + TRI + RGA en spatial join local). **Insuffisant seul** pour un scoring prospectif crédible horizon 2050 (TCFD/CSRD) : il faut croiser DRIAS + modèles de vulnérabilité bâti — ce que font déjà Callendar, NamR, Deepki, etc.
 
