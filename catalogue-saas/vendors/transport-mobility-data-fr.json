@@ -139,6 +139,124 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "tfl-open-data",
+      "name": "Transport for London — Open Data",
+      "url": "https://tfl.gov.uk/info-for/open-data-users/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Portail open data mobilité Londres ; GTFS, temps réel et APIs transport public.",
+      "capabilities": [
+        "gtfs",
+        "real_time",
+        "uk",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://tfl.gov.uk/info-for/open-data-users/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "mobilitydata-org",
+      "name": "MobilityData",
+      "url": "https://mobilitydata.org/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Gouvernance standards mobilité (GTFS, GBFS, MDS) ; catalogues et outils open data global.",
+      "capabilities": [
+        "gtfs",
+        "gbfs",
+        "mds",
+        "standards"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "unknown",
+      "operating_regions": [
+        "global"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://mobilitydata.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "transit-land",
+      "name": "Transitland",
+      "url": "https://www.transit.land/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Agrégateur open data transport mondial ; GTFS et feeds multi-opérateurs.",
+      "capabilities": [
+        "gtfs_aggregation",
+        "global_feeds",
+        "api",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.transit.land/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "itoworld",
+      "name": "ITO World",
+      "url": "https://www.itoworld.com/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Visualisation et analytics données transport ; open data mobility pour collectivités.",
+      "capabilities": [
+        "transport_visualization",
+        "mobility_analytics",
+        "gtfs"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.itoworld.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
     }
   ]
 }

@@ -138,6 +138,125 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "uk-electoral-commission",
+      "name": "UK Electoral Commission — Open Data",
+      "url": "https://www.electoralcommission.org.uk/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Données électorales UK ; financement campagnes, résultats et registre électoral.",
+      "capabilities": [
+        "election_results",
+        "campaign_finance",
+        "uk",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.electoralcommission.org.uk/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "mit-election-lab",
+      "name": "MIT Election Data and Science Lab",
+      "url": "https://electionlab.mit.edu/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Recherche et datasets électoraux US ; méthodes et données comparables pour analytics territoriaux.",
+      "capabilities": [
+        "election_data",
+        "research",
+        "datasets",
+        "methodology"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://electionlab.mit.edu/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "elections-europe",
+      "name": "European Parliament — Elections data",
+      "url": "https://results.elections.europa.eu/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Résultats élections européennes ; données agrégées par pays et circonscription.",
+      "capabilities": [
+        "eu_elections",
+        "results",
+        "territorial",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "EU",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://results.elections.europa.eu/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "ballotpedia-data",
+      "name": "Ballotpedia",
+      "url": "https://ballotpedia.org/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Encyclopédie électorale US ; données candidats, scrutins et analyses territoriales.",
+      "capabilities": [
+        "election_encyclopedia",
+        "candidates",
+        "ballot_measures",
+        "us"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://ballotpedia.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
     }
   ]
 }

@@ -138,6 +138,155 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "citizenlab",
+      "name": "CitizenLab",
+      "url": "https://www.citizenlab.co/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Plateforme participation citoyenne ; consultations, budgets participatifs et engagement digital.",
+      "capabilities": [
+        "participatory_budget",
+        "consultations",
+        "engagement"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "BE",
+      "france_market": "partial",
+      "operating_regions": [
+        "BE",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.citizenlab.co/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "consul-project",
+      "name": "CONSUL Democracy",
+      "url": "https://consulproject.org/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Framework open-source participation citoyenne (Madrid) ; budgets participatifs et votes.",
+      "capabilities": [
+        "open_source",
+        "participatory_budget",
+        "voting",
+        "consultations"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "ES",
+      "france_market": "partial",
+      "operating_regions": [
+        "ES",
+        "EU",
+        "LATAM"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://consulproject.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "bang-the-table",
+      "name": "Bang the Table (EngagementHQ)",
+      "url": "https://www.bangthetable.com/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Engagement citoyen digital ; consultations, sondages et cartes participatives (AU/UK/US).",
+      "capabilities": [
+        "community_engagement",
+        "surveys",
+        "mapping",
+        "consultations"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "AU",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.bangthetable.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "commonplace-uk",
+      "name": "Commonplace",
+      "url": "https://www.commonplace.is/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Engagement communautaire UK ; concertation urbaine et participation aménagement.",
+      "capabilities": [
+        "urban_engagement",
+        "consultations",
+        "community_feedback",
+        "uk"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.commonplace.is/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "polis-co",
+      "name": "Polis",
+      "url": "https://pol.is/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Outil délibération à grande échelle ; cartographie consensus opinions (usage gov/civic).",
+      "capabilities": [
+        "deliberation",
+        "consensus_mapping",
+        "civic_dialogue"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://pol.is/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
     }
   ]
 }

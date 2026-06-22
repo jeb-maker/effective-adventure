@@ -145,19 +145,19 @@ Généré depuis `taxonomy.json` — **68 segments**.
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `public-procurement-intel` | Intelligence marchés publics | 4 |
-| `territorial-analytics` | Analytics territoriales | 6 |
-| `civic-tech-fr` | Civic tech France | 5 |
+| `public-procurement-intel` | Intelligence marchés publics | 8 |
+| `territorial-analytics` | Analytics territoriales | 10 |
+| `civic-tech-fr` | Civic tech France | 10 |
 
 ## France — open data thématique
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `geospatial-gis-fr` | Géospatial & carto FR | 5 |
-| `transport-mobility-data-fr` | Transport & mobilité FR | 5 |
-| `energy-buildings-fr` | Bâtiments & énergie FR | 5 |
-| `environmental-data-fr` | Environnement & risques FR | 6 |
-| `electoral-data-fr` | Données électorales FR | 5 |
-| `public-health-territory-fr` | Santé territoriale FR | 5 |
-| `open-data-governance-fr` | Gouvernance open data FR | 5 |
+| `geospatial-gis-fr` | Géospatial & carto FR | 9 |
+| `transport-mobility-data-fr` | Transport & mobilité FR | 9 |
+| `energy-buildings-fr` | Bâtiments & énergie FR | 9 |
+| `environmental-data-fr` | Environnement & risques FR | 10 |
+| `electoral-data-fr` | Données électorales FR | 9 |
+| `public-health-territory-fr` | Santé territoriale FR | 9 |
+| `open-data-governance-fr` | Gouvernance open data FR | 9 |
 

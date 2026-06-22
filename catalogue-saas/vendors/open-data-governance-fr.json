@@ -141,6 +141,125 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "socrata-tyler",
+      "name": "Socrata (Tyler Technologies)",
+      "url": "https://tylertech.com/solutions/socrata",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Plateforme open data gouvernementale US ; publication, API et gouvernance jeux de données.",
+      "capabilities": [
+        "open_data_platform",
+        "api",
+        "government",
+        "catalog"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://tylertech.com/solutions/socrata",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "ckan",
+      "name": "CKAN",
+      "url": "https://ckan.org/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Plateforme open-source catalogage données ; utilisée par data.gov.uk et centaines de portails.",
+      "capabilities": [
+        "open_source",
+        "data_catalog",
+        "harvesting",
+        "api"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "global"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://ckan.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "arcgis-hub",
+      "name": "ArcGIS Hub",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-hub/overview",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Portails open data géographiques ; gouvernance publication et engagement citoyen sur données.",
+      "capabilities": [
+        "open_data_hub",
+        "gis",
+        "community_engagement",
+        "catalog"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.esri.com/en-us/arcgis/products/arcgis-hub/overview",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "data-gov-us",
+      "name": "Data.gov (US)",
+      "url": "https://data.gov/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Portail open data fédéral US ; métadonnées, fédération et standards comparable data.gouv.fr.",
+      "capabilities": [
+        "national_portal",
+        "metadata",
+        "federation",
+        "us"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://data.gov/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Benchmark portail national — comparable Etalab/data.gouv.fr."
     }
   ]
 }

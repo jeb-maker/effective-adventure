@@ -136,6 +136,126 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "uk-epc-register",
+      "name": "UK EPC Register",
+      "url": "https://www.gov.uk/find-energy-certificate",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Registre certificats performance énergétique UK ; équivalent DPE pour benchmark rénovation.",
+      "capabilities": [
+        "epc",
+        "building_energy",
+        "uk",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.gov.uk/find-energy-certificate",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Benchmark réglementaire bâtiments — équivalent DPE FR."
+    },
+    {
+      "id": "building-performance-database",
+      "name": "Building Performance Database (US DOE)",
+      "url": "https://bpd.lbl.gov/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Base données performance bâtiments US ; analytics conso et benchmarking énergétique.",
+      "capabilities": [
+        "building_performance",
+        "energy_benchmarking",
+        "open_data",
+        "us"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://bpd.lbl.gov/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "dena-gebaeudedaten",
+      "name": "dena — Gebäudedaten (DE)",
+      "url": "https://www.dena.de/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Données et outils efficacité énergétique bâtiments Allemagne ; référence EU hors FR.",
+      "capabilities": [
+        "building_energy",
+        "germany",
+        "renovation",
+        "policy"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "unknown",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.dena.de/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "gridx-energy",
+      "name": "gridX",
+      "url": "https://www.gridx.ai/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Gestion énergie bâtiments et réseaux ; optimisation conso et intégration ENR (Allemagne).",
+      "capabilities": [
+        "energy_management",
+        "buildings",
+        "grid_integration",
+        "optimization"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.gridx.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
     }
   ]
 }

@@ -16,7 +16,7 @@ Registre **curaté** de SaaS comparables, aligné sur les règles de preuve du d
 
 - **68 segments** définis (tous avec fichier `vendors/<id>.json`)
 - **68 segments peuplés** (vague 4)
-- **440 vendeurs** recensés (vagues 5b–5c)
+- **481 vendeurs** recensés (vagues 5b–5d)
 - **Tagging géo** : `hq_country`, `france_market`, `operating_regions` (vague 5a)
 
 ## Les 18 catégories
@@ -53,6 +53,7 @@ python3 scripts/tag_catalogue_geography_v5a.py
 python3 scripts/enrich_catalogue_v4.py
 python3 scripts/enrich_compliance_to_spec_v5b.py
 python3 scripts/enrich_catalogue_v5c.py
+python3 scripts/enrich_catalogue_v5d.py
 
 # Exhaustivité
 python3 scripts/catalogue_saas.py coverage

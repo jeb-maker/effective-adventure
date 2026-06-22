@@ -137,6 +137,125 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "nhs-digital-open-data",
+      "name": "NHS Digital — Open Data",
+      "url": "https://digital.nhs.uk/data-and-information",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Données santé publique UK ; offre de soins, prescriptions et indicateurs territoriaux.",
+      "capabilities": [
+        "health_open_data",
+        "nhs",
+        "territorial",
+        "uk"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://digital.nhs.uk/data-and-information",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "cdc-places",
+      "name": "CDC PLACES",
+      "url": "https://www.cdc.gov/places",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Statistiques santé territoriales US ; prévalence maladies et déterminants par zone.",
+      "capabilities": [
+        "territorial_health",
+        "prevalence",
+        "us",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.cdc.gov/places",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "who-health-observatory",
+      "name": "WHO Global Health Observatory",
+      "url": "https://www.who.int/data/gho",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Indicateurs santé mondiaux ; comparaisons territoriales et données pays.",
+      "capabilities": [
+        "global_health",
+        "indicators",
+        "country_data",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "CH",
+      "france_market": "unknown",
+      "operating_regions": [
+        "global"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.who.int/data/gho",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "healthdata-gov",
+      "name": "HealthData.gov (US)",
+      "url": "https://healthdata.gov/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Portail open data santé US ; jeux fédéraux et territoriaux pour analytics population.",
+      "capabilities": [
+        "health_open_data",
+        "us",
+        "federal",
+        "api"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://healthdata.gov/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
     }
   ]
 }

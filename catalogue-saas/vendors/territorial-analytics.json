@@ -114,6 +114,125 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "data-gov-uk",
+      "name": "data.gov.uk",
+      "url": "https://www.data.gov.uk/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Portail open data national UK ; jeux territoriaux, stats locales et API CKAN.",
+      "capabilities": [
+        "open_data_portal",
+        "uk",
+        "ckan",
+        "local_stats"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.data.gov.uk/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "ons-uk",
+      "name": "Office for National Statistics (UK)",
+      "url": "https://www.ons.gov.uk/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Statistiques officielles UK ; indicateurs territoriaux, démographie et économie régionale.",
+      "capabilities": [
+        "official_statistics",
+        "regional_indicators",
+        "uk"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.ons.gov.uk/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "eurostat-regional",
+      "name": "Eurostat — Regional Statistics",
+      "url": "https://ec.europa.eu/eurostat/web/regions",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Statistiques régionales EU NUTS ; comparables territoriaux transfrontaliers incl. France.",
+      "capabilities": [
+        "nuts",
+        "eu_regional",
+        "comparative_stats",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "EU",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://ec.europa.eu/eurostat/web/regions",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Référence EU — comparable aux observatoires territoriaux FR."
+    },
+    {
+      "id": "carto-territorial",
+      "name": "CARTO",
+      "url": "https://carto.com/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Plateforme spatial analytics ; dashboards territoriaux et analyse géolocalisée pour secteur public.",
+      "capabilities": [
+        "spatial_analytics",
+        "dashboards",
+        "gis",
+        "public_sector"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "ES",
+      "france_market": "partial",
+      "operating_regions": [
+        "ES",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://carto.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
     }
   ]
 }

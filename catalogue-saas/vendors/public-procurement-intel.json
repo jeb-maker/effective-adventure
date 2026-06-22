@@ -113,6 +113,124 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "tussell",
+      "name": "Tussell",
+      "url": "https://www.tussell.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Intelligence marchés publics UK ; veille contrats gov, attributaires et tendances sectorielles.",
+      "capabilities": [
+        "uk_procurement",
+        "contract_alerts",
+        "spend_analysis",
+        "suppliers"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.tussell.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "spend-network",
+      "name": "Spend Network",
+      "url": "https://spendnetwork.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Données marchés publics globaux ; API contrats et analytics achats publics multi-pays.",
+      "capabilities": [
+        "public_contracts_api",
+        "global_coverage",
+        "spend_data"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://spendnetwork.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "govwin-deltek",
+      "name": "GovWin (Deltek)",
+      "url": "https://www.deltek.com/en/govwin",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille opportunités marchés publics US fédéraux et locaux ; forecasting et intelligence.",
+      "capabilities": [
+        "federal_contracts",
+        "forecasting",
+        "pipeline",
+        "us_public_sector"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.deltek.com/en/govwin",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "open-contracting-partnership",
+      "name": "Open Contracting Partnership",
+      "url": "https://www.open-contracting.org/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Standard open contracting (OCDS) et portails transparence achats publics internationaux.",
+      "capabilities": [
+        "ocds",
+        "transparency",
+        "open_data",
+        "standards"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "unknown",
+      "operating_regions": [
+        "global"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.open-contracting.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
     }
   ]
 }

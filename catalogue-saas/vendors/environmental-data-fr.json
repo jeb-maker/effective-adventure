@@ -137,6 +137,124 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "uk-environment-agency",
+      "name": "UK Environment Agency — Open Data",
+      "url": "https://environment.data.gov.uk/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Portail données environnement UK ; eau, inondations, qualité air et risques.",
+      "capabilities": [
+        "flood_risk",
+        "water_quality",
+        "air",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://environment.data.gov.uk/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "eea-europe",
+      "name": "European Environment Agency",
+      "url": "https://www.eea.europa.eu/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Données environnementales EU ; air, eau, climat et indicateurs territoriaux européens.",
+      "capabilities": [
+        "eu_environment",
+        "air_quality",
+        "climate",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "EU",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.eea.europa.eu/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Référence EU — comparable Géorisques/Atmo FR."
+    },
+    {
+      "id": "copernicus-land",
+      "name": "Copernicus Land Monitoring",
+      "url": "https://land.copernicus.eu/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Service observation Terre EU ; usage sol, urbanisation, forêts et risques environnementaux.",
+      "capabilities": [
+        "earth_observation",
+        "land_use",
+        "eu",
+        "satellite"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "EU",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://land.copernicus.eu/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "us-epa-envirofacts",
+      "name": "US EPA Envirofacts",
+      "url": "https://www.epa.gov/enviro",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Base intégrée données environnement US ; facilities, toxiques, eau et air.",
+      "capabilities": [
+        "environmental_data",
+        "facilities",
+        "toxics",
+        "us"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.epa.gov/enviro",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
     }
   ]
 }
