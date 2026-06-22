@@ -6,9 +6,17 @@
       "id": "google-document-ai",
       "name": "Google Cloud Document AI",
       "url": "https://cloud.google.com/document-ai",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "API cloud OCR et extracteurs spécialisés (factures, formulaires, layout) facturés à la page.",
-      "capabilities": ["ocr", "form_parser", "custom_extractor", "layout_parser", "specialized_parsers"],
+      "capabilities": [
+        "ocr",
+        "form_parser",
+        "custom_extractor",
+        "layout_parser",
+        "specialized_parsers"
+      ],
       "pricing_model": "per_document",
       "pricing_notes": "À partir d'environ $1.50/1000 pages OCR ; extracteurs custom plus chers.",
       "target_market": "enterprise",
@@ -21,9 +29,16 @@
       "id": "aws-textract",
       "name": "AWS Textract",
       "url": "https://aws.amazon.com/textract/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "Extraction texte/tables/formulaires depuis documents scannés ou PDF via API AWS.",
-      "capabilities": ["ocr", "tables", "forms", "expense_analysis"],
+      "capabilities": [
+        "ocr",
+        "tables",
+        "forms",
+        "expense_analysis"
+      ],
       "pricing_model": "per_usage",
       "target_market": "enterprise",
       "geography": "global",
@@ -35,9 +50,15 @@
       "id": "azure-document-intelligence",
       "name": "Azure AI Document Intelligence",
       "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-document-intelligence",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "Service Microsoft d'analyse documentaire et extraction structurée.",
-      "capabilities": ["ocr", "custom_models", "layout_analysis"],
+      "capabilities": [
+        "ocr",
+        "custom_models",
+        "layout_analysis"
+      ],
       "pricing_model": "per_usage",
       "target_market": "enterprise",
       "geography": "global",
@@ -49,9 +70,17 @@
       "id": "nanonets",
       "name": "Nanonets",
       "url": "https://nanonets.com/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "Extraction agentique document → JSON/Markdown ; API et déploiement VPC/on-prem.",
-      "capabilities": ["agentic_extraction", "ocr", "tables", "api", "on_prem"],
+      "capabilities": [
+        "agentic_extraction",
+        "ocr",
+        "tables",
+        "api",
+        "on_prem"
+      ],
       "pricing_model": "per_usage",
       "pricing_notes": "Référence marché ~$0.30/page citée dans comparatifs.",
       "target_market": "mid_market",
@@ -64,9 +93,16 @@
       "id": "extend-ai",
       "name": "Extend AI",
       "url": "https://www.extend.ai/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "Plateforme agentic document processing : parsing, classification, extraction, évaluation.",
-      "capabilities": ["schema_optimization", "performance_modes", "confidence_scoring", "self_hosted"],
+      "capabilities": [
+        "schema_optimization",
+        "performance_modes",
+        "confidence_scoring",
+        "self_hosted"
+      ],
       "pricing_model": "hybrid",
       "target_market": "mid_market",
       "geography": "global",
@@ -78,9 +114,17 @@
       "id": "docupipe",
       "name": "DocuPipe",
       "url": "https://www.docupipe.ai/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "API document : parse + extraction schema JSON ; tier gratuit 300 pages.",
-      "capabilities": ["schema_extraction", "handwriting", "tables", "rest_api", "webhooks"],
+      "capabilities": [
+        "schema_extraction",
+        "handwriting",
+        "tables",
+        "rest_api",
+        "webhooks"
+      ],
       "pricing_model": "per_document",
       "pricing_notes": "Per-page transparent ; free tier 300 pages.",
       "target_market": "self_serve",
@@ -93,9 +137,17 @@
       "id": "sensible",
       "name": "Sensible",
       "url": "https://www.sensible.so/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "API extraction combinant règles layout (SenseML) et LLM ; parsers préconfigurés.",
-      "capabilities": ["senseml", "llm_extraction", "tables", "handwriting", "api"],
+      "capabilities": [
+        "senseml",
+        "llm_extraction",
+        "tables",
+        "handwriting",
+        "api"
+      ],
       "pricing_model": "per_document",
       "target_market": "mid_market",
       "geography": "global",
@@ -107,9 +159,16 @@
       "id": "docsumo",
       "name": "Docsumo",
       "url": "https://www.docsumo.com/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "Automatisation documents financiers (factures, relevés) avec validation et intégrations ERP.",
-      "capabilities": ["financial_docs", "validation", "erp_integration", "no_code"],
+      "capabilities": [
+        "financial_docs",
+        "validation",
+        "erp_integration",
+        "no_code"
+      ],
       "pricing_model": "per_document",
       "pricing_notes": "~$0.15/page cité dans comparatifs enterprise.",
       "target_market": "mid_market",
@@ -122,9 +181,15 @@
       "id": "rossum",
       "name": "Rossum",
       "url": "https://rossum.ai/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "IDP enterprise orienté documents transactionnels (AP, factures) avec LLM Aurora.",
-      "capabilities": ["invoice_processing", "ap_automation", "template_free_extraction"],
+      "capabilities": [
+        "invoice_processing",
+        "ap_automation",
+        "template_free_extraction"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -136,9 +201,17 @@
       "id": "snapparse",
       "name": "Snapparse",
       "url": "https://snapparse.app/",
-      "segments": ["document-idp", "parsing-inbox"],
+      "segments": [
+        "document-idp",
+        "parsing-inbox"
+      ],
       "description": "Extraction PDF, email, audio, web vers JSON avec schémas custom et webhooks.",
-      "capabilities": ["pdf_extraction", "email_parsing", "custom_schemas", "api_webhooks"],
+      "capabilities": [
+        "pdf_extraction",
+        "email_parsing",
+        "custom_schemas",
+        "api_webhooks"
+      ],
       "pricing_model": "hybrid",
       "pricing_notes": "Plan annoncé ~$9.99/mo avec crédits.",
       "target_market": "self_serve",
@@ -151,9 +224,16 @@
       "id": "iteration-layer",
       "name": "Iteration Layer",
       "url": "https://iterationlayer.com/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "API extraction multi-fichiers (40+ formats) avec scores de confiance et citations sources.",
-      "capabilities": ["multi_file_merge", "schema_extraction", "confidence_scores", "ocr"],
+      "capabilities": [
+        "multi_file_merge",
+        "schema_extraction",
+        "confidence_scores",
+        "ocr"
+      ],
       "pricing_model": "per_usage",
       "target_market": "mid_market",
       "geography": "global",
@@ -165,9 +245,16 @@
       "id": "docld",
       "name": "DocLD",
       "url": "https://docld.com/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "Pricing par crédits selon opération (OCR, extract, agentic extract deep).",
-      "capabilities": ["credit_based_ops", "ocr", "schema_extract", "agentic_extract"],
+      "capabilities": [
+        "credit_based_ops",
+        "ocr",
+        "schema_extract",
+        "agentic_extract"
+      ],
       "pricing_model": "hybrid",
       "pricing_notes": "1000 crédits gratuits/mois ; plans Starter à Scale.",
       "target_market": "self_serve",
@@ -180,9 +267,16 @@
       "id": "docxtract",
       "name": "DocXtract",
       "url": "https://docxtract.rpatech.ai/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "API extraction pay-per-page sans abonnement obligatoire ; modèles pré-entraînés.",
-      "capabilities": ["pay_per_page", "line_items", "json_output", "custom_models"],
+      "capabilities": [
+        "pay_per_page",
+        "line_items",
+        "json_output",
+        "custom_models"
+      ],
       "pricing_model": "per_document",
       "pricing_notes": "À partir de $0.04/page (tier Standard).",
       "target_market": "self_serve",
@@ -195,9 +289,16 @@
       "id": "parsli",
       "name": "Parsli",
       "url": "https://parsli.co/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "Parser document IA sans templates ; schéma visuel ou API REST.",
-      "capabilities": ["template_free_extraction", "schema_builder", "ocr", "api"],
+      "capabilities": [
+        "template_free_extraction",
+        "schema_builder",
+        "ocr",
+        "api"
+      ],
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "global",
@@ -209,9 +310,16 @@
       "id": "abbyy-vantage",
       "name": "ABBYY Vantage",
       "url": "https://www.abbyy.com/vantage/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "Plateforme IDP enterprise leader IDC MarketScape ; OCR et skills documentaires.",
-      "capabilities": ["idp_platform", "ocr", "classification", "extraction"],
+      "capabilities": [
+        "idp_platform",
+        "ocr",
+        "classification",
+        "extraction"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -223,15 +331,151 @@
       "id": "hyperscience",
       "name": "Hyperscience",
       "url": "https://www.hyperscience.com/",
-      "segments": ["document-idp"],
+      "segments": [
+        "document-idp"
+      ],
       "description": "IDP enterprise ; cité leader IDC MarketScape 2025-2026.",
-      "capabilities": ["document_processing", "ml_extraction", "human_in_loop"],
+      "capabilities": [
+        "document_processing",
+        "ml_extraction",
+        "human_in_loop"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
       "source_url": "https://automationtoday.net/news/idc-names-leaders-in-idp-market-assessment/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial"
+    },
+    {
+      "id": "reducto",
+      "name": "Reducto",
+      "url": "https://reducto.ai/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Plateforme agentic document : Parse, Extract, Split, Edit avec citations par champ.",
+      "capabilities": [
+        "agentic_ocr",
+        "schema_extract",
+        "split",
+        "edit",
+        "citations"
+      ],
+      "pricing_model": "per_usage",
+      "pricing_notes": "Pay-as-you-go ; 15k crédits gratuits.",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://reducto.ai/compare/reducto-vs-llamaparse",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified"
+    },
+    {
+      "id": "llamaparse",
+      "name": "LlamaParse (LlamaCloud)",
+      "url": "https://www.llamaindex.ai/llamaparse",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Parser document pour pipelines RAG LlamaIndex ; modes agentic et reconstruction sémantique.",
+      "capabilities": [
+        "rag_parsing",
+        "markdown_output",
+        "agentic_modes",
+        "tables"
+      ],
+      "pricing_model": "hybrid",
+      "pricing_notes": "Crédits ; Starter ~$50/mo pour 40K crédits.",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://reducto.ai/compare/reducto-vs-llamaparse",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified"
+    },
+    {
+      "id": "unstructured",
+      "name": "Unstructured",
+      "url": "https://unstructured.io/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "ETL documents pour LLM : partition, chunking, extraction ; API et open-source.",
+      "capabilities": [
+        "partition",
+        "chunking",
+        "api",
+        "connectors"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://llms.reducto.ai/document-parser-comparison",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified"
+    },
+    {
+      "id": "uipath-document-understanding",
+      "name": "UiPath Document Understanding",
+      "url": "https://www.uipath.com/platform/agentic-automation/document-understanding",
+      "segments": [
+        "document-idp",
+        "automation-platforms"
+      ],
+      "description": "IDP intégré à la plateforme RPA UiPath ; extraction et classification documents.",
+      "capabilities": [
+        "idp",
+        "rpa_integration",
+        "classification",
+        "extraction"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://automationtoday.net/news/idc-names-leaders-in-idp-market-assessment/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "opentext-idp",
+      "name": "OpenText Intelligent Document Processing",
+      "url": "https://www.opentext.com/products/intelligent-document-processing",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "IDP enterprise leader IDC ; workflows capture-to-insight intégrés content services.",
+      "capabilities": [
+        "capture",
+        "classification",
+        "extraction",
+        "workflow"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.opentext.com/resources/intelligent-document-processing",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified"
+    },
+    {
+      "id": "hyland-idp",
+      "name": "Hyland IDP",
+      "url": "https://www.hyland.com/en/platform/intelligent-document-processing",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "IDP agentic sur Content Innovation Cloud ; leader IDC MarketScape 2025-2026.",
+      "capabilities": [
+        "capture",
+        "classification",
+        "agentic_workflows",
+        "content_services"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.prnewswire.com/news-releases/hyland-named-a-leader-in-idc-marketscape-for-worldwide-intelligent-document-processing-software-2025-2026-vendor-assessment-302642995.html",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified"
     }
   ]
 }

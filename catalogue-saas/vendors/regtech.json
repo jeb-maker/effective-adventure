@@ -6,9 +6,16 @@
       "id": "thomson-reuters-regulatory-intelligence",
       "name": "Thomson Reuters Regulatory Intelligence",
       "url": "https://www.thomsonreuters.com/en/products/regulatory-intelligence.html",
-      "segments": ["regtech"],
+      "segments": [
+        "regtech"
+      ],
       "description": "Plateforme enterprise de veille réglementaire avec bibliothèque d'obligations structurées, taxonomie multi-secteurs et export/API.",
-      "capabilities": ["regulatory_monitoring", "obligations_library", "alerts", "api_export"],
+      "capabilities": [
+        "regulatory_monitoring",
+        "obligations_library",
+        "alerts",
+        "api_export"
+      ],
       "pricing_model": "enterprise_quote",
       "pricing_notes": "Pricing sur devis ; intégré à l'écosystème Thomson Reuters.",
       "target_market": "enterprise",
@@ -21,9 +28,16 @@
       "id": "cube-regulatory-intelligence",
       "name": "CUBE Regulatory Intelligence",
       "url": "https://www.cube.global/",
-      "segments": ["regtech"],
+      "segments": [
+        "regtech"
+      ],
       "description": "RegTech enterprise ; a renforcé son offre via acquisitions (ex. activités RI Thomson Reuters, 4CRisk.ai).",
-      "capabilities": ["regulatory_monitoring", "obligation_mapping", "impact_analysis", "ai_classification"],
+      "capabilities": [
+        "regulatory_monitoring",
+        "obligation_mapping",
+        "impact_analysis",
+        "ai_classification"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -36,9 +50,18 @@
       "id": "corlytics",
       "name": "Corlytics",
       "url": "https://www.corlytics.com/",
-      "segments": ["regtech", "grc-security"],
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
       "description": "Regulatory intelligence et mapping obligations ↔ contrôles/policies avec traçabilité dynamique ; a absorbé Clausematch.",
-      "capabilities": ["regulatory_mapping", "controls_mapping", "gap_analysis", "policy_management", "risk_analytics"],
+      "capabilities": [
+        "regulatory_mapping",
+        "controls_mapping",
+        "gap_analysis",
+        "policy_management",
+        "risk_analytics"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -50,9 +73,15 @@
       "id": "ascent-regtech",
       "name": "Ascent RegTech",
       "url": "https://www.ascentregtech.com/",
-      "segments": ["regtech"],
+      "segments": [
+        "regtech"
+      ],
       "description": "Convertit le texte réglementaire en obligations machine-readable mappées aux activités métier.",
-      "capabilities": ["obligation_extraction", "regulatory_change_management", "business_mapping"],
+      "capabilities": [
+        "obligation_extraction",
+        "regulatory_change_management",
+        "business_mapping"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -64,9 +93,16 @@
       "id": "finrege",
       "name": "FinregE",
       "url": "https://finreg-e.com/",
-      "segments": ["regtech"],
+      "segments": [
+        "regtech"
+      ],
       "description": "Plateforme RegTech end-to-end : veille, obligations, policies, contrôles et preuves auditables (focus finance).",
-      "capabilities": ["regulatory_intelligence", "obligation_library", "policy_controls_chain", "audit_trail"],
+      "capabilities": [
+        "regulatory_intelligence",
+        "obligation_library",
+        "policy_controls_chain",
+        "audit_trail"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -78,9 +114,16 @@
       "id": "kalipso",
       "name": "Kalipso",
       "url": "https://kalipso.ai/",
-      "segments": ["regtech"],
+      "segments": [
+        "regtech"
+      ],
       "description": "IA pour veille réglementaire européenne, traduction en obligations, détection de gaps et propositions de remédiation.",
-      "capabilities": ["applicability_analysis", "obligation_synthesis", "policy_gap_scan", "remediation_drafts"],
+      "capabilities": [
+        "applicability_analysis",
+        "obligation_synthesis",
+        "policy_gap_scan",
+        "remediation_drafts"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "mid_market",
       "geography": "europe",
@@ -92,9 +135,19 @@
       "id": "sia-regai",
       "name": "Sia RegAI",
       "url": "https://siareg.ai/",
-      "segments": ["regtech", "grc-security"],
+      "segments": [
+        "regtech",
+        "grc-security",
+        "compliance-to-spec"
+      ],
       "description": "RegReview + RegMatcher : monitoring réglementaire, gap analysis, rédaction de contrôles avec traceback source.",
-      "capabilities": ["regulatory_monitoring", "gap_analysis", "control_drafting", "evidence_pack", "grc_integrations"],
+      "capabilities": [
+        "regulatory_monitoring",
+        "gap_analysis",
+        "control_drafting",
+        "evidence_pack",
+        "grc_integrations"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -106,9 +159,17 @@
       "id": "regl-ai",
       "name": "Regl.ai",
       "url": "https://regl.ai/",
-      "segments": ["regtech", "ai-governance"],
+      "segments": [
+        "regtech",
+        "ai-governance"
+      ],
       "description": "Legal intelligence agentique : ingestion réglementaire multilingue, extraction d'obligations, workflows auditables.",
-      "capabilities": ["obligation_extraction", "risk_heatmaps", "audit_trail", "policy_automation"],
+      "capabilities": [
+        "obligation_extraction",
+        "risk_heatmaps",
+        "audit_trail",
+        "policy_automation"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -120,9 +181,17 @@
       "id": "regology",
       "name": "Regology",
       "url": "https://www.regology.com/",
-      "segments": ["regtech"],
+      "segments": [
+        "regtech",
+        "compliance-to-spec"
+      ],
       "description": "Plateforme de compliance globale avec agents IA pour recherche réglementaire et gestion du changement.",
-      "capabilities": ["smart_law_library", "regulatory_change_agent", "research_agent", "obligation_generation"],
+      "capabilities": [
+        "smart_law_library",
+        "regulatory_change_agent",
+        "research_agent",
+        "obligation_generation"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -135,9 +204,17 @@
       "id": "norm-ai",
       "name": "Norm Ai",
       "url": "https://norm.ai/",
-      "segments": ["regtech", "ai-governance"],
+      "segments": [
+        "regtech",
+        "ai-governance"
+      ],
       "description": "Agents juridiques/réglementaires pour vérification en temps réel et Supervisory AI (couche compliance pour agents).",
-      "capabilities": ["legal_encoding", "supervisory_ai", "real_time_verification", "audit_trail"],
+      "capabilities": [
+        "legal_encoding",
+        "supervisory_ai",
+        "real_time_verification",
+        "audit_trail"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "us",
@@ -149,9 +226,15 @@
       "id": "compliance-ai",
       "name": "Compliance.ai",
       "url": "https://www.compliance.ai/",
-      "segments": ["regtech"],
+      "segments": [
+        "regtech"
+      ],
       "description": "RegTech IA-native : veille et classification de changements réglementaires (finance, life sciences).",
-      "capabilities": ["regulatory_monitoring", "ai_classification", "alerts"],
+      "capabilities": [
+        "regulatory_monitoring",
+        "ai_classification",
+        "alerts"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "us",
@@ -164,9 +247,16 @@
       "id": "4crisk-ai",
       "name": "4CRisk.ai",
       "url": "https://www.4crisk.ai/",
-      "segments": ["regtech", "grc-security"],
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
       "description": "Automatisation compliance/GRC orientée ROI ; racheté par CUBE (2026).",
-      "capabilities": ["regulatory_change_automation", "policy_mapping", "risk_controls"],
+      "capabilities": [
+        "regulatory_change_automation",
+        "policy_mapping",
+        "risk_controls"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -178,9 +268,16 @@
       "id": "clausematch",
       "name": "Clausematch",
       "url": "https://www.clausematch.com/",
-      "segments": ["regtech", "grc-security"],
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
       "description": "Gestion policies & procedures ; intégré à Corlytics pour couche documentaire compliance.",
-      "capabilities": ["policy_management", "procedure_workflows", "regulatory_alignment"],
+      "capabilities": [
+        "policy_management",
+        "procedure_workflows",
+        "regulatory_alignment"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -188,6 +285,88 @@
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
       "notes": "Acquisition Corlytics ; produit peut être rebaptisé/intégré."
+    },
+    {
+      "id": "diligent",
+      "name": "Diligent",
+      "url": "https://www.diligent.com/",
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
+      "description": "Suite GRC enterprise incluant veille réglementaire et gestion policies pour boards et compliance.",
+      "capabilities": [
+        "regulatory_intelligence",
+        "policy_management",
+        "board_governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "metricstream-reg",
+      "name": "MetricStream Regulatory Management",
+      "url": "https://www.metricstream.com/",
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
+      "description": "GRC enterprise avec change management réglementaire sur 750+ régulateurs.",
+      "capabilities": [
+        "regulatory_change",
+        "obligation_tracking",
+        "ai_monitoring"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "vixio",
+      "name": "Vixio",
+      "url": "https://www.vixio.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Regulatory intelligence spécialisée gambling/payments/finance.",
+      "capabilities": [
+        "regulatory_monitoring",
+        "horizon_scanning",
+        "expert_analysis"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.cbinsights.com/company/ascent-technologies",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "steel-eye",
+      "name": "SteelEye",
+      "url": "https://www.steeleye.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Compliance communications & trade surveillance pour services financiers.",
+      "capabilities": [
+        "comms_surveillance",
+        "trade_surveillance",
+        "regulatory_reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://dataintelo.com/report/regulatory-intelligence-platform-market",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

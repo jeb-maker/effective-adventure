@@ -29,21 +29,23 @@ Un vendeur peut appartenir à **plusieurs segments** (`segments: []` dans l'entr
 
 ---
 
-## État du remplissage (vague 1 — 2026-06-22)
+## État du remplissage (vague 2 — 2026-06-22)
 
 | Segment | Entrées | Statut |
 |---|---:|---|
-| `regtech` | 13 | peuplé |
-| `grc-security` | 11 | peuplé |
-| `ai-governance` | 8 | peuplé |
-| `document-idp` | 16 | peuplé |
-| `parsing-inbox` | 5 | peuplé |
-| `ai-copilot-dev` | 6 | peuplé |
-| `support-sales-agents` | 6 | peuplé |
-| `automation-platforms` | 3 | peuplé |
-| `compliance-to-spec` | 0 | **à explorer** |
+| `grc-security` | 27 | peuplé |
+| `document-idp` | 24 | peuplé |
+| `ai-governance` | 20 | peuplé |
+| `regtech` | 17 | peuplé |
+| `automation-platforms` | 12 | peuplé |
+| `ai-copilot-dev` | 11 | peuplé |
+| `support-sales-agents` | 11 | peuplé |
+| `compliance-to-spec` | 10 | peuplé |
+| `parsing-inbox` | 9 | peuplé |
 
-**Total recensé : 68 vendeurs** (plusieurs tags multi-segments possibles).
+**Total recensé : 114 vendeurs uniques** (un acteur peut compter dans plusieurs segments).
+
+Vague 2 : +46 entrées via `scripts/enrich_catalogue_v2.py`.
 
 ---
 

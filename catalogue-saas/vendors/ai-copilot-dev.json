@@ -6,9 +6,16 @@
       "id": "openai-chatgpt-business",
       "name": "ChatGPT Business",
       "url": "https://openai.com/chatgpt/business/",
-      "segments": ["ai-copilot-dev"],
+      "segments": [
+        "ai-copilot-dev"
+      ],
       "description": "Workspace équipe OpenAI : admin, SSO, données exclues de l'entraînement par défaut.",
-      "capabilities": ["chat", "custom_gpts", "team_workspace", "codex_seats"],
+      "capabilities": [
+        "chat",
+        "custom_gpts",
+        "team_workspace",
+        "codex_seats"
+      ],
       "pricing_model": "per_seat",
       "pricing_notes": "~$20/siège/mo annuel, $25 mensuel ; min 2 sièges (juin 2026).",
       "target_market": "smb",
@@ -21,9 +28,16 @@
       "id": "github-copilot",
       "name": "GitHub Copilot",
       "url": "https://github.com/features/copilot",
-      "segments": ["ai-copilot-dev"],
+      "segments": [
+        "ai-copilot-dev"
+      ],
       "description": "Copilot code + agents ; Business/Enterprise avec crédits IA mensuels poolés.",
-      "capabilities": ["code_completion", "chat", "agents", "ai_credits"],
+      "capabilities": [
+        "code_completion",
+        "chat",
+        "agents",
+        "ai_credits"
+      ],
       "pricing_model": "hybrid",
       "pricing_notes": "Business $19/siège/mo ; Enterprise $39/siège/mo ; usage-based billing 2026.",
       "target_market": "smb",
@@ -36,9 +50,15 @@
       "id": "microsoft-copilot-365",
       "name": "Microsoft 365 Copilot",
       "url": "https://www.microsoft.com/en-us/microsoft-365/copilot",
-      "segments": ["ai-copilot-dev"],
+      "segments": [
+        "ai-copilot-dev"
+      ],
       "description": "Copilot intégré M365 (Word, Excel, Teams…) ; add-on par utilisateur.",
-      "capabilities": ["office_integration", "teams", "enterprise_admin"],
+      "capabilities": [
+        "office_integration",
+        "teams",
+        "enterprise_admin"
+      ],
       "pricing_model": "per_seat",
       "pricing_notes": "Add-on ~$30/utilisateur/mo en plus de M365.",
       "target_market": "enterprise",
@@ -51,9 +71,16 @@
       "id": "cursor",
       "name": "Cursor",
       "url": "https://cursor.com/",
-      "segments": ["ai-copilot-dev"],
+      "segments": [
+        "ai-copilot-dev"
+      ],
       "description": "IDE IA avec pools de crédits liés aux coûts API ; plans Pro à Ultra.",
-      "capabilities": ["ide", "agents", "codebase_index", "credit_pool"],
+      "capabilities": [
+        "ide",
+        "agents",
+        "codebase_index",
+        "credit_pool"
+      ],
       "pricing_model": "hybrid",
       "pricing_notes": "Pro ~$20/mo ; Ultra ~$200/mo.",
       "target_market": "self_serve",
@@ -66,9 +93,16 @@
       "id": "replit",
       "name": "Replit",
       "url": "https://replit.com/",
-      "segments": ["ai-copilot-dev", "automation-platforms"],
+      "segments": [
+        "ai-copilot-dev",
+        "automation-platforms"
+      ],
       "description": "IDE cloud + agent de développement ; modèle agent-driven.",
-      "capabilities": ["cloud_ide", "ai_agent", "deployment"],
+      "capabilities": [
+        "cloud_ide",
+        "ai_agent",
+        "deployment"
+      ],
       "pricing_model": "hybrid",
       "pricing_notes": "Core ~$25/mo cité dans benchmarks agents.",
       "target_market": "self_serve",
@@ -81,14 +115,123 @@
       "id": "windsurf",
       "name": "Windsurf",
       "url": "https://windsurf.com/",
-      "segments": ["ai-copilot-dev"],
+      "segments": [
+        "ai-copilot-dev"
+      ],
       "description": "IDE IA ; quotas journaliers/hebdomadaires (évolution pricing 2026).",
-      "capabilities": ["ide", "agents", "quotas"],
+      "capabilities": [
+        "ide",
+        "agents",
+        "quotas"
+      ],
       "pricing_model": "hybrid",
       "pricing_notes": "~$15/mo ; quotas revus mars 2026.",
       "target_market": "self_serve",
       "geography": "global",
       "source_url": "https://zylos.ai/research/2026-03-29-ai-agent-platform-economics-pricing-unit-economics",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "devin",
+      "name": "Devin (Cognition)",
+      "url": "https://devin.ai/",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "Agent logiciel cloud + Devin Desktop ; plans quota Free/Pro/Max/Teams.",
+      "capabilities": [
+        "cloud_agent",
+        "desktop_ide",
+        "cli",
+        "code_review"
+      ],
+      "pricing_model": "hybrid",
+      "pricing_notes": "Pro $20/mo ; Max $200/mo ; Teams $80/mo + $40/siège.",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://devin.ai/pricing/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "url": "https://www.anthropic.com/claude-code",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "Agent coding Anthropic en terminal/IDE ; plans Pro/Max/Team.",
+      "capabilities": [
+        "terminal_agent",
+        "codebase_edits",
+        "team_seats"
+      ],
+      "pricing_model": "hybrid",
+      "pricing_notes": "Team ~$20-25/siège ; Max ~$100/mo.",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://zylos.ai/research/2026-03-29-ai-agent-platform-economics-pricing-unit-economics",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "amazon-q-developer",
+      "name": "Amazon Q Developer",
+      "url": "https://aws.amazon.com/q/developer/",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "Copilot AWS intégré IDE et services cloud ; tier gratuit et Pro.",
+      "capabilities": [
+        "code_completion",
+        "agent",
+        "aws_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://aws.amazon.com/q/developer/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "jetbrains-ai",
+      "name": "JetBrains AI",
+      "url": "https://www.jetbrains.com/ai/",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "Assistant IA intégré aux IDE JetBrains (completion, chat, agents).",
+      "capabilities": [
+        "ide_integration",
+        "completion",
+        "chat"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.jetbrains.com/ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "url": "https://www.tabnine.com/",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "Copilot code avec options enterprise, on-prem et politiques privacy.",
+      "capabilities": [
+        "code_completion",
+        "on_prem",
+        "enterprise_policies"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.tabnine.com/pricing",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial"
     }

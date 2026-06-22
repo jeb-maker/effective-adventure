@@ -6,9 +6,16 @@
       "id": "vanta",
       "name": "Vanta",
       "url": "https://www.vanta.com/",
-      "segments": ["grc-security"],
+      "segments": [
+        "grc-security"
+      ],
       "description": "Automatisation conformité SOC2, ISO 27001, HIPAA, GDPR — monitoring continu et collecte de preuves.",
-      "capabilities": ["continuous_monitoring", "evidence_collection", "multi_framework", "audit_readiness"],
+      "capabilities": [
+        "continuous_monitoring",
+        "evidence_collection",
+        "multi_framework",
+        "audit_readiness"
+      ],
       "pricing_model": "hybrid",
       "pricing_notes": "Abonnement par taille d'organisation ; frameworks en modules.",
       "target_market": "smb",
@@ -21,9 +28,17 @@
       "id": "drata",
       "name": "Drata",
       "url": "https://drata.com/",
-      "segments": ["grc-security"],
+      "segments": [
+        "grc-security"
+      ],
       "description": "GRC automation-first : contrôles, preuves, cross-mapping multi-frameworks.",
-      "capabilities": ["control_mapping", "evidence_automation", "soc2", "iso27001", "gdpr"],
+      "capabilities": [
+        "control_mapping",
+        "evidence_automation",
+        "soc2",
+        "iso27001",
+        "gdpr"
+      ],
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "global",
@@ -35,9 +50,17 @@
       "id": "onetrust",
       "name": "OneTrust",
       "url": "https://www.onetrust.com/",
-      "segments": ["grc-security", "ai-governance"],
+      "segments": [
+        "grc-security",
+        "ai-governance"
+      ],
       "description": "Suite trust/GRC (privacy, risk, compliance) avec extension AI governance pour documentation et programmes IA.",
-      "capabilities": ["privacy_management", "grc", "ai_governance", "vendor_risk"],
+      "capabilities": [
+        "privacy_management",
+        "grc",
+        "ai_governance",
+        "vendor_risk"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -49,9 +72,15 @@
       "id": "venvera",
       "name": "Venvera",
       "url": "https://venvera.com/",
-      "segments": ["grc-security"],
+      "segments": [
+        "grc-security"
+      ],
       "description": "Cross-mapping de contrôles multi-frameworks (DORA, NIS2, GDPR, ISO 27001, SOC2…).",
-      "capabilities": ["control_crosswalk", "gap_assessment", "multi_framework_propagation"],
+      "capabilities": [
+        "control_crosswalk",
+        "gap_assessment",
+        "multi_framework_propagation"
+      ],
       "pricing_model": "hybrid",
       "target_market": "mid_market",
       "geography": "eu",
@@ -63,9 +92,16 @@
       "id": "aigis-grc",
       "name": "Aigis GRC",
       "url": "https://agrc.ai/",
-      "segments": ["grc-security"],
+      "segments": [
+        "grc-security"
+      ],
       "description": "Plateforme GRC IA-native : cartographie réglementaire multi-juridictions et scoring de risque.",
-      "capabilities": ["regulatory_mapping", "soa_generation", "risk_scoring", "evidence_collection"],
+      "capabilities": [
+        "regulatory_mapping",
+        "soa_generation",
+        "risk_scoring",
+        "evidence_collection"
+      ],
       "pricing_model": "hybrid",
       "target_market": "mid_market",
       "geography": "global",
@@ -77,9 +113,15 @@
       "id": "assurai",
       "name": "AssurAI",
       "url": "https://getassurai.com/",
-      "segments": ["grc-security"],
+      "segments": [
+        "grc-security"
+      ],
       "description": "GRC IA-native orienté audit : cross-assurance multi-frameworks, monitoring réglementaire.",
-      "capabilities": ["cross_framework_mapping", "audit_workpapers", "regulatory_change_monitor"],
+      "capabilities": [
+        "cross_framework_mapping",
+        "audit_workpapers",
+        "regulatory_change_monitor"
+      ],
       "pricing_model": "hybrid",
       "pricing_notes": "Essai 14 jours annoncé sur le site.",
       "target_market": "mid_market",
@@ -92,9 +134,17 @@
       "id": "sorena-ai",
       "name": "Sorena AI",
       "url": "https://www.sorena.io/",
-      "segments": ["grc-security", "ai-governance"],
+      "segments": [
+        "grc-security",
+        "ai-governance"
+      ],
       "description": "Plateforme GRC IA : veille standards, agents compliance, assessments SOC2/ISO automatisés.",
-      "capabilities": ["standards_library", "compliance_autopilot", "control_mapping", "alerts"],
+      "capabilities": [
+        "standards_library",
+        "compliance_autopilot",
+        "control_mapping",
+        "alerts"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "mid_market",
       "geography": "global",
@@ -106,9 +156,15 @@
       "id": "logicgate",
       "name": "LogicGate",
       "url": "https://www.logicgate.com/",
-      "segments": ["grc-security"],
+      "segments": [
+        "grc-security"
+      ],
       "description": "Plateforme GRC no-code avec workflows risque/compliance et agents IA.",
-      "capabilities": ["risk_quantification", "workflow_automation", "compliance_testing"],
+      "capabilities": [
+        "risk_quantification",
+        "workflow_automation",
+        "compliance_testing"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -120,9 +176,14 @@
       "id": "scytale",
       "name": "Scytale",
       "url": "https://scytale.ai/",
-      "segments": ["grc-security"],
+      "segments": [
+        "grc-security"
+      ],
       "description": "Automatisation conformité sécurité pour startups/scale-ups (SOC2, ISO…).",
-      "capabilities": ["continuous_compliance", "evidence_automation"],
+      "capabilities": [
+        "continuous_compliance",
+        "evidence_automation"
+      ],
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "global",
@@ -134,9 +195,17 @@
       "id": "servicenow-grc",
       "name": "ServiceNow GRC / AI Control Tower",
       "url": "https://www.servicenow.com/",
-      "segments": ["grc-security", "ai-governance"],
+      "segments": [
+        "grc-security",
+        "ai-governance"
+      ],
       "description": "GRC enterprise intégré ITSM ; AI Control Tower pour gouvernance IA à l'échelle.",
-      "capabilities": ["grc", "risk_management", "ai_control_tower", "workflow_orchestration"],
+      "capabilities": [
+        "grc",
+        "risk_management",
+        "ai_control_tower",
+        "workflow_orchestration"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
@@ -148,9 +217,122 @@
       "id": "ibm-openpages",
       "name": "IBM OpenPages / watsonx.governance",
       "url": "https://www.ibm.com/products/openpages",
-      "segments": ["grc-security", "ai-governance"],
+      "segments": [
+        "grc-security",
+        "ai-governance"
+      ],
       "description": "Suite GRC enterprise IBM avec extension gouvernance IA (watsonx).",
-      "capabilities": ["grc", "risk_management", "ai_governance", "model_governance"],
+      "capabilities": [
+        "grc",
+        "risk_management",
+        "ai_governance",
+        "model_governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.modulos.ai/best-ai-governance-platforms/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "navex",
+      "name": "NAVEX One",
+      "url": "https://www.navex.com/",
+      "segments": [
+        "grc-security"
+      ],
+      "description": "Suite ethics & compliance : hotline, policies, formation, case management.",
+      "capabilities": [
+        "ethicspoint",
+        "policy_management",
+        "training",
+        "case_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "vcomply",
+      "name": "VComply",
+      "url": "https://www.v-comply.com/",
+      "segments": [
+        "grc-security"
+      ],
+      "description": "GRC cloud no-code : policies, risques, contrôles et suivi compliance temps réel.",
+      "capabilities": [
+        "policyops",
+        "risk_matrix",
+        "workflow_automation",
+        "audit_ready"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.v-comply.com/blog/navex-alternatives-risk-management/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified"
+    },
+    {
+      "id": "auditboard",
+      "name": "AuditBoard",
+      "url": "https://www.auditboard.com/",
+      "segments": [
+        "grc-security"
+      ],
+      "description": "Plateforme audit, risque et compliance ; leader mid-market audit-centric.",
+      "capabilities": [
+        "internal_audit",
+        "sox",
+        "risk_management",
+        "compliance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://techvendorindex.com/software/grc-compliance/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "rsa-archer",
+      "name": "RSA Archer",
+      "url": "https://www.archerirm.com/",
+      "segments": [
+        "grc-security"
+      ],
+      "description": "IRM/GRC enterprise historique ; grands déploiements multi-frameworks.",
+      "capabilities": [
+        "integrated_risk",
+        "grc",
+        "vendor_risk",
+        "business_resiliency"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://techvendorindex.com/software/grc-compliance/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "collibra",
+      "name": "Collibra",
+      "url": "https://www.collibra.com/",
+      "segments": [
+        "grc-security",
+        "ai-governance"
+      ],
+      "description": "Data governance enterprise ; extension vers gouvernance IA et catalogage.",
+      "capabilities": [
+        "data_catalog",
+        "data_governance",
+        "policy_management"
+      ],
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
