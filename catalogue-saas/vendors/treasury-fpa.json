@@ -20,7 +20,15 @@
       "geography": "global",
       "source_url": "https://www.anaplan.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "pigment",
@@ -40,7 +48,15 @@
       "geography": "france",
       "source_url": "https://www.pigment.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "drivetrain",
@@ -60,7 +76,15 @@
       "geography": "global",
       "source_url": "https://www.drivetrain.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "cube-software",
@@ -80,7 +104,15 @@
       "geography": "global",
       "source_url": "https://www.cubesoftware.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "mosaic-tech",
@@ -100,7 +132,15 @@
       "geography": "global",
       "source_url": "https://www.mosaic.tech/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

@@ -20,7 +20,15 @@
       "geography": "global",
       "source_url": "https://www.montecarlodata.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "great-expectations",
@@ -40,7 +48,15 @@
       "geography": "global",
       "source_url": "https://greatexpectations.io/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "soda",
@@ -60,7 +76,15 @@
       "geography": "global",
       "source_url": "https://www.soda.io/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "acceldata",
@@ -80,7 +104,15 @@
       "geography": "global",
       "source_url": "https://www.acceldata.io/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "anomalo",
@@ -100,7 +132,15 @@
       "geography": "global",
       "source_url": "https://www.anomalo.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

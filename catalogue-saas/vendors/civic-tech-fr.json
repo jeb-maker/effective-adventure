@@ -20,7 +20,14 @@
       "geography": "europe",
       "source_url": "https://decidim.org/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "ES",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "cap-collectif",
@@ -40,7 +47,14 @@
       "geography": "france",
       "source_url": "https://cap-collectif.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "make-org",
@@ -60,7 +74,14 @@
       "geography": "france",
       "source_url": "https://make.org/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "open-source-politics",
@@ -80,7 +101,15 @@
       "geography": "france",
       "source_url": "https://opensourcepolitics.eu/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "respublica",
@@ -101,7 +130,14 @@
       "source_url": "https://cap-collectif.com/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Référence comparative ; acteur FR principal = Cap Collectif."
+      "notes": "Référence comparative ; acteur FR principal = Cap Collectif.",
+      "hq_country": "unknown",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

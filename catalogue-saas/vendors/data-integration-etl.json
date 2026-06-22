@@ -20,7 +20,15 @@
       "geography": "global",
       "source_url": "https://www.fivetran.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "airbyte",
@@ -40,7 +48,15 @@
       "geography": "global",
       "source_url": "https://airbyte.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "dbt-labs",
@@ -61,7 +77,15 @@
       "geography": "global",
       "source_url": "https://www.getdbt.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "stitch-data",
@@ -81,7 +105,15 @@
       "geography": "global",
       "source_url": "https://www.stitchdata.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "hevo-data",
@@ -101,7 +133,15 @@
       "geography": "global",
       "source_url": "https://hevodata.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

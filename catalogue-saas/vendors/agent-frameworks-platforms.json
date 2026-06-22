@@ -21,7 +21,15 @@
       "geography": "global",
       "source_url": "https://www.langchain.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "crewai",
@@ -41,7 +49,15 @@
       "geography": "global",
       "source_url": "https://www.crewai.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "microsoft-autogen",
@@ -61,7 +77,15 @@
       "geography": "global",
       "source_url": "https://microsoft.github.io/autogen/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "llamaindex",
@@ -82,7 +106,15 @@
       "geography": "global",
       "source_url": "https://www.llamaindex.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "semantic-kernel",
@@ -102,7 +134,15 @@
       "geography": "global",
       "source_url": "https://learn.microsoft.com/en-us/semantic-kernel/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

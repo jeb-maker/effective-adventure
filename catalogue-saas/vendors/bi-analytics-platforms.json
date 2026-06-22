@@ -20,7 +20,15 @@
       "geography": "global",
       "source_url": "https://www.tableau.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "power-bi",
@@ -40,7 +48,15 @@
       "geography": "global",
       "source_url": "https://powerbi.microsoft.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "looker",
@@ -60,7 +76,15 @@
       "geography": "global",
       "source_url": "https://cloud.google.com/looker",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "thoughtspot",
@@ -80,7 +104,15 @@
       "geography": "global",
       "source_url": "https://www.thoughtspot.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "mode-analytics",
@@ -100,7 +132,15 @@
       "geography": "global",
       "source_url": "https://mode.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

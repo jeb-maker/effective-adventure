@@ -7,7 +7,8 @@
       "name": "Credo AI",
       "url": "https://www.credo.ai/",
       "segments": [
-        "ai-governance"
+        "ai-governance",
+        "compliance-to-spec"
       ],
       "description": "Plateforme Responsible AI : inventaire, policy packs (EU AI Act, NIST, ISO 42001), preuves audit.",
       "capabilities": [
@@ -22,7 +23,15 @@
       "geography": "global",
       "source_url": "https://www.credo.ai/product",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "modulos",
@@ -45,7 +54,15 @@
       "geography": "global",
       "source_url": "https://www.modulos.ai/best-ai-governance-platforms/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "trustible",
@@ -66,7 +83,15 @@
       "geography": "global",
       "source_url": "https://trustible.ai/post/types-of-ai-governance-platforms/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "holistic-ai",
@@ -86,7 +111,15 @@
       "geography": "global",
       "source_url": "https://kla.digital/blog/best-eu-ai-act-compliance-software-2026",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "responsible-ai-studio",
@@ -106,7 +139,15 @@
       "geography": "global",
       "source_url": "https://app.responsibleaistudio.com/tools/gap-analyser",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "kla-digital",
@@ -127,7 +168,15 @@
       "geography": "global",
       "source_url": "https://kla.digital/blog/best-eu-ai-act-compliance-software-2026",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "fiddler-ai",
@@ -147,7 +196,15 @@
       "geography": "global",
       "source_url": "https://dancumberlandlabs.com/blog/ai-governance-tools/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "arize-ai",
@@ -167,7 +224,15 @@
       "geography": "global",
       "source_url": "https://dancumberlandlabs.com/blog/ai-governance-tools/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "ibm-watsonx-governance",
@@ -187,7 +252,15 @@
       "geography": "global",
       "source_url": "https://www.modulos.ai/best-ai-governance-platforms/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "langsmith",
@@ -209,7 +282,15 @@
       "geography": "global",
       "source_url": "https://kla.digital/blog/best-eu-ai-act-compliance-software-2026",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "arthur-ai",
@@ -229,14 +310,23 @@
       "geography": "global",
       "source_url": "https://dancumberlandlabs.com/blog/ai-governance-tools/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "modelop",
       "name": "ModelOp",
       "url": "https://www.modelop.com/",
       "segments": [
-        "ai-governance"
+        "ai-governance",
+        "compliance-to-spec"
       ],
       "description": "Gouvernance cycle de vie modèles IA pour enterprises régulées.",
       "capabilities": [
@@ -249,7 +339,15 @@
       "geography": "global",
       "source_url": "https://dancumberlandlabs.com/blog/ai-governance-tools/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "atlan",
@@ -269,7 +367,15 @@
       "geography": "global",
       "source_url": "https://dancumberlandlabs.com/blog/ai-governance-tools/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

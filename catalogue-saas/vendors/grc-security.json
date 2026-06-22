@@ -7,7 +7,8 @@
       "name": "Vanta",
       "url": "https://www.vanta.com/",
       "segments": [
-        "grc-security"
+        "grc-security",
+        "compliance-to-spec"
       ],
       "description": "Automatisation conformité SOC2, ISO 27001, HIPAA, GDPR — monitoring continu et collecte de preuves.",
       "capabilities": [
@@ -22,14 +23,23 @@
       "geography": "global",
       "source_url": "https://www.v-comply.com/blog/top-grc-software/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "drata",
       "name": "Drata",
       "url": "https://drata.com/",
       "segments": [
-        "grc-security"
+        "grc-security",
+        "compliance-to-spec"
       ],
       "description": "GRC automation-first : contrôles, preuves, cross-mapping multi-frameworks.",
       "capabilities": [
@@ -44,7 +54,15 @@
       "geography": "global",
       "source_url": "https://www.v-comply.com/blog/top-grc-software/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "onetrust",
@@ -66,7 +84,15 @@
       "geography": "global",
       "source_url": "https://dancumberlandlabs.com/blog/ai-governance-tools/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "venvera",
@@ -86,7 +112,14 @@
       "geography": "eu",
       "source_url": "https://venvera.com/control-crosswalk",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "IT",
+      "france_market": "unknown",
+      "operating_regions": [
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "aigis-grc",
@@ -107,7 +140,15 @@
       "geography": "global",
       "source_url": "https://agrc.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "assurai",
@@ -128,7 +169,15 @@
       "geography": "global",
       "source_url": "https://getassurai.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "sorena-ai",
@@ -150,14 +199,23 @@
       "geography": "global",
       "source_url": "https://www.sorena.io/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "logicgate",
       "name": "LogicGate",
       "url": "https://www.logicgate.com/",
       "segments": [
-        "grc-security"
+        "grc-security",
+        "compliance-to-spec"
       ],
       "description": "Plateforme GRC no-code avec workflows risque/compliance et agents IA.",
       "capabilities": [
@@ -170,7 +228,15 @@
       "geography": "global",
       "source_url": "https://regtechanalyst.com/how-ai-is-reshaping-regulatory-compliance-strategies-in-2026/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "scytale",
@@ -189,7 +255,15 @@
       "geography": "global",
       "source_url": "https://www.v-comply.com/blog/top-grc-software/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "servicenow-grc",
@@ -211,7 +285,15 @@
       "geography": "global",
       "source_url": "https://www.modulos.ai/best-ai-governance-platforms/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "ibm-openpages",
@@ -233,7 +315,15 @@
       "geography": "global",
       "source_url": "https://www.modulos.ai/best-ai-governance-platforms/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "navex",
@@ -254,7 +344,15 @@
       "geography": "global",
       "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "vcomply",
@@ -275,7 +373,15 @@
       "geography": "global",
       "source_url": "https://www.v-comply.com/blog/navex-alternatives-risk-management/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "auditboard",
@@ -296,7 +402,15 @@
       "geography": "global",
       "source_url": "https://techvendorindex.com/software/grc-compliance/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "rsa-archer",
@@ -317,7 +431,15 @@
       "geography": "global",
       "source_url": "https://techvendorindex.com/software/grc-compliance/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "collibra",
@@ -338,7 +460,15 @@
       "geography": "global",
       "source_url": "https://www.modulos.ai/best-ai-governance-platforms/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

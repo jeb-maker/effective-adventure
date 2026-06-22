@@ -20,7 +20,14 @@
       "geography": "france",
       "source_url": "https://www.data.gouv.fr/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "registre-perma",
@@ -40,7 +47,15 @@
       "geography": "france",
       "source_url": "https://www.hatvp.fr/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "contexte",
@@ -60,7 +75,14 @@
       "geography": "france",
       "source_url": "https://www.contexte.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "regards-citoyens",
@@ -80,7 +102,15 @@
       "geography": "france",
       "source_url": "https://www.regardscitoyens.org/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "poligma",
@@ -100,7 +130,14 @@
       "geography": "france",
       "source_url": "https://poligma.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

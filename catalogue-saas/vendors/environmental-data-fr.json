@@ -20,7 +20,14 @@
       "geography": "france",
       "source_url": "https://www.atmo-france.org/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "hub-eau",
@@ -40,7 +47,14 @@
       "geography": "france",
       "source_url": "https://hub-eau.fr/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "inpn",
@@ -60,7 +74,15 @@
       "geography": "france",
       "source_url": "https://inpn.mnhn.fr/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "brgm-infoterre",
@@ -80,7 +102,14 @@
       "geography": "france",
       "source_url": "https://infoterre.brgm.fr/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "georisques-api",
@@ -100,7 +129,14 @@
       "geography": "france",
       "source_url": "https://www.georisques.gouv.fr/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

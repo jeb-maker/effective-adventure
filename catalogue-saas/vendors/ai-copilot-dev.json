@@ -22,7 +22,15 @@
       "geography": "global",
       "source_url": "https://www.aipricing.guru/subscriptions/chatgpt-team/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "github-copilot",
@@ -44,7 +52,15 @@
       "geography": "global",
       "source_url": "https://docs.github.com/en/copilot/get-started/plans",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "microsoft-copilot-365",
@@ -65,7 +81,15 @@
       "geography": "global",
       "source_url": "https://nolatency.co/ai-saas-pricing-models/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "cursor",
@@ -87,7 +111,15 @@
       "geography": "global",
       "source_url": "https://zylos.ai/research/2026-03-29-ai-agent-platform-economics-pricing-unit-economics",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "replit",
@@ -109,7 +141,15 @@
       "geography": "global",
       "source_url": "https://zylos.ai/research/2026-03-29-ai-agent-platform-economics-pricing-unit-economics",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "windsurf",
@@ -130,7 +170,15 @@
       "geography": "global",
       "source_url": "https://zylos.ai/research/2026-03-29-ai-agent-platform-economics-pricing-unit-economics",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "devin",
@@ -152,7 +200,15 @@
       "geography": "global",
       "source_url": "https://devin.ai/pricing/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "claude-code",
@@ -173,7 +229,15 @@
       "geography": "global",
       "source_url": "https://zylos.ai/research/2026-03-29-ai-agent-platform-economics-pricing-unit-economics",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "amazon-q-developer",
@@ -193,7 +257,15 @@
       "geography": "global",
       "source_url": "https://aws.amazon.com/q/developer/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "jetbrains-ai",
@@ -213,7 +285,15 @@
       "geography": "global",
       "source_url": "https://www.jetbrains.com/ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "tabnine",
@@ -233,7 +313,15 @@
       "geography": "global",
       "source_url": "https://www.tabnine.com/pricing",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

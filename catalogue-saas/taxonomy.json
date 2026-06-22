@@ -507,5 +507,39 @@
     "verified",
     "partial",
     "unverified"
+  ],
+  "france_market_levels": [
+    "strong",
+    "partial",
+    "absent",
+    "unknown"
+  ],
+  "discovery_sources": [
+    "official_site",
+    "g2",
+    "capterra",
+    "crunchbase",
+    "analyst_report",
+    "alternatives",
+    "open_source",
+    "geo_digest",
+    "comparison_page",
+    "manual",
+    "retrospective_backfill"
+  ],
+  "coverage_source_types": [
+    "g2",
+    "capterra",
+    "crunchbase",
+    "analyst_report",
+    "alternatives",
+    "open_source",
+    "geo_digest",
+    "official_site"
+  ],
+  "exhaustiveness_levels": [
+    "L1",
+    "L2",
+    "L3"
   ]
 }

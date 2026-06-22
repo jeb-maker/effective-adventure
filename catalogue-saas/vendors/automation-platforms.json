@@ -21,7 +21,15 @@
       "geography": "global",
       "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "make",
@@ -42,7 +50,15 @@
       "geography": "global",
       "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "n8n",
@@ -62,7 +78,15 @@
       "geography": "global",
       "source_url": "https://n8n.io/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "workato",
@@ -84,7 +108,15 @@
       "geography": "global",
       "source_url": "https://docs.workato.com/en/pricing",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "tray-io",
@@ -105,7 +137,15 @@
       "geography": "global",
       "source_url": "https://plugjunction.com/compare/tray.io-vs-pipedream/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "pipedream",
@@ -127,7 +167,15 @@
       "geography": "global",
       "source_url": "https://pipedream.com/docs/pricing",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "activepieces",
@@ -149,7 +197,15 @@
       "geography": "global",
       "source_url": "https://propicked.com/blog/best-workflow-automation-2026-zapier-make-n8n-workato-tray",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "microsoft-power-automate",
@@ -171,7 +227,15 @@
       "geography": "global",
       "source_url": "https://www.youngju.dev/blog/culture/2026-05-16-zapier-n8n-make-activepieces-pipedream-workato-tines-power-automate-2026-deep-dive.en",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "tines",
@@ -191,7 +255,15 @@
       "geography": "global",
       "source_url": "https://www.youngju.dev/blog/culture/2026-05-16-zapier-n8n-make-activepieces-pipedream-workato-tines-power-automate-2026-deep-dive.en",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

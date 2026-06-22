@@ -23,7 +23,15 @@
       "geography": "global",
       "source_url": "https://cloud.google.com/document-ai/pricing",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "aws-textract",
@@ -44,7 +52,15 @@
       "geography": "global",
       "source_url": "https://www.docupipe.ai/landing/document-api",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "azure-document-intelligence",
@@ -64,7 +80,15 @@
       "geography": "global",
       "source_url": "https://www.extend.ai/resources/best-document-parsing-software-for-developers",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "nanonets",
@@ -87,7 +111,15 @@
       "geography": "global",
       "source_url": "https://nanonets.com/products/agentic-data-extraction",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "extend-ai",
@@ -108,7 +140,15 @@
       "geography": "global",
       "source_url": "https://www.extend.ai/resources/best-document-parsing-software-for-developers",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "docupipe",
@@ -131,7 +171,15 @@
       "geography": "global",
       "source_url": "https://www.docupipe.ai/landing/document-api",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "sensible",
@@ -153,7 +201,15 @@
       "geography": "global",
       "source_url": "https://www.extend.ai/resources/best-document-parsing-software-for-developers",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "docsumo",
@@ -175,7 +231,15 @@
       "geography": "global",
       "source_url": "https://www.documentdataextraction.com/compare",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "rossum",
@@ -195,7 +259,15 @@
       "geography": "global",
       "source_url": "https://www.extend.ai/resources/best-document-parsing-software-for-developers",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "snapparse",
@@ -218,7 +290,15 @@
       "geography": "global",
       "source_url": "https://snapparse.app/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "iteration-layer",
@@ -239,7 +319,15 @@
       "geography": "global",
       "source_url": "https://iterationlayer.com/products/document-extraction",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "docld",
@@ -261,7 +349,15 @@
       "geography": "global",
       "source_url": "https://docld.com/pricing",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "docxtract",
@@ -283,7 +379,15 @@
       "geography": "global",
       "source_url": "https://docxtract.rpatech.ai/pricing/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "parsli",
@@ -304,7 +408,15 @@
       "geography": "global",
       "source_url": "https://parsli.co/document-parser",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "abbyy-vantage",
@@ -325,7 +437,15 @@
       "geography": "global",
       "source_url": "https://www.abbyy.com/resources/report/abbyy-leader-idc-marketscape-idp-2025-2026/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "hyperscience",
@@ -345,7 +465,15 @@
       "geography": "global",
       "source_url": "https://automationtoday.net/news/idc-names-leaders-in-idp-market-assessment/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "reducto",
@@ -368,7 +496,15 @@
       "geography": "global",
       "source_url": "https://reducto.ai/compare/reducto-vs-llamaparse",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "llamaparse",
@@ -390,7 +526,15 @@
       "geography": "global",
       "source_url": "https://reducto.ai/compare/reducto-vs-llamaparse",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "unstructured",
@@ -411,7 +555,15 @@
       "geography": "global",
       "source_url": "https://llms.reducto.ai/document-parser-comparison",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "uipath-document-understanding",
@@ -433,7 +585,15 @@
       "geography": "global",
       "source_url": "https://automationtoday.net/news/idc-names-leaders-in-idp-market-assessment/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "opentext-idp",
@@ -454,7 +614,15 @@
       "geography": "global",
       "source_url": "https://www.opentext.com/resources/intelligent-document-processing",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "hyland-idp",
@@ -475,7 +643,15 @@
       "geography": "global",
       "source_url": "https://www.prnewswire.com/news-releases/hyland-named-a-leader-in-idc-marketscape-for-worldwide-intelligent-document-processing-software-2025-2026-vendor-assessment-302642995.html",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

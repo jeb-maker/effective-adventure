@@ -22,7 +22,15 @@
       "geography": "global",
       "source_url": "https://www.intercom.com/pricing",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "zendesk-ai",
@@ -44,7 +52,15 @@
       "geography": "global",
       "source_url": "https://helply.com/blog/per-seat-saas-pricing-dying",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "salesforce-agentforce",
@@ -65,7 +81,15 @@
       "geography": "global",
       "source_url": "https://www.aimagicx.com/blog/death-of-per-seat-saas-pricing-ai-agents-2026",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "sierra",
@@ -84,7 +108,15 @@
       "geography": "global",
       "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "11x",
@@ -104,7 +136,15 @@
       "geography": "global",
       "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "pickaxe",
@@ -126,7 +166,15 @@
       "geography": "global",
       "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "ada",
@@ -147,7 +195,15 @@
       "source_url": "https://www.intercom.com/pricing",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Concurrent helpdesk AI ; pricing non public."
+      "notes": "Concurrent helpdesk AI ; pricing non public.",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "forethought",
@@ -167,7 +223,15 @@
       "geography": "global",
       "source_url": "https://helply.com/blog/per-seat-saas-pricing-dying",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "decagon",
@@ -187,7 +251,15 @@
       "geography": "global",
       "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "hubspot-breeze",
@@ -209,7 +281,15 @@
       "geography": "global",
       "source_url": "https://helply.com/blog/per-seat-saas-pricing-dying",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "freshworks-freddy",
@@ -230,7 +310,15 @@
       "geography": "global",
       "source_url": "https://www.freshworks.com/freddy-ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

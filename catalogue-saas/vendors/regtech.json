@@ -22,7 +22,15 @@
       "geography": "global",
       "source_url": "https://legalsolutions.thomsonreuters.co.uk/content/dam/ewp-m/documents/legal/en/pdf/support/regulatory-intelligence-obligations-library-sell-sheet.pdf",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "cube-regulatory-intelligence",
@@ -44,7 +52,15 @@
       "source_url": "https://dynamicbusiness.com/featured/tech-tuesday/tech-tuesday-regulatory-change-alert-systems-for-smes.html",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Consolidation marché 2025-2026 ; détails produit à confirmer sur cube.global."
+      "notes": "Consolidation marché 2025-2026 ; détails produit à confirmer sur cube.global.",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "corlytics",
@@ -67,7 +83,15 @@
       "geography": "global",
       "source_url": "https://www.corlytics.com/solutions/regulatory-controls-mapping/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "ascent-regtech",
@@ -87,7 +111,15 @@
       "geography": "global",
       "source_url": "https://www.cbinsights.com/company/ascent-technologies",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "finrege",
@@ -108,7 +140,15 @@
       "geography": "global",
       "source_url": "https://finreg-e.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "kalipso",
@@ -129,7 +169,15 @@
       "geography": "europe",
       "source_url": "https://kalipso.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "sia-regai",
@@ -153,7 +201,15 @@
       "geography": "global",
       "source_url": "https://siareg.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "regl-ai",
@@ -175,7 +231,15 @@
       "geography": "global",
       "source_url": "https://regl.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "regology",
@@ -198,7 +262,15 @@
       "notes": "Acquis par Bloomberg Industry Group (contexte marché 2026).",
       "source_url": "https://www.regology.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "norm-ai",
@@ -220,7 +292,15 @@
       "geography": "us",
       "source_url": "https://www.norm.ai/supervisory-ai",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "compliance-ai",
@@ -241,7 +321,15 @@
       "source_url": "https://dataintelo.com/report/regulatory-intelligence-platform-market",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Profil issu rapport marché ; vérifier offre actuelle sur site officiel."
+      "notes": "Profil issu rapport marché ; vérifier offre actuelle sur site officiel.",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "4crisk-ai",
@@ -262,7 +350,15 @@
       "geography": "global",
       "source_url": "https://regtechanalyst.com/how-ai-is-reshaping-regulatory-compliance-strategies-in-2026/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "clausematch",
@@ -284,7 +380,15 @@
       "source_url": "https://dynamicbusiness.com/featured/tech-tuesday/tech-tuesday-regulatory-change-alert-systems-for-smes.html",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Acquisition Corlytics ; produit peut être rebaptisé/intégré."
+      "notes": "Acquisition Corlytics ; produit peut être rebaptisé/intégré.",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "diligent",
@@ -305,7 +409,15 @@
       "geography": "global",
       "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "metricstream-reg",
@@ -326,7 +438,15 @@
       "geography": "global",
       "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "vixio",
@@ -346,7 +466,15 @@
       "geography": "global",
       "source_url": "https://www.cbinsights.com/company/ascent-technologies",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "steel-eye",
@@ -366,7 +494,15 @@
       "geography": "global",
       "source_url": "https://dataintelo.com/report/regulatory-intelligence-platform-market",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

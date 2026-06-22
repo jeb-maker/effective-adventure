@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOGUE = ROOT / "catalogue-saas"
 TAXONOMY_PATH = CATALOGUE / "taxonomy.json"
 VENDORS_DIR = CATALOGUE / "vendors"
+COVERAGE_PATH = CATALOGUE / "coverage-matrix.json"
 
 
 def load_taxonomy() -> dict:
@@ -43,6 +44,8 @@ def validate() -> int:
     pricing_models = set(taxonomy["pricing_models"])
     target_markets = set(taxonomy["target_markets"])
     statuses = set(taxonomy["verification_statuses"])
+    france_markets = set(taxonomy.get("france_market_levels", []))
+    discovery_sources = set(taxonomy.get("discovery_sources", []))
 
     errors: list[str] = []
     seen_ids: set[str] = set()
@@ -97,6 +100,23 @@ def validate() -> int:
                 errors.append(
                     f"{prefix}: verification_status invalide"
                 )
+
+            if "hq_country" in vendor:
+                hq = vendor["hq_country"]
+                if not (hq == "unknown" or (len(hq) == 2 and hq.isalpha() and hq.isupper())):
+                    errors.append(f"{prefix}: hq_country invalide '{hq}'")
+
+            if "france_market" in vendor:
+                if vendor["france_market"] not in france_markets:
+                    errors.append(
+                        f"{prefix}: france_market invalide '{vendor['france_market']}'"
+                    )
+
+            if "discovery_source" in vendor and discovery_sources:
+                if vendor["discovery_source"] not in discovery_sources:
+                    errors.append(
+                        f"{prefix}: discovery_source invalide '{vendor['discovery_source']}'"
+                    )
 
             if len(vendor["description"]) < 10:
                 errors.append(f"{prefix}: description trop courte")
@@ -167,6 +187,22 @@ def stats() -> None:
     ).most_common():
         print(f"  {status:12} {count}")
 
+    print()
+    if any("hq_country" in v for v in vendors):
+        print("Par hq_country :")
+        for hq, count in Counter(
+            v.get("hq_country", "(absent)") for v in vendors
+        ).most_common(10):
+            print(f"  {hq:12} {count}")
+
+    if any("france_market" in v for v in vendors):
+        print()
+        print("Par france_market :")
+        for fm, count in Counter(
+            v.get("france_market", "(absent)") for v in vendors
+        ).most_common():
+            print(f"  {fm:12} {count}")
+
 
 def write_segments_markdown(output: Path) -> None:
     taxonomy = load_taxonomy()
@@ -213,6 +249,11 @@ def export_csv(output: Path) -> None:
         "pricing_notes",
         "target_market",
         "geography",
+        "hq_country",
+        "france_market",
+        "operating_regions",
+        "discovery_source",
+        "discovery_pass",
         "verification_status",
         "source_url",
         "source_consulted_at",
@@ -226,6 +267,8 @@ def export_csv(output: Path) -> None:
             row = {k: v.get(k, "") for k in fieldnames}
             row["segments"] = "|".join(v["segments"])
             row["capabilities"] = "|".join(v["capabilities"])
+            regions = v.get("operating_regions")
+            row["operating_regions"] = "|".join(regions) if regions else ""
             writer.writerow(row)
 
     print(f"Export CSV : {output} ({len(vendors)} lignes)")
@@ -289,6 +332,103 @@ def build_db(db_path: Path) -> None:
     print(f"SQLite : {db_path} ({len(vendors)} lignes)")
 
 
+def coverage_report() -> None:
+    if not COVERAGE_PATH.exists():
+        print(f"Fichier manquant : {COVERAGE_PATH}", file=sys.stderr)
+        raise SystemExit(1)
+
+    matrix = json.loads(COVERAGE_PATH.read_text(encoding="utf-8"))
+    taxonomy = load_taxonomy()
+    seg_labels = {s["id"]: s["label"] for s in taxonomy["segments"]}
+    source_types = matrix.get("source_types", [])
+    threshold = matrix.get("saturation_threshold_pct", 5)
+
+    print(f"Matrice couverture — {len(matrix['segments'])} segments")
+    print(f"Seuil saturation : {threshold} % de nouveaux / passe")
+    print()
+
+    incomplete_l2 = 0
+    for seg in taxonomy["segments"]:
+        sid = seg["id"]
+        entry = matrix["segments"].get(sid, {})
+        level = entry.get("target_level", "?")
+        sources = entry.get("sources", {})
+        done = sum(1 for st in source_types if sources.get(st))
+        flag = "" if done >= 4 or level == "L1" else " [incomplet]"
+        if done < 4 and level in ("L2", "L3"):
+            incomplete_l2 += 1
+        print(
+            f"  {sid:32} {level:3}  sources {done}/{len(source_types)}{flag}"
+            f"  — {seg_labels[sid]}"
+        )
+
+    print()
+    print(f"Segments L2/L3 avec < 4 sources : {incomplete_l2}")
+
+
+def gaps_report(
+    hq: str | None = None,
+    france_market: str | None = None,
+    segment: str | None = None,
+) -> None:
+    taxonomy = load_taxonomy()
+    seg_labels = {s["id"]: s["label"] for s in taxonomy["segments"]}
+    vendors = iter_vendors()
+
+    by_segment: dict[str, list[dict]] = {s["id"]: [] for s in taxonomy["segments"]}
+    for v in vendors:
+        for seg in v["segments"]:
+            by_segment.setdefault(seg, []).append(v)
+
+    targets = [segment] if segment else [s["id"] for s in taxonomy["segments"]]
+
+    print("Analyse des gaps par segment")
+    if hq:
+        print(f"  filtre hq_country = {hq}")
+    if france_market:
+        print(f"  filtre france_market = {france_market}")
+    print()
+
+    for sid in targets:
+        if sid not in seg_labels:
+            print(f"Segment inconnu : {sid}", file=sys.stderr)
+            continue
+        seg_vendors = by_segment.get(sid, [])
+        filtered = seg_vendors
+        if hq:
+            filtered = [v for v in filtered if v.get("hq_country") == hq]
+        if france_market:
+            filtered = [v for v in filtered if v.get("france_market") == france_market]
+
+        fr_count = sum(1 for v in seg_vendors if v.get("hq_country") == "FR")
+        absent_count = sum(
+            1 for v in seg_vendors if v.get("france_market") == "absent"
+        )
+        unknown_count = sum(
+            1 for v in seg_vendors if v.get("france_market") == "unknown"
+        )
+
+        if segment or fr_count == 0 or absent_count >= 3:
+            print(f"## {sid} — {seg_labels[sid]}")
+            print(
+                f"   total={len(seg_vendors)}  hq_FR={fr_count}  "
+                f"france_absent={absent_count}  france_unknown={unknown_count}"
+            )
+            if filtered and (hq or france_market):
+                print(f"   matching ({len(filtered)}):")
+                for v in filtered[:8]:
+                    print(
+                        f"     - {v['name']} "
+                        f"[hq={v.get('hq_country','?')}, "
+                        f"fr={v.get('france_market','?')}]"
+                    )
+                if len(filtered) > 8:
+                    print(f"     … +{len(filtered) - 8} autres")
+            if fr_count == 0 and len(seg_vendors) > 0:
+                print("   >> aucun acteur HQ France")
+            print()
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Catalogue SaaS — outils")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -313,6 +453,17 @@ def main() -> int:
         default=CATALOGUE / "catalogue.db",
     )
 
+    sub.add_parser("coverage", help="Rapport matrice sources par segment")
+
+    p_gaps = sub.add_parser("gaps", help="Segments sans acteur FR ou marché absent")
+    p_gaps.add_argument("--hq", help="Filtrer par hq_country (ex. US, FR)")
+    p_gaps.add_argument(
+        "--france-market",
+        dest="france_market",
+        help="Filtrer par france_market (strong|partial|absent|unknown)",
+    )
+    p_gaps.add_argument("--segment", help="Un seul segment")
+
     args = parser.parse_args()
 
     if args.command == "validate":
@@ -329,6 +480,16 @@ def main() -> int:
         return 0
     if args.command == "build-db":
         build_db(args.db)
+        return 0
+    if args.command == "coverage":
+        coverage_report()
+        return 0
+    if args.command == "gaps":
+        gaps_report(
+            hq=args.hq,
+            france_market=args.france_market,
+            segment=args.segment,
+        )
         return 0
 
     return 1

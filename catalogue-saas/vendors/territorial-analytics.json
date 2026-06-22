@@ -21,7 +21,15 @@
       "geography": "france",
       "source_url": "https://www.data.gouv.fr/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "georisques",
@@ -42,7 +50,14 @@
       "geography": "france",
       "source_url": "https://www.georisques.gouv.fr/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "ofgl",
@@ -63,7 +78,14 @@
       "source_url": "https://www.ofgl.fr/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "verified",
-      "notes": "Concurrent/service public cité idée 0020."
+      "notes": "Concurrent/service public cité idée 0020.",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     },
     {
       "id": "cartes-gouv",
@@ -84,7 +106,14 @@
       "geography": "france",
       "source_url": "https://cartes.gouv.fr/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
     }
   ]
 }

@@ -7,12 +7,12 @@ Généré depuis `taxonomy.json` — **68 segments**.
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `regtech` | RegTech — veille & obligations | 17 |
+| `regtech` | RegTech — veille & obligations | 18 |
 | `regulatory-reporting-eu` | Reporting réglementaire EU | 4 |
-| `grc-security` | GRC & conformité sécurité | 28 |
+| `grc-security` | GRC & conformité sécurité | 37 |
 | `privacy-consent` | Privacy & consent management | 4 |
 | `ai-governance` | AI Governance | 20 |
-| `compliance-to-spec` | Réglementation → spec produit | 10 |
+| `compliance-to-spec` | Réglementation → spec produit | 29 |
 | `accessibility-compliance` | Accessibilité numérique | 4 |
 | `esg-csrd` | ESG & reporting extra-financier | 5 |
 | `kyc-aml` | KYC / AML / identity | 5 |

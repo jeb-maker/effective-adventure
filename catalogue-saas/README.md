@@ -8,12 +8,16 @@ Registre **curaté** de SaaS comparables, aligné sur les règles de preuve du d
 | [`SEGMENTS.md`](SEGMENTS.md) | Liste complète générée (`python3 scripts/catalogue_saas.py list-segments`) |
 | [`vendors/`](vendors/) | Un fichier JSON par segment |
 | [`docs/catalogue-saas-methode.md`](../docs/catalogue-saas-methode.md) | Méthode d'enrichissement |
+| [`docs/catalogue-saas-exhaustivite.md`](../docs/catalogue-saas-exhaustivite.md) | Méthode L2/L3 et tagging géo |
+| [`passes/`](passes/) | Journal des passes de moisson |
+| [`coverage-matrix.json`](coverage-matrix.json) | Matrice segment × sources |
 
 ## État (2026-06-22)
 
 - **68 segments** définis (tous avec fichier `vendors/<id>.json`)
-- **68 segments peuplés** (vague 4 — juin 2026)
-- **394 vendeurs** recensés (dont ~53 `verified`, reste `partial` à confirmer)
+- **68 segments peuplés** (vague 4)
+- **408 vendeurs** recensés (vague 5b : +14 sur `compliance-to-spec`)
+- **Tagging géo** : `hq_country`, `france_market`, `operating_regions` (vague 5a)
 
 ## Les 18 catégories
 
@@ -45,7 +49,13 @@ Registre **curaté** de SaaS comparables, aligné sur les règles de preuve du d
 python3 scripts/sync_taxonomy_segments.py
 
 # Enrichissement par vague (idempotent)
+python3 scripts/tag_catalogue_geography_v5a.py
 python3 scripts/enrich_catalogue_v4.py
+python3 scripts/enrich_compliance_to_spec_v5b.py
+
+# Exhaustivité
+python3 scripts/catalogue_saas.py coverage
+python3 scripts/catalogue_saas.py gaps --segment compliance-to-spec
 
 # Régénérer la liste markdown
 python3 scripts/catalogue_saas.py list-segments

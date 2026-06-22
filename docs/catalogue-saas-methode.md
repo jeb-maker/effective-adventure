@@ -49,7 +49,9 @@ scripts/catalogue_saas.py
 
 **Principe** : JSON = source de vérité ; SQLite/CSV = vues dérivées générées par script.
 
-La taxonomie complète (21 segments, 10 catégories) est dans [`catalogue-saas/taxonomy.json`](../catalogue-saas/taxonomy.json). Voir [`catalogue-saas/README.md`](../catalogue-saas/README.md) pour la liste à jour.
+Pour l'exhaustivité L2/L3 et le tagging géographique, voir [`catalogue-saas-exhaustivite.md`](catalogue-saas-exhaustivite.md).
+
+La taxonomie complète (68 segments, 18 catégories) est dans [`catalogue-saas/taxonomy.json`](../catalogue-saas/taxonomy.json). Voir [`catalogue-saas/README.md`](../catalogue-saas/README.md) pour la liste à jour.
 
 ---
 
@@ -71,6 +73,11 @@ Chaque vendeur (`vendor`) contient au minimum :
 | `source_url` | oui | URL de la preuve (page pricing, doc, article) |
 | `source_consulted_at` | oui | date ISO (`2026-06-22`) |
 | `verification_status` | oui | `verified` \| `partial` \| `unverified` |
+| `hq_country` | non | ISO 3166-1 alpha-2 ou `unknown` |
+| `france_market` | non | `strong` \| `partial` \| `absent` \| `unknown` |
+| `operating_regions` | non | zones documentées (`FR`, `EU`, `US`…) |
+| `discovery_source` | non | type de source (voir taxonomy) |
+| `discovery_pass` | non | identifiant de passe (`2026-06-v5b-…`) |
 
 Règle : **`unverified` interdit dans les exports utilisés pour scorer une idée**.
 

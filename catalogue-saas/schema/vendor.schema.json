@@ -38,6 +38,21 @@
     "pricing_notes": { "type": "string" },
     "target_market": { "type": "string" },
     "geography": { "type": "string" },
+    "hq_country": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$|^unknown$"
+    },
+    "france_market": {
+      "type": "string",
+      "enum": ["strong", "partial", "absent", "unknown"]
+    },
+    "operating_regions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "discovery_source": { "type": "string" },
+    "discovery_pass": { "type": "string" },
     "founded_year": { "type": "integer" },
     "notes": { "type": "string" },
     "source_url": { "type": "string", "format": "uri" },

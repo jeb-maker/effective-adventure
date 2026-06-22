@@ -1,0 +1,938 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-06-22",
+  "saturation_threshold_pct": 5,
+  "source_types": [
+    "g2",
+    "capterra",
+    "crunchbase",
+    "analyst_report",
+    "alternatives",
+    "open_source",
+    "geo_digest",
+    "official_site"
+  ],
+  "segments": {
+    "regtech": {
+      "target_level": "L3",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "regulatory-reporting-eu": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "grc-security": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "privacy-consent": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "ai-governance": {
+      "target_level": "L3",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "compliance-to-spec": {
+      "target_level": "L3",
+      "sources": {
+        "g2": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 28,
+          "new_added": 6,
+          "pass": "2026-06-v5b-compliance-to-spec"
+        },
+        "capterra": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 15,
+          "new_added": 2,
+          "pass": "2026-06-v5b-compliance-to-spec"
+        },
+        "crunchbase": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 12,
+          "new_added": 2,
+          "pass": "2026-06-v5b-compliance-to-spec"
+        },
+        "analyst_report": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 8,
+          "new_added": 2,
+          "pass": "2026-06-v5b-compliance-to-spec"
+        },
+        "alternatives": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 10,
+          "new_added": 3,
+          "pass": "2026-06-v5b-compliance-to-spec"
+        },
+        "open_source": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 9,
+          "new_added": 4,
+          "pass": "2026-06-v5b-compliance-to-spec"
+        },
+        "geo_digest": null,
+        "official_site": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 14,
+          "new_added": 5,
+          "pass": "2026-06-v5b-compliance-to-spec"
+        }
+      },
+      "last_pass": "2026-06-v5b-compliance-to-spec",
+      "vendor_count_after_pass": 21
+    },
+    "accessibility-compliance": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "esg-csrd": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "kyc-aml": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "pharma-regulatory": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "cybersecurity-platforms": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "identity-access-management": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "cloud-security-cspm": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "email-security": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "vulnerability-management": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "llm-api-providers": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "model-inference-hosting": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "vector-databases": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "ai-evals-testing": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "agent-frameworks-platforms": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "document-idp": {
+      "target_level": "L3",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "parsing-inbox": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "e-signature": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "translation-localization": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "data-integration-etl": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "ai-productivity": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "ai-copilot-dev": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "rag-knowledge": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "project-work-management": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "meeting-intelligence": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "automation-platforms": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "rpa-enterprise": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "support-sales-agents": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "voice-speech-ai": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "crm-platforms": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "marketing-automation": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "seo-content-ai": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "revenue-intelligence": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "helpdesk-platforms": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "customer-success": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "finance-accounting-ai": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "treasury-fpa": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "spend-procurement": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "legal-contract-ai": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "hr-talent-ai": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "payroll-hris": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "learning-lxp": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "healthcare-clinical-ai": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "health-data-analytics": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "real-estate-proptech": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "insurance-insurtech": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "construction-proptech": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "supply-chain-logistics": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "retail-ecommerce-ai": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "energy-cleantech": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "data-enrichment-b2b": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "bi-analytics-platforms": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "data-observability": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "public-procurement-intel": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "territorial-analytics": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "civic-tech-fr": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "geospatial-gis-fr": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "transport-mobility-data-fr": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "energy-buildings-fr": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "environmental-data-fr": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "electoral-data-fr": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "public-health-territory-fr": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    },
+    "open-data-governance-fr": {
+      "target_level": "L2",
+      "sources": {
+        "g2": null,
+        "capterra": null,
+        "crunchbase": null,
+        "analyst_report": null,
+        "alternatives": null,
+        "open_source": null,
+        "geo_digest": null,
+        "official_site": null
+      }
+    }
+  }
+}
