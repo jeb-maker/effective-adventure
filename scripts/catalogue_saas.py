@@ -62,6 +62,10 @@ def validate() -> int:
     }
 
     for filename, data in load_vendor_files():
+        stem = Path(filename).stem
+        if stem not in segment_ids:
+            errors.append(f"{filename}: fichier hors taxonomie (orphelin)")
+
         for i, vendor in enumerate(data.get("vendors", [])):
             prefix = f"{filename}[{i}] {vendor.get('id', '?')}"
 
@@ -97,6 +101,11 @@ def validate() -> int:
             if len(vendor["description"]) < 10:
                 errors.append(f"{prefix}: description trop courte")
 
+    for seg_id in sorted(segment_ids):
+        vendor_file = VENDORS_DIR / f"{seg_id}.json"
+        if not vendor_file.exists():
+            errors.append(f"segment '{seg_id}': fichier manquant vendors/{seg_id}.json")
+
     if errors:
         print("VALIDATION ÉCHOUÉE", file=sys.stderr)
         for err in errors:
@@ -110,9 +119,12 @@ def validate() -> int:
 def stats() -> None:
     vendors = iter_vendors()
     taxonomy = load_taxonomy()
-    seg_labels = {s["id"]: s["label"] for s in taxonomy["segments"]}
+    segments = taxonomy["segments"]
+    categories = {c["id"]: c["label"] for c in taxonomy.get("categories", [])}
+    seg_labels = {s["id"]: s["label"] for s in segments}
 
     print(f"Total vendeurs : {len(vendors)}")
+    print(f"Segments taxonomie : {len(segments)}")
     print()
 
     by_segment: Counter[str] = Counter()
@@ -120,10 +132,28 @@ def stats() -> None:
         for seg in v["segments"]:
             by_segment[seg] += 1
 
-    print("Par segment :")
-    for seg_id, count in by_segment.most_common():
-        label = seg_labels.get(seg_id, seg_id)
-        print(f"  {seg_id:24} {count:3}  {label}")
+    by_category: Counter[str] = Counter()
+    empty = 0
+    for seg in segments:
+        sid = seg["id"]
+        count = by_segment.get(sid, 0)
+        if count == 0:
+            empty += 1
+        by_category[seg.get("category", "?")] += 1
+
+    print(f"Segments peuplés : {len(segments) - empty} / {len(segments)} (vides : {empty})")
+    print()
+
+    current_cat = None
+    for seg in segments:
+        cat = seg.get("category", "?")
+        if cat != current_cat:
+            current_cat = cat
+            print(f"## {categories.get(cat, cat)}")
+        sid = seg["id"]
+        count = by_segment.get(sid, 0)
+        flag = "" if count else " [vide]"
+        print(f"  {sid:32} {count:3}  {seg['label']}{flag}")
 
     print()
     print("Par pricing_model :")
@@ -136,6 +166,36 @@ def stats() -> None:
         v["verification_status"] for v in vendors
     ).most_common():
         print(f"  {status:12} {count}")
+
+
+def write_segments_markdown(output: Path) -> None:
+    taxonomy = load_taxonomy()
+    vendors = iter_vendors()
+    by_segment: Counter[str] = Counter()
+    for v in vendors:
+        for seg in v["segments"]:
+            by_segment[seg] += 1
+
+    categories = {c["id"]: c["label"] for c in taxonomy.get("categories", [])}
+    lines = [
+        "# Segments du catalogue SaaS",
+        "",
+        f"Généré depuis `taxonomy.json` — **{len(taxonomy['segments'])} segments**.",
+        "",
+    ]
+    current_cat = None
+    for seg in taxonomy["segments"]:
+        cat = seg.get("category", "?")
+        if cat != current_cat:
+            current_cat = cat
+            lines.extend(["", f"## {categories.get(cat, cat)}", ""])
+            lines.append("| ID | Label | Vendeurs |")
+            lines.append("|---|---|---:|")
+        sid = seg["id"]
+        count = by_segment.get(sid, 0)
+        lines.append(f"| `{sid}` | {seg['label']} | {count} |")
+    lines.append("")
+    output.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def export_csv(output: Path) -> None:
@@ -235,6 +295,7 @@ def main() -> int:
 
     sub.add_parser("validate", help="Valider JSON et références taxonomy")
     sub.add_parser("stats", help="Statistiques par segment")
+    sub.add_parser("list-segments", help="Lister tous les segments (markdown)")
 
     p_export = sub.add_parser("export", help="Exporter en CSV")
     p_export.add_argument("--format", choices=["csv"], default="csv")
@@ -258,6 +319,10 @@ def main() -> int:
         return validate()
     if args.command == "stats":
         stats()
+        return 0
+    if args.command == "list-segments":
+        write_segments_markdown(CATALOGUE / "SEGMENTS.md")
+        print(f"Écrit : {CATALOGUE / 'SEGMENTS.md'}")
         return 0
     if args.command == "export":
         export_csv(args.output)

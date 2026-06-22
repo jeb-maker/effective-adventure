@@ -1,17 +1,17 @@
 {
-  "version": "1.1.0",
+  "version": "2.0.0",
   "updated_at": "2026-06-22",
   "segments": [
     {
       "id": "regtech",
-      "label": "RegTech — veille & obligations réglementaires",
+      "label": "RegTech — veille & obligations",
       "description": "Surveillance réglementaire, extraction d'obligations, mapping policies/contrôles.",
       "category": "compliance"
     },
     {
       "id": "regulatory-reporting-eu",
       "label": "Reporting réglementaire EU",
-      "description": "E-invoicing, e-reporting, déclarations fiscales/sociales, facturation électronique (PEPPOL, PDP).",
+      "description": "E-invoicing, e-reporting, déclarations fiscales, PEPPOL, PDP.",
       "category": "compliance"
     },
     {
@@ -23,7 +23,7 @@
     {
       "id": "privacy-consent",
       "label": "Privacy & consent management",
-      "description": "CMP, cookies, DPIA, droits des personnes, registres de traitement (produit privacy).",
+      "description": "CMP, cookies, DPIA, droits des personnes, registres de traitement.",
       "category": "compliance"
     },
     {
@@ -35,19 +35,97 @@
     {
       "id": "compliance-to-spec",
       "label": "Réglementation → spec produit",
-      "description": "Traduction réglementaire vers backlog logiciel testable, policies-as-code, exigences traçables.",
+      "description": "Exigences traçables, policies-as-code, backlog logiciel testable.",
       "category": "compliance"
     },
     {
       "id": "accessibility-compliance",
       "label": "Accessibilité numérique",
-      "description": "WCAG, RGAA, audits accessibilité, conformité ERP/sites pour secteur public et privé.",
+      "description": "WCAG, RGAA, audits ERP/sites, conformité secteur public.",
       "category": "compliance"
+    },
+    {
+      "id": "esg-csrd",
+      "label": "ESG & reporting extra-financier",
+      "description": "CSRD, bilan carbone, reporting durabilité, taxonomie verte.",
+      "category": "compliance"
+    },
+    {
+      "id": "kyc-aml",
+      "label": "KYC / AML / identity",
+      "description": "Vérification identité, LCB-FT, screening sanctions, onboarding client.",
+      "category": "compliance"
+    },
+    {
+      "id": "pharma-regulatory",
+      "label": "Pharma & life sciences regulatory",
+      "description": "GxP, pharmacovigilance, essais cliniques, soumissions réglementaires.",
+      "category": "compliance"
+    },
+    {
+      "id": "cybersecurity-platforms",
+      "label": "Cybersécurité (SIEM/XDR/SOAR)",
+      "description": "Détection menaces, réponse incident, SOC automatisé.",
+      "category": "security-it"
+    },
+    {
+      "id": "identity-access-management",
+      "label": "IAM & accès",
+      "description": "SSO, MFA, provisioning, PAM, identity governance.",
+      "category": "security-it"
+    },
+    {
+      "id": "cloud-security-cspm",
+      "label": "Cloud security & CSPM",
+      "description": "Posture cloud, misconfigurations, CNAPP, workload protection.",
+      "category": "security-it"
+    },
+    {
+      "id": "email-security",
+      "label": "Email security",
+      "description": "Anti-phishing, SEG, DMARC, protection messagerie.",
+      "category": "security-it"
+    },
+    {
+      "id": "vulnerability-management",
+      "label": "Vulnérabilités & exposition",
+      "description": "Scan assets, prioritisation CVE, surface d'attaque, pentest as a service.",
+      "category": "security-it"
+    },
+    {
+      "id": "llm-api-providers",
+      "label": "API LLM & modèles",
+      "description": "Fournisseurs modèles et APIs (OpenAI, Anthropic, Mistral…).",
+      "category": "ai-infrastructure"
+    },
+    {
+      "id": "model-inference-hosting",
+      "label": "Inference & hosting modèles",
+      "description": "Serving, fine-tuning, GPU cloud, déploiement modèles.",
+      "category": "ai-infrastructure"
+    },
+    {
+      "id": "vector-databases",
+      "label": "Bases vectorielles",
+      "description": "Embeddings store, recherche sémantique, RAG infra.",
+      "category": "ai-infrastructure"
+    },
+    {
+      "id": "ai-evals-testing",
+      "label": "Evals & tests IA",
+      "description": "Évaluation modèles, régression prompts, qualité outputs LLM.",
+      "category": "ai-infrastructure"
+    },
+    {
+      "id": "agent-frameworks-platforms",
+      "label": "Frameworks & plateformes agents",
+      "description": "Orchestration agents, tool use, runtimes multi-agents.",
+      "category": "ai-infrastructure"
     },
     {
       "id": "document-idp",
       "label": "IDP & extraction documentaire",
-      "description": "PDF/images → données structurées, OCR, schémas JSON.",
+      "description": "PDF/images → JSON structuré, OCR, schémas.",
       "category": "data-documents"
     },
     {
@@ -57,76 +135,280 @@
       "category": "data-documents"
     },
     {
-      "id": "finance-accounting-ai",
-      "label": "Finance & compta IA",
-      "description": "AP/AR, factures, clôture, contrôles comptables, automatisation finance.",
-      "category": "vertical-finance"
+      "id": "e-signature",
+      "label": "Signature électronique",
+      "description": "eIDAS, signature, parcours contractuels signés.",
+      "category": "data-documents"
     },
     {
-      "id": "legal-contract-ai",
-      "label": "Legal & contract AI",
-      "description": "Revue contractuelle, CLM, due diligence juridique, recherche réglementaire métier.",
-      "category": "vertical-legal"
+      "id": "translation-localization",
+      "label": "Traduction & localisation",
+      "description": "MT, TMS, localisation contenu et produit.",
+      "category": "data-documents"
+    },
+    {
+      "id": "data-integration-etl",
+      "label": "Intégration & ETL données",
+      "description": "Pipelines données, reverse ETL, sync warehouses.",
+      "category": "data-documents"
     },
     {
       "id": "ai-productivity",
-      "label": "Productivité IA (métier)",
-      "description": "Rédaction, slides, réunions, synthèse — copilots hors développement logiciel.",
+      "label": "Productivité IA métier",
+      "description": "Rédaction, slides, synthèse — hors développement.",
       "category": "ai-workplace"
     },
     {
       "id": "ai-copilot-dev",
       "label": "Copilots IA & dev tools",
-      "description": "Assistants par siège, code, agents dev, productivité ingénierie.",
+      "description": "Code, agents dev, IDE IA.",
       "category": "ai-workplace"
     },
     {
       "id": "rag-knowledge",
       "label": "RAG & knowledge enterprise",
-      "description": "Recherche interne, bases de connaissance IA, Q&A sur corpus d'entreprise.",
+      "description": "Recherche interne, Q&A corpus d'entreprise.",
+      "category": "ai-workplace"
+    },
+    {
+      "id": "project-work-management",
+      "label": "Gestion de projet & work OS",
+      "description": "Tâches, roadmaps, wiki — avec couche IA.",
+      "category": "ai-workplace"
+    },
+    {
+      "id": "meeting-intelligence",
+      "label": "Meeting intelligence",
+      "description": "Notes, résumés, action items post-réunion.",
       "category": "ai-workplace"
     },
     {
       "id": "automation-platforms",
-      "label": "Plateformes d'automatisation",
-      "description": "Zapier, Make, n8n, iPaaS — workflows + intégrations.",
+      "label": "Automatisation no-code / iPaaS",
+      "description": "Zapier, Make, n8n, Workato…",
+      "category": "automation"
+    },
+    {
+      "id": "rpa-enterprise",
+      "label": "RPA enterprise",
+      "description": "Robots UI, automation bureautique à grande échelle.",
       "category": "automation"
     },
     {
       "id": "support-sales-agents",
       "label": "Agents support & sales",
-      "description": "Résolution, qualification, SDR — souvent pricing au résultat.",
+      "description": "Résolution, qualification, SDR — pricing au résultat.",
       "category": "agents-outcome"
     },
     {
       "id": "voice-speech-ai",
       "label": "Voix & speech IA",
-      "description": "Transcription, synthèse vocale, agents téléphoniques, meeting notes.",
+      "description": "STT, TTS, agents téléphoniques.",
       "category": "agents-outcome"
+    },
+    {
+      "id": "crm-platforms",
+      "label": "CRM",
+      "description": "Gestion relation client, pipeline, forecasting.",
+      "category": "sales-marketing"
+    },
+    {
+      "id": "marketing-automation",
+      "label": "Marketing automation",
+      "description": "Campagnes, nurturing, journeys multicanal.",
+      "category": "sales-marketing"
+    },
+    {
+      "id": "seo-content-ai",
+      "label": "SEO & contenu IA",
+      "description": "Rédaction SEO, optimisation, content at scale.",
+      "category": "sales-marketing"
+    },
+    {
+      "id": "revenue-intelligence",
+      "label": "Revenue intelligence",
+      "description": "Conversation intelligence, coaching sales, analytics revenus.",
+      "category": "sales-marketing"
+    },
+    {
+      "id": "helpdesk-platforms",
+      "label": "Helpdesk & service client",
+      "description": "Ticketing, omnicanal, base de connaissance.",
+      "category": "customer-experience"
+    },
+    {
+      "id": "customer-success",
+      "label": "Customer success",
+      "description": "Health scores, onboarding client, churn prevention.",
+      "category": "customer-experience"
+    },
+    {
+      "id": "finance-accounting-ai",
+      "label": "Finance & compta IA",
+      "description": "AP/AR, factures, clôture, contrôles comptables.",
+      "category": "vertical-finance"
+    },
+    {
+      "id": "treasury-fpa",
+      "label": "Trésorerie & FP&A",
+      "description": "Cash management, budgeting, forecasting financier.",
+      "category": "vertical-finance"
+    },
+    {
+      "id": "spend-procurement",
+      "label": "Spend & procurement",
+      "description": "Achats, fournisseurs, cartes, P2P.",
+      "category": "vertical-finance"
+    },
+    {
+      "id": "legal-contract-ai",
+      "label": "Legal & contract AI",
+      "description": "CLM, revue contrats, legal research.",
+      "category": "vertical-legal"
     },
     {
       "id": "hr-talent-ai",
       "label": "RH & talent IA",
-      "description": "Recrutement, screening, onboarding, HR ops automatisés.",
+      "description": "Recrutement, screening, talent intelligence.",
       "category": "vertical-hr"
+    },
+    {
+      "id": "payroll-hris",
+      "label": "Paie & SIRH",
+      "description": "Paie, core HR, dossiers employés.",
+      "category": "vertical-hr"
+    },
+    {
+      "id": "learning-lxp",
+      "label": "Formation & LXP",
+      "description": "LMS, parcours formation, skills development.",
+      "category": "vertical-hr"
+    },
+    {
+      "id": "healthcare-clinical-ai",
+      "label": "Santé clinique IA",
+      "description": "Aide diagnostic, documentation clinique, workflows soignants.",
+      "category": "vertical-health"
+    },
+    {
+      "id": "health-data-analytics",
+      "label": "Analytics santé & medtech",
+      "description": "Données santé, registres, analytics population.",
+      "category": "vertical-health"
+    },
+    {
+      "id": "real-estate-proptech",
+      "label": "Immobilier & proptech",
+      "description": "Gestion actifs, transactions, estimation, facility.",
+      "category": "vertical-industry"
+    },
+    {
+      "id": "insurance-insurtech",
+      "label": "Assurance & insurtech",
+      "description": "Underwriting, sinistres, distribution, actuariat.",
+      "category": "vertical-industry"
+    },
+    {
+      "id": "construction-proptech",
+      "label": "Construction & BIM",
+      "description": "Chantiers, plans, conformité construction.",
+      "category": "vertical-industry"
+    },
+    {
+      "id": "supply-chain-logistics",
+      "label": "Supply chain & logistique",
+      "description": "WMS, TMS, prévision demande, traçabilité.",
+      "category": "vertical-industry"
+    },
+    {
+      "id": "retail-ecommerce-ai",
+      "label": "Retail & e-commerce IA",
+      "description": "Merchandising, pricing, personnalisation, support retail.",
+      "category": "vertical-industry"
+    },
+    {
+      "id": "energy-cleantech",
+      "label": "Énergie & cleantech",
+      "description": "Gestion énergie, ENR, réseaux, optimisation conso.",
+      "category": "vertical-industry"
     },
     {
       "id": "data-enrichment-b2b",
       "label": "Enrichissement données B2B",
-      "description": "Firmographics, contacts, signaux — APIs et plateformes d'enrichissement.",
+      "description": "Firmographics, contacts, signaux d'intent.",
       "category": "data-b2b"
+    },
+    {
+      "id": "bi-analytics-platforms",
+      "label": "BI & analytics",
+      "description": "Dashboards, self-service BI, semantic layer.",
+      "category": "data-analytics"
+    },
+    {
+      "id": "data-observability",
+      "label": "Data observability",
+      "description": "Qualité données, lineage, monitoring pipelines.",
+      "category": "data-analytics"
     },
     {
       "id": "public-procurement-intel",
       "label": "Intelligence marchés publics",
-      "description": "Veille AO, analyse attributions, sourcing acheteurs publics.",
+      "description": "Veille AO, analyse attributions, sourcing public.",
       "category": "france-public"
     },
     {
       "id": "territorial-analytics",
       "label": "Analytics territoriales",
-      "description": "Observatoires locaux, cartographie, indicateurs territoire — souvent open data.",
+      "description": "Observatoires locaux, indicateurs territoire.",
       "category": "france-public"
+    },
+    {
+      "id": "civic-tech-fr",
+      "label": "Civic tech France",
+      "description": "Participation citoyenne, services publics numériques.",
+      "category": "france-public"
+    },
+    {
+      "id": "geospatial-gis-fr",
+      "label": "Géospatial & carto FR",
+      "description": "IGN, cadastre, GPU, fonds de cartes.",
+      "category": "france-open-data"
+    },
+    {
+      "id": "transport-mobility-data-fr",
+      "label": "Transport & mobilité FR",
+      "description": "GTFS, SNCF, trafic, déserts de mobilité.",
+      "category": "france-open-data"
+    },
+    {
+      "id": "energy-buildings-fr",
+      "label": "Bâtiments & énergie FR",
+      "description": "DPE, ADEME, rénovation, passoires thermiques.",
+      "category": "france-open-data"
+    },
+    {
+      "id": "environmental-data-fr",
+      "label": "Environnement & risques FR",
+      "description": "Géorisques, eau, air, biodiversité.",
+      "category": "france-open-data"
+    },
+    {
+      "id": "electoral-data-fr",
+      "label": "Données électorales FR",
+      "description": "Résultats bureau de vote, analyses territoriales.",
+      "category": "france-open-data"
+    },
+    {
+      "id": "public-health-territory-fr",
+      "label": "Santé territoriale FR",
+      "description": "ARS, déserts médicaux, offre de soins.",
+      "category": "france-open-data"
+    },
+    {
+      "id": "open-data-governance-fr",
+      "label": "Gouvernance open data FR",
+      "description": "Conformité publication, qualité jeux de données collectivités.",
+      "category": "france-open-data"
     }
   ],
   "categories": [
@@ -135,8 +417,16 @@
       "label": "Compliance & réglementation"
     },
     {
+      "id": "security-it",
+      "label": "Sécurité informatique"
+    },
+    {
+      "id": "ai-infrastructure",
+      "label": "Infrastructure IA"
+    },
+    {
       "id": "data-documents",
-      "label": "Documents & données non structurées"
+      "label": "Documents & données"
     },
     {
       "id": "ai-workplace",
@@ -151,6 +441,14 @@
       "label": "Agents & résultats"
     },
     {
+      "id": "sales-marketing",
+      "label": "Sales & marketing"
+    },
+    {
+      "id": "customer-experience",
+      "label": "Expérience client"
+    },
+    {
       "id": "vertical-finance",
       "label": "Vertical — Finance"
     },
@@ -163,12 +461,28 @@
       "label": "Vertical — RH"
     },
     {
+      "id": "vertical-health",
+      "label": "Vertical — Santé"
+    },
+    {
+      "id": "vertical-industry",
+      "label": "Vertical — Industrie"
+    },
+    {
       "id": "data-b2b",
       "label": "Données B2B"
     },
     {
+      "id": "data-analytics",
+      "label": "Data & analytics"
+    },
+    {
       "id": "france-public",
-      "label": "France / secteur public"
+      "label": "France — secteur public"
+    },
+    {
+      "id": "france-open-data",
+      "label": "France — open data thématique"
     }
   ],
   "pricing_models": [
