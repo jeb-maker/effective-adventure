@@ -3,49 +3,93 @@
 Registre **curaté** de SaaS comparables, aligné sur les règles de preuve du dépôt.
 
 - **Méthode** : [`docs/catalogue-saas-methode.md`](../docs/catalogue-saas-methode.md)
-- **Taxonomie** : [`taxonomy.json`](taxonomy.json)
+- **Taxonomie** : [`taxonomy.json`](taxonomy.json) — **21 segments** en **10 catégories**
 - **Schéma** : [`schema/vendor.schema.json`](schema/vendor.schema.json)
 - **Données** : [`vendors/`](vendors/) (un fichier JSON par segment)
 
 ---
 
-## Segments (taxonomie)
+## Segments par catégorie
 
-Choisir un segment **avant** d'ajouter des vendeurs. Source : [`taxonomy.json`](taxonomy.json).
+### Compliance & réglementation
 
-| # | ID | Label | Description | Fichier vendeurs |
-|---|---|---|---|---|
-| 1 | `regtech` | RegTech — veille & obligations | Surveillance réglementaire, extraction d'obligations, mapping policies/contrôles | [`regtech.json`](vendors/regtech.json) |
-| 2 | `grc-security` | GRC & conformité sécurité | SOC2, ISO 27001, GDPR, DORA, NIS2 — contrôles, preuves, audits | [`grc-security.json`](vendors/grc-security.json) |
-| 3 | `ai-governance` | AI Governance | EU AI Act, ISO 42001, NIST AI RMF — inventaire IA, risques, artefacts | [`ai-governance.json`](vendors/ai-governance.json) |
-| 4 | `document-idp` | IDP & extraction documentaire | PDF/images → données structurées, OCR, schémas JSON | [`document-idp.json`](vendors/document-idp.json) |
-| 5 | `parsing-inbox` | Parsing email & inbox | Email/PDF entrants → champs structurés, webhooks | [`parsing-inbox.json`](vendors/parsing-inbox.json) |
-| 6 | `ai-copilot-dev` | Copilots IA & dev tools | Assistants par siège, code, productivité équipe | [`ai-copilot-dev.json`](vendors/ai-copilot-dev.json) |
-| 7 | `support-sales-agents` | Agents support & sales | Résolution, qualification, SDR — souvent pricing au résultat | [`support-sales-agents.json`](vendors/support-sales-agents.json) |
-| 8 | `automation-platforms` | Plateformes d'automatisation | Zapier, Make, n8n — workflows + intégrations | [`automation-platforms.json`](vendors/automation-platforms.json) |
-| 9 | `compliance-to-spec` | Réglementation → spec produit | Traduction vers backlog logiciel testable — niche émergente | [`compliance-to-spec.json`](vendors/compliance-to-spec.json) |
+| ID | Label | Fichier |
+|---|---|---|
+| `regtech` | RegTech — veille & obligations | [`regtech.json`](vendors/regtech.json) |
+| `regulatory-reporting-eu` | Reporting réglementaire EU (e-invoicing…) | [`regulatory-reporting-eu.json`](vendors/regulatory-reporting-eu.json) |
+| `grc-security` | GRC & conformité sécurité | [`grc-security.json`](vendors/grc-security.json) |
+| `privacy-consent` | Privacy & consent management | [`privacy-consent.json`](vendors/privacy-consent.json) |
+| `ai-governance` | AI Governance | [`ai-governance.json`](vendors/ai-governance.json) |
+| `compliance-to-spec` | Réglementation → spec produit | [`compliance-to-spec.json`](vendors/compliance-to-spec.json) |
+| `accessibility-compliance` | Accessibilité numérique (WCAG/RGAA) | [`accessibility-compliance.json`](vendors/accessibility-compliance.json) |
+
+### Documents & données non structurées
+
+| ID | Label | Fichier |
+|---|---|---|
+| `document-idp` | IDP & extraction documentaire | [`document-idp.json`](vendors/document-idp.json) |
+| `parsing-inbox` | Parsing email & inbox | [`parsing-inbox.json`](vendors/parsing-inbox.json) |
+
+### IA au travail
+
+| ID | Label | Fichier |
+|---|---|---|
+| `ai-productivity` | Productivité IA métier (hors dev) | [`ai-productivity.json`](vendors/ai-productivity.json) |
+| `ai-copilot-dev` | Copilots IA & dev tools | [`ai-copilot-dev.json`](vendors/ai-copilot-dev.json) |
+| `rag-knowledge` | RAG & knowledge enterprise | [`rag-knowledge.json`](vendors/rag-knowledge.json) |
+
+### Automatisation & agents
+
+| ID | Label | Fichier |
+|---|---|---|
+| `automation-platforms` | Plateformes d'automatisation | [`automation-platforms.json`](vendors/automation-platforms.json) |
+| `support-sales-agents` | Agents support & sales | [`support-sales-agents.json`](vendors/support-sales-agents.json) |
+| `voice-speech-ai` | Voix & speech IA | [`voice-speech-ai.json`](vendors/voice-speech-ai.json) |
+
+### Verticaux métier
+
+| ID | Label | Fichier |
+|---|---|---|
+| `finance-accounting-ai` | Finance & compta IA | [`finance-accounting-ai.json`](vendors/finance-accounting-ai.json) |
+| `legal-contract-ai` | Legal & contract AI | [`legal-contract-ai.json`](vendors/legal-contract-ai.json) |
+| `hr-talent-ai` | RH & talent IA | [`hr-talent-ai.json`](vendors/hr-talent-ai.json) |
+
+### Données B2B
+
+| ID | Label | Fichier |
+|---|---|---|
+| `data-enrichment-b2b` | Enrichissement données B2B | [`data-enrichment-b2b.json`](vendors/data-enrichment-b2b.json) |
+
+### France / secteur public
+
+| ID | Label | Fichier |
+|---|---|---|
+| `public-procurement-intel` | Intelligence marchés publics | [`public-procurement-intel.json`](vendors/public-procurement-intel.json) |
+| `territorial-analytics` | Analytics territoriales & open data | [`territorial-analytics.json`](vendors/territorial-analytics.json) |
 
 Un vendeur peut appartenir à **plusieurs segments** (`segments: []` dans l'entrée JSON).
 
 ---
 
-## État du remplissage (vague 2 — 2026-06-22)
+## État du remplissage (vague 3 — 2026-06-22)
 
-| Segment | Entrées | Statut |
-|---|---:|---|
-| `grc-security` | 27 | peuplé |
-| `document-idp` | 24 | peuplé |
-| `ai-governance` | 20 | peuplé |
-| `regtech` | 17 | peuplé |
-| `automation-platforms` | 12 | peuplé |
-| `ai-copilot-dev` | 11 | peuplé |
-| `support-sales-agents` | 11 | peuplé |
-| `compliance-to-spec` | 10 | peuplé |
-| `parsing-inbox` | 9 | peuplé |
+**162 vendeurs uniques** · **21 segments** · **12 nouveaux segments** (vague 3)
 
-**Total recensé : 114 vendeurs uniques** (un acteur peut compter dans plusieurs segments).
-
-Vague 2 : +46 entrées via `scripts/enrich_catalogue_v2.py`.
+| Segment | Entrées |
+|---|---:|
+| `grc-security` | 28 |
+| `document-idp` | 24 |
+| `ai-governance` | 20 |
+| `regtech` | 17 |
+| `automation-platforms` | 12 |
+| `support-sales-agents` | 12 |
+| `ai-copilot-dev` | 11 |
+| `compliance-to-spec` | 10 |
+| `parsing-inbox` | 9 |
+| `territorial-analytics` | 6 |
+| `ai-productivity` | 5 |
+| `voice-speech-ai` | 5 |
+| *10 segments à 4 entrées* | 4 chacun |
 
 ---
 
@@ -54,19 +98,15 @@ Vague 2 : +46 entrées via `scripts/enrich_catalogue_v2.py`.
 ```bash
 python3 scripts/catalogue_saas.py validate
 python3 scripts/catalogue_saas.py stats
+python3 scripts/seed_catalogue_segments_v3.py   # graines nouveaux segments
 python3 scripts/catalogue_saas.py export -o catalogue-saas/exports/vendors.csv
-python3 scripts/catalogue_saas.py build-db
 ```
 
 ## Enrichir
 
-1. Choisir un segment dans le tableau ci-dessus.
+1. Choisir un **segment** (tableau ci-dessus).
 2. Ajouter une entrée dans `vendors/<segment>.json`.
-3. Renseigner `source_url` + `source_consulted_at` (obligatoire).
-4. Lancer `validate` avant commit.
+3. Renseigner `source_url` + `source_consulted_at`.
+4. `python3 scripts/catalogue_saas.py validate` avant commit.
 
-## Limites
-
-- Non exhaustif : objectif veille, pas annuaire mondial.
-- `partial` = profil ou pricing à reconfirmer sur le site officiel.
-- Ne pas utiliser `unverified` pour scorer une fiche idée.
+Pour proposer un **nouveau segment** : l'ajouter dans `taxonomy.json` (avec `category`) puis créer le fichier `vendors/<id>.json`.

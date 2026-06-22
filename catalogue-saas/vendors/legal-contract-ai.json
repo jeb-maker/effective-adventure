@@ -1,0 +1,86 @@
+{
+  "segment": "legal-contract-ai",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "harvey-ai",
+      "name": "Harvey",
+      "url": "https://www.harvey.ai/",
+      "segments": [
+        "legal-contract-ai"
+      ],
+      "description": "IA juridique enterprise : recherche, rédaction, workflows cabinets et legal ops.",
+      "capabilities": [
+        "legal_research",
+        "drafting",
+        "enterprise_legal"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.harvey.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ironclad",
+      "name": "Ironclad",
+      "url": "https://ironcladapp.com/",
+      "segments": [
+        "legal-contract-ai"
+      ],
+      "description": "CLM : création, négociation, signature et analyse contractuelle.",
+      "capabilities": [
+        "clm",
+        "contract_workflow",
+        "ai_review"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://ironcladapp.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "luminance",
+      "name": "Luminance",
+      "url": "https://www.luminance.com/",
+      "segments": [
+        "legal-contract-ai"
+      ],
+      "description": "Due diligence et revue contractuelle IA pour legal teams.",
+      "capabilities": [
+        "contract_review",
+        "due_diligence",
+        "anomaly_detection"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.luminance.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "spellbook",
+      "name": "Spellbook",
+      "url": "https://www.spellbook.legal/",
+      "segments": [
+        "legal-contract-ai"
+      ],
+      "description": "Copilot rédaction contractuelle dans Microsoft Word pour avocats.",
+      "capabilities": [
+        "contract_drafting",
+        "word_plugin",
+        "clause_library"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.spellbook.legal/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
+}

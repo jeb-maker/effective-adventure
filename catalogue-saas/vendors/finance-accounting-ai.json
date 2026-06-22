@@ -1,0 +1,87 @@
+{
+  "segment": "finance-accounting-ai",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "vic-ai",
+      "name": "Vic.ai",
+      "url": "https://www.vic.ai/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "AP automation IA : traitement factures, codage comptable, approbations.",
+      "capabilities": [
+        "invoice_processing",
+        "ap_automation",
+        "gl_coding"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.vic.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "bill-com",
+      "name": "BILL",
+      "url": "https://www.bill.com/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "AP/AR et paiements PME avec automatisation factures et workflows.",
+      "capabilities": [
+        "ap_ar",
+        "payments",
+        "invoice_workflows"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "us",
+      "source_url": "https://www.bill.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ramp",
+      "name": "Ramp",
+      "url": "https://ramp.com/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Cartes dépenses + automatisation compta et détection anomalies.",
+      "capabilities": [
+        "expense_management",
+        "accounting_automation",
+        "cards"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "us",
+      "source_url": "https://ramp.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pennylane",
+      "name": "Pennylane",
+      "url": "https://www.pennylane.com/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Compta/finance PME française avec automatisation et cabinet comptable intégré.",
+      "capabilities": [
+        "accounting",
+        "invoicing",
+        "france",
+        "ai_assist"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "source_url": "https://www.pennylane.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
+}

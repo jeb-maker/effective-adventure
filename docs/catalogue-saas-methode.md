@@ -49,6 +49,8 @@ scripts/catalogue_saas.py
 
 **Principe** : JSON = source de vérité ; SQLite/CSV = vues dérivées générées par script.
 
+La taxonomie complète (21 segments, 10 catégories) est dans [`catalogue-saas/taxonomy.json`](../catalogue-saas/taxonomy.json). Voir [`catalogue-saas/README.md`](../catalogue-saas/README.md) pour la liste à jour.
+
 ---
 
 ## 3. Schéma d'une entrée

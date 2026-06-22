@@ -1,0 +1,87 @@
+{
+  "segment": "regulatory-reporting-eu",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "sovos",
+      "name": "Sovos",
+      "url": "https://sovos.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Tax compliance et e-invoicing globale ; conformité facturation électronique multi-pays.",
+      "capabilities": [
+        "e_invoicing",
+        "vat_reporting",
+        "statutory_reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://sovos.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pagero",
+      "name": "Pagero",
+      "url": "https://www.pagero.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Réseau e-invoicing et conformité documentaire B2B/B2G en Europe.",
+      "capabilities": [
+        "peppol",
+        "e_invoicing",
+        "order_to_cash"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "source_url": "https://www.pagero.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "chorus-pro",
+      "name": "Chorus Pro",
+      "url": "https://chorus-pro.gouv.fr/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Plateforme publique française de facturation électronique secteur public.",
+      "capabilities": [
+        "e_invoicing_public",
+        "b2g",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "pricing_notes": "Service public ; gratuit pour utilisateurs éligibles.",
+      "target_market": "enterprise",
+      "geography": "france",
+      "source_url": "https://chorus-pro.gouv.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified"
+    },
+    {
+      "id": "stripe-tax",
+      "name": "Stripe Tax",
+      "url": "https://stripe.com/tax",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Calcul et collecte taxes automatiques pour SaaS et e-commerce.",
+      "capabilities": [
+        "tax_calculation",
+        "vat",
+        "reporting"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://stripe.com/tax",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
+}

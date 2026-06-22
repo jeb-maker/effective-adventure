@@ -1,0 +1,89 @@
+{
+  "segment": "territorial-analytics",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "datagouv",
+      "name": "data.gouv.fr",
+      "url": "https://www.data.gouv.fr/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Portail open data France ; base pour observatoires et réutilisations territoriales.",
+      "capabilities": [
+        "open_data",
+        "api",
+        "france",
+        "datasets"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "source_url": "https://www.data.gouv.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified"
+    },
+    {
+      "id": "georisques",
+      "name": "Géorisques",
+      "url": "https://www.georisques.gouv.fr/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Portail public risques environnementaux par adresse/territoire.",
+      "capabilities": [
+        "environmental_risks",
+        "open_data",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "source_url": "https://www.georisques.gouv.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified"
+    },
+    {
+      "id": "ofgl",
+      "name": "OFGL Observatoire",
+      "url": "https://www.ofgl.fr/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Observatoire finances locales des collectivités françaises.",
+      "capabilities": [
+        "local_finance",
+        "benchmark",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "source_url": "https://www.ofgl.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "notes": "Concurrent/service public cité idée 0020."
+    },
+    {
+      "id": "cartes-gouv",
+      "name": "Géoportail / cartes.gouv.fr",
+      "url": "https://cartes.gouv.fr/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Infrastructure cartographique publique française (IGN).",
+      "capabilities": [
+        "maps",
+        "geodata",
+        "france",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "source_url": "https://cartes.gouv.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified"
+    }
+  ]
+}

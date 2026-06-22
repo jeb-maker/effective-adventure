@@ -1,0 +1,89 @@
+{
+  "segment": "public-procurement-intel",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "marchespublics-ai",
+      "name": "marchespublics.ai",
+      "url": "https://marchespublics.ai/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille et analyse marchés publics français assistée IA.",
+      "capabilities": [
+        "ao_monitoring",
+        "france",
+        "ai_analysis"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "source_url": "https://marchespublics.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Concurrent cité dans revue idée 0001 du dépôt."
+    },
+    {
+      "id": "maitre-ao",
+      "name": "Maître AO",
+      "url": "https://www.maitre-ao.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Plateforme veille appels d'offres publics France.",
+      "capabilities": [
+        "ao_alerts",
+        "france",
+        "tenders"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "source_url": "https://www.maitre-ao.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Concurrent cité dans revue idée 0001."
+    },
+    {
+      "id": "aws-boamp",
+      "name": "BOAMP (open data)",
+      "url": "https://www.boamp.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Bulletin officiel annonces marchés publics ; flux open data via data.gouv.fr.",
+      "capabilities": [
+        "official_tenders",
+        "open_data",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "pricing_notes": "Source publique gratuite.",
+      "target_market": "self_serve",
+      "geography": "france",
+      "source_url": "https://www.data.gouv.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified"
+    },
+    {
+      "id": "achatpublic",
+      "name": "PLACE (achatpublic.com)",
+      "url": "https://www.achatpublic.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Plateforme dématérialisation marchés publics côté acheteurs.",
+      "capabilities": [
+        "e_procurement",
+        "france",
+        "public_buyers"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "source_url": "https://www.achatpublic.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
+}
