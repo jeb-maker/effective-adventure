@@ -104,6 +104,44 @@ Le seed (SIRENE + BODACC + DECP + RGE + dirigeants → scoring fournisseur) est 
 
 **Espace libre résiduel (étroit)** : un angle **ultra-spécialisé** non couvert par les généralistes — ex. scoring « conformité achats publics » croisant DECP + RGE + procédures pour **fournisseurs BTP/énergie** uniquement, avec traçabilité audit. Même là, Pappers + DECP manuel + Annuaire couvrent 80 % du besoin sans abonnement.
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0022-due-diligence-tiers` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `kyc-aml` — KYC / AML / identity
+
+Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/kyc-aml.json) (5 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `onfido` | Onfido | GB | partial | partial |
+| `sumsub` | Sumsub | US | partial | partial |
+| `jumio` | Jumio | US | partial | partial |
+| `complyadvantage` | ComplyAdvantage | US | partial | partial |
+| `seon` | SEON | US | partial | partial |
+
+#### Segment `data-enrichment-b2b` — Enrichissement données B2B
+
+Fichier : [`catalogue-saas/vendors/data-enrichment-b2b.json`](../../catalogue-saas/vendors/data-enrichment-b2b.json) (5 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `apollo-io` | Apollo.io | unknown | unknown | partial |
+| `clearbit` | Clearbit (HubSpot) | US | partial | partial |
+| `pappers` | Pappers | FR | strong | partial |
+| `zoominfo` | ZoomInfo | US | partial | partial |
+| `lusha` | Lusha | IL | partial | partial |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment kyc-aml
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 
 **Pourquoi nous ?** — Aucune différenciation défendable identifiée sur le périmètre du seed.

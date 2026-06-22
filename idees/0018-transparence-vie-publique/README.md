@@ -110,6 +110,53 @@ d'API officielle) ou un croisement systématique HATVP × financement CNCCFP ×
 marchés publics mieux qualifié que VigiCité. Mais c'est une optimisation de
 l'existant, pas un créneau vierge.
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0018-transparence-vie-publique` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `electoral-data-fr` — Données électorales FR
+
+Fichier : [`catalogue-saas/vendors/electoral-data-fr.json`](../../catalogue-saas/vendors/electoral-data-fr.json) (9 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `data-gouv-elections` | data.gouv.fr — élections | FR | strong | partial |
+| `registre-perma` | Registre des représentants d'intérêts (ref transparence) | FR | strong | partial |
+| `contexte` | Contexte | FR | strong | partial |
+| `regards-citoyens` | Regards Citoyens | FR | strong | partial |
+| `poligma` | Poligma | FR | strong | partial |
+| `uk-electoral-commission` | UK Electoral Commission — Open Data | GB | absent | partial |
+| `mit-election-lab` | MIT Election Data and Science Lab | US | absent | partial |
+| `elections-europe` | European Parliament — Elections data | EU | partial | partial |
+| `ballotpedia-data` | Ballotpedia | US | absent | partial |
+
+#### Segment `civic-tech-fr` — Civic tech France
+
+Fichier : [`catalogue-saas/vendors/civic-tech-fr.json`](../../catalogue-saas/vendors/civic-tech-fr.json) (10 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `decidim` | Decidim | ES | partial | partial |
+| `cap-collectif` | Cap Collectif | FR | strong | partial |
+| `make-org` | Make.org | FR | strong | partial |
+| `open-source-politics` | Open Source Politics | FR | strong | partial |
+| `respublica` | République & Canton de Genève — outils (ref civic) | unknown | partial | partial |
+| `citizenlab` | CitizenLab | BE | partial | partial |
+| `consul-project` | CONSUL Democracy | ES | partial | partial |
+| `bang-the-table` | Bang the Table (EngagementHQ) | AU | absent | partial |
+| `commonplace-uk` | Commonplace | GB | absent | partial |
+| `polis-co` | Polis | US | absent | partial |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment electoral-data-fr
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 Faible et peu défendable. Tout ce que propose le seed (croisement intérêts ×
 lobbying × marchés, score d'élu, « qui influence quoi ») est **déjà livré

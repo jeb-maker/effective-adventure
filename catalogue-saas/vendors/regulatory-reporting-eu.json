@@ -113,6 +113,34 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "avalara",
+      "name": "Avalara",
+      "url": "https://www.avalara.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Conformité taxe et e-invoicing globale ; reporting statutaire multi-juridictions EU.",
+      "capabilities": [
+        "e_invoicing",
+        "vat_compliance",
+        "statutory_reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5e-retrospective",
+      "source_url": "https://www.avalara.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

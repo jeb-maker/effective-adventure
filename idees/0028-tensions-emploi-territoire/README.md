@@ -69,6 +69,46 @@ data.gouv.fr (MàJ déc. 2025) ; accès nécessite inscription portail France Tr
 - **CCI études de marché** : prestation humaine, pas self-service
 - **À creuser** : APIs France Travail déjà intégrées dans outils RH (Talentsoft, etc.)
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0028-tensions-emploi-territoire` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `territorial-analytics` — Analytics territoriales
+
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (8 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `datagouv` | data.gouv.fr | FR | strong | verified |
+| `georisques` | Géorisques | FR | strong | verified |
+| `ofgl` | OFGL Observatoire | FR | strong | verified |
+| `cartes-gouv` | Géoportail / cartes.gouv.fr | FR | strong | verified |
+| `data-gov-uk` | data.gov.uk | GB | absent | partial |
+| `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
+| `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
+| `carto-territorial` | CARTO | ES | partial | partial |
+
+#### Segment `hr-talent-ai` — RH & talent IA
+
+Fichier : [`catalogue-saas/vendors/hr-talent-ai.json`](../../catalogue-saas/vendors/hr-talent-ai.json) (4 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `paradox-olivia` | Paradox (Olivia) | US | partial | partial |
+| `eightfold` | Eightfold AI | US | partial | partial |
+| `hirevue` | HireVue | US | partial | partial |
+| `textio` | Textio | US | partial | partial |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment territorial-analytics
+```
+
+<!-- catalogue-saas-end -->
 ## 6. Faisabilité & fiabilité technique
 
 - Ingestion périodique APIs FT (après OAuth) + stock SIRENE + FiLoSoFi → DuckDB.

@@ -102,6 +102,47 @@ mobilité) avec API + scoring sur critères clients ; (b) **anti-classement** :
 aide à la décision pédagogique/déontologique (lecture de la valeur ajoutée, mise
 en garde contre l'IPS comme proxy de « niveau »), créneau peu rentable.
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0013-choisir-son-ecole` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `territorial-analytics` — Analytics territoriales
+
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (8 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `datagouv` | data.gouv.fr | FR | strong | verified |
+| `georisques` | Géorisques | FR | strong | verified |
+| `ofgl` | OFGL Observatoire | FR | strong | verified |
+| `cartes-gouv` | Géoportail / cartes.gouv.fr | FR | strong | verified |
+| `data-gov-uk` | data.gov.uk | GB | absent | partial |
+| `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
+| `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
+| `carto-territorial` | CARTO | ES | partial | partial |
+
+#### Segment `learning-lxp` — Formation & LXP
+
+Fichier : [`catalogue-saas/vendors/learning-lxp.json`](../../catalogue-saas/vendors/learning-lxp.json) (5 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `docebo` | Docebo | US | partial | partial |
+| `360learning` | 360Learning | FR | strong | partial |
+| `cornerstone` | Cornerstone OnDemand | US | partial | partial |
+| `degreed` | Degreed | US | partial | partial |
+| `absorb-lms` | Absorb LMS | US | partial | partial |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment territorial-analytics
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 Faible et **copiable en un week-end** — et déjà copié plusieurs fois. Le pipeline
 (annuaire + IPS + IVAL/IVAC joints par UAI, carte, fiche, comparateur 4 étabts)

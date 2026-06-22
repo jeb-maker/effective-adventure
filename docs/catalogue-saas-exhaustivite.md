@@ -73,7 +73,8 @@ Segment **non clos** tant que < 4 types sont renseignés dans `coverage-matrix.j
 | **V5b** | Pilote L3 `compliance-to-spec` | Fait |
 | **V5c** | L2 `regtech`, `document-idp`, `ai-governance` | Fait |
 | **V5d** | Équivalents internationaux `france-*` (+41) | Fait |
-| V5e | Long tail + revue trimestrielle | Continu |
+| **V5e** | Coverage L2 rétrospectif + liaison 28 idées | Fait |
+| Maintenance | Long tail, revue trimestrielle, passes ciblées | Continu |
 
 ---
 
@@ -85,6 +86,9 @@ python3 scripts/tag_catalogue_geography_v5a.py
 
 # Pilote L3 compliance-to-spec
 python3 scripts/enrich_compliance_to_spec_v5b.py
+
+# Liaison fiches idées
+python3 scripts/sync_idees_catalogue.py
 
 # Rapports
 python3 scripts/catalogue_saas.py coverage

@@ -173,6 +173,46 @@ explicitement le seed ; plusieurs en produit B2G commercial self-service.
 - **Intégration profonde au SI acheteur** (historique interne + DECP) : marché
   des éditeurs MPE (Atexo, Ordiges), barrière d'entrée forte.
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0019-sourcing-achat-public` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `public-procurement-intel` — Intelligence marchés publics
+
+Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalogue-saas/vendors/public-procurement-intel.json) (8 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `marchespublics-ai` | marchespublics.ai | FR | strong | partial |
+| `maitre-ao` | Maître AO | FR | strong | partial |
+| `aws-boamp` | BOAMP (open data) | FR | strong | verified |
+| `achatpublic` | PLACE (achatpublic.com) | FR | strong | partial |
+| `tussell` | Tussell | GB | absent | partial |
+| `spend-network` | Spend Network | GB | absent | partial |
+| `govwin-deltek` | GovWin (Deltek) | US | absent | partial |
+| `open-contracting-partnership` | Open Contracting Partnership | GB | unknown | partial |
+
+#### Segment `spend-procurement` — Spend & procurement
+
+Fichier : [`catalogue-saas/vendors/spend-procurement.json`](../../catalogue-saas/vendors/spend-procurement.json) (4 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `coupa` | Coupa | US | partial | partial |
+| `zip` | Zip | US | partial | partial |
+| `procurify` | Procurify | US | partial | partial |
+| `spendesk` | Spendesk | FR | strong | partial |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment public-procurement-intel
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 **Quasi inexistante** pour le périmètre du seed. Les trois piliers annoncés —
 benchmark prix DECP par CPV, sourcing fournisseurs, acheteurs comparables — sont

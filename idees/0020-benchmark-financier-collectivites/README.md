@@ -85,6 +85,47 @@ La douleur est **réelle et récurrente** : comprendre si sa dette, son épargne
 | Gratuit institutionnel | **Très présent** — OFGL, Collectiv'Finances, LocalOpen |
 | Espace libre éventuel | **Très étroit** : alertes mandat + narration IA pédagogique pour élus non-financiers, **sans** payer ni dupliquer l'OFGL — et Manty/LocalNova y investissent déjà. |
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0020-benchmark-financier-collectivites` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `territorial-analytics` — Analytics territoriales
+
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (8 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `datagouv` | data.gouv.fr | FR | strong | verified |
+| `georisques` | Géorisques | FR | strong | verified |
+| `ofgl` | OFGL Observatoire | FR | strong | verified |
+| `cartes-gouv` | Géoportail / cartes.gouv.fr | FR | strong | verified |
+| `data-gov-uk` | data.gov.uk | GB | absent | partial |
+| `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
+| `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
+| `carto-territorial` | CARTO | ES | partial | partial |
+
+#### Segment `treasury-fpa` — Trésorerie & FP&A
+
+Fichier : [`catalogue-saas/vendors/treasury-fpa.json`](../../catalogue-saas/vendors/treasury-fpa.json) (5 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `anaplan` | Anaplan | US | partial | partial |
+| `pigment` | Pigment | FR | strong | partial |
+| `drivetrain` | Drivetrain | US | partial | partial |
+| `cube-software` | Cube | US | partial | partial |
+| `mosaic-tech` | Mosaic | US | partial | partial |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment territorial-analytics
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 
 Promesses possibles de l'idée 0020 vs l'existant :

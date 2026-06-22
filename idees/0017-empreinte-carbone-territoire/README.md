@@ -106,6 +106,64 @@ manuelle, là où les outils existants exigent une saisie lourde. Mais ce créne
 recoupe les observatoires régionaux (AASQA, observatoires énergie-climat,
 *existence à vérifier au cas par cas*).
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0017-empreinte-carbone-territoire` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `esg-csrd` — ESG & reporting extra-financier
+
+Fichier : [`catalogue-saas/vendors/esg-csrd.json`](../../catalogue-saas/vendors/esg-csrd.json) (5 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `watershed` | Watershed | US | partial | partial |
+| `persefoni` | Persefoni | US | partial | partial |
+| `normative` | Normative | US | partial | partial |
+| `greenly` | Greenly | FR | partial | partial |
+| `workiva-esg` | Workiva | US | partial | partial |
+
+#### Segment `environmental-data-fr` — Environnement & risques FR
+
+Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-saas/vendors/environmental-data-fr.json) (9 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `atmo-france` | Atmo France | FR | strong | partial |
+| `hub-eau` | Hub'Eau | FR | strong | partial |
+| `inpn` | INPN (OFB) | FR | strong | partial |
+| `brgm-infoterre` | BRGM InfoTerre | FR | strong | partial |
+| `georisques-api` | Géorisques | FR | strong | partial |
+| `uk-environment-agency` | UK Environment Agency — Open Data | GB | absent | partial |
+| `eea-europe` | European Environment Agency | EU | partial | partial |
+| `copernicus-land` | Copernicus Land Monitoring | EU | partial | partial |
+| `us-epa-envirofacts` | US EPA Envirofacts | US | absent | partial |
+
+#### Segment `energy-buildings-fr` — Bâtiments & énergie FR
+
+Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-saas/vendors/energy-buildings-fr.json) (9 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `openmeti` | OpenMéti | FR | strong | partial |
+| `ademe-data` | ADEME — data services | FR | strong | partial |
+| `effy-pro` | Effy Pro | FR | strong | partial |
+| `hub-anah` | Anah — Hub rénovation | FR | strong | partial |
+| `heero` | Heero | FR | strong | partial |
+| `uk-epc-register` | UK EPC Register | GB | absent | partial |
+| `building-performance-database` | Building Performance Database (US DOE) | US | absent | partial |
+| `dena-gebaeudedaten` | dena — Gebäudedaten (DE) | DE | unknown | partial |
+| `gridx-energy` | gridX | DE | partial | partial |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment esg-csrd
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 Faible et **peu défendable en l'état**. Le seed (facteurs ADEME ouverts +
 énergie locale) est exactement ce que font déjà tous les acteurs : les facteurs

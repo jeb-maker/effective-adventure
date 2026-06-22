@@ -117,6 +117,35 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "cookiebot",
+      "name": "Cookiebot (Usercentrics)",
+      "url": "https://www.cookiebot.com/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "CMP cookies ; scan, consentement et conformité ePrivacy/GDPR.",
+      "capabilities": [
+        "cmp",
+        "cookie_scan",
+        "consent",
+        "gdpr"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "DK",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5e-retrospective",
+      "source_url": "https://www.cookiebot.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

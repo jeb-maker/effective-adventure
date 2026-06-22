@@ -70,6 +70,52 @@ dans le cadre d'un diagnostic territorial — pas l'agriculteur individuel.
 - **Télépac / RPG** (portail agriculteur) : déclaration PAC, pas croisement risques
 - **À creuser** : outils chambres d'agriculture, SIG internes DDT
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0026-exposition-parcelles-agricoles` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `geospatial-gis-fr` — Géospatial & carto FR
+
+Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas/vendors/geospatial-gis-fr.json) (9 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `geofoncier` | Géofoncier | FR | strong | partial |
+| `alkante` | Alkante | FR | strong | partial |
+| `ign-geoservices` | IGN Géoservices | FR | strong | partial |
+| `cartelie` | Cartélie (IGN) | FR | strong | partial |
+| `opendatasoft-geo` | Opendatasoft | FR | strong | partial |
+| `ordnance-survey` | Ordnance Survey | GB | absent | partial |
+| `esri-arcgis` | Esri ArcGIS | US | partial | partial |
+| `mapbox` | Mapbox | US | partial | partial |
+| `here-technologies` | HERE Technologies | NL | partial | partial |
+
+#### Segment `environmental-data-fr` — Environnement & risques FR
+
+Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-saas/vendors/environmental-data-fr.json) (9 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `atmo-france` | Atmo France | FR | strong | partial |
+| `hub-eau` | Hub'Eau | FR | strong | partial |
+| `inpn` | INPN (OFB) | FR | strong | partial |
+| `brgm-infoterre` | BRGM InfoTerre | FR | strong | partial |
+| `georisques-api` | Géorisques | FR | strong | partial |
+| `uk-environment-agency` | UK Environment Agency — Open Data | GB | absent | partial |
+| `eea-europe` | European Environment Agency | EU | partial | partial |
+| `copernicus-land` | Copernicus Land Monitoring | EU | partial | partial |
+| `us-epa-envirofacts` | US EPA Envirofacts | US | absent | partial |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment geospatial-gis-fr
+```
+
+<!-- catalogue-saas-end -->
 ## 6. Faisabilité & fiabilité technique
 
 - Stack : PostGIS (RPG + PCI + couches Géorisques en shapefile) + appels Hub'Eau

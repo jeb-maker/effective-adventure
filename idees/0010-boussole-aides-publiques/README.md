@@ -95,6 +95,52 @@ transparence des subventions *versées*** (qui touche combien, à qui, où) à p
 et de Chorus — angle « radar » chiffré et factuel, analogue à l'idée 0001 (commande
 publique), plutôt qu'un énième agrégateur d'éligibilité.
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0010-boussole-aides-publiques` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `territorial-analytics` — Analytics territoriales
+
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (8 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `datagouv` | data.gouv.fr | FR | strong | verified |
+| `georisques` | Géorisques | FR | strong | verified |
+| `ofgl` | OFGL Observatoire | FR | strong | verified |
+| `cartes-gouv` | Géoportail / cartes.gouv.fr | FR | strong | verified |
+| `data-gov-uk` | data.gov.uk | GB | absent | partial |
+| `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
+| `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
+| `carto-territorial` | CARTO | ES | partial | partial |
+
+#### Segment `civic-tech-fr` — Civic tech France
+
+Fichier : [`catalogue-saas/vendors/civic-tech-fr.json`](../../catalogue-saas/vendors/civic-tech-fr.json) (10 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `decidim` | Decidim | ES | partial | partial |
+| `cap-collectif` | Cap Collectif | FR | strong | partial |
+| `make-org` | Make.org | FR | strong | partial |
+| `open-source-politics` | Open Source Politics | FR | strong | partial |
+| `respublica` | République & Canton de Genève — outils (ref civic) | unknown | partial | partial |
+| `citizenlab` | CitizenLab | BE | partial | partial |
+| `consul-project` | CONSUL Democracy | ES | partial | partial |
+| `bang-the-table` | Bang the Table (EngagementHQ) | AU | absent | partial |
+| `commonplace-uk` | Commonplace | GB | absent | partial |
+| `polis-co` | Polis | US | absent | partial |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment territorial-analytics
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 Faible et peu défendable **dans la forme du seed**. Tous les acteurs puisent dans les
 mêmes données ouvertes ; le « matching IA SIRET → dispositifs » est déjà banalisé

@@ -50,6 +50,48 @@ transversal » :
   https://dawap.fr/actualites-developpement/integration-api-data-gouv-fr-services-publics-open-data
 (Sources consultées 2026-06-20.)
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0002-observatoire-qualite-donnees` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `open-data-governance-fr` — Gouvernance open data FR
+
+Fichier : [`catalogue-saas/vendors/open-data-governance-fr.json`](../../catalogue-saas/vendors/open-data-governance-fr.json) (9 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `opendatasoft` | Opendatasoft | FR | strong | partial |
+| `etalab-data-gouv` | Etalab / data.gouv.fr | FR | strong | partial |
+| `fairness` | Fairness | FR | strong | partial |
+| `toucan-toco` | Toucan Toco | FR | partial | partial |
+| `data-europa` | data.europa.eu | EU | partial | partial |
+| `socrata-tyler` | Socrata (Tyler Technologies) | US | absent | partial |
+| `ckan` | CKAN | GB | partial | partial |
+| `arcgis-hub` | ArcGIS Hub | US | partial | partial |
+| `data-gov-us` | Data.gov (US) | US | absent | partial |
+
+#### Segment `data-observability` — Data observability
+
+Fichier : [`catalogue-saas/vendors/data-observability.json`](../../catalogue-saas/vendors/data-observability.json) (5 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `monte-carlo` | Monte Carlo | US | partial | partial |
+| `great-expectations` | Great Expectations | unknown | unknown | partial |
+| `soda` | Soda | US | partial | partial |
+| `acceldata` | Acceldata | US | partial | partial |
+| `anomalo` | Anomalo | US | partial | partial |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment open-data-governance-fr
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 Le trou n'est ni « valider un fichier » (Validata) ni « noter les métadonnées »
 (data.gouv.fr), mais le **monitoring continu, transversal, orienté producteur** :

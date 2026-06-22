@@ -116,6 +116,32 @@ serait la **mise en conformité réglementaire** des ERP — mais ce créneau **
 pas alimenté par les données acceslibre** (déclaratif ≠ diagnostic réglementaire),
 donc il ne valide pas la seed.
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0016-accessibilite-handicap-erp` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `accessibility-compliance` — Accessibilité numérique
+
+Fichier : [`catalogue-saas/vendors/accessibility-compliance.json`](../../catalogue-saas/vendors/accessibility-compliance.json) (5 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `accessibility-checker` | Accessibility Checker | unknown | unknown | partial |
+| `deque-axe` | Deque axe DevTools | US | partial | partial |
+| `userway` | UserWay | unknown | unknown | partial |
+| `acceslibre` | Accès Libé (data.gouv.fr) | FR | strong | verified |
+| `level-access` | Level Access | US | partial | partial |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment accessibility-compliance
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 Quasi inexistante sur la seed telle quelle. Refaire « trouver un lieu accessible »,
 c'est **reconstruire le service public officiel** (acceslibre) avec une donnée

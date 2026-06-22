@@ -8,12 +8,12 @@ Généré depuis `taxonomy.json` — **68 segments**.
 | ID | Label | Vendeurs |
 |---|---|---:|
 | `regtech` | RegTech — veille & obligations | 29 |
-| `regulatory-reporting-eu` | Reporting réglementaire EU | 4 |
+| `regulatory-reporting-eu` | Reporting réglementaire EU | 5 |
 | `grc-security` | GRC & conformité sécurité | 38 |
-| `privacy-consent` | Privacy & consent management | 6 |
+| `privacy-consent` | Privacy & consent management | 7 |
 | `ai-governance` | AI Governance | 32 |
 | `compliance-to-spec` | Réglementation → spec produit | 29 |
-| `accessibility-compliance` | Accessibilité numérique | 4 |
+| `accessibility-compliance` | Accessibilité numérique | 5 |
 | `esg-csrd` | ESG & reporting extra-financier | 5 |
 | `kyc-aml` | KYC / AML / identity | 8 |
 | `pharma-regulatory` | Pharma & life sciences regulatory | 5 |
@@ -34,7 +34,7 @@ Généré depuis `taxonomy.json` — **68 segments**.
 |---|---|---:|
 | `llm-api-providers` | API LLM & modèles | 5 |
 | `model-inference-hosting` | Inference & hosting modèles | 5 |
-| `vector-databases` | Bases vectorielles | 5 |
+| `vector-databases` | Bases vectorielles | 6 |
 | `ai-evals-testing` | Evals & tests IA | 7 |
 | `agent-frameworks-platforms` | Frameworks & plateformes agents | 5 |
 
@@ -54,7 +54,7 @@ Généré depuis `taxonomy.json` — **68 segments**.
 |---|---|---:|
 | `ai-productivity` | Productivité IA métier | 5 |
 | `ai-copilot-dev` | Copilots IA & dev tools | 11 |
-| `rag-knowledge` | RAG & knowledge enterprise | 4 |
+| `rag-knowledge` | RAG & knowledge enterprise | 5 |
 | `project-work-management` | Gestion de projet & work OS | 6 |
 | `meeting-intelligence` | Meeting intelligence | 6 |
 
@@ -132,7 +132,7 @@ Généré depuis `taxonomy.json` — **68 segments**.
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `data-enrichment-b2b` | Enrichissement données B2B | 4 |
+| `data-enrichment-b2b` | Enrichissement données B2B | 5 |
 
 ## Data & analytics
 

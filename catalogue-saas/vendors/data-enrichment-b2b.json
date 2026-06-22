@@ -114,6 +114,35 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "lusha",
+      "name": "Lusha",
+      "url": "https://www.lusha.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Enrichissement contacts B2B ; emails, téléphones et firmographics via extension/API.",
+      "capabilities": [
+        "contact_enrichment",
+        "firmographics",
+        "api",
+        "chrome_extension"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5e-retrospective",
+      "source_url": "https://www.lusha.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

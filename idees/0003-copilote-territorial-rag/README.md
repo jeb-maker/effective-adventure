@@ -44,6 +44,59 @@ data.gouv.fr **avance déjà** sur l'IA :
   https://github.com/datagouv/datagouv-skill
 - MCP tiers (ex. recherche d'entreprises). (Consultés 2026-06-20.)
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0003-copilote-territorial-rag` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `territorial-analytics` — Analytics territoriales
+
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (8 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `datagouv` | data.gouv.fr | FR | strong | verified |
+| `georisques` | Géorisques | FR | strong | verified |
+| `ofgl` | OFGL Observatoire | FR | strong | verified |
+| `cartes-gouv` | Géoportail / cartes.gouv.fr | FR | strong | verified |
+| `data-gov-uk` | data.gov.uk | GB | absent | partial |
+| `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
+| `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
+| `carto-territorial` | CARTO | ES | partial | partial |
+
+#### Segment `rag-knowledge` — RAG & knowledge enterprise
+
+Fichier : [`catalogue-saas/vendors/rag-knowledge.json`](../../catalogue-saas/vendors/rag-knowledge.json) (5 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `glean` | Glean | US | partial | partial |
+| `dust` | Dust | FR | partial | partial |
+| `coveo` | Coveo | US | partial | partial |
+| `contextual-ai` | Contextual AI | US | partial | partial |
+| `vespa` | Vespa.ai | US | partial | partial |
+
+#### Segment `bi-analytics-platforms` — BI & analytics
+
+Fichier : [`catalogue-saas/vendors/bi-analytics-platforms.json`](../../catalogue-saas/vendors/bi-analytics-platforms.json) (5 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `tableau` | Tableau (Salesforce) | US | partial | partial |
+| `power-bi` | Microsoft Power BI | US | partial | partial |
+| `looker` | Looker (Google Cloud) | US | partial | partial |
+| `thoughtspot` | ThoughtSpot | US | partial | partial |
+| `mode-analytics` | Mode | US | partial | partial |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment territorial-analytics
+```
+
+<!-- catalogue-saas-end -->
 ## 6. Faisabilité & fiabilité technique
 Piège majeur : **mélanger RAG et chiffres**. data.gouv.fr le dit pour son propre
 MCP : réponses « approximatives ou erronées », « en aucun cas une source
