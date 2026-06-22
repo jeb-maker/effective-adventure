@@ -503,6 +503,295 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "fenergo",
+      "name": "Fenergo",
+      "url": "https://www.fenergo.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Client lifecycle management réglementaire ; KYC/AML et onboarding conformes pour banques et asset management.",
+      "capabilities": [
+        "clm",
+        "kyc_aml",
+        "regulatory_rules",
+        "onboarding"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "IE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.fenergo.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lseg-regulatory-intelligence",
+      "name": "LSEG Regulatory Intelligence",
+      "url": "https://www.lseg.com/en/data-analytics/products/regulatory-intelligence",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Veille réglementaire et bibliothèque d'obligations ; héritage Refinitiv/Thomson Reuters pour institutions financières.",
+      "capabilities": [
+        "regulatory_monitoring",
+        "obligations_library",
+        "horizon_scanning"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.lseg.com/en/data-analytics/products/regulatory-intelligence",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "encompass",
+      "name": "Encompass Corporation",
+      "url": "https://www.encompasscorporation.com/",
+      "segments": [
+        "regtech",
+        "kyc-aml"
+      ],
+      "description": "KYC et due diligence corporate ; workflows conformité pour onboarding client régulé.",
+      "capabilities": [
+        "kyc",
+        "corporate_dd",
+        "workflow",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.encompasscorporation.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "actico",
+      "name": "ACTICO",
+      "url": "https://www.actico.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Moteur de décision compliance ; règles métier réglementaires exécutables pour banque et assurance.",
+      "capabilities": [
+        "rules_engine",
+        "compliance_decisioning",
+        "aml",
+        "credit"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.actico.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "alyne",
+      "name": "Alyne",
+      "url": "https://www.alyne.com/",
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
+      "description": "GRC cloud EU ; cartographie risques/contrôles et veille réglementaire pour entreprises régulées.",
+      "capabilities": [
+        "grc",
+        "risk_mapping",
+        "regulatory_updates",
+        "controls"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.alyne.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "acaglobal",
+      "name": "ACA Group",
+      "url": "https://www.acaglobal.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Services et technologie regulatory compliance pour asset managers ; surveillance et reporting.",
+      "capabilities": [
+        "regulatory_compliance",
+        "surveillance",
+        "asset_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.acaglobal.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "nice-actimize",
+      "name": "NICE Actimize",
+      "url": "https://www.niceactimize.com/",
+      "segments": [
+        "regtech",
+        "kyc-aml"
+      ],
+      "description": "Plateforme financial crime : AML, fraude et conformité pour institutions financières.",
+      "capabilities": [
+        "aml",
+        "fraud_detection",
+        "trade_surveillance",
+        "case_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.niceactimize.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "waystone",
+      "name": "Waystone",
+      "url": "https://www.waystone.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Compliance et gouvernance pour gestionnaires d'actifs ; regulatory reporting et risk oversight.",
+      "capabilities": [
+        "fund_compliance",
+        "regulatory_reporting",
+        "governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "LU",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU",
+        "US"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.waystone.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hummingbird-regtech",
+      "name": "Hummingbird RegTech",
+      "url": "https://www.hummingbird.co/",
+      "segments": [
+        "regtech",
+        "kyc-aml"
+      ],
+      "description": "Investigation AML et compliance ops ; workflows cas et intelligence réglementaire.",
+      "capabilities": [
+        "aml_investigations",
+        "case_management",
+        "compliance_ops"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.hummingbird.co/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "aca-foreside",
+      "name": "ACA Foreside",
+      "url": "https://www.acaforeside.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Distribution compliance et regulatory filing pour fonds d'investissement US/EU.",
+      "capabilities": [
+        "distribution_compliance",
+        "regulatory_filing",
+        "funds"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.acaforeside.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

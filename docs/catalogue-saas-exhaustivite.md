@@ -71,7 +71,7 @@ Segment **non clos** tant que < 4 types sont renseignés dans `coverage-matrix.j
 | V1–V4 | 68 segments peuplés (L1) | Fait |
 | **V5a** | Schéma géo + tag rétrospectif 394 entrées | Fait |
 | **V5b** | Pilote L3 `compliance-to-spec` | Fait |
-| V5c | L2 saturation segments globaux (hors `france-*`) | À faire |
+| **V5c** | L2 `regtech`, `document-idp`, `ai-governance` | Fait |
 | V5d | Équivalents internationaux segments `france-*` | À faire |
 | V5e | Long tail + revue trimestrielle | Continu |
 

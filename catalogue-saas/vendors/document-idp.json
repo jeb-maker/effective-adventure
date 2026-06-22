@@ -652,6 +652,297 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "klippa",
+      "name": "Klippa",
+      "url": "https://www.klippa.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "OCR et extraction documentaire API ; factures, reçus, pièces d'identité vers JSON.",
+      "capabilities": [
+        "ocr",
+        "invoice_extraction",
+        "api",
+        "id_documents"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "NL",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.klippa.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "veryfi",
+      "name": "Veryfi",
+      "url": "https://www.veryfi.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Extraction OCR temps réel ; factures, reçus et documents comptables via API mobile-first.",
+      "capabilities": [
+        "ocr",
+        "receipt_capture",
+        "invoice_api",
+        "mobile_sdk"
+      ],
+      "pricing_model": "per_document",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.veryfi.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mindee",
+      "name": "Mindee",
+      "url": "https://www.mindee.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "API document parsing ; modèles pré-entraînés et custom pour factures, ID, baux.",
+      "capabilities": [
+        "document_api",
+        "prebuilt_models",
+        "custom_training"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.mindee.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ocrolus",
+      "name": "Ocrolus",
+      "url": "https://www.ocrolus.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Analyse documentaire fintech ; extraction données financières depuis relevés et formulaires.",
+      "capabilities": [
+        "financial_docs",
+        "bank_statements",
+        "fraud_signals",
+        "api"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.ocrolus.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "instabase",
+      "name": "Instabase",
+      "url": "https://www.instabase.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Plateforme document AI enterprise ; extraction, classification et workflows sur PDF non structurés.",
+      "capabilities": [
+        "document_ai",
+        "workflow",
+        "classification",
+        "enterprise"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.instabase.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "affinda",
+      "name": "Affinda",
+      "url": "https://www.affinda.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Parsing documents par IA ; CV, factures, contrats et formulaires via API.",
+      "capabilities": [
+        "resume_parsing",
+        "invoice_parsing",
+        "contract_extraction",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "AU",
+      "france_market": "partial",
+      "operating_regions": [
+        "AU",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.affinda.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "konfuzio",
+      "name": "Konfuzio",
+      "url": "https://konfuzio.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "IDP européen ; extraction et classification documents avec hébergement EU et fine-tuning.",
+      "capabilities": [
+        "idp",
+        "classification",
+        "eu_hosting",
+        "custom_models"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://konfuzio.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "infrrd",
+      "name": "Infrrd",
+      "url": "https://www.infrrd.ai/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "IDP intelligent ; extraction champs, validation et human-in-the-loop pour processus documentaires.",
+      "capabilities": [
+        "idp",
+        "field_extraction",
+        "human_in_loop",
+        "validation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.infrrd.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tungsten-automation",
+      "name": "Tungsten Automation (Kofax)",
+      "url": "https://www.tungstenautomation.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Capture intelligente et IDP enterprise ; OCR, classification et intégration ERP.",
+      "capabilities": [
+        "intelligent_capture",
+        "ocr",
+        "erp_integration",
+        "enterprise"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.tungstenautomation.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "base64-ai",
+      "name": "Base64.ai",
+      "url": "https://base64.ai/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "API extraction documents sans template ; modèles pré-construits pour formulaires et pièces d'identité.",
+      "capabilities": [
+        "no_template_extraction",
+        "api",
+        "id_documents",
+        "forms"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://base64.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

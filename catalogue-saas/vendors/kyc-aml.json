@@ -93,7 +93,8 @@
       "name": "ComplyAdvantage",
       "url": "https://complyadvantage.com/",
       "segments": [
-        "kyc-aml"
+        "kyc-aml",
+        "regtech"
       ],
       "description": "Screening sanctions, PEP et adverse media avec modèles ML pour réduire faux positifs.",
       "capabilities": [

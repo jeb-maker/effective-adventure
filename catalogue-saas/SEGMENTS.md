@@ -7,15 +7,15 @@ Généré depuis `taxonomy.json` — **68 segments**.
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `regtech` | RegTech — veille & obligations | 18 |
+| `regtech` | RegTech — veille & obligations | 29 |
 | `regulatory-reporting-eu` | Reporting réglementaire EU | 4 |
-| `grc-security` | GRC & conformité sécurité | 37 |
-| `privacy-consent` | Privacy & consent management | 4 |
-| `ai-governance` | AI Governance | 20 |
+| `grc-security` | GRC & conformité sécurité | 38 |
+| `privacy-consent` | Privacy & consent management | 6 |
+| `ai-governance` | AI Governance | 32 |
 | `compliance-to-spec` | Réglementation → spec produit | 29 |
 | `accessibility-compliance` | Accessibilité numérique | 4 |
 | `esg-csrd` | ESG & reporting extra-financier | 5 |
-| `kyc-aml` | KYC / AML / identity | 5 |
+| `kyc-aml` | KYC / AML / identity | 8 |
 | `pharma-regulatory` | Pharma & life sciences regulatory | 5 |
 
 ## Sécurité informatique
@@ -35,14 +35,14 @@ Généré depuis `taxonomy.json` — **68 segments**.
 | `llm-api-providers` | API LLM & modèles | 5 |
 | `model-inference-hosting` | Inference & hosting modèles | 5 |
 | `vector-databases` | Bases vectorielles | 5 |
-| `ai-evals-testing` | Evals & tests IA | 6 |
+| `ai-evals-testing` | Evals & tests IA | 7 |
 | `agent-frameworks-platforms` | Frameworks & plateformes agents | 5 |
 
 ## Documents & données
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `document-idp` | IDP & extraction documentaire | 24 |
+| `document-idp` | IDP & extraction documentaire | 34 |
 | `parsing-inbox` | Parsing email & inbox | 9 |
 | `e-signature` | Signature électronique | 5 |
 | `translation-localization` | Traduction & localisation | 5 |
@@ -139,7 +139,7 @@ Généré depuis `taxonomy.json` — **68 segments**.
 | ID | Label | Vendeurs |
 |---|---|---:|
 | `bi-analytics-platforms` | BI & analytics | 5 |
-| `data-observability` | Data observability | 5 |
+| `data-observability` | Data observability | 6 |
 
 ## France — secteur public
 

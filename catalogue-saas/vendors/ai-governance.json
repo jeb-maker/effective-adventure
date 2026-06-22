@@ -376,6 +376,358 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "monitaur",
+      "name": "Monitaur",
+      "url": "https://www.monitaur.ai/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "Gouvernance modèles ML lifecycle ; politiques, documentation et audit pour modèles en production.",
+      "capabilities": [
+        "model_governance",
+        "policy_enforcement",
+        "audit",
+        "lifecycle"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.monitaur.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "robust-intelligence",
+      "name": "Robust Intelligence (Cisco)",
+      "url": "https://www.robustintelligence.com/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "AI firewall et validation modèles ; détection vulnérabilités et enforcement policies runtime.",
+      "capabilities": [
+        "ai_firewall",
+        "model_validation",
+        "runtime_protection",
+        "red_teaming"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.robustintelligence.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hiddenlayer",
+      "name": "HiddenLayer",
+      "url": "https://hiddenlayer.com/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "Sécurité et gouvernance ML ; protection modèles, détection attaques et posture AI.",
+      "capabilities": [
+        "ml_security",
+        "model_protection",
+        "threat_detection"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://hiddenlayer.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "guardrails-ai",
+      "name": "Guardrails AI",
+      "url": "https://www.guardrailsai.com/",
+      "segments": [
+        "ai-governance",
+        "ai-evals-testing"
+      ],
+      "description": "Framework open-source guardrails LLM ; validation outputs, PII et policies en production.",
+      "capabilities": [
+        "guardrails",
+        "output_validation",
+        "pii_detection",
+        "open_source"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.guardrailsai.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lakera",
+      "name": "Lakera",
+      "url": "https://www.lakera.ai/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "Sécurité GenAI ; détection prompt injection, garde-fous API et monitoring LLM.",
+      "capabilities": [
+        "prompt_injection",
+        "api_security",
+        "llm_guardrails"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "CH",
+      "france_market": "partial",
+      "operating_regions": [
+        "CH",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.lakera.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fairly-ai",
+      "name": "Fairly AI",
+      "url": "https://www.fairly.ai/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "Audit et conformité AI Act ; évaluations risque, documentation et readiness réglementaire.",
+      "capabilities": [
+        "ai_act",
+        "risk_assessment",
+        "audit_documentation",
+        "compliance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "CA",
+      "france_market": "partial",
+      "operating_regions": [
+        "CA",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.fairly.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "securiti-ai",
+      "name": "Securiti.ai",
+      "url": "https://securiti.ai/",
+      "segments": [
+        "ai-governance",
+        "privacy-consent"
+      ],
+      "description": "Data + AI governance ; inventaire données/IA, DPIA et contrôles privacy pour LLM.",
+      "capabilities": [
+        "data_ai_governance",
+        "dsr",
+        "llm_privacy",
+        "inventory"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://securiti.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "whylabs",
+      "name": "WhyLabs",
+      "url": "https://whylabs.ai/",
+      "segments": [
+        "ai-governance",
+        "data-observability"
+      ],
+      "description": "Observability ML/LLM ; drift, data quality et monitoring modèles sans accès données brutes.",
+      "capabilities": [
+        "ml_observability",
+        "drift_detection",
+        "data_quality",
+        "llm_monitoring"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://whylabs.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "truera",
+      "name": "TruEra",
+      "url": "https://truera.com/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "AI quality et explainability ; diagnostics modèles, bias et monitoring performance.",
+      "capabilities": [
+        "explainability",
+        "model_diagnostics",
+        "bias_detection",
+        "monitoring"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://truera.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "immuta",
+      "name": "Immuta",
+      "url": "https://www.immuta.com/",
+      "segments": [
+        "ai-governance",
+        "privacy-consent"
+      ],
+      "description": "Data access governance ; policies données pour analytics et workloads IA enterprise.",
+      "capabilities": [
+        "data_access_control",
+        "policy_enforcement",
+        "data_masking",
+        "ai_workloads"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.immuta.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "verta-ai",
+      "name": "Verta",
+      "url": "https://www.verta.ai/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "Model catalog et gouvernance MLOps ; lineage, policies et déploiement gouverné.",
+      "capabilities": [
+        "model_catalog",
+        "mlops",
+        "lineage",
+        "governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.verta.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lumenova-ai",
+      "name": "Lumenova AI",
+      "url": "https://www.lumenova.ai/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "Plateforme AI governance ; inventaire use-cases IA, évaluations risque et workflows conformité.",
+      "capabilities": [
+        "ai_inventory",
+        "risk_evaluation",
+        "compliance_workflows",
+        "eu_ai_act"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.lumenova.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

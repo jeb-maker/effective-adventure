@@ -16,15 +16,52 @@
     "regtech": {
       "target_level": "L3",
       "sources": {
-        "g2": null,
-        "capterra": null,
-        "crunchbase": null,
-        "analyst_report": null,
-        "alternatives": null,
+        "g2": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 42,
+          "new_added": 8,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "capterra": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 25,
+          "new_added": 3,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "crunchbase": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 30,
+          "new_added": 4,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "analyst_report": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 18,
+          "new_added": 3,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "alternatives": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 15,
+          "new_added": 2,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
         "open_source": null,
-        "geo_digest": null,
-        "official_site": null
-      }
+        "geo_digest": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 12,
+          "new_added": 2,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "official_site": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 20,
+          "new_added": 5,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        }
+      },
+      "last_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "vendor_count_after_pass": 27
     },
     "regulatory-reporting-eu": {
       "target_level": "L2",
@@ -68,15 +105,57 @@
     "ai-governance": {
       "target_level": "L3",
       "sources": {
-        "g2": null,
-        "capterra": null,
-        "crunchbase": null,
-        "analyst_report": null,
-        "alternatives": null,
-        "open_source": null,
-        "geo_digest": null,
-        "official_site": null
-      }
+        "g2": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 38,
+          "new_added": 7,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "capterra": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 20,
+          "new_added": 2,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "crunchbase": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 32,
+          "new_added": 5,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "analyst_report": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 16,
+          "new_added": 3,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "alternatives": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 14,
+          "new_added": 2,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "open_source": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 8,
+          "new_added": 2,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 10,
+          "new_added": 2,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "official_site": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 18,
+          "new_added": 4,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        }
+      },
+      "last_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "vendor_count_after_pass": 25
     },
     "compliance-to-spec": {
       "target_level": "L3",
@@ -313,15 +392,57 @@
     "document-idp": {
       "target_level": "L3",
       "sources": {
-        "g2": null,
-        "capterra": null,
-        "crunchbase": null,
-        "analyst_report": null,
-        "alternatives": null,
-        "open_source": null,
-        "geo_digest": null,
-        "official_site": null
-      }
+        "g2": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 55,
+          "new_added": 6,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "capterra": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 35,
+          "new_added": 3,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "crunchbase": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 28,
+          "new_added": 3,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "analyst_report": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 22,
+          "new_added": 3,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "alternatives": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 18,
+          "new_added": 2,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "open_source": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 10,
+          "new_added": 1,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 14,
+          "new_added": 2,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        },
+        "official_site": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 25,
+          "new_added": 4,
+          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+        }
+      },
+      "last_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "vendor_count_after_pass": 32
     },
     "parsing-inbox": {
       "target_level": "L2",
