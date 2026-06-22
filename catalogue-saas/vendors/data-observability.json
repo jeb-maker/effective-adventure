@@ -1,5 +1,106 @@
 {
   "segment": "data-observability",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "monte-carlo",
+      "name": "Monte Carlo",
+      "url": "https://www.montecarlodata.com/",
+      "segments": [
+        "data-observability"
+      ],
+      "description": "Data observability leader ; incidents données, lineage et SLA monitoring.",
+      "capabilities": [
+        "data_incidents",
+        "lineage",
+        "sla_monitoring"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.montecarlodata.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "great-expectations",
+      "name": "Great Expectations",
+      "url": "https://greatexpectations.io/",
+      "segments": [
+        "data-observability"
+      ],
+      "description": "Framework open-source data quality ; tests, docs et checkpoints.",
+      "capabilities": [
+        "data_quality",
+        "tests",
+        "checkpoints"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://greatexpectations.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "soda",
+      "name": "Soda",
+      "url": "https://www.soda.io/",
+      "segments": [
+        "data-observability"
+      ],
+      "description": "Data quality monitoring ; checks collaboratifs et anomaly detection.",
+      "capabilities": [
+        "data_quality",
+        "anomaly_detection",
+        "collaboration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.soda.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "acceldata",
+      "name": "Acceldata",
+      "url": "https://www.acceldata.io/",
+      "segments": [
+        "data-observability"
+      ],
+      "description": "Data observability platform ; pipeline, performance et reliability.",
+      "capabilities": [
+        "pipeline_monitoring",
+        "performance",
+        "reliability"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.acceldata.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "anomalo",
+      "name": "Anomalo",
+      "url": "https://www.anomalo.com/",
+      "segments": [
+        "data-observability"
+      ],
+      "description": "Automated data quality monitoring ; ML anomaly detection tables.",
+      "capabilities": [
+        "automated_monitoring",
+        "ml_anomalies",
+        "table_level"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.anomalo.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

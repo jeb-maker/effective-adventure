@@ -1,5 +1,106 @@
 {
   "segment": "energy-cleantech",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "enphase",
+      "name": "Enphase Energy",
+      "url": "https://enphase.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Microinverters et energy management résidentiel ; monitoring solaire.",
+      "capabilities": [
+        "solar_monitoring",
+        "microinverters",
+        "energy_management"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://enphase.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "arcadia",
+      "name": "Arcadia",
+      "url": "https://www.arcadia.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Energy data platform ; utility data, clean energy et API.",
+      "capabilities": [
+        "utility_data",
+        "clean_energy",
+        "api"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.arcadia.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "energiency",
+      "name": "Energiency",
+      "url": "https://energiency.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Performance énergétique industrielle ; analytics et ISO 50001.",
+      "capabilities": [
+        "energy_analytics",
+        "iso_50001",
+        "industrial"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://energiency.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gridpoint",
+      "name": "GridPoint",
+      "url": "https://www.gridpoint.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Building energy management ; optimisation HVAC et éclairage.",
+      "capabilities": [
+        "building_ems",
+        "hvac_optimization",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.gridpoint.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sphera",
+      "name": "Sphera",
+      "url": "https://sphera.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "ESG performance et risk management ; sustainability et safety.",
+      "capabilities": [
+        "esg_reporting",
+        "risk_management",
+        "sustainability"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://sphera.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

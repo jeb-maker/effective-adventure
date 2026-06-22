@@ -1,5 +1,106 @@
 {
   "segment": "energy-buildings-fr",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "openmeti",
+      "name": "OpenMéti",
+      "url": "https://www.openmeti.fr/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Plateforme open data énergie bâtiments ; DPE et rénovation.",
+      "capabilities": [
+        "dpe",
+        "renovation",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.openmeti.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ademe-data",
+      "name": "ADEME — data services",
+      "url": "https://data.ademe.fr/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Portail open data transition écologique ; DPE, émissions, rénovation.",
+      "capabilities": [
+        "dpe_data",
+        "emissions",
+        "renovation"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://data.ademe.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "effy-pro",
+      "name": "Effy Pro",
+      "url": "https://www.effy.fr/pro",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Solutions rénovation énergétique pro ; données DPE et accompagnement.",
+      "capabilities": [
+        "renovation",
+        "dpe",
+        "b2b"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "source_url": "https://www.effy.fr/pro",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hub-anah",
+      "name": "Anah — Hub rénovation",
+      "url": "https://www.anah.fr/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Agence nationale habitat ; données aides et politiques rénovation.",
+      "capabilities": [
+        "renovation_policy",
+        "subsidies",
+        "habitat"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.anah.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "heero",
+      "name": "Heero",
+      "url": "https://www.heero.fr/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Financement et données rénovation résidentielle ; lien DPE et travaux.",
+      "capabilities": [
+        "renovation_financing",
+        "dpe",
+        "travaux"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "source_url": "https://www.heero.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

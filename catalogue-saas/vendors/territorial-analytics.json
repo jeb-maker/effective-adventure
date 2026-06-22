@@ -28,7 +28,8 @@
       "name": "Géorisques",
       "url": "https://www.georisques.gouv.fr/",
       "segments": [
-        "territorial-analytics"
+        "territorial-analytics",
+        "environmental-data-fr"
       ],
       "description": "Portail public risques environnementaux par adresse/territoire.",
       "capabilities": [

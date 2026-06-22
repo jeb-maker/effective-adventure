@@ -1,5 +1,86 @@
 {
   "segment": "spend-procurement",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "coupa",
+      "name": "Coupa",
+      "url": "https://www.coupa.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Business spend management : procurement, invoicing et supply chain.",
+      "capabilities": [
+        "procurement",
+        "invoicing",
+        "supplier_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.coupa.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zip",
+      "name": "Zip",
+      "url": "https://ziphq.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Intake-to-procure moderne ; workflows achats et intégrations ERP.",
+      "capabilities": [
+        "intake_to_procure",
+        "workflows",
+        "erp_integration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://ziphq.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "procurify",
+      "name": "Procurify",
+      "url": "https://www.procurify.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Spend management mid-market ; PO, approvals et budgets temps réel.",
+      "capabilities": [
+        "purchase_orders",
+        "approvals",
+        "budget_tracking"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.procurify.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "spendesk",
+      "name": "Spendesk",
+      "url": "https://www.spendesk.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Spend management PME Europe ; cartes, factures et workflows.",
+      "capabilities": [
+        "corporate_cards",
+        "invoice_management",
+        "approvals"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "source_url": "https://www.spendesk.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

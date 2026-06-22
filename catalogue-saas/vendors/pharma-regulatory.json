@@ -1,5 +1,108 @@
 {
   "segment": "pharma-regulatory",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "veeva-vault",
+      "name": "Veeva Vault",
+      "url": "https://www.veeva.com/products/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "Suite cloud life sciences : qualité, regulatory, clinical, safety (GxP).",
+      "capabilities": [
+        "regulatory_submissions",
+        "quality_management",
+        "pharmacovigilance",
+        "gxp"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.veeva.com/products/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mastercontrol",
+      "name": "MasterControl",
+      "url": "https://www.mastercontrol.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "QMS et document management pour pharma/medtech ; workflows validation et CAPA.",
+      "capabilities": [
+        "qms",
+        "document_control",
+        "training",
+        "capa"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.mastercontrol.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "iqvia-regulatory",
+      "name": "IQVIA Regulatory",
+      "url": "https://www.iqvia.com/solutions/compliance-and-regulatory",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "Services et technologie regulatory intelligence, submissions et conformité mondiale.",
+      "capabilities": [
+        "regulatory_intelligence",
+        "submissions",
+        "labeling"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.iqvia.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ennov",
+      "name": "Ennov",
+      "url": "https://www.ennov.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "Suite eCTD et gestion documentaire réglementaire pharma ; éditeur français.",
+      "capabilities": [
+        "ectd",
+        "regulatory_documents",
+        "workflow"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "source_url": "https://www.ennov.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "openvox",
+      "name": "OpenVox",
+      "url": "https://www.openvox.fr/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "Solutions eCTD et dossiers réglementaires pour industrie pharmaceutique.",
+      "capabilities": [
+        "ectd_publishing",
+        "regulatory_archive",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.openvox.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

@@ -1,5 +1,106 @@
 {
   "segment": "environmental-data-fr",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "atmo-france",
+      "name": "Atmo France",
+      "url": "https://www.atmo-france.org/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Réseau surveillance qualité air ; open data indices et cartes polluants.",
+      "capabilities": [
+        "air_quality",
+        "open_data",
+        "indices"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.atmo-france.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hub-eau",
+      "name": "Hub'Eau",
+      "url": "https://hub-eau.fr/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "APIs open data eau françaises ; hydrométrie, qualité, biodiversité.",
+      "capabilities": [
+        "water_api",
+        "hydrometry",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://hub-eau.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "inpn",
+      "name": "INPN (OFB)",
+      "url": "https://inpn.mnhn.fr/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Inventaire national patrimoine naturel ; espèces, habitats, données biodiversité.",
+      "capabilities": [
+        "biodiversity",
+        "species",
+        "habitats"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://inpn.mnhn.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "brgm-infoterre",
+      "name": "BRGM InfoTerre",
+      "url": "https://infoterre.brgm.fr/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Données géologiques et risques ; minéraux, eaux souterraines, aléas.",
+      "capabilities": [
+        "geology",
+        "groundwater",
+        "hazards"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://infoterre.brgm.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "georisques-api",
+      "name": "Géorisques",
+      "url": "https://www.georisques.gouv.fr/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Portail risques naturels et technologiques ; API et rapports par parcelle.",
+      "capabilities": [
+        "natural_risks",
+        "technological_risks",
+        "parcel_reports"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.georisques.gouv.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

@@ -1,5 +1,106 @@
 {
   "segment": "construction-proptech",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "autodesk-construction-cloud",
+      "name": "Autodesk Construction Cloud",
+      "url": "https://construction.autodesk.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "BIM et collaboration chantier ; docs, issues et field management.",
+      "capabilities": [
+        "bim",
+        "document_management",
+        "field"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://construction.autodesk.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fieldwire",
+      "name": "Fieldwire",
+      "url": "https://www.fieldwire.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Gestion chantier mobile ; plans, tâches et rapports terrain.",
+      "capabilities": [
+        "field_management",
+        "plans",
+        "task_tracking"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.fieldwire.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "buildertrend",
+      "name": "Buildertrend",
+      "url": "https://buildertrend.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Construction PM résidentiel ; CRM, scheduling et client portal.",
+      "capabilities": [
+        "residential_pm",
+        "scheduling",
+        "client_portal"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://buildertrend.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "planradar",
+      "name": "PlanRadar",
+      "url": "https://www.planradar.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Documentation défauts et QA/QC chantier ; plans et rapports.",
+      "capabilities": [
+        "defect_tracking",
+        "qa_qc",
+        "reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "source_url": "https://www.planradar.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "alice-technologies",
+      "name": "ALICE Technologies",
+      "url": "https://www.alicetechnologies.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Scheduling construction AI ; simulation et optimisation planning.",
+      "capabilities": [
+        "ai_scheduling",
+        "simulation",
+        "optimization"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.alicetechnologies.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

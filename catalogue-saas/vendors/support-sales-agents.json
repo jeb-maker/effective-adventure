@@ -7,7 +7,8 @@
       "name": "Intercom Fin",
       "url": "https://www.intercom.com/fin",
       "segments": [
-        "support-sales-agents"
+        "support-sales-agents",
+        "helpdesk-platforms"
       ],
       "description": "Agent IA support facturé par outcome (résolution) plutôt que par siège seul.",
       "capabilities": [
@@ -28,7 +29,8 @@
       "name": "Zendesk AI Agents",
       "url": "https://www.zendesk.com/service/ai/",
       "segments": [
-        "support-sales-agents"
+        "support-sales-agents",
+        "helpdesk-platforms"
       ],
       "description": "Helpdesk classique + couche IA ; hybrid seat + add-on + résolutions automatisées.",
       "capabilities": [
@@ -214,7 +216,8 @@
       "name": "Freshworks Freddy AI",
       "url": "https://www.freshworks.com/freddy-ai/",
       "segments": [
-        "support-sales-agents"
+        "support-sales-agents",
+        "helpdesk-platforms"
       ],
       "description": "IA intégrée suite Freshdesk/Freshsales ; copilot et automation support.",
       "capabilities": [

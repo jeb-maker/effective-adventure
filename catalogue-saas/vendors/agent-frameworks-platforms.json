@@ -1,5 +1,108 @@
 {
   "segment": "agent-frameworks-platforms",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "langchain",
+      "name": "LangChain / LangGraph",
+      "url": "https://www.langchain.com/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Framework orchestration LLM et agents ; LangGraph pour workflows stateful.",
+      "capabilities": [
+        "chains",
+        "agents",
+        "langgraph",
+        "tool_calling"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.langchain.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "crewai",
+      "name": "CrewAI",
+      "url": "https://www.crewai.com/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Framework multi-agents role-based pour tâches collaboratives autonomes.",
+      "capabilities": [
+        "multi_agent",
+        "role_based",
+        "task_delegation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.crewai.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "microsoft-autogen",
+      "name": "Microsoft AutoGen",
+      "url": "https://microsoft.github.io/autogen/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Framework open-source multi-agents conversationnels et tool use.",
+      "capabilities": [
+        "multi_agent_chat",
+        "tool_use",
+        "code_execution"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://microsoft.github.io/autogen/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "llamaindex",
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Data framework pour RAG et agents ; ingestion, indexing et workflows.",
+      "capabilities": [
+        "rag",
+        "agents",
+        "data_connectors",
+        "workflows"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.llamaindex.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "semantic-kernel",
+      "name": "Semantic Kernel",
+      "url": "https://learn.microsoft.com/en-us/semantic-kernel/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "SDK Microsoft pour orchestrer plugins, planners et agents enterprise.",
+      "capabilities": [
+        "plugins",
+        "planners",
+        "enterprise_agents"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://learn.microsoft.com/en-us/semantic-kernel/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

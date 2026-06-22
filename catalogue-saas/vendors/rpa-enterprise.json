@@ -1,5 +1,87 @@
 {
   "segment": "rpa-enterprise",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "uipath",
+      "name": "UiPath",
+      "url": "https://www.uipath.com/",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "Leader RPA enterprise : robots UI, orchestration et automation platform.",
+      "capabilities": [
+        "rpa",
+        "orchestrator",
+        "process_mining",
+        "document_ai"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.uipath.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "automation-anywhere",
+      "name": "Automation Anywhere",
+      "url": "https://www.automationanywhere.com/",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "Cloud-native RPA ; bots, IQ Bot document AI et Bot Store.",
+      "capabilities": [
+        "rpa",
+        "document_ai",
+        "cloud_native"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.automationanywhere.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "blue-prism",
+      "name": "Blue Prism (SS&C)",
+      "url": "https://www.blueprism.com/",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "RPA enterprise sécurisé ; gouvernance forte pour secteurs régulés.",
+      "capabilities": [
+        "rpa",
+        "governance",
+        "regulated_industries"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.blueprism.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "workfusion",
+      "name": "WorkFusion",
+      "url": "https://www.workfusion.com/",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "Intelligent automation pour banking/insurance ; RPA + ML document processing.",
+      "capabilities": [
+        "intelligent_automation",
+        "document_processing",
+        "banking"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.workfusion.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

@@ -1,5 +1,106 @@
 {
   "segment": "healthcare-clinical-ai",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "nuance-dax",
+      "name": "Nuance DAX Copilot",
+      "url": "https://www.nuance.com/healthcare/dax-copilot.html",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Documentation clinique ambient AI ; notes SOAP auto-générées depuis consultation.",
+      "capabilities": [
+        "ambient_documentation",
+        "clinical_notes",
+        "ehr_integration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.nuance.com/healthcare/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "abridge",
+      "name": "Abridge",
+      "url": "https://www.abridge.com/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "AI medical scribe ; transcription consultation et structuration EHR.",
+      "capabilities": [
+        "medical_scribe",
+        "transcription",
+        "ehr"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.abridge.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ambience-healthcare",
+      "name": "Ambience Healthcare",
+      "url": "https://www.ambiencehealthcare.com/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "AI operating system clinique ; documentation, coding et workflows.",
+      "capabilities": [
+        "clinical_documentation",
+        "medical_coding",
+        "workflows"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.ambiencehealthcare.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "suki-ai",
+      "name": "Suki AI",
+      "url": "https://www.suki.ai/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Voice assistant médecins ; commandes vocales et notes cliniques.",
+      "capabilities": [
+        "voice_assistant",
+        "clinical_notes",
+        "commands"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.suki.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "nabla-copilot",
+      "name": "Nabla Copilot",
+      "url": "https://www.nabla.com/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Copilot clinique français ; génération comptes-rendus et structuration.",
+      "capabilities": [
+        "clinical_copilot",
+        "consultation_notes",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.nabla.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

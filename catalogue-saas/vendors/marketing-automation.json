@@ -1,5 +1,109 @@
 {
   "segment": "marketing-automation",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "adobe-marketo",
+      "name": "Adobe Marketo Engage",
+      "url": "https://business.adobe.com/products/marketo.html",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Marketing automation B2B enterprise ; nurturing, ABM et analytics.",
+      "capabilities": [
+        "lead_nurturing",
+        "abm",
+        "scoring",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://business.adobe.com/products/marketo.html",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mailchimp",
+      "name": "Mailchimp",
+      "url": "https://mailchimp.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Email marketing et automation pour PME ; audiences et parcours.",
+      "capabilities": [
+        "email_campaigns",
+        "automations",
+        "audiences"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://mailchimp.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "brevo",
+      "name": "Brevo (ex-Sendinblue)",
+      "url": "https://www.brevo.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Marketing suite française : email, SMS, automation et CRM lite.",
+      "capabilities": [
+        "email",
+        "sms",
+        "automation",
+        "crm"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "source_url": "https://www.brevo.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "activecampaign",
+      "name": "ActiveCampaign",
+      "url": "https://www.activecampaign.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Automation marketing + CRM ; email, SMS et machine learning scoring.",
+      "capabilities": [
+        "email_automation",
+        "crm",
+        "predictive_scoring"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.activecampaign.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "customer-io",
+      "name": "Customer.io",
+      "url": "https://customer.io/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Messaging automation data-driven ; journeys basés événements produit.",
+      "capabilities": [
+        "event_journeys",
+        "in_app",
+        "email",
+        "push"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://customer.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

@@ -1,5 +1,106 @@
 {
   "segment": "vector-databases",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "pinecone",
+      "name": "Pinecone",
+      "url": "https://www.pinecone.io/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Vector DB managée serverless ; indexing, metadata filtering et hybrid search.",
+      "capabilities": [
+        "vector_search",
+        "serverless",
+        "metadata_filter"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.pinecone.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "weaviate",
+      "name": "Weaviate",
+      "url": "https://weaviate.io/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Base vectorielle open-source et cloud ; modules RAG et multi-tenancy.",
+      "capabilities": [
+        "vector_store",
+        "hybrid_search",
+        "rag_modules"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://weaviate.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "qdrant",
+      "name": "Qdrant",
+      "url": "https://qdrant.tech/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Vector search engine performant ; cloud managé et self-hosted.",
+      "capabilities": [
+        "vector_search",
+        "filtering",
+        "quantization"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://qdrant.tech/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zilliz-milvus",
+      "name": "Zilliz / Milvus",
+      "url": "https://zilliz.com/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Milvus open-source et Zilliz Cloud pour embeddings à grande échelle.",
+      "capabilities": [
+        "distributed_vectors",
+        "gpu_index",
+        "cloud_managed"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://zilliz.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "chroma",
+      "name": "Chroma",
+      "url": "https://www.trychroma.com/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Embedding database open-source orientée développeurs et prototypes RAG.",
+      "capabilities": [
+        "embeddings_store",
+        "local_dev",
+        "rag"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "source_url": "https://www.trychroma.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

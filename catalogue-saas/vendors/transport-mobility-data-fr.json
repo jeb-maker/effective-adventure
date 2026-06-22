@@ -1,5 +1,106 @@
 {
   "segment": "transport-mobility-data-fr",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "iv-mobilites",
+      "name": "Île-de-France Mobilités — open data",
+      "url": "https://prim.iledefrance-mobilites.fr/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Portail open data transport IDF ; GTFS temps réel, horaires, perturbations.",
+      "capabilities": [
+        "gtfs_rt",
+        "open_data",
+        "idf"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://prim.iledefrance-mobilites.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cityway",
+      "name": "Cityway",
+      "url": "https://www.cityway.io/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "MaaS et données mobilité ; apps transport et APIs territoires.",
+      "capabilities": [
+        "maas",
+        "mobility_data",
+        "api"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.cityway.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "transport-data-gouv",
+      "name": "transport.data.gouv.fr",
+      "url": "https://transport.data.gouv.fr/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "National access point données transport ; GTFS, GBFS, statistiques.",
+      "capabilities": [
+        "gtfs",
+        "gbfs",
+        "national_catalog"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://transport.data.gouv.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "padam-mobility",
+      "name": "Padam Mobility",
+      "url": "https://www.padam-mobility.com/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Mobilité demand-responsive ; optimisation flotte et données territoire.",
+      "capabilities": [
+        "drt",
+        "fleet_optimization",
+        "territory"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.padam-mobility.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hove",
+      "name": "Hove (ex-Deliveroo data ref mobility analytics)",
+      "url": "https://www.hove.fr/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Analytics mobilité et données flux urbains pour collectivités françaises.",
+      "capabilities": [
+        "urban_mobility",
+        "analytics",
+        "collectivites"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.hove.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

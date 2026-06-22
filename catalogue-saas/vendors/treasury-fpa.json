@@ -1,5 +1,106 @@
 {
   "segment": "treasury-fpa",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "anaplan",
+      "name": "Anaplan",
+      "url": "https://www.anaplan.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Connected planning enterprise ; FP&A, supply chain et workforce.",
+      "capabilities": [
+        "fp_and_a",
+        "scenario_planning",
+        "connected_planning"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.anaplan.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pigment",
+      "name": "Pigment",
+      "url": "https://www.pigment.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "FP&A moderne ; modélisation collaborative et intégrations données.",
+      "capabilities": [
+        "fp_and_a",
+        "modeling",
+        "collaboration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.pigment.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "drivetrain",
+      "name": "Drivetrain",
+      "url": "https://www.drivetrain.ai/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "FP&A agentic : planification, variance analysis et reporting automatisé.",
+      "capabilities": [
+        "agentic_fp_and_a",
+        "variance",
+        "reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.drivetrain.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cube-software",
+      "name": "Cube",
+      "url": "https://www.cubesoftware.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "FP&A pour finance teams ; Excel-native planning et consolidation.",
+      "capabilities": [
+        "excel_native",
+        "planning",
+        "consolidation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.cubesoftware.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mosaic-tech",
+      "name": "Mosaic",
+      "url": "https://www.mosaic.tech/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Strategic finance pour startups ; métriques SaaS et forecasting.",
+      "capabilities": [
+        "saas_metrics",
+        "forecasting",
+        "board_reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.mosaic.tech/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

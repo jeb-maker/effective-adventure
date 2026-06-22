@@ -1,5 +1,107 @@
 {
   "segment": "open-data-governance-fr",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "opendatasoft",
+      "name": "Opendatasoft",
+      "url": "https://www.opendatasoft.com/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Plateforme open data collectivités ; publication, qualité et API.",
+      "capabilities": [
+        "data_portal",
+        "quality",
+        "api",
+        "governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.opendatasoft.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "etalab-data-gouv",
+      "name": "Etalab / data.gouv.fr",
+      "url": "https://www.data.gouv.fr/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Portail national open data ; schéma données, moissonnage et conformité.",
+      "capabilities": [
+        "national_portal",
+        "harvesting",
+        "schema"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.data.gouv.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fairness",
+      "name": "Fairness",
+      "url": "https://www.fairness.coop/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Coopérative open data et communs numériques ; accompagnement collectivités.",
+      "capabilities": [
+        "open_data_coop",
+        "commons",
+        "advisory"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.fairness.coop/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "toucan-toco",
+      "name": "Toucan Toco",
+      "url": "https://www.toucantoco.com/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Data storytelling pour rendre données publiques accessibles citoyens.",
+      "capabilities": [
+        "data_storytelling",
+        "embedded_analytics",
+        "citizen_facing"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.toucantoco.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "data-europa",
+      "name": "data.europa.eu",
+      "url": "https://data.europa.eu/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Portail européen open data ; métadonnées transfrontalières et conformité DCAT.",
+      "capabilities": [
+        "european_catalog",
+        "dcat",
+        "cross_border"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "source_url": "https://data.europa.eu/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

@@ -47,7 +47,8 @@
       "name": "Ramp",
       "url": "https://ramp.com/",
       "segments": [
-        "finance-accounting-ai"
+        "finance-accounting-ai",
+        "spend-procurement"
       ],
       "description": "Cartes dépenses + automatisation compta et détection anomalies.",
       "capabilities": [

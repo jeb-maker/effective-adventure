@@ -1,5 +1,107 @@
 {
   "segment": "esg-csrd",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "watershed",
+      "name": "Watershed",
+      "url": "https://watershed.com/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Plateforme enterprise de comptabilité carbone, reporting CSRD et décarbonation supply chain.",
+      "capabilities": [
+        "carbon_accounting",
+        "csrd_reporting",
+        "scope_3",
+        "scenario_planning"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://watershed.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "persefoni",
+      "name": "Persefoni",
+      "url": "https://www.persefoni.com/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Climate management & reporting ; mesure émissions, disclosures réglementaires et finance durable.",
+      "capabilities": [
+        "ghg_inventory",
+        "regulatory_disclosure",
+        "climate_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.persefoni.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "normative",
+      "name": "Normative",
+      "url": "https://normative.io/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Carbon accounting automatisé pour PME et mid-market ; alignement GHG Protocol et CSRD.",
+      "capabilities": [
+        "automated_carbon",
+        "supplier_engagement",
+        "csrd"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://normative.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "greenly",
+      "name": "Greenly",
+      "url": "https://greenly.earth/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "SaaS bilan carbone et trajectoire net-zero pour entreprises ; offre France/Europe.",
+      "capabilities": [
+        "carbon_footprint",
+        "action_plans",
+        "csrd_readiness"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "source_url": "https://greenly.earth/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "workiva-esg",
+      "name": "Workiva",
+      "url": "https://www.workiva.com/solutions/esg-reporting",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Reporting extra-financier connecté ; workflows CSRD, assurance et collaboration audit.",
+      "capabilities": [
+        "connected_reporting",
+        "esg_disclosure",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.workiva.com/solutions/esg-reporting",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

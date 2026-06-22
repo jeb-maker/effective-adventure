@@ -156,7 +156,8 @@
       "name": "Microsoft Power Automate",
       "url": "https://www.microsoft.com/en-us/power-platform/products/power-automate",
       "segments": [
-        "automation-platforms"
+        "automation-platforms",
+        "rpa-enterprise"
       ],
       "description": "Automatisation intégrée écosystème Microsoft 365 / Dynamics / Azure.",
       "capabilities": [

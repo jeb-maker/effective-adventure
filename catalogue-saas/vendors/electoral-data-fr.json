@@ -1,5 +1,106 @@
 {
   "segment": "electoral-data-fr",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "data-gouv-elections",
+      "name": "data.gouv.fr — élections",
+      "url": "https://www.data.gouv.fr/fr/pages/donnees-elections/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Catalogue jeux de données électorales ; résultats, candidats, géographie.",
+      "capabilities": [
+        "election_results",
+        "catalog",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.data.gouv.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "registre-perma",
+      "name": "Registre des représentants d'intérêts (ref transparence)",
+      "url": "https://www.hatvp.fr/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Données transparence vie publique ; croisement intérêts et mandats.",
+      "capabilities": [
+        "transparency",
+        "public_life",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.hatvp.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "contexte",
+      "name": "Contexte",
+      "url": "https://www.contexte.com/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Intelligence politique française ; veille institutions et analyse territoriale.",
+      "capabilities": [
+        "political_intelligence",
+        "policy_monitoring",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.contexte.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "regards-citoyens",
+      "name": "Regards Citoyens",
+      "url": "https://www.regardscitoyens.org/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Association open data parlementaire ; NosDéputés, NosSénateurs.",
+      "capabilities": [
+        "parliamentary_data",
+        "open_data",
+        "civic"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "france",
+      "source_url": "https://www.regardscitoyens.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "poligma",
+      "name": "Poligma",
+      "url": "https://poligma.com/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Cartographie et analytics électoraux pour médias et collectivités.",
+      "capabilities": [
+        "electoral_maps",
+        "analytics",
+        "territory"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://poligma.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

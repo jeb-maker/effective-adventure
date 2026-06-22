@@ -1,5 +1,108 @@
 {
   "segment": "cloud-security-cspm",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "wiz",
+      "name": "Wiz",
+      "url": "https://www.wiz.io/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "CNAPP leader : posture cloud, vulnérabilités workloads, secrets et CIEM.",
+      "capabilities": [
+        "cspm",
+        "cnapp",
+        "ciem",
+        "vulnerability_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.wiz.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "orca-security",
+      "name": "Orca Security",
+      "url": "https://orca.security/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "Agentless cloud security : CSPM, CWPP, CIEM et détection malware cloud.",
+      "capabilities": [
+        "cspm",
+        "cwpp",
+        "agentless_scanning"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://orca.security/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "prisma-cloud",
+      "name": "Prisma Cloud (Palo Alto)",
+      "url": "https://www.paloaltonetworks.com/prisma/cloud",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "CNAPP multi-cloud : posture, compliance, runtime protection et IaC scanning.",
+      "capabilities": [
+        "cspm",
+        "cwpp",
+        "iac_scanning",
+        "compliance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.paloaltonetworks.com/prisma/cloud",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lacework",
+      "name": "Lacework (Fortinet)",
+      "url": "https://www.lacework.com/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "Cloud security platform : behavioral anomaly detection et posture multi-cloud.",
+      "capabilities": [
+        "cspm",
+        "anomaly_detection",
+        "kubernetes_security"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.lacework.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "aqua-security",
+      "name": "Aqua Security",
+      "url": "https://www.aquasec.com/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "Sécurité conteneurs/Kubernetes et supply chain ; CSPM et runtime protection.",
+      "capabilities": [
+        "container_security",
+        "kubernetes",
+        "supply_chain"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.aquasec.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

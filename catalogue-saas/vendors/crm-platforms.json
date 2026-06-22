@@ -1,5 +1,107 @@
 {
   "segment": "crm-platforms",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "salesforce-crm",
+      "name": "Salesforce Sales Cloud",
+      "url": "https://www.salesforce.com/products/sales-cloud/",
+      "segments": [
+        "crm-platforms"
+      ],
+      "description": "CRM leader ; pipeline, forecasting, Einstein AI et écosystème AppExchange.",
+      "capabilities": [
+        "pipeline",
+        "forecasting",
+        "einstein_ai",
+        "integrations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.salesforce.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hubspot-crm",
+      "name": "HubSpot CRM",
+      "url": "https://www.hubspot.com/products/crm",
+      "segments": [
+        "crm-platforms"
+      ],
+      "description": "CRM freemium + hubs marketing/sales/service ; Breeze AI agents.",
+      "capabilities": [
+        "crm",
+        "marketing_hub",
+        "ai_agents"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.hubspot.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pipedrive",
+      "name": "Pipedrive",
+      "url": "https://www.pipedrive.com/",
+      "segments": [
+        "crm-platforms"
+      ],
+      "description": "CRM orienté ventes PME ; pipeline visuel et automations.",
+      "capabilities": [
+        "sales_pipeline",
+        "automations",
+        "reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.pipedrive.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zoho-crm",
+      "name": "Zoho CRM",
+      "url": "https://www.zoho.com/crm/",
+      "segments": [
+        "crm-platforms"
+      ],
+      "description": "CRM modulaire abordable ; Zia AI et suite business intégrée.",
+      "capabilities": [
+        "crm",
+        "zia_ai",
+        "suite_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.zoho.com/crm/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "attio",
+      "name": "Attio",
+      "url": "https://attio.com/",
+      "segments": [
+        "crm-platforms"
+      ],
+      "description": "CRM flexible data-model first pour startups ; workflows et enrichissement.",
+      "capabilities": [
+        "flexible_data_model",
+        "workflows",
+        "enrichment"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://attio.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

@@ -1,5 +1,106 @@
 {
   "segment": "seo-content-ai",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "surfer-seo",
+      "name": "Surfer SEO",
+      "url": "https://surferseo.com/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Optimisation contenu SEO data-driven ; briefs, éditeur et audit SERP.",
+      "capabilities": [
+        "content_optimization",
+        "serp_analysis",
+        "briefs"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://surferseo.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "clearscope",
+      "name": "Clearscope",
+      "url": "https://www.clearscope.io/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Recherche mots-clés et optimisation sémantique pour rédacteurs.",
+      "capabilities": [
+        "keyword_research",
+        "content_grading",
+        "semantic_seo"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.clearscope.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "writer-com",
+      "name": "Writer",
+      "url": "https://writer.com/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Plateforme contenu enterprise avec LLM propriétaire et brand governance.",
+      "capabilities": [
+        "enterprise_content",
+        "brand_voice",
+        "governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://writer.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "copy-ai",
+      "name": "Copy.ai",
+      "url": "https://www.copy.ai/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Génération contenu marketing et workflows GTM avec agents.",
+      "capabilities": [
+        "content_generation",
+        "gtm_workflows",
+        "agents"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.copy.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "marketmuse",
+      "name": "MarketMuse",
+      "url": "https://www.marketmuse.com/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Stratégie contenu IA : topic authority, briefs et planning éditorial.",
+      "capabilities": [
+        "topic_authority",
+        "content_planning",
+        "briefs"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.marketmuse.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

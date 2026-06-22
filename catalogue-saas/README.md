@@ -12,8 +12,8 @@ Registre **curaté** de SaaS comparables, aligné sur les règles de preuve du d
 ## État (2026-06-22)
 
 - **68 segments** définis (tous avec fichier `vendors/<id>.json`)
-- **21 segments peuplés** · **47 segments vides** (à enrichir par vagues)
-- **162 vendeurs** recensés
+- **68 segments peuplés** (vague 4 — juin 2026)
+- **394 vendeurs** recensés (dont ~53 `verified`, reste `partial` à confirmer)
 
 ## Les 18 catégories
 
@@ -44,6 +44,9 @@ Registre **curaté** de SaaS comparables, aligné sur les règles de preuve du d
 # Synchroniser taxonomie → fichiers vendors/ vides
 python3 scripts/sync_taxonomy_segments.py
 
+# Enrichissement par vague (idempotent)
+python3 scripts/enrich_catalogue_v4.py
+
 # Régénérer la liste markdown
 python3 scripts/catalogue_saas.py list-segments
 
@@ -60,7 +63,7 @@ python3 scripts/catalogue_saas.py export -o catalogue-saas/exports/vendors.csv
 
 ## Enrichir un segment
 
-1. Choisir un `id` dans [SEGMENTS.md](SEGMENTS.md) (priorité : `[vide]`)
+1. Choisir un `id` dans [SEGMENTS.md](SEGMENTS.md)
 2. Ajouter des entrées dans `vendors/<id>.json`
 3. `source_url` + `source_consulted_at` obligatoires
 4. `python3 scripts/catalogue_saas.py validate`

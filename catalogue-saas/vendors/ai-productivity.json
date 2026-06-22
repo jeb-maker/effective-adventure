@@ -7,7 +7,8 @@
       "name": "Notion AI",
       "url": "https://www.notion.so/product/ai",
       "segments": [
-        "ai-productivity"
+        "ai-productivity",
+        "project-work-management"
       ],
       "description": "IA intégrée workspace Notion : rédaction, synthèse, Q&A sur notes.",
       "capabilities": [
@@ -27,7 +28,8 @@
       "name": "Jasper",
       "url": "https://www.jasper.ai/",
       "segments": [
-        "ai-productivity"
+        "ai-productivity",
+        "seo-content-ai"
       ],
       "description": "Plateforme contenu marketing IA pour équipes brand.",
       "capabilities": [
@@ -68,7 +70,8 @@
       "url": "https://otter.ai/",
       "segments": [
         "ai-productivity",
-        "voice-speech-ai"
+        "voice-speech-ai",
+        "meeting-intelligence"
       ],
       "description": "Transcription et notes de réunion automatiques.",
       "capabilities": [

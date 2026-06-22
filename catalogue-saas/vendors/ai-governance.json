@@ -194,7 +194,8 @@
       "name": "LangSmith",
       "url": "https://www.langchain.com/langsmith",
       "segments": [
-        "ai-governance"
+        "ai-governance",
+        "ai-evals-testing"
       ],
       "description": "Observabilité et évaluation apps LLM ; traçage pour audit technique des agents.",
       "capabilities": [

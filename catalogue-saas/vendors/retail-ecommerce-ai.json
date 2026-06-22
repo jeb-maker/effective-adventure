@@ -1,5 +1,106 @@
 {
   "segment": "retail-ecommerce-ai",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "url": "https://www.shopify.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Commerce platform ; storefront, payments et Shopify Magic AI.",
+      "capabilities": [
+        "ecommerce",
+        "payments",
+        "shopify_magic"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.shopify.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dynamic-yield",
+      "name": "Dynamic Yield (Mastercard)",
+      "url": "https://www.dynamicyield.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Personalization platform ; recommandations, A/B et merchandising.",
+      "capabilities": [
+        "personalization",
+        "recommendations",
+        "ab_testing"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.dynamicyield.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "bloomreach",
+      "name": "Bloomreach",
+      "url": "https://www.bloomreach.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Commerce experience cloud ; search, merchandising et marketing AI.",
+      "capabilities": [
+        "search",
+        "merchandising",
+        "marketing_ai"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.bloomreach.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "nosto",
+      "name": "Nosto",
+      "url": "https://www.nosto.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Commerce experience personalization ; product recommendations et UGC.",
+      "capabilities": [
+        "product_recommendations",
+        "ugc",
+        "personalization"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.nosto.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "klevu",
+      "name": "Klevu",
+      "url": "https://www.klevu.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "AI search et discovery e-commerce ; NLP et merchandising.",
+      "capabilities": [
+        "ai_search",
+        "discovery",
+        "nlp"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.klevu.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

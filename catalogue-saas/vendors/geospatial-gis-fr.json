@@ -1,5 +1,106 @@
 {
   "segment": "geospatial-gis-fr",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "geofoncier",
+      "name": "Géofoncier",
+      "url": "https://www.geofoncier.fr/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Portail géomatique notaires ; fonds cadastraux et documents fonciers FR.",
+      "capabilities": [
+        "cadastre",
+        "fonds_fonciers",
+        "notaires"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.geofoncier.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "alkante",
+      "name": "Alkante",
+      "url": "https://www.alkante.com/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Éditeur SIG français ; solutions territoriales et open data géographique.",
+      "capabilities": [
+        "sig",
+        "territorial",
+        "open_data_geo"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.alkante.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ign-geoservices",
+      "name": "IGN Géoservices",
+      "url": "https://geoservices.ign.fr/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Services géographiques officiels ; APIs carto, BD TOPO, orthophotos.",
+      "capabilities": [
+        "geoportail",
+        "api_carto",
+        "bd_topo"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://geoservices.ign.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cartelie",
+      "name": "Cartélie (IGN)",
+      "url": "https://cartelie.enregistrement.developpement-durable.gouv.fr/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Catalogue métadonnées géographiques administration française.",
+      "capabilities": [
+        "metadata_catalog",
+        "gpu",
+        "admin_geo"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://cartelie.enregistrement.developpement-durable.gouv.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "opendatasoft-geo",
+      "name": "Opendatasoft",
+      "url": "https://www.opendatasoft.com/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Plateforme open data avec cartographie ; portails territoires FR.",
+      "capabilities": [
+        "open_data_portal",
+        "mapping",
+        "api"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.opendatasoft.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

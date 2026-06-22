@@ -1,5 +1,107 @@
 {
   "segment": "customer-success",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "gainsight",
+      "name": "Gainsight",
+      "url": "https://www.gainsight.com/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "Customer success platform leader ; health scores, playbooks et PX.",
+      "capabilities": [
+        "health_scores",
+        "playbooks",
+        "nps",
+        "renewals"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.gainsight.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "totango",
+      "name": "Totango",
+      "url": "https://www.totango.com/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "CS platform modulaire ; journeys, segmentation et AI insights.",
+      "capabilities": [
+        "customer_journeys",
+        "segmentation",
+        "ai_insights"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.totango.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "churnzero",
+      "name": "ChurnZero",
+      "url": "https://churnzero.com/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "Real-time CS automation ; in-app guides et alertes churn.",
+      "capabilities": [
+        "real_time_alerts",
+        "in_app",
+        "churn_prevention"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://churnzero.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "catalyst",
+      "name": "Catalyst",
+      "url": "https://www.catalyst.io/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "Hub données customer success ; health, stakeholders et intégrations.",
+      "capabilities": [
+        "cs_data_hub",
+        "health",
+        "stakeholder_mapping"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.catalyst.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "planhat",
+      "name": "Planhat",
+      "url": "https://www.planhat.com/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "Revenue success platform ; CS, expansion et workflows no-code.",
+      "capabilities": [
+        "revenue_success",
+        "workflows",
+        "expansion"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.planhat.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

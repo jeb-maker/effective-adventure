@@ -1,5 +1,108 @@
 {
   "segment": "e-signature",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "docusign",
+      "name": "DocuSign",
+      "url": "https://www.docusign.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "Leader signature électronique ; eIDAS, CLM intégré et workflows enterprise.",
+      "capabilities": [
+        "e_signature",
+        "eidas",
+        "clm",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.docusign.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "adobe-acrobat-sign",
+      "name": "Adobe Acrobat Sign",
+      "url": "https://www.adobe.com/sign.html",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "Signature documentaire intégrée écosystème Adobe ; conformité légale multi-pays.",
+      "capabilities": [
+        "e_signature",
+        "pdf_workflows",
+        "integrations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.adobe.com/sign.html",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "yousign",
+      "name": "Yousign",
+      "url": "https://yousign.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "Signature électronique française eIDAS ; PME et API développeurs.",
+      "capabilities": [
+        "e_signature",
+        "eidas",
+        "api",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "source_url": "https://yousign.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pandadoc",
+      "name": "PandaDoc",
+      "url": "https://www.pandadoc.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "Propositions, contrats et signatures ; CPQ léger pour sales.",
+      "capabilities": [
+        "e_signature",
+        "proposals",
+        "cpq"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.pandadoc.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dropbox-sign",
+      "name": "Dropbox Sign (HelloSign)",
+      "url": "https://sign.dropbox.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "Signature simple intégrée Dropbox ; API et templates.",
+      "capabilities": [
+        "e_signature",
+        "templates",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://sign.dropbox.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

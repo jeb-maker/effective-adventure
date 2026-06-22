@@ -1,5 +1,109 @@
 {
   "segment": "identity-access-management",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "okta",
+      "name": "Okta",
+      "url": "https://www.okta.com/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "IAM cloud : SSO, MFA, lifecycle provisioning et Customer Identity (Auth0).",
+      "capabilities": [
+        "sso",
+        "mfa",
+        "lifecycle",
+        "customer_identity"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.okta.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "microsoft-entra-id",
+      "name": "Microsoft Entra ID",
+      "url": "https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "Identité cloud Microsoft ; SSO, conditional access, B2B et governance.",
+      "capabilities": [
+        "sso",
+        "conditional_access",
+        "identity_governance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sailpoint",
+      "name": "SailPoint",
+      "url": "https://www.sailpoint.com/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "Identity governance : accès, certifications, provisioning et compliance IAM.",
+      "capabilities": [
+        "iga",
+        "access_certification",
+        "provisioning"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.sailpoint.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "1password-business",
+      "name": "1Password",
+      "url": "https://1password.com/business/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "Gestion mots de passe et secrets ; SSO, SCIM et accès développeur.",
+      "capabilities": [
+        "password_management",
+        "secrets",
+        "sso",
+        "scim"
+      ],
+      "pricing_model": "per_seat",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://1password.com/business/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "jumpcloud",
+      "name": "JumpCloud",
+      "url": "https://jumpcloud.com/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "Open directory platform : IAM, MDM et accès zero-trust pour PME.",
+      "capabilities": [
+        "directory",
+        "sso",
+        "mdm",
+        "pam"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://jumpcloud.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

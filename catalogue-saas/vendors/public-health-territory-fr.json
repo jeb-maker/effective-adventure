@@ -1,5 +1,106 @@
 {
   "segment": "public-health-territory-fr",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "ameli-open-data",
+      "name": "Assurance Maladie — open data",
+      "url": "https://data.ameli.fr/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Données santé publique ; démographie médicale, prescriptions, parcours.",
+      "capabilities": [
+        "health_open_data",
+        "medical_demography",
+        "prescriptions"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://data.ameli.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "santepubliquefrance",
+      "name": "Santé publique France — data",
+      "url": "https://www.santepubliquefrance.fr/donnees",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Données épidémiologie et prévention ; indicateurs territoriaux santé.",
+      "capabilities": [
+        "epidemiology",
+        "prevention",
+        "territorial_indicators"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.santepubliquefrance.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "keldoc",
+      "name": "KelDoc",
+      "url": "https://www.keldoc.com/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Prise de RDV santé ; données disponibilité professionnels par territoire.",
+      "capabilities": [
+        "appointment_booking",
+        "availability",
+        "territory"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "source_url": "https://www.keldoc.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "doctolib",
+      "name": "Doctolib",
+      "url": "https://www.doctolib.fr/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Plateforme santé ; données indirectes déserts médicaux via disponibilité.",
+      "capabilities": [
+        "booking",
+        "telehealth",
+        "territory_signals"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "source_url": "https://www.doctolib.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "drees",
+      "name": "DREES",
+      "url": "https://www.drees.solidarites-sante.gouv.fr/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Statistiques ministère Santé ; études territoires, offre de soins.",
+      "capabilities": [
+        "health_statistics",
+        "territorial_studies",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://www.drees.solidarites-sante.gouv.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }

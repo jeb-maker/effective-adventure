@@ -1,5 +1,110 @@
 {
   "segment": "cybersecurity-platforms",
   "updated_at": "2026-06-22",
-  "vendors": []
+  "vendors": [
+    {
+      "id": "crowdstrike-falcon",
+      "name": "CrowdStrike Falcon",
+      "url": "https://www.crowdstrike.com/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "Plateforme XDR cloud-native : EDR, threat intelligence, SOAR et managed detection.",
+      "capabilities": [
+        "edr",
+        "xdr",
+        "threat_intel",
+        "incident_response"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.crowdstrike.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "palo-alto-cortex",
+      "name": "Palo Alto Cortex",
+      "url": "https://www.paloaltonetworks.com/cortex",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "Cortex XDR/XSIAM : détection, investigation et réponse unifiées sur endpoints et cloud.",
+      "capabilities": [
+        "xdr",
+        "xsiam",
+        "soar",
+        "automation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.paloaltonetworks.com/cortex",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sentinelone",
+      "name": "SentinelOne",
+      "url": "https://www.sentinelone.com/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "Endpoint protection autonome avec AI ; EDR, XDR et gestion vulnérabilités.",
+      "capabilities": [
+        "edr",
+        "xdr",
+        "ransomware_protection"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.sentinelone.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "splunk-enterprise-security",
+      "name": "Splunk Enterprise Security",
+      "url": "https://www.splunk.com/en_us/products/enterprise-security.html",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "SIEM/SOAR leader ; corrélation événements, UEBA et playbooks réponse incident.",
+      "capabilities": [
+        "siem",
+        "soar",
+        "ueba",
+        "threat_detection"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.splunk.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "microsoft-defender-xdr",
+      "name": "Microsoft Defender XDR",
+      "url": "https://www.microsoft.com/en-us/security/business/siem-and-xdr",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "Suite XDR Microsoft : Defender for Endpoint, Identity, Office 365 et Sentinel SIEM.",
+      "capabilities": [
+        "xdr",
+        "siem",
+        "identity_protection",
+        "cloud_security"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.microsoft.com/en-us/security/business/siem-and-xdr",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
 }
