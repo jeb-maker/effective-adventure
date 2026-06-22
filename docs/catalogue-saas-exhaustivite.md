@@ -74,6 +74,7 @@ Segment **non clos** tant que < 4 types sont renseignés dans `coverage-matrix.j
 | **V5c** | L2 `regtech`, `document-idp`, `ai-governance` | Fait |
 | **V5d** | Équivalents internationaux `france-*` (+41) | Fait |
 | **V5e** | Coverage L2 rétrospectif + liaison 28 idées | Fait |
+| **V5f** | L3 agents/voix, parsing inbox, GRC (+32) | Fait |
 | Maintenance | Long tail, revue trimestrielle, passes ciblées | Continu |
 
 ---
@@ -95,6 +96,7 @@ python3 scripts/catalogue_saas.py coverage
 python3 scripts/catalogue_saas.py gaps
 python3 scripts/catalogue_saas.py gaps --hq US --france-market absent
 python3 scripts/catalogue_saas.py gaps --segment compliance-to-spec
+python3 scripts/catalogue_saas.py saturation
 python3 scripts/catalogue_saas.py validate
 ```
 

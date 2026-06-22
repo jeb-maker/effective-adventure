@@ -429,6 +429,51 @@ def gaps_report(
             print()
 
 
+def saturation_report() -> None:
+    if not COVERAGE_PATH.exists():
+        print(f"Fichier manquant : {COVERAGE_PATH}", file=sys.stderr)
+        raise SystemExit(1)
+
+    matrix = json.loads(COVERAGE_PATH.read_text(encoding="utf-8"))
+    taxonomy = load_taxonomy()
+    seg_labels = {s["id"]: s["label"] for s in taxonomy["segments"]}
+    threshold = matrix.get("saturation_threshold_pct", 5)
+
+    print(f"Saturation par passe (seuil gel : < {threshold} % nouveaux / candidats)")
+    print()
+
+    by_pass: dict[str, list[tuple[str, float, int, int]]] = {}
+    for seg in taxonomy["segments"]:
+        sid = seg["id"]
+        entry = matrix["segments"].get(sid, {})
+        last = entry.get("last_pass")
+        if not last or "v5e-retrospective" in last:
+            continue
+        total_cand = 0
+        total_new = 0
+        for src_data in entry.get("sources", {}).values():
+            if not src_data or not isinstance(src_data, dict):
+                continue
+            if src_data.get("pass") != last:
+                continue
+            total_cand += src_data.get("candidates_found", 0)
+            total_new += src_data.get("new_added", 0)
+        if total_cand == 0:
+            continue
+        rate = 100.0 * total_new / total_cand
+        by_pass.setdefault(last, []).append((sid, rate, total_new, total_cand))
+
+    for pass_id in sorted(by_pass.keys()):
+        print(f"## {pass_id}")
+        for sid, rate, new, cand in sorted(by_pass[pass_id], key=lambda x: x[1]):
+            flag = " [SATURÉ]" if rate < threshold else ""
+            print(
+                f"  {sid:32} {rate:5.1f}%  (+{new}/{cand}){flag}"
+                f"  — {seg_labels[sid]}"
+            )
+        print()
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Catalogue SaaS — outils")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -464,6 +509,8 @@ def main() -> int:
     )
     p_gaps.add_argument("--segment", help="Un seul segment")
 
+    sub.add_parser("saturation", help="Taux nouveaux/candidats par passe réelle")
+
     args = parser.parse_args()
 
     if args.command == "validate":
@@ -490,6 +537,9 @@ def main() -> int:
             france_market=args.france_market,
             segment=args.segment,
         )
+        return 0
+    if args.command == "saturation":
+        saturation_report()
         return 0
 
     return 1

@@ -119,10 +119,9 @@
       "sources": {
         "g2": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 32,
-          "new_added": 8,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "candidates_found": 35,
+          "new_added": 6,
+          "pass": "2026-06-v5f-agents-parsing-grc"
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -140,10 +139,9 @@
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 32,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "candidates_found": 20,
+          "new_added": 3,
+          "pass": "2026-06-v5f-agents-parsing-grc"
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -162,8 +160,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 16
+      "last_pass": "2026-06-v5f-agents-parsing-grc",
+      "vendor_count_after_pass": 22
     },
     "privacy-consent": {
       "target_level": "L2",
@@ -1095,17 +1093,15 @@
       "sources": {
         "g2": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 16,
+          "candidates_found": 18,
           "new_added": 4,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5f-agents-parsing-grc"
         },
         "capterra": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 16,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "candidates_found": 8,
+          "new_added": 1,
+          "pass": "2026-06-v5f-agents-parsing-grc"
         },
         "crunchbase": {
           "consulted_at": "2026-06-22",
@@ -1123,23 +1119,21 @@
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 16,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "candidates_found": 10,
+          "new_added": 2,
+          "pass": "2026-06-v5f-agents-parsing-grc"
         },
         "open_source": null,
         "geo_digest": null,
         "official_site": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 16,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "candidates_found": 12,
+          "new_added": 3,
+          "pass": "2026-06-v5f-agents-parsing-grc"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 8
+      "last_pass": "2026-06-v5f-agents-parsing-grc",
+      "vendor_count_after_pass": 14
     },
     "e-signature": {
       "target_level": "L2",
@@ -1656,10 +1650,9 @@
       "sources": {
         "g2": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 22,
-          "new_added": 5,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "candidates_found": 45,
+          "new_added": 8,
+          "pass": "2026-06-v5f-agents-parsing-grc"
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -1672,22 +1665,19 @@
           "consulted_at": "2026-06-22",
           "candidates_found": 22,
           "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5f-agents-parsing-grc"
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 22,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "candidates_found": 15,
+          "new_added": 2,
+          "pass": "2026-06-v5f-agents-parsing-grc"
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 22,
+          "candidates_found": 12,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5f-agents-parsing-grc"
         },
         "open_source": null,
         "geo_digest": null,
@@ -1699,18 +1689,17 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 11
+      "last_pass": "2026-06-v5f-agents-parsing-grc",
+      "vendor_count_after_pass": 19
     },
     "voice-speech-ai": {
       "target_level": "L2",
       "sources": {
         "g2": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 8,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "candidates_found": 20,
+          "new_added": 5,
+          "pass": "2026-06-v5f-agents-parsing-grc"
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -1721,10 +1710,9 @@
         },
         "crunchbase": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 8,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "candidates_found": 14,
+          "new_added": 2,
+          "pass": "2026-06-v5f-agents-parsing-grc"
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -1735,10 +1723,9 @@
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 8,
+          "candidates_found": 10,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5f-agents-parsing-grc"
         },
         "open_source": null,
         "geo_digest": null,
@@ -1750,8 +1737,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 4
+      "last_pass": "2026-06-v5f-agents-parsing-grc",
+      "vendor_count_after_pass": 9
     },
     "crm-platforms": {
       "target_level": "L2",

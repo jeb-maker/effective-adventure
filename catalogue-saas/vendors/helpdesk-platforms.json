@@ -114,6 +114,35 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "crisp",
+      "name": "Crisp",
+      "url": "https://crisp.chat/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Messagerie client omnicanal ; inbox partagée, chatbot et CRM lite.",
+      "capabilities": [
+        "live_chat",
+        "shared_inbox",
+        "chatbot",
+        "crm"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://crisp.chat/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

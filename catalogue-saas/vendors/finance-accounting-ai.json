@@ -115,6 +115,34 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "floqast",
+      "name": "FloQast",
+      "url": "https://www.floqast.com/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Close management ; automatisation clôture comptable et contrôles.",
+      "capabilities": [
+        "close_management",
+        "reconciliation",
+        "controls"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.floqast.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

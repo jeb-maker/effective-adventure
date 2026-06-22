@@ -17,7 +17,7 @@ Registre **curaté** de SaaS comparables, aligné sur les règles de preuve du d
 
 - **68 segments** définis (tous avec fichier `vendors/<id>.json`)
 - **68 segments peuplés** (vague 4)
-- **486 vendeurs** recensés (vagues 5b–5e)
+- **518 vendeurs** recensés (vagues 5b–5f)
 - **28 idées** liées au catalogue (`idees/catalogue-segments.json`)
 - **Tagging géo** : `hq_country`, `france_market`, `operating_regions` (vague 5a)
 
@@ -57,7 +57,11 @@ python3 scripts/enrich_compliance_to_spec_v5b.py
 python3 scripts/enrich_catalogue_v5c.py
 python3 scripts/enrich_catalogue_v5d.py
 python3 scripts/enrich_catalogue_v5e.py
+python3 scripts/enrich_catalogue_v5f.py
 python3 scripts/sync_idees_catalogue.py
+
+# Saturation (passes réelles vs seuil 5 %)
+python3 scripts/catalogue_saas.py saturation
 
 # Exhaustivité
 python3 scripts/catalogue_saas.py coverage

@@ -197,7 +197,7 @@ Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalog
 
 #### Segment `spend-procurement` — Spend & procurement
 
-Fichier : [`catalogue-saas/vendors/spend-procurement.json`](../../catalogue-saas/vendors/spend-procurement.json) (4 entrées)
+Fichier : [`catalogue-saas/vendors/spend-procurement.json`](../../catalogue-saas/vendors/spend-procurement.json) (5 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -205,6 +205,7 @@ Fichier : [`catalogue-saas/vendors/spend-procurement.json`](../../catalogue-saas
 | `zip` | Zip | US | partial | partial |
 | `procurify` | Procurify | US | partial | partial |
 | `spendesk` | Spendesk | FR | strong | partial |
+| `tipalti` | Tipalti | US | partial | partial |
 
 Commandes :
 ```bash

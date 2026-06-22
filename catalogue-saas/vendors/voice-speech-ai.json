@@ -115,6 +115,151 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "bland-ai",
+      "name": "Bland AI",
+      "url": "https://www.bland.ai/",
+      "segments": [
+        "voice-speech-ai",
+        "support-sales-agents"
+      ],
+      "description": "API voice agents ; appels automatisés outbound/inbound à grande échelle.",
+      "capabilities": [
+        "voice_api",
+        "outbound_calls",
+        "inbound",
+        "scaling"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.bland.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "vapi",
+      "name": "Vapi",
+      "url": "https://vapi.ai/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "Infrastructure voice AI pour développeurs ; orchestration STT/LLM/TTS.",
+      "capabilities": [
+        "voice_api",
+        "stt",
+        "tts",
+        "orchestration"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://vapi.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "speechmatics",
+      "name": "Speechmatics",
+      "url": "https://www.speechmatics.com/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "STT enterprise multilingue ; précision et déploiement on-prem/cloud.",
+      "capabilities": [
+        "stt",
+        "multilingual",
+        "enterprise",
+        "on_prem"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.speechmatics.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "play-ht",
+      "name": "PlayHT",
+      "url": "https://play.ht/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "TTS et voice cloning API ; agents vocaux et contenu audio.",
+      "capabilities": [
+        "tts",
+        "voice_cloning",
+        "api"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://play.ht/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cartesia",
+      "name": "Cartesia",
+      "url": "https://cartesia.ai/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "Voice AI ultra-low latency ; TTS et agents temps réel.",
+      "capabilities": [
+        "low_latency_tts",
+        "real_time",
+        "voice_agents"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://cartesia.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

@@ -230,6 +230,177 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "nylas",
+      "name": "Nylas",
+      "url": "https://www.nylas.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Email API ; parsing, sync et extraction métadonnées depuis boîtes mail.",
+      "capabilities": [
+        "email_api",
+        "sync",
+        "parsing",
+        "calendar"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.nylas.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sendgrid-inbound",
+      "name": "Twilio SendGrid Inbound Parse",
+      "url": "https://www.twilio.com/docs/sendgrid/for-developers/parsing-email/inbound-email",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Webhook parsing email entrant ; extraction corps et pièces jointes vers app.",
+      "capabilities": [
+        "inbound_parse",
+        "webhooks",
+        "attachments"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/parsing-email/inbound-email",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mailjet-parse",
+      "name": "Mailjet Email Parser",
+      "url": "https://www.mailjet.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Parsing emails entrants via API ; routage et extraction pour workflows.",
+      "capabilities": [
+        "inbound_email",
+        "api",
+        "routing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.mailjet.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mailslurp",
+      "name": "MailSlurp",
+      "url": "https://www.mailslurp.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "API boîtes mail test et parsing ; extraction emails pour tests et automation.",
+      "capabilities": [
+        "test_inboxes",
+        "email_api",
+        "parsing",
+        "webhooks"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.mailslurp.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "emailoctopus-parse",
+      "name": "Email Parser API (Zapier Email Parser)",
+      "url": "https://parser.zapier.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Parsing email no-code ; règles extraction champs vers webhooks/Zapier.",
+      "capabilities": [
+        "no_code",
+        "field_extraction",
+        "webhooks"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://parser.zapier.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "streak-email",
+      "name": "Streak",
+      "url": "https://www.streak.com/",
+      "segments": [
+        "parsing-inbox",
+        "crm-platforms"
+      ],
+      "description": "CRM dans Gmail ; extraction pipeline depuis emails et workflows inbox.",
+      "capabilities": [
+        "gmail_crm",
+        "pipeline",
+        "email_workflows"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.streak.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

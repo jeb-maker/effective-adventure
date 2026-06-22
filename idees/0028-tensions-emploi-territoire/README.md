@@ -93,7 +93,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `hr-talent-ai` — RH & talent IA
 
-Fichier : [`catalogue-saas/vendors/hr-talent-ai.json`](../../catalogue-saas/vendors/hr-talent-ai.json) (4 entrées)
+Fichier : [`catalogue-saas/vendors/hr-talent-ai.json`](../../catalogue-saas/vendors/hr-talent-ai.json) (5 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -101,6 +101,7 @@ Fichier : [`catalogue-saas/vendors/hr-talent-ai.json`](../../catalogue-saas/vend
 | `eightfold` | Eightfold AI | US | partial | partial |
 | `hirevue` | HireVue | US | partial | partial |
 | `textio` | Textio | US | partial | partial |
+| `greenhouse` | Greenhouse | US | partial | partial |
 
 Commandes :
 ```bash
