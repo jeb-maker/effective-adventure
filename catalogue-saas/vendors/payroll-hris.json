@@ -1,0 +1,149 @@
+{
+  "segment": "payroll-hris",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "workday-hcm",
+      "name": "Workday HCM",
+      "url": "https://www.workday.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "SIRH cloud enterprise : core HR, payroll, talent et analytics.",
+      "capabilities": [
+        "core_hr",
+        "payroll",
+        "talent",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.workday.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "adp-workforce",
+      "name": "ADP Workforce Now",
+      "url": "https://www.adp.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "Paie et HRIS global ; compliance locale et self-service employés.",
+      "capabilities": [
+        "payroll",
+        "hris",
+        "compliance",
+        "self_service"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.adp.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "rippling",
+      "name": "Rippling",
+      "url": "https://www.rippling.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "Workforce platform unifiée : HR, IT, payroll et apps en un système.",
+      "capabilities": [
+        "hris",
+        "payroll",
+        "it_management",
+        "apps"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.rippling.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "payfit",
+      "name": "PayFit",
+      "url": "https://payfit.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "Paie et RH automatisées pour PME ; forte présence France/Europe.",
+      "capabilities": [
+        "payroll",
+        "leave_management",
+        "hr_admin"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "source_url": "https://payfit.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "personio",
+      "name": "Personio",
+      "url": "https://www.personio.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "HR software européen PME : recrutement, onboarding, payroll partenaires.",
+      "capabilities": [
+        "hris",
+        "recruiting",
+        "onboarding"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "source_url": "https://www.personio.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

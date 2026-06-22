@@ -1,0 +1,146 @@
+{
+  "segment": "bi-analytics-platforms",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "tableau",
+      "name": "Tableau (Salesforce)",
+      "url": "https://www.tableau.com/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "BI visuelle leader ; dashboards, prep et Einstein analytics.",
+      "capabilities": [
+        "visualization",
+        "dashboards",
+        "data_prep"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.tableau.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "power-bi",
+      "name": "Microsoft Power BI",
+      "url": "https://powerbi.microsoft.com/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "Self-service BI Microsoft ; modélisation, DAX et Copilot.",
+      "capabilities": [
+        "self_service_bi",
+        "modeling",
+        "copilot"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://powerbi.microsoft.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "looker",
+      "name": "Looker (Google Cloud)",
+      "url": "https://cloud.google.com/looker",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "Semantic layer BI ; LookML et embedded analytics.",
+      "capabilities": [
+        "semantic_layer",
+        "lookml",
+        "embedded"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://cloud.google.com/looker",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "thoughtspot",
+      "name": "ThoughtSpot",
+      "url": "https://www.thoughtspot.com/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "Search-driven analytics ; NLQ et Spotter AI analyst.",
+      "capabilities": [
+        "search_analytics",
+        "nlq",
+        "ai_analyst"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.thoughtspot.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "mode-analytics",
+      "name": "Mode",
+      "url": "https://mode.com/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "Analytics collaboratif ; SQL, Python/R notebooks et reporting.",
+      "capabilities": [
+        "sql",
+        "notebooks",
+        "reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://mode.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

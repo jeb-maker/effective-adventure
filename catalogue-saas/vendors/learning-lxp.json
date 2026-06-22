@@ -1,0 +1,147 @@
+{
+  "segment": "learning-lxp",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "docebo",
+      "name": "Docebo",
+      "url": "https://www.docebo.com/",
+      "segments": [
+        "learning-lxp"
+      ],
+      "description": "LMS/LXP AI-powered ; learning suite enterprise et marketplace contenus.",
+      "capabilities": [
+        "lms",
+        "lxp",
+        "ai_learning",
+        "content_marketplace"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.docebo.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "360learning",
+      "name": "360Learning",
+      "url": "https://360learning.com/",
+      "segments": [
+        "learning-lxp"
+      ],
+      "description": "Collaborative learning platform ; création pair-à-pair et LXP.",
+      "capabilities": [
+        "collaborative_learning",
+        "lxp",
+        "authoring"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://360learning.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "cornerstone",
+      "name": "Cornerstone OnDemand",
+      "url": "https://www.cornerstoneondemand.com/",
+      "segments": [
+        "learning-lxp"
+      ],
+      "description": "Talent experience suite : learning, performance et succession.",
+      "capabilities": [
+        "lms",
+        "performance",
+        "succession"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.cornerstoneondemand.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "degreed",
+      "name": "Degreed",
+      "url": "https://degreed.com/",
+      "segments": [
+        "learning-lxp"
+      ],
+      "description": "Upskilling platform ; agrégation contenus et skills intelligence.",
+      "capabilities": [
+        "upskilling",
+        "skills_intelligence",
+        "content_aggregation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://degreed.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "absorb-lms",
+      "name": "Absorb LMS",
+      "url": "https://www.absorblms.com/",
+      "segments": [
+        "learning-lxp"
+      ],
+      "description": "LMS cloud mid-market ; SCORM, mobile et reporting.",
+      "capabilities": [
+        "lms",
+        "scorm",
+        "mobile_learning"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.absorblms.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

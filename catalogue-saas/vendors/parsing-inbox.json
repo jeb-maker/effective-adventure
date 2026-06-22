@@ -1,0 +1,235 @@
+{
+  "segment": "parsing-inbox",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "parseur",
+      "name": "Parseur",
+      "url": "https://parseur.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Parsing email et documents avec zones configurables ; export vers apps et API.",
+      "capabilities": [
+        "email_parsing",
+        "attachment_extraction",
+        "webhooks",
+        "no_code"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "mailparser",
+      "name": "Mailparser",
+      "url": "https://mailparser.io/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Extraction structurée depuis emails entrants ; intégrations Zapier et API.",
+      "capabilities": [
+        "email_parsing",
+        "rules",
+        "integrations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "docparser",
+      "name": "Docparser",
+      "url": "https://docparser.com/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "Parsing documents basé templates/zones ; export structuré.",
+      "capabilities": [
+        "template_extraction",
+        "pdf_parsing",
+        "api",
+        "zapier"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "parsio",
+      "name": "Parsio",
+      "url": "https://parsio.io/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Extraction email/PDF avec IA ; concurrent des parsers inbox classiques.",
+      "capabilities": [
+        "ai_parsing",
+        "email",
+        "pdf",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "airparser",
+      "name": "Airparser",
+      "url": "https://airparser.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Parser email/document GPT-powered pour extraction de champs structurés.",
+      "capabilities": [
+        "gpt_parsing",
+        "email",
+        "attachments"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "mailgun-inbound",
+      "name": "Mailgun Inbound Routes",
+      "url": "https://www.mailgun.com/products/send/inbound-routing/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Routage email entrant vers webhooks ; base infra pour pipelines parsing custom.",
+      "capabilities": [
+        "inbound_email",
+        "webhooks",
+        "routing"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.mailgun.com/products/send/inbound-routing/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "postmark-inbound",
+      "name": "Postmark Inbound",
+      "url": "https://postmarkapp.com/developer/user-guide/inbound",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Réception emails entrants en JSON via webhook pour parsing applicatif.",
+      "capabilities": [
+        "inbound_parse",
+        "webhooks",
+        "json_payload"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://postmarkapp.com/developer/user-guide/inbound",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "extracta-ai",
+      "name": "Extracta.ai",
+      "url": "https://extracta.ai/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "Extraction IA depuis emails et documents sans templates préalables.",
+      "capabilities": [
+        "email_extraction",
+        "document_extraction",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

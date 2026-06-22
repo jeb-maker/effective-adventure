@@ -1,0 +1,146 @@
+{
+  "segment": "health-data-analytics",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "flatiron-health",
+      "name": "Flatiron Health",
+      "url": "https://flatiron.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Oncology real-world data ; registres patients et analytics recherche.",
+      "capabilities": [
+        "real_world_data",
+        "oncology",
+        "research_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://flatiron.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "komodo-health",
+      "name": "Komodo Health",
+      "url": "https://www.komodohealth.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Healthcare Map ; analytics population et parcours patients US.",
+      "capabilities": [
+        "healthcare_map",
+        "patient_journeys",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.komodohealth.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "tempus",
+      "name": "Tempus",
+      "url": "https://www.tempus.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Precision medicine ; données moléculaires/cliniques et IA décisionnelle.",
+      "capabilities": [
+        "precision_medicine",
+        "genomics",
+        "clinical_ai"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.tempus.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "truveta",
+      "name": "Truveta",
+      "url": "https://www.truveta.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Consortium données santé dé-identifiées ; recherche et insights population.",
+      "capabilities": [
+        "de_identified_data",
+        "research",
+        "population_insights"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.truveta.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "health-catalyst",
+      "name": "Health Catalyst",
+      "url": "https://www.healthcatalyst.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Healthcare analytics et data platform ; qualité, coûts et outcomes.",
+      "capabilities": [
+        "healthcare_analytics",
+        "quality_metrics",
+        "data_platform"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.healthcatalyst.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

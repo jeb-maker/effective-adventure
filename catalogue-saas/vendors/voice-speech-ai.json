@@ -1,0 +1,120 @@
+{
+  "segment": "voice-speech-ai",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "deepgram",
+      "name": "Deepgram",
+      "url": "https://deepgram.com/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "API speech-to-text et text-to-speech temps réel.",
+      "capabilities": [
+        "stt",
+        "tts",
+        "api",
+        "realtime"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://deepgram.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "assemblyai",
+      "name": "AssemblyAI",
+      "url": "https://www.assemblyai.com/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "API transcription et compréhension audio pour développeurs.",
+      "capabilities": [
+        "transcription",
+        "audio_intelligence",
+        "api"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.assemblyai.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "Synthèse vocale IA et agents conversationnels audio.",
+      "capabilities": [
+        "tts",
+        "voice_cloning",
+        "conversational_ai"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "self_serve",
+      "geography": "global",
+      "source_url": "https://elevenlabs.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "retell-ai",
+      "name": "Retell AI",
+      "url": "https://www.retellai.com/",
+      "segments": [
+        "voice-speech-ai",
+        "support-sales-agents"
+      ],
+      "description": "API agents vocaux temps réel pour support et sales.",
+      "capabilities": [
+        "voice_agents",
+        "phone",
+        "api"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.retellai.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

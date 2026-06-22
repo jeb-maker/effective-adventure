@@ -1,0 +1,147 @@
+{
+  "segment": "data-integration-etl",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "fivetran",
+      "name": "Fivetran",
+      "url": "https://www.fivetran.com/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "ELT managé : 500+ connecteurs sources vers warehouses cloud.",
+      "capabilities": [
+        "managed_connectors",
+        "elt",
+        "dbt_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.fivetran.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "airbyte",
+      "name": "Airbyte",
+      "url": "https://airbyte.com/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "Data integration open-core ; connecteurs community et cloud managé.",
+      "capabilities": [
+        "connectors",
+        "open_source",
+        "elt"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://airbyte.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "dbt-labs",
+      "name": "dbt Labs",
+      "url": "https://www.getdbt.com/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "Transformation SQL analytics-as-code ; tests, docs et lineage.",
+      "capabilities": [
+        "sql_transform",
+        "testing",
+        "lineage",
+        "docs"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.getdbt.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "stitch-data",
+      "name": "Stitch (Qlik)",
+      "url": "https://www.stitchdata.com/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "ELT simple pour analytics teams ; connecteurs SaaS vers warehouse.",
+      "capabilities": [
+        "elt",
+        "saas_connectors",
+        "scheduling"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.stitchdata.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "hevo-data",
+      "name": "Hevo Data",
+      "url": "https://hevodata.com/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "Pipeline no-code vers Snowflake/BigQuery ; CDC et transformations.",
+      "capabilities": [
+        "no_code_pipelines",
+        "cdc",
+        "reverse_etl"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://hevodata.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

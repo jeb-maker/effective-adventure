@@ -1,0 +1,118 @@
+{
+  "segment": "rag-knowledge",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "glean",
+      "name": "Glean",
+      "url": "https://www.glean.com/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Recherche enterprise IA sur apps internes ; index unifié et permissions.",
+      "capabilities": [
+        "enterprise_search",
+        "permissions",
+        "connectors"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.glean.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "dust",
+      "name": "Dust",
+      "url": "https://dust.tt/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Assistants IA sur données d'équipe avec connecteurs et agents.",
+      "capabilities": [
+        "team_assistants",
+        "connectors",
+        "agents"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "source_url": "https://dust.tt/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "partial",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "coveo",
+      "name": "Coveo",
+      "url": "https://www.coveo.com/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Relevance platform : search IA et recommandations pour enterprise.",
+      "capabilities": [
+        "semantic_search",
+        "recommendations",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.coveo.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "contextual-ai",
+      "name": "Contextual AI",
+      "url": "https://contextual.ai/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Plateforme RAG enterprise avec grounding et réduction hallucinations.",
+      "capabilities": [
+        "grounded_rag",
+        "enterprise",
+        "api"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://contextual.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

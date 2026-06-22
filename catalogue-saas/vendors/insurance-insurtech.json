@@ -1,0 +1,147 @@
+{
+  "segment": "insurance-insurtech",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "guidewire",
+      "name": "Guidewire",
+      "url": "https://www.guidewire.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Suite core insurance P&C ; policy, billing et claims cloud.",
+      "capabilities": [
+        "policy_admin",
+        "billing",
+        "claims"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.guidewire.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "duck-creek",
+      "name": "Duck Creek Technologies",
+      "url": "https://www.duckcreek.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Insurance platform SaaS ; underwriting, policy et distribution.",
+      "capabilities": [
+        "underwriting",
+        "policy",
+        "distribution"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.duckcreek.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "lemonade",
+      "name": "Lemonade",
+      "url": "https://www.lemonade.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Assureur digital AI-first ; souscription instantanée et sinistres automatisés.",
+      "capabilities": [
+        "ai_underwriting",
+        "instant_quote",
+        "claims_automation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "self_serve",
+      "geography": "global",
+      "source_url": "https://www.lemonade.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "coalition",
+      "name": "Coalition",
+      "url": "https://www.coalitioninc.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Cyber insurance + security ; underwriting basé posture sécurité.",
+      "capabilities": [
+        "cyber_insurance",
+        "security_scanning",
+        "underwriting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.coalitioninc.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "shift-technology",
+      "name": "Shift Technology",
+      "url": "https://www.shift-technology.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "AI claims automation et fraud detection pour assureurs.",
+      "capabilities": [
+        "claims_automation",
+        "fraud_detection",
+        "ai"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "source_url": "https://www.shift-technology.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "partial",
+      "operating_regions": [
+        "FR",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

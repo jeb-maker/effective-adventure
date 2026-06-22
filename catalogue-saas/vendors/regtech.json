@@ -1,0 +1,797 @@
+{
+  "segment": "regtech",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "thomson-reuters-regulatory-intelligence",
+      "name": "Thomson Reuters Regulatory Intelligence",
+      "url": "https://www.thomsonreuters.com/en/products/regulatory-intelligence.html",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Plateforme enterprise de veille réglementaire avec bibliothèque d'obligations structurées, taxonomie multi-secteurs et export/API.",
+      "capabilities": [
+        "regulatory_monitoring",
+        "obligations_library",
+        "alerts",
+        "api_export"
+      ],
+      "pricing_model": "enterprise_quote",
+      "pricing_notes": "Pricing sur devis ; intégré à l'écosystème Thomson Reuters.",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://legalsolutions.thomsonreuters.co.uk/content/dam/ewp-m/documents/legal/en/pdf/support/regulatory-intelligence-obligations-library-sell-sheet.pdf",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "cube-regulatory-intelligence",
+      "name": "CUBE Regulatory Intelligence",
+      "url": "https://www.cube.global/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "RegTech enterprise ; a renforcé son offre via acquisitions (ex. activités RI Thomson Reuters, 4CRisk.ai).",
+      "capabilities": [
+        "regulatory_monitoring",
+        "obligation_mapping",
+        "impact_analysis",
+        "ai_classification"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://dynamicbusiness.com/featured/tech-tuesday/tech-tuesday-regulatory-change-alert-systems-for-smes.html",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Consolidation marché 2025-2026 ; détails produit à confirmer sur cube.global.",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "corlytics",
+      "name": "Corlytics",
+      "url": "https://www.corlytics.com/",
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
+      "description": "Regulatory intelligence et mapping obligations ↔ contrôles/policies avec traçabilité dynamique ; a absorbé Clausematch.",
+      "capabilities": [
+        "regulatory_mapping",
+        "controls_mapping",
+        "gap_analysis",
+        "policy_management",
+        "risk_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.corlytics.com/solutions/regulatory-controls-mapping/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "ascent-regtech",
+      "name": "Ascent RegTech",
+      "url": "https://www.ascentregtech.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Convertit le texte réglementaire en obligations machine-readable mappées aux activités métier.",
+      "capabilities": [
+        "obligation_extraction",
+        "regulatory_change_management",
+        "business_mapping"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.cbinsights.com/company/ascent-technologies",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "finrege",
+      "name": "FinregE",
+      "url": "https://finreg-e.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Plateforme RegTech end-to-end : veille, obligations, policies, contrôles et preuves auditables (focus finance).",
+      "capabilities": [
+        "regulatory_intelligence",
+        "obligation_library",
+        "policy_controls_chain",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://finreg-e.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "kalipso",
+      "name": "Kalipso",
+      "url": "https://kalipso.ai/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "IA pour veille réglementaire européenne, traduction en obligations, détection de gaps et propositions de remédiation.",
+      "capabilities": [
+        "applicability_analysis",
+        "obligation_synthesis",
+        "policy_gap_scan",
+        "remediation_drafts"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "source_url": "https://kalipso.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "sia-regai",
+      "name": "Sia RegAI",
+      "url": "https://siareg.ai/",
+      "segments": [
+        "regtech",
+        "grc-security",
+        "compliance-to-spec"
+      ],
+      "description": "RegReview + RegMatcher : monitoring réglementaire, gap analysis, rédaction de contrôles avec traceback source.",
+      "capabilities": [
+        "regulatory_monitoring",
+        "gap_analysis",
+        "control_drafting",
+        "evidence_pack",
+        "grc_integrations"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://siareg.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "regl-ai",
+      "name": "Regl.ai",
+      "url": "https://regl.ai/",
+      "segments": [
+        "regtech",
+        "ai-governance"
+      ],
+      "description": "Legal intelligence agentique : ingestion réglementaire multilingue, extraction d'obligations, workflows auditables.",
+      "capabilities": [
+        "obligation_extraction",
+        "risk_heatmaps",
+        "audit_trail",
+        "policy_automation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://regl.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "regology",
+      "name": "Regology",
+      "url": "https://www.regology.com/",
+      "segments": [
+        "regtech",
+        "compliance-to-spec"
+      ],
+      "description": "Plateforme de compliance globale avec agents IA pour recherche réglementaire et gestion du changement.",
+      "capabilities": [
+        "smart_law_library",
+        "regulatory_change_agent",
+        "research_agent",
+        "obligation_generation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "notes": "Acquis par Bloomberg Industry Group (contexte marché 2026).",
+      "source_url": "https://www.regology.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "norm-ai",
+      "name": "Norm Ai",
+      "url": "https://norm.ai/",
+      "segments": [
+        "regtech",
+        "ai-governance"
+      ],
+      "description": "Agents juridiques/réglementaires pour vérification en temps réel et Supervisory AI (couche compliance pour agents).",
+      "capabilities": [
+        "legal_encoding",
+        "supervisory_ai",
+        "real_time_verification",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "us",
+      "source_url": "https://www.norm.ai/supervisory-ai",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "compliance-ai",
+      "name": "Compliance.ai",
+      "url": "https://www.compliance.ai/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "RegTech IA-native : veille et classification de changements réglementaires (finance, life sciences).",
+      "capabilities": [
+        "regulatory_monitoring",
+        "ai_classification",
+        "alerts"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "us",
+      "source_url": "https://dataintelo.com/report/regulatory-intelligence-platform-market",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Profil issu rapport marché ; vérifier offre actuelle sur site officiel.",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "4crisk-ai",
+      "name": "4CRisk.ai",
+      "url": "https://www.4crisk.ai/",
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
+      "description": "Automatisation compliance/GRC orientée ROI ; racheté par CUBE (2026).",
+      "capabilities": [
+        "regulatory_change_automation",
+        "policy_mapping",
+        "risk_controls"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://regtechanalyst.com/how-ai-is-reshaping-regulatory-compliance-strategies-in-2026/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "clausematch",
+      "name": "Clausematch",
+      "url": "https://www.clausematch.com/",
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
+      "description": "Gestion policies & procedures ; intégré à Corlytics pour couche documentaire compliance.",
+      "capabilities": [
+        "policy_management",
+        "procedure_workflows",
+        "regulatory_alignment"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://dynamicbusiness.com/featured/tech-tuesday/tech-tuesday-regulatory-change-alert-systems-for-smes.html",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Acquisition Corlytics ; produit peut être rebaptisé/intégré.",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "diligent",
+      "name": "Diligent",
+      "url": "https://www.diligent.com/",
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
+      "description": "Suite GRC enterprise incluant veille réglementaire et gestion policies pour boards et compliance.",
+      "capabilities": [
+        "regulatory_intelligence",
+        "policy_management",
+        "board_governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "metricstream-reg",
+      "name": "MetricStream Regulatory Management",
+      "url": "https://www.metricstream.com/",
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
+      "description": "GRC enterprise avec change management réglementaire sur 750+ régulateurs.",
+      "capabilities": [
+        "regulatory_change",
+        "obligation_tracking",
+        "ai_monitoring"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "vixio",
+      "name": "Vixio",
+      "url": "https://www.vixio.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Regulatory intelligence spécialisée gambling/payments/finance.",
+      "capabilities": [
+        "regulatory_monitoring",
+        "horizon_scanning",
+        "expert_analysis"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.cbinsights.com/company/ascent-technologies",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "steel-eye",
+      "name": "SteelEye",
+      "url": "https://www.steeleye.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Compliance communications & trade surveillance pour services financiers.",
+      "capabilities": [
+        "comms_surveillance",
+        "trade_surveillance",
+        "regulatory_reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://dataintelo.com/report/regulatory-intelligence-platform-market",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "fenergo",
+      "name": "Fenergo",
+      "url": "https://www.fenergo.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Client lifecycle management réglementaire ; KYC/AML et onboarding conformes pour banques et asset management.",
+      "capabilities": [
+        "clm",
+        "kyc_aml",
+        "regulatory_rules",
+        "onboarding"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "IE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.fenergo.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lseg-regulatory-intelligence",
+      "name": "LSEG Regulatory Intelligence",
+      "url": "https://www.lseg.com/en/data-analytics/products/regulatory-intelligence",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Veille réglementaire et bibliothèque d'obligations ; héritage Refinitiv/Thomson Reuters pour institutions financières.",
+      "capabilities": [
+        "regulatory_monitoring",
+        "obligations_library",
+        "horizon_scanning"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.lseg.com/en/data-analytics/products/regulatory-intelligence",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "encompass",
+      "name": "Encompass Corporation",
+      "url": "https://www.encompasscorporation.com/",
+      "segments": [
+        "regtech",
+        "kyc-aml"
+      ],
+      "description": "KYC et due diligence corporate ; workflows conformité pour onboarding client régulé.",
+      "capabilities": [
+        "kyc",
+        "corporate_dd",
+        "workflow",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.encompasscorporation.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "actico",
+      "name": "ACTICO",
+      "url": "https://www.actico.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Moteur de décision compliance ; règles métier réglementaires exécutables pour banque et assurance.",
+      "capabilities": [
+        "rules_engine",
+        "compliance_decisioning",
+        "aml",
+        "credit"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.actico.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "alyne",
+      "name": "Alyne",
+      "url": "https://www.alyne.com/",
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
+      "description": "GRC cloud EU ; cartographie risques/contrôles et veille réglementaire pour entreprises régulées.",
+      "capabilities": [
+        "grc",
+        "risk_mapping",
+        "regulatory_updates",
+        "controls"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.alyne.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "acaglobal",
+      "name": "ACA Group",
+      "url": "https://www.acaglobal.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Services et technologie regulatory compliance pour asset managers ; surveillance et reporting.",
+      "capabilities": [
+        "regulatory_compliance",
+        "surveillance",
+        "asset_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.acaglobal.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "nice-actimize",
+      "name": "NICE Actimize",
+      "url": "https://www.niceactimize.com/",
+      "segments": [
+        "regtech",
+        "kyc-aml"
+      ],
+      "description": "Plateforme financial crime : AML, fraude et conformité pour institutions financières.",
+      "capabilities": [
+        "aml",
+        "fraud_detection",
+        "trade_surveillance",
+        "case_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.niceactimize.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "waystone",
+      "name": "Waystone",
+      "url": "https://www.waystone.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Compliance et gouvernance pour gestionnaires d'actifs ; regulatory reporting et risk oversight.",
+      "capabilities": [
+        "fund_compliance",
+        "regulatory_reporting",
+        "governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "LU",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU",
+        "US"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.waystone.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hummingbird-regtech",
+      "name": "Hummingbird RegTech",
+      "url": "https://www.hummingbird.co/",
+      "segments": [
+        "regtech",
+        "kyc-aml"
+      ],
+      "description": "Investigation AML et compliance ops ; workflows cas et intelligence réglementaire.",
+      "capabilities": [
+        "aml_investigations",
+        "case_management",
+        "compliance_ops"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.hummingbird.co/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "aca-foreside",
+      "name": "ACA Foreside",
+      "url": "https://www.acaforeside.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Distribution compliance et regulatory filing pour fonds d'investissement US/EU.",
+      "capabilities": [
+        "distribution_compliance",
+        "regulatory_filing",
+        "funds"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
+      "source_url": "https://www.acaforeside.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
+}

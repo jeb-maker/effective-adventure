@@ -1,0 +1,269 @@
+{
+  "segment": "automation-platforms",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "url": "https://zapier.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Automatisation no-code entre apps ; modèle abonnement + tâches.",
+      "capabilities": [
+        "workflow_automation",
+        "integrations",
+        "ai_actions"
+      ],
+      "pricing_model": "hybrid",
+      "pricing_notes": "À partir de ~$29.99/mo + tâches.",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "make",
+      "name": "Make",
+      "url": "https://www.make.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Scénarios d'automatisation visuels ; facturation par opérations.",
+      "capabilities": [
+        "visual_scenarios",
+        "integrations",
+        "operations"
+      ],
+      "pricing_model": "hybrid",
+      "pricing_notes": "À partir de ~$10.59/mo + ops.",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "url": "https://n8n.io/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Workflow automation open-source / cloud ; populaire pour pipelines IA self-hosted.",
+      "capabilities": [
+        "workflow_automation",
+        "self_hosted",
+        "ai_nodes"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://n8n.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "workato",
+      "name": "Workato",
+      "url": "https://www.workato.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "iPaaS enterprise : recipes, connecteurs 1000+, agent on-prem pour systèmes internes.",
+      "capabilities": [
+        "enterprise_ipaas",
+        "recipes",
+        "on_prem_agent",
+        "ai_workflows"
+      ],
+      "pricing_model": "enterprise_quote",
+      "pricing_notes": "Usage-based ; entrée souvent ~$10K/an (sources marché 2026).",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://docs.workato.com/en/pricing",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "tray-io",
+      "name": "Tray.io",
+      "url": "https://tray.io/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "iPaaS enterprise JS-first avec Merlin AI pour génération de workflows.",
+      "capabilities": [
+        "javascript_mapping",
+        "merlin_ai",
+        "enterprise_connectors"
+      ],
+      "pricing_model": "enterprise_quote",
+      "pricing_notes": "Sur devis ; Pro cité ~$595/mo dans comparatifs.",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://plugjunction.com/compare/tray.io-vs-pipedream/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "pipedream",
+      "name": "Pipedream",
+      "url": "https://pipedream.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Workflows code-first (Node/Python) ; pricing crédits sur temps de compute.",
+      "capabilities": [
+        "code_steps",
+        "connect",
+        "workflows",
+        "ai_agents"
+      ],
+      "pricing_model": "hybrid",
+      "pricing_notes": "Free tier ; paid dès ~$29/mo.",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://pipedream.com/docs/pricing",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "activepieces",
+      "name": "Activepieces",
+      "url": "https://www.activepieces.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Automation open-source (MIT) + cloud ; alternative self-host à Zapier/n8n.",
+      "capabilities": [
+        "open_source",
+        "self_hosted",
+        "pieces",
+        "ai_flows"
+      ],
+      "pricing_model": "hybrid",
+      "pricing_notes": "Cloud Pro ~$25/mo ; OSS gratuit self-hosted.",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://propicked.com/blog/best-workflow-automation-2026-zapier-make-n8n-workato-tray",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "microsoft-power-automate",
+      "name": "Microsoft Power Automate",
+      "url": "https://www.microsoft.com/en-us/power-platform/products/power-automate",
+      "segments": [
+        "automation-platforms",
+        "rpa-enterprise"
+      ],
+      "description": "Automatisation intégrée écosystème Microsoft 365 / Dynamics / Azure.",
+      "capabilities": [
+        "rpa",
+        "cloud_flows",
+        "desktop_flows",
+        "m365_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.youngju.dev/blog/culture/2026-05-16-zapier-n8n-make-activepieces-pipedream-workato-tines-power-automate-2026-deep-dive.en",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "tines",
+      "name": "Tines",
+      "url": "https://www.tines.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Automation orientée sécurité/opérations ; stories no-code pour équipes SecOps.",
+      "capabilities": [
+        "secops_automation",
+        "stories",
+        "case_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.youngju.dev/blog/culture/2026-05-16-zapier-n8n-make-activepieces-pipedream-workato-tines-power-automate-2026-deep-dive.en",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "segment": "real-estate-proptech",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "costar",
+      "name": "CoStar",
+      "url": "https://www.costar.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Données et analytics immobilier commercial ; listings et market intelligence.",
+      "capabilities": [
+        "commercial_data",
+        "listings",
+        "market_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.costar.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "yardi",
+      "name": "Yardi",
+      "url": "https://www.yardi.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Property management software ; accounting, leasing et operations.",
+      "capabilities": [
+        "property_management",
+        "accounting",
+        "leasing"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.yardi.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "procore",
+      "name": "Procore",
+      "url": "https://www.procore.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Construction management cloud ; projets, qualité et financials.",
+      "capabilities": [
+        "construction_pm",
+        "quality",
+        "financials"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.procore.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "matera",
+      "name": "Matera",
+      "url": "https://www.matera.eu/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Gestion copropriétés et syndic digital ; France.",
+      "capabilities": [
+        "copropriete",
+        "syndic",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "source_url": "https://www.matera.eu/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "pricehubble",
+      "name": "PriceHubble",
+      "url": "https://www.pricehubble.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Analytics et estimation immobilière ; AVM et insights marché.",
+      "capabilities": [
+        "avm",
+        "market_insights",
+        "portfolio_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "source_url": "https://www.pricehubble.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "CH",
+      "france_market": "partial",
+      "operating_regions": [
+        "CH",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

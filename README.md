@@ -14,6 +14,9 @@ rigoureuse et comparable**.
   revue critique) sont dans [`docs/prompts/`](docs/prompts/).
 - Le **catalogue des sources complémentaires vérifiées** (croisements, disponibilité)
   est dans [`docs/sources-complementaires.md`](docs/sources-complementaires.md).
+- Le **catalogue SaaS** (veille marché RegTech, IDP, GRC, agents IA) est dans
+  [`catalogue-saas/`](catalogue-saas/) — méthode dans
+  [`docs/catalogue-saas-methode.md`](docs/catalogue-saas-methode.md).
 - Chaque idée vit dans `idees/<id>-<slug>/README.md`.
 - Le **registre** ci-dessous est l'index unique (à tenir à jour à chaque ajout).
 

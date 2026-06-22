@@ -1,0 +1,148 @@
+{
+  "segment": "model-inference-hosting",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "hugging-face",
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/",
+      "segments": [
+        "model-inference-hosting"
+      ],
+      "description": "Hub modèles open-source, Inference Endpoints, Spaces et fine-tuning.",
+      "capabilities": [
+        "model_hub",
+        "inference_endpoints",
+        "spaces",
+        "fine_tuning"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://huggingface.co/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "together-ai",
+      "name": "Together AI",
+      "url": "https://www.together.ai/",
+      "segments": [
+        "model-inference-hosting"
+      ],
+      "description": "Inference GPU cloud pour modèles open-source ; fine-tuning et serverless.",
+      "capabilities": [
+        "gpu_inference",
+        "fine_tuning",
+        "serverless"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.together.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "replicate",
+      "name": "Replicate",
+      "url": "https://replicate.com/",
+      "segments": [
+        "model-inference-hosting"
+      ],
+      "description": "Run ML models via API ; hosting open-source et custom containers.",
+      "capabilities": [
+        "model_api",
+        "custom_models",
+        "gpu_scaling"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "self_serve",
+      "geography": "global",
+      "source_url": "https://replicate.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "modal",
+      "name": "Modal",
+      "url": "https://modal.com/",
+      "segments": [
+        "model-inference-hosting"
+      ],
+      "description": "Infrastructure serverless GPU pour inference, training et batch jobs Python.",
+      "capabilities": [
+        "serverless_gpu",
+        "inference",
+        "batch_jobs"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://modal.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "aws-bedrock",
+      "name": "Amazon Bedrock",
+      "url": "https://aws.amazon.com/bedrock/",
+      "segments": [
+        "model-inference-hosting"
+      ],
+      "description": "Managed foundation models multi-fournisseurs sur AWS ; fine-tuning et agents.",
+      "capabilities": [
+        "managed_models",
+        "fine_tuning",
+        "agents",
+        "vpc"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://aws.amazon.com/bedrock/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

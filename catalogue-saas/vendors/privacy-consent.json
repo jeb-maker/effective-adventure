@@ -1,0 +1,122 @@
+{
+  "segment": "privacy-consent",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "didomi",
+      "name": "Didomi",
+      "url": "https://www.didomi.io/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "CMP et gestion consentement RGPD ; SDK web/mobile et préférences privacy.",
+      "capabilities": [
+        "cmp",
+        "consent",
+        "preference_center",
+        "gdpr"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "source_url": "https://www.didomi.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "onetrust-privacy",
+      "name": "OneTrust Privacy",
+      "url": "https://www.onetrust.com/products/privacy-management/",
+      "segments": [
+        "privacy-consent",
+        "grc-security"
+      ],
+      "description": "Gestion privacy : DPIA, registres, droits des personnes, cookies.",
+      "capabilities": [
+        "dpia",
+        "ropa",
+        "dsar",
+        "cookie_consent"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.onetrust.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "osano",
+      "name": "Osano",
+      "url": "https://www.osano.com/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "Data privacy platform : consent, vendor monitoring, DSAR.",
+      "capabilities": [
+        "consent_management",
+        "vendor_monitoring",
+        "dsar"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.osano.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "axeptio",
+      "name": "Axeptio",
+      "url": "https://www.axeptio.eu/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "CMP française RGPD/ePrivacy pour sites et apps.",
+      "capabilities": [
+        "cmp",
+        "consent",
+        "france",
+        "gdpr"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "source_url": "https://www.axeptio.eu/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

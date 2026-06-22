@@ -1,0 +1,119 @@
+{
+  "segment": "data-enrichment-b2b",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "apollo-io",
+      "name": "Apollo.io",
+      "url": "https://www.apollo.io/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Base contacts B2B + enrichissement emails et firmographics pour sales.",
+      "capabilities": [
+        "contact_data",
+        "enrichment",
+        "sequences"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.apollo.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "clearbit",
+      "name": "Clearbit (HubSpot)",
+      "url": "https://clearbit.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Enrichissement données entreprises et personnes via API.",
+      "capabilities": [
+        "firmographics",
+        "api_enrichment",
+        "reveal"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://clearbit.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "pappers",
+      "name": "Pappers",
+      "url": "https://www.pappers.fr/",
+      "segments": [
+        "data-enrichment-b2b",
+        "territorial-analytics"
+      ],
+      "description": "Données entreprises françaises (SIRENE, bilans) ; API et veille.",
+      "capabilities": [
+        "france_companies",
+        "api",
+        "beneficial_owners"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "source_url": "https://www.pappers.fr/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "zoominfo",
+      "name": "ZoomInfo",
+      "url": "https://www.zoominfo.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Intelligence commerciale B2B : contacts, intent, firmographics.",
+      "capabilities": [
+        "b2b_data",
+        "intent_signals",
+        "sales_intelligence"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.zoominfo.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "segment": "ai-productivity",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "url": "https://www.notion.so/product/ai",
+      "segments": [
+        "ai-productivity",
+        "project-work-management"
+      ],
+      "description": "IA intégrée workspace Notion : rédaction, synthèse, Q&A sur notes.",
+      "capabilities": [
+        "writing",
+        "summarization",
+        "workspace_qa"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.notion.so/product/ai",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "url": "https://www.jasper.ai/",
+      "segments": [
+        "ai-productivity",
+        "seo-content-ai"
+      ],
+      "description": "Plateforme contenu marketing IA pour équipes brand.",
+      "capabilities": [
+        "marketing_copy",
+        "brand_voice",
+        "campaigns"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.jasper.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "url": "https://gamma.app/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Génération présentations et documents IA à partir de prompts.",
+      "capabilities": [
+        "presentations",
+        "documents",
+        "ai_generation"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "global",
+      "source_url": "https://gamma.app/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter.ai",
+      "url": "https://otter.ai/",
+      "segments": [
+        "ai-productivity",
+        "voice-speech-ai",
+        "meeting-intelligence"
+      ],
+      "description": "Transcription et notes de réunion automatiques.",
+      "capabilities": [
+        "meeting_transcription",
+        "summaries",
+        "collaboration"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://otter.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

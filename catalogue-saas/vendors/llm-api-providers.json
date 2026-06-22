@@ -1,0 +1,149 @@
+{
+  "segment": "llm-api-providers",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "openai-api",
+      "name": "OpenAI API",
+      "url": "https://platform.openai.com/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "API GPT-4o/o-series, embeddings et fine-tuning ; référence marché LLM.",
+      "capabilities": [
+        "chat_completions",
+        "embeddings",
+        "fine_tuning",
+        "assistants"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://openai.com/api/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "anthropic-api",
+      "name": "Anthropic API",
+      "url": "https://www.anthropic.com/api",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "Claude models via API ; long context, tool use et safety-focused.",
+      "capabilities": [
+        "claude_models",
+        "tool_use",
+        "long_context"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.anthropic.com/api",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "mistral-ai",
+      "name": "Mistral AI",
+      "url": "https://mistral.ai/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "Modèles open et propriétaires européens ; API, fine-tuning et déploiement souverain.",
+      "capabilities": [
+        "frontier_models",
+        "open_models",
+        "europe_sovereignty"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "source_url": "https://mistral.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "partial",
+      "operating_regions": [
+        "FR",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "google-gemini-api",
+      "name": "Google Gemini API",
+      "url": "https://ai.google.dev/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "Gemini multimodal via Vertex AI et AI Studio ; grounding et function calling.",
+      "capabilities": [
+        "multimodal",
+        "grounding",
+        "function_calling"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://ai.google.dev/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "url": "https://cohere.com/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "LLM enterprise : génération, embeddings, rerank et RAG toolkit.",
+      "capabilities": [
+        "generation",
+        "embeddings",
+        "rerank",
+        "rag"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://cohere.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

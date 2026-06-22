@@ -1,0 +1,146 @@
+{
+  "segment": "project-work-management",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "asana",
+      "name": "Asana",
+      "url": "https://asana.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Work management : projets, portfolios, goals et couche IA (Asana Intelligence).",
+      "capabilities": [
+        "project_tracking",
+        "portfolios",
+        "ai_summaries"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://asana.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "monday-com",
+      "name": "monday.com",
+      "url": "https://monday.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Work OS no-code ; boards, automations et AI blocks pour équipes.",
+      "capabilities": [
+        "work_os",
+        "automations",
+        "ai_blocks"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://monday.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "url": "https://linear.app/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Issue tracking moderne pour équipes produit/tech ; cycles et roadmaps.",
+      "capabilities": [
+        "issue_tracking",
+        "roadmaps",
+        "cycles"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://linear.app/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "clickup",
+      "name": "ClickUp",
+      "url": "https://clickup.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "All-in-one productivité : tâches, docs, whiteboards et AI assistant.",
+      "capabilities": [
+        "tasks",
+        "docs",
+        "ai_assistant"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://clickup.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "wrike",
+      "name": "Wrike",
+      "url": "https://www.wrike.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "PMO et gestion projet enterprise ; ressources, Gantt et reporting.",
+      "capabilities": [
+        "pmo",
+        "resource_management",
+        "reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.wrike.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "segment": "hr-talent-ai",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "paradox-olivia",
+      "name": "Paradox (Olivia)",
+      "url": "https://www.paradox.ai/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "Agent IA recrutement : screening, scheduling, onboarding candidats.",
+      "capabilities": [
+        "recruiting_agent",
+        "scheduling",
+        "high_volume_hiring"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.paradox.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "eightfold",
+      "name": "Eightfold AI",
+      "url": "https://eightfold.ai/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "Talent intelligence : matching candidats, upskilling, workforce planning.",
+      "capabilities": [
+        "talent_matching",
+        "workforce_planning",
+        "ai_screening"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://eightfold.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "hirevue",
+      "name": "HireVue",
+      "url": "https://www.hirevue.com/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "Entretiens vidéo et assessments IA pour recrutement.",
+      "capabilities": [
+        "video_interviews",
+        "assessments",
+        "ai_scoring"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.hirevue.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "textio",
+      "name": "Textio",
+      "url": "https://textio.com/",
+      "segments": [
+        "hr-talent-ai",
+        "ai-productivity"
+      ],
+      "description": "Optimisation offres d'emploi et communications RH inclusive (IA linguistique).",
+      "capabilities": [
+        "job_posts",
+        "inclusive_language",
+        "analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://textio.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

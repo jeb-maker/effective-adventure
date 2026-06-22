@@ -1,0 +1,146 @@
+{
+  "segment": "supply-chain-logistics",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "flexport",
+      "name": "Flexport",
+      "url": "https://www.flexport.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Freight forwarding digital ; booking, customs et visibilité supply chain.",
+      "capabilities": [
+        "freight",
+        "customs",
+        "visibility"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.flexport.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "project44",
+      "name": "project44",
+      "url": "https://www.project44.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Supply chain visibility ; tracking temps réel multi-modal.",
+      "capabilities": [
+        "real_time_tracking",
+        "visibility",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.project44.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "fourkites",
+      "name": "FourKites",
+      "url": "https://www.fourkites.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Real-time transportation visibility ; ETA prediction et exceptions.",
+      "capabilities": [
+        "transport_visibility",
+        "eta_prediction",
+        "exceptions"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.fourkites.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "shipbob",
+      "name": "ShipBob",
+      "url": "https://www.shipbob.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "3PL e-commerce fulfillment ; warehousing et shipping multi-canal.",
+      "capabilities": [
+        "fulfillment",
+        "warehousing",
+        "ecommerce"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.shipbob.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "kinaxis",
+      "name": "Kinaxis",
+      "url": "https://www.kinaxis.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Supply chain planning concurrent ; demand, inventory et S&OP.",
+      "capabilities": [
+        "demand_planning",
+        "inventory",
+        "s_and_op"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.kinaxis.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

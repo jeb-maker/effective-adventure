@@ -1,0 +1,324 @@
+{
+  "segment": "support-sales-agents",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "intercom-fin",
+      "name": "Intercom Fin",
+      "url": "https://www.intercom.com/fin",
+      "segments": [
+        "support-sales-agents",
+        "helpdesk-platforms"
+      ],
+      "description": "Agent IA support facturé par outcome (résolution) plutôt que par siège seul.",
+      "capabilities": [
+        "ai_resolution",
+        "outcome_billing",
+        "helpdesk_integration"
+      ],
+      "pricing_model": "per_outcome",
+      "pricing_notes": "$0.99 par outcome ; minimum ~50 outcomes/mois.",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.intercom.com/pricing",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "zendesk-ai",
+      "name": "Zendesk AI Agents",
+      "url": "https://www.zendesk.com/service/ai/",
+      "segments": [
+        "support-sales-agents",
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk classique + couche IA ; hybrid seat + add-on + résolutions automatisées.",
+      "capabilities": [
+        "ticket_deflection",
+        "automated_resolution",
+        "copilot"
+      ],
+      "pricing_model": "hybrid",
+      "pricing_notes": "Sièges $115-155/mo + add-on IA + ~$1.50/résolution automatisée.",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://helply.com/blog/per-seat-saas-pricing-dying",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "salesforce-agentforce",
+      "name": "Salesforce Agentforce",
+      "url": "https://www.salesforce.com/agentforce/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Agents IA Salesforce ; pricing conversation/outcome en complément du modèle siège.",
+      "capabilities": [
+        "crm_agents",
+        "conversations",
+        "flex_credits"
+      ],
+      "pricing_model": "per_outcome",
+      "pricing_notes": "~$2 par conversation agent (références marché 2026).",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.aimagicx.com/blog/death-of-per-seat-saas-pricing-ai-agents-2026",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "sierra",
+      "name": "Sierra",
+      "url": "https://sierra.ai/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Agents expérience client ; modèle orienté résultat (enterprise).",
+      "capabilities": [
+        "customer_agents",
+        "outcome_based"
+      ],
+      "pricing_model": "per_outcome",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "11x",
+      "name": "11x",
+      "url": "https://www.11x.ai/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Agent commercial SDR ; facturation liée aux meetings/leads qualifiés.",
+      "capabilities": [
+        "sdr_agent",
+        "outbound",
+        "meeting_booking"
+      ],
+      "pricing_model": "per_outcome",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "pickaxe",
+      "name": "Pickaxe",
+      "url": "https://pickaxe.co/",
+      "segments": [
+        "support-sales-agents",
+        "automation-platforms"
+      ],
+      "description": "Builder d'agents IA ; hybrid abonnement + crédits.",
+      "capabilities": [
+        "agent_builder",
+        "monetization",
+        "credits"
+      ],
+      "pricing_model": "hybrid",
+      "pricing_notes": "~$19/mo + crédits IA.",
+      "target_market": "self_serve",
+      "geography": "global",
+      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "verified",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "ada",
+      "name": "Ada",
+      "url": "https://www.ada.cx/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Plateforme automation support IA ; résolution et orchestration conversations.",
+      "capabilities": [
+        "ai_agent",
+        "multichannel",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.intercom.com/pricing",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Concurrent helpdesk AI ; pricing non public.",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "forethought",
+      "name": "Forethought",
+      "url": "https://forethought.ai/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Agents IA support : tri, résolution et assistance agents humains.",
+      "capabilities": [
+        "ticket_deflection",
+        "agent_assist",
+        "workflow_automation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://helply.com/blog/per-seat-saas-pricing-dying",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "decagon",
+      "name": "Decagon",
+      "url": "https://decagon.ai/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Agents conversationnels enterprise pour support client automatisé.",
+      "capabilities": [
+        "conversational_agents",
+        "enterprise_support",
+        "integrations"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "hubspot-breeze",
+      "name": "HubSpot Breeze AI",
+      "url": "https://www.hubspot.com/products/artificial-intelligence",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Couche IA HubSpot CRM ; agents et résolutions facturées en hybrid seat + crédits.",
+      "capabilities": [
+        "crm_ai",
+        "customer_agent",
+        "sales_ai",
+        "credits"
+      ],
+      "pricing_model": "hybrid",
+      "pricing_notes": "Crédits IA + composantes par résolution (marché 2026).",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://helply.com/blog/per-seat-saas-pricing-dying",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "freshworks-freddy",
+      "name": "Freshworks Freddy AI",
+      "url": "https://www.freshworks.com/freddy-ai/",
+      "segments": [
+        "support-sales-agents",
+        "helpdesk-platforms"
+      ],
+      "description": "IA intégrée suite Freshdesk/Freshsales ; copilot et automation support.",
+      "capabilities": [
+        "support_ai",
+        "sales_ai",
+        "copilot"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.freshworks.com/freddy-ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

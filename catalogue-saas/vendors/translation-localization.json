@@ -1,0 +1,146 @@
+{
+  "segment": "translation-localization",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "url": "https://www.deepl.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "Traduction neuronale haute qualité ; API, glossaires et write assist.",
+      "capabilities": [
+        "machine_translation",
+        "api",
+        "glossaries"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.deepl.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "phrase",
+      "name": "Phrase (Memsource)",
+      "url": "https://phrase.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "TMS cloud : workflows traduction, MT, QA et intégrations CI/CD.",
+      "capabilities": [
+        "tms",
+        "translation_memory",
+        "mt_post_edit"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://phrase.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "smartling",
+      "name": "Smartling",
+      "url": "https://www.smartling.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "Localization platform : traduction continue, connectors et analytics qualité.",
+      "capabilities": [
+        "continuous_localization",
+        "connectors",
+        "quality_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.smartling.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "lokalise",
+      "name": "Lokalise",
+      "url": "https://lokalise.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "Localization pour produits digitaux ; strings, screenshots et workflows.",
+      "capabilities": [
+        "string_management",
+        "in_context",
+        "workflows"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://lokalise.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "crowdin",
+      "name": "Crowdin",
+      "url": "https://crowdin.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "Plateforme localization agile ; crowdsourcing et intégrations dev.",
+      "capabilities": [
+        "string_localization",
+        "crowdsourcing",
+        "dev_integrations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://crowdin.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

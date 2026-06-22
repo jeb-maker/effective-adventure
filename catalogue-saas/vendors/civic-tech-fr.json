@@ -1,0 +1,143 @@
+{
+  "segment": "civic-tech-fr",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "decidim",
+      "name": "Decidim",
+      "url": "https://decidim.org/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Plateforme open-source participation citoyenne ; budgets participatifs, consultations.",
+      "capabilities": [
+        "participatory_budget",
+        "consultations",
+        "open_source"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "source_url": "https://decidim.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "ES",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "cap-collectif",
+      "name": "Cap Collectif",
+      "url": "https://cap-collectif.com/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Plateforme concertation citoyenne française ; consultations et cartes participatives.",
+      "capabilities": [
+        "consultation",
+        "participatory_mapping",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://cap-collectif.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "make-org",
+      "name": "Make.org",
+      "url": "https://make.org/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Mobilisation citoyenne à grande échelle ; consultations et baromètres.",
+      "capabilities": [
+        "citizen_mobilization",
+        "surveys",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://make.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "open-source-politics",
+      "name": "Open Source Politics",
+      "url": "https://opensourcepolitics.eu/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Intégrateur Decidim et civic tech ; déploiement participation numérique.",
+      "capabilities": [
+        "decidim_integration",
+        "civic_platforms",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "source_url": "https://opensourcepolitics.eu/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "respublica",
+      "name": "République & Canton de Genève — outils (ref civic)",
+      "url": "https://www.republique-et-canton-de-geneve.ch/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Écosystème civic tech européen ; référence méthodologique participation (comparatif FR).",
+      "capabilities": [
+        "participation",
+        "methodology",
+        "europe"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "source_url": "https://cap-collectif.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Référence comparative ; acteur FR principal = Cap Collectif.",
+      "hq_country": "unknown",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

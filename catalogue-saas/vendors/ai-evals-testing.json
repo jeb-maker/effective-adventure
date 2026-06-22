@@ -1,0 +1,147 @@
+{
+  "segment": "ai-evals-testing",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "braintrust",
+      "name": "Braintrust",
+      "url": "https://www.braintrust.dev/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Plateforme evals LLM : datasets, scoring, régression et CI pour prompts.",
+      "capabilities": [
+        "eval_datasets",
+        "scoring",
+        "regression_ci",
+        "prompt_management"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.braintrust.dev/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "promptfoo",
+      "name": "Promptfoo",
+      "url": "https://www.promptfoo.dev/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "CLI open-source pour tester et comparer prompts/modèles ; red teaming.",
+      "capabilities": [
+        "prompt_testing",
+        "model_comparison",
+        "red_teaming"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "source_url": "https://www.promptfoo.dev/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "patronus-ai",
+      "name": "Patronus AI",
+      "url": "https://www.patronus.ai/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Evaluation et monitoring LLM : hallucinations, sécurité et performance.",
+      "capabilities": [
+        "hallucination_detection",
+        "safety_evals",
+        "monitoring"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.patronus.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "galileo-ai",
+      "name": "Galileo",
+      "url": "https://www.rungalileo.io/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Observability et evaluation GenAI : qualité outputs, drift et guardrails.",
+      "capabilities": [
+        "eval_metrics",
+        "guardrails",
+        "drift_detection"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.rungalileo.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "maxim-ai",
+      "name": "Maxim AI",
+      "url": "https://www.getmaxim.ai/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Experimentation et evaluation pour agents et workflows LLM.",
+      "capabilities": [
+        "agent_evals",
+        "simulation",
+        "experiment_tracking"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.getmaxim.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

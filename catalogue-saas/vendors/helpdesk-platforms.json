@@ -1,0 +1,119 @@
+{
+  "segment": "helpdesk-platforms",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "freshdesk",
+      "name": "Freshdesk",
+      "url": "https://www.freshworks.com/freshdesk/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk cloud omnicanal ; ticketing, KB et Freddy AI.",
+      "capabilities": [
+        "ticketing",
+        "omnichannel",
+        "knowledge_base",
+        "ai"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.freshworks.com/freshdesk/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "front",
+      "name": "Front",
+      "url": "https://front.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Inbox collaboratif équipes support et success ; workflows partagés.",
+      "capabilities": [
+        "shared_inbox",
+        "collaboration",
+        "workflows"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://front.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "help-scout",
+      "name": "Help Scout",
+      "url": "https://www.helpscout.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk humain-centré PME ; docs, beacon et satisfaction.",
+      "capabilities": [
+        "ticketing",
+        "docs",
+        "customer_satisfaction"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://www.helpscout.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "unknown",
+      "france_market": "unknown",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "kustomer",
+      "name": "Kustomer (Meta)",
+      "url": "https://www.kustomer.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "CRM service-first ; timeline client unifiée et AI agents.",
+      "capabilities": [
+        "crm_service",
+        "unified_timeline",
+        "ai_agents"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.kustomer.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

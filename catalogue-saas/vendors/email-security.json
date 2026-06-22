@@ -1,0 +1,148 @@
+{
+  "segment": "email-security",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "proofpoint",
+      "name": "Proofpoint",
+      "url": "https://www.proofpoint.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "SEG enterprise : anti-phishing, BEC, DLP et threat intelligence email.",
+      "capabilities": [
+        "seg",
+        "anti_phishing",
+        "bec_protection",
+        "dlp"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.proofpoint.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "mimecast",
+      "name": "Mimecast",
+      "url": "https://www.mimecast.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Email security cloud : protection, archiving, continuity et awareness.",
+      "capabilities": [
+        "email_filtering",
+        "archiving",
+        "continuity",
+        "awareness"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://www.mimecast.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "abnormal-security",
+      "name": "Abnormal Security",
+      "url": "https://abnormalsecurity.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "AI-native email security : détection comportementale BEC et account takeover.",
+      "capabilities": [
+        "ai_detection",
+        "bec",
+        "account_takeover"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "source_url": "https://abnormalsecurity.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "barracuda-email",
+      "name": "Barracuda Email Protection",
+      "url": "https://www.barracuda.com/products/emailprotection",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Protection messagerie : anti-spam, phishing, impersonation et backup.",
+      "capabilities": [
+        "anti_spam",
+        "phishing",
+        "impersonation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://www.barracuda.com/products/emailprotection",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "google-email-security",
+      "name": "Google Workspace Email Security",
+      "url": "https://workspace.google.com/security/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Protections Gmail/Workspace intégrées : phishing, malware, SPF/DKIM/DMARC.",
+      "capabilities": [
+        "gmail_protection",
+        "dmarc",
+        "dlp"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "source_url": "https://workspace.google.com/security/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "retrospective_backfill",
+      "discovery_pass": "2026-06-v5a"
+    }
+  ]
+}

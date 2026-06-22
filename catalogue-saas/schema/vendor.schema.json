@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/workspace/catalogue-saas/schema/vendor.schema.json",
+  "title": "SaaS Vendor",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "url",
+    "segments",
+    "description",
+    "capabilities",
+    "pricing_model",
+    "target_market",
+    "source_url",
+    "source_consulted_at",
+    "verification_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "url": { "type": "string", "format": "uri" },
+    "segments": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "description": { "type": "string", "minLength": 10 },
+    "capabilities": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "pricing_model": { "type": "string" },
+    "pricing_notes": { "type": "string" },
+    "target_market": { "type": "string" },
+    "geography": { "type": "string" },
+    "hq_country": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$|^unknown$"
+    },
+    "france_market": {
+      "type": "string",
+      "enum": ["strong", "partial", "absent", "unknown"]
+    },
+    "operating_regions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "discovery_source": { "type": "string" },
+    "discovery_pass": { "type": "string" },
+    "founded_year": { "type": "integer" },
+    "notes": { "type": "string" },
+    "source_url": { "type": "string", "format": "uri" },
+    "source_consulted_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["verified", "partial", "unverified"]
+    }
+  },
+  "additionalProperties": false
+}
