@@ -1,0 +1,76 @@
+{
+  "segment": "parsing-inbox",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "parseur",
+      "name": "Parseur",
+      "url": "https://parseur.com/",
+      "segments": ["parsing-inbox"],
+      "description": "Parsing email et documents avec zones configurables ; export vers apps et API.",
+      "capabilities": ["email_parsing", "attachment_extraction", "webhooks", "no_code"],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mailparser",
+      "name": "Mailparser",
+      "url": "https://mailparser.io/",
+      "segments": ["parsing-inbox"],
+      "description": "Extraction structurée depuis emails entrants ; intégrations Zapier et API.",
+      "capabilities": ["email_parsing", "rules", "integrations"],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "docparser",
+      "name": "Docparser",
+      "url": "https://docparser.com/",
+      "segments": ["parsing-inbox", "document-idp"],
+      "description": "Parsing documents basé templates/zones ; export structuré.",
+      "capabilities": ["template_extraction", "pdf_parsing", "api", "zapier"],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "parsio",
+      "name": "Parsio",
+      "url": "https://parsio.io/",
+      "segments": ["parsing-inbox"],
+      "description": "Extraction email/PDF avec IA ; concurrent des parsers inbox classiques.",
+      "capabilities": ["ai_parsing", "email", "pdf", "api"],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "airparser",
+      "name": "Airparser",
+      "url": "https://airparser.com/",
+      "segments": ["parsing-inbox"],
+      "description": "Parser email/document GPT-powered pour extraction de champs structurés.",
+      "capabilities": ["gpt_parsing", "email", "attachments"],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
+}

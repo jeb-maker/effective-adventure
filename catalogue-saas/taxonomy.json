@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-06-22",
+  "segments": [
+    {
+      "id": "regtech",
+      "label": "RegTech — veille & obligations réglementaires",
+      "description": "Surveillance réglementaire, extraction d'obligations, mapping policies/contrôles."
+    },
+    {
+      "id": "grc-security",
+      "label": "GRC & conformité sécurité",
+      "description": "SOC2, ISO 27001, GDPR, DORA, NIS2 — contrôles, preuves, audits."
+    },
+    {
+      "id": "ai-governance",
+      "label": "AI Governance",
+      "description": "EU AI Act, ISO 42001, NIST AI RMF — inventaire IA, risques, artefacts."
+    },
+    {
+      "id": "document-idp",
+      "label": "IDP & extraction documentaire",
+      "description": "PDF/images → données structurées, OCR, schémas JSON."
+    },
+    {
+      "id": "parsing-inbox",
+      "label": "Parsing email & inbox",
+      "description": "Email/PDF entrants → champs structurés, webhooks."
+    },
+    {
+      "id": "ai-copilot-dev",
+      "label": "Copilots IA & dev tools",
+      "description": "Assistants par siège, code, productivité équipe."
+    },
+    {
+      "id": "support-sales-agents",
+      "label": "Agents support & sales (outcome)",
+      "description": "Résolution, qualification, SDR — souvent pricing au résultat."
+    },
+    {
+      "id": "automation-platforms",
+      "label": "Plateformes d'automatisation",
+      "description": "Zapier, Make, n8n — workflows + intégrations."
+    },
+    {
+      "id": "compliance-to-spec",
+      "label": "Réglementation → spec produit (niche)",
+      "description": "Traduction vers backlog logiciel testable — segment émergent, peu d'acteurs dédiés."
+    }
+  ],
+  "pricing_models": [
+    "per_seat",
+    "per_usage",
+    "per_task",
+    "per_document",
+    "per_outcome",
+    "hybrid",
+    "platform_fee",
+    "enterprise_quote",
+    "freemium",
+    "open_source"
+  ],
+  "target_markets": [
+    "self_serve",
+    "smb",
+    "mid_market",
+    "enterprise"
+  ],
+  "verification_statuses": [
+    "verified",
+    "partial",
+    "unverified"
+  ]
+}

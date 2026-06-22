@@ -1,0 +1,50 @@
+{
+  "segment": "automation-platforms",
+  "updated_at": "2026-06-22",
+  "vendors": [
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "url": "https://zapier.com/",
+      "segments": ["automation-platforms"],
+      "description": "Automatisation no-code entre apps ; modèle abonnement + tâches.",
+      "capabilities": ["workflow_automation", "integrations", "ai_actions"],
+      "pricing_model": "hybrid",
+      "pricing_notes": "À partir de ~$29.99/mo + tâches.",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "make",
+      "name": "Make",
+      "url": "https://www.make.com/",
+      "segments": ["automation-platforms"],
+      "description": "Scénarios d'automatisation visuels ; facturation par opérations.",
+      "capabilities": ["visual_scenarios", "integrations", "operations"],
+      "pricing_model": "hybrid",
+      "pricing_notes": "À partir de ~$10.59/mo + ops.",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "url": "https://n8n.io/",
+      "segments": ["automation-platforms"],
+      "description": "Workflow automation open-source / cloud ; populaire pour pipelines IA self-hosted.",
+      "capabilities": ["workflow_automation", "self_hosted", "ai_nodes"],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "source_url": "https://n8n.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    }
+  ]
+}
