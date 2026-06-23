@@ -114,7 +114,7 @@ Fichier : [`catalogue-saas/vendors/compliance-to-spec.json`](../../catalogue-saa
 
 #### Segment `automation-platforms` — Automatisation no-code / iPaaS
 
-Fichier : [`catalogue-saas/vendors/automation-platforms.json`](../../catalogue-saas/vendors/automation-platforms.json) (9 entrées)
+Fichier : [`catalogue-saas/vendors/automation-platforms.json`](../../catalogue-saas/vendors/automation-platforms.json) (21 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -127,6 +127,10 @@ Fichier : [`catalogue-saas/vendors/automation-platforms.json`](../../catalogue-s
 | `activepieces` | Activepieces | unknown | unknown | partial |
 | `microsoft-power-automate` | Microsoft Power Automate | US | partial | partial |
 | `tines` | Tines | US | partial | partial |
+| `windmill` | Windmill | FR | strong | partial |
+| `relay-app` | Relay.app | US | partial | partial |
+| `bardeen` | Bardeen | US | partial | partial |
+| … | _+9 autres_ | | | |
 
 Commandes :
 ```bash

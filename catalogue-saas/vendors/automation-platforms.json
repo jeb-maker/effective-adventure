@@ -1,6 +1,6 @@
 {
   "segment": "automation-platforms",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "zapier",
@@ -264,6 +264,358 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "windmill",
+      "name": "Windmill",
+      "url": "https://www.windmill.dev/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Orchestration workflows code-first ; scripts, flows planifiés et audit trail exécutions self-hosted/cloud.",
+      "capabilities": [
+        "workflow_orchestration",
+        "code_scripts",
+        "audit_trail",
+        "self_hosted"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "source_url": "https://www.windmill.dev/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "relay-app",
+      "name": "Relay.app",
+      "url": "https://www.relay.app/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Automatisations multi-étapes avec revue humaine ; connecteurs email/docs et approbations avant action.",
+      "capabilities": [
+        "human_in_loop",
+        "email_connectors",
+        "document_triggers",
+        "approval_steps"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "source_url": "https://www.relay.app/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "bardeen",
+      "name": "Bardeen",
+      "url": "https://www.bardeen.ai/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Automatisation navigateur + apps ; playbooks IA, extraction web/docs et exécution assistée opérateur.",
+      "capabilities": [
+        "browser_automation",
+        "ai_playbooks",
+        "document_extraction",
+        "human_assisted"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "source_url": "https://www.bardeen.ai/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "parabola",
+      "name": "Parabola",
+      "url": "https://parabola.io/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Pipelines données visuels ; ingestion email/CSV/PDF, transformations et export dossier vers ERP/CRM.",
+      "capabilities": [
+        "visual_pipelines",
+        "email_ingestion",
+        "pdf_import",
+        "erp_export"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "source_url": "https://parabola.io/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gumloop",
+      "name": "Gumloop",
+      "url": "https://www.gumloop.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Workflows IA no-code ; agents, connecteurs SaaS et étapes validation avant envoi document/email.",
+      "capabilities": [
+        "ai_workflows",
+        "agent_nodes",
+        "human_validation",
+        "saas_connectors"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "source_url": "https://www.gumloop.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "stack-ai",
+      "name": "Stack AI",
+      "url": "https://www.stack-ai.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Orchestration agents IA ; chaînage LLM, outils métier et revue humaine sur outputs dossier.",
+      "capabilities": [
+        "agent_orchestration",
+        "llm_chains",
+        "human_review",
+        "api_export"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "source_url": "https://www.stack-ai.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "retool-workflows",
+      "name": "Retool Workflows",
+      "url": "https://retool.com/workflows",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Orchestration backend Retool ; triggers email/webhook, étapes code/SQL et logs audit exécution.",
+      "capabilities": [
+        "backend_workflows",
+        "webhook_triggers",
+        "audit_logs",
+        "sql_steps"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "source_url": "https://retool.com/workflows",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "budibase",
+      "name": "Budibase",
+      "url": "https://budibase.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Low-code + automations ; apps internes, flows déclenchés par formulaire/email et journal actions.",
+      "capabilities": [
+        "low_code_apps",
+        "workflow_automation",
+        "form_triggers",
+        "action_log"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "source_url": "https://budibase.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "celonis",
+      "name": "Celonis",
+      "url": "https://www.celonis.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Process mining + orchestration ; détection goulots, actions automatisées et traçabilité processus.",
+      "capabilities": [
+        "process_mining",
+        "orchestration",
+        "audit_trail",
+        "action_flows"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "source_url": "https://www.celonis.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "temporal",
+      "name": "Temporal",
+      "url": "https://temporal.io/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Moteur orchestration durable ; workflows code (retry, saga) avec historique complet exécutions.",
+      "capabilities": [
+        "durable_workflows",
+        "orchestration",
+        "execution_history",
+        "self_hosted"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "source_url": "https://temporal.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "prefect",
+      "name": "Prefect",
+      "url": "https://www.prefect.io/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Orchestration data/ops ; flows Python planifiés, observabilité runs et reprise sur échec dossier.",
+      "capabilities": [
+        "python_flows",
+        "scheduling",
+        "run_observability",
+        "retry_logic"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "source_url": "https://www.prefect.io/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "flowable",
+      "name": "Flowable",
+      "url": "https://www.flowable.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "BPMN/CMMN européen ; moteur processus, tâches humaines, formulaires et audit trail dossier.",
+      "capabilities": [
+        "bpmn",
+        "human_tasks",
+        "case_management",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "BE",
+      "france_market": "partial",
+      "operating_regions": [
+        "BE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "source_url": "https://www.flowable.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

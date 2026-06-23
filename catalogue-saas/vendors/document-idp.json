@@ -1333,7 +1333,8 @@
       "name": "Laiye",
       "url": "https://laiye.com/",
       "segments": [
-        "document-idp"
+        "document-idp",
+        "automation-platforms"
       ],
       "description": "Automatisation intelligente ; IDP, règles métier et revue humaine sur files d'attente dossier.",
       "capabilities": [

@@ -777,7 +777,8 @@
       "name": "Camunda",
       "url": "https://camunda.com/",
       "segments": [
-        "compliance-to-spec"
+        "compliance-to-spec",
+        "automation-platforms"
       ],
       "description": "Orchestration processus ; encode workflows conformité et human-in-the-loop auditables.",
       "capabilities": [

@@ -1579,11 +1579,11 @@
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 18,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 22,
           "new_added": 4,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5j-recordai-orchestration",
+          "cumulative_new": 8
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -1593,38 +1593,50 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 18,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
           "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5j-recordai-orchestration",
+          "cumulative_new": 4
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 18,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5j-recordai-orchestration",
+          "cumulative_new": 2
         },
         "alternatives": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 18,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 0,
+          "pass": "2026-06-v5j-recordai-orchestration",
+          "cumulative_new": 1
         },
-        "open_source": null,
-        "geo_digest": null,
-        "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 18,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
+          "new_added": 4,
+          "pass": "2026-06-v5j-recordai-orchestration",
+          "cumulative_new": 4
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5j-recordai-orchestration",
+          "cumulative_new": 1
+        },
+        "official_site": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 10,
+          "new_added": 2,
+          "pass": "2026-06-v5j-recordai-orchestration",
+          "cumulative_new": 3
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 9
+      "last_pass": "2026-06-v5j-recordai-orchestration",
+      "vendor_count_after_pass": 21
     },
     "rpa-enterprise": {
       "target_level": "L2",

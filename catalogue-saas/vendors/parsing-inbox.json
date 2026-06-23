@@ -643,7 +643,8 @@
       "url": "https://dext.com/",
       "segments": [
         "parsing-inbox",
-        "document-idp"
+        "document-idp",
+        "automation-platforms"
       ],
       "description": "Capture factures/reçus par email ou scan ; extraction comptable et revue humaine avant export.",
       "capabilities": [
@@ -705,7 +706,8 @@
       "url": "https://levity.ai/",
       "segments": [
         "parsing-inbox",
-        "document-idp"
+        "document-idp",
+        "automation-platforms"
       ],
       "description": "No-code AI workflows ; classification email/PDF, extraction champs et routage avec revue.",
       "capabilities": [
@@ -765,7 +767,8 @@
       "name": "Kissflow",
       "url": "https://kissflow.com/",
       "segments": [
-        "parsing-inbox"
+        "parsing-inbox",
+        "automation-platforms"
       ],
       "description": "Workflow no-code ; formulaires entrants, parsing pièces jointes et approbations multi-étapes.",
       "capabilities": [
@@ -794,7 +797,8 @@
       "name": "Pipefy",
       "url": "https://www.pipefy.com/",
       "segments": [
-        "parsing-inbox"
+        "parsing-inbox",
+        "automation-platforms"
       ],
       "description": "Orchestration processus ; inbox email déclencheur, champs extraits et tâches de validation.",
       "capabilities": [
@@ -824,7 +828,8 @@
       "name": "Tonkean",
       "url": "https://www.tonkean.com/",
       "segments": [
-        "parsing-inbox"
+        "parsing-inbox",
+        "automation-platforms"
       ],
       "description": "Orchestration ops ; agrège emails/docs, propose actions et boucle human-in-the-loop auditée.",
       "capabilities": [
