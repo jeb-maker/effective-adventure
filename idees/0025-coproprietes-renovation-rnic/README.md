@@ -1,9 +1,9 @@
 # Pilotage rénovation des copropriétés (RNIC × DPE × DECP)
 
 - **ID** : 0025
-- **Statut** : 💡 Capturée
-- **Score** : — / 100 (à analyser)
-- **Dernière mise à jour** : 2026-06-21
+- **Statut** : 🔁 À retravailler
+- **Score** : 64 / 100
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Pour syndics professionnels et bailleurs : croiser le
   registre national des copropriétés (RNIC), les DPE et les marchés publics de
   rénovation (DECP) pour prioriser les copropriétés à rénover et tracer les
@@ -63,13 +63,31 @@ par entretiens.
 | Copropriétés en procédure (art. 29-1) × passoires | RNIC.procédure × DPE classe | ✅ |
 | Historique marchés travaux sur la commune | DECP.codeCPV (45xx) × RNIC.code_commune | ✅ agrégat |
 
-## 4. Existant / concurrence (première passe)
+## 4. Existant / concurrence
 
-- **Go Rénove / BDNB** (CSTB) : analyse de parc pour collectivités/bailleurs —
-  service public gratuit — https://www.bdnb.io/services/gorenove/ (consulté 2026-06-21)
-- **ThermoData, Thervy, ScanReno** : prospection artisans, pas pilotage syndic
-- **Logiciels syndic** (EGIDE, Comptoir du Conseil, etc.) : gestion comptable,
-  pas de croisement open data RNIC×DPE×DECP identifié — **à creuser en analyse**
+### Concurrents directs sur la niche syndic + DPE + rénovation
+
+| Concurrent | Positionnement | URL | Consulté |
+|---|---|---|---|
+| **ScanReno** | SaaS syndics pros : PPT 10 ans, DPE collectif 2026, aides ANAH intégrées, 490–790 €/mois HT jusqu'à 50 copros | https://www.scanreno.fr/ | juin 2026 |
+| **CoproSolutions (Hellio)** | Suivi PPT, DPE collectif, pilotage travaux copropriétés — tableau de bord multi-portefeuille | https://copropriete.hellio.com/blog/renovation-energetique/logiciel-suivi-travaux | juin 2026 |
+| **Matera** | Syndic digital FR — gestion copropriété, AG, comptabilité ; pas de croisement RNIC×DECP identifié | https://www.matera.eu/ | juin 2026 |
+| **ICS / Seiitra** | Logiciels métier syndics professionnels (gestion lourde) | https://logicielsyndic.fr/comparatif-logiciel-syndic | juin 2026 |
+
+### Concurrents sur la niche bailleurs / collectivités
+
+| Concurrent | Positionnement | URL | Consulté |
+|---|---|---|---|
+| **Go Rénove PRO (CSTB / BDNB)** | Service public gratuit : analyse de parc, tableaux de bord pilotage rénovation, export données — cible bailleurs sociaux + collectivités | https://www.bdnb.io/services/gorenove/ | juin 2026 |
+| **Effy Pro** | Rénovation énergétique B2B, accompagnement et données DPE | https://www.effy.fr/pro | juin 2026 |
+| **OpenMéti** | Plateforme open data énergie bâtiments, DPE et rénovation | https://www.openmeti.fr/ | juin 2026 |
+
+### Analyse des lacunes
+
+ScanReno et CoproSolutions couvrent déjà le pilotage syndic/DPE/PPT. Go Rénove PRO (gratuit)
+couvre les bailleurs sociaux et collectivités. **Lacune réelle** : croisement RNIC × DECP pour
+tracer les marchés de rénovation déjà passés par les syndics — non identifié dans les offres
+concurrentes. Niche étroite.
 
 <!-- catalogue-saas-begin -->
 
@@ -113,6 +131,21 @@ python3 scripts/catalogue_saas.py gaps --segment energy-buildings-fr
 ```
 
 <!-- catalogue-saas-end -->
+
+## 5. Différenciation
+
+**Avantage potentiel** : seul outil à croiser RNIC × DECP pour montrer l'historique des
+marchés de rénovation passés par un syndic — aucun concurrent identifié ne fait cette jonction.
+
+**Limites** :
+- Toutes les données sont ouvertes → copiable rapidement par ScanReno ou un autre acteur
+- Taux de complétude SIRET syndic dans le RNIC est incertain (point à mesurer avant développement)
+- Go Rénove PRO (gratuit) creuse l'écart : un bailleur social n'a aucune raison de payer
+
+**Verdict différenciation** : défendable à court terme uniquement si accès à un canal de
+distribution captif (partenariat fédération syndics, FNAIM, UNIS) — sans canal, le croisement
+DECP est reproductible en quelques semaines par ScanReno.
+
 ## 6. Faisabilité & fiabilité technique
 
 - Ingestion RNIC trimestrielle + flux DPE + DECP → DuckDB/PostgreSQL.
@@ -121,12 +154,107 @@ python3 scripts/catalogue_saas.py gaps --segment energy-buildings-fr
 - Tous les chiffres (nb passoires, montants DECP) via **SQL traçable** ; LLM pour
   expliquer réglementation copropriété / aides uniquement.
 
+## 7. Monétisation / impact
+
+**Modèle envisagé** : SaaS B2B — abonnement mensuel par structure syndic.
+
+| Tier | Prix indicatif | Périmètre |
+|---|---|---|
+| Starter | 99–200 €/mois | ≤ 20 copropriétés |
+| Pro | 300–600 €/mois | ≤ 100 copropriétés |
+| Enterprise | Sur devis | Grands groupes (Nexity, Foncia...) |
+
+**Référence marché** : ScanReno facture 490–790 €/mois HT pour 10–50 copros
+(source : https://www.scanreno.fr/, juin 2026). Plafond existant confirmé.
+
+**Risque de tarification** : Go Rénove PRO gratuit tire le prix vers le bas pour le
+segment bailleurs. Le segment syndics pro est la seule cible réellement solvable.
+
+**Impact alternatif** : outil interne / open source pour collectivités si modèle
+commercial non viable.
+
+## 8. Risques
+
+| Risque | Probabilité | Impact | Mitigation |
+|---|---|---|---|
+| SIRET syndic manquant dans RNIC | Élevée | Élevé — casse la jointure RNIC×DECP | Mesurer le taux réel avant tout développement |
+| Taux de jointure adresse RNIC×DPE faible | Moyenne | Élevé — produit sans valeur si <40% de match | Test SQL sur échantillon avant MVP |
+| ScanReno copie le croisement DECP | Haute | Élevé — destruction avantage compétitif | Nécessite canal distribution avant ScanReno |
+| Go Rénove PRO s'étend aux syndics | Moyenne | Élevé — concurrent public gratuit direct | Différenciation niche très étroite requise |
+| Réglementation DECP : marchés < seuil absents | Structurel | Moyen — données incomplètes | Documenter le trou de couverture dans l'UI |
+
+**Point éliminatoire potentiel** : si le taux de SIRET syndic renseigné dans le RNIC
+est < 30 %, la jonction RNIC×DECP devient inexploitable et la principale différenciation tombe.
+
+## 9. Effort MVP
+
+**Périmètre minimal crédible** :
+
+1. Ingestion RNIC (CSV trimestriel) + DPE ADEME (API) + DECP (Parquet mensuel) dans PostgreSQL
+2. Géocodage BAN des copropriétés RNIC
+3. Jointure adresse RNIC × DPE → score thermique par copropriété
+4. Jointure SIRET syndic (RNIC) × titulaire DECP → marchés RGE passés
+5. Tableau de bord syndic : tri par classe énergétique, filtres commune/procédure
+6. Export CSV du portefeuille filtré
+
+**Estimation** : 3 semaines de développement (ingestion + SQL + UI minimaliste) après
+validation du taux de jointure adresse sur échantillon.
+
+**Pré-requis bloquant** : mesurer taux SIRET syndic et taux jointure adresse sur
+un échantillon RNIC avant tout développement UI.
+
+## 10. Scoring
+
+| # | Critère | Poids | Note (1-5) | Pondéré |
+|---|---|---|---|---|
+| C1 | Intensité du problème | 3 | 4 | 12 |
+| C2 | Cible solvable (qui paie) | 3 | 3 | 9 |
+| C3 | Disponibilité & fiabilité données | 3 | 4 | 12 |
+| C4 | Espace concurrentiel libre | 2 | 2 | 4 |
+| C5 | Différenciation défendable | 2 | 2 | 4 |
+| C6 | Faisabilité & fiabilité technique | 2 | 4 | 8 |
+| C7 | Facilité du MVP | 2 | 3 | 6 |
+| C8 | Maîtrise des risques | 2 | 3 | 6 |
+| C9 | Monétisation / impact | 2 | 3 | 6 |
+| | **Total** | | | **67 / 105** |
+
+**Score /100** : `67 / 105 × 100` = **64**
+
+**Justifications** :
+- C1=4 : DPE collectif obligatoire dès 2026 (jan. 2026 pour toutes les copros <50 lots),
+  PPT obligatoire — douleur réglementaire forte et urgente.
+- C2=3 : Syndics pro paient des outils (ScanReno 490–790€/mois prouve la willingness-to-pay),
+  mais le marché est déjà adressé.
+- C3=4 : RNIC (MàJ 17 juin 2026), DPE ADEME, DECP tous ouverts et opérationnels ;
+  jointure adresse imparfaite mais connue.
+- C4=2 : ScanReno + CoproSolutions sur la niche syndic/DPE ; Go Rénove PRO gratuit pour
+  bailleurs. Peu d'espace libre.
+- C5=2 : Croisement DECP×RNIC est le seul différenciateur — copiable en < 1 mois par ScanReno.
+- C6=4 : Architecture SQL/traçable propre ; LLM uniquement pour réglementation.
+- C7=3 : MVP faisable en 3 semaines MAIS conditionné à la validation du taux de jointure.
+- C8=3 : Risque SIRET syndic non mesuré pèse lourd.
+- C9=3 : Modèle SaaS plausible (confirmé par ScanReno), mais compétition forte.
+
 ## 11. Verdict & décision
 
-💡 **Capturée** — extension naturelle de 0009 avec angle B2B syndics et sources
-vérifiées (RNIC ouvert, volumétrie confirmée). À analyser : concurrence Go Rénove
-côté bailleurs, willingness-to-pay des syndics, taux de complétude SIRET syndic
-dans le RNIC.
+🔁 **À retravailler** — score **64/100**
 
-**Prochaine étape** : requête SQL sur échantillon RNIC + DPE pour mesurer le taux
-de jointure adresse réelle avant scoring complet.
+**Atouts** : douleur réelle et urgente (obligation DPE collectif 2026), données sources
+vérifiées et disponibles, architecture SQL traçable propre, willingness-to-pay confirmée
+par ScanReno (490–790 €/mois).
+
+**Point bloquant principal** : **ScanReno occupe déjà la niche cible** (syndics pro,
+PPT, DPE collectif, aides ANAH 2026) avec un produit mature et un tarif établi. La
+seule différenciation identifiée — le croisement DECP × RNIC pour tracer les marchés
+de rénovation passés — est copiable rapidement et dépend du taux de SIRET syndic
+renseigné dans le RNIC (non mesuré).
+
+**Pour débloquer** :
+1. Mesurer le taux de SIRET syndic renseigné dans le RNIC sur un échantillon réel.
+2. Mesurer le taux de jointure adresse RNIC × DPE (objectif > 60 %).
+3. Identifier un canal de distribution captif (fédération syndics, FNAIM, UNIS) que
+   ScanReno n'a pas.
+4. Si les taux sont faibles ou le canal absent → écarter en faveur de 0009 amélioré.
+
+**Prochaine étape** : requête SQL sur échantillon RNIC (département test) pour mesurer
+les deux taux avant toute décision d'investissement.
