@@ -1,6 +1,6 @@
 {
   "segment": "ai-copilot-dev",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "openai-chatgpt-business",
@@ -322,6 +322,239 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "sourcegraph-cody",
+      "name": "Sourcegraph Cody",
+      "url": "https://sourcegraph.com/cody",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "Copilot code enterprise ; chat codebase, autocomplétion contextuelle et agents multi-repo.",
+      "capabilities": [
+        "code_completion",
+        "codebase_chat",
+        "multi_repo",
+        "enterprise"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://sourcegraph.com/cody",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "continue-dev",
+      "name": "Continue",
+      "url": "https://www.continue.dev/",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "IDE copilot open-core ; modèles locaux/cloud, chat inline et agents coding extensibles.",
+      "capabilities": [
+        "ide_copilot",
+        "local_models",
+        "inline_chat",
+        "open_core"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.continue.dev/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "codeium",
+      "name": "Codeium",
+      "url": "https://codeium.com/",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "Copilot code gratuit/enterprise ; completion, chat et index codebase pour IDE populaires.",
+      "capabilities": [
+        "code_completion",
+        "chat",
+        "codebase_index",
+        "multi_ide"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://codeium.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "qodo",
+      "name": "Qodo (CodiumAI)",
+      "url": "https://www.qodo.ai/",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "Agent coding qualité ; génération tests, review PR et agents IDE pour workflows dev.",
+      "capabilities": [
+        "test_generation",
+        "pr_review",
+        "ide_agents",
+        "code_quality"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.qodo.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "augment-code",
+      "name": "Augment Code",
+      "url": "https://www.augmentcode.com/",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "IDE agent enterprise ; contexte codebase profond, agents autonomes et policies équipe.",
+      "capabilities": [
+        "deep_context",
+        "autonomous_agents",
+        "team_policies",
+        "enterprise_ide"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.augmentcode.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "supermaven",
+      "name": "Supermaven",
+      "url": "https://supermaven.com/",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "Completion ultra-rapide ; fenêtre contexte 1M tokens, intégration IDE et modèles propriétaires.",
+      "capabilities": [
+        "fast_completion",
+        "large_context",
+        "ide_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://supermaven.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "greptile",
+      "name": "Greptile",
+      "url": "https://www.greptile.com/",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "Code review IA ; analyse PR, Q&A codebase et intégration GitHub/GitLab pour équipes.",
+      "capabilities": [
+        "pr_review",
+        "codebase_qa",
+        "github_integration",
+        "gitlab"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.greptile.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "poolside",
+      "name": "Poolside",
+      "url": "https://poolside.ai/",
+      "segments": [
+        "ai-copilot-dev"
+      ],
+      "description": "Foundation models code enterprise ; copilot custom, fine-tuning privé et déploiement on-prem.",
+      "capabilities": [
+        "code_models",
+        "private_finetuning",
+        "on_prem",
+        "enterprise_copilot"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://poolside.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Modèles code enterprise — alternative copilots souverains."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "segment": "voice-speech-ai",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "deepgram",
@@ -259,6 +259,239 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://cartesia.ai/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "voxygen",
+      "name": "Voxygen",
+      "url": "https://www.voxygen.fr/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "Synthèse vocale FR ; voix naturelles TTS pour IVR, assistants et accessibilité.",
+      "capabilities": [
+        "tts",
+        "french_voices",
+        "ivr",
+        "accessibility"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.voxygen.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "acapela-group",
+      "name": "Acapela Group",
+      "url": "https://www.acapela-group.com/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "TTS multilingue FR ; catalogue voix, personnalisation et API synthèse pour apps enterprise.",
+      "capabilities": [
+        "tts",
+        "voice_catalog",
+        "multilingual",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.acapela-group.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gladia",
+      "name": "Gladia",
+      "url": "https://www.gladia.io/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "API speech FR/EU ; STT temps réel multilingue, diarization et conformité hébergement EU.",
+      "capabilities": [
+        "stt",
+        "realtime",
+        "diarization",
+        "eu_hosting"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.gladia.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "vocapia",
+      "name": "Vocapia Research",
+      "url": "https://www.vocapia.com/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "STT/TTS recherche FR ; transcription broadcast, reconnaissance locuteur et API speech spécialisée.",
+      "capabilities": [
+        "stt",
+        "speaker_recognition",
+        "broadcast",
+        "research"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.vocapia.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "rev-ai",
+      "name": "Rev.ai",
+      "url": "https://www.rev.ai/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "API transcription ; STT async/temps réel, sous-titres et analytics audio pour développeurs.",
+      "capabilities": [
+        "stt",
+        "transcription",
+        "subtitles",
+        "api"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.rev.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "murf-ai",
+      "name": "Murf AI",
+      "url": "https://murf.ai/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "TTS studio ; voix IA, dubbing vidéo et API synthèse pour contenu marketing/formation.",
+      "capabilities": [
+        "tts",
+        "voice_studio",
+        "dubbing",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://murf.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "resemble-ai",
+      "name": "Resemble AI",
+      "url": "https://www.resemble.ai/",
+      "segments": [
+        "voice-speech-ai",
+        "support-sales-agents"
+      ],
+      "description": "Voice cloning & TTS ; génération voix custom, agents vocaux et API temps réel.",
+      "capabilities": [
+        "voice_cloning",
+        "tts",
+        "voice_agents",
+        "realtime_api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.resemble.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "azure-speech",
+      "name": "Azure AI Speech",
+      "url": "https://azure.microsoft.com/products/ai-services/ai-speech",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "Speech services Microsoft ; STT/TTS enterprise, custom neural voice et traduction speech.",
+      "capabilities": [
+        "stt",
+        "tts",
+        "custom_neural_voice",
+        "translation"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://azure.microsoft.com/products/ai-services/ai-speech",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]

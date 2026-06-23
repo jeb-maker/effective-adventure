@@ -73,7 +73,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `rag-knowledge` — RAG & knowledge enterprise
 
-Fichier : [`catalogue-saas/vendors/rag-knowledge.json`](../../catalogue-saas/vendors/rag-knowledge.json) (11 entrées)
+Fichier : [`catalogue-saas/vendors/rag-knowledge.json`](../../catalogue-saas/vendors/rag-knowledge.json) (19 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -88,6 +88,8 @@ Fichier : [`catalogue-saas/vendors/rag-knowledge.json`](../../catalogue-saas/ven
 | `guru` | Guru | US | partial | partial |
 | `bloomfire` | Bloomfire | US | partial | partial |
 | `elastic-enterprise-search` | Elastic Enterprise Search | NL | partial | partial |
+| `deepset` | deepset | DE | partial | partial |
+| … | _+7 autres_ | | | |
 
 #### Segment `bi-analytics-platforms` — BI & analytics
 

@@ -1,6 +1,6 @@
 {
   "segment": "ai-governance",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "credo-ai",
@@ -211,7 +211,8 @@
       "name": "Arize AI",
       "url": "https://arize.com/",
       "segments": [
-        "ai-governance"
+        "ai-governance",
+        "ai-evals-testing"
       ],
       "description": "Observabilité LLM et ML : tracing, évaluation, monitoring en production.",
       "capabilities": [
@@ -727,6 +728,301 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.lumenova.ai/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zama",
+      "name": "Zama",
+      "url": "https://www.zama.ai/",
+      "segments": [
+        "ai-governance",
+        "compliance-to-spec"
+      ],
+      "description": "Confidential computing FHE ; inférence et entraînement chiffrés pour conformité EU AI Act et privacy-by-design.",
+      "capabilities": [
+        "fhe",
+        "confidential_ai",
+        "privacy",
+        "eu_ai_act"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.zama.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — gouvernance via chiffrement homomorphe et traçabilité modèles."
+    },
+    {
+      "id": "giskard",
+      "name": "Giskard",
+      "url": "https://www.giskard.ai/",
+      "segments": [
+        "ai-governance",
+        "ai-evals-testing"
+      ],
+      "description": "Testing & gouvernance LLM/ML ; scans biais, robustesse, conformité EU AI Act et rapports auditables.",
+      "capabilities": [
+        "llm_testing",
+        "bias_detection",
+        "eu_ai_act",
+        "audit_reports"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.giskard.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "saidot",
+      "name": "Saidot",
+      "url": "https://www.saidot.ai/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "Registre EU AI Act ; inventaire systèmes IA, classification risque et documentation conformité multi-frameworks.",
+      "capabilities": [
+        "ai_registry",
+        "eu_ai_act",
+        "risk_classification",
+        "documentation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "FI",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.saidot.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "calypsoai",
+      "name": "CalypsoAI",
+      "url": "https://calypsoai.com/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "AI security & governance ; validation modèles, red teaming LLM et enforcement policies runtime enterprise.",
+      "capabilities": [
+        "ai_security",
+        "model_validation",
+        "red_teaming",
+        "policy_enforcement"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://calypsoai.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "aporia",
+      "name": "Aporia",
+      "url": "https://www.aporia.com/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "ML observability & governance ; drift, data quality, alertes et dashboards conformité modèles production.",
+      "capabilities": [
+        "ml_observability",
+        "drift_detection",
+        "governance",
+        "monitoring"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.aporia.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "airia",
+      "name": "Airia",
+      "url": "https://airia.com/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "Plateforme AI governance enterprise ; inventaire agents, policy packs EU AI Act/NIST et workflows approbation.",
+      "capabilities": [
+        "ai_inventory",
+        "policy_packs",
+        "agent_governance",
+        "approval_workflows"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://airia.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "eqty-lab",
+      "name": "EQTY Lab",
+      "url": "https://www.eqtylab.io/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "Responsible AI documentation ; traçabilité datasets/modèles, lineage et preuves conformité réglementaire.",
+      "capabilities": [
+        "model_lineage",
+        "dataset_traceability",
+        "compliance_evidence",
+        "responsible_ai"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "NL",
+      "france_market": "partial",
+      "operating_regions": [
+        "NL",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.eqtylab.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "superwise",
+      "name": "Superwise",
+      "url": "https://www.superwise.ai/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "Gouvernance ML production ; monitoring performance, bias, drift et politiques cycle de vie modèles.",
+      "capabilities": [
+        "model_monitoring",
+        "bias",
+        "drift",
+        "lifecycle_governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.superwise.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "datarobot-ai-governance",
+      "name": "DataRobot AI Governance",
+      "url": "https://www.datarobot.com/platform/ai-governance/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "Suite gouvernance modèles enterprise ; registre, évaluations risque, bias et conformité sectorielle.",
+      "capabilities": [
+        "model_registry",
+        "risk_assessment",
+        "bias_monitoring",
+        "regulatory_compliance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.datarobot.com/platform/ai-governance/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "deeploy",
+      "name": "Deeploy",
+      "url": "https://www.deeploy.ml/",
+      "segments": [
+        "ai-governance"
+      ],
+      "description": "Plateforme EU AI Act ; explicabilité, human oversight, documentation et déploiement gouverné modèles.",
+      "capabilities": [
+        "explainability",
+        "human_oversight",
+        "eu_ai_act",
+        "governed_deployment"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "NL",
+      "france_market": "partial",
+      "operating_regions": [
+        "NL",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.deeploy.ml/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]
