@@ -2,8 +2,8 @@
 
 - **ID** : 0021
 - **Statut** : ❌ Écartée
-- **Score** : 50 / 100
-- **Dernière mise à jour** : 2026-06-21
+- **Score** : 47 / 100 (révisé après revue red team du 2026-06-23 — cf. [`revue.md`](revue.md) ; 50/100 avant revue, C2 abaissé 3→2)
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Outil B2B pour promoteurs, aménageurs et marchands de biens :
   détecter des opportunités foncières en croisant permis (Sitadel), DVF, PLU/zonage,
   friches (Cartofriches), parcelles et propriétaires personnes morales — distinct du
@@ -309,6 +309,11 @@ données contact. Les concurrents ont 5–15 ans d'avance produit et données en
 
 **Score /100** : 52 / 105 × 100 = **49,5 → 50 / 100**
 
+> **Score révisé après revue red team (2026-06-23) : 47/100** — la revue abaisse
+> C2 de 3 à 2 (marché entièrement équipé, budget *additionnel* introuvable) ;
+> total 49/105 → 47/100. Verdict inchangé (❌ Écartée). Recalcul détaillé dans
+> [`revue.md`](revue.md).
+
 ## 11. Verdict & décision
 
 ❌ **Écartée** — score 50/100 (< seuil 55) **et** critère éliminatoire de **saturation
@@ -329,4 +334,4 @@ plutôt qu'un SaaS veille frontal.
 
 ---
 
-0021 | Veille foncière & urbanisme pour promoteurs/aménageurs (B2B) | ❌ Écartée | 50/100 | Marché B2B saturé Kel Foncier
+0021 | Veille foncière & urbanisme pour promoteurs/aménageurs (B2B) | ❌ Écartée | 47/100 | Marché B2B saturé Kel Foncier (score revu, cf. revue.md)
