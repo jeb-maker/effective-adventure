@@ -486,14 +486,14 @@ ADDITIONS: dict[str, list[dict]] = {
           "LXP/LMS EU ; parcours formation, performance management et analytics compétences.",
           ["lxp", "lms", "performance", "skills_analytics"], "hybrid", "mid_market",
           "https://www.eloomi.com/", "g2", hq="DK", fr="partial", regions=["US", "EU"], geo="europe"),
-        v("talentsoft", "Talentsoft (Cegid)", "https://www.talentsoft.com/", ["learning-lxp"],
-          "LMS/SIRH formation FR ; catalogues, parcours blended et lien GPEC/compétences.",
-          ["lms", "blended_learning", "gpec", "skills"], "enterprise_quote", "enterprise",
-          "https://www.talentsoft.com/", "g2", hq="FR", fr="strong", regions=["FR", "EU"], geo="europe"),
         v("neobrain", "Neobrain", "https://www.neobrain.io/", ["learning-lxp"],
           "Skills intelligence FR ; cartographie compétences, recommandations formation IA et mobilité interne.",
           ["skills_intelligence", "competency_mapping", "ai_recommendations", "internal_mobility"], "hybrid", "mid_market",
           "https://www.neobrain.io/", "geo_digest", hq="FR", fr="strong", regions=["FR", "EU"], geo="france"),
+        v("365talents", "365Talents", "https://www.365talents.com/", ["learning-lxp"],
+          "Talent marketplace FR ; matching compétences internes, mobilité et recommandations formation IA.",
+          ["talent_marketplace", "skills_matching", "internal_mobility", "ai_recommendations"], "hybrid", "mid_market",
+          "https://www.365talents.com/", "geo_digest", hq="FR", fr="strong", regions=["FR", "EU"], geo="france"),
     ],
     "treasury-fpa.json": [
         v("planful", "Planful", "https://planful.com/", ["treasury-fpa"],
@@ -624,6 +624,7 @@ SEGMENT_PATCHES: dict[str, list[str]] = {
     "yooz": ["regulatory-reporting-eu"],
     "spendesk": ["finance-accounting-ai"],
     "agicap": ["treasury-fpa"],
+    "talentsoft": ["learning-lxp"],
 }
 
 COVERAGE_UPDATES: dict[str, dict[str, dict]] = {

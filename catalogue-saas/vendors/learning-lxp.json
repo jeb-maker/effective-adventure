@@ -490,6 +490,35 @@
       "source_url": "https://www.neobrain.io/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "365talents",
+      "name": "365Talents",
+      "url": "https://www.365talents.com/",
+      "segments": [
+        "learning-lxp"
+      ],
+      "description": "Talent marketplace FR ; matching compétences internes, mobilité et recommandations formation IA.",
+      "capabilities": [
+        "talent_marketplace",
+        "skills_matching",
+        "internal_mobility",
+        "ai_recommendations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.365talents.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -125,7 +125,7 @@ donc il ne valide pas la seed.
 
 #### Segment `accessibility-compliance` — Accessibilité numérique
 
-Fichier : [`catalogue-saas/vendors/accessibility-compliance.json`](../../catalogue-saas/vendors/accessibility-compliance.json) (11 entrées)
+Fichier : [`catalogue-saas/vendors/accessibility-compliance.json`](../../catalogue-saas/vendors/accessibility-compliance.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -140,6 +140,8 @@ Fichier : [`catalogue-saas/vendors/accessibility-compliance.json`](../../catalog
 | `facil-iti` | Facil'iti | FR | strong | partial |
 | `eye-able` | Eye-Able | DE | partial | partial |
 | `silktide` | Silktide | GB | partial | partial |
+| `siteimprove` | Siteimprove | DK | partial | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash

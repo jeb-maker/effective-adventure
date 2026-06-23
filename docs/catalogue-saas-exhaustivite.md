@@ -88,6 +88,7 @@ Segment **non clos** tant que < 4 types sont renseignés dans `coverage-matrix.j
 | **V5r** | L3 France open data thématique (7 segments) | Fait |
 | **V5s** | L3 stack IA (governance, agents, voix, RAG, dev) | Fait |
 | **V5t-c** | L3 workplace / sales / data / infra (20 segments) | Fait |
+| **V5t-b** | L3 verticaux + compliance (18 segments, 11→~18) | Fait |
 | Maintenance | 24 segments L2 restants, surveillance saturation | Continu |
 
 ### Surveillance saturation (maintenance)

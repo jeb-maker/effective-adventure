@@ -131,7 +131,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `learning-lxp` — Formation & LXP
 
-Fichier : [`catalogue-saas/vendors/learning-lxp.json`](../../catalogue-saas/vendors/learning-lxp.json) (11 entrées)
+Fichier : [`catalogue-saas/vendors/learning-lxp.json`](../../catalogue-saas/vendors/learning-lxp.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -146,6 +146,8 @@ Fichier : [`catalogue-saas/vendors/learning-lxp.json`](../../catalogue-saas/vend
 | `crossknowledge` | CrossKnowledge (Wiley) | FR | strong | partial |
 | `learnworlds` | LearnWorlds | CY | partial | partial |
 | `talentlms` | TalentLMS | US | partial | partial |
+| `edflex` | Edflex | FR | strong | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash

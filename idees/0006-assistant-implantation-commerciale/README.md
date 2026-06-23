@@ -173,7 +173,7 @@ Fichier : [`catalogue-saas/vendors/data-enrichment-b2b.json`](../../catalogue-sa
 
 #### Segment `retail-ecommerce-ai` — Retail & e-commerce IA
 
-Fichier : [`catalogue-saas/vendors/retail-ecommerce-ai.json`](../../catalogue-saas/vendors/retail-ecommerce-ai.json) (11 entrées)
+Fichier : [`catalogue-saas/vendors/retail-ecommerce-ai.json`](../../catalogue-saas/vendors/retail-ecommerce-ai.json) (19 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -188,6 +188,8 @@ Fichier : [`catalogue-saas/vendors/retail-ecommerce-ai.json`](../../catalogue-sa
 | `lengow` | Lengow | FR | strong | partial |
 | `ankorstore` | Ankorstore | FR | strong | partial |
 | `prestashop` | PrestaShop | FR | strong | partial |
+| `iadvize` | iAdvize | FR | strong | partial |
+| … | _+7 autres_ | | | |
 
 Commandes :
 ```bash

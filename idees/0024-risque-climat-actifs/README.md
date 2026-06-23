@@ -142,7 +142,7 @@ Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-
 
 #### Segment `insurance-insurtech` — Assurance & insurtech
 
-Fichier : [`catalogue-saas/vendors/insurance-insurtech.json`](../../catalogue-saas/vendors/insurance-insurtech.json) (11 entrées)
+Fichier : [`catalogue-saas/vendors/insurance-insurtech.json`](../../catalogue-saas/vendors/insurance-insurtech.json) (19 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -157,6 +157,8 @@ Fichier : [`catalogue-saas/vendors/insurance-insurtech.json`](../../catalogue-sa
 | `luko` | Luko (Allianz Direct) | FR | strong | partial |
 | `alan` | Alan | FR | strong | partial |
 | `wefox` | wefox | DE | partial | partial |
+| `zelros` | Zelros | FR | strong | partial |
+| … | _+7 autres_ | | | |
 
 Commandes :
 ```bash

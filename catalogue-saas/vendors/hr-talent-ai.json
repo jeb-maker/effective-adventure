@@ -148,7 +148,8 @@
       "name": "Talentsoft (Cegid)",
       "url": "https://www.talentsoft.com/fr/",
       "segments": [
-        "hr-talent-ai"
+        "hr-talent-ai",
+        "learning-lxp"
       ],
       "description": "Suite RH cloud FR ; ATS, talent management, LMS et analytics emploi pour ETI/grands comptes.",
       "capabilities": [

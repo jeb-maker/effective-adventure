@@ -76,7 +76,7 @@
           "candidates_found": 20,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 10
+          "cumulative_new": 14
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -118,14 +118,14 @@
           "candidates_found": 14,
           "new_added": 3,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 8
+          "cumulative_new": 11
         },
         "official_site": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 3
+          "cumulative_new": 4
         }
       },
       "last_pass": "2026-06-v5t-verticals-l3",
@@ -188,14 +188,14 @@
           "candidates_found": 18,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 9
+          "cumulative_new": 13
         },
         "capterra": {
           "consulted_at": "2026-06-23",
           "candidates_found": 8,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 2
+          "cumulative_new": 3
         },
         "crunchbase": {
           "consulted_at": "2026-06-22",
@@ -230,7 +230,7 @@
           "candidates_found": 12,
           "new_added": 2,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 4
+          "cumulative_new": 6
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -371,14 +371,14 @@
           "candidates_found": 18,
           "new_added": 3,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 7
+          "cumulative_new": 10
         },
         "capterra": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 2
+          "cumulative_new": 3
         },
         "crunchbase": {
           "consulted_at": "2026-06-22",
@@ -413,7 +413,7 @@
           "candidates_found": 14,
           "new_added": 3,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 6
+          "cumulative_new": 9
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -434,7 +434,7 @@
           "candidates_found": 20,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 9
+          "cumulative_new": 13
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -448,7 +448,7 @@
           "candidates_found": 12,
           "new_added": 2,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 5
+          "cumulative_new": 7
         },
         "analyst_report": {
           "consulted_at": "2026-06-23",
@@ -476,7 +476,7 @@
           "candidates_found": 14,
           "new_added": 2,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 7
+          "cumulative_new": 9
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -560,7 +560,7 @@
           "candidates_found": 18,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 10
+          "cumulative_new": 14
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -581,7 +581,7 @@
           "candidates_found": 10,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 3
+          "cumulative_new": 4
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -602,7 +602,7 @@
           "candidates_found": 12,
           "new_added": 2,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 7
+          "cumulative_new": 9
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -1441,7 +1441,7 @@
           "candidates_found": 16,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 9
+          "cumulative_new": 13
         },
         "capterra": {
           "consulted_at": "2026-06-23",
@@ -1469,7 +1469,7 @@
           "candidates_found": 8,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 2
+          "cumulative_new": 3
         },
         "open_source": {
           "consulted_at": "2026-06-23",
@@ -1483,7 +1483,7 @@
           "candidates_found": 10,
           "new_added": 2,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 3
+          "cumulative_new": 5
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -2492,7 +2492,7 @@
           "candidates_found": 18,
           "new_added": 2,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 6
+          "cumulative_new": 8
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -2506,7 +2506,7 @@
           "candidates_found": 10,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 3
+          "cumulative_new": 4
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -2534,7 +2534,7 @@
           "candidates_found": 16,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 7
+          "cumulative_new": 11
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -2555,7 +2555,7 @@
           "candidates_found": 20,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 10
+          "cumulative_new": 14
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -2569,7 +2569,7 @@
           "candidates_found": 8,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 3
+          "cumulative_new": 4
         },
         "analyst_report": {
           "consulted_at": "2026-06-23",
@@ -2597,7 +2597,7 @@
           "candidates_found": 12,
           "new_added": 2,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 7
+          "cumulative_new": 9
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -2681,7 +2681,7 @@
           "candidates_found": 18,
           "new_added": 2,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 6
+          "cumulative_new": 8
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -2695,7 +2695,7 @@
           "candidates_found": 8,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 3
+          "cumulative_new": 4
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -2723,7 +2723,7 @@
           "candidates_found": 16,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 7
+          "cumulative_new": 11
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -2801,7 +2801,7 @@
           "candidates_found": 20,
           "new_added": 3,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 8
+          "cumulative_new": 11
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -2843,14 +2843,14 @@
           "candidates_found": 14,
           "new_added": 3,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 5
+          "cumulative_new": 8
         },
         "official_site": {
           "consulted_at": "2026-06-23",
           "candidates_found": 8,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 3
+          "cumulative_new": 4
         }
       },
       "last_pass": "2026-06-v5t-verticals-l3",
@@ -2864,7 +2864,7 @@
           "candidates_found": 18,
           "new_added": 2,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 6
+          "cumulative_new": 8
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -2878,7 +2878,7 @@
           "candidates_found": 8,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 3
+          "cumulative_new": 4
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -2906,7 +2906,7 @@
           "candidates_found": 16,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 7
+          "cumulative_new": 11
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -2917,7 +2917,7 @@
         }
       },
       "last_pass": "2026-06-v5t-verticals-l3",
-      "vendor_count_after_pass": 17
+      "vendor_count_after_pass": 18
     },
     "healthcare-clinical-ai": {
       "target_level": "L3",
@@ -2927,7 +2927,7 @@
           "candidates_found": 20,
           "new_added": 3,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 7
+          "cumulative_new": 10
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -2941,7 +2941,7 @@
           "candidates_found": 12,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 3
+          "cumulative_new": 4
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -2969,7 +2969,7 @@
           "candidates_found": 18,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 7
+          "cumulative_new": 11
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -2990,7 +2990,7 @@
           "candidates_found": 18,
           "new_added": 3,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 8
+          "cumulative_new": 11
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -3011,7 +3011,7 @@
           "candidates_found": 10,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 2
+          "cumulative_new": 3
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -3032,7 +3032,7 @@
           "candidates_found": 14,
           "new_added": 3,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 5
+          "cumulative_new": 8
         },
         "official_site": {
           "consulted_at": "2026-06-23",
@@ -3110,7 +3110,7 @@
           "candidates_found": 22,
           "new_added": 2,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 6
+          "cumulative_new": 8
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -3124,7 +3124,7 @@
           "candidates_found": 14,
           "new_added": 2,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 5
+          "cumulative_new": 7
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -3152,7 +3152,7 @@
           "candidates_found": 18,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 6
+          "cumulative_new": 10
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -3173,7 +3173,7 @@
           "candidates_found": 20,
           "new_added": 3,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 7
+          "cumulative_new": 10
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -3187,7 +3187,7 @@
           "candidates_found": 12,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 4
+          "cumulative_new": 5
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -3215,7 +3215,7 @@
           "candidates_found": 16,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 6
+          "cumulative_new": 10
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -3236,7 +3236,7 @@
           "candidates_found": 22,
           "new_added": 3,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 8
+          "cumulative_new": 11
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -3250,7 +3250,7 @@
           "candidates_found": 12,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 4
+          "cumulative_new": 5
         },
         "analyst_report": {
           "consulted_at": "2026-06-23",
@@ -3278,7 +3278,7 @@
           "candidates_found": 16,
           "new_added": 3,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 8
+          "cumulative_new": 11
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -3299,7 +3299,7 @@
           "candidates_found": 24,
           "new_added": 3,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 7
+          "cumulative_new": 10
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -3313,7 +3313,7 @@
           "candidates_found": 14,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 4
+          "cumulative_new": 5
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -3341,7 +3341,7 @@
           "candidates_found": 20,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 6
+          "cumulative_new": 10
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -3362,7 +3362,7 @@
           "candidates_found": 18,
           "new_added": 2,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 6
+          "cumulative_new": 8
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -3404,14 +3404,14 @@
           "candidates_found": 16,
           "new_added": 4,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 6
+          "cumulative_new": 10
         },
         "official_site": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
           "new_added": 1,
           "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 4
+          "cumulative_new": 5
         }
       },
       "last_pass": "2026-06-v5t-verticals-l3",

@@ -114,7 +114,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `treasury-fpa` — Trésorerie & FP&A
 
-Fichier : [`catalogue-saas/vendors/treasury-fpa.json`](../../catalogue-saas/vendors/treasury-fpa.json) (11 entrées)
+Fichier : [`catalogue-saas/vendors/treasury-fpa.json`](../../catalogue-saas/vendors/treasury-fpa.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -129,6 +129,8 @@ Fichier : [`catalogue-saas/vendors/treasury-fpa.json`](../../catalogue-saas/vend
 | `trovata` | Trovata | US | partial | partial |
 | `highradius` | HighRadius | US | partial | partial |
 | `blackline` | BlackLine | US | partial | partial |
+| `planful` | Planful | US | partial | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash
