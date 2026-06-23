@@ -106,6 +106,22 @@ python3 scripts/catalogue_saas.py verify-eligible
 python3 scripts/catalogue_saas.py export -o catalogue-saas/exports/vendors.csv
 ```
 
+## Explorer web (+ RAG)
+
+Interface locale pour parcourir les vendeurs, filtrer par segment, et poser des
+questions en langage naturel (retrieval TF-IDF + synthèse locale ou OpenAI).
+
+```bash
+# Lancer sur http://127.0.0.1:8765
+python3 scripts/explorer_server.py
+
+# Optionnel — synthèse LLM (sinon réponse locale structurée)
+export OPENAI_API_KEY=sk-...
+export OPENAI_MODEL=gpt-4o-mini   # optionnel
+```
+
+Fichiers : [`explorer/`](../explorer/) (UI) · [`scripts/explorer_server.py`](../scripts/explorer_server.py) (API).
+
 ## Ajouter un segment
 
 1. Éditer `scripts/sync_taxonomy_segments.py` → tuple dans `ALL_SEGMENTS`

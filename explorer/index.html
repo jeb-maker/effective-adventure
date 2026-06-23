@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catalogue SaaS — Explorer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>Catalogue SaaS</h1>
+      <p class="subtitle">Exploration marché · veille segments · RAG local</p>
+    </div>
+    <div class="stats" id="global-stats"></div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <section>
+        <h2>Filtres</h2>
+        <label>
+          Recherche
+          <input type="search" id="filter-q" placeholder="nom, capacité, segment…" />
+        </label>
+        <label>
+          Catégorie
+          <select id="filter-category"><option value="">Toutes</option></select>
+        </label>
+        <label>
+          Segment
+          <select id="filter-segment"><option value="">Tous</option></select>
+        </label>
+        <label>
+          Pricing
+          <select id="filter-pricing"><option value="">Tous</option></select>
+        </label>
+        <label>
+          Cible
+          <select id="filter-target"><option value="">Toutes</option></select>
+        </label>
+        <label>
+          Vérification
+          <select id="filter-verification"><option value="">Tous</option></select>
+        </label>
+        <label>
+          Marché France
+          <select id="filter-france"><option value="">Tous</option></select>
+        </label>
+        <label>
+          HQ pays
+          <input type="text" id="filter-hq" placeholder="FR, US…" maxlength="2" />
+        </label>
+        <button type="button" class="btn secondary" id="reset-filters">Réinitialiser</button>
+      </section>
+
+      <section>
+        <h2>Segments</h2>
+        <div id="segment-chart" class="chart"></div>
+      </section>
+    </aside>
+
+    <section class="content">
+      <div class="toolbar">
+        <h2 id="results-title">Vendeurs</h2>
+        <span id="results-count" class="badge">—</span>
+      </div>
+      <div id="vendor-list" class="vendor-grid"></div>
+      <div class="pagination">
+        <button type="button" class="btn secondary" id="prev-page" disabled>Précédent</button>
+        <span id="page-info">Page 1</span>
+        <button type="button" class="btn secondary" id="next-page" disabled>Suivant</button>
+      </div>
+    </section>
+
+    <aside class="rag-panel">
+      <h2>Assistant RAG</h2>
+      <p class="hint">
+        Posez une question en langage naturel. Le moteur récupère les fiches pertinentes
+        (TF-IDF) puis synthétise une réponse.
+      </p>
+      <div id="rag-mode" class="mode-pill"></div>
+      <div id="rag-messages" class="rag-messages"></div>
+      <form id="rag-form" class="rag-form">
+        <textarea
+          id="rag-input"
+          rows="3"
+          placeholder="Ex. : Quels acteurs FR font de l'IDP pour la commande publique ?"
+        ></textarea>
+        <button type="submit" class="btn primary">Demander</button>
+      </form>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
