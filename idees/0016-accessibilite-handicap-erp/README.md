@@ -121,7 +121,7 @@ donc il ne valide pas la seed.
 ### Référence catalogue SaaS (dépôt)
 
 **Idée** : `0016-accessibilite-handicap-erp` — segments liés pour benchmark concurrence structuré.
-**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
 
 #### Segment `accessibility-compliance` — Accessibilité numérique
 

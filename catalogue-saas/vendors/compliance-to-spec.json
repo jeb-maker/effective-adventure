@@ -623,6 +623,242 @@
       "source_url": "https://www.kintent.com/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial"
+    },
+    {
+      "id": "trustarc",
+      "name": "TrustArc",
+      "url": "https://trustarc.com/",
+      "segments": [
+        "compliance-to-spec",
+        "privacy-consent"
+      ],
+      "description": "Privacy compliance platform ; assessments, policies et mapping exigences → contrôles.",
+      "capabilities": [
+        "privacy_assessments",
+        "policy_management",
+        "control_mapping"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://trustarc.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "processunity",
+      "name": "ProcessUnity",
+      "url": "https://www.processunity.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "GRC third-party risk ; workflows conformité et evidence pour tiers critiques.",
+      "capabilities": [
+        "tprm",
+        "grc_workflows",
+        "evidence",
+        "vendor_risk"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.processunity.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ostendio",
+      "name": "Ostendio",
+      "url": "https://www.ostendio.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "MyVCM platform ; policies, contrôles et preuves pour SOC2/HIPAA/ISO.",
+      "capabilities": [
+        "policies",
+        "controls",
+        "evidence",
+        "soc2"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.ostendio.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fairnow",
+      "name": "FairNow",
+      "url": "https://www.fairnow.ai/",
+      "segments": [
+        "compliance-to-spec",
+        "ai-governance"
+      ],
+      "description": "AI governance ; inventaire systèmes IA, risques et conformité EU AI Act encodée.",
+      "capabilities": [
+        "ai_inventory",
+        "risk_controls",
+        "eu_ai_act"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.fairnow.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "regulativ-ai",
+      "name": "Regulativ.ai",
+      "url": "https://www.regulativ.ai/",
+      "segments": [
+        "compliance-to-spec",
+        "regtech"
+      ],
+      "description": "Regulatory change → exigences actionnables ; mapping vers contrôles et specs produit.",
+      "capabilities": [
+        "regulatory_change",
+        "actionable_requirements",
+        "control_mapping"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.regulativ.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "camunda",
+      "name": "Camunda",
+      "url": "https://camunda.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Orchestration processus ; encode workflows conformité et human-in-the-loop auditables.",
+      "capabilities": [
+        "bpmn",
+        "workflow",
+        "audit_trail",
+        "orchestration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://camunda.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "conformiq",
+      "name": "Conformiq",
+      "url": "https://www.conformiq.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Model-based testing ; génération cas de test depuis exigences réglementaires formelles.",
+      "capabilities": [
+        "model_based_testing",
+        "requirements_to_tests",
+        "formal_specs"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.conformiq.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "compliance-cow",
+      "name": "ComplianceCow",
+      "url": "https://www.compliancecow.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "Compliance-as-code marketplace ; packs contrôles et evidence réutilisables.",
+      "capabilities": [
+        "compliance_as_code",
+        "control_packs",
+        "marketplace",
+        "evidence"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.compliancecow.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

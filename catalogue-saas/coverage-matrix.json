@@ -274,9 +274,10 @@
       "sources": {
         "g2": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 28,
-          "new_added": 6,
-          "pass": "2026-06-v5b-compliance-to-spec"
+          "candidates_found": 22,
+          "new_added": 4,
+          "pass": "2026-06-v5g-parsing-compliance",
+          "cumulative_new": 10
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -292,9 +293,10 @@
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 8,
-          "new_added": 2,
-          "pass": "2026-06-v5b-compliance-to-spec"
+          "candidates_found": 14,
+          "new_added": 3,
+          "pass": "2026-06-v5g-parsing-compliance",
+          "cumulative_new": 5
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -304,11 +306,18 @@
         },
         "open_source": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 9,
-          "new_added": 4,
-          "pass": "2026-06-v5b-compliance-to-spec"
+          "candidates_found": 10,
+          "new_added": 2,
+          "pass": "2026-06-v5g-parsing-compliance",
+          "cumulative_new": 6
         },
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 8,
+          "new_added": 2,
+          "pass": "2026-06-v5g-parsing-compliance",
+          "cumulative_new": 2
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 14,
@@ -316,8 +325,8 @@
           "pass": "2026-06-v5b-compliance-to-spec"
         }
       },
-      "last_pass": "2026-06-v5b-compliance-to-spec",
-      "vendor_count_after_pass": 21
+      "last_pass": "2026-06-v5g-parsing-compliance",
+      "vendor_count_after_pass": 29
     },
     "accessibility-compliance": {
       "target_level": "L2",
@@ -1106,9 +1115,9 @@
         "crunchbase": {
           "consulted_at": "2026-06-22",
           "candidates_found": 16,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "new_added": 3,
+          "pass": "2026-06-v5g-parsing-compliance",
+          "cumulative_new": 5
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -1119,12 +1128,25 @@
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5f-agents-parsing-grc"
+          "candidates_found": 14,
+          "new_added": 3,
+          "pass": "2026-06-v5g-parsing-compliance",
+          "cumulative_new": 5
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 8,
+          "new_added": 2,
+          "pass": "2026-06-v5g-parsing-compliance",
+          "cumulative_new": 2
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 6,
+          "new_added": 2,
+          "pass": "2026-06-v5g-parsing-compliance",
+          "cumulative_new": 2
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 12,
@@ -1132,8 +1154,8 @@
           "pass": "2026-06-v5f-agents-parsing-grc"
         }
       },
-      "last_pass": "2026-06-v5f-agents-parsing-grc",
-      "vendor_count_after_pass": 14
+      "last_pass": "2026-06-v5g-parsing-compliance",
+      "vendor_count_after_pass": 22
     },
     "e-signature": {
       "target_level": "L2",

@@ -30,6 +30,7 @@
     "0025-coproprietes-renovation-rnic": ["energy-buildings-fr", "real-estate-proptech"],
     "0026-exposition-parcelles-agricoles": ["geospatial-gis-fr", "environmental-data-fr"],
     "0027-transparence-subventions-marches": ["public-procurement-intel", "territorial-analytics"],
-    "0028-tensions-emploi-territoire": ["territorial-analytics", "hr-talent-ai"]
+    "0028-tensions-emploi-territoire": ["territorial-analytics", "hr-talent-ai"],
+    "0029-recordai": ["parsing-inbox", "document-idp", "compliance-to-spec", "automation-platforms"]
   }
 }

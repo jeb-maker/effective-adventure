@@ -401,6 +401,241 @@
       "source_url": "https://www.streak.com/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial"
+    },
+    {
+      "id": "cloudmailin",
+      "name": "CloudMailin",
+      "url": "https://www.cloudmailin.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Réception et parsing email HTTP ; extraction corps HTML/texte et pièces jointes.",
+      "capabilities": [
+        "inbound_email",
+        "http_post",
+        "attachments",
+        "parsing"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.cloudmailin.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "aurinko",
+      "name": "Aurinko",
+      "url": "https://www.aurinko.io/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Unified API email/calendar ; sync et parsing multi-fournisseurs pour apps B2B.",
+      "capabilities": [
+        "unified_api",
+        "email_sync",
+        "calendar",
+        "integrations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.aurinko.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "unipile",
+      "name": "Unipile",
+      "url": "https://www.unipile.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "API messagerie unifiée ; LinkedIn, email, WhatsApp — extraction et webhooks.",
+      "capabilities": [
+        "unified_messaging",
+        "email_api",
+        "webhooks",
+        "crm"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.unipile.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "emailengine",
+      "name": "EmailEngine",
+      "url": "https://emailengine.app/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Gateway email self-hosted ; IMAP/SMTP vers API REST pour parsing et automation.",
+      "capabilities": [
+        "imap_gateway",
+        "rest_api",
+        "self_hosted",
+        "webhooks"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "EE",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU",
+        "US"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://emailengine.app/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "unstract",
+      "name": "Unstract",
+      "url": "https://unstract.com/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "LLMWhisperer + pipelines ; email/PDF → JSON structuré sans templates fixes.",
+      "capabilities": [
+        "llm_parsing",
+        "email_to_json",
+        "pdf_extraction",
+        "api"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://unstract.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "microsoft-graph-mail",
+      "name": "Microsoft Graph Mail API",
+      "url": "https://learn.microsoft.com/en-us/graph/api/resources/mail-api-overview",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Accès programmatique boîtes Exchange/M365 ; lecture, pièces jointes et webhooks.",
+      "capabilities": [
+        "graph_api",
+        "outlook",
+        "attachments",
+        "webhooks"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://learn.microsoft.com/en-us/graph/api/resources/mail-api-overview",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "google-gmail-api",
+      "name": "Gmail API",
+      "url": "https://developers.google.com/gmail/api",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "API Gmail ; lecture messages, parsing MIME et push notifications pour workflows.",
+      "capabilities": [
+        "gmail_api",
+        "mime",
+        "push_notifications",
+        "attachments"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://developers.google.com/gmail/api",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "inbound-missive",
+      "name": "Missive Inbound",
+      "url": "https://missiveapp.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Boîte collaborative ; règles entrantes et intégrations pour trier emails métier.",
+      "capabilities": [
+        "shared_inbox",
+        "rules",
+        "integrations",
+        "collaboration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "CA",
+      "france_market": "partial",
+      "operating_regions": [
+        "CA",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://missiveapp.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

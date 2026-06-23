@@ -30,7 +30,7 @@ sur une niche très précise.
 ### Référence catalogue SaaS (dépôt)
 
 **Idée** : `0004-dossier-immobilier-intelligent` — segments liés pour benchmark concurrence structuré.
-**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
 
 #### Segment `real-estate-proptech` — Immobilier & proptech
 

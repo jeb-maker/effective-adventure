@@ -55,7 +55,7 @@ transversal » :
 ### Référence catalogue SaaS (dépôt)
 
 **Idée** : `0002-observatoire-qualite-donnees` — segments liés pour benchmark concurrence structuré.
-**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
 
 #### Segment `open-data-governance-fr` — Gouvernance open data FR
 

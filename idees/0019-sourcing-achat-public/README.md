@@ -178,7 +178,7 @@ explicitement le seed ; plusieurs en produit B2G commercial self-service.
 ### Référence catalogue SaaS (dépôt)
 
 **Idée** : `0019-sourcing-achat-public` — segments liés pour benchmark concurrence structuré.
-**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
 
 #### Segment `public-procurement-intel` — Intelligence marchés publics
 

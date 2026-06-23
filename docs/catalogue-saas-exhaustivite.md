@@ -75,6 +75,7 @@ Segment **non clos** tant que < 4 types sont renseignés dans `coverage-matrix.j
 | **V5d** | Équivalents internationaux `france-*` (+41) | Fait |
 | **V5e** | Coverage L2 rétrospectif + liaison 28 idées | Fait |
 | **V5f** | L3 agents/voix, parsing inbox, GRC (+32) | Fait |
+| **V5g** | 2e L3 parsing + compliance-to-spec, idée RecordAI | Fait |
 | Maintenance | Long tail, revue trimestrielle, passes ciblées | Continu |
 
 ---

@@ -126,7 +126,8 @@
       "name": "Extend AI",
       "url": "https://www.extend.ai/",
       "segments": [
-        "document-idp"
+        "document-idp",
+        "parsing-inbox"
       ],
       "description": "Plateforme agentic document processing : parsing, classification, extraction, évaluation.",
       "capabilities": [
@@ -186,7 +187,8 @@
       "name": "Sensible",
       "url": "https://www.sensible.so/",
       "segments": [
-        "document-idp"
+        "document-idp",
+        "parsing-inbox"
       ],
       "description": "API extraction combinant règles layout (SenseML) et LLM ; parsers préconfigurés.",
       "capabilities": [
@@ -480,7 +482,8 @@
       "name": "Reducto",
       "url": "https://reducto.ai/",
       "segments": [
-        "document-idp"
+        "document-idp",
+        "parsing-inbox"
       ],
       "description": "Plateforme agentic document : Parse, Extract, Split, Edit avec citations par champ.",
       "capabilities": [

@@ -111,7 +111,7 @@ recoupe les observatoires régionaux (AASQA, observatoires énergie-climat,
 ### Référence catalogue SaaS (dépôt)
 
 **Idée** : `0017-empreinte-carbone-territoire` — segments liés pour benchmark concurrence structuré.
-**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
 
 #### Segment `esg-csrd` — ESG & reporting extra-financier
 

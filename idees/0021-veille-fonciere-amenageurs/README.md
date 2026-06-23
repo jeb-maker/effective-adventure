@@ -153,7 +153,7 @@ un SaaS horizontal « croiser Sitadel + DVF + PLU + friches + PM ».
 ### Référence catalogue SaaS (dépôt)
 
 **Idée** : `0021-veille-fonciere-amenageurs` — segments liés pour benchmark concurrence structuré.
-**Mise à jour** : 2026-06-22 — ne pas utiliser les entrées `unverified` pour scorer.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
 
 #### Segment `real-estate-proptech` — Immobilier & proptech
 
