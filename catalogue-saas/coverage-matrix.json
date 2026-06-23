@@ -101,8 +101,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
@@ -111,7 +123,7 @@
           "cumulative_new": 2
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "grc-security": {
@@ -443,8 +455,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -453,7 +477,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "kyc-aml": {
@@ -494,7 +518,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 39,
+          "new_added": 6,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 12,
@@ -510,7 +540,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 13
     },
     "pharma-regulatory": {
@@ -551,8 +581,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -561,7 +603,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "cybersecurity-platforms": {
@@ -602,7 +644,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
@@ -618,7 +666,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "identity-access-management": {
@@ -722,8 +770,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
@@ -732,7 +792,7 @@
           "cumulative_new": 3
         }
       },
-      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "email-security": {
@@ -773,7 +833,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 8,
@@ -789,7 +855,7 @@
           "cumulative_new": 2
         }
       },
-      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "vulnerability-management": {
@@ -837,7 +903,13 @@
           "pass": "2026-06-v5l-security-kyc-infra",
           "cumulative_new": 1
         },
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -846,7 +918,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "llm-api-providers": {
@@ -887,7 +959,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
@@ -903,7 +981,7 @@
           "cumulative_new": 2
         }
       },
-      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "model-inference-hosting": {
@@ -951,7 +1029,13 @@
           "pass": "2026-06-v5l-security-kyc-infra",
           "cumulative_new": 1
         },
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-23",
           "candidates_found": 8,
@@ -960,7 +1044,7 @@
           "cumulative_new": 2
         }
       },
-      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "vector-databases": {
@@ -1008,7 +1092,13 @@
           "pass": "2026-06-v5l-security-kyc-infra",
           "cumulative_new": 2
         },
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 30,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-23",
           "candidates_found": 8,
@@ -1017,7 +1107,7 @@
           "cumulative_new": 3
         }
       },
-      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 10
     },
     "ai-evals-testing": {
@@ -1065,7 +1155,13 @@
           "pass": "2026-06-v5l-security-kyc-infra",
           "cumulative_new": 4
         },
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -1074,7 +1170,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "agent-frameworks-platforms": {
@@ -1122,7 +1218,13 @@
           "pass": "2026-06-v5l-security-kyc-infra",
           "cumulative_new": 5
         },
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -1131,7 +1233,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "document-idp": {
@@ -1295,7 +1397,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 8,
@@ -1311,7 +1419,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "translation-localization": {
@@ -1352,7 +1460,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 8,
@@ -1368,7 +1482,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "data-integration-etl": {
@@ -1416,7 +1530,13 @@
           "pass": "2026-06-v5n-workplace-data-sales",
           "cumulative_new": 1
         },
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -1425,7 +1545,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "ai-productivity": {
@@ -1466,8 +1586,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 8,
@@ -1476,7 +1608,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "ai-copilot-dev": {
@@ -1575,7 +1707,13 @@
           "pass": "2026-06-v5n-workplace-data-sales",
           "cumulative_new": 1
         },
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-23",
           "candidates_found": 6,
@@ -1584,7 +1722,7 @@
           "cumulative_new": 2
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "project-work-management": {
@@ -1625,8 +1763,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -1635,7 +1785,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "meeting-intelligence": {
@@ -1676,8 +1826,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -1686,7 +1848,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "automation-platforms": {
@@ -1797,7 +1959,13 @@
           "pass": "2026-06-v5n-workplace-data-sales",
           "cumulative_new": 1
         },
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 8,
@@ -1806,7 +1974,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "support-sales-agents": {
@@ -1942,8 +2110,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -1952,7 +2132,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "marketing-automation": {
@@ -1993,7 +2173,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 8,
@@ -2009,7 +2195,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "seo-content-ai": {
@@ -2050,7 +2236,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 6,
@@ -2066,7 +2258,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "revenue-intelligence": {
@@ -2107,8 +2299,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -2117,7 +2321,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "helpdesk-platforms": {
@@ -2158,8 +2362,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 8,
@@ -2168,7 +2384,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "customer-success": {
@@ -2209,8 +2425,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -2219,7 +2447,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "finance-accounting-ai": {
@@ -2260,7 +2488,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
@@ -2276,7 +2510,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "treasury-fpa": {
@@ -2317,8 +2551,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -2327,7 +2573,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "spend-procurement": {
@@ -2368,7 +2614,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 8,
@@ -2384,7 +2636,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "legal-contract-ai": {
@@ -2425,7 +2677,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
@@ -2441,7 +2699,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "hr-talent-ai": {
@@ -2539,7 +2797,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
@@ -2555,7 +2819,7 @@
           "cumulative_new": 2
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "learning-lxp": {
@@ -2596,7 +2860,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
@@ -2612,7 +2882,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "healthcare-clinical-ai": {
@@ -2653,7 +2923,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
@@ -2669,7 +2945,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "health-data-analytics": {
@@ -2710,7 +2986,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
@@ -2726,7 +3008,7 @@
           "cumulative_new": 2
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "real-estate-proptech": {
@@ -2824,7 +3106,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 8,
@@ -2840,7 +3128,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "construction-proptech": {
@@ -2881,7 +3169,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
@@ -2897,7 +3191,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "supply-chain-logistics": {
@@ -2938,8 +3232,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -2948,7 +3254,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "retail-ecommerce-ai": {
@@ -2989,7 +3295,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 8,
@@ -3005,7 +3317,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "energy-cleantech": {
@@ -3046,7 +3358,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
@@ -3062,7 +3380,7 @@
           "cumulative_new": 3
         }
       },
-      "last_pass": "2026-06-v5m-verticals-compliance",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "data-enrichment-b2b": {
@@ -3103,7 +3421,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "geo_digest": {
           "consulted_at": "2026-06-23",
           "candidates_found": 8,
@@ -3119,7 +3443,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "bi-analytics-platforms": {
@@ -3167,7 +3491,13 @@
           "pass": "2026-06-v5n-workplace-data-sales",
           "cumulative_new": 1
         },
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 33,
+          "new_added": 5,
+          "pass": "2026-06-v5o-coverage-l2",
+          "notes": "Backfill coverage L2 post-V5l–V5n"
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -3176,7 +3506,7 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "last_pass": "2026-06-v5o-coverage-l2",
       "vendor_count_after_pass": 11
     },
     "data-observability": {

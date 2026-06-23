@@ -131,7 +131,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `learning-lxp` — Formation & LXP
 
-Fichier : [`catalogue-saas/vendors/learning-lxp.json`](../../catalogue-saas/vendors/learning-lxp.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/learning-lxp.json`](../../catalogue-saas/vendors/learning-lxp.json) (11 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -140,6 +140,12 @@ Fichier : [`catalogue-saas/vendors/learning-lxp.json`](../../catalogue-saas/vend
 | `cornerstone` | Cornerstone OnDemand | US | partial | partial |
 | `degreed` | Degreed | US | partial | partial |
 | `absorb-lms` | Absorb LMS | US | partial | partial |
+| `rise-up` | Rise Up | FR | strong | partial |
+| `didask` | Didask | FR | strong | partial |
+| `teach-on-mars` | Teach on Mars | FR | strong | partial |
+| `crossknowledge` | CrossKnowledge (Wiley) | FR | strong | partial |
+| `learnworlds` | LearnWorlds | CY | partial | partial |
+| `talentlms` | TalentLMS | US | partial | partial |
 
 Commandes :
 ```bash

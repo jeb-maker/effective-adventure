@@ -114,7 +114,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `treasury-fpa` — Trésorerie & FP&A
 
-Fichier : [`catalogue-saas/vendors/treasury-fpa.json`](../../catalogue-saas/vendors/treasury-fpa.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/treasury-fpa.json`](../../catalogue-saas/vendors/treasury-fpa.json) (11 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -123,6 +123,12 @@ Fichier : [`catalogue-saas/vendors/treasury-fpa.json`](../../catalogue-saas/vend
 | `drivetrain` | Drivetrain | US | partial | partial |
 | `cube-software` | Cube | US | partial | partial |
 | `mosaic-tech` | Mosaic | US | partial | partial |
+| `kyriba` | Kyriba | FR | strong | partial |
+| `gtreasury` | GTreasury | US | partial | partial |
+| `cashforce` | Cashforce | BE | partial | partial |
+| `trovata` | Trovata | US | partial | partial |
+| `highradius` | HighRadius | US | partial | partial |
+| `blackline` | BlackLine | US | partial | partial |
 
 Commandes :
 ```bash

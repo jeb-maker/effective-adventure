@@ -142,7 +142,7 @@ Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-
 
 #### Segment `insurance-insurtech` — Assurance & insurtech
 
-Fichier : [`catalogue-saas/vendors/insurance-insurtech.json`](../../catalogue-saas/vendors/insurance-insurtech.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/insurance-insurtech.json`](../../catalogue-saas/vendors/insurance-insurtech.json) (11 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -151,6 +151,12 @@ Fichier : [`catalogue-saas/vendors/insurance-insurtech.json`](../../catalogue-sa
 | `lemonade` | Lemonade | unknown | unknown | partial |
 | `coalition` | Coalition | US | partial | partial |
 | `shift-technology` | Shift Technology | FR | partial | partial |
+| `akur8` | Akur8 | FR | strong | partial |
+| `wakam` | Wakam | FR | strong | partial |
+| `qover` | Qover | BE | partial | partial |
+| `luko` | Luko (Allianz Direct) | FR | strong | partial |
+| `alan` | Alan | FR | strong | partial |
+| `wefox` | wefox | DE | partial | partial |
 
 Commandes :
 ```bash

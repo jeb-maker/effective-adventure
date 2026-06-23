@@ -115,7 +115,7 @@ recoupe les observatoires régionaux (AASQA, observatoires énergie-climat,
 
 #### Segment `esg-csrd` — ESG & reporting extra-financier
 
-Fichier : [`catalogue-saas/vendors/esg-csrd.json`](../../catalogue-saas/vendors/esg-csrd.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/esg-csrd.json`](../../catalogue-saas/vendors/esg-csrd.json) (11 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -124,6 +124,12 @@ Fichier : [`catalogue-saas/vendors/esg-csrd.json`](../../catalogue-saas/vendors/
 | `normative` | Normative | US | partial | partial |
 | `greenly` | Greenly | FR | partial | partial |
 | `workiva-esg` | Workiva | US | partial | partial |
+| `sweep` | Sweep | FR | strong | partial |
+| `plan-a` | Plan A | DE | partial | partial |
+| `ecovadis` | EcoVadis | FR | strong | partial |
+| `carbonfact` | Carbonfact | FR | strong | partial |
+| `carbonmaps` | Carbon Maps | FR | strong | partial |
+| `ibm-envizi` | IBM Envizi | US | partial | partial |
 
 #### Segment `environmental-data-fr` — Environnement & risques FR
 

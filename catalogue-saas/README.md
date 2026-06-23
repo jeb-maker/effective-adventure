@@ -13,11 +13,11 @@ Registre **curaté** de SaaS comparables, aligné sur les règles de preuve du d
 | [`passes/`](passes/) | Journal des passes de moisson |
 | [`coverage-matrix.json`](coverage-matrix.json) | Matrice segment × sources |
 
-## État (2026-06-22)
+## État (2026-06-23)
 
 - **68 segments** définis (tous avec fichier `vendors/<id>.json`)
-- **68 segments peuplés** (vague 4)
-- **534 vendeurs** recensés (vagues 5b–5g)
+- **68 segments peuplés** — **0 segment ≤ 6 entrées** (complétion L2, passes V5l–V5n)
+- **914 vendeurs** recensés (vagues 5b–5o)
 - **29 idées** liées au catalogue (`idees/catalogue-segments.json`)
 - **Tagging géo** : `hq_country`, `france_market`, `operating_regions` (vague 5a)
 
@@ -59,6 +59,14 @@ python3 scripts/enrich_catalogue_v5d.py
 python3 scripts/enrich_catalogue_v5e.py
 python3 scripts/enrich_catalogue_v5f.py
 python3 scripts/enrich_catalogue_v5g.py
+python3 scripts/enrich_catalogue_v5h.py
+python3 scripts/enrich_catalogue_v5i.py
+python3 scripts/enrich_catalogue_v5j.py
+python3 scripts/enrich_catalogue_v5k.py
+python3 scripts/enrich_catalogue_v5l.py
+python3 scripts/enrich_catalogue_v5m.py
+python3 scripts/enrich_catalogue_v5n.py
+python3 scripts/enrich_catalogue_v5o_coverage.py
 python3 scripts/sync_idees_catalogue.py
 
 # Saturation (passes réelles vs seuil 5 %)

@@ -76,7 +76,15 @@ Segment **non clos** tant que < 4 types sont renseignés dans `coverage-matrix.j
 | **V5e** | Coverage L2 rétrospectif + liaison 28 idées | Fait |
 | **V5f** | L3 agents/voix, parsing inbox, GRC (+32) | Fait |
 | **V5g** | 2e L3 parsing + compliance-to-spec, idée RecordAI | Fait |
-| Maintenance | Long tail, revue trimestrielle, passes ciblées | Continu |
+| **V5h** | 3e L3 dossier validé (parsing + compliance) | Fait |
+| **V5i** | L3 document-idp human-in-the-loop | Fait |
+| **V5j** | automation-platforms orchestration RecordAI | Fait |
+| **V5k** | Territoire idées 0025–0028 (7 segments FR) | Fait |
+| **V5l** | Sécurité + KYC + infra IA (L1→L2) | Fait |
+| **V5m** | Verticaux + compliance fins (L1→L2) | Fait |
+| **V5n** | Workplace / data / sales (L1→L2) | Fait |
+| **V5o** | Backfill coverage-matrix segments L2 | Fait |
+| Maintenance | Long tail L3, revue trimestrielle | Continu |
 
 ---
 
@@ -117,8 +125,9 @@ python3 scripts/catalogue_saas.py validate
 
 | Étape | Vendeurs uniques (ordre de grandeur) |
 |---|---|
-| Actuel (post-V5b) | ~410 |
-| L2 tous segments | 800–1 200 |
+| Post-V5g (juin 2026) | ~534 |
+| Post-V5k + idées | ~637 |
+| **Post-V5l–V5n (L2 complet)** | **~914** |
 | L3 + maintenance | 1 500–2 500 |
 
 La fiabilité prime sur la vitesse : **`unknown` est préférable à une guess non sourcée**.
