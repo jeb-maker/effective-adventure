@@ -43,31 +43,31 @@ La douleur est **réelle et récurrente** : comprendre si sa dette, son épargne
 
 ## 4. Existant / concurrence
 
-> Consultation des sources : **2026-06-20**. Verdict de saturation : **saturé** — le benchmark inter-collectivités par strate est couvert par l'officiel gratuit, des SaaS établis et des réutilisations open data récentes.
+> Cartographie B (consultée 2026-06-23). Verdict de saturation : **saturé** — le benchmark inter-collectivités par strate est couvert par l'officiel gratuit, des SaaS établis et des réutilisations open data récentes.
 
-### 4.1 Offre publique / institutionnelle (gratuite)
-
-| Nom | URL | Ce qu'il fait | Limites |
-|---|---|---|---|
-| **OFGL — data.ofgl.fr** | https://data.ofgl.fr/pages/accueil/ | Portail officiel (DGCL/DGFiP) : **~70 agrégats et ratios**, cartographie personnalisable, comparaison par strate, montant/habitant, évolution sur 6 ans — https://www.data.gouv.fr/reuses/cartographie-des-resultats-financiers-des-collectivites-locales , consulté 2026-06-20 | UX orientée data analyst ; pas d'alertes métier DGS ; pas de restitution « mandat » clé en main. **Couvre le cœur de l'idée.** |
-| **Collectiv'Finances** (Banque des Territoires) | https://www.banquedesterritoires.fr/produits-services/services-digitaux/collectivfinances-outils-analyse-financiere-collectivite | Outil **100 % gratuit** : prospective financière, modélisation de projet, PPI ; accompagnement Rural Consult pour petites collectivités — même URL, consulté 2026-06-20 | Orienté **simulation/prospective**, moins benchmark passif multi-pairs ; mais répond au même besoin de pilotage financier DGS. |
-| **Hélios / PIGP** (DGFiP) | https://www.collectivites-locales.gouv.fr/gerer-les-finances-publiques-locales/dematerialisation-des-comptes-locaux-et-open-data/dematerialisation-comptable-et-budgetaire/helios-lapplication-informatique-de-la-direction-generale-des-finances , consulté 2026-06-20 | Consultation **gratuite** des données budgétaires/comptables de sa propre collectivité (habilitation comptable) | Pas de benchmark inter-collectivités ; données **propres** uniquement. |
-| **Territoires et Finances** (AMF / Banque Postale / BdT) | https://www.amf.asso.fr/documents-territoires-finances-principaux-ratios-financiers-communes-intercommunalites-en-2021/41444 , consulté 2026-06-20 | Publication annuelle de repères par **strate démographique** (7 fiches communes + EPCI) | Publication PDF, pas un SaaS interactif ; référence méthodologique, pas concurrent direct produit. |
-
-### 4.2 Réutilisations open data (gratuites)
+### Services publics / .gouv.fr
 
 | Nom | URL | Ce qu'il fait | Limites |
 |---|---|---|---|
-| **DépensesPubliques.fr** | https://depensespubliques.fr/ | **36 000+ communes**, comparateur, baromètre 2024, classements dette/dépenses/épargne ; API tabulaire data.gouv.fr — https://depensespubliques.fr/donnees-sources , consulté 2026-06-20 | Focus **communes** ; pas de module DGS complet (alertes, export conseil) ; monétisation **à vérifier**. |
-| **FMPC** (Financer Mes Projets Communaux) | https://www.fmpc.fr/ | **34 908 communes**, ratios, comparaison, simulateur fiscal (IA sur état 1259), app iOS — même URL, consulté 2026-06-20 | Périmètre **communal** ; tarifs B2G **non publics** ; chevauchement direct avec l'idée. |
-| **NosFinancesLocales** (Regards Citoyens) | https://www.nosfinanceslocales.fr | Cartographies historiques open data | **Service fermé** (« faute de motivation bénévole ») — consulté 2026-06-20. N'est plus un concurrent actif mais prouve que le créneau a déjà été tenté en civic tech sans pérennité. |
-| **Ville de rêve**, **Deniers publics (Spallian)** | Réutilisations sur jeu OFGL — https://www.data.gouv.fr/datasets/comptes-des-communes-2017-2024/reuses_and_dataservices , consulté 2026-06-20 | Comparaisons / palmarès grand public | Angle citoyen, pas B2G DGS. |
+| **OFGL — data.ofgl.fr** | https://data.ofgl.fr/pages/accueil/ | Portail officiel (DGCL/DGFiP) : **~70 agrégats et ratios**, cartographie personnalisable, comparaison par strate, montant/habitant, évolution sur 6 ans — https://www.data.gouv.fr/reuses/cartographie-des-resultats-financiers-des-collectivites-locales , consulté 2026-06-23 | UX orientée data analyst ; pas d'alertes métier DGS ; pas de restitution « mandat » clé en main. **Couvre le cœur de l'idée.** |
+| **Collectiv'Finances** (Banque des Territoires) | https://www.banquedesterritoires.fr/produits-services/services-digitaux/collectivfinances-outils-analyse-financiere-collectivite | Outil **100 % gratuit** : prospective financière, modélisation de projet, PPI ; accompagnement Rural Consult pour petites collectivités — même URL, consulté 2026-06-23 | Orienté **simulation/prospective**, moins benchmark passif multi-pairs ; mais répond au même besoin de pilotage financier DGS. |
+| **Hélios / PIGP** (DGFiP) | https://www.collectivites-locales.gouv.fr/gerer-les-finances-publiques-locales/dematerialisation-des-comptes-locaux-et-open-data/dematerialisation-comptable-et-budgetaire/helios-lapplication-informatique-de-la-direction-generale-des-finances , consulté 2026-06-23 | Consultation **gratuite** des données budgétaires/comptables de sa propre collectivité (habilitation comptable) | Pas de benchmark inter-collectivités ; données **propres** uniquement. |
+| **Territoires et Finances** (AMF / Banque Postale / BdT) | https://www.amf.asso.fr/documents-territoires-finances-principaux-ratios-financiers-communes-intercommunalites-en-2021/41444 , consulté 2026-06-23 | Publication annuelle de repères par **strate démographique** (7 fiches communes + EPCI) | Publication PDF, pas un SaaS interactif ; référence méthodologique, pas concurrent direct produit. |
 
-### 4.3 SaaS commerciaux B2G (payants)
+### Réutilisations data.gouv
+
+| Nom | URL | Ce qu'il fait | Limites |
+|---|---|---|---|
+| **DépensesPubliques.fr** | https://depensespubliques.fr/ | **36 000+ communes**, comparateur, baromètre 2024, classements dette/dépenses/épargne ; API tabulaire data.gouv.fr — https://depensespubliques.fr/donnees-sources , consulté 2026-06-23 | Focus **communes** ; pas de module DGS complet (alertes, export conseil) ; monétisation **à vérifier**. |
+| **FMPC** (Financer Mes Projets Communaux) | https://www.fmpc.fr/ | **34 908 communes**, ratios, comparaison, simulateur fiscal (IA sur état 1259), app iOS — même URL, consulté 2026-06-23 | Périmètre **communal** ; tarifs B2G **non publics** ; chevauchement direct avec l'idée. |
+| **NosFinancesLocales** (Regards Citoyens) | https://www.nosfinanceslocales.fr | Cartographies historiques open data | **Service fermé** (« faute de motivation bénévole ») — consulté 2026-06-23. N'est plus un concurrent actif mais prouve que le créneau a déjà été tenté en civic tech sans pérennité. |
+| **Ville de rêve**, **Deniers publics (Spallian)** | Réutilisations sur jeu OFGL — https://www.data.gouv.fr/datasets/comptes-des-communes-2017-2024/reuses_and_dataservices , consulté 2026-06-23 | Comparaisons / palmarès grand public | Angle citoyen, pas B2G DGS. |
+
+### Produits commerciaux B2G (payants)
 
 | Nom | URL | Ce qu'il fait | Prix / preuve budget |
 |---|---|---|---|
-| **LocalNova — LocalÉvaluation / LocalBenchmark / LocalObservatoire** | https://www.localnova-finance.fr/progiciel-analyse-prevision-financiere-rh-collectivites-locales/plateforme-fonction-finance-collectivite-territoriale/evaluation-financiere-comparative/ , consulté 2026-06-20 | Rapport comparatif **90+ variables** vs collectivités de même profil ; cartographie multi-années ; **LocalBenchmark** dédié comparaison performances — https://www.localnova-finance.fr/editeur-logiciels-conseils-budgetaires-collectivites/recherche-developpement-fintech/ , consulté 2026-06-20 | Devis ; **Localrural** : 500–1 100 €/an (petites communes). **> 1 000 clients.** |
+| **LocalNova — LocalÉvaluation / LocalBenchmark / LocalObservatoire** | https://www.localnova-finance.fr/progiciel-analyse-prevision-financiere-rh-collectivites-locales/plateforme-fonction-finance-collectivite-territoriale/evaluation-financiere-comparative/ , consulté 2026-06-23 | Rapport comparatif **90+ variables** vs collectivités de même profil ; cartographie multi-années ; **LocalBenchmark** dédié comparaison performances — https://www.localnova-finance.fr/editeur-logiciels-conseils-budgetaires-collectivites/recherche-developpement-fintech/ , consulté 2026-06-23 | Devis ; **Localrural** : 500–1 100 €/an (petites communes). **> 1 000 clients.** |
 | **LocalNova — LocalOpen** (freemium) | https://www.localnova-finance.fr/progiciel-analyse-prevision-financiere-rh-collectivites-locales/localopen-donnees-financiere-des-collectivites-en-libre-acces/ , consulté 2026-06-20 | Big data financier, tableaux de bord synthétiques, études thématiques — **gratuit pour décideurs publics** (inscription) | Freemium : gratuit attire, modules payants en aval. |
 | **Manty Décision** | https://www.manty.eu/finance , consulté 2026-06-20 | Pilotage financier : ratios DGFiP, **comparaison à la moyenne de strate** et collectivités sélectionnées via open data (Insee, DGFiP, data.gouv.fr) — https://www.manty.eu/post/3-manieres-de-suivre-les-indicateurs-financiers-de-votre-collectivite-avec-manty-decision , consulté 2026-06-20 | Tarif sur mesure ; connecteurs logiciels métiers. **C'est l'idée 0020, déjà produite.** |
 | **Ressources Consultants — Repères** | https://www.ressources-consultants-finances.fr/logiciels/reperes/ , consulté 2026-06-20 | Module **inter-collectivité** : situer son territoire vs autres collectivités (budgétaire, dotations, fiscalité, critères physico-financiers) ; moyennes nationale/régionale/départementale/strate | ~500 collectivités ; devis. Module **quasi homonyme** de l'idée. |
@@ -76,7 +76,7 @@ La douleur est **réelle et récurrente** : comprendre si sa dette, son épargne
 | **KPMG Secteur Public** (+ partenariat LocalNova) | https://kpmg.com/fr/fr/secteurs/secteur-public/finance.html + https://www.localnova-finance.fr/accord-cooperation-kpmg-localnova/ , consulté 2026-06-20 | Conseil finances locales adossé aux applicatifs LocalNova | Prestation cabinet, pas SaaS self-service pur. |
 | **FMPC** (cf. §4.2) | https://www.fmpc.fr/ | Benchmark + simulation + mobile | Concurrent direct sur le segment élus/candidats. |
 
-### 4.4 Verdict de saturation
+### Verdict de saturation
 
 | Zone | Saturation |
 |---|---|

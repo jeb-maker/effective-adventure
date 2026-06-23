@@ -62,25 +62,46 @@ collecte interne, manuelle, spécifique à chaque client. L'open data ne fournit
 donc que la moitié « facile » de l'équation.
 
 ## 4. Existant / concurrence
+
+> Cartographie B (consultée 2026-06-23).
+
 **Verdict de saturation : SATURÉ.** C'est l'un des créneaux climat-tech les plus
 encombrés en France.
 
-**Outils publics / officiels (gratuits) :**
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Base Empreinte® / Base Carbone® ADEME** | https://base-empreinte.ademe.fr/ | Facteurs d'émission nationaux (>3 000), API |
+| **Plateforme Bilans GES ADEME** | https://bilans-ges.ademe.fr/ | Dépôt officiel bilans GES organisations |
+| **Nos Gestes Climat** | https://nosgestesclimat.fr/ | Calculateur particuliers (beta.gouv, Publicodes) |
+| **data.gouv.fr — inventaire GES** | https://www.data.gouv.fr/datasets/inventaire-national-des-emissions-de-polluants-atmospheriques-et-de-gaz-a-effet-de-serre | Émissions territoriales agrégées |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Empreinte territoriale (Territoires en Transitions)** | https://www.data.gouv.fr/reuses/empreinte-territoriale | Visualisation empreinte carbone par territoire |
+| **Publicodes (beta.gouv)** | https://www.data.gouv.fr/reuses/publicodes | Langage de calcul ouvert pour modèles carbone |
+
+### Outils publics / officiels (gratuits)
+
 - **Base Empreinte® / Base Carbone® de l'ADEME** : la base de référence
   nationale, gratuite, > 3 000 facteurs, accessible en ligne et par API
-  ([wecount.io, 2026-06-20](https://www.wecount.io/ressources-articles/base-empreinte-r-comprendre-et-utiliser-la-base-carbone-de-reference-pour-votre-entreprise) ;
-  [hellocarbo.com, 2026-06-20](https://www.hellocarbo.com/blog/calculer/base-empreinte/)).
+  ([wecount.io, 2026-06-23](https://www.wecount.io/ressources-articles/base-empreinte-r-comprendre-et-utiliser-la-base-carbone-de-reference-pour-votre-entreprise) ;
+  [hellocarbo.com, 2026-06-23](https://www.hellocarbo.com/blog/calculer/base-empreinte/)).
 - **Méthode Bilan Carbone® V8** portée par l'**ABC** : référence francophone,
   téléchargeable après formation — mais **marque déposée** : revendiquer un
   « Bilan Carbone® » exige le respect du cahier des charges/licence ABC
-  ([greenly.earth, 2026-06-20](https://greenly.earth/blog/secteurs/bilan-carbone-entreprise-logiciel)).
+  ([greenly.earth, 2026-06-23](https://greenly.earth/blog/secteurs/bilan-carbone-entreprise-logiciel)).
 - **Plateforme Bilans GES ADEME** (`bilans-ges.ademe.fr`) : dépôt officiel +
-  module de saisie guidée ([les-rencontres-ecologie-travail.fr, 2026-06-20](https://www.les-rencontres-ecologie-travail.fr/blog/bilan-carbone-obligatoire-entreprises-2026/)).
+  module de saisie guidée ([les-rencontres-ecologie-travail.fr, 2026-06-23](https://www.les-rencontres-ecologie-travail.fr/blog/bilan-carbone-obligatoire-entreprises-2026/)).
 - **Nos Gestes Climat** (ADEME / beta.gouv, open source MIT, publicodes) :
   calculateur d'empreinte, mais **pour les particuliers**, pas les organisations
-  ([github.com/incubateur-ademe/nosgestesclimat, 2026-06-20](https://github.com/incubateur-ademe/nosgestesclimat)).
+  ([github.com/incubateur-ademe/nosgestesclimat, 2026-06-23](https://github.com/incubateur-ademe/nosgestesclimat)).
 
-**Produits commerciaux (très nombreux, financés) — prix consultés 2026-06-20 :**
+### Produits commerciaux
+
 - **Greenly** : à partir de ~1 800 €/an, automatisation via intégrations
   comptables ([logiciel-bilan-carbone.fr](https://www.logiciel-bilan-carbone.fr/)).
 - **Carbo / HelloCarbo** : à partir de ~1 200 €/an
@@ -92,11 +113,12 @@ encombrés en France.
 - **Traace, Toovalu, Plan A, Aktio (~1 990 €/an), Orki (~1 440 €/an),
   Take[air] (~150 €/mois), Climeet (~150 €/mois), Normative, Persefoni,
   Watershed, Carbometrix, Sphera…** ([logiciel-bilan-carbone.fr](https://www.logiciel-bilan-carbone.fr/) ;
-  [d-carbonize.eu, 2026-06-20](https://d-carbonize.eu/fr/blog/logiciel-bilan-carbone-comparatif/)).
+  [d-carbonize.eu, 2026-06-23](https://d-carbonize.eu/fr/blog/logiciel-bilan-carbone-comparatif/)).
 
-**Open source / communautaire :**
+### Open source / bricolage
+
 - **Nos Gestes Climat** + écosystème **Publicodes** (langage de calcul ouvert,
-  modèles de bilan carbone) ([github, 2026-06-20](https://github.com/betagouv/publicodes/blob/master/README.md)) — base technique réutilisable mais orientée particuliers.
+  modèles de bilan carbone) ([github, 2026-06-23](https://github.com/betagouv/publicodes/blob/master/README.md)) — base technique réutilisable mais orientée particuliers.
 
 **Où est l'espace libre ?** Pas sur le bilan GES d'entreprise générique (saturé).
 Créneau éventuel et étroit : **l'angle territorial pré-rempli** — utiliser les

@@ -352,10 +352,10 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
       "source_url": "https://www.vigicite.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified"
     },
     {
       "id": "localnova",
@@ -626,6 +626,66 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "notes": "Modèle économique non public ; citoyen 0 € (consulté 2026-06-23)."
+    },
+    {
+      "id": "data-emploi-francetravail",
+      "name": "Data Emploi (France Travail)",
+      "url": "https://dataemploi.francetravail.fr/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Plateforme officielle gratuite : tensions emploi par métier ROME × territoire (région, EPCI, commune), dynamisme, salaires.",
+      "capabilities": [
+        "employment_tensions",
+        "rome",
+        "territorial_analytics",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
+      "source_url": "https://dataemploi.francetravail.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Concurrent direct idée 0028 — couvre ~80 % du besoin sans développement (consulté 2026-06-23)."
+    },
+    {
+      "id": "eclaireur-public",
+      "name": "Éclaireur Public (Anticor / Data for Good)",
+      "url": "https://eclaireurpublic.fr/",
+      "segments": [
+        "territorial-analytics",
+        "public-procurement-intel"
+      ],
+      "description": "Indice A–E transparence subventions + marchés publics ; comparateur collectivités (data.gouv DECP/SCDL).",
+      "capabilities": [
+        "subventions",
+        "decp",
+        "transparency",
+        "open_data",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
+      "source_url": "https://eclaireurpublic.fr/methodologie",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Adjacent idées 0027/0018 ; gratuit (consulté 2026-06-23)."
     }
   ]
 }

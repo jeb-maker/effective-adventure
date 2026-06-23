@@ -43,13 +43,36 @@ beaucoup de temps.
   (0001 commande publique, 0007 finances locales) apporte ses jointures métier.
 
 ## 4. Existant / concurrence
+
+> Cartographie B (consultée 2026-06-23). L'État et les réutilisations couvrent déjà
+> l'accès IA aux données territoriales ouvertes.
+
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **data.gouv.fr — MCP officiel** | https://github.com/datagouv/datagouv-mcp , https://guides.data.gouv.fr/intelligence-artificielle/le-serveur-mcp-de-data.gouv.fr | Serveur MCP catalogue/métadonnées/ressources/tabulaire |
+| **Albert API (Etalab)** | https://albert.api.etalab.gouv.fr/ | LLM souverain pour agents publics |
+| **OFGL — data.ofgl.fr** | https://data.ofgl.fr/ | Ratios financiers collectivités (SQL traçable) |
+| **Melodi (INSEE)** | https://www.insee.fr/fr/statistiques/5031326 | API statistiques territoriales officielles |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Urbaa.app** | https://www.data.gouv.fr/reuses/urbaa-app | Copilote territorial open data (indicateurs par commune) |
+| **france-data-mcp** (OSS) | https://github.com/habib256/france-data-mcp | MCP communautaire jeux data.gouv |
+| **h-genai** (OSS) | https://github.com/huggingface/h-genai | RAG sur catalogues open data FR |
+
+### Produits commerciaux / OSS
+
 data.gouv.fr **avance déjà** sur l'IA :
 - Serveur **MCP officiel** (lecture catalogue/métadonnées/ressources/tabulaire) —
   https://github.com/datagouv/datagouv-mcp ,
   https://guides.data.gouv.fr/intelligence-artificielle/le-serveur-mcp-de-data.gouv.fr
 - **Skill data.gouv.fr** (doc structurée pour LLM) —
   https://github.com/datagouv/datagouv-skill
-- MCP tiers (ex. recherche d'entreprises). (Consultés 2026-06-20.)
+- MCP tiers (ex. recherche d'entreprises). (Consultés 2026-06-23.)
 
 <!-- catalogue-saas-begin -->
 

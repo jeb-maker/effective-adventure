@@ -63,9 +63,34 @@ limite la fiabilité — ce que reconnaît la presse spécialisée (handicap.fr,
 lien). → Données **ouvertes, propres et traçables, mais incomplètes**.
 
 ## 4. Existant / concurrence
-> Règle : chaque affirmation = lien + date (tous consultés 2026-06-20).
 
-**Service public officiel — le besoin central est déjà couvert.**
+> Cartographie B (consultée 2026-06-23). Règle : chaque affirmation = lien + date.
+
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **acceslibre** | https://acceslibre.beta.gouv.fr/ | Service public numérique lieux accessibles (+627k lieux) |
+| **Jeu de données acceslibre** | https://www.data.gouv.fr/datasets/acceslibre-schema-daccessibilite-des-etablissements-recevant-du-public | Open data ERP accessibles (schema national) |
+| **Acceslibre Mobilités (ALM)** | https://mtes-mct.github.io/alm-docs/ | Collecte voirie/transports, export NeTEx |
+| **service-public.fr — accessibilité** | https://www.service-public.gouv.fr/particuliers/vosdroits/F32101 | Information citoyenne obligations ERP |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **acceslibre (réutilisation)** | https://www.data.gouv.fr/reuses/acceslibre | Cartographie collaborative lieux ERP |
+| **Foohx/acceslibre-client** (OSS) | https://github.com/Foohx/acceslibre-client/ | Client open source API acceslibre (MIT) |
+
+**Verdict de saturation : SATURÉ côté produit grand public** (service public
+officiel + Jaccede + Wheelmap + Google Maps), **partiel à occupé côté B2B
+collectivités** (Someware/Handimap). L'unique espace réellement non couvert
+serait la **mise en conformité réglementaire** des ERP — mais ce créneau **n'est
+pas alimenté par les données acceslibre** (déclaratif ≠ diagnostic réglementaire),
+donc il ne valide pas la seed.
+
+### Applis grand public concurrentes (gratuites)
+
 - **acceslibre** (beta.gouv.fr) : service public numérique de référence,
   recherche de lieux accessibles filtrée par handicap, contribution
   collaborative, gratuit, +10 000 contributeurs, 627 887 lieux —
@@ -73,8 +98,6 @@ lien). → Données **ouvertes, propres et traçables, mais incomplètes**.
   données chez les grands sites tiers** (service-public.fr, allocine.fr…), donc
   l'État pousse activement la réutilisation sans laisser de vide produit
   rémunérateur (dossier de presse Indre-et-Loire, lien §2).
-
-**Applis grand public concurrentes (gratuites, installées).**
 - **Jaccede** (association) : guide collaboratif d'accessibilité des lieux,
   web + iOS + Android, gratuit ; « + de 100 000 lieux répertoriés » selon une
   page municipale (https://www.ville-creteil.fr/jaccede-le-guide-de-laccessibilite),
@@ -85,36 +108,21 @@ lien). → Données **ouvertes, propres et traçables, mais incomplètes**.
 - **Google Maps** : attribut « entrée accessible en fauteuil roulant » et
   paramètres d'accessibilité intégrés (même source homeexchange).
 
-**Acteurs B2B / collectivités (créneau payeur déjà occupé).**
+### Acteurs B2B / collectivités
+
 - **Someware / Handimap** : calculateur d'itinéraires piétons PMR pour
   collectivités, intégré au réseau STAR (Rennes), HITinéraire (Lorient), Hérault
   Tourisme — https://www.someware.fr/nos-outils-numeriques/handimap/ . Sait déjà
   exploiter diagnostics d'accessibilité + données temps réel.
-- **Acceslibre Mobilités (ALM)** : outil public State-financé pour la collecte
-  voirie/transports, export NeTEx — https://mtes-mct.github.io/alm-docs/ .
 
-**Niches mobilité spécialisées.**
+### Niches mobilité spécialisées
+
 - **Andilien** (Transilien) : accessibilité des gares IDF, état des ascenseurs en
   temps réel — https://www.transilien.com/fr/page-deplacements/application-andilien .
 - **StreetCo / StreetNav** : GPS PMR évitant les obstacles trottoir —
   https://www.science-et-vie.com/societe/streetnav-debarque-a-paris-un-gps-revolutionnaire-pour-les-deplacements-des-personnes-a-mobilite-reduite-170780.html .
 - **Very Important Parking** : places PMR (~800 000 lieux annoncés, à vérifier) —
   https://www.homeexchange.fr/blog/applis-voyage-handicap/ .
-
-**Open source / réutilisations.**
-- Client open source de l'API : **Foohx/acceslibre-client** (MIT) —
-  https://github.com/Foohx/acceslibre-client/ .
-- Sur data.gouv, le jeu de données affiche « Réutilisations et API : 4 », dont la
-  réutilisation principale est… **acceslibre lui-même** (page dataset, consultée
-  2026-06-20). Très peu de réutilisations tierces, ce qui en dit long sur
-  l'appétence commerciale autour de cette donnée.
-
-**Verdict de saturation : SATURÉ côté produit grand public** (service public
-officiel + Jaccede + Wheelmap + Google Maps), **partiel à occupé côté B2B
-collectivités** (Someware/Handimap). L'unique espace réellement non couvert
-serait la **mise en conformité réglementaire** des ERP — mais ce créneau **n'est
-pas alimenté par les données acceslibre** (déclaratif ≠ diagnostic réglementaire),
-donc il ne valide pas la seed.
 
 <!-- catalogue-saas-begin -->
 

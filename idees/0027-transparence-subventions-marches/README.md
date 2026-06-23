@@ -71,7 +71,24 @@ jeu de données propre) plutôt que SaaS.
 
 ## 4. Existant / concurrence
 
-> Toutes les sources vérifiées le 2026-06-23.
+> Cartographie B (consultée 2026-06-23). Toutes les sources vérifiées à cette date.
+
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Data.Subvention** | https://datasubvention.beta.gouv.fr/ | Consolidation subventions associatives (SCDL) pour agents publics |
+| **data.economie.gouv.fr — DECP** | https://data.economie.gouv.fr/ | Marchés publics, observatoire commande publique |
+| **data.gouv.fr — DECP consolidées** | https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-consolidees-format-tabulaire | Dump tabulaire marchés publics |
+| **data.gouv.fr — SCDL** | https://www.data.gouv.fr/datasets/subventions-aux-associations | Subventions aux associations (format standard) |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **OpenBar** | https://www.data.gouv.fr/reuses/openbar | Transparence subventions (Regards Citoyens) |
+| **decp.info** | https://www.data.gouv.fr/reuses/decp-info-interface-dexploration-et-de-telechargement-des-donnees-de-la-commande-publique-au-format-tabulaire | Exploration DECP (marchés uniquement) |
+| **VigiCité** | https://www.data.gouv.fr/reuses/vigicite | Croisement élus + marchés + HATVP |
 
 ### Concurrents directs (croisement marchés publics × transparence)
 

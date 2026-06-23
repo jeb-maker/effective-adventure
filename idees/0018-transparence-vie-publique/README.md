@@ -73,35 +73,56 @@ strictement limitée aux champs diffusables — pas un nouveau portail citoyen.
 > lien historique est encore actif).
 
 ## 4. Existant / concurrence
+
+> Cartographie B (consultée 2026-06-23).
+
 **Verdict de saturation : saturé sur le créneau citoyen/transparence.** Les
 outils gratuits portés par les ONG couvrent déjà précisément le seed.
+
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **HATVP — open data** | https://www.hatvp.fr/open-data/ | Déclarations d'intérêts, répertoire lobbyistes |
+| **data.gouv.fr — HATVP** | https://www.data.gouv.fr/datasets/haute-autorite-pour-la-transparence-de-la-vie-publique | Jeux déclarations et répertoire |
+| **Registre des représentants d'intérêts** | https://www.hatvp.fr/le-registre-des-representants-dinterets/ | Lobbying réglementé |
+| **data.economie.gouv.fr — DECP** | https://data.economie.gouv.fr/ | Marchés publics (croisement adjacent) |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **VigiCité** | https://www.data.gouv.fr/reuses/vigicite | Croisement HATVP + marchés + élus |
+| **Poligraph** | https://www.data.gouv.fr/reuses/poligraph | Parse HATVP CSV/XML, déclarations lisibles |
+| **NosDéputés.fr** | https://www.data.gouv.fr/reuses/nosdeputes-fr | Activité parlementaire open data |
+
+### Produits civiques / ONG
 
 - **Integrity Watch France — Transparency International France** (datavisualisation
   des relations responsables publics / secteur privé, à partir des déclarations
   d'intérêts HATVP + affiliations politiques + déclarations des lobbyistes du
   répertoire ; filtres par parti, déclarations rectificatives). Fait l'essentiel
-  du « qui influence quoi » visé. — https://transparency-france.org/2023/05/16/public-prive-integrity-watch-loutil-de-datavisualisation-des-relations-des-responsables-publics-avec-le-secteur-prive-vient-detre-mis-a-jour/ (consulté 2026-06-20)
+  du « qui influence quoi » visé. — https://transparency-france.org/2023/05/16/public-prive-integrity-watch-loutil-de-datavisualisation-des-relations-des-responsables-publics-avec-le-secteur-prive-vient-detre-mis-a-jour/ (consulté 2026-06-23)
 - **VigiCité** : croise **HATVP + marchés publics + registre des lobbys** pour
   6 763 élus, score de transparence /100, ~2,29 M de relations détectées,
   croisements « élu dirigeant d'entité privée avec marchés dans son territoire »,
   droit de réponse intégré. **C'est quasi exactement le produit du seed, déjà
-  en ligne et gratuit.** — https://vigicite.org/ (consulté 2026-06-20)
+  en ligne et gratuit.** — https://vigicite.org/ (consulté 2026-06-23)
 - **Poligraph** : parse les fichiers open data HATVP (CSV/XML) pour rendre les
   déclarations lisibles/comparables (4 181 déclarations, 1 318 élus,
   portefeuilles, participations, transparence par parti, sync quotidienne).
-  — https://poligraph.fr/declarations-et-patrimoine (consulté 2026-06-20)
+  — https://poligraph.fr/declarations-et-patrimoine (consulté 2026-06-23)
 - **Regards Citoyens / NosDéputés.fr & NosSénateurs.fr** : observatoire de
   l'activité parlementaire, code AGPL, données ODbL + API (XML/JSON/CSV). Acteur
   historique de la transparence parlementaire (site en refonte post-2024).
-  — https://www.nosdeputes.fr/ , https://github.com/regardscitoyens/nosdeputes.fr/ (consulté 2026-06-20)
-- **HATVP — moteur de recherche officiel** : consultation des déclarations et du
-  répertoire sur hatvp.fr (recherche unitaire, peu de croisement analytique).
-  — https://www.hatvp.fr/open-data/ (consulté 2026-06-20)
-- **Marché payant adjacent = veille affaires publiques** (produit différent,
-  non-transparence) : Contexte (sur devis) — https://about.contexte.com/offres ;
-  Legiwatch (Solo ~450 €/mois, Équipe ~380 €/siège/mois, Illimité ~1 480 €/mois
-  avec API) — https://www.legiwatch.fr/tarifs/ ; Dixit —
-  https://www.dixitplatform.com/fr (tous consultés 2026-06-20). Ils couvrent la
+  — https://www.nosdeputes.fr/ , https://github.com/regardscitoyens/nosdeputes.fr/ (consulté 2026-06-23)
+
+### Marché payant adjacent (veille affaires publiques)
+
+- **Contexte** (sur devis) — https://about.contexte.com/offres ;
+  **Legiwatch** (Solo ~450 €/mois, Équipe ~380 €/siège/mois, Illimité ~1 480 €/mois
+  avec API) — https://www.legiwatch.fr/tarifs/ ; **Dixit** —
+  https://www.dixitplatform.com/fr (tous consultés 2026-06-23). Ils couvrent la
   veille législative/influence, pas la redevabilité citoyenne.
 
 **Où serait l'espace libre ?** Très étroit : éventuellement une couche

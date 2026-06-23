@@ -3710,14 +3710,14 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 5,
-          "new_added": 3,
-          "pass": "2026-06-v6e-territorial-btp-verify",
-          "cumulative_new": 9
+          "candidates_found": 4,
+          "new_added": 2,
+          "pass": "2026-06-v6g-verified-section4-ecartees",
+          "cumulative_new": 11
         }
       },
-      "last_pass": "2026-06-v6e-territorial-btp-verify",
-      "vendor_count_after_pass": 21
+      "last_pass": "2026-06-v6g-verified-section4-ecartees",
+      "vendor_count_after_pass": 23
     },
     "civic-tech-fr": {
       "target_level": "L3",
@@ -3902,14 +3902,14 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 8,
+          "candidates_found": 2,
           "new_added": 1,
-          "pass": "2026-06-v5k-territoire-idees",
-          "cumulative_new": 3
+          "pass": "2026-06-v6g-verified-section4-ecartees",
+          "cumulative_new": 4
         }
       },
-      "last_pass": "2026-06-v5k-territoire-idees",
-      "vendor_count_after_pass": 18
+      "last_pass": "2026-06-v6g-verified-section4-ecartees",
+      "vendor_count_after_pass": 19
     },
     "environmental-data-fr": {
       "target_level": "L3",

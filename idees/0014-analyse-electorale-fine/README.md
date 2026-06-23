@@ -63,16 +63,27 @@ l'**identifiant de bureau de vote** n'est pas parfaitement homogène entre
 sources, et les contours/socio au BV sont **estimés** (pas mesurés).
 
 ## 4. Existant / concurrence
-Tous éléments consultés le **2026-06-20**.
 
-**a) Service public / données officielles — couverture forte.**
-- Portail data.gouv.fr/elections + jeu agrégé BV + contours + table IRIS/BV :
-  l'État a **déjà fait le travail d'ouverture et d'outillage du croisement**.
-  https://www.data.gouv.fr/elections ,
-  https://www.data.gouv.fr/datasets/donnees-des-elections-agregees ,
-  https://www.data.gouv.fr/datasets/liaison-iris-bureaux-de-vote-de-2024
+> Cartographie B (consultée 2026-06-23). Tous les éléments vérifiés à cette date.
 
-**b) Data journalism — saturé sur la diffusion grand public.**
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **data.gouv.fr — élections** | https://www.data.gouv.fr/elections | Portail officiel résultats + outillage croisement |
+| **Données électorales agrégées** | https://www.data.gouv.fr/datasets/donnees-des-elections-agregees | BV, communes, scrutins harmonisés |
+| **Liaison IRIS / bureaux de vote** | https://www.data.gouv.fr/datasets/liaison-iris-bureaux-de-vote-de-2024 | Croisement géo infra-communal |
+| **Ministère de l'Intérieur — résultats** | https://www.interieur.gouv.fr/Elections/Les-resultats | Publication officielle par scrutin |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Cartes interactives législatives 2024** | https://www.data.gouv.fr/reuses/cartes-interactives-des-resultats-des-elections-legislatives-2024 | Visualisation résultats (Ian Offord) |
+| **Contours bureaux de vote GeoJSON** | https://www.data.gouv.fr/reuses/decoupage-contours-des-bureaux-de-vote | Téléchargement découpages BV |
+
+### Data journalism (saturé grand public)
+
 - Le Monde / Les Décodeurs, cartes interactives des législatives 2024 (surtout
   niveau circonscription/commune) :
   https://www.lemonde.fr/les-decodeurs/article/2024/07/08/la-carte-des-resultats-des-legislatives-2024-au-second-tour_6247510_4355771.html
@@ -85,7 +96,8 @@ Tous éléments consultés le **2026-06-20**.
   et social » (régression au BV, contrôles socio) :
   https://www.jean-jaures.org/publication/la-france-politique-de-2024-portrait-geographique-et-social/
 
-**c) Académique / recherche — angle « sociologie fine » déjà mûr.**
+### Académique / recherche
+
 - CEVIPOF / CDSP Sciences Po : enquêtes électorales (depuis 1958), séries de
   résultats, portail data.sciencespo.fr.
   https://www.sciencespo.fr/cevipof/fr/etudes-enquetes/ ,
@@ -97,7 +109,8 @@ Tous éléments consultés le **2026-06-20**.
 - Projet « Le carré social » (graphes électoraux infra-communaux) cité par le
   jeu de données IRIS/BV de data.gouv.fr.
 
-**d) Logiciels commerciaux de campagne — segment payeur déjà occupé.**
+### Logiciels commerciaux de campagne
+
 - **Explain** (ex-Liegey-Muller-Pons), outil « 50+1 » : agrège les résultats
   passés et les **croise avec l'open data et l'INSEE** pour **scorer les bureaux
   de vote** (couleur politique, abstention) et recommander des actions terrain ;
@@ -112,14 +125,11 @@ Tous éléments consultés le **2026-06-20**.
   → la promesse « croiser résultats BV + INSEE pour cibler » **existe déjà en
   produit payant** côté partis/candidats.
 
-**e) Open source / outils gratuits — diffusion outillée.**
+### Open source / bricolage
+
 - Makina Corpus : compilation de cartes électorales, démonstrateur TerraVisu
   (présidentielles 2002-2022), `elections.js`, Suffragia.
   https://makina-corpus.com/logiciel-libre/compilation-cartes-electorales-makina-corpus
-- Cartes interactives communautaires (Ian Offord) sur data.gouv.fr :
-  https://www.data.gouv.fr/reuses/cartes-interactives-des-resultats-des-elections-legislatives-2024
-- Appli de téléchargement des contours BV en GeoJSON :
-  https://www.data.gouv.fr/reuses/decoupage-contours-des-bureaux-de-vote
 
 **Verdict de saturation : SATURÉ.** Le service public a ouvert et pré-outillé
 les données ; la presse et les chercheurs publient déjà l'analyse fine

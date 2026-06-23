@@ -58,43 +58,52 @@ idéal pour des requêtes SQL fiables. La donnée n'est pas le problème ; elle 
 même la grande force du dossier. (Sources consultées 2026-06-20.)
 
 ## 4. Existant / concurrence
+
+> Cartographie B (consultée 2026-06-23).
+
 **Verdict de saturation : SATURÉ au niveau produit.** Le besoin est couvert
 gratuitement par l'État, la presse nationale et plusieurs réutilisations.
 
-**1. Service public / officiel**
-- **DEPP — Indicateurs de résultats des collèges et lycées** : moteur de recherche
-  officiel (par étabt/ville/dépt) + fiches résultats IVAL/IVAC, mis à jour chaque
-  année. https://www.education.gouv.fr/depp/les-indicateurs-de-resultats-des-colleges-et-des-lycees-377729
-  et relais https://www.service-public.gouv.fr/particuliers/actualites/A17256
-  (consultés 2026-06-20). → L'État fait déjà le comparateur de base, gratuitement.
+### Services publics / .gouv.fr
 
-**2. Presse (classements annuels gratuits, très visibles en SEO)**
+| Acteur | URL | Rôle |
+|---|---|---|
+| **DEPP — Indicateurs collèges/lycées** | https://www.education.gouv.fr/depp/les-indicateurs-de-resultats-des-colleges-et-des-lycees-377729 | Moteur officiel IVAL/IVAC par établissement |
+| **Annuaire de l'éducation** | https://www.education.gouv.fr/annuaire | Fiches établissements, effectifs, options |
+| **service-public.fr — IPS** | https://www.service-public.gouv.fr/particuliers/actualites/A17256 | Relais citoyen indicateurs scolaires |
+| **data.education.gouv.fr** | https://data.education.gouv.fr/ | Open data éducation (effectifs, résultats) |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Comparatif des lycées près de chez vous** | https://www.data.gouv.fr/reuses/comparatif-des-lycees-pres-de-chez-vous | Saisie adresse, comparaison 4 lycées (IPS, bac, effectifs) |
+| **Carte des établissements** | https://www.data.gouv.fr/reuses/carte-des-etablissements-scolaires | Géolocalisation écoles/collèges/lycées |
+
+### Presse (classements annuels gratuits)
+
 - **Le Figaro Étudiant** — palmarès lycées + moteur par étabt :
-  https://etudiant.lefigaro.fr/lycee/classement/ (2026-06-20).
+  https://etudiant.lefigaro.fr/lycee/classement/ (2026-06-23).
 - **Le Parisien Étudiant** — classement noté /20, critères réussite/mentions/VA/
-  mixité/spécialités : https://www.leparisien.fr/etudiant/lycee/classement-des-lycees-quels-sont-les-meilleurs-etablissements-de-france-en-2026-LIFJ6QDYEVD7HESSPVY4KC6R5I.php (2026-06-20).
+  mixité/spécialités : https://www.leparisien.fr/etudiant/lycee/classement-des-lycees-quels-sont-les-meilleurs-etablissements-de-france-en-2026-LIFJ6QDYEVD7HESSPVY4KC6R5I.php (2026-06-23).
 - **L'Étudiant** — 5 indicateurs à poids égal, 2 valeurs ajoutées, indice de
-  stabilité (≈2 205 lycées évalués) : https://fr.style.yahoo.com/classement-lyc%C3%A9es-2026-accompagnement-%C3%A9l%C3%A8ves-033100902.html (2026-06-20).
+  stabilité (≈2 205 lycées évalués) : https://fr.style.yahoo.com/classement-lyc%C3%A9es-2026-accompagnement-%C3%A9l%C3%A8ves-033100902.html (2026-06-23).
 - **franceinfo** — moteurs de recherche lycées **et collèges** (revendique de ne
-  PAS hiérarchiser) : https://www.franceinfo.fr/bac/classement-des-lycees/meilleurs-lycees-et-colleges-en-2026-consultez-les-indicateurs-de-reussite-et-comparez-les-etablissements-autour-de-chez-vous_7908476.html (2026-06-20).
+  PAS hiérarchiser) : https://www.franceinfo.fr/bac/classement-des-lycees/meilleurs-lycees-et-colleges-en-2026-consultez-les-indicateurs-de-reussite-et-comparez-les-etablissements-autour-de-chez-vous_7908476.html (2026-06-23).
 
-**3. Réutilisations data.gouv.fr (exactement le pitch)**
-- **« Comparatif des lycées près de chez vous »** (R. Lacaste) : saisie d'adresse,
-  comparaison de 4 lycées (IPS, bac, effectifs, langues, options). Décline aussi
-  **collèges** et **écoles**. https://www.data.gouv.fr/reuses/comparatif-des-lycees-pres-de-chez-vous (2026-06-20).
+### Produits / plateformes communautaires
 
-**4. Produits / plateformes communautaires**
 - **Vis-Ma-Classe.fr** : 68 842 établissements, IPS + jauge vs moyennes nat/acad/
-  dépt, IVAL/IVAC, DNB, REP/REP+, carte. https://vis-ma-classe.fr/ (2026-06-20).
+  dépt, IVAL/IVAC, DNB, REP/REP+, carte. https://vis-ma-classe.fr/ (2026-06-23).
 - **Lucyol.fr** : cartes interactives écoles/collèges/lycées, comparateurs
   côte-à-côte, **sectorisation collège par adresse**, classements maison,
-  comparateur Parcoursup. https://www.lucyol.fr/ et https://www.lucyol.fr/outils (2026-06-20).
+  comparateur Parcoursup. https://www.lucyol.fr/ et https://www.lucyol.fr/outils (2026-06-23).
 
 **Contexte (sensibilité du sujet)** : la publication des IPS résulte d'un combat
 de transparence (journaliste A. Léchenet, décision du TA de Paris du 2022-07-13,
 mise en ligne oct. 2022) ; ces données alimentent le débat sur la **ségrégation
 scolaire** et la carte scolaire. https://www.politico.eu/article/coulisses-ips-indicateur-secoue-mixite-ecole-pap-ndiaye/
-et https://www.sudouest.fr/politique/education/ecoles-et-colleges-ce-journaliste-a-obtenu-la-publication-des-indicateurs-de-position-sociale-12830370.php (2026-06-20).
+et https://www.sudouest.fr/politique/education/ecoles-et-colleges-ce-journaliste-a-obtenu-la-publication-des-indicateurs-de-position-sociale-12830370.php (2026-06-23).
 
 **Où est l'espace libre ?** Quasi nul sur « comparer collèges/lycées pour
 parents ». Créneaux résiduels étroits : (a) **B2B** (relocation/immobilier/RH

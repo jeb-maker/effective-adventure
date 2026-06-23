@@ -18,10 +18,31 @@
 Réelle pour les répondants aux AO, mais déjà massivement adressée.
 
 ## 4. Existant / concurrence (très saturé)
+
+> Cartographie B (consultée 2026-06-23). Veille AO **saturée** ; sources officielles sur data.gouv.
+
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **BOAMP (open data)** | https://www.boamp.fr/ , https://www.data.gouv.fr/datasets/boamp | Source officielle avis de marché |
+| **API BOAMP** | https://www.data.gouv.fr/dataservices/api-bulletin-officiel-des-annonces-des-marches-publics-boamp | Flux structuré avis AO |
+| **PLACE / achatpublic.com** | https://www.achatpublic.com/ | Dématérialisation côté acheteurs |
+| **data.economie.gouv.fr — DECP** | https://data.economie.gouv.fr/ | Données essentielles commande publique |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **decp.info** | https://www.data.gouv.fr/reuses/decp-info-interface-dexploration-et-de-telechargement-des-donnees-de-la-commande-publique-au-format-tabulaire | Exploration DECP (adjacent attribution) |
+| **OpenMarchés** | https://www.data.gouv.fr/reuses/openmarches-visualisation-des-marches-it-publics | Analytics marchés IT publics |
+
+### Produits commerciaux
+
 Vecteur Plus, France Marchés, Synapse, Doaken, Olra, PublikConnect (49 € HT),
 AlertOffres (29,99 €), AOS, Explore, Marchés Online, Dématis, Centrale des
 Marchés — plusieurs avec IA (scoring, analyse DCE, mémoire technique).
-Sources (consultées 2026-06-20) :
+Sources (consultées 2026-06-23) :
 https://olra.fr/blog/alternatives-synapse-france-marches-comparatif ,
 https://remporte.fr/blog/plateformes-appels-offres-comparatif/
 

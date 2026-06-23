@@ -47,15 +47,15 @@
       "target_market": "mid_market",
       "geography": "france",
       "source_url": "https://www.alkante.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "FR",
       "france_market": "strong",
       "operating_regions": [
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees"
     },
     {
       "id": "ign-geoservices",
@@ -287,10 +287,10 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
-      "source_url": "https://www.geoperso.fr/",
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
+      "source_url": "https://www.geoperso.fr/logiciel-valorisation-fonciere-agricole/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
+      "verification_status": "verified",
       "notes": "Concurrent cité idée 0026."
     },
     {

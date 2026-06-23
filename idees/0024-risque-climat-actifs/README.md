@@ -65,9 +65,27 @@ Les assureurs, foncières, gestionnaires d'actifs et banques doivent **quantifie
 
 ## 4. Existant / concurrence
 
+> Cartographie B (consultée 2026-06-23).
+
 **Verdict de saturation : SATURÉ** sur le créneau « scoring portefeuille B2B risques physiques/climat France ». L'espace libre se limite à des niches verticales très étroites (ex. un seul aléa, un seul type d'actif non résidentiel) — non démontrées.
 
-### Concurrents directs B2B portefeuille / batch (≥5, tous vérifiés 2026-06-20)
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Géorisques / Errial** | https://www.georisques.gouv.fr/ , https://errial.georisques.gouv.fr | Risques réglementaires à l'adresse (ERP, PPRI, RGA) |
+| **API Géorisques** | https://www.data.gouv.fr/dataservices/api-georisques | Données brutes risques (LO 2.0) |
+| **DRIAS — futurs climatiques** | https://www.drias-climat.fr/ | Projections climatiques officielles |
+| **Cerema — Cartofriches** | https://www.cerema.fr/fr/actualites/cartofriches-pres-10000-sites-friches-repertories | Inventaire friches (adjacent reconversion) |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **risques-adresse.fr** | https://www.data.gouv.fr/reuses/risques-adresse-fr | Rapport risques par adresse (Géorisques) |
+| **Carte des risques** | https://www.data.gouv.fr/reuses/carte-des-risques-naturels-et-technologiques | Visualisation risques naturels/technologiques |
+
+### Concurrents directs B2B portefeuille / batch (≥5, tous vérifiés 2026-06-23)
 
 | Acteur | URL | Ce qu'il fait | Ce qu'il ne fait pas / limites |
 |---|---|---|---|

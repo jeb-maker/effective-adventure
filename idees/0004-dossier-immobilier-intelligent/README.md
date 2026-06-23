@@ -19,10 +19,30 @@ Forte (72 % des Français veulent connaître les prix de vente de leur quartier)
 mais largement adressée.
 
 ## 4. Existant / concurrence (saturé)
-- Explorateur DVF officiel — https://explore.data.gouv.fr/fr/immobilier
-- Immo Data (carte) — https://www.data.gouv.fr/reuses/immo-data-toutes-les-ventes-dvf-sur-une-carte
+
+> Cartographie B (consultée 2026-06-23). Le dossier d'achat multi-sources est un commodity.
+
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Explorateur DVF (Etalab)** | https://explore.data.gouv.fr/fr/immobilier | Prix au m², historique ventes officiel |
+| **Géorisques / Errial** | https://www.georisques.gouv.fr/ , https://errial.georisques.gouv.fr | Risques réglementaires par adresse |
+| **France Carte — cadastre** | https://france-cadastre.fr/ (IGN) | Parcelles, PLU, contexte foncier |
+| **ADEME — DPE open data** | https://www.data.gouv.fr/datasets/dpe-v2-logements-existants | Performance énergétique bâtiments |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Immo Data** | https://www.data.gouv.fr/reuses/immo-data-toutes-les-ventes-dvf-sur-une-carte | Carte interactive toutes ventes DVF |
+| **Carte Prix Immobilier** | https://www.data.gouv.fr/reuses/carte-prix-immobilier | Visualisation prix DVF par commune |
+
+### Produits commerciaux
+
+- **Fonciris** — croise DVF + Géorisques + DPE + PLU + BDNB (freemium + Pro/API).
 - Carte Prix Immobilier, applis Android cadastre/DVF/DPE/PLU,
-  Baromètre Stop Loyer (prix m², loyers, PTZ). (Consultés 2026-06-20.)
+  Baromètre Stop Loyer (prix m², loyers, PTZ). (Consultés 2026-06-23.)
 
 ## 10. Scoring
 

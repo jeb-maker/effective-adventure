@@ -19,15 +19,15 @@
       "target_market": "mid_market",
       "geography": "france",
       "source_url": "https://www.openmeti.fr/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "FR",
       "france_market": "strong",
       "operating_regions": [
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees"
     },
     {
       "id": "ademe-data",
@@ -129,15 +129,15 @@
       "target_market": "smb",
       "geography": "france",
       "source_url": "https://www.heero.fr/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "FR",
       "france_market": "strong",
       "operating_regions": [
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees"
     },
     {
       "id": "uk-epc-register",
@@ -283,10 +283,10 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
       "source_url": "https://www.hellowatt.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified"
     },
     {
       "id": "enoptea",
@@ -312,10 +312,10 @@
         "EU"
       ],
       "discovery_source": "crunchbase",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
       "source_url": "https://www.enoptea.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified"
     },
     {
       "id": "cantine-energetique",
@@ -430,10 +430,10 @@
         "EU"
       ],
       "discovery_source": "crunchbase",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
       "source_url": "https://www.metron.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified"
     },
     {
       "id": "izybat",
@@ -489,11 +489,12 @@
         "EU"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
       "source_url": "https://www.bdnb.io/services/gorenove/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Concurrent cité idée 0025."
+      "verification_status": "verified",
+      "notes": "Concurrent cité idée 0025.",
+      "pricing_notes": "Service public CSTB gratuit pour bailleurs/collectivités (consulté 2026-06-23)."
     },
     {
       "id": "streem-energy",
@@ -523,6 +524,37 @@
       "source_url": "https://www.streem.eu/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "coproff-cerema",
+      "name": "CoproFF (Cerema)",
+      "url": "https://www.cerema.fr/",
+      "segments": [
+        "energy-buildings-fr",
+        "real-estate-proptech"
+      ],
+      "description": "Outil public de visualisation des copropriétés : croisement RNIC × fichiers fonciers pour collectivités et acteurs locaux.",
+      "capabilities": [
+        "rnic",
+        "coproprietes",
+        "foncier",
+        "open_data",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
+      "source_url": "https://www.cerema.fr/fr/actualites/coproff-outil-de-visualisation-des-coproprietes",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Service public Cerema ; cité idée 0025 (consulté 2026-06-23)."
     }
   ]
 }

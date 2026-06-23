@@ -19,11 +19,30 @@ Réelle, mais marché déjà couvert et risque de positionnement sur du conseil
 santé.
 
 ## 4. Existant / concurrence (saturé)
-- Recosanté (air, pollens, UV, baignade, radon) —
-  https://www.data.gouv.fr/reuses/recosante-un-service-public-numerique-sur-la-qualite-de-lair
+
+> Cartographie B (consultée 2026-06-23). Les services publics numériques couvrent déjà air, eau et environnement local.
+
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Recosanté** | https://recosante.beta.gouv.fr/ | Service public numérique air, pollens, UV, baignade, radon |
+| **Hub'Eau** | https://hub-eau.fr/ | API eau potable, rivières, nappes (Sandre) |
+| **Atmo France — indices qualité air** | https://www.atmo-france.org/ | Prévisions et historique par commune |
+| **Géorisques — radon / ICPE** | https://www.georisques.gouv.fr/ | Risques environnementaux à l'adresse |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Recosanté (fiche réutilisation)** | https://www.data.gouv.fr/reuses/recosante-un-service-public-numerique-sur-la-qualite-de-lair | Agrégation open data santé-environnement |
+| **Dans Mon Eau** | https://www.data.gouv.fr/reuses/dans-mon-eau | Qualité eau potable par commune (Générations Futures) |
+
+### Produits commerciaux / bricolage
+
 - EauPotable.net, EauduRobinet.fr, Dans Mon Eau (Générations Futures + Data for
   Good), mon-eau.com (30+ jeux, score /100, API publique).
-  (Consultés 2026-06-20.)
+  (Consultés 2026-06-23.)
 
 <!-- catalogue-saas-begin -->
 

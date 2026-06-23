@@ -93,9 +93,27 @@ Clés techniques DECP utiles : `uid` (SIRET acheteur + id marché), `acheteur_id
 
 ## 4. Existant / concurrence
 
+> Cartographie B (consultée 2026-06-23).
+
 **Verdict de saturation : saturé sur le créneau « benchmark DECP + sourcing +
 acheteurs comparables côté acheteur ».** Au moins **8 acteurs** couvrent
 explicitement le seed ; plusieurs en produit B2G commercial self-service.
+
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **data.economie.gouv.fr — DECP** | https://data.economie.gouv.fr/ | Interface DAJ, visualisation DECP |
+| **data.gouv.fr — DECP consolidées** | https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-consolidees-format-tabulaire | Dump tabulaire officiel |
+| **PLACE / achatpublic.com** | https://www.achatpublic.com/ | Profils acheteurs, module Sourcing |
+| **OECP — Guide prix marchés publics** | https://draaf.normandie.agriculture.gouv.fr/guide-sur-le-prix-dans-les-marches-publics-oecp-a3680.html | Méthode officielle estimation prix |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **decp.info** | https://www.data.gouv.fr/reuses/decp-info-interface-dexploration-et-de-telechargement-des-donnees-de-la-commande-publique-au-format-tabulaire | Exploration/export DECP gratuit |
+| **Nextend.ai Observatoire** | https://nextend.ai/observatoire | Comparateur acheteurs (gratuit) |
 
 ### Produits B2G dédiés acheteurs (concurrents directs)
 

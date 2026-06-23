@@ -61,38 +61,58 @@ Référence d'inventaire des datasets sous‑jacents : cas d'usage ERRIAL sur da
 consulté 2026-06-20 : https://www.data.gouv.fr/pages/onboarding/errial
 
 ## 4. Existant / concurrence
+
+> Cartographie B (consultée 2026-06-23).
+
 **Verdict de saturation : SATURÉ.** L'existant couvre déjà le service public
 réglementaire, le créneau grand‑public gratuit, le créneau payant enrichi, l'angle
 assurance/climat **et** l'accès développeur en API. Le seed le pressentait : c'est confirmé.
 
-**Service public / officiel (le concurrent décisif, gratuit) :**
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Errial (Géorisques)** | https://errial.georisques.gouv.fr , https://www.georisques.gouv.fr/information-des-acquereurs-et-locataires | État des risques pré-rempli par adresse/parcelle (PDF réglementaire) |
+| **API Géorisques** | https://www.data.gouv.fr/dataservices/api-georisques | Données brutes risques à l'adresse (LO 2.0) |
+| **Géoportail — PPRI/TRI** | https://www.geoportail.gouv.fr/ | Zonages réglementaires inondation |
+| **InfoTerre (BRGM)** | https://infoterre.brgm.fr/ | RGA, sismique, mouvements de terrain |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **risques-adresse.fr** | https://www.data.gouv.fr/reuses/risques-adresse-fr | Rapport gratuit 18 risques par adresse (Géorisques) |
+| **Carte des risques** | https://www.data.gouv.fr/reuses/carte-des-risques-naturels-et-technologiques | Visualisation risques à l'adresse |
+
+### Produits commerciaux (suite)
+
 - **Errial** (georisques.gouv.fr) — génère l'état des risques pré‑rempli par adresse/parcelle,
-  PDF téléchargeable, devenu la référence réglementaire unique. Consulté 2026-06-20 :
+  PDF téléchargeable, devenu la référence réglementaire unique. Consulté 2026-06-23 :
   https://errial.georisques.gouv.fr et https://www.georisques.gouv.fr/information-des-acquereurs-et-locataires
 - **API Géorisques** ouverte et gratuite (LO 2.0) — donne déjà la matière brute à l'adresse.
-  Consulté 2026-06-20 : https://www.data.gouv.fr/dataservices/api-georisques
+  Consulté 2026-06-23 : https://www.data.gouv.fr/dataservices/api-georisques
 
-**Produits commerciaux grand public / enrichis (déjà nombreux) :**
 - **Fonciris** — rapport 18 sections par adresse croisant Géorisques + DVF + ADEME + INSEE +
-  cadastre ; 9,99 € le rapport, 14,99 €/mois, 79 €/mois pro (API). Consulté 2026-06-20 :
+  cadastre ; 9,99 € le rapport, 14,99 €/mois, 79 €/mois pro (API). Consulté 2026-06-23 :
   https://fonciris.fr et https://fonciris.fr/risques-immobiliers
 - **ClimaScore** — 5 notes A–F (dangers naturels, environnement, quartier, bâtiment,
-  horizon 2050), gratuit + rapport 9,90 €. Consulté 2026-06-20 : https://climascore.fr
+  horizon 2050), gratuit + rapport 9,90 €. Consulté 2026-06-23 : https://climascore.fr
 - **risques-adresse.fr** — rapport **gratuit** sur 18 risques officiels par adresse + alerte
   email, 14 endpoints Géorisques. **Porte déjà exactement le nom et le périmètre de cette
-  idée.** Consulté 2026-06-20 : https://risques-adresse.fr et https://risques-adresse.fr/methodologie
+  idée.** Consulté 2026-06-23 : https://risques-adresse.fr et https://risques-adresse.fr/methodologie
 - **Callendar** — risque climatique prospectif (submersion, RGA, incendie, canicule) à la
   parcelle, applications grand public gratuites + offre B2B banque/assurance/immo.
-  Consulté 2026-06-20 : https://www.callendar.tech
+  Consulté 2026-06-23 : https://www.callendar.tech
 - **Risqeo / Notiplus** — génération d'ERP/rapport Géorisques pour diagnostiqueurs et pros
-  (Risqeo 24,90 € le document conforme + RCP). Consulté 2026-06-20 :
+  (Risqeo 24,90 € le document conforme + RCP). Consulté 2026-06-23 :
   https://risqeo.fr/diagnostic-erp-comprendre-faq.html et https://www.notiplus.com/outils/georisques
 
-**Accès développeur / API tierces (le « back‑end » est aussi déjà packagé) :**
+### Accès développeur / API tierces
+
 - **ATerraData** — API d'enrichissement avec module `risks` (Géorisques) par adresse, clé API.
-  Consulté 2026-06-20 : https://aterradata.com/docs
+  Consulté 2026-06-23 : https://aterradata.com/docs
 - **Apify – Géorisques FR scraper** — un rapport risques structuré par adresse en masse à
-  0,005 $/adresse. Consulté 2026-06-20 : https://apify.com/dltik/georisques-fr-scraper/api
+  0,005 $/adresse. Consulté 2026-06-23 : https://apify.com/dltik/georisques-fr-scraper/api
 
 **Où reste‑t‑il (un peu) d'espace ?** Pas sur la synthèse à l'adresse (saturée). Au mieux
 sur du **B2B portefeuille** (scoring climatique prospectif à la parcelle pour assureurs/
