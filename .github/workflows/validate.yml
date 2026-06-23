@@ -19,8 +19,8 @@ jobs:
       - name: Validate catalogue SaaS
         run: python3 scripts/catalogue_saas.py validate
 
-      - name: Check idees revues
-        run: python3 scripts/check_idees.py
+      - name: Check idees revues (strict)
+        run: python3 scripts/check_idees.py --strict
 
       - name: Audit listicle sources (aperçu)
         run: python3 scripts/catalogue_saas.py audit-sources | head

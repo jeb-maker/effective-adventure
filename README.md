@@ -68,33 +68,33 @@ CI : [`.github/workflows/validate.yml`](.github/workflows/validate.yml).
 |---|---|---|---|---|
 | [0001](idees/0001-radar-commande-publique/) | Radar de la commande publique (intelligence d'attribution) | 🔁 À retravailler | 66 ⤵ | 2026-06-20 |
 | [0002](idees/0002-observatoire-qualite-donnees/) | Observatoire de qualité des données publiques | 🔁 À retravailler | 57 ⤵ | 2026-06-20 |
-| [0003](idees/0003-copilote-territorial-rag/) | Copilote d'études territoriales (RAG) | 🔁 À retravailler | — | 2026-06-20 |
-| [0004](idees/0004-dossier-immobilier-intelligent/) | Dossier immobilier intelligent (DVF enrichi) | ❌ Écartée | — | 2026-06-20 |
-| [0005](idees/0005-sante-environnement-local/) | Santé-environnement locale (eau / air) | ❌ Écartée | — | 2026-06-20 |
-| [0006](idees/0006-assistant-implantation-commerciale/) | Assistant d'implantation commerciale (SIRENE) | ❌ Écartée | 50 | 2026-06-20 |
+| [0003](idees/0003-copilote-territorial-rag/) | Copilote d'études territoriales (RAG) | ❌ Écartée | 46 ⤵ | 2026-06-23 |
+| [0004](idees/0004-dossier-immobilier-intelligent/) | Dossier immobilier intelligent (DVF enrichi) | ❌ Écartée | 53 | 2026-06-23 |
+| [0005](idees/0005-sante-environnement-local/) | Santé-environnement locale (eau / air) | ❌ Écartée | 44 | 2026-06-23 |
+| [0006](idees/0006-assistant-implantation-commerciale/) | Assistant d'implantation commerciale (SIRENE) | ❌ Écartée | 47 ⤵ | 2026-06-23 |
 | [0007](idees/0007-fiche-commune-intelligente/) | Fiche commune intelligente (finances locales) | 💡 Capturée | — | 2026-06-20 |
-| [0008](idees/0008-veille-ao-boamp/) | Veille d'appels d'offres (BOAMP) | ❌ Écartée | — | 2026-06-20 |
-| [0009](idees/0009-dpe-passoires-thermiques/) | Ciblage rénovation énergétique (passoires thermiques) | 🔁 À retravailler | 60 | 2026-06-20 |
+| [0008](idees/0008-veille-ao-boamp/) | Veille d'appels d'offres (BOAMP) | ❌ Écartée | 54 | 2026-06-23 |
+| [0009](idees/0009-dpe-passoires-thermiques/) | Ciblage rénovation énergétique (passoires thermiques) | 🔁 À retravailler | 57 ⤵ | 2026-06-23 |
 | [0010](idees/0010-boussole-aides-publiques/) | Boussole des aides et subventions publiques | ❌ Écartée | 42 ⤵ | 2026-06-20 |
-| [0011](idees/0011-risques-adresse/) | Diagnostic des risques par adresse (Géorisques) | 🔁 À retravailler | 60 | 2026-06-20 |
+| [0011](idees/0011-risques-adresse/) | Diagnostic des risques par adresse (Géorisques) | ❌ Écartée | 52 ⤵ | 2026-06-23 |
 | [0012](idees/0012-acces-aux-soins/) | Observatoire de l'accès aux soins (déserts médicaux) | ❌ Écartée | 44 ⤵ | 2026-06-20 |
-| [0013](idees/0013-choisir-son-ecole/) | Aide au choix d'établissement scolaire (IPS) | 🔁 À retravailler | 59 | 2026-06-20 |
+| [0013](idees/0013-choisir-son-ecole/) | Aide au choix d'établissement scolaire (IPS) | ❌ Écartée | 51 ⤵ | 2026-06-23 |
 | [0014](idees/0014-analyse-electorale-fine/) | Analyse électorale fine (bureau de vote) | ❌ Écartée | 37 ⤵ | 2026-06-20 |
-| [0015](idees/0015-deserts-de-mobilite/) | Observatoire des déserts de mobilité | ❌ Écartée | 54 | 2026-06-20 |
-| [0016](idees/0016-accessibilite-handicap-erp/) | Accessibilité handicap des lieux (ERP) | ❌ Écartée | 52 | 2026-06-20 |
+| [0015](idees/0015-deserts-de-mobilite/) | Observatoire des déserts de mobilité | ❌ Écartée | 50 ⤵ | 2026-06-23 |
+| [0016](idees/0016-accessibilite-handicap-erp/) | Accessibilité handicap des lieux (ERP) | ❌ Écartée | 48 ⤵ | 2026-06-23 |
 | [0017](idees/0017-empreinte-carbone-territoire/) | Empreinte carbone des territoires / PME | ❌ Écartée | 44 ⤵ | 2026-06-20 |
-| [0018](idees/0018-transparence-vie-publique/) | Transparence de la vie publique | ❌ Écartée | 50 | 2026-06-20 |
-| [0019](idees/0019-sourcing-achat-public/) | Sourcing & benchmark prix pour acheteurs publics | ❌ Écartée | 53 | 2026-06-20 |
-| [0020](idees/0020-benchmark-financier-collectivites/) | Benchmark financier inter-collectivités | ❌ Écartée | 53 | 2026-06-20 |
-| [0021](idees/0021-veille-fonciere-amenageurs/) | Veille foncière & urbanisme (promoteurs) | ❌ Écartée | 50 | 2026-06-20 |
-| [0022](idees/0022-due-diligence-tiers/) | Due diligence & scoring de tiers (B2B) | ❌ Écartée | 53 | 2026-06-20 |
-| [0023](idees/0023-conformite-open-data-collectivites/) | Conformité publication open data (collectivités) | ❌ Écartée | 47 | 2026-06-20 |
-| [0024](idees/0024-risque-climat-actifs/) | Exposition climat d'un portefeuille d'actifs (B2B) | ❌ Écartée | 54 | 2026-06-20 |
-| [0025](idees/0025-coproprietes-renovation-rnic/) | Pilotage rénovation copropriétés (RNIC × DPE × DECP) | 🔁 À retravailler | 64 | 2026-06-23 |
+| [0018](idees/0018-transparence-vie-publique/) | Transparence de la vie publique | ❌ Écartée | 46 ⤵ | 2026-06-23 |
+| [0019](idees/0019-sourcing-achat-public/) | Sourcing & benchmark prix pour acheteurs publics | ❌ Écartée | 50 ⤵ | 2026-06-23 |
+| [0020](idees/0020-benchmark-financier-collectivites/) | Benchmark financier inter-collectivités | ❌ Écartée | 53 | 2026-06-23 |
+| [0021](idees/0021-veille-fonciere-amenageurs/) | Veille foncière & urbanisme (promoteurs) | ❌ Écartée | 47 ⤵ | 2026-06-23 |
+| [0022](idees/0022-due-diligence-tiers/) | Due diligence & scoring de tiers (B2B) | ❌ Écartée | 50 ⤵ | 2026-06-23 |
+| [0023](idees/0023-conformite-open-data-collectivites/) | Conformité publication open data (collectivités) | ❌ Écartée | 44 ⤵ | 2026-06-23 |
+| [0024](idees/0024-risque-climat-actifs/) | Exposition climat d'un portefeuille d'actifs (B2B) | ❌ Écartée | 51 ⤵ | 2026-06-23 |
+| [0025](idees/0025-coproprietes-renovation-rnic/) | Pilotage rénovation copropriétés (RNIC × DPE × DECP) | 🔁 À retravailler | 60 ⤵ | 2026-06-23 |
 | [0026](idees/0026-exposition-parcelles-agricoles/) | Exposition risques parcelles agricoles (RPG × Géorisques × Hub'Eau) | 🔁 À retravailler | 56 | 2026-06-23 |
-| [0027](idees/0027-transparence-subventions-marches/) | Transparence subventions × marchés (DECP × SCDL × RNA) | ❌ Écartée | 51 | 2026-06-23 |
-| [0028](idees/0028-tensions-emploi-territoire/) | Tensions emploi par territoire (France Travail × SIRENE × FiLoSoFi) | 🔁 À retravailler | 58 | 2026-06-23 |
-| [0029](idees/0029-recordai/) | RecordAI — email/PDF → dossier structuré validé | 🔁 À retravailler | 67 | 2026-06-23 |
+| [0027](idees/0027-transparence-subventions-marches/) | Transparence subventions × marchés (DECP × SCDL × RNA) | ❌ Écartée | 48 ⤵ | 2026-06-23 |
+| [0028](idees/0028-tensions-emploi-territoire/) | Tensions emploi par territoire (France Travail × SIRENE × FiLoSoFi) | 🔁 À retravailler | 56 ⤵ | 2026-06-23 |
+| [0029](idees/0029-recordai/) | RecordAI — email/PDF → dossier structuré validé | 🔁 À retravailler | 59 ⤵ | 2026-06-23 |
 
 ---
 
@@ -105,26 +105,20 @@ CI : [`.github/workflows/validate.yml`](.github/workflows/validate.yml).
 > registre comme corpus de test de la méthode. Les **nouvelles idées** suivent
 > l'objectif révisé (payeur + douleur d'abord).
 
-- **29 idées** enregistrées, dont **24 analysées** avec scoring complet (0007
-  reste à analyser).
-- **1 idée SaaS** (0029 RecordAI) analysée via le catalogue marché structuré — score **67/100** (🔁) — benchmark KYC lite Ubble/Inscribe/Klippa confirmé (§13).
-- **8 idées enrichies** avec croisements et sources complémentaires vérifiées
-  (0003, 0006, 0007, 0009, 0018, 0019, 0021, 0024) — voir
-  [`docs/sources-complementaires.md`](docs/sources-complementaires.md).
-- **6 idées passées en revue critique adversariale** (`revue.md` dans leur
-  dossier). Effet **massif** : tous les scores ont baissé et **aucune idée ne
-  dépasse aujourd'hui le seuil Go (≥70)**.
-- **Vague B2B/B2G (0019–0024)** : 6 idées « payeur pro + donnée chiffrée »
-  testées avec consigne de chasse aux concurrents → **toutes écartées (47–54)**,
-  marchés déjà occupés (marchespublics.ai, OFGL, Kel Foncier, Pappers, NamR…).
-- **Tête de classement** : **0001** (Radar de la commande publique) à **66/100**
-  (🔁 à retravailler) — meilleure idée mais plus « validée ». La revue a trouvé
-  des concurrents directs omis (Maître AO, Nextend.ai, marchespublics.ai) et un
-  piège sémantique (`montant` DECP ≠ dépense réelle).
-- **À retravailler** : 0001 (66), 0002 (57), 0009 (60), 0011 (60), 0013 (59),
-  0003 (—), **0025 (64)**, **0026 (56)**, **0028 (58)**, **0029 (67)**.
-- **Écartées** : 0004, 0005, 0006, 0008, 0010, 0012, 0014, 0015, 0016, 0017,
-  0018, 0019, 0020, 0021, 0022, 0023, 0024, **0027 (51)** — conservées avec leur analyse.
+- **29 idées** enregistrées, **28 analysées** avec scoring complet (0007 💡
+  capturée reste à analyser).
+- **28 revues adversariales** (`revue.md`) — **couverture complète** des statuts
+  finaux (vague du 2026-06-23 : +22 revues). **Aucune idée ne dépasse le seuil
+  Go (≥ 70)** après red-team.
+- **Tête de classement** : **0001** (Radar commande publique) à **66/100** (🔁).
+  Ex-leader **0029 RecordAI** : **67 → 59** (benchmark §13 invalidé — CheckFile.ai,
+  Rossum, Parseur omis).
+- **À retravailler (7)** : 0001 (66), 0002 (57), 0009 (57), 0025 (60), 0026 (56),
+  0028 (56), 0029 (59).
+- **Écartées (21)** : 0003 (46, ex-🔁), 0004, 0005, 0006, 0008, 0010, 0011 (ex-🔁),
+  0012, 0013 (ex-🔁), 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0022,
+  0023, 0024, 0027.
+- **Changements de statut post-revue** : 0003, 0011, 0013 passées 🔁 → ❌.
 - **Encore à analyser** : 0007 (💡 capturée).
 
 > ⤵ dans le registre = score abaissé après revue critique.
@@ -146,9 +140,9 @@ CI : [`.github/workflows/validate.yml`](.github/workflows/validate.yml).
 
 ### Règle de priorisation (post-discovery)
 
-1. **Ne plus ouvrir de nouvelles idées** tant qu'aucune des candidates « à
-   retravailler » n'a passé revue critique + seuil Go (≥ 70).
-2. **Appliquer le red-team** aux 10 idées 🔁 restantes (aujourd'hui seulement 6
-   ont un `revue.md`).
-3. **Prototyper une seule idée** qui franchit le seuil — ou fermer le registre
-   si aucune ne passe après revue.
+1. **Ne plus ouvrir de nouvelles idées** tant qu'aucune des 7 candidates 🔁 ne
+   franchit le seuil Go (≥ 70) après pivot documenté.
+2. ~~Appliquer le red-team~~ — **fait** (28/28 revues sur statuts finaux).
+3. **Prototyper une seule idée** qui franchit le seuil — ou **fermer le registre**
+   : après red-team complet, **aucune idée ≥ 70** ; la décision est un pivot
+   explicite (0001 niche attribution ? 0029 micro-vertical ?) ou arrêt.
