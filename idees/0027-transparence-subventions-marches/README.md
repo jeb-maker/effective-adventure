@@ -2,7 +2,7 @@
 
 - **ID** : 0027
 - **Statut** : ❌ Écartée
-- **Score** : 51 / 100
+- **Score** : 48 / 100 (révisé après revue red team du 2026-06-23 — cf. [`revue.md`](revue.md) ; 51/100 avant revue, C4 et C5 abaissés 2→1)
 - **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Croiser les marchés publics attribués (DECP), les
   subventions versées par les collectivités (schéma SCDL) et le répertoire des
@@ -250,6 +250,13 @@ de fichiers, mise à jour disparate) = charge continue non viable sans équipe d
 
 **Score /100 = round(54 / 105 × 100) = 51**
 
+> **Score révisé après revue red team (2026-06-23) : 48/100** — la revue abaisse
+> C4 et C5 de 2 à 1 : l'affirmation §1 « aucun outil ne propose ce triptyque » est
+> **fausse** (Éclaireur Public — Anticor + Data for Good, fév. 2025 — croise déjà
+> subventions SCDL **et** marchés DECP par collectivité ; DépensesPubliques affiche
+> les deux). Total 50/105 → 48/100. Verdict inchangé (❌ Écartée). Recalcul détaillé
+> dans [`revue.md`](revue.md).
+
 ### Détail des notes
 
 - **C1 = 3** : Douleur réelle (croisement manuel fastidieux) mais niche étroite
@@ -287,3 +294,7 @@ l'État (via beta.gouv.fr) construit la même chose avec bien plus de ressources
 budget > 10 k€/an, ET (2) angle de différenciation qui échappe à l'institutionnel.
 
 **Prochaine étape** : aucune — idée écartée, conservée pour référence.
+
+---
+
+0027 | Transparence subventions × marchés publics (DECP × SCDL × RNA) | ❌ Écartée | 48/100 | Triptyque déjà livré par Éclaireur Public (score revu, cf. revue.md)
