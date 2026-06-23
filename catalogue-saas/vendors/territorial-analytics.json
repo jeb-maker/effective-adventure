@@ -7,7 +7,8 @@
       "name": "data.gouv.fr",
       "url": "https://www.data.gouv.fr/",
       "segments": [
-        "territorial-analytics"
+        "territorial-analytics",
+        "open-data-governance-fr"
       ],
       "description": "Portail open data France ; base pour observatoires et réutilisations territoriales.",
       "capabilities": [
@@ -37,7 +38,8 @@
       "url": "https://www.georisques.gouv.fr/",
       "segments": [
         "territorial-analytics",
-        "environmental-data-fr"
+        "environmental-data-fr",
+        "geospatial-gis-fr"
       ],
       "description": "Portail public risques environnementaux par adresse/territoire.",
       "capabilities": [

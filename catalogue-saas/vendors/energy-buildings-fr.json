@@ -34,7 +34,8 @@
       "name": "ADEME — data services",
       "url": "https://data.ademe.fr/",
       "segments": [
-        "energy-buildings-fr"
+        "energy-buildings-fr",
+        "environmental-data-fr"
       ],
       "description": "Portail open data transition écologique ; DPE, émissions, rénovation.",
       "capabilities": [

@@ -147,7 +147,8 @@
       "name": "Qare",
       "url": "https://www.qare.fr/",
       "segments": [
-        "healthcare-clinical-ai"
+        "healthcare-clinical-ai",
+        "public-health-territory-fr"
       ],
       "description": "Téléconsultation FR ; médecins généralistes/spécialistes, ordonnances et intégration mutuelles.",
       "capabilities": [
@@ -176,7 +177,8 @@
       "name": "Medadom",
       "url": "https://www.medadom.com/",
       "segments": [
-        "healthcare-clinical-ai"
+        "healthcare-clinical-ai",
+        "public-health-territory-fr"
       ],
       "description": "Téléconsultation et visite domicile FR ; triage, médecins et infirmiers on-demand.",
       "capabilities": [

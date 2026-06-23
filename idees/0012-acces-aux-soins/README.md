@@ -118,7 +118,7 @@ Tous restent à valider commercialement.
 
 #### Segment `public-health-territory-fr` — Santé territoriale FR
 
-Fichier : [`catalogue-saas/vendors/public-health-territory-fr.json`](../../catalogue-saas/vendors/public-health-territory-fr.json) (9 entrées)
+Fichier : [`catalogue-saas/vendors/public-health-territory-fr.json`](../../catalogue-saas/vendors/public-health-territory-fr.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -131,6 +131,10 @@ Fichier : [`catalogue-saas/vendors/public-health-territory-fr.json`](../../catal
 | `cdc-places` | CDC PLACES | US | absent | partial |
 | `who-health-observatory` | WHO Global Health Observatory | CH | unknown | partial |
 | `healthdata-gov` | HealthData.gov (US) | US | absent | partial |
+| `cartosante` | CartoSanté (Atlas Santé) | FR | strong | partial |
+| `annuaire-sante` | Annuaire Santé (ANS) | FR | strong | partial |
+| `maiia` | Maiia | FR | strong | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash

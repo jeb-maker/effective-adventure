@@ -122,7 +122,7 @@ Les assureurs, foncières, gestionnaires d'actifs et banques doivent **quantifie
 
 #### Segment `environmental-data-fr` — Environnement & risques FR
 
-Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-saas/vendors/environmental-data-fr.json) (16 entrées)
+Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-saas/vendors/environmental-data-fr.json) (20 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -138,7 +138,7 @@ Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-
 | `sandre` | Sandre | FR | strong | partial |
 | `drias-climat` | DRIAS — Futurs climatiques | FR | strong | partial |
 | `basol` | BASOL — Sites et sols pollués | FR | strong | partial |
-| … | _+4 autres_ | | | |
+| … | _+8 autres_ | | | |
 
 #### Segment `insurance-insurtech` — Assurance & insurtech
 

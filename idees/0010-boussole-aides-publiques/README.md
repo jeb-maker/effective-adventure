@@ -124,7 +124,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `civic-tech-fr` — Civic tech France
 
-Fichier : [`catalogue-saas/vendors/civic-tech-fr.json`](../../catalogue-saas/vendors/civic-tech-fr.json) (10 entrées)
+Fichier : [`catalogue-saas/vendors/civic-tech-fr.json`](../../catalogue-saas/vendors/civic-tech-fr.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -138,6 +138,9 @@ Fichier : [`catalogue-saas/vendors/civic-tech-fr.json`](../../catalogue-saas/ven
 | `bang-the-table` | Bang the Table (EngagementHQ) | AU | absent | partial |
 | `commonplace-uk` | Commonplace | GB | absent | partial |
 | `polis-co` | Polis | US | absent | partial |
+| `civiliz` | Civiliz | FR | strong | partial |
+| `neocity` | Neocity | FR | strong | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash

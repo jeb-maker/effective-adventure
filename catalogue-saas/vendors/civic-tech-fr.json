@@ -1,6 +1,6 @@
 {
   "segment": "civic-tech-fr",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "decidim",
@@ -287,6 +287,241 @@
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
       "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "civiliz",
+      "name": "Civiliz",
+      "url": "https://www.civiliz.io/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Plateforme participation citoyenne FR ; consultations, budgets participatifs et engagement.",
+      "capabilities": [
+        "participation",
+        "consultations",
+        "participatory_budget",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.civiliz.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "neocity",
+      "name": "Neocity",
+      "url": "https://www.neocity.fr/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Plateforme smart city française ; concertation, services citoyens et pilotage territorial.",
+      "capabilities": [
+        "smart_city",
+        "consultation",
+        "citizen_services",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.neocity.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "demarches-simplifiees",
+      "name": "Démarches simplifiées",
+      "url": "https://www.demarches-simplifiees.fr/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Téléservice public ; formulaires administratifs, workflows et open source pour collectivités.",
+      "capabilities": [
+        "digital_forms",
+        "workflow",
+        "public_service",
+        "open_source"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.demarches-simplifiees.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0018."
+    },
+    {
+      "id": "consultations-publiques",
+      "name": "Consultations publiques (MTE)",
+      "url": "https://consultations-publiques.developpement-durable.gouv.fr/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Portail national concertation environnementale ; enquêtes publiques et participation citoyenne.",
+      "capabilities": [
+        "public_consultation",
+        "environment",
+        "participation",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://consultations-publiques.developpement-durable.gouv.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "voxe",
+      "name": "Voxe.org",
+      "url": "https://www.voxe.org/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Association civic tech ; comparateurs électoraux, pédagogie citoyenne et open data politique.",
+      "capabilities": [
+        "civic_education",
+        "elections",
+        "open_data",
+        "nonprofit"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.voxe.org/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Adjacent idée 0018."
+    },
+    {
+      "id": "wegov",
+      "name": "WeGov",
+      "url": "https://www.wegov.fr/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Plateforme engagement citoyen FR ; sondages, concertation et analytics participation.",
+      "capabilities": [
+        "engagement",
+        "surveys",
+        "consultation",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.wegov.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "place-decidim",
+      "name": "Place (Decidim FR)",
+      "url": "https://place.dev/",
+      "segments": [
+        "civic-tech-fr"
+      ],
+      "description": "Hébergement Decidim France ; budgets participatifs, consultations et modules civic tech.",
+      "capabilities": [
+        "decidim",
+        "hosting",
+        "participatory_budget",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://place.dev/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "jalios-jplatform",
+      "name": "Jalios JPlatform",
+      "url": "https://www.jalios.com/",
+      "segments": [
+        "civic-tech-fr",
+        "open-data-governance-fr"
+      ],
+      "description": "Portail intranet/extranet collectivités ; espaces citoyens, open data et gouvernance contenu.",
+      "capabilities": [
+        "portal",
+        "citizen_space",
+        "intranet",
+        "governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.jalios.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

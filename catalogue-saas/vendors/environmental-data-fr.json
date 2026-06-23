@@ -460,6 +460,129 @@
       "source_url": "https://www.eaufrance.fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "recosante",
+      "name": "Recosanté",
+      "url": "https://recosante.beta.gouv.fr/",
+      "segments": [
+        "environmental-data-fr",
+        "public-health-territory-fr"
+      ],
+      "description": "Service public numérique ; recommandations air, pollens, UV, baignade et radon par commune.",
+      "capabilities": [
+        "air_quality",
+        "pollen",
+        "uv",
+        "radon",
+        "health"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://recosante.beta.gouv.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0005."
+    },
+    {
+      "id": "icpe-georisques",
+      "name": "ICPE — Géorisques",
+      "url": "https://www.georisques.gouv.fr/donnees/icpe",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Installations classées ; établissements Seveso, rejets et proximité parcelles via API.",
+      "capabilities": [
+        "icpe",
+        "seveso",
+        "industrial",
+        "parcel_proximity"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.georisques.gouv.fr/donnees/icpe",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0011."
+    },
+    {
+      "id": "mon-eau-com",
+      "name": "mon-eau.com",
+      "url": "https://www.mon-eau.com/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Qualité eau potable par commune ; score /100, analyses et API publique jeux ouverts.",
+      "capabilities": [
+        "drinking_water",
+        "quality_score",
+        "commune",
+        "api"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.mon-eau.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0005."
+    },
+    {
+      "id": "risqeo",
+      "name": "Risqeo",
+      "url": "https://www.risqeo.com/",
+      "segments": [
+        "environmental-data-fr",
+        "geospatial-gis-fr"
+      ],
+      "description": "Rapports risques adresse/parcelle ; synthèse Géorisques pour pros immobilier et notaires.",
+      "capabilities": [
+        "risk_report",
+        "georisques",
+        "parcel",
+        "real_estate"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.risqeo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0011."
     }
   ]
 }

@@ -54,7 +54,7 @@ Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-s
 
 #### Segment `geospatial-gis-fr` — Géospatial & carto FR
 
-Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas/vendors/geospatial-gis-fr.json) (16 entrées)
+Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas/vendors/geospatial-gis-fr.json) (21 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -70,7 +70,7 @@ Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas
 | `geoperso` | GÉOPERSO | FR | strong | partial |
 | `makina-corpus` | Makina Corpus | FR | strong | partial |
 | `geoportail-urbanisme` | Géoportail de l'urbanisme (GPU) | FR | strong | partial |
-| … | _+4 autres_ | | | |
+| … | _+9 autres_ | | | |
 
 #### Segment `document-idp` — IDP & extraction documentaire
 

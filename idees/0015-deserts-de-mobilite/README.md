@@ -112,7 +112,7 @@ automatique, vocabulaire « désert de mobilité », pré-calcul national) — c
 
 #### Segment `transport-mobility-data-fr` — Transport & mobilité FR
 
-Fichier : [`catalogue-saas/vendors/transport-mobility-data-fr.json`](../../catalogue-saas/vendors/transport-mobility-data-fr.json) (9 entrées)
+Fichier : [`catalogue-saas/vendors/transport-mobility-data-fr.json`](../../catalogue-saas/vendors/transport-mobility-data-fr.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -125,6 +125,10 @@ Fichier : [`catalogue-saas/vendors/transport-mobility-data-fr.json`](../../catal
 | `mobilitydata-org` | MobilityData | US | unknown | partial |
 | `transit-land` | Transitland | US | absent | partial |
 | `itoworld` | ITO World | GB | absent | partial |
+| `navitia` | Navitia (Hove Group) | FR | strong | partial |
+| `geovelo` | Geovelo | FR | strong | partial |
+| `karos` | Karos | FR | strong | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash

@@ -129,7 +129,7 @@ Le besoin n'est pas vierge : l'écosystème public et associatif couvre déjà l
 
 #### Segment `open-data-governance-fr` — Gouvernance open data FR
 
-Fichier : [`catalogue-saas/vendors/open-data-governance-fr.json`](../../catalogue-saas/vendors/open-data-governance-fr.json) (9 entrées)
+Fichier : [`catalogue-saas/vendors/open-data-governance-fr.json`](../../catalogue-saas/vendors/open-data-governance-fr.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -142,6 +142,10 @@ Fichier : [`catalogue-saas/vendors/open-data-governance-fr.json`](../../catalogu
 | `ckan` | CKAN | GB | partial | partial |
 | `arcgis-hub` | ArcGIS Hub | US | partial | partial |
 | `data-gov-us` | Data.gov (US) | US | absent | partial |
+| `huwise` | Huwise (ex-Opendatasoft) | FR | strong | partial |
+| `validata` | Validata | FR | strong | partial |
+| `opendatafrance` | OpenDataFrance — Observatoire | FR | strong | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash

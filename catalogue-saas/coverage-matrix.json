@@ -3700,13 +3700,14 @@
       "vendor_count_after_pass": 18
     },
     "civic-tech-fr": {
-      "target_level": "L2",
+      "target_level": "L3",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 2
         },
         "capterra": null,
         "crunchbase": {
@@ -3729,23 +3730,25 @@
           "pass": "2026-06-v5d-france-intl"
         },
         "geo_digest": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 12,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 5,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 7
         },
         "official_site": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 10,
           "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 4
         }
       },
-      "last_pass": "2026-06-v5d-france-intl",
-      "vendor_count_after_pass": 10
+      "last_pass": "2026-06-v5r-france-thematic-l3",
+      "vendor_count_after_pass": 18
     },
     "geospatial-gis-fr": {
-      "target_level": "L2",
+      "target_level": "L3",
       "sources": {
         "g2": {
           "consulted_at": "2026-06-22",
@@ -3768,73 +3771,77 @@
           "pass": "2026-06-v5d-france-intl"
         },
         "open_source": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 4,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 2
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 12,
-          "new_added": 4,
-          "pass": "2026-06-v5k-territoire-idees",
-          "cumulative_new": 6
+          "candidates_found": 10,
+          "new_added": 2,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 8
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 10,
+          "candidates_found": 8,
+          "new_added": 2,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 7
+        }
+      },
+      "last_pass": "2026-06-v5r-france-thematic-l3",
+      "vendor_count_after_pass": 21
+    },
+    "transport-mobility-data-fr": {
+      "target_level": "L3",
+      "sources": {
+        "g2": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 8,
+          "new_added": 1,
+          "pass": "2026-06-v5d-france-intl"
+        },
+        "capterra": null,
+        "crunchbase": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 6,
+          "new_added": 1,
+          "pass": "2026-06-v5d-france-intl"
+        },
+        "analyst_report": null,
+        "alternatives": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 5,
+          "new_added": 1,
+          "pass": "2026-06-v5d-france-intl"
+        },
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
+          "new_added": 0,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 1
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 16,
+          "new_added": 6,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 8
+        },
+        "official_site": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
           "new_added": 3,
-          "pass": "2026-06-v5k-territoire-idees",
+          "pass": "2026-06-v5r-france-thematic-l3",
           "cumulative_new": 5
         }
       },
-      "last_pass": "2026-06-v5k-territoire-idees",
-      "vendor_count_after_pass": 16
-    },
-    "transport-mobility-data-fr": {
-      "target_level": "L2",
-      "sources": {
-        "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
-          "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
-        },
-        "capterra": null,
-        "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 6,
-          "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
-        },
-        "analyst_report": null,
-        "alternatives": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 5,
-          "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
-        },
-        "open_source": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 4,
-          "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
-        },
-        "geo_digest": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 12,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
-        },
-        "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
-        }
-      },
-      "last_pass": "2026-06-v5d-france-intl",
-      "vendor_count_after_pass": 9
+      "last_pass": "2026-06-v5r-france-thematic-l3",
+      "vendor_count_after_pass": 18
     },
     "energy-buildings-fr": {
       "target_level": "L2",
@@ -3885,7 +3892,7 @@
       "vendor_count_after_pass": 18
     },
     "environmental-data-fr": {
-      "target_level": "L2",
+      "target_level": "L3",
       "sources": {
         "g2": {
           "consulted_at": "2026-06-22",
@@ -3914,75 +3921,80 @@
           "pass": "2026-06-v5d-france-intl"
         },
         "geo_digest": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 12,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 2,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 4
+        },
+        "official_site": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 10,
+          "new_added": 2,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 11
+        }
+      },
+      "last_pass": "2026-06-v5r-france-thematic-l3",
+      "vendor_count_after_pass": 20
+    },
+    "electoral-data-fr": {
+      "target_level": "L3",
+      "sources": {
+        "g2": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 0,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 1
+        },
+        "capterra": null,
+        "crunchbase": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 6,
+          "new_added": 1,
           "pass": "2026-06-v5d-france-intl"
+        },
+        "analyst_report": null,
+        "alternatives": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 5,
+          "new_added": 1,
+          "pass": "2026-06-v5d-france-intl"
+        },
+        "open_source": {
+          "consulted_at": "2026-06-22",
+          "candidates_found": 4,
+          "new_added": 1,
+          "pass": "2026-06-v5d-france-intl"
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 18,
+          "new_added": 6,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 8
         },
         "official_site": {
           "consulted_at": "2026-06-23",
           "candidates_found": 12,
-          "new_added": 7,
-          "pass": "2026-06-v5k-territoire-idees",
-          "cumulative_new": 9
+          "new_added": 3,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 5
         }
       },
-      "last_pass": "2026-06-v5k-territoire-idees",
-      "vendor_count_after_pass": 16
-    },
-    "electoral-data-fr": {
-      "target_level": "L2",
-      "sources": {
-        "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
-          "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
-        },
-        "capterra": null,
-        "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 6,
-          "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
-        },
-        "analyst_report": null,
-        "alternatives": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 5,
-          "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
-        },
-        "open_source": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 4,
-          "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
-        },
-        "geo_digest": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 12,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
-        },
-        "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
-        }
-      },
-      "last_pass": "2026-06-v5d-france-intl",
-      "vendor_count_after_pass": 9
+      "last_pass": "2026-06-v5r-france-thematic-l3",
+      "vendor_count_after_pass": 18
     },
     "public-health-territory-fr": {
-      "target_level": "L2",
+      "target_level": "L3",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 8,
-          "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
+          "new_added": 0,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 1
         },
         "capterra": null,
         "crunchbase": {
@@ -4005,29 +4017,32 @@
           "pass": "2026-06-v5d-france-intl"
         },
         "geo_digest": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 12,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "new_added": 3,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 5
         },
         "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 6,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 8
         }
       },
-      "last_pass": "2026-06-v5d-france-intl",
-      "vendor_count_after_pass": 9
+      "last_pass": "2026-06-v5r-france-thematic-l3",
+      "vendor_count_after_pass": 18
     },
     "open-data-governance-fr": {
-      "target_level": "L2",
+      "target_level": "L3",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 2
         },
         "capterra": null,
         "crunchbase": {
@@ -4044,26 +4059,29 @@
           "pass": "2026-06-v5d-france-intl"
         },
         "open_source": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 4,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 2
         },
         "geo_digest": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 12,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 16,
+          "new_added": 4,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 6
         },
         "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 4,
+          "pass": "2026-06-v5r-france-thematic-l3",
+          "cumulative_new": 6
         }
       },
-      "last_pass": "2026-06-v5d-france-intl",
-      "vendor_count_after_pass": 9
+      "last_pass": "2026-06-v5r-france-thematic-l3",
+      "vendor_count_after_pass": 18
     }
   }
 }

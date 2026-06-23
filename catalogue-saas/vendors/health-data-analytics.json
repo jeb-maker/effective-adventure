@@ -147,7 +147,8 @@
       "name": "OpenHealth",
       "url": "https://www.openhealth.fr/",
       "segments": [
-        "health-data-analytics"
+        "health-data-analytics",
+        "public-health-territory-fr"
       ],
       "description": "Plateforme données santé FR ; agrégation claims, analytics population et études épidémiologiques.",
       "capabilities": [
@@ -176,7 +177,8 @@
       "name": "Health Data Hub",
       "url": "https://www.health-data-hub.fr/",
       "segments": [
-        "health-data-analytics"
+        "health-data-analytics",
+        "public-health-territory-fr"
       ],
       "description": "Infrastructure nationale données santé FR ; accès SNDS, hébergement études et gouvernance.",
       "capabilities": [
@@ -234,7 +236,8 @@
       "name": "Cegedim Health Data",
       "url": "https://www.cegedim-health-data.com/",
       "segments": [
-        "health-data-analytics"
+        "health-data-analytics",
+        "public-health-territory-fr"
       ],
       "description": "Real-world data FR ; bases THIN/EPRD, analytics médico-économiques et recherche pharmaceutique.",
       "capabilities": [

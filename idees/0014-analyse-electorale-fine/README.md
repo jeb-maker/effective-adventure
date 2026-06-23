@@ -140,7 +140,7 @@ plutôt qu'aux partis. Mais ce créneau reste à payeur incertain.
 
 #### Segment `electoral-data-fr` — Données électorales FR
 
-Fichier : [`catalogue-saas/vendors/electoral-data-fr.json`](../../catalogue-saas/vendors/electoral-data-fr.json) (9 entrées)
+Fichier : [`catalogue-saas/vendors/electoral-data-fr.json`](../../catalogue-saas/vendors/electoral-data-fr.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -153,6 +153,10 @@ Fichier : [`catalogue-saas/vendors/electoral-data-fr.json`](../../catalogue-saas
 | `mit-election-lab` | MIT Election Data and Science Lab | US | absent | partial |
 | `elections-europe` | European Parliament — Elections data | EU | partial | partial |
 | `ballotpedia-data` | Ballotpedia | US | absent | partial |
+| `ballotage-datagere` | Ballotage (Datagère) | FR | strong | partial |
+| `qomon` | Qomon | FR | strong | partial |
+| `politicae` | Politiciae DATA | FR | strong | partial |
+| … | _+6 autres_ | | | |
 
 #### Segment `territorial-analytics` — Analytics territoriales
 

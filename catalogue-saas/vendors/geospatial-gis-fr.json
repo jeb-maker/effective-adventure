@@ -470,6 +470,153 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "notes": "Source citée idées 0021/0026."
+    },
+    {
+      "id": "geoclip",
+      "name": "GEOCLIP",
+      "url": "https://www.geoclip.com/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Suite SIG française ; cartographie, géocodage et portails géographiques collectivités.",
+      "capabilities": [
+        "sig",
+        "geocoding",
+        "mapping",
+        "collectivites"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.geoclip.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idées 0011/0026."
+    },
+    {
+      "id": "qgis",
+      "name": "QGIS",
+      "url": "https://qgis.org/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "SIG open source ; analyse spatiale, plugins et écosystème très déployé secteur public FR.",
+      "capabilities": [
+        "open_source",
+        "gis",
+        "spatial_analysis",
+        "plugins"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "unknown",
+      "france_market": "strong",
+      "operating_regions": [
+        "global"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://qgis.org/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ban-adresse",
+      "name": "Base Adresse Nationale",
+      "url": "https://adresse.data.gouv.fr/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Référentiel adresses France ; géocodage, API BAN et intégration parcelles cadastre.",
+      "capabilities": [
+        "geocoding",
+        "addresses",
+        "api",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://adresse.data.gouv.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0011."
+    },
+    {
+      "id": "theia-cnes",
+      "name": "THEIA (CNES/IGN)",
+      "url": "https://www.theia-land.fr/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Images satellitaires et produits dérivés ; occupation sol, agriculture et observation Terre FR.",
+      "capabilities": [
+        "satellite",
+        "land_cover",
+        "agriculture",
+        "earth_observation"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.theia-land.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "api-carto-ign",
+      "name": "API Carto (IGN)",
+      "url": "https://apicarto.ign.fr/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "API géographiques officielles ; cadastre, GPU, altimétrie et services WFS/WMS IGN.",
+      "capabilities": [
+        "api",
+        "cadastre",
+        "gpu",
+        "wfs"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://apicarto.ign.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idées 0011/0026."
     }
   ]
 }
