@@ -2,8 +2,12 @@
 
 - **ID** : 0006
 - **Statut** : ❌ Écartée
-- **Score** : 50 / 100
-- **Dernière mise à jour** : 2026-06-21
+- **Score** : 47 / 100
+- **Dernière mise à jour** : 2026-06-23
+- **Révision critique** : voir [`revue.md`](revue.md) — analyse jugée **fiable**
+  (§4 exhaustif, sources datées), écart **confirmé**. Seul ajustement : **C2 abaissé
+  de 3 à 2** (prix plancher Geomarket.one 42 € HT + freemium Smappen + verrou CCI
+  cassent la willingness-to-pay) → score **50 → 47/100**, toujours < 55.
 - **Pitch (1 phrase)** : Aide à la décision pour indépendants/franchises sur le choix
   d'emplacement : concurrence locale (SIRENE/BODACC), pouvoir d'achat et démographie
   (INSEE), flux/mobilité — expliqué clairement pour des non-experts.
@@ -291,7 +295,7 @@ du stack géospatial et de l'isochrone.
 | # | Critère | Poids | Note (1-5) | Pondéré | Justification (1 phrase) |
 |---|---|---|---|---|---|
 | C1 | Intensité du problème | 3 | 4 | 12 | Mauvais emplacement = coût lourd et peu réversible pour commerçants/franchisés. |
-| C2 | Cible solvable (qui paie) | 3 | 3 | 9 | Payeurs existent (franchiseurs, agents immo) mais ARPU bas et concurrence sur le même budget. |
+| C2 | Cible solvable (qui paie) | 3 | 2 | 6 | **(revue : 3 → 2)** Prix plancher 42 € HT + freemium Smappen + verrou CCI cassent la willingness-to-pay ; utilisateur ≠ payeur. |
 | C3 | Disponibilité & fiabilité données | 3 | 3 | 9 | Cœur INSEE/SIRENE solide ; flux piéton et géoloc incomplète fragilisent le pitch complet. |
 | C4 | Espace concurrentiel libre | 2 | 1 | 2 | >10 produits sur data.gouv.fr + SaaS établis (Smappen, Data-B, Geomarket…) — marché saturé. |
 | C5 | Différenciation défendable | 2 | 1 | 2 | « Open data + explication simple » déjà fait ; pas de moat technique ou réglementaire. |
@@ -299,9 +303,9 @@ du stack géospatial et de l'isochrone.
 | C7 | Facilité du MVP | 2 | 2 | 4 | PostGIS, isochrones, NAF, multi-sources : effort supérieur à un produit tabulaire simple. |
 | C8 | Maîtrise des risques | 2 | 2 | 4 | RGPD, ELM, guerre des prix à 42 €, dépendance données tierces pour flux. |
 | C9 | Monétisation / impact | 2 | 2 | 4 | Monétisation possible en niche mais plafonnée ; impact déjà couvert par l'existant gratuit. |
-| | **Total** | | | **52 / 105** | |
+| | **Total** | | | **49 / 105** | |
 
-**Score /100** : 52 / 105 × 100 = **50**
+**Score /100** : 49 / 105 × 100 = **47** (revue critique ; fiche d'origine : 52/105 → 50)
 
 ## 11. Verdict & décision
 
@@ -311,7 +315,9 @@ défendable. L'existant sur data.gouv.fr (Assistant Opportunités, Geomarket.one
 Smappen, Data-B, EoGIS) couvre déjà SIRENE + démographie + zones de chalandise, avec
 des prix allant de **gratuit à 42 € HT** l'étude. Aucun critère éliminatoire
 juridique ou absence de donnée sur le cœur SIRENE/INSEE, mais le score < 55 et
-l'absence de créneau clair imposent l'écart.
+l'absence de créneau clair imposent l'écart. **La revue critique confirme l'écart
+et abaisse le score à 47/100** (C2 jugé trop généreux : prix plancher + freemium +
+verrou CCI), sans changer la décision.
 
 **Prochaine étape :** ne pas prototyper ce horizontal. Si l'écosystème revient sur
 l'implantation, explorer uniquement une **niche verticale** non couverte (secteur +
