@@ -1,6 +1,6 @@
 {
   "segment": "healthcare-clinical-ai",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "nuance-dax",
@@ -141,6 +141,181 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "qare",
+      "name": "Qare",
+      "url": "https://www.qare.fr/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Téléconsultation FR ; médecins généralistes/spécialistes, ordonnances et intégration mutuelles.",
+      "capabilities": [
+        "teleconsultation",
+        "prescriptions",
+        "france",
+        "mutuelle_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.qare.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "medadom",
+      "name": "Medadom",
+      "url": "https://www.medadom.com/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Téléconsultation et visite domicile FR ; triage, médecins et infirmiers on-demand.",
+      "capabilities": [
+        "teleconsultation",
+        "home_visit",
+        "triage",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.medadom.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lifen",
+      "name": "Lifen",
+      "url": "https://www.lifen.fr/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Messagerie médicale sécurisée FR ; échange DMP/documents et workflows hospitaliers/clinique.",
+      "capabilities": [
+        "medical_messaging",
+        "dmp",
+        "hospital_workflows",
+        "hds"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.lifen.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "owkin",
+      "name": "Owkin",
+      "url": "https://owkin.com/",
+      "segments": [
+        "healthcare-clinical-ai",
+        "health-data-analytics"
+      ],
+      "description": "IA federated learning santé FR ; recherche clinique, biomarqueurs et analytics multi-sites.",
+      "capabilities": [
+        "federated_learning",
+        "clinical_research",
+        "biomarkers",
+        "health_ai"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://owkin.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "infermedica",
+      "name": "Infermedica",
+      "url": "https://infermedica.com/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Triage symptômes IA ; API diagnostic différentiel, parcours patient et intégration EHR.",
+      "capabilities": [
+        "symptom_checker",
+        "triage_ai",
+        "api",
+        "ehr_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "PL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://infermedica.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "caresyntax",
+      "name": "Caresyntax",
+      "url": "https://www.caresyntax.com/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Analytics bloc opératoire ; IA perf chirurgicale, checklists et qualité/soins peri-op.",
+      "capabilities": [
+        "surgical_analytics",
+        "or_ai",
+        "quality_metrics",
+        "perioperative"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.caresyntax.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

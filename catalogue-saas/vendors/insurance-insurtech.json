@@ -1,6 +1,6 @@
 {
   "segment": "insurance-insurtech",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "guidewire",
@@ -142,6 +142,181 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "akur8",
+      "name": "Akur8",
+      "url": "https://www.akur8.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Pricing et underwriting IA ; modèles transparents, tarification P&C et conformité actuarielle.",
+      "capabilities": [
+        "pricing",
+        "underwriting",
+        "transparent_ai",
+        "p_and_c"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.akur8.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "wakam",
+      "name": "Wakam",
+      "url": "https://www.wakam.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Assureur digital B2B2C FR ; APIs underwriting, distribution partenaires et produits modulaires.",
+      "capabilities": [
+        "b2b2c",
+        "api_insurance",
+        "underwriting",
+        "distribution"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.wakam.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "qover",
+      "name": "Qover",
+      "url": "https://www.qover.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Insurtech API EU ; intégration assurance embarquée e-commerce, mobility et fintech.",
+      "capabilities": [
+        "embedded_insurance",
+        "api",
+        "ecommerce",
+        "partnerships"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "BE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.qover.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "luko",
+      "name": "Luko (Allianz Direct)",
+      "url": "https://www.luko.eu/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Assurance habitation digitale FR ; souscription en ligne, IoT prévention sinistres et claims app.",
+      "capabilities": [
+        "home_insurance",
+        "digital_underwriting",
+        "iot",
+        "claims_app"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.luko.eu/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "alan",
+      "name": "Alan",
+      "url": "https://alan.com/",
+      "segments": [
+        "insurance-insurtech",
+        "healthcare-clinical-ai"
+      ],
+      "description": "Assurance santé digitale FR ; complémentaire, téléconsultation et parcours de soins intégrés.",
+      "capabilities": [
+        "health_insurance",
+        "telehealth",
+        "member_app",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://alan.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "wefox",
+      "name": "wefox",
+      "url": "https://www.wefox.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Insurtech européen ; distribution polices, CRM courtiers et analytics portefeuille.",
+      "capabilities": [
+        "distribution",
+        "broker_crm",
+        "portfolio_analytics",
+        "europe"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.wefox.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

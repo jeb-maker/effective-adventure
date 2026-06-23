@@ -177,7 +177,8 @@
       "name": "Lucca",
       "url": "https://www.lucca.fr/",
       "segments": [
-        "hr-talent-ai"
+        "hr-talent-ai",
+        "payroll-hris"
       ],
       "description": "Suite RH modulaire FR ; recrutement, absences, paie adjacente et workflows RH pour PME/ETI.",
       "capabilities": [

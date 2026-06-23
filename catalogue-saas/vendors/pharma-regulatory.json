@@ -1,6 +1,6 @@
 {
   "segment": "pharma-regulatory",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "veeva-vault",
@@ -143,6 +143,181 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "extedo",
+      "name": "EXTEDO",
+      "url": "https://www.extedo.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "Suite regulatory information management ; eCTD, submissions et veille réglementaire pharma EU/US.",
+      "capabilities": [
+        "ectd",
+        "rim",
+        "submissions",
+        "regulatory_intelligence"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.extedo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "labvantage",
+      "name": "LabVantage",
+      "url": "https://www.labvantage.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "LIMS enterprise ; traçabilité échantillons, workflows GxP et dossiers qualité pharma.",
+      "capabilities": [
+        "lims",
+        "gxp",
+        "sample_tracking",
+        "quality"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.labvantage.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dotmatics",
+      "name": "Dotmatics",
+      "url": "https://www.dotmatics.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "R&D data platform life sciences ; ELN, LIMS et regulatory data management.",
+      "capabilities": [
+        "eln",
+        "lims",
+        "rd_data",
+        "regulatory_data"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.dotmatics.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "medidata",
+      "name": "Medidata (Dassault Systèmes)",
+      "url": "https://www.medidata.com/",
+      "segments": [
+        "pharma-regulatory",
+        "health-data-analytics"
+      ],
+      "description": "Clinical cloud ; essais cliniques, RWE et conformité réglementaire FDA/EMA.",
+      "capabilities": [
+        "clinical_trials",
+        "rwe",
+        "regulatory_compliance",
+        "edc"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.medidata.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "benchling",
+      "name": "Benchling",
+      "url": "https://www.benchling.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "R&D cloud biotech ; ELN, registres moléculaires et workflows qualité réglementaire.",
+      "capabilities": [
+        "eln",
+        "molecular_registry",
+        "biotech",
+        "quality_workflows"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.benchling.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "certara",
+      "name": "Certara",
+      "url": "https://www.certara.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "Modélisation biosimulation ; soumissions réglementaires, pharmacométrie et dossiers FDA/EMA.",
+      "capabilities": [
+        "biosimulation",
+        "regulatory_submissions",
+        "pharmacometrics",
+        "fda_ema"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.certara.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

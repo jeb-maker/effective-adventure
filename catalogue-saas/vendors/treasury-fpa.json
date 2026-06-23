@@ -1,6 +1,6 @@
 {
   "segment": "treasury-fpa",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "anaplan",
@@ -141,6 +141,180 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "kyriba",
+      "name": "Kyriba",
+      "url": "https://www.kyriba.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "TMS cloud ; trésorerie, cash forecasting, FX/risk et connectivité bancaire multi-pays.",
+      "capabilities": [
+        "tms",
+        "cash_forecasting",
+        "fx_risk",
+        "bank_connectivity"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.kyriba.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gtreasury",
+      "name": "GTreasury",
+      "url": "https://www.gtreasury.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Treasury management ; cash, debt, in-house banking et reporting trésorerie.",
+      "capabilities": [
+        "treasury",
+        "cash_management",
+        "in_house_banking",
+        "reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.gtreasury.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cashforce",
+      "name": "Cashforce",
+      "url": "https://www.cashforce.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Cash forecasting EU ; ML prévisions flux, rapprochement et dashboards trésorerie.",
+      "capabilities": [
+        "cash_forecasting",
+        "ml",
+        "reconciliation",
+        "dashboards"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "BE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.cashforce.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "trovata",
+      "name": "Trovata",
+      "url": "https://trovata.io/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Cash management API ; agrégation comptes bancaires, tags flux et analytics trésorerie.",
+      "capabilities": [
+        "bank_aggregation",
+        "cash_tags",
+        "api",
+        "analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://trovata.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "highradius",
+      "name": "HighRadius",
+      "url": "https://www.highradius.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Autonomous finance ; O2C, trésorerie, cash application IA et collections.",
+      "capabilities": [
+        "order_to_cash",
+        "treasury",
+        "cash_application",
+        "collections"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.highradius.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "blackline",
+      "name": "BlackLine",
+      "url": "https://www.blackline.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Financial close & accounting ; réconciliations, contrôles et reporting consolidé.",
+      "capabilities": [
+        "reconciliation",
+        "financial_close",
+        "controls",
+        "consolidation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.blackline.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "segment": "esg-csrd",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "watershed",
@@ -142,6 +142,181 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "sweep",
+      "name": "Sweep",
+      "url": "https://www.sweep.net/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Carbon management FR ; inventaire GHG, trajectoire SBTi et reporting CSRD pour mid-market.",
+      "capabilities": [
+        "carbon_management",
+        "ghg_inventory",
+        "csrd",
+        "sbti"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.sweep.net/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "plan-a",
+      "name": "Plan A",
+      "url": "https://plan-a.earth/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Plateforme décarbonation EU ; mesure émissions, plans d'action et disclosures CSRD/ESRS.",
+      "capabilities": [
+        "decarbonization",
+        "csrd",
+        "esrs",
+        "action_plans"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://plan-a.earth/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ecovadis",
+      "name": "EcoVadis",
+      "url": "https://www.ecovadis.com/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Ratings durabilité supply chain ; questionnaires ESG fournisseurs et benchmarks sectoriels.",
+      "capabilities": [
+        "supplier_ratings",
+        "esg_scorecards",
+        "supply_chain",
+        "benchmarks"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.ecovadis.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "carbonfact",
+      "name": "Carbonfact",
+      "url": "https://www.carbonfact.com/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Carbon accounting mode/textile ; ACV produits, données matières et reporting CSRD retail.",
+      "capabilities": [
+        "product_carbon",
+        "lca",
+        "fashion",
+        "csrd"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.carbonfact.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "carbonmaps",
+      "name": "Carbon Maps",
+      "url": "https://www.carbonmaps.io/",
+      "segments": [
+        "esg-csrd",
+        "energy-cleantech"
+      ],
+      "description": "ACV alimentaire et agro ; données produits, scopes 3 et reporting extra-financier CSRD.",
+      "capabilities": [
+        "food_lca",
+        "scope_3",
+        "product_data",
+        "csrd"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.carbonmaps.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ibm-envizi",
+      "name": "IBM Envizi",
+      "url": "https://www.ibm.com/products/envizi",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "ESG data platform ; consolidation KPIs, reporting CSRD/GRI et analytics énergie/carbone.",
+      "capabilities": [
+        "esg_data",
+        "csrd_reporting",
+        "kpi_consolidation",
+        "energy_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.ibm.com/products/envizi",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

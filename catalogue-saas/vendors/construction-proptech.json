@@ -1,6 +1,6 @@
 {
   "segment": "construction-proptech",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "autodesk-construction-cloud",
@@ -140,6 +140,180 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "finalcad",
+      "name": "Finalcad",
+      "url": "https://www.finalcad.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Pilotage chantier mobile FR ; plans BIM, rapports terrain et suivi avancement pour GC.",
+      "capabilities": [
+        "field_reporting",
+        "bim_plans",
+        "progress_tracking",
+        "mobile"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.finalcad.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dalux",
+      "name": "Dalux",
+      "url": "https://www.dalux.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "BIM field management ; QA/QC, snags et collaboration maîtrise d'ouvrage/entreprises EU.",
+      "capabilities": [
+        "bim",
+        "qa_qc",
+        "snagging",
+        "collaboration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DK",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.dalux.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "buildots",
+      "name": "Buildots",
+      "url": "https://buildots.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Progress tracking IA ; computer vision chantier, comparaison BIM/as-built et retards.",
+      "capabilities": [
+        "computer_vision",
+        "bim_comparison",
+        "progress_ai",
+        "delays"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://buildots.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "openspace",
+      "name": "OpenSpace",
+      "url": "https://www.openspace.ai/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Capture 360° chantier ; timeline visuelle, documentation as-built et intégration BIM.",
+      "capabilities": [
+        "360_capture",
+        "visual_timeline",
+        "as_built",
+        "bim_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.openspace.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "catenda",
+      "name": "Catenda",
+      "url": "https://catenda.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Collaboration BIM cloud ; maquettes 3D, BCF issues et workflows openBIM Europe.",
+      "capabilities": [
+        "openbim",
+        "bcf",
+        "3d_models",
+        "cloud_collaboration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "NO",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://catenda.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "graneet",
+      "name": "Graneet",
+      "url": "https://www.graneet.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "ERP finance BTP FR ; devis, situations travaux, trésorerie chantier et marge temps réel.",
+      "capabilities": [
+        "construction_erp",
+        "billing",
+        "cashflow",
+        "margin_tracking"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.graneet.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

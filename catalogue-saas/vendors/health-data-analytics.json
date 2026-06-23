@@ -1,6 +1,6 @@
 {
   "segment": "health-data-analytics",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "flatiron-health",
@@ -141,6 +141,180 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "openhealth",
+      "name": "OpenHealth",
+      "url": "https://www.openhealth.fr/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Plateforme données santé FR ; agrégation claims, analytics population et études épidémiologiques.",
+      "capabilities": [
+        "health_data",
+        "claims_analytics",
+        "population_studies",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.openhealth.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "health-data-hub",
+      "name": "Health Data Hub",
+      "url": "https://www.health-data-hub.fr/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Infrastructure nationale données santé FR ; accès SNDS, hébergement études et gouvernance.",
+      "capabilities": [
+        "snds",
+        "national_health_data",
+        "research_access",
+        "governance"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.health-data-hub.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "inato",
+      "name": "Inato",
+      "url": "https://www.inato.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Matching essais cliniques FR ; recrutement patients/sites, analytics faisabilité et diversité.",
+      "capabilities": [
+        "clinical_trials",
+        "site_matching",
+        "patient_recruitment",
+        "feasibility"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.inato.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cegedim-health-data",
+      "name": "Cegedim Health Data",
+      "url": "https://www.cegedim-health-data.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Real-world data FR ; bases THIN/EPRD, analytics médico-économiques et recherche pharmaceutique.",
+      "capabilities": [
+        "rwd",
+        "medico_economic",
+        "pharma_research",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.cegedim-health-data.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "datavant",
+      "name": "Datavant",
+      "url": "https://www.datavant.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Tokenisation données santé ; linkage privacy-preserving, RWD et analytics recherche.",
+      "capabilities": [
+        "tokenization",
+        "privacy_preserving",
+        "rwd",
+        "linkage"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.datavant.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "aetion",
+      "name": "Aetion",
+      "url": "https://aetion.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "RWE analytics ; causal inference, études réglementaires et comparateurs effectiveness.",
+      "capabilities": [
+        "rwe",
+        "causal_inference",
+        "regulatory_studies",
+        "effectiveness"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://aetion.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "segment": "retail-ecommerce-ai",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "shopify",
@@ -141,6 +141,180 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "mirakl",
+      "name": "Mirakl",
+      "url": "https://www.mirakl.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Marketplace platform FR ; catalogues sellers, pricing IA et orchestration commandes omnicanal.",
+      "capabilities": [
+        "marketplace",
+        "seller_management",
+        "ai_pricing",
+        "omnichannel"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.mirakl.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "contentsquare",
+      "name": "Contentsquare",
+      "url": "https://contentsquare.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Analytics expérience digitale FR ; heatmaps, journey AI et optimisation conversion e-commerce.",
+      "capabilities": [
+        "digital_analytics",
+        "journey_ai",
+        "conversion",
+        "heatmaps"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://contentsquare.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ab-tasty",
+      "name": "AB Tasty",
+      "url": "https://www.abtasty.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Experimentation et personalization FR ; A/B testing, recommandations IA et feature flags.",
+      "capabilities": [
+        "ab_testing",
+        "personalization",
+        "feature_flags",
+        "recommendations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.abtasty.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lengow",
+      "name": "Lengow",
+      "url": "https://www.lengow.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Feed management e-commerce FR ; diffusion marketplaces, pricing et analytics multicanal.",
+      "capabilities": [
+        "feed_management",
+        "marketplaces",
+        "multichannel",
+        "pricing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.lengow.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ankorstore",
+      "name": "Ankorstore",
+      "url": "https://www.ankorstore.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Marketplace B2B retail FR ; découverte marques, commandes grossistes et IA assortiment.",
+      "capabilities": [
+        "b2b_marketplace",
+        "wholesale",
+        "brand_discovery",
+        "assortment_ai"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.ankorstore.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "prestashop",
+      "name": "PrestaShop",
+      "url": "https://www.prestashop.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Plateforme e-commerce open source FR ; storefront, modules IA et écosystème agences.",
+      "capabilities": [
+        "ecommerce_platform",
+        "open_source",
+        "modules",
+        "storefront"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.prestashop.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

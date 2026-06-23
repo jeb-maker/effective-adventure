@@ -1,6 +1,6 @@
 {
   "segment": "privacy-consent",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "didomi",
@@ -145,6 +145,180 @@
       "discovery_pass": "2026-06-v5e-retrospective",
       "source_url": "https://www.cookiebot.com/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "iubenda",
+      "name": "iubenda",
+      "url": "https://www.iubenda.com/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "Générateur politiques/CMP ; consentement cookies, privacy policy et conformité GDPR multi-langues.",
+      "capabilities": [
+        "cmp",
+        "privacy_policy",
+        "cookie_consent",
+        "gdpr"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "IT",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.iubenda.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "termly",
+      "name": "Termly",
+      "url": "https://termly.io/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "CMP et compliance hub ; bannières cookies, DSAR et assessments GDPR/CCPA.",
+      "capabilities": [
+        "cmp",
+        "cookie_banner",
+        "dsar",
+        "assessments"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://termly.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cookieyes",
+      "name": "CookieYes",
+      "url": "https://www.cookieyes.com/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "CMP cookies ; scan automatique, consentement granulaire et logs preuve GDPR.",
+      "capabilities": [
+        "cmp",
+        "cookie_scan",
+        "consent_logs",
+        "gdpr"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.cookieyes.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sirdata",
+      "name": "Sirdata",
+      "url": "https://www.sirdata.com/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "Consent management et data clean room FR ; CMP, préférences et conformité ePrivacy.",
+      "capabilities": [
+        "cmp",
+        "consent",
+        "data_clean_room",
+        "eprivacy"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.sirdata.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tarteaucitron",
+      "name": "tarteaucitron.js",
+      "url": "https://tarteaucitron.io/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "CMP open source FR ; gestion tags/cookies, opt-in granulaire et conformité CNIL.",
+      "capabilities": [
+        "open_source",
+        "cmp",
+        "cnil",
+        "tag_management"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://tarteaucitron.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "usercentrics",
+      "name": "Usercentrics",
+      "url": "https://usercentrics.com/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "CMP enterprise EU ; consentement multi-domaines, TCF IAB et privacy governance.",
+      "capabilities": [
+        "cmp",
+        "tcf",
+        "multi_domain",
+        "privacy_governance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://usercentrics.com/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]

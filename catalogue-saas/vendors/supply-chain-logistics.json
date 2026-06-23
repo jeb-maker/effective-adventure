@@ -1,6 +1,6 @@
 {
   "segment": "supply-chain-logistics",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "flexport",
@@ -141,6 +141,180 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "shippeo",
+      "name": "Shippeo",
+      "url": "https://www.shippeo.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "ETA tracking temps réel FR ; visibilité transport multimodal et alertes exceptions.",
+      "capabilities": [
+        "eta_tracking",
+        "multimodal",
+        "exceptions",
+        "real_time"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.shippeo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "transporeon",
+      "name": "Transporeon",
+      "url": "https://www.transporeon.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Transport management EU ; e-tendering, slot booking et visibilité exécution transport.",
+      "capabilities": [
+        "transport_management",
+        "slot_booking",
+        "e_tendering",
+        "visibility"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.transporeon.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "o9-solutions",
+      "name": "o9 Solutions",
+      "url": "https://o9solutions.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Planning supply chain IA ; demand, inventory, S&OP et digital twin supply chain.",
+      "capabilities": [
+        "demand_planning",
+        "s_and_op",
+        "inventory",
+        "digital_twin"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://o9solutions.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "blue-yonder",
+      "name": "Blue Yonder",
+      "url": "https://blueyonder.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Supply chain suite ; WMS, TMS, forecasting et orchestration retail/industrie.",
+      "capabilities": [
+        "wms",
+        "tms",
+        "forecasting",
+        "orchestration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://blueyonder.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "relex",
+      "name": "RELEX Solutions",
+      "url": "https://www.relexsolutions.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Retail supply chain planning ; prévisions demande, assortiment et replenishment EU.",
+      "capabilities": [
+        "demand_forecasting",
+        "assortment",
+        "replenishment",
+        "retail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.relexsolutions.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sennder",
+      "name": "sennder",
+      "url": "https://www.sennder.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Fret digital EU ; marketplace transport routier, pricing dynamique et tracking.",
+      "capabilities": [
+        "digital_freight",
+        "road_transport",
+        "marketplace",
+        "tracking"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.sennder.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "segment": "payroll-hris",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "workday-hcm",
@@ -144,6 +144,180 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "silae",
+      "name": "Silae",
+      "url": "https://www.silae.fr/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "Logiciel paie expert-comptable FR ; DSN, bulletins, gestion sociale et multi-conventions.",
+      "capabilities": [
+        "payroll",
+        "dsn",
+        "accountant_portal",
+        "social_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.silae.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "combo",
+      "name": "Combo (Snapshift)",
+      "url": "https://www.combo.co/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "Planning RH restauration/retail FR ; paie, pointage, absences et conformité droit du travail.",
+      "capabilities": [
+        "scheduling",
+        "payroll",
+        "time_tracking",
+        "hospitality"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.combo.co/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "factorial",
+      "name": "Factorial",
+      "url": "https://factorialhr.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "HRIS PME EU ; absences, onboarding, paie partenaires et analytics RH.",
+      "capabilities": [
+        "hris",
+        "absences",
+        "onboarding",
+        "hr_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "ES",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://factorialhr.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cegid-hr",
+      "name": "Cegid HR & Payroll",
+      "url": "https://www.cegid.com/fr/rh-paie/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "SIRH/paie Cegid FR ; core HR, paie, talent et conformité sociale multi-pays.",
+      "capabilities": [
+        "hris",
+        "payroll",
+        "talent",
+        "social_compliance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.cegid.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "deel",
+      "name": "Deel",
+      "url": "https://www.deel.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "Global payroll/EOR ; contrats internationaux, compliance locale et paiements multi-devises.",
+      "capabilities": [
+        "global_payroll",
+        "eor",
+        "compliance",
+        "multi_currency"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.deel.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sd-worx",
+      "name": "SD Worx",
+      "url": "https://www.sdworx.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "Paie et HR services EU ; payroll outsourcing, SIRH et conformité sociale 15+ pays.",
+      "capabilities": [
+        "payroll_outsourcing",
+        "hr_services",
+        "multi_country",
+        "compliance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "BE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.sdworx.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

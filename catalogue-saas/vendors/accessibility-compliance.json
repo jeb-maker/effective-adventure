@@ -1,6 +1,6 @@
 {
   "segment": "accessibility-compliance",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "accessibility-checker",
@@ -142,6 +142,180 @@
       "discovery_pass": "2026-06-v5e-retrospective",
       "source_url": "https://www.levelaccess.com/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "accessiway",
+      "name": "Accessiway",
+      "url": "https://www.accessiway.com/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Audit et remédiation accessibilité web ; conformité RGAA/WCAG et accompagnement éditeurs FR.",
+      "capabilities": [
+        "wcag",
+        "rgaa",
+        "audit",
+        "remediation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.accessiway.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tanaguru",
+      "name": "Tanaguru",
+      "url": "https://www.tanaguru.com/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Suite tests accessibilité ; moteur Tanaguru, CI/CD et conformité RGAA/WCAG pour équipes dev.",
+      "capabilities": [
+        "automated_testing",
+        "rgaa",
+        "wcag",
+        "ci_cd"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.tanaguru.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "asqatasun",
+      "name": "Asqatasun",
+      "url": "https://asqatasun.org/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Outil open source audit accessibilité ; scans RGAA/WCAG et rapports pour sites publics/privés.",
+      "capabilities": [
+        "open_source",
+        "rgaa",
+        "wcag",
+        "audit_reports"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://asqatasun.org/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "facil-iti",
+      "name": "Facil'iti",
+      "url": "https://www.facil-iti.com/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Overlay accessibilité ; adaptation affichage dyslexie, malvoyance et profils cognitifs sur sites web.",
+      "capabilities": [
+        "accessibility_overlay",
+        "cognitive",
+        "visual",
+        "personalization"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.facil-iti.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "eye-able",
+      "name": "Eye-Able",
+      "url": "https://eye-able.com/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Widget et audit accessibilité EU ; conformité WCAG/EN 301 549 et rapports conformité.",
+      "capabilities": [
+        "accessibility_widget",
+        "wcag",
+        "en301549",
+        "audit"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://eye-able.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "silktide",
+      "name": "Silktide",
+      "url": "https://silktide.com/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Monitoring accessibilité et qualité web ; scans WCAG, tableaux de bord et alertes régression.",
+      "capabilities": [
+        "wcag_monitoring",
+        "quality_web",
+        "alerts",
+        "dashboards"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://silktide.com/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]

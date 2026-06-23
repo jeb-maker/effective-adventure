@@ -1,6 +1,6 @@
 {
   "segment": "energy-cleantech",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "enphase",
@@ -141,6 +141,180 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "octopus-energy",
+      "name": "Octopus Energy",
+      "url": "https://octopusenergy.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Retail énergie et tech cleantech ; tariffs dynamiques, Kraken platform et flexibilité réseau.",
+      "capabilities": [
+        "retail_energy",
+        "dynamic_tariffs",
+        "kraken_platform",
+        "flexibility"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://octopusenergy.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tiko",
+      "name": "Tiko",
+      "url": "https://tiko.energy/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Flexibilité énergétique résidentielle ; agrégation DER, demand response et services utilities EU.",
+      "capabilities": [
+        "demand_response",
+        "der_aggregation",
+        "residential",
+        "utilities"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "CH",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://tiko.energy/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "voltalis",
+      "name": "Voltalis",
+      "url": "https://www.voltalis.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Effacement demande B2B FR ; pilotage charges électriques, RTE/CBP et rémunération flexibilité.",
+      "capabilities": [
+        "demand_response",
+        "load_control",
+        "rte",
+        "b2b_flexibility"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.voltalis.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "schneider-ecostruxure",
+      "name": "Schneider EcoStruxure",
+      "url": "https://www.se.com/ww/en/work/solutions/system/s1/ecostruxure/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "IoT énergie bâtiments/industrie FR ; monitoring, EMS et décarbonation portefeuilles.",
+      "capabilities": [
+        "ems",
+        "iot_energy",
+        "building_management",
+        "decarbonation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.se.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kizy",
+      "name": "Kizy",
+      "url": "https://www.kizy.io/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Collecte données énergie tertiaire FR ; capteurs IoT, analytics conso et reporting décret tertiaire.",
+      "capabilities": [
+        "iot_sensors",
+        "energy_analytics",
+        "tertiary",
+        "reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.kizy.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "totalenergies-digital",
+      "name": "TotalEnergies Digital Services",
+      "url": "https://totalenergies.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Services digitaux énergie ; pilotage conso B2B, PPAs et solutions décarbonation corporate.",
+      "capabilities": [
+        "b2b_energy",
+        "ppa",
+        "corporate_decarbonation",
+        "energy_services"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://totalenergies.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

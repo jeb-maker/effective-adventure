@@ -1,6 +1,6 @@
 {
   "segment": "finance-accounting-ai",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "vic-ai",
@@ -142,6 +142,181 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.floqast.com/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "agicap",
+      "name": "Agicap",
+      "url": "https://agicap.com/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Trésorerie PME FR ; cashflow forecasting, scenarios et connexion bancaire/compta.",
+      "capabilities": [
+        "cashflow",
+        "forecasting",
+        "scenarios",
+        "bank_sync"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://agicap.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "qonto",
+      "name": "Qonto",
+      "url": "https://qonto.com/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Néobanque pro FR ; comptes, cartes, facturation et automatisation comptable PME.",
+      "capabilities": [
+        "business_banking",
+        "invoicing",
+        "accounting_automation",
+        "cards"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://qonto.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "indigo",
+      "name": "Indigo (ex-Georges)",
+      "url": "https://www.indigo.fr/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Compta auto-entrepreneurs/PME FR ; TVA, liasse fiscale et assistant IA fiscal.",
+      "capabilities": [
+        "accounting",
+        "vat",
+        "tax_filing",
+        "ai_assist"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.indigo.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sage",
+      "name": "Sage",
+      "url": "https://www.sage.com/fr-fr/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "ERP/compta PME FR ; facturation, immobilisations, paie adjacente et reporting fiscal.",
+      "capabilities": [
+        "accounting",
+        "erp",
+        "invoicing",
+        "tax_reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "GB",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.sage.com/fr-fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "indy",
+      "name": "Indy",
+      "url": "https://www.indy.fr/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Comptabilité online FR ; OCR factures, TVA, liasse et télétransmission expert-comptable.",
+      "capabilities": [
+        "ocr_invoices",
+        "vat",
+        "tax_filing",
+        "accountant_portal"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.indy.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fulll",
+      "name": "Fulll",
+      "url": "https://www.fulll.io/",
+      "segments": [
+        "finance-accounting-ai",
+        "payroll-hris"
+      ],
+      "description": "Suite cabinets/experts-comptables FR ; production comptable, paie Silae et portail clients.",
+      "capabilities": [
+        "accounting_production",
+        "payroll",
+        "client_portal",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.fulll.io/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]
