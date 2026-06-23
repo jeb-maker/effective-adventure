@@ -87,9 +87,10 @@ Segment **non clos** tant que < 4 types sont renseignés dans `coverage-matrix.j
 | **V5q** | L3 chaîne RecordAI (parsing, compliance, automation) | Fait |
 | **V5r** | L3 France open data thématique (7 segments) | Fait |
 | **V5s** | L3 stack IA (governance, agents, voix, RAG, dev) | Fait |
-| **V5t-c** | L3 workplace / sales / data / infra (20 segments) | Fait |
-| **V5t-b** | L3 verticaux + compliance (18 segments, 11→~18) | Fait |
-| Maintenance | 24 segments L2 restants, surveillance saturation | Continu |
+| **V5t-a** | L3 sécurité (6 segments) | Fait |
+| **V5t-b** | L3 verticaux + compliance (18 segments) | Fait |
+| **V5t-c** | L3 workplace / sales / data (20 segments) | Fait |
+| Maintenance | 4 segments 14–17 entrées, long tail L3 | Continu |
 
 ### Surveillance saturation (maintenance)
 
@@ -151,7 +152,7 @@ python3 scripts/catalogue_saas.py validate
 | Post-V5k + idées | ~637 |
 | **Post-V5l–V5n (L2 complet)** | **~914** |
 | **Post-V5q–V5s (L3 ciblé)** | **~1 072** |
-| **Post-V5t-c (L3 workplace/sales/data)** | **~1 261** |
-| L3 + maintenance | 1 500–2 500 |
+| **Post-V5t (L3 complet, 68 segments)** | **~1 392** |
+| Long tail L3 + maintenance | 1 500–2 500 |
 
 La fiabilité prime sur la vitesse : **`unknown` est préférable à une guess non sourcée**.
