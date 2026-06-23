@@ -2,8 +2,16 @@
 
 - **ID** : 0028
 - **Statut** : 🔁 À retravailler
-- **Score** : 58 / 100
+- **Score** : 56 / 100
 - **Dernière mise à jour** : 2026-06-23
+- **Révision critique** : voir [`revue.md`](revue.md) — score abaissé de **58 à 56**
+  après audit adversarial. L'existant gratuit est sous-estimé : **Data Emploi**
+  (France Travail) descend jusqu'à la **commune/EPCI** (pas seulement le bassin),
+  **BMO** donne les intentions de recrutement par bassin, et la nomenclature
+  **FAP** réconcilie déjà ROME↔PCS. Le seul différenciateur (score composite) est
+  donc un repackaging de trois couches gratuites, copiable par Smappen → C5 3→2.
+  Voie crédible unique : module distribué par Smappen. Les §10–§11 ci-dessous
+  reflètent le passage initial et restent à corriger.
 - **Pitch (1 phrase)** : Croiser les données France Travail (demandeurs d'emploi,
   tensions par métier), la structure économique locale (SIRENE/NAF) et le pouvoir
   d'achat (FiLoSoFi) pour aider franchises et recruteurs à choisir un territoire —
