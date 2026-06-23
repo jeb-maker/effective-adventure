@@ -30,7 +30,8 @@ Une idée capturée à partir d'un croisement de datasets sans payeur identifié
 |---|---|
 | Fiches `idees/` | Hypothèses produit analysées et scorées |
 | Revues `revue.md` | Passage adversarial obligatoire avant décision finale |
-| `catalogue-saas/` | Intelligence concurrentielle pour les sections « Existant » |
+| `catalogue-saas/` | Cartographie **A** — SaaS commercial (une entrée de §4, pas le §4 entier) |
+| [`cartographie-existant.md`](cartographie-existant.md) | Cartographie **B** — checklist §4 complète (public + SaaS + OSS) |
 | Statut 🚧 Prototype | Sortie attendue du pipeline — pas une collection d'idées |
 
 ---
@@ -92,7 +93,10 @@ Chaque idée analysée doit renseigner ces sections (voir `modele-idee.md`) :
 1. **Problème / douleur** — quel problème réel, pour qui, à quel point ça fait mal.
 2. **Cible & qui paie** — utilisateurs vs payeurs (ce n'est pas toujours pareil).
 3. **Données sources** — datasets, APIs, licence, fraîcheur, fiabilité, limites.
-4. **Existant / concurrence** — ce qui existe déjà (avec liens datés).
+4. **Existant / concurrence** — ce qui existe déjà (avec liens datés). **Deux
+   cartographies distinctes** — voir [`cartographie-existant.md`](cartographie-existant.md) :
+   catalogue SaaS (A) + checklist complète §4 (B : public, data.gouv, OSS, bricolage).
+   **Ne jamais noter C4 sans B complet.**
 5. **Différenciation** — pourquoi nous, et est-ce défendable / imitable.
 6. **Faisabilité & fiabilité technique** — archi, et respect du principe §3.
 7. **Monétisation / impact** — modèle économique ou impact visé.
@@ -114,7 +118,7 @@ puis multiplié par son poids. Pour les critères « inversés » (risque, effor
 | C1 | Intensité du problème | ×3 | gadget, besoin tiède | douleur forte, récurrente |
 | C2 | Cible solvable (qui paie) | ×3 | personne ne paie | payeurs identifiés, budget existant |
 | C3 | Disponibilité & fiabilité des données / inputs | ×3 | inputs absents ou fragiles | inputs prêts, propres, traçables |
-| C4 | Espace concurrentiel libre | ×2 | saturé | quasi vierge au niveau produit |
+| C4 | Espace concurrentiel libre | ×2 | saturé (public + commercial) | quasi vierge au niveau produit |
 | C5 | Différenciation défendable | ×2 | copiable en un week-end | avantage durable |
 | C6 | Faisabilité & fiabilité technique | ×2 | repose sur du RAG fragile | chiffres SQL/objectifs traçables |
 | C7 | Facilité du MVP (effort faible) | ×2 | chantier lourd | MVP rapide, données prêtes |

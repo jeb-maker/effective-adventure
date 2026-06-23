@@ -30,7 +30,15 @@ Voir docs/methode-analyse.md pour les règles.
 | | | | | | |
 
 ## 4. Existant / concurrence
-<!-- RÈGLE : chaque affirmation = un lien + date de consultation. -->
+<!-- RÈGLE : chaque affirmation = un lien + date de consultation.
+     Checklist obligatoire : docs/cartographie-existant.md §2
+     Structurer en sous-sections :
+     ### Services publics / .gouv.fr
+     ### Réutilisations data.gouv
+     ### Produits commerciaux
+     ### Open source / académique
+     ### Bricolage / alternatives
+     Le catalogue SaaS (catalogue-saas/) complète « Produits commerciaux » — pas un substitut. -->
 
 ## 5. Différenciation
 <!-- Pourquoi nous ? Est-ce défendable ou copiable en un week-end ? -->

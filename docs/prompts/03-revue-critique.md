@@ -33,8 +33,10 @@ Produis un RAPPORT DE REVUE en Markdown avec :
 3. Risque d'hallucination : la fiche affiche-t-elle des chiffres non traçables ?
    L'architecture respecte-t-elle RAG(sens)/SQL(chiffres) ?
 
-4. Angles morts : quels concurrents, risques, coûts ou obstacles réglementaires
-   ne sont PAS mentionnés ?
+4. Angles morts : quels concurrents (surtout **services publics gratuits** et
+   réutilisations data.gouv), risques, coûts ou obstacles réglementaires
+   ne sont PAS mentionnés ? La fiche s'appuie-t-elle sur le catalogue SaaS
+   seul pour conclure C4 ? (cf. docs/cartographie-existant.md)
 
 5. Recalcul du score : reconstruis le tableau de scoring avec TES notes, calcule
    le score /100, et indique si le verdict (Go / à retravailler / écartée) doit

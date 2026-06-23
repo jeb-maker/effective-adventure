@@ -27,6 +27,8 @@ prototype**, pas d'en accumuler indéfiniment.
 - Le **catalogue SaaS** (veille marché RegTech, IDP, GRC, agents IA) est dans
   [`catalogue-saas/`](catalogue-saas/) — méthode dans
   [`docs/catalogue-saas-methode.md`](docs/catalogue-saas-methode.md).
+- La **cartographie de l'existant** (SaaS vs public vs OSS — deux cartographies
+  distinctes) est dans [`docs/cartographie-existant.md`](docs/cartographie-existant.md).
 - Chaque idée vit dans `idees/<id>-<slug>/README.md`.
 - Le **registre** ci-dessous est l'index unique (à tenir à jour à chaque ajout).
 
@@ -47,6 +49,16 @@ prototype**, pas d'en accumuler indéfiniment.
 
 Score /100 = `Σ(note×poids) / 105 × 100`. Seuils : **≥ 70 Go**, **55–69 à
 retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
+
+### Contrôles automatisés
+
+```bash
+python3 scripts/catalogue_saas.py validate
+python3 scripts/check_idees.py              # backlog revues manquantes
+python3 scripts/catalogue_saas.py segment-readiness
+```
+
+CI : [`.github/workflows/validate.yml`](.github/workflows/validate.yml).
 
 ---
 

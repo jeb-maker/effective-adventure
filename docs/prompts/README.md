@@ -42,6 +42,10 @@ idée brute
 
 - **Sourcer** : toute affirmation sur l'existant = lien + date de consultation.
   Toute donnée chiffrée = source. Pas de source → marquer « non vérifié ».
+- **Cartographie** : §4 = cartographie B complète (cf. `cartographie-existant.md`) ;
+  catalogue SaaS = cartographie A seulement.
+- **Revue** : statut final (🔁❌✅🚧) interdit sans `revue.md` — contrôle :
+  `python3 scripts/check_idees.py --strict`.
 - **Anti-hallucination** : ne jamais inventer un chiffre, un concurrent, une URL.
   En cas de doute, écrire « à vérifier » plutôt que de combler.
 - **Format** : produire du Markdown conforme à `docs/modele-idee.md`.

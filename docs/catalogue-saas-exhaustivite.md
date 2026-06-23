@@ -10,7 +10,11 @@ Complète [`catalogue-saas-methode.md`](catalogue-saas-methode.md) avec le proce
 |---|---|---|
 | **L1** | Top acteurs reconnus (5–10) | Liste stable |
 | **L2** | Tous les acteurs cités dans ≥ 2 sources indépendantes | Passe complète < 5 % nouveaux |
-| **L3** | L2 + long tail (OSS, startups, niches régionales) | 3 passes < 5 % + revue trimestrielle |
+| **L3** | L2 + long tail (OSS, startups, niches régionales) | **Saturation** : 3 passes consécutives < 5 % nouveaux + revue trimestrielle |
+
+> **Important** : atteindre N entrées (ex. 18) = **profondeur inventaire**, pas L3.
+> L3 « ready » = saturation atteinte. Vérifier avec
+> `python3 scripts/catalogue_saas.py segment-readiness`.
 
 **Saturation** : une passe qui consulte toutes les sources prévues et ajoute < **5 %** de vendeurs nouveaux → segment **gelé** jusqu'à la revue trimestrielle.
 

@@ -16,10 +16,17 @@ Registre **curaté** de SaaS comparables, aligné sur les règles de preuve du d
 ## État (2026-06-23)
 
 - **68 segments** définis (tous avec fichier `vendors/<id>.json`)
-- **68 segments peuplés** — **68 segments ≥ 18 entrées (L3)**, **0 segment ≤ 11**
+- **68 segments peuplés** — profondeur inventaire **≥ 18 entrées** par segment
 - **1 410 vendeurs** recensés (vagues 5b–5u)
+- **Saturation marché** : **2/68 segments saturés** (< 5 % nouveaux/passe) —
+  voir `python3 scripts/catalogue_saas.py segment-readiness`
+- **Vérification** : **55 verified** / 1410 — cible : monter via `verify-eligible`
 - **29 idées** liées au catalogue (`idees/catalogue-segments.json`)
-- **Surveillance** : `frozen-segments.json` + `saturation watch` (2 segments `[SATURÉ]`, 2 `[PROCHE]` post-V5u)
+- **Surveillance** : `frozen-segments.json` + `saturation watch`
+
+> **Ne pas confondre** profondeur inventaire (≥ 18) et saturation (< 5 %).
+> Un segment « peuplé » n'est **pas** un marché clos. Voir
+> [`docs/cartographie-existant.md`](../docs/cartographie-existant.md) §3.
 
 ## Les 18 catégories
 
@@ -91,6 +98,9 @@ python3 scripts/catalogue_saas.py list-segments
 
 python3 scripts/catalogue_saas.py validate
 python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py segment-readiness
+python3 scripts/catalogue_saas.py audit-sources
+python3 scripts/catalogue_saas.py verify-eligible
 python3 scripts/catalogue_saas.py export -o catalogue-saas/exports/vendors.csv
 ```
 
