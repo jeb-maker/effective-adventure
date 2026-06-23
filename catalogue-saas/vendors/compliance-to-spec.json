@@ -1099,10 +1099,11 @@
         "EU"
       ],
       "discovery_source": "crunchbase",
-      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
       "source_url": "https://www.inscribe.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "notes": "Benchmark revue 0029 — KYC document fraud US, france_market partial."
     },
     {
       "id": "certivity",
@@ -1369,6 +1370,72 @@
       "source_url": "https://www.origamirisk.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "checkfile-ai",
+      "name": "CheckFile.ai",
+      "url": "https://www.checkfile.ai/",
+      "segments": [
+        "compliance-to-spec",
+        "kyc-aml",
+        "document-idp"
+      ],
+      "description": "Validation documentaire IA pour KYC/AML et conformité DORA : extraction, détection fraude, audit trail 5 ans, hébergement UE.",
+      "capabilities": [
+        "document_validation",
+        "kyc_aml",
+        "dora_audit_trail",
+        "api_webhooks",
+        "fraud_detection"
+      ],
+      "pricing_model": "per_document",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
+      "source_url": "https://www.checkfile.ai/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "pricing_notes": "Usage-based ~0,30 €/fichier ; plans Starter 100/mois, Business 500/mois, Enterprise sur devis (consulté 2026-06-23).",
+      "notes": "Concurrent omis en revue idée 0029 — clone direct du positionnement RecordAI KYC lite DORA."
+    },
+    {
+      "id": "verifypdf",
+      "name": "VerifyPDF",
+      "url": "https://verifypdf.com/",
+      "segments": [
+        "compliance-to-spec",
+        "document-idp"
+      ],
+      "description": "Détection de documents PDF falsifiés ou générés par IA ; scoring risque et piste d'audit pour due diligence documentaire (DORA tiers TIC).",
+      "capabilities": [
+        "pdf_fraud_detection",
+        "audit_trail",
+        "api",
+        "dora_third_party"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
+      "source_url": "https://verifypdf.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "pricing_notes": "Basic 19 $/mois (150 docs), Professional 99 $/mois (1000 docs, API) ; essai 15 jours (consulté 2026-06-23).",
+      "notes": "Angle fraude documentaire / DORA prestataires tiers — complète CheckFile sur l'intégrité PDF."
     }
   ]
 }

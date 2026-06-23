@@ -348,20 +348,21 @@
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 12,
-          "new_added": 2,
-          "pass": "2026-06-v5q-recordai-chain-l3",
+          "candidates_found": 3,
+          "new_added": 0,
+          "pass": "2026-06-v6-pilot-compliance-procurement",
           "cumulative_new": 8
         },
         "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 14,
-          "new_added": 5,
-          "pass": "2026-06-v5b-compliance-to-spec"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 4,
+          "new_added": 2,
+          "pass": "2026-06-v6-pilot-compliance-procurement",
+          "cumulative_new": 7
         }
       },
-      "last_pass": "2026-06-v5q-recordai-chain-l3",
-      "vendor_count_after_pass": 46
+      "last_pass": "2026-06-v6-pilot-compliance-procurement",
+      "vendor_count_after_pass": 48
     },
     "accessibility-compliance": {
       "target_level": "L3",
@@ -543,13 +544,13 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 10,
+          "candidates_found": 2,
           "new_added": 1,
-          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
-          "cumulative_new": 2
+          "pass": "2026-06-v6-pilot-compliance-procurement",
+          "cumulative_new": 3
         }
       },
-      "last_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "last_pass": "2026-06-v6-pilot-compliance-procurement",
       "vendor_count_after_pass": 25
     },
     "pharma-regulatory": {
@@ -3613,7 +3614,7 @@
       "vendor_count_after_pass": 18
     },
     "public-procurement-intel": {
-      "target_level": "L2",
+      "target_level": "L3",
       "sources": {
         "g2": {
           "consulted_at": "2026-06-22",
@@ -3634,7 +3635,13 @@
           "new_added": 1,
           "pass": "2026-06-v5d-france-intl"
         },
-        "analyst_report": null,
+        "analyst_report": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
+          "new_added": 0,
+          "pass": "2026-06-v6-pilot-compliance-procurement",
+          "cumulative_new": 0
+        },
         "alternatives": {
           "consulted_at": "2026-06-22",
           "candidates_found": 5,
@@ -3649,21 +3656,21 @@
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 10,
-          "new_added": 1,
-          "pass": "2026-06-v5u-fill-last4",
+          "candidates_found": 5,
+          "new_added": 0,
+          "pass": "2026-06-v6-pilot-compliance-procurement",
           "cumulative_new": 6
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 25,
-          "new_added": 3,
-          "pass": "2026-06-v5u-fill-last4",
-          "cumulative_new": 9
+          "candidates_found": 8,
+          "new_added": 4,
+          "pass": "2026-06-v6-pilot-compliance-procurement",
+          "cumulative_new": 13
         }
       },
-      "last_pass": "2026-06-v5u-fill-last4",
-      "vendor_count_after_pass": 20
+      "last_pass": "2026-06-v6-pilot-compliance-procurement",
+      "vendor_count_after_pass": 24
     },
     "territorial-analytics": {
       "target_level": "L2",

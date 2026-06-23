@@ -9,17 +9,19 @@
       "segments": [
         "public-procurement-intel"
       ],
-      "description": "Veille et analyse marchés publics français assistée IA.",
+      "description": "Veille et analyse marchés publics FR/EU : BOAMP, TED, DECP 10M+ contrats, scoring IA et benchmark prix.",
       "capabilities": [
         "ao_monitoring",
-        "france",
-        "ai_analysis"
+        "decp_benchmark",
+        "dce_analysis",
+        "ai_analysis",
+        "france"
       ],
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "france",
       "source_url": "https://marchespublics.ai/",
-      "source_consulted_at": "2026-06-22",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "notes": "Concurrent cité dans revue idée 0001 du dépôt.",
       "hq_country": "FR",
@@ -28,7 +30,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
+      "pricing_notes": "Compte gratuit ; tarifs payants non affichés publiquement (consulté 2026-06-23)."
     },
     {
       "id": "maitre-ao",
@@ -37,18 +40,21 @@
       "segments": [
         "public-procurement-intel"
       ],
-      "description": "Plateforme veille appels d'offres publics France.",
+      "description": "Plateforme IA marchés publics FR : veille 20 plateformes, analyse DCE Go/No-Go, intelligence attribution DECP (82k+ titulaires), mémoires techniques.",
       "capabilities": [
         "ao_alerts",
-        "france",
-        "tenders"
+        "dce_analysis",
+        "decp_intelligence",
+        "memoire_technique",
+        "attribution_analytics",
+        "france"
       ],
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "france",
-      "source_url": "https://www.maitre-ao.fr/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.maitre-ao.fr/fr/tarifs",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "notes": "Concurrent cité dans revue idée 0001.",
       "hq_country": "FR",
       "france_market": "strong",
@@ -56,7 +62,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
+      "pricing_notes": "Découverte 0 € ; Starter 39 €/mois ; Pro 79 €/mois ; Max 199 €/mois ; intelligence DECP incluse dès Starter (consulté 2026-06-23)."
     },
     {
       "id": "aws-boamp",
@@ -331,12 +338,14 @@
       "segments": [
         "public-procurement-intel"
       ],
-      "description": "Veille marchés publics IA ; alertes BOAMP/DECP, analyse cahiers des charges et matching opportunités.",
+      "description": "Suite IA réponse AO : analyse DCE <2 min, mémoire technique, gestion co-traitants ; observatoire attribution DECP (13k+ acheteurs).",
       "capabilities": [
-        "ao_monitoring",
-        "decp",
-        "ai_analysis",
-        "alerts"
+        "dce_analysis",
+        "go_nogo",
+        "memoire_technique",
+        "cotraitants",
+        "attribution_observatory",
+        "france"
       ],
       "pricing_model": "hybrid",
       "target_market": "smb",
@@ -348,11 +357,12 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
-      "source_url": "https://nextend.ai/",
+      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
+      "source_url": "https://nextend.ai/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Concurrent cité idée 0001."
+      "verification_status": "verified",
+      "notes": "Concurrent cité idée 0001.",
+      "pricing_notes": "Gratuit ; Pro 150 €/mois (5000 crédits IA) ; Business 250 €/mois ; à la carte dès 50 € (consulté 2026-06-23)."
     },
     {
       "id": "doubletrade",
@@ -580,6 +590,124 @@
       "source_url": "https://www.marchesonline.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "tenderbolt-ai",
+      "name": "Tenderbolt AI",
+      "url": "https://www.tenderbolt.ai/fr",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Logiciel IA français d'analyse DCE et rédaction de mémoires techniques pour marchés publics et RFP ; hébergement Europe SOC2/ISO 27001.",
+      "capabilities": [
+        "dce_analysis",
+        "memoire_technique",
+        "go_nogo",
+        "france_public_procurement"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
+      "source_url": "https://www.tenderbolt.ai/fr/solutions/public",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Citée en comparaison par Maître AO ; fondée 2024 Paris."
+    },
+    {
+      "id": "iziao",
+      "name": "IZIAO",
+      "url": "https://www.iziao.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Plateforme hybride IA + experts pour répondre aux marchés publics : analyse GO/NO-GO gratuite, réponse clé en main, dépôt sur plateformes acheteurs.",
+      "capabilities": [
+        "dce_analysis",
+        "memoire_technique",
+        "admin_forms",
+        "deposit_platforms",
+        "hybrid_service"
+      ],
+      "pricing_model": "per_outcome",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
+      "source_url": "https://www.iziao.fr/repondre-aux-marches-publics-tarifs",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "pricing_notes": "Crédits 0,10 € HT/unité ; packs Essentiel 350 € HT (3500 cr.), Expert 600 € HT, Sérénité 800 € HT ; 0 % engagement (consulté 2026-06-23)."
+    },
+    {
+      "id": "alertoffres",
+      "name": "AlertOffres",
+      "url": "https://alertoffres.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille marchés publics FR avec crédits IA : recherche AO, alertes email, accès DCE, export Excel et assistants de réponse.",
+      "capabilities": [
+        "ao_monitoring",
+        "ai_credits",
+        "dce_access",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
+      "source_url": "https://alertoffres.fr/tarifs",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "pricing_notes": "Gratuit 0 € ; Pro 29,99 € HT/mois (50 crédits IA) ; Expert 44,99 € HT/mois (100 crédits) (consulté 2026-06-23).",
+      "notes": "Concurrent veille cité en analyse idée 0001/0008."
+    },
+    {
+      "id": "publikconnect",
+      "name": "PublikConnect",
+      "url": "https://publikconnect.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille et alertes appels d'offres publics pour TPE/PME françaises ; filtres métier et notifications.",
+      "capabilities": [
+        "ao_alerts",
+        "france",
+        "smb_veille"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
+      "source_url": "https://publikconnect.fr/tarifs",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "pricing_notes": "À partir de 49 €/mois (citée idée 0001 ; tarifs à reconfirmer sur site)."
     }
   ]
 }
