@@ -119,7 +119,7 @@ Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vend
 
 #### Segment `compliance-to-spec` — Réglementation → spec produit
 
-Fichier : [`catalogue-saas/vendors/compliance-to-spec.json`](../../catalogue-saas/vendors/compliance-to-spec.json) (48 entrées)
+Fichier : [`catalogue-saas/vendors/compliance-to-spec.json`](../../catalogue-saas/vendors/compliance-to-spec.json) (51 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -135,7 +135,7 @@ Fichier : [`catalogue-saas/vendors/compliance-to-spec.json`](../../catalogue-saa
 | `anecdotes` | Anecdotes | US | partial | verified |
 | `scrut-automation` | Scrut Automation | IN | absent | partial |
 | `thoropass` | Thoropass | US | partial | partial |
-| … | _+36 autres_ | | | |
+| … | _+39 autres_ | | | |
 
 #### Segment `automation-platforms` — Automatisation no-code / iPaaS
 
@@ -159,7 +159,7 @@ Fichier : [`catalogue-saas/vendors/automation-platforms.json`](../../catalogue-s
 
 #### Segment `kyc-aml` — KYC / AML / identity
 
-Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/kyc-aml.json) (25 entrées)
+Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/kyc-aml.json) (27 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -175,7 +175,7 @@ Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/k
 | `trulioo` | Trulioo | CA | partial | partial |
 | `alloy` | Alloy | US | partial | verified |
 | `dotfile` | Dotfile | FR | strong | verified |
-| … | _+13 autres_ | | | |
+| … | _+15 autres_ | | | |
 
 Commandes :
 ```bash

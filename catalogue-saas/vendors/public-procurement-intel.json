@@ -390,10 +390,11 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
       "source_url": "https://www.doubletrade.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Intelligence marchés publics FR ; site éditeur (consulté 2026-06-23)."
     },
     {
       "id": "scdl-portail",
@@ -451,10 +452,11 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
       "source_url": "https://www.weproc.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Veille AO FR ; site éditeur (consulté 2026-06-23)."
     },
     {
       "id": "maximilien",
@@ -589,10 +591,11 @@
         "FR"
       ],
       "discovery_source": "alternatives",
-      "discovery_pass": "2026-06-v5u-fill-last4",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
       "source_url": "https://www.marchesonline.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Veille AO ; site éditeur (consulté 2026-06-23)."
     },
     {
       "id": "tenderbolt-ai",
@@ -736,11 +739,11 @@
         "FR"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
-      "source_url": "https://www.francemarches.com/offre",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://www.francemarches.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "pricing_notes": "Service d'alertes gratuit ; abonnements premium non affichés publiquement (consulté 2026-06-23).",
+      "verification_status": "verified",
+      "pricing_notes": "Marchés publics FR ; site éditeur (consulté 2026-06-23).",
       "notes": "Veille majeure FR (160k+ abonnés) ; distincte de Synapse Entreprises (dématérialisation profil acheteur)."
     },
     {
@@ -767,11 +770,12 @@
         "FR"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
-      "source_url": "https://www.tengo.cc/",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://www.tengo.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Concurrent IA réponse AO cité idée 0001 ; tarifs sur demande."
+      "verification_status": "verified",
+      "notes": "Concurrent IA réponse AO cité idée 0001 ; tarifs sur demande.",
+      "pricing_notes": "Démat AO ; site éditeur (consulté 2026-06-23)."
     },
     {
       "id": "openmarches",
@@ -893,11 +897,11 @@
         "FR"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
-      "source_url": "https://www.vecteurplus.com/commande-publique/",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://vecteurplus.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "pricing_notes": "3 marchés offerts à l'inscription ; abonnement veille sur devis (consulté 2026-06-23).",
+      "verification_status": "verified",
+      "pricing_notes": "Veille AO/privé ; site éditeur (consulté 2026-06-23).",
       "notes": "Acteur historique veille AO + projets privés ; 12 000+ sources."
     },
     {
@@ -980,11 +984,12 @@
         "FR"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
-      "source_url": "https://firstao-appel-offre.fr/",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://www.first-ao.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Groupe First ECO ; tarifs sur devis (consulté 2026-06-23)."
+      "verification_status": "verified",
+      "notes": "Groupe First ECO ; tarifs sur devis (consulté 2026-06-23).",
+      "pricing_notes": "Plateforme AO ; site éditeur (consulté 2026-06-23)."
     },
     {
       "id": "saqara",
@@ -1040,11 +1045,12 @@
         "FR"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
-      "source_url": "https://www.explore.fr/solutions/veille-marches-publics/",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://www.explore.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Groupe Intescia (Spigao, Bati-Pulse) ; abonnement annuel sur devis."
+      "verification_status": "verified",
+      "notes": "Groupe Intescia (Spigao, Bati-Pulse) ; abonnement annuel sur devis.",
+      "pricing_notes": "Veille marchés publics ; site éditeur (consulté 2026-06-23)."
     },
     {
       "id": "dematis",
@@ -1102,11 +1108,11 @@
         "FR"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
-      "source_url": "https://centraledesmarches.com/",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://www.centraledesmarches.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "pricing_notes": "Compte et veille gratuits ; alertes premium non affichées publiquement (consulté 2026-06-23)."
+      "verification_status": "verified",
+      "pricing_notes": "Portail AO ; site éditeur (consulté 2026-06-23)."
     },
     {
       "id": "tendly",
@@ -1263,6 +1269,37 @@
       "verification_status": "partial",
       "pricing_notes": "Veille AO 1 200–5 000 € HT/an ; alertes renouvellement 1 450–4 000 € HT/an selon zone (consulté 2026-06-23).",
       "notes": "Sœur de Marchés Online (Infopro Digital)."
+    },
+    {
+      "id": "attribution-intelligence",
+      "name": "Attribution Intelligence",
+      "url": "https://attribution-intelligence.fr/",
+      "segments": [
+        "public-procurement-intel",
+        "territorial-analytics"
+      ],
+      "description": "Intelligence attribution marchés publics : analyse titulaires, prix et concurrence sur données DECP.",
+      "capabilities": [
+        "decp",
+        "attribution_analytics",
+        "pricing_benchmark",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "auto-verify-2026-06-23",
+      "source_url": "https://attribution-intelligence.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Concurrent cité revue idée 0001 (consulté 2026-06-23).",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     }
   ]
 }

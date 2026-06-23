@@ -113,7 +113,7 @@ Le seed (SIRENE + BODACC + DECP + RGE + dirigeants → scoring fournisseur) est 
 
 #### Segment `kyc-aml` — KYC / AML / identity
 
-Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/kyc-aml.json) (25 entrées)
+Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/kyc-aml.json) (27 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -129,7 +129,7 @@ Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/k
 | `trulioo` | Trulioo | CA | partial | partial |
 | `alloy` | Alloy | US | partial | verified |
 | `dotfile` | Dotfile | FR | strong | verified |
-| … | _+13 autres_ | | | |
+| … | _+15 autres_ | | | |
 
 #### Segment `data-enrichment-b2b` — Enrichissement données B2B
 
