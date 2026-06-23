@@ -29,7 +29,7 @@ santé.
 
 #### Segment `environmental-data-fr` — Environnement & risques FR
 
-Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-saas/vendors/environmental-data-fr.json) (9 entrées)
+Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-saas/vendors/environmental-data-fr.json) (16 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -42,6 +42,10 @@ Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-
 | `eea-europe` | European Environment Agency | EU | partial | partial |
 | `copernicus-land` | Copernicus Land Monitoring | EU | partial | partial |
 | `us-epa-envirofacts` | US EPA Envirofacts | US | absent | partial |
+| `sandre` | Sandre | FR | strong | partial |
+| `drias-climat` | DRIAS — Futurs climatiques | FR | strong | partial |
+| `basol` | BASOL — Sites et sols pollués | FR | strong | partial |
+| … | _+4 autres_ | | | |
 
 #### Segment `public-health-territory-fr` — Santé territoriale FR
 

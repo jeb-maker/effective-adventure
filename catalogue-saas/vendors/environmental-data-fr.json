@@ -1,6 +1,6 @@
 {
   "segment": "environmental-data-fr",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "atmo-france",
@@ -255,6 +255,211 @@
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
       "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "sandre",
+      "name": "Sandre",
+      "url": "https://www.sandre.eaufrance.fr/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Référentiel national eau ; nomenclatures, dictionnaires et services d'échange données hydrologiques.",
+      "capabilities": [
+        "water",
+        "referentiel",
+        "nomenclatures",
+        "api"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.sandre.eaufrance.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "drias-climat",
+      "name": "DRIAS — Futurs climatiques",
+      "url": "https://www.drias-climat.fr/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Portail projections climatiques France ; scénarios aléas (précipitations, températures) pour adaptation.",
+      "capabilities": [
+        "climate_projections",
+        "scenarios",
+        "adaptation",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.drias-climat.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0024."
+    },
+    {
+      "id": "basol",
+      "name": "BASOL — Sites et sols pollués",
+      "url": "https://www.georisques.gouv.fr/donnees/basol",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Base sites et sols pollués ; anciens sites industriels et contamination pour due diligence foncière.",
+      "capabilities": [
+        "polluted_sites",
+        "soil",
+        "industrial",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.georisques.gouv.fr/donnees/basol",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gaspar",
+      "name": "GASPAR — Risques majeurs",
+      "url": "https://www.georisques.gouv.fr/donnees/gaspar",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Informations administratives risques majeurs ; PPRN, communes exposées et documents réglementaires.",
+      "capabilities": [
+        "natural_risks",
+        "pprn",
+        "communes",
+        "regulatory"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.georisques.gouv.fr/donnees/gaspar",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "prevair",
+      "name": "PREV'AIR",
+      "url": "https://www.prevair.org/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Prévision qualité air France ; modélisation polluants, cartes prévisionnelles et indices AQI.",
+      "capabilities": [
+        "air_quality",
+        "forecast",
+        "modeling",
+        "aqi"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.prevair.org/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "atlas-risques-naturels",
+      "name": "Atlas national des risques naturels",
+      "url": "https://www.georisques.gouv.fr/risques/risques-naturels",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Cartographie nationale aléas naturels ; inondations, séismes, mouvements terrain et retrait-gonflement argiles.",
+      "capabilities": [
+        "natural_hazards",
+        "flood",
+        "seismic",
+        "rga",
+        "mapping"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.georisques.gouv.fr/risques/risques-naturels",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "eau-france",
+      "name": "EauFrance",
+      "url": "https://www.eaufrance.fr/",
+      "segments": [
+        "environmental-data-fr"
+      ],
+      "description": "Portail information eau ; état ressources, nappes, rivières et indicateurs qualité par bassin.",
+      "capabilities": [
+        "water_resources",
+        "groundwater",
+        "rivers",
+        "quality_indicators"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.eaufrance.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

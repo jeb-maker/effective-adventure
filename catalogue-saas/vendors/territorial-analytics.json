@@ -1,6 +1,6 @@
 {
   "segment": "territorial-analytics",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "datagouv",
@@ -233,6 +233,303 @@
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
       "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "smappen",
+      "name": "Smappen",
+      "url": "https://www.smappen.com/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Géomarketing SaaS ; isochrones, zones de chalandise, démographie INSEE et études implantation.",
+      "capabilities": [
+        "geomarketing",
+        "isochrones",
+        "catchment",
+        "insee"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.smappen.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idées 0006/0028."
+    },
+    {
+      "id": "geomarket",
+      "name": "Geomarket",
+      "url": "https://www.geomarket.one/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Études d'implantation commerciale ; concurrence SIRENE, pouvoir d'achat et zones ELM franchise.",
+      "capabilities": [
+        "implantation",
+        "sirene",
+        "elm",
+        "franchise"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.geomarket.one/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0006."
+    },
+    {
+      "id": "data-b",
+      "name": "Data-B",
+      "url": "https://www.data-b.fr/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Intelligence territoriale B2B ; flux piéton, concurrence locale et scoring emplacement commercial.",
+      "capabilities": [
+        "footfall",
+        "local_competition",
+        "scoring",
+        "b2b"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.data-b.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idées 0006/0028."
+    },
+    {
+      "id": "vigicite",
+      "name": "VigiCité",
+      "url": "https://www.vigicite.fr/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Observatoire territorial collectivités ; indicateurs locaux, tableaux de bord et benchmarking inter-villes.",
+      "capabilities": [
+        "observatoire",
+        "collectivites",
+        "benchmark",
+        "dashboards"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.vigicite.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "localnova",
+      "name": "LocalNova",
+      "url": "https://www.localnova-finance-publique.fr/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Analytics finances locales ; budgets, dette et indicateurs EPCI/collectivités pour décideurs publics.",
+      "capabilities": [
+        "finances_locales",
+        "budget",
+        "epci",
+        "benchmark"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.localnova-finance-publique.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "galigeo",
+      "name": "Galigeo",
+      "url": "https://www.galigeo.com/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Géomarketing et études territoriales ; cartographie concurrence, flux et potentiel commercial.",
+      "capabilities": [
+        "geomarketing",
+        "cartography",
+        "commercial_potential",
+        "studies"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.galigeo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "insee-portrait-commune",
+      "name": "INSEE — Portrait de commune",
+      "url": "https://www.insee.fr/fr/statistiques/2017499",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Statistiques communales officielles ; démographie, emploi, logement et revenus par territoire.",
+      "capabilities": [
+        "official_statistics",
+        "commune",
+        "demography",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.insee.fr/fr/statistiques/2017499",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "place-statistiques-locales",
+      "name": "Place des statistiques locales",
+      "url": "https://www.insee.fr/fr/outil-interactif/7134178",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Outil interactif INSEE ; comparaison indicateurs territoriaux entre communes et EPCI.",
+      "capabilities": [
+        "insee",
+        "comparative_stats",
+        "local",
+        "interactive"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.insee.fr/fr/outil-interactif/7134178",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "france-travail-emploi-territoire",
+      "name": "France Travail — Emploi par territoire",
+      "url": "https://www.francetravail.org/statistiques-analyses/",
+      "segments": [
+        "territorial-analytics",
+        "hr-talent-ai"
+      ],
+      "description": "Statistiques marché du travail ; demandeurs d'emploi, offres et tension par métier/commune.",
+      "capabilities": [
+        "labour_market",
+        "employment_stats",
+        "territory",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.francetravail.org/statistiques-analyses/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0028."
+    },
+    {
+      "id": "dares-emploi",
+      "name": "DARES — Données emploi",
+      "url": "https://dares.travail-emploi.gouv.fr/",
+      "segments": [
+        "territorial-analytics",
+        "hr-talent-ai"
+      ],
+      "description": "Statistiques emploi ministère Travail ; séries territoriales, métiers en tension et analyses sectorielles.",
+      "capabilities": [
+        "employment_data",
+        "territorial",
+        "labour_tension",
+        "official"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://dares.travail-emploi.gouv.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0028."
     }
   ]
 }

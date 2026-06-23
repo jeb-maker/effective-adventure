@@ -34,7 +34,7 @@ sur une niche très précise.
 
 #### Segment `real-estate-proptech` — Immobilier & proptech
 
-Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-saas/vendors/real-estate-proptech.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-saas/vendors/real-estate-proptech.json) (15 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -43,10 +43,18 @@ Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-s
 | `procore` | Procore | US | partial | partial |
 | `matera` | Matera | FR | strong | partial |
 | `pricehubble` | PriceHubble | CH | partial | partial |
+| `scanreno` | ScanReno | FR | strong | partial |
+| `powimo` | Powimo | FR | strong | partial |
+| `egide-copro` | EGIDE Copro | FR | strong | partial |
+| `copro-solutions` | CoproSolutions | FR | strong | partial |
+| `bdnb` | BDNB (CSTB) | FR | strong | partial |
+| `kel-foncier` | Kel Foncier | FR | strong | partial |
+| `deepki` | Deepki | FR | strong | partial |
+| … | _+3 autres_ | | | |
 
 #### Segment `geospatial-gis-fr` — Géospatial & carto FR
 
-Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas/vendors/geospatial-gis-fr.json) (9 entrées)
+Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas/vendors/geospatial-gis-fr.json) (16 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -59,10 +67,14 @@ Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas
 | `esri-arcgis` | Esri ArcGIS | US | partial | partial |
 | `mapbox` | Mapbox | US | partial | partial |
 | `here-technologies` | HERE Technologies | NL | partial | partial |
+| `geoperso` | GÉOPERSO | FR | strong | partial |
+| `makina-corpus` | Makina Corpus | FR | strong | partial |
+| `geoportail-urbanisme` | Géoportail de l'urbanisme (GPU) | FR | strong | partial |
+| … | _+4 autres_ | | | |
 
 #### Segment `document-idp` — IDP & extraction documentaire
 
-Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vendors/document-idp.json) (32 entrées)
+Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vendors/document-idp.json) (48 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -78,7 +90,7 @@ Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vend
 | `snapparse` | Snapparse | unknown | unknown | verified |
 | `iteration-layer` | Iteration Layer | US | partial | verified |
 | `docld` | DocLD | unknown | unknown | verified |
-| … | _+20 autres_ | | | |
+| … | _+36 autres_ | | | |
 
 Commandes :
 ```bash

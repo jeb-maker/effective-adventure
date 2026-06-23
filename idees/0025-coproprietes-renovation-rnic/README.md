@@ -98,7 +98,7 @@ concurrentes. Niche étroite.
 
 #### Segment `energy-buildings-fr` — Bâtiments & énergie FR
 
-Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-saas/vendors/energy-buildings-fr.json) (9 entrées)
+Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-saas/vendors/energy-buildings-fr.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -111,10 +111,14 @@ Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-sa
 | `building-performance-database` | Building Performance Database (US DOE) | US | absent | partial |
 | `dena-gebaeudedaten` | dena — Gebäudedaten (DE) | DE | unknown | partial |
 | `gridx-energy` | gridX | DE | partial | partial |
+| `hellowatt` | Hello Watt | FR | strong | partial |
+| `enoptea` | Enoptea | FR | strong | partial |
+| `cantine-energetique` | Cantine Énergétique | FR | strong | partial |
+| … | _+6 autres_ | | | |
 
 #### Segment `real-estate-proptech` — Immobilier & proptech
 
-Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-saas/vendors/real-estate-proptech.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-saas/vendors/real-estate-proptech.json) (15 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -123,6 +127,14 @@ Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-s
 | `procore` | Procore | US | partial | partial |
 | `matera` | Matera | FR | strong | partial |
 | `pricehubble` | PriceHubble | CH | partial | partial |
+| `scanreno` | ScanReno | FR | strong | partial |
+| `powimo` | Powimo | FR | strong | partial |
+| `egide-copro` | EGIDE Copro | FR | strong | partial |
+| `copro-solutions` | CoproSolutions | FR | strong | partial |
+| `bdnb` | BDNB (CSTB) | FR | strong | partial |
+| `kel-foncier` | Kel Foncier | FR | strong | partial |
+| `deepki` | Deepki | FR | strong | partial |
+| … | _+3 autres_ | | | |
 
 Commandes :
 ```bash

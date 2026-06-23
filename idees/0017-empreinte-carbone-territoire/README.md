@@ -127,7 +127,7 @@ Fichier : [`catalogue-saas/vendors/esg-csrd.json`](../../catalogue-saas/vendors/
 
 #### Segment `environmental-data-fr` — Environnement & risques FR
 
-Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-saas/vendors/environmental-data-fr.json) (9 entrées)
+Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-saas/vendors/environmental-data-fr.json) (16 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -140,10 +140,14 @@ Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-
 | `eea-europe` | European Environment Agency | EU | partial | partial |
 | `copernicus-land` | Copernicus Land Monitoring | EU | partial | partial |
 | `us-epa-envirofacts` | US EPA Envirofacts | US | absent | partial |
+| `sandre` | Sandre | FR | strong | partial |
+| `drias-climat` | DRIAS — Futurs climatiques | FR | strong | partial |
+| `basol` | BASOL — Sites et sols pollués | FR | strong | partial |
+| … | _+4 autres_ | | | |
 
 #### Segment `energy-buildings-fr` — Bâtiments & énergie FR
 
-Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-saas/vendors/energy-buildings-fr.json) (9 entrées)
+Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-saas/vendors/energy-buildings-fr.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -156,6 +160,10 @@ Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-sa
 | `building-performance-database` | Building Performance Database (US DOE) | US | absent | partial |
 | `dena-gebaeudedaten` | dena — Gebäudedaten (DE) | DE | unknown | partial |
 | `gridx-energy` | gridX | DE | partial | partial |
+| `hellowatt` | Hello Watt | FR | strong | partial |
+| `enoptea` | Enoptea | FR | strong | partial |
+| `cantine-energetique` | Cantine Énergétique | FR | strong | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash

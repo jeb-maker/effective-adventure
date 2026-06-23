@@ -2286,11 +2286,11 @@
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
           "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 4
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -2300,18 +2300,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 2
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 2
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -2321,7 +2321,13 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "open_source": null,
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
+          "new_added": 5,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 5
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 8,
@@ -2330,8 +2336,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 4
+      "last_pass": "2026-06-v5k-territoire-idees",
+      "vendor_count_after_pass": 14
     },
     "payroll-hris": {
       "target_level": "L2",
@@ -2562,11 +2568,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 2
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -2576,17 +2582,23 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "open_source": null,
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 18,
+          "new_added": 8,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 8
+        },
         "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
+          "new_added": 2,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 3
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5k-territoire-idees",
+      "vendor_count_after_pass": 15
     },
     "insurance-insurtech": {
       "target_level": "L2",
@@ -3026,20 +3038,22 @@
           "pass": "2026-06-v5d-france-intl"
         },
         "geo_digest": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 12,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 10,
+          "new_added": 3,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 5
         },
         "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 4,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 6
         }
       },
-      "last_pass": "2026-06-v5d-france-intl",
-      "vendor_count_after_pass": 8
+      "last_pass": "2026-06-v5k-territoire-idees",
+      "vendor_count_after_pass": 15
     },
     "territorial-analytics": {
       "target_level": "L2",
@@ -3071,20 +3085,22 @@
           "pass": "2026-06-v5d-france-intl"
         },
         "geo_digest": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 12,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 20,
+          "new_added": 6,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 8
         },
         "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 4,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 6
         }
       },
-      "last_pass": "2026-06-v5d-france-intl",
-      "vendor_count_after_pass": 8
+      "last_pass": "2026-06-v5k-territoire-idees",
+      "vendor_count_after_pass": 18
     },
     "civic-tech-fr": {
       "target_level": "L2",
@@ -3161,20 +3177,22 @@
           "pass": "2026-06-v5d-france-intl"
         },
         "geo_digest": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 12,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "new_added": 4,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 6
         },
         "official_site": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "new_added": 3,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 5
         }
       },
-      "last_pass": "2026-06-v5d-france-intl",
-      "vendor_count_after_pass": 9
+      "last_pass": "2026-06-v5k-territoire-idees",
+      "vendor_count_after_pass": 16
     },
     "transport-mobility-data-fr": {
       "target_level": "L2",
@@ -3232,10 +3250,11 @@
         },
         "capterra": null,
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 6,
-          "new_added": 1,
-          "pass": "2026-06-v5d-france-intl"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 10,
+          "new_added": 2,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 3
         },
         "analyst_report": null,
         "alternatives": {
@@ -3251,20 +3270,22 @@
           "pass": "2026-06-v5d-france-intl"
         },
         "geo_digest": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 12,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 16,
+          "new_added": 6,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 8
         },
         "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 1,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 3
         }
       },
-      "last_pass": "2026-06-v5d-france-intl",
-      "vendor_count_after_pass": 9
+      "last_pass": "2026-06-v5k-territoire-idees",
+      "vendor_count_after_pass": 18
     },
     "environmental-data-fr": {
       "target_level": "L2",
@@ -3302,14 +3323,15 @@
           "pass": "2026-06-v5d-france-intl"
         },
         "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5d-france-intl"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
+          "new_added": 7,
+          "pass": "2026-06-v5k-territoire-idees",
+          "cumulative_new": 9
         }
       },
-      "last_pass": "2026-06-v5d-france-intl",
-      "vendor_count_after_pass": 9
+      "last_pass": "2026-06-v5k-territoire-idees",
+      "vendor_count_after_pass": 16
     },
     "electoral-data-fr": {
       "target_level": "L2",

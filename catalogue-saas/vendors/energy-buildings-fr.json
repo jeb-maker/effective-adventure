@@ -1,6 +1,6 @@
 {
   "segment": "energy-buildings-fr",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "openmeti",
@@ -256,6 +256,269 @@
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
       "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "hellowatt",
+      "name": "Hello Watt",
+      "url": "https://www.hellowatt.com/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Accompagnement rénovation énergétique B2B/B2C ; DPE, devis travaux et suivi performance bâtiments.",
+      "capabilities": [
+        "renovation",
+        "dpe",
+        "devis_travaux",
+        "b2b"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.hellowatt.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "enoptea",
+      "name": "Enoptea",
+      "url": "https://www.enoptea.com/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Gestion énergie tertiaire ; monitoring conso, alertes dérives et reporting décret tertiaire.",
+      "capabilities": [
+        "energy_management",
+        "tertiary",
+        "monitoring",
+        "decarbonation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.enoptea.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cantine-energetique",
+      "name": "Cantine Énergétique",
+      "url": "https://www.cantine-energetique.com/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "SaaS efficacité énergétique bâtiments ; audits, plans d'actions et suivi rénovation pour pros.",
+      "capabilities": [
+        "energy_audit",
+        "renovation",
+        "b2b",
+        "reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.cantine-energetique.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "welii",
+      "name": "Welii",
+      "url": "https://www.welii.fr/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Plateforme performance énergétique immobilier ; stratégie décarbonation et suivi KPI bâtiments.",
+      "capabilities": [
+        "decarbonation",
+        "energy_performance",
+        "real_estate",
+        "kpi"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.welii.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "homeys",
+      "name": "Homeys",
+      "url": "https://www.homeys.io/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Collecte et analyse données énergie bâtiments ; API compteurs, DPE et pilotage conso.",
+      "capabilities": [
+        "energy_data",
+        "api",
+        "meters",
+        "dpe"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.homeys.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "metron",
+      "name": "Metron",
+      "url": "https://www.metron.io/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Optimisation énergétique industrie et tertiaire ; EMS, analytics conso et réduction factures.",
+      "capabilities": [
+        "ems",
+        "energy_optimization",
+        "analytics",
+        "tertiary"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.metron.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "izybat",
+      "name": "IzyBat",
+      "url": "https://www.izybat.com/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Logiciel rénovation énergétique ; chiffrage travaux, DPE et suivi chantiers pour artisans et pros.",
+      "capabilities": [
+        "renovation",
+        "dpe",
+        "chiffrage",
+        "artisans"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.izybat.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "go-renove-pro",
+      "name": "Go Rénove PRO (BDNB)",
+      "url": "https://www.bdnb.io/services/gorenove/",
+      "segments": [
+        "energy-buildings-fr",
+        "real-estate-proptech"
+      ],
+      "description": "Service public CSTB : analyse parc bâtiments, tableaux de bord rénovation pour bailleurs et collectivités.",
+      "capabilities": [
+        "renovation",
+        "bdnb",
+        "parc_batiments",
+        "public_service"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.bdnb.io/services/gorenove/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0025."
+    },
+    {
+      "id": "streem-energy",
+      "name": "Streem",
+      "url": "https://www.streem.eu/",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "Audit énergétique digital ; modélisation 3D bâtiments, scénarios travaux et reporting DPE.",
+      "capabilities": [
+        "energy_audit",
+        "3d_modeling",
+        "dpe",
+        "renovation_scenarios"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.streem.eu/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

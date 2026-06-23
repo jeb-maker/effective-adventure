@@ -1,6 +1,6 @@
 {
   "segment": "geospatial-gis-fr",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "geofoncier",
@@ -259,6 +259,217 @@
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
       "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "geoperso",
+      "name": "GÉOPERSO",
+      "url": "https://www.geoperso.fr/",
+      "segments": [
+        "geospatial-gis-fr",
+        "environmental-data-fr"
+      ],
+      "description": "SIG foncier agricole ; RPG, AOC, zones humides, PLU et contraintes environnementales par parcelle.",
+      "capabilities": [
+        "rpg",
+        "foncier_agricole",
+        "plu",
+        "environmental_constraints"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.geoperso.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0026."
+    },
+    {
+      "id": "makina-corpus",
+      "name": "Makina Corpus",
+      "url": "https://makina-corpus.com/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Intégrateur SIG web ; applications Terravisu RPG×ICPE×Hub'Eau pour coopératives agricoles.",
+      "capabilities": [
+        "sig",
+        "webmapping",
+        "rpg",
+        "custom_apps"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://makina-corpus.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0026 (Terravisu)."
+    },
+    {
+      "id": "geoportail-urbanisme",
+      "name": "Géoportail de l'urbanisme (GPU)",
+      "url": "https://www.geoportail-urbanisme.gouv.fr/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Plateforme nationales PLU/SCOT ; WFS/WMS documents urbanisme et servitudes d'utilité publique.",
+      "capabilities": [
+        "plu",
+        "scot",
+        "wfs",
+        "urbanisme",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.geoportail-urbanisme.gouv.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0026."
+    },
+    {
+      "id": "geofolia",
+      "name": "Geofolia (Isagri)",
+      "url": "https://www.isagri.fr/geofolia/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Gestion parcellaire agricole ; cartographie assolements, IFT et alertes réglementaires phyto.",
+      "capabilities": [
+        "parcellaire",
+        "agriculture",
+        "ift",
+        "regulatory_alerts"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.isagri.fr/geofolia/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Adjacent idée 0026."
+    },
+    {
+      "id": "agreste-rpg",
+      "name": "Agreste — RPG open data",
+      "url": "https://www.data.gouv.fr/datasets/registre-parcellaire-graphique-agricole",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Registre parcellaire graphique ; cultures, îlots et surfaces agricoles métropole en open data.",
+      "capabilities": [
+        "rpg",
+        "agriculture",
+        "parcelles",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.data.gouv.fr/datasets/registre-parcellaire-graphique-agricole",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0026."
+    },
+    {
+      "id": "magellium",
+      "name": "Magellium",
+      "url": "https://www.magellium.com/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "ESN géomatique FR ; traitement images satellitaires, SIG et portails géographiques territoriaux.",
+      "capabilities": [
+        "geomatique",
+        "satellite",
+        "sig",
+        "territorial"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.magellium.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cadastre-etalab",
+      "name": "Cadastre Etalab",
+      "url": "https://cadastre.data.gouv.fr/",
+      "segments": [
+        "geospatial-gis-fr"
+      ],
+      "description": "Parcelles cadastrales vectorielles France ; jointures PCI/RPG et fonds cartographique open data.",
+      "capabilities": [
+        "cadastre",
+        "parcelles",
+        "pci",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://cadastre.data.gouv.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idées 0021/0026."
     }
   ]
 }

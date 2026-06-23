@@ -182,7 +182,7 @@ explicitement le seed ; plusieurs en produit B2G commercial self-service.
 
 #### Segment `public-procurement-intel` — Intelligence marchés publics
 
-Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalogue-saas/vendors/public-procurement-intel.json) (8 entrées)
+Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalogue-saas/vendors/public-procurement-intel.json) (15 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -194,6 +194,11 @@ Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalog
 | `spend-network` | Spend Network | GB | absent | partial |
 | `govwin-deltek` | GovWin (Deltek) | US | absent | partial |
 | `open-contracting-partnership` | Open Contracting Partnership | GB | unknown | partial |
+| `decp-info` | decp.info | FR | strong | partial |
+| `data-economie-gouv` | data.economie.gouv.fr | FR | strong | partial |
+| `openbar` | OpenBar (Regards Citoyens) | FR | strong | partial |
+| `nextend-ai` | Nextend.ai | FR | strong | partial |
+| … | _+3 autres_ | | | |
 
 #### Segment `spend-procurement` — Spend & procurement
 

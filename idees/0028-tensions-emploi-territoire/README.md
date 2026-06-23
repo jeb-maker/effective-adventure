@@ -78,7 +78,7 @@ data.gouv.fr (MàJ déc. 2025) ; accès nécessite inscription portail France Tr
 
 #### Segment `territorial-analytics` — Analytics territoriales
 
-Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (8 entrées)
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -90,10 +90,15 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 | `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
 | `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
 | `carto-territorial` | CARTO | ES | partial | partial |
+| `smappen` | Smappen | FR | strong | partial |
+| `geomarket` | Geomarket | FR | strong | partial |
+| `data-b` | Data-B | FR | strong | partial |
+| `vigicite` | VigiCité | FR | strong | partial |
+| … | _+6 autres_ | | | |
 
 #### Segment `hr-talent-ai` — RH & talent IA
 
-Fichier : [`catalogue-saas/vendors/hr-talent-ai.json`](../../catalogue-saas/vendors/hr-talent-ai.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/hr-talent-ai.json`](../../catalogue-saas/vendors/hr-talent-ai.json) (14 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -102,6 +107,14 @@ Fichier : [`catalogue-saas/vendors/hr-talent-ai.json`](../../catalogue-saas/vend
 | `hirevue` | HireVue | US | partial | partial |
 | `textio` | Textio | US | partial | partial |
 | `greenhouse` | Greenhouse | US | partial | partial |
+| `talentsoft` | Talentsoft (Cegid) | FR | strong | partial |
+| `lucca` | Lucca | FR | strong | partial |
+| `jobteaser` | JobTeaser | FR | strong | partial |
+| `beetween` | Beetween | FR | strong | partial |
+| `flatchr` | Flatchr | FR | strong | partial |
+| `welcom-hr` | Welcome to the Jungle (ATS) | FR | strong | partial |
+| `people-spheres` | PeopleSpheres | FR | strong | partial |
+| … | _+2 autres_ | | | |
 
 Commandes :
 ```bash

@@ -1,6 +1,6 @@
 {
   "segment": "hr-talent-ai",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "paradox-olivia",
@@ -141,6 +141,269 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.greenhouse.com/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "talentsoft",
+      "name": "Talentsoft (Cegid)",
+      "url": "https://www.talentsoft.com/fr/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "Suite RH cloud FR ; ATS, talent management, LMS et analytics emploi pour ETI/grands comptes.",
+      "capabilities": [
+        "ats",
+        "talent_management",
+        "lms",
+        "hr_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.talentsoft.com/fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lucca",
+      "name": "Lucca",
+      "url": "https://www.lucca.fr/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "Suite RH modulaire FR ; recrutement, absences, paie adjacente et workflows RH pour PME/ETI.",
+      "capabilities": [
+        "hris",
+        "recruitment",
+        "absences",
+        "workflows"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.lucca.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "jobteaser",
+      "name": "JobTeaser",
+      "url": "https://www.jobteaser.com/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "Plateforme recrutement jeunes talents ; ATS campus, marque employeur et diffusion offres écoles.",
+      "capabilities": [
+        "campus_recruiting",
+        "employer_branding",
+        "ats",
+        "young_talent"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.jobteaser.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "beetween",
+      "name": "Beetween",
+      "url": "https://www.beetween.com/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "ATS français ; multiposting, CRM candidats, scoring et workflows recrutement PME.",
+      "capabilities": [
+        "ats",
+        "multiposting",
+        "crm_candidates",
+        "scoring"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.beetween.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "flatchr",
+      "name": "Flatchr",
+      "url": "https://www.flatchr.io/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "ATS PME français ; diffusion offres, pipeline candidats et cooptation digitale.",
+      "capabilities": [
+        "ats",
+        "job_boards",
+        "referral",
+        "pipeline"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.flatchr.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "welcom-hr",
+      "name": "Welcome to the Jungle (ATS)",
+      "url": "https://www.welcometothejungle.com/fr/solutions/ats",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "ATS et marque employeur ; pages entreprise, diffusion offres et analytics recrutement.",
+      "capabilities": [
+        "ats",
+        "employer_branding",
+        "job_distribution",
+        "analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.welcometothejungle.com/fr/solutions/ats",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "people-spheres",
+      "name": "PeopleSpheres",
+      "url": "https://www.peoplespheres.com/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "Portail RH unifié ; ATS, onboarding et SIRH connectés pour mid-market français.",
+      "capabilities": [
+        "hr_portal",
+        "ats",
+        "onboarding",
+        "sirh"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.peoplespheres.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lightcast",
+      "name": "Lightcast (Emsi Burning Glass)",
+      "url": "https://lightcast.io/",
+      "segments": [
+        "hr-talent-ai",
+        "territorial-analytics"
+      ],
+      "description": "Intelligence marché du travail ; compétences, offres/demande par territoire et workforce planning.",
+      "capabilities": [
+        "labour_market_intel",
+        "skills",
+        "workforce_planning",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://lightcast.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Référence labour market intel citée idée 0028."
+    },
+    {
+      "id": "figures-hr",
+      "name": "Figures",
+      "url": "https://figures.hr/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "Benchmark rémunération tech/RH ; données salaires marché et analytics compensation France/EU.",
+      "capabilities": [
+        "compensation",
+        "salary_benchmark",
+        "analytics",
+        "tech"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://figures.hr/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]

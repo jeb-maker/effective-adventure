@@ -105,7 +105,7 @@ agricole » en libre-service — mais la demande solvable pour ce produit reste 
 
 #### Segment `geospatial-gis-fr` — Géospatial & carto FR
 
-Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas/vendors/geospatial-gis-fr.json) (9 entrées)
+Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas/vendors/geospatial-gis-fr.json) (16 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -118,10 +118,14 @@ Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas
 | `esri-arcgis` | Esri ArcGIS | US | partial | partial |
 | `mapbox` | Mapbox | US | partial | partial |
 | `here-technologies` | HERE Technologies | NL | partial | partial |
+| `geoperso` | GÉOPERSO | FR | strong | partial |
+| `makina-corpus` | Makina Corpus | FR | strong | partial |
+| `geoportail-urbanisme` | Géoportail de l'urbanisme (GPU) | FR | strong | partial |
+| … | _+4 autres_ | | | |
 
 #### Segment `environmental-data-fr` — Environnement & risques FR
 
-Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-saas/vendors/environmental-data-fr.json) (9 entrées)
+Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-saas/vendors/environmental-data-fr.json) (16 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -134,6 +138,10 @@ Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-
 | `eea-europe` | European Environment Agency | EU | partial | partial |
 | `copernicus-land` | Copernicus Land Monitoring | EU | partial | partial |
 | `us-epa-envirofacts` | US EPA Envirofacts | US | absent | partial |
+| `sandre` | Sandre | FR | strong | partial |
+| `drias-climat` | DRIAS — Futurs climatiques | FR | strong | partial |
+| `basol` | BASOL — Sites et sols pollués | FR | strong | partial |
+| … | _+4 autres_ | | | |
 
 Commandes :
 ```bash

@@ -85,7 +85,7 @@ jeu de données propre) plutôt que SaaS.
 
 #### Segment `public-procurement-intel` — Intelligence marchés publics
 
-Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalogue-saas/vendors/public-procurement-intel.json) (8 entrées)
+Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalogue-saas/vendors/public-procurement-intel.json) (15 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -97,10 +97,15 @@ Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalog
 | `spend-network` | Spend Network | GB | absent | partial |
 | `govwin-deltek` | GovWin (Deltek) | US | absent | partial |
 | `open-contracting-partnership` | Open Contracting Partnership | GB | unknown | partial |
+| `decp-info` | decp.info | FR | strong | partial |
+| `data-economie-gouv` | data.economie.gouv.fr | FR | strong | partial |
+| `openbar` | OpenBar (Regards Citoyens) | FR | strong | partial |
+| `nextend-ai` | Nextend.ai | FR | strong | partial |
+| … | _+3 autres_ | | | |
 
 #### Segment `territorial-analytics` — Analytics territoriales
 
-Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (8 entrées)
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -112,6 +117,11 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 | `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
 | `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
 | `carto-territorial` | CARTO | ES | partial | partial |
+| `smappen` | Smappen | FR | strong | partial |
+| `geomarket` | Geomarket | FR | strong | partial |
+| `data-b` | Data-B | FR | strong | partial |
+| `vigicite` | VigiCité | FR | strong | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash

@@ -1,6 +1,6 @@
 {
   "segment": "public-procurement-intel",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "marchespublics-ai",
@@ -231,6 +231,218 @@
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
       "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "decp-info",
+      "name": "decp.info",
+      "url": "https://decp.info/",
+      "segments": [
+        "public-procurement-intel",
+        "territorial-analytics"
+      ],
+      "description": "Interface exploration DECP ; recherche marchés par titulaire, acheteur, CPV et export tabulaire.",
+      "capabilities": [
+        "decp",
+        "exploration",
+        "titulaire",
+        "acheteur",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://decp.info/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Réutilisation data.gouv citée idées 0025/0027."
+    },
+    {
+      "id": "data-economie-gouv",
+      "name": "data.economie.gouv.fr",
+      "url": "https://data.economie.gouv.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Portail open data Économie ; jeux DECP, subventions et entreprises pour transparence marchés publics.",
+      "capabilities": [
+        "decp",
+        "subventions",
+        "open_data",
+        "portal"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://data.economie.gouv.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0027."
+    },
+    {
+      "id": "openbar",
+      "name": "OpenBar (Regards Citoyens)",
+      "url": "https://openbar.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Exploration subventions publiques ; bénéficiaires, montants et croisements RNA pour transparence.",
+      "capabilities": [
+        "subventions",
+        "beneficiaires",
+        "transparency",
+        "rna"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://openbar.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0027."
+    },
+    {
+      "id": "nextend-ai",
+      "name": "Nextend.ai",
+      "url": "https://nextend.ai/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille marchés publics IA ; alertes BOAMP/DECP, analyse cahiers des charges et matching opportunités.",
+      "capabilities": [
+        "ao_monitoring",
+        "decp",
+        "ai_analysis",
+        "alerts"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://nextend.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0001."
+    },
+    {
+      "id": "doubletrade",
+      "name": "DoubleTrade",
+      "url": "https://www.doubletrade.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Intelligence marchés publics FR ; veille AO, historique attributions et analytics acheteurs/titulaires.",
+      "capabilities": [
+        "ao_veille",
+        "decp",
+        "analytics",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.doubletrade.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "scdl-portail",
+      "name": "SCDL — Subventions de collectivités locales",
+      "url": "https://www.data.gouv.fr/datasets/subventions-de-collectivites-locales-aux-associations-et-entreprises",
+      "segments": [
+        "public-procurement-intel",
+        "territorial-analytics"
+      ],
+      "description": "Jeu national subventions collectivités ; croisement potentiel avec DECP par SIRET bénéficiaire.",
+      "capabilities": [
+        "scdl",
+        "subventions",
+        "collectivites",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.data.gouv.fr/datasets/subventions-de-collectivites-locales-aux-associations-et-entreprises",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0027."
+    },
+    {
+      "id": "weproc",
+      "name": "Weproc",
+      "url": "https://www.weproc.com/",
+      "segments": [
+        "public-procurement-intel",
+        "spend-procurement"
+      ],
+      "description": "SRM achats publics ; sourcing fournisseurs, conformité et veille marchés pour collectivités.",
+      "capabilities": [
+        "srm",
+        "public_buyers",
+        "sourcing",
+        "compliance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.weproc.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }
