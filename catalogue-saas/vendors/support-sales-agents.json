@@ -47,12 +47,12 @@
         "copilot"
       ],
       "pricing_model": "hybrid",
-      "pricing_notes": "Sièges $115-155/mo + add-on IA + ~$1.50/résolution automatisée.",
+      "pricing_notes": "Remplace helply.com/blog/per-seat-saas-pricing-dying listicle (consulté 2026-06-23).",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://helply.com/blog/per-seat-saas-pricing-dying",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.zendesk.com/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -60,7 +60,7 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data"
     },
     {
       "id": "salesforce-agentforce",
@@ -106,9 +106,9 @@
       "pricing_model": "per_outcome",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://sierra.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -116,7 +116,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace pickaxe.co listicle ; pricing enterprise sur devis (consulté 2026-06-23)."
     },
     {
       "id": "11x",
@@ -134,9 +135,9 @@
       "pricing_model": "per_outcome",
       "target_market": "mid_market",
       "geography": "global",
-      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.11x.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -144,7 +145,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace pickaxe.co/post/ai-agent-pricing-models listicle (consulté 2026-06-23)."
     },
     {
       "id": "pickaxe",
@@ -161,11 +163,11 @@
         "credits"
       ],
       "pricing_model": "hybrid",
-      "pricing_notes": "~$19/mo + crédits IA.",
+      "pricing_notes": "Remplace pickaxe.co/post/ai-agent-pricing-models listicle (consulté 2026-06-23).",
       "target_market": "self_serve",
       "geography": "global",
-      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://pickaxe.co/pricing",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "hq_country": "unknown",
       "france_market": "unknown",
@@ -174,7 +176,7 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data"
     },
     {
       "id": "ada",
@@ -221,9 +223,9 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://helply.com/blog/per-seat-saas-pricing-dying",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://forethought.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -231,7 +233,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace helply.com listicle (consulté 2026-06-23)."
     },
     {
       "id": "decagon",
@@ -249,9 +252,9 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://decagon.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -259,7 +262,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace pickaxe.co/post/ai-agent-pricing-models listicle (consulté 2026-06-23)."
     },
     {
       "id": "hubspot-breeze",
@@ -276,12 +280,12 @@
         "credits"
       ],
       "pricing_model": "hybrid",
-      "pricing_notes": "Crédits IA + composantes par résolution (marché 2026).",
+      "pricing_notes": "Remplace helply.com/blog/per-seat-saas-pricing-dying listicle (consulté 2026-06-23).",
       "target_market": "mid_market",
       "geography": "global",
-      "source_url": "https://helply.com/blog/per-seat-saas-pricing-dying",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.hubspot.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -289,7 +293,7 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data"
     },
     {
       "id": "freshworks-freddy",

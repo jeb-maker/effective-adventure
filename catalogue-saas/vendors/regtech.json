@@ -407,9 +407,9 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.diligent.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -417,7 +417,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23)."
     },
     {
       "id": "metricstream-reg",
@@ -436,9 +437,9 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.metricstream.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -446,7 +447,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23)."
     },
     {
       "id": "vixio",

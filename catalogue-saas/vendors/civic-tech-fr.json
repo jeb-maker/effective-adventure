@@ -522,6 +522,40 @@
       "source_url": "https://www.jalios.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "urbaa",
+      "name": "Urbaa.app",
+      "url": "https://urbaa.app/",
+      "segments": [
+        "civic-tech-fr",
+        "territorial-analytics",
+        "open-data-governance-fr"
+      ],
+      "description": "Copilote territorial open data : agrège et analyse des millions de données publiques de ~35 000 communes (immobilier, finances locales, démographie, sécurité, élections, cadre de vie) via IA conversationnelle et baromètres comparatifs.",
+      "capabilities": [
+        "commune_comparison",
+        "territorial_analytics",
+        "open_data",
+        "ai_copilot",
+        "elections",
+        "local_finance",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "source_url": "https://www.data.gouv.fr/reuses/urbaa-app",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Concurrent direct idée 0003 ; réutilisation data.gouv + site urbaa.app (consulté 2026-06-23)."
     }
   ]
 }

@@ -3758,14 +3758,14 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5r-france-thematic-l3",
-          "cumulative_new": 4
+          "candidates_found": 1,
+          "new_added": 1,
+          "pass": "2026-06-v6h-listicle-civic-open-data",
+          "cumulative_new": 5
         }
       },
-      "last_pass": "2026-06-v5r-france-thematic-l3",
-      "vendor_count_after_pass": 18
+      "last_pass": "2026-06-v6h-listicle-civic-open-data",
+      "vendor_count_after_pass": 19
     },
     "geospatial-gis-fr": {
       "target_level": "L3",
@@ -4094,14 +4094,14 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 14,
-          "new_added": 4,
-          "pass": "2026-06-v5r-france-thematic-l3",
-          "cumulative_new": 6
+          "candidates_found": 2,
+          "new_added": 2,
+          "pass": "2026-06-v6h-listicle-civic-open-data",
+          "cumulative_new": 8
         }
       },
-      "last_pass": "2026-06-v5r-france-thematic-l3",
-      "vendor_count_after_pass": 18
+      "last_pass": "2026-06-v6h-listicle-civic-open-data",
+      "vendor_count_after_pass": 20
     }
   }
 }

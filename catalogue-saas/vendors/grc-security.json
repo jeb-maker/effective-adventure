@@ -18,12 +18,12 @@
         "audit_readiness"
       ],
       "pricing_model": "hybrid",
-      "pricing_notes": "Abonnement par taille d'organisation ; frameworks en modules.",
+      "pricing_notes": "Remplace v-comply.com/blog/top-grc-software listicle (consulté 2026-06-23).",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://www.v-comply.com/blog/top-grc-software/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.vanta.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "unknown",
       "france_market": "unknown",
       "operating_regions": [
@@ -31,7 +31,7 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data"
     },
     {
       "id": "drata",
@@ -52,9 +52,9 @@
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://www.v-comply.com/blog/top-grc-software/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://drata.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "unknown",
       "france_market": "unknown",
       "operating_regions": [
@@ -62,7 +62,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace v-comply.com listicle ; pricing sur devis (consulté 2026-06-23)."
     },
     {
       "id": "onetrust",
@@ -254,9 +255,9 @@
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://www.v-comply.com/blog/top-grc-software/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://scytale.ai/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "unknown",
       "france_market": "unknown",
       "operating_regions": [
@@ -264,7 +265,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace v-comply.com/blog/top-grc-software listicle (consulté 2026-06-23)."
     },
     {
       "id": "servicenow-grc",
@@ -284,9 +286,9 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://www.modulos.ai/best-ai-governance-platforms/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.servicenow.com/products/governance-risk-and-compliance.html",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -294,7 +296,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace modulos.ai/best-ai-governance listicle (consulté 2026-06-23)."
     },
     {
       "id": "ibm-openpages",
@@ -314,9 +317,9 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://www.modulos.ai/best-ai-governance-platforms/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.ibm.com/products/openpages",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -324,7 +327,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace modulos.ai/best-ai-governance listicle (consulté 2026-06-23)."
     },
     {
       "id": "navex",
@@ -343,9 +347,9 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.navex.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -353,7 +357,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23)."
     },
     {
       "id": "vcomply",
@@ -372,8 +377,8 @@
       "pricing_model": "hybrid",
       "target_market": "mid_market",
       "geography": "global",
-      "source_url": "https://www.v-comply.com/blog/navex-alternatives-risk-management/",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://www.v-comply.com/pricing",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
@@ -382,7 +387,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace v-comply.com/blog/navex-alternatives listicle (consulté 2026-06-23)."
     },
     {
       "id": "auditboard",
@@ -460,9 +466,9 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://www.modulos.ai/best-ai-governance-platforms/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.collibra.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -470,7 +476,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace modulos.ai/best-ai-governance listicle (consulté 2026-06-23)."
     },
     {
       "id": "sprinto",

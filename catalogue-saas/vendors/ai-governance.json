@@ -82,8 +82,8 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://trustible.ai/post/types-of-ai-governance-platforms/",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://trustible.ai/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
@@ -92,7 +92,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace trustible.ai/post/types-of-ai-governance-platforms listicle (consulté 2026-06-23)."
     },
     {
       "id": "holistic-ai",

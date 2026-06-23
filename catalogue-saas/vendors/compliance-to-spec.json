@@ -109,9 +109,9 @@
       "pricing_model": "enterprise_quote",
       "target_market": "mid_market",
       "geography": "global",
-      "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://hyperproof.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -119,7 +119,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23)."
     },
     {
       "id": "onspring",
@@ -138,9 +139,9 @@
       "pricing_model": "enterprise_quote",
       "target_market": "mid_market",
       "geography": "global",
-      "source_url": "https://riskpublishing.com/best-compliance-management-software-compared/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://onspring.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -148,7 +149,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23)."
     },
     {
       "id": "secureframe",
@@ -168,9 +170,9 @@
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://www.v-comply.com/blog/top-grc-software/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://secureframe.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "unknown",
       "france_market": "unknown",
       "operating_regions": [
@@ -178,7 +180,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "pricing_notes": "Remplace v-comply.com/blog/top-grc-software listicle (consulté 2026-06-23)."
     },
     {
       "id": "snyk",
