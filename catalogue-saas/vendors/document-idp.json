@@ -95,7 +95,8 @@
       "name": "Nanonets",
       "url": "https://nanonets.com/",
       "segments": [
-        "document-idp"
+        "document-idp",
+        "parsing-inbox"
       ],
       "description": "Extraction agentique document → JSON/Markdown ; API et déploiement VPC/on-prem.",
       "capabilities": [
@@ -1416,6 +1417,360 @@
       "discovery_source": "crunchbase",
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://www.cascading.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "formx",
+      "name": "FormX.ai",
+      "url": "https://www.formx.ai/",
+      "segments": [
+        "document-idp",
+        "parsing-inbox"
+      ],
+      "description": "Extraction documentaire sans template ; OCR, classification et workflows revue humaine dossier.",
+      "capabilities": [
+        "no_template_extraction",
+        "ocr",
+        "classification",
+        "human_review"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "HK",
+      "france_market": "partial",
+      "operating_regions": [
+        "HK",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.formx.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "datasnipper",
+      "name": "DataSnipper",
+      "url": "https://www.datasnipper.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Audit document intelligence ; extraction Excel/PDF, validation analyste et dossier de travail signé.",
+      "capabilities": [
+        "audit_extraction",
+        "excel_integration",
+        "human_validation",
+        "workpaper"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "NL",
+      "france_market": "partial",
+      "operating_regions": [
+        "NL",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.datasnipper.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "deepopinion",
+      "name": "DeepOpinion",
+      "url": "https://www.deepopinion.ai/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "IDP européen no-code ; extraction, classification et poste validation opérateur sur files dossier.",
+      "capabilities": [
+        "no_code_idp",
+        "classification",
+        "human_validation",
+        "workflow"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.deepopinion.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "stampli",
+      "name": "Stampli",
+      "url": "https://www.stampli.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "AP automation ; capture factures, extraction champs, approbations humaines et audit trail dossier.",
+      "capabilities": [
+        "invoice_capture",
+        "field_extraction",
+        "human_approval",
+        "audit_trail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.stampli.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "medius",
+      "name": "Medius",
+      "url": "https://www.medius.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "AP/IDP enterprise ; capture documents, matching PO et validation comptable avant export ERP.",
+      "capabilities": [
+        "ap_automation",
+        "document_capture",
+        "human_validation",
+        "erp_export"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "SE",
+      "france_market": "partial",
+      "operating_regions": [
+        "SE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.medius.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "abbyy-flexicapture",
+      "name": "ABBYY FlexiCapture",
+      "url": "https://www.abbyy.com/flexicapture/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Capture intelligente enterprise ; OCR, stations validation opérateur et export dossier validé.",
+      "capabilities": [
+        "intelligent_capture",
+        "ocr",
+        "validation_station",
+        "export"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.abbyy.com/flexicapture/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Produit capture complémentaire à ABBYY Vantage déjà catalogué."
+    },
+    {
+      "id": "amazon-a2i",
+      "name": "Amazon A2I (Augmented AI)",
+      "url": "https://aws.amazon.com/augmented-ai/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Human-in-the-loop AWS ; revue humaine sur prédictions Textract/Rekognition et boucles qualité.",
+      "capabilities": [
+        "human_in_loop",
+        "textract_review",
+        "quality_loops",
+        "aws_integration"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://aws.amazon.com/augmented-ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "invofox",
+      "name": "Invofox",
+      "url": "https://invofox.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "IDP factures API ; extraction champs, scores confiance et validation humaine exceptions dossier.",
+      "capabilities": [
+        "invoice_idp",
+        "field_extraction",
+        "confidence_scoring",
+        "human_validation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "ES",
+      "france_market": "partial",
+      "operating_regions": [
+        "ES",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://invofox.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "docubee",
+      "name": "Docubee",
+      "url": "https://www.docubee.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Workflow documentaire ; capture, extraction champs, approbations humaines et archivage dossier validé.",
+      "capabilities": [
+        "document_workflow",
+        "field_extraction",
+        "human_approval",
+        "archiving"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.docubee.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fabasoft",
+      "name": "Fabasoft",
+      "url": "https://www.fabasoft.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Content services EU ; capture, IDP, validation humaine et gouvernance dossiers régulés.",
+      "capabilities": [
+        "content_services",
+        "capture",
+        "human_validation",
+        "governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "AT",
+      "france_market": "partial",
+      "operating_regions": [
+        "AT",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.fabasoft.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pspdfkit",
+      "name": "PSPDFKit Document Engine",
+      "url": "https://pspdfkit.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Moteur document SDK ; OCR, extraction formulaires et workflows annotation/revue intégrables.",
+      "capabilities": [
+        "document_sdk",
+        "ocr",
+        "form_extraction",
+        "annotation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://pspdfkit.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "square9",
+      "name": "Square 9 Softworks",
+      "url": "https://www.square-9.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Capture enterprise ; scan/OCR, files validation opérateur et export dossier conforme records.",
+      "capabilities": [
+        "document_capture",
+        "ocr",
+        "operator_validation",
+        "records_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.square-9.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }

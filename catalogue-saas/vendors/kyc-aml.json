@@ -384,6 +384,360 @@
       "source_url": "https://salv.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "didit",
+      "name": "Didit",
+      "url": "https://didit.me/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "KYC API fintech EU ; vérification identité, liveness et parcours onboarding embeddable.",
+      "capabilities": [
+        "identity_verification",
+        "liveness",
+        "api",
+        "onboarding"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "ES",
+      "france_market": "partial",
+      "operating_regions": [
+        "ES",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://didit.me/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lemonway-kyc",
+      "name": "Lemonway KYC",
+      "url": "https://www.lemonway.com/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "PSP FR ; module KYC/KYB intégré onboarding wallet et paiements régulés DSP2.",
+      "capabilities": [
+        "kyc_kyb",
+        "wallet_onboarding",
+        "psp",
+        "eu_regulated"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.lemonway.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "KYC lite fintech FR — écosystème paiement Lemonway."
+    },
+    {
+      "id": "treezor",
+      "name": "Treezor",
+      "url": "https://www.treezor.com/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "Banking-as-a-Service FR ; KYC/KYB natif pour émission cartes et comptes embedded finance.",
+      "capabilities": [
+        "baas",
+        "kyc_kyb",
+        "card_issuing",
+        "embedded_finance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.treezor.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mangopay-kyc",
+      "name": "MangoPay KYC",
+      "url": "https://mangopay.com/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "Marketplace payments EU ; workflows KYC vendeurs/acheteurs et conformité AML marketplace.",
+      "capabilities": [
+        "marketplace_kyc",
+        "seller_onboarding",
+        "aml",
+        "eu_psp"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "LU",
+      "france_market": "partial",
+      "operating_regions": [
+        "LU",
+        "EU",
+        "FR"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://mangopay.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fourthline",
+      "name": "Fourthline",
+      "url": "https://fourthline.com/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "Identity verification EU ; onboarding bancaire, vidéo-ID et screening AML intégré.",
+      "capabilities": [
+        "banking_kyc",
+        "video_identification",
+        "aml_screening",
+        "eu_compliance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "NL",
+      "france_market": "partial",
+      "operating_regions": [
+        "NL",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://fourthline.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "flagright",
+      "name": "Flagright",
+      "url": "https://www.flagright.com/",
+      "segments": [
+        "kyc-aml",
+        "regtech"
+      ],
+      "description": "AML transaction monitoring fintech ; règles temps réel, sanctions et case management API-first.",
+      "capabilities": [
+        "transaction_monitoring",
+        "sanctions",
+        "case_management",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.flagright.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "checkin-com",
+      "name": "Checkin.com",
+      "url": "https://checkin.com/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "Identity verification hospitality/travel ; scan ID, face match et conformité sectorielle.",
+      "capabilities": [
+        "hospitality_kyc",
+        "id_scan",
+        "face_match",
+        "sector_compliance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "ES",
+      "france_market": "partial",
+      "operating_regions": [
+        "ES",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://checkin.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "shufti-pro",
+      "name": "Shufti Pro",
+      "url": "https://shuftipro.com/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "KYC/KYB global ; vérification documentaire, biométrie, screening et due diligence.",
+      "capabilities": [
+        "kyc_kyb",
+        "document_verification",
+        "biometric",
+        "screening"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://shuftipro.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ondorse",
+      "name": "Ondorse",
+      "url": "https://www.ondorse.co/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "KYB/KYC no-code FR ; collecte dossiers, vérifications automatisées et portail conformité PME.",
+      "capabilities": [
+        "kyb",
+        "kyc",
+        "no_code",
+        "compliance_portal"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.ondorse.co/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent Dotfile — niche KYC lite fintech FR."
+    },
+    {
+      "id": "ariadnext",
+      "name": "ARIADNEXT (IDnow Group)",
+      "url": "https://www.ariadnext.com/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "Vérification documentaire FR ; OCR pièces d'identité, contrôle authenticité et API KYC.",
+      "capabilities": [
+        "document_verification",
+        "id_ocr",
+        "authenticity_check",
+        "kyc_api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.ariadnext.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "passfort",
+      "name": "PassFort (LexisNexis Risk)",
+      "url": "https://www.passfort.com/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "Orchestration KYC/KYB ; workflows conformité, screening et due diligence multi-juridictions.",
+      "capabilities": [
+        "kyc_orchestration",
+        "kyb",
+        "screening",
+        "workflow"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.passfort.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "stripe-identity",
+      "name": "Stripe Identity",
+      "url": "https://stripe.com/identity",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "Vérification identité API Stripe ; documents, selfie liveness et intégration paiements.",
+      "capabilities": [
+        "identity_api",
+        "document_check",
+        "selfie_liveness",
+        "stripe_integration"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://stripe.com/identity",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

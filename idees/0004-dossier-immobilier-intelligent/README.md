@@ -74,7 +74,7 @@ Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas
 
 #### Segment `document-idp` — IDP & extraction documentaire
 
-Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vendors/document-idp.json) (48 entrées)
+Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vendors/document-idp.json) (60 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -90,7 +90,7 @@ Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vend
 | `snapparse` | Snapparse | unknown | unknown | verified |
 | `iteration-layer` | Iteration Layer | US | partial | verified |
 | `docld` | DocLD | unknown | unknown | verified |
-| … | _+36 autres_ | | | |
+| … | _+48 autres_ | | | |
 
 Commandes :
 ```bash

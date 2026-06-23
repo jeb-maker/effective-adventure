@@ -17,10 +17,11 @@
       "target_level": "L3",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 42,
-          "new_added": 8,
-          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 24,
+          "new_added": 4,
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 12
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -29,16 +30,18 @@
           "pass": "2026-06-v5c-regtech-idp-ai-gov"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 30,
-          "new_added": 4,
-          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 2,
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 6
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 18,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 16,
           "new_added": 3,
-          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 6
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -48,20 +51,22 @@
         },
         "open_source": null,
         "geo_digest": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 12,
           "new_added": 2,
-          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 4
         },
         "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 20,
-          "new_added": 5,
-          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 1,
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 6
         }
       },
-      "last_pass": "2026-06-v5c-regtech-idp-ai-gov",
-      "vendor_count_after_pass": 27
+      "last_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "vendor_count_after_pass": 39
     },
     "regulatory-reporting-eu": {
       "target_level": "L2",
@@ -481,14 +486,14 @@
       "vendor_count_after_pass": 11
     },
     "kyc-aml": {
-      "target_level": "L2",
+      "target_level": "L3",
       "sources": {
         "g2": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 18,
-          "new_added": 4,
-          "pass": "2026-06-v5l-security-kyc-infra",
-          "cumulative_new": 6
+          "candidates_found": 22,
+          "new_added": 5,
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 11
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -499,10 +504,10 @@
         },
         "crunchbase": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 8,
-          "new_added": 1,
-          "pass": "2026-06-v5l-security-kyc-infra",
-          "cumulative_new": 2
+          "candidates_found": 12,
+          "new_added": 2,
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 4
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -527,21 +532,21 @@
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 12,
-          "new_added": 3,
-          "pass": "2026-06-v5l-security-kyc-infra",
-          "cumulative_new": 3
+          "candidates_found": 18,
+          "new_added": 4,
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 7
         },
         "official_site": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 10,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 2
         }
       },
-      "last_pass": "2026-06-v5o-coverage-l2",
-      "vendor_count_after_pass": 13
+      "last_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "vendor_count_after_pass": 25
     },
     "pharma-regulatory": {
       "target_level": "L2",
@@ -1241,16 +1246,17 @@
       "sources": {
         "g2": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 24,
+          "candidates_found": 26,
           "new_added": 5,
-          "pass": "2026-06-v5i-document-idp",
-          "cumulative_new": 11
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 16
         },
         "capterra": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 35,
-          "new_added": 3,
-          "pass": "2026-06-v5c-regtech-idp-ai-gov"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 2,
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 5
         },
         "crunchbase": {
           "consulted_at": "2026-06-23",
@@ -1262,9 +1268,9 @@
         "analyst_report": {
           "consulted_at": "2026-06-23",
           "candidates_found": 16,
-          "new_added": 3,
-          "pass": "2026-06-v5i-document-idp",
-          "cumulative_new": 6
+          "new_added": 2,
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 8
         },
         "alternatives": {
           "consulted_at": "2026-06-23",
@@ -1281,21 +1287,21 @@
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 10,
+          "candidates_found": 12,
           "new_added": 2,
-          "pass": "2026-06-v5i-document-idp",
-          "cumulative_new": 4
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 6
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 12,
-          "new_added": 2,
-          "pass": "2026-06-v5i-document-idp",
-          "cumulative_new": 6
+          "candidates_found": 10,
+          "new_added": 1,
+          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "cumulative_new": 7
         }
       },
-      "last_pass": "2026-06-v5i-document-idp",
-      "vendor_count_after_pass": 48
+      "last_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "vendor_count_after_pass": 60
     },
     "parsing-inbox": {
       "target_level": "L2",

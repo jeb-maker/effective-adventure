@@ -92,7 +92,8 @@
       "name": "WorkFusion",
       "url": "https://www.workfusion.com/",
       "segments": [
-        "rpa-enterprise"
+        "rpa-enterprise",
+        "document-idp"
       ],
       "description": "Intelligent automation pour banking/insurance ; RPA + ML document processing.",
       "capabilities": [

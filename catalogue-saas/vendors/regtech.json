@@ -1,6 +1,6 @@
 {
   "segment": "regtech",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "thomson-reuters-regulatory-intelligence",
@@ -509,7 +509,8 @@
       "name": "Fenergo",
       "url": "https://www.fenergo.com/",
       "segments": [
-        "regtech"
+        "regtech",
+        "kyc-aml"
       ],
       "description": "Client lifecycle management réglementaire ; KYC/AML et onboarding conformes pour banques et asset management.",
       "capabilities": [
@@ -791,6 +792,362 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.acaforeside.com/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "behavox",
+      "name": "Behavox",
+      "url": "https://www.behavox.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Surveillance conformité communications ; NLP sur email/chat/voice pour banques et asset managers.",
+      "capabilities": [
+        "comms_surveillance",
+        "nlp",
+        "conduct_risk",
+        "alerts"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.behavox.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "regnology",
+      "name": "Regnology",
+      "url": "https://www.regnology.net/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Reporting réglementaire EU ; collecte, validation et soumission XBRL/ISO pour banques et assureurs.",
+      "capabilities": [
+        "regulatory_reporting",
+        "xbrl",
+        "validation",
+        "eu_supervisors"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.regnology.net/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "solidatus",
+      "name": "Solidatus",
+      "url": "https://www.solidatus.com/",
+      "segments": [
+        "regtech",
+        "grc-security"
+      ],
+      "description": "Data lineage compliance ; cartographie données/règles réglementaires et traçabilité obligations.",
+      "capabilities": [
+        "data_lineage",
+        "regulatory_mapping",
+        "metadata",
+        "impact_analysis"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.solidatus.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lucinity",
+      "name": "Lucinity",
+      "url": "https://lucinity.com/",
+      "segments": [
+        "regtech",
+        "kyc-aml"
+      ],
+      "description": "AML investigation IA ; copilot analystes, réduction faux positifs et workflows cas financiers.",
+      "capabilities": [
+        "aml_investigations",
+        "ai_copilot",
+        "case_management",
+        "false_positive_reduction"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "IS",
+      "france_market": "partial",
+      "operating_regions": [
+        "IS",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://lucinity.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "feedzai",
+      "name": "Feedzai",
+      "url": "https://feedzai.com/",
+      "segments": [
+        "regtech",
+        "kyc-aml"
+      ],
+      "description": "Financial crime platform ; fraude temps réel, AML et conformité paiements retail/banking.",
+      "capabilities": [
+        "fraud_detection",
+        "aml",
+        "real_time_scoring",
+        "payments"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "PT",
+      "france_market": "partial",
+      "operating_regions": [
+        "PT",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://feedzai.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "eventus",
+      "name": "Eventus",
+      "url": "https://eventus.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Trade surveillance multi-actifs ; détection manipulation marché et conformité MiFID/Dodd-Frank.",
+      "capabilities": [
+        "trade_surveillance",
+        "market_abuse",
+        "mifid",
+        "alerts"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://eventus.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "regtrack",
+      "name": "RegTrack",
+      "url": "https://www.regtrack.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Change management réglementaire ; veille multi-juridictions, impact analysis et workflows compliance.",
+      "capabilities": [
+        "regulatory_change",
+        "impact_analysis",
+        "workflows",
+        "multi_jurisdiction"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.regtrack.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "apiax",
+      "name": "Apiax",
+      "url": "https://www.apiax.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Règles réglementaires as code ; API compliance cross-border pour fintech et banques EU/CH.",
+      "capabilities": [
+        "reg_rules_api",
+        "cross_border",
+        "embeddable_compliance",
+        "fintech"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "CH",
+      "france_market": "partial",
+      "operating_regions": [
+        "CH",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.apiax.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kharon",
+      "name": "Kharon",
+      "url": "https://www.kharon.com/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Intelligence sanctions et risque géopolitique ; données adverse media pour compliance export.",
+      "capabilities": [
+        "sanctions_intelligence",
+        "geopolitical_risk",
+        "adverse_media",
+        "screening_data"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.kharon.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "napier",
+      "name": "Napier AI",
+      "url": "https://www.napier.ai/",
+      "segments": [
+        "regtech",
+        "kyc-aml"
+      ],
+      "description": "AML platform IA ; screening, transaction monitoring et investigation cas pour banques EU.",
+      "capabilities": [
+        "aml_screening",
+        "transaction_monitoring",
+        "ai",
+        "case_investigation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.napier.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "opensee",
+      "name": "Opensee (Dauphine Software)",
+      "url": "https://opensee.io/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Analytics reporting réglementaire ; consolidation données prudential/ESG et contrôles auditables.",
+      "capabilities": [
+        "regulatory_reporting",
+        "data_consolidation",
+        "prudential",
+        "audit_controls"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://opensee.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "aveni",
+      "name": "Aveni",
+      "url": "https://www.aveni.ai/",
+      "segments": [
+        "regtech"
+      ],
+      "description": "Supervisory AI finance ; analyse conversations conseillers, détection risque conduct et conformité MiFID.",
+      "capabilities": [
+        "supervisory_ai",
+        "conduct_risk",
+        "conversation_analytics",
+        "mifid"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "source_url": "https://www.aveni.ai/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]

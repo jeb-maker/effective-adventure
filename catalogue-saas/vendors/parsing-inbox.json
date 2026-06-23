@@ -7,7 +7,8 @@
       "name": "Parseur",
       "url": "https://parseur.com/",
       "segments": [
-        "parsing-inbox"
+        "parsing-inbox",
+        "document-idp"
       ],
       "description": "Parsing email et documents avec zones configurables ; export vers apps et API.",
       "capabilities": [
@@ -123,7 +124,8 @@
       "name": "Airparser",
       "url": "https://airparser.com/",
       "segments": [
-        "parsing-inbox"
+        "parsing-inbox",
+        "document-idp"
       ],
       "description": "Parser email/document GPT-powered pour extraction de champs structurés.",
       "capabilities": [

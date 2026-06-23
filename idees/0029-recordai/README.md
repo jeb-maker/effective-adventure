@@ -74,7 +74,7 @@ Fichier : [`catalogue-saas/vendors/parsing-inbox.json`](../../catalogue-saas/ven
 
 #### Segment `document-idp` — IDP & extraction documentaire
 
-Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vendors/document-idp.json) (48 entrées)
+Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vendors/document-idp.json) (60 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -90,7 +90,7 @@ Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vend
 | `snapparse` | Snapparse | unknown | unknown | verified |
 | `iteration-layer` | Iteration Layer | US | partial | verified |
 | `docld` | DocLD | unknown | unknown | verified |
-| … | _+36 autres_ | | | |
+| … | _+48 autres_ | | | |
 
 #### Segment `compliance-to-spec` — Réglementation → spec produit
 
@@ -134,7 +134,7 @@ Fichier : [`catalogue-saas/vendors/automation-platforms.json`](../../catalogue-s
 
 #### Segment `kyc-aml` — KYC / AML / identity
 
-Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/kyc-aml.json) (13 entrées)
+Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/kyc-aml.json) (25 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -150,7 +150,7 @@ Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/k
 | `trulioo` | Trulioo | CA | partial | partial |
 | `alloy` | Alloy | US | partial | partial |
 | `dotfile` | Dotfile | FR | strong | partial |
-| … | _+1 autres_ | | | |
+| … | _+13 autres_ | | | |
 
 Commandes :
 ```bash
