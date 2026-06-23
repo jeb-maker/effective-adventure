@@ -72,7 +72,7 @@ CI : [`.github/workflows/validate.yml`](.github/workflows/validate.yml).
 | [0004](idees/0004-dossier-immobilier-intelligent/) | Dossier immobilier intelligent (DVF enrichi) | ❌ Écartée | 53 | 2026-06-23 |
 | [0005](idees/0005-sante-environnement-local/) | Santé-environnement locale (eau / air) | ❌ Écartée | 44 | 2026-06-23 |
 | [0006](idees/0006-assistant-implantation-commerciale/) | Assistant d'implantation commerciale (SIRENE) | ❌ Écartée | 47 ⤵ | 2026-06-23 |
-| [0007](idees/0007-fiche-commune-intelligente/) | Fiche commune intelligente (finances locales) | 💡 Capturée | — | 2026-06-20 |
+| [0007](idees/0007-fiche-commune-intelligente/) | Fiche commune intelligente (finances locales) | ❌ Écartée | 50 | 2026-06-23 |
 | [0008](idees/0008-veille-ao-boamp/) | Veille d'appels d'offres (BOAMP) | ❌ Écartée | 54 | 2026-06-23 |
 | [0009](idees/0009-dpe-passoires-thermiques/) | Ciblage rénovation énergétique (passoires thermiques) | 🔁 À retravailler | 57 ⤵ | 2026-06-23 |
 | [0010](idees/0010-boussole-aides-publiques/) | Boussole des aides et subventions publiques | ❌ Écartée | 42 ⤵ | 2026-06-20 |
@@ -105,21 +105,20 @@ CI : [`.github/workflows/validate.yml`](.github/workflows/validate.yml).
 > registre comme corpus de test de la méthode. Les **nouvelles idées** suivent
 > l'objectif révisé (payeur + douleur d'abord).
 
-- **29 idées** enregistrées, **28 analysées** avec scoring complet (0007 💡
-  capturée reste à analyser).
-- **28 revues adversariales** (`revue.md`) — **couverture complète** des statuts
-  finaux (vague du 2026-06-23 : +22 revues). **Aucune idée ne dépasse le seuil
-  Go (≥ 70)** après red-team.
+- **29 idées** enregistrées, **29 analysées** avec scoring complet et **29 revues**
+  adversariales (`revue.md`) — **couverture complète** du registre.
+- **Aucune idée ne dépasse le seuil Go (≥ 70)** après red-team.
 - **Tête de classement** : **0001** (Radar commande publique) à **66/100** (🔁).
   Ex-leader **0029 RecordAI** : **67 → 59** (benchmark §13 invalidé — CheckFile.ai,
   Rossum, Parseur omis).
 - **À retravailler (7)** : 0001 (66), 0002 (57), 0009 (57), 0025 (60), 0026 (56),
   0028 (56), 0029 (59).
-- **Écartées (21)** : 0003 (46, ex-🔁), 0004, 0005, 0006, 0008, 0010, 0011 (ex-🔁),
-  0012, 0013 (ex-🔁), 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0022,
-  0023, 0024, 0027.
-- **Changements de statut post-revue** : 0003, 0011, 0013 passées 🔁 → ❌.
-- **Encore à analyser** : 0007 (💡 capturée).
+- **Écartées (22)** : 0003 (46, ex-🔁), 0004, 0005, 0006, **0007 (50)**, 0008, 0010,
+  0011 (ex-🔁), 0012, 0013 (ex-🔁), 0014, 0015, 0016, 0017, 0018, 0019, 0020,
+  0021, 0022, 0023, 0024, 0027.
+- **Changements de statut post-revue** : 0003, 0011, 0013 passées 🔁 → ❌ ; **0007**
+  💡 → ❌ (50/100, saturation Orama/Habity/OFGL).
+- **Encore à analyser** : aucune — registre complet.
 
 > ⤵ dans le registre = score abaissé après revue critique.
 
