@@ -2,8 +2,13 @@
 
 - **ID** : 0008
 - **Statut** : ❌ Écartée
-- **Score** : — / 100 (écartée : marché saturé)
-- **Dernière mise à jour** : 2026-06-20
+- **Score** : 54 / 100
+- **Dernière mise à jour** : 2026-06-23
+- **Révision critique** : voir [`revue.md`](revue.md) — écart **confirmé** (score
+  posé à **54/100**, < 55, + critère éliminatoire saturation). L'audit aggrave le
+  constat : les acteurs « attribution » récents (Maître AO, Nextend.ai,
+  marchespublics.ai) **font aussi de la veille** → segment frontal fermé ; le
+  renvoi vers 0001 est à nuancer (l'attribution est elle aussi disputée).
 - **Pitch (1 phrase)** : Agréger les avis de marché à venir (BOAMP/TED/profils
   acheteurs) avec alertes et scoring.
 
@@ -20,10 +25,33 @@ Sources (consultées 2026-06-20) :
 https://olra.fr/blog/alternatives-synapse-france-marches-comparatif ,
 https://remporte.fr/blog/plateformes-appels-offres-comparatif/
 
+## 10. Scoring
+
+> Tableau posé par la revue critique (la fiche écartait sans note). Notes adversariales.
+
+| # | Critère | Poids | Note (1-5) | Pondéré | Justification (1 phrase) |
+|---|---|---|---|---|---|
+| C1 | Intensité du problème | 3 | 4 | 12 | Douleur réelle et récurrente pour les répondants aux AO. |
+| C2 | Cible solvable (qui paie) | 3 | 3 | 9 | Payeur réel (29,99–300 €/mois) mais budget déjà capté par les incumbents. |
+| C3 | Disponibilité & fiabilité données | 3 | 4 | 12 | BOAMP/TED ouverts, prêts, exploitables. |
+| C4 | Espace concurrentiel libre | 2 | 1 | 2 | Très saturé : 12+ acteurs frontaux + IA + convergence attribution→veille. |
+| C5 | Différenciation défendable | 2 | 1 | 2 | Aucune en frontal ; matière première gratuite, scoring déjà fait. |
+| C6 | Faisabilité & fiabilité technique | 2 | 4 | 8 | Agrégation/filtrage robuste ; peu d'hallucination. |
+| C7 | Facilité du MVP | 2 | 4 | 8 | MVP simple (données prêtes) — ce qui nourrit la saturation. |
+| C8 | Maîtrise des risques | 2 | 1 | 2 | Saturation + commoditisation + guerre des prix non maîtrisées. |
+| C9 | Monétisation / impact | 2 | 1 | 2 | Marché tiré vers le bas ; pas de revenu défendable pour un entrant. |
+| | **Total** | | | **57 / 105** | |
+
+**Score /100** : 57 / 105 × 100 = **54**
+
 ## 11. Verdict & décision
-❌ **Écartée** en frontal. La valeur résiduelle est sur l'**analyse
-d'attribution** (passé), traitée dans l'idée **0001** — pas sur la veille
-(avenir). Ne pas attaquer ce segment directement.
+❌ **Écartée** en frontal. Marché très saturé (12+ acteurs, plusieurs avec IA) et
+les acteurs « attribution » récents (Maître AO, Nextend.ai, marchespublics.ai)
+**font aussi de la veille** → segment fermé. Score reconstruit **54/100** (< 55)
+**et** critère éliminatoire de saturation. La valeur résiduelle théorique est sur
+l'**analyse d'attribution** (passé), traitée dans l'idée **0001** — mais ce refuge
+est lui-même disputé (cf. [`revue.md`](revue.md) et la revue de 0001). Ne pas
+attaquer ce segment directement.
 
 <!-- catalogue-saas-begin -->
 
