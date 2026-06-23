@@ -110,8 +110,8 @@
       "pricing_notes": "Référence marché ~$0.30/page citée dans comparatifs.",
       "target_market": "mid_market",
       "geography": "global",
-      "source_url": "https://nanonets.com/products/agentic-data-extraction",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://nanonets.com/pricing",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
@@ -120,7 +120,7 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze"
     },
     {
       "id": "extend-ai",
@@ -140,8 +140,8 @@
       "pricing_model": "hybrid",
       "target_market": "mid_market",
       "geography": "global",
-      "source_url": "https://www.extend.ai/resources/best-document-parsing-software-for-developers",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://www.extend.ai/pricing",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
@@ -150,7 +150,7 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze"
     },
     {
       "id": "docupipe",

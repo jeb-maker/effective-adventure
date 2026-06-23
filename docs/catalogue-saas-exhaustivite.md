@@ -95,8 +95,8 @@ Segment **non clos** tant que < 4 types sont renseignés dans `coverage-matrix.j
 | **V5t-b** | L3 verticaux + compliance (18 segments) | Fait |
 | **V5t-c** | L3 workplace / sales / data (20 segments) | Fait |
 | **V5u** | Complétion finale 4 segments (<18) | Fait |
-| **V6 pilote** | Verified + gaps revues 0001/0029 (`compliance-to-spec`, `public-procurement-intel`) | Fait |
-| Maintenance | Long tail L3, promotion verified, surveillance saturation | Continu |
+| **V6c** | Synapse/Wanao/First AO + verified RecordAI chain + gel 6 segments | Fait |
+| Maintenance | verify-eligible par vagues, remoisson segments non gelés | Continu |
 
 ### Surveillance saturation (maintenance)
 

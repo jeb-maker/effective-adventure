@@ -83,7 +83,8 @@ python3 scripts/enrich_catalogue_v5t_verticals.py
 python3 scripts/enrich_catalogue_v5t_workplace.py
 python3 scripts/enrich_catalogue_v5u_fill_last4.py
 python3 scripts/enrich_catalogue_v6_pilot.py   # V6 pilote verified + gaps revues 0001/0029
-python3 scripts/enrich_catalogue_v6b.py        # V6b gaps marchés publics + verified parsing/IDP
+python3 scripts/enrich_catalogue_v6b.py        # V6b procurement + parsing/IDP verified
+python3 scripts/enrich_catalogue_v6c.py        # V6c FR gaps + RecordAI verified + freeze        # V6b gaps marchés publics + verified parsing/IDP
 python3 scripts/sync_idees_catalogue.py
 
 # Saturation (passes réelles vs seuil 5 %)

@@ -7,6 +7,61 @@
     "v5e-retrospective",
     "v5o-coverage"
   ],
-  "frozen_count": 0,
-  "frozen": []
+  "frozen_count": 6,
+  "frozen": [
+    {
+      "segment_id": "automation-platforms",
+      "label": "Automatisation no-code / iPaaS",
+      "last_real_pass": "2026-06-v6c-procurement-recordai-freeze",
+      "new_rate_pct": 0.0,
+      "new_added": 0,
+      "candidates_found": 2,
+      "frozen_at": "2026-06-23"
+    },
+    {
+      "segment_id": "document-idp",
+      "label": "IDP & extraction documentaire",
+      "last_real_pass": "2026-06-v6b-procurement-parsing-verify",
+      "new_rate_pct": 0.0,
+      "new_added": 0,
+      "candidates_found": 10,
+      "frozen_at": "2026-06-23"
+    },
+    {
+      "segment_id": "kyc-aml",
+      "label": "KYC / AML / identity",
+      "last_real_pass": "2026-06-v6b-procurement-parsing-verify",
+      "new_rate_pct": 0.0,
+      "new_added": 0,
+      "candidates_found": 5,
+      "frozen_at": "2026-06-23"
+    },
+    {
+      "segment_id": "parsing-inbox",
+      "label": "Parsing email & inbox",
+      "last_real_pass": "2026-06-v6c-procurement-recordai-freeze",
+      "new_rate_pct": 0.0,
+      "new_added": 0,
+      "candidates_found": 3,
+      "frozen_at": "2026-06-23"
+    },
+    {
+      "segment_id": "voice-speech-ai",
+      "label": "Voix & speech IA",
+      "last_real_pass": "2026-06-v5u-fill-last4",
+      "new_rate_pct": 4.0,
+      "new_added": 3,
+      "candidates_found": 75,
+      "frozen_at": "2026-06-23"
+    },
+    {
+      "segment_id": "real-estate-proptech",
+      "label": "Immobilier & proptech",
+      "last_real_pass": "2026-06-v5u-fill-last4",
+      "new_rate_pct": 4.35,
+      "new_added": 5,
+      "candidates_found": 115,
+      "frozen_at": "2026-06-23"
+    }
+  ]
 }

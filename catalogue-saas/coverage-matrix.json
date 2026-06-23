@@ -1362,13 +1362,13 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 10,
+          "candidates_found": 3,
           "new_added": 0,
-          "pass": "2026-06-v6b-procurement-parsing-verify",
+          "pass": "2026-06-v6c-procurement-recordai-freeze",
           "cumulative_new": 7
         }
       },
-      "last_pass": "2026-06-v6b-procurement-parsing-verify",
+      "last_pass": "2026-06-v6c-procurement-recordai-freeze",
       "vendor_count_after_pass": 39
     },
     "e-signature": {
@@ -1923,13 +1923,13 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5j-recordai-orchestration",
+          "candidates_found": 2,
+          "new_added": 0,
+          "pass": "2026-06-v6c-procurement-recordai-freeze",
           "cumulative_new": 3
         }
       },
-      "last_pass": "2026-06-v5q-recordai-chain-l3",
+      "last_pass": "2026-06-v6c-procurement-recordai-freeze",
       "vendor_count_after_pass": 30
     },
     "rpa-enterprise": {
@@ -3656,10 +3656,10 @@
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 6,
+          "candidates_found": 5,
           "new_added": 3,
-          "pass": "2026-06-v6b-procurement-parsing-verify",
-          "cumulative_new": 12
+          "pass": "2026-06-v6c-procurement-recordai-freeze",
+          "cumulative_new": 15
         },
         "official_site": {
           "consulted_at": "2026-06-23",
@@ -3669,8 +3669,8 @@
           "cumulative_new": 19
         }
       },
-      "last_pass": "2026-06-v6b-procurement-parsing-verify",
-      "vendor_count_after_pass": 30
+      "last_pass": "2026-06-v6c-procurement-recordai-freeze",
+      "vendor_count_after_pass": 33
     },
     "territorial-analytics": {
       "target_level": "L2",

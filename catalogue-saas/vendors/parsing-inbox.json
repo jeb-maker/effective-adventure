@@ -739,10 +739,10 @@
         "US"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
       "source_url": "https://levity.ai/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified"
     },
     {
       "id": "indico",
@@ -830,10 +830,10 @@
         "EU"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
       "source_url": "https://www.pipefy.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified"
     },
     {
       "id": "tonkean",
@@ -860,10 +860,10 @@
         "EU"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5h-dossier-valide",
-      "source_url": "https://www.tonkean.com/",
+      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
+      "source_url": "https://www.tonkean.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified"
     },
     {
       "id": "formstack-documents",

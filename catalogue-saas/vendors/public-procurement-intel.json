@@ -858,11 +858,11 @@
         "FR"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
-      "source_url": "https://olra.fr/fonctionnalites",
+      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
+      "source_url": "https://olra.fr/tarifs",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "pricing_notes": "Plan Essentiel et Plan Pro sur devis ; essai gratuit sans CB (consulté 2026-06-23).",
+      "pricing_notes": "Essentiel/Pro/Entreprise sur devis ; essai 14 j sans CB ; pages 500/1500/mois (consulté 2026-06-23).",
       "notes": "Ciblage bâtiment TPE/PME ; chaîne veille→audit→rédaction sans bibliothèque préalable."
     },
     {
@@ -895,6 +895,92 @@
       "verification_status": "partial",
       "pricing_notes": "3 marchés offerts à l'inscription ; abonnement veille sur devis (consulté 2026-06-23).",
       "notes": "Acteur historique veille AO + projets privés ; 12 000+ sources."
+    },
+    {
+      "id": "synapse-entreprises",
+      "name": "Synapse Entreprises",
+      "url": "https://www.synapse-entreprises.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Profil acheteur pour collectivités + service entreprises « Alerte Marchés » : veille AO multi-plateformes.",
+      "capabilities": [
+        "ao_alerts",
+        "ao_monitoring",
+        "e_procurement",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
+      "source_url": "https://www.synapse-entreprises.com/espace-entreprises/alerte-marches",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Double rôle acheteur/entreprise ; tarifs abonnement non publics (consulté 2026-06-23)."
+    },
+    {
+      "id": "wanao",
+      "name": "Wanao",
+      "url": "https://wanao.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille et gestion AO depuis 20+ ans : ~10 000 sources (BOAMP, JOUE, PQR, collectivités), alertes renouvellement.",
+      "capabilities": [
+        "ao_monitoring",
+        "tender_management",
+        "dce_analysis",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
+      "source_url": "https://wanao.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "~400 000 AO/an ; tarifs sur devis (consulté 2026-06-23)."
+    },
+    {
+      "id": "first-ao",
+      "name": "First AO",
+      "url": "https://firstao-appel-offre.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille avis de marché et d'attribution (Groupe First ECO) : qualification humaine, fiches attributaires.",
+      "capabilities": [
+        "ao_monitoring",
+        "attribution_analytics",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
+      "source_url": "https://firstao-appel-offre.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Groupe First ECO ; tarifs sur devis (consulté 2026-06-23)."
     }
   ]
 }
