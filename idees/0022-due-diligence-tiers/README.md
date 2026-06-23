@@ -2,8 +2,8 @@
 
 - **ID** : 0022
 - **Statut** : ❌ Écartée
-- **Score** : 53 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Score** : 50 / 100 (révisé après revue red team du 2026-06-23 — cf. [`revue.md`](revue.md) ; 53/100 avant revue, C3 abaissé 4→3)
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Agréger les données ouvertes françaises (SIRENE, BODACC, RNE, DECP, RGE…) pour scorer la fiabilité d'un fournisseur — le seed décrit un produit **déjà saturé** par l'État, Pappers et une dizaine d'acteurs commerciaux.
 
 ---
@@ -253,6 +253,11 @@ Périmètre minimal crédible (si l'on ignorait la saturation) :
 
 **Score /100** : 56 / 105 × 100 = **53,3 → 53 / 100**
 
+> **Score révisé après revue red team (2026-06-23) : 50/100** — la revue abaisse
+> C3 de 4 à 3 (les inputs *différenciants* d'un scoring crédible — paiement,
+> réseau, historique — sont absents de l'open data) ; total 53/105 → 50/100.
+> Verdict inchangé (❌ Écartée). Recalcul détaillé dans [`revue.md`](revue.md).
+
 ## 11. Verdict & décision
 
 **❌ Écartée** (score 53 < 55).
@@ -267,4 +272,4 @@ Reproduire un « Pappers + DECP + score maison » n'apporte pas de valeur défen
 
 ---
 
-0022 | Due diligence & scoring de tiers/fournisseurs (B2B) | ❌ Écartée | 53/100 | Marché saturé, pas de créneau
+0022 | Due diligence & scoring de tiers/fournisseurs (B2B) | ❌ Écartée | 50/100 | Marché saturé, pas de créneau (score revu, cf. revue.md)
