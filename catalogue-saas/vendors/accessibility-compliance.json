@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "deque-axe",
@@ -56,7 +57,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "userway",
@@ -84,7 +86,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "acceslibre",
@@ -113,7 +116,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "level-access",
@@ -142,7 +146,8 @@
       "discovery_pass": "2026-06-v5e-retrospective",
       "source_url": "https://www.levelaccess.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": false
     },
     {
       "id": "accessiway",
@@ -171,7 +176,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.accessiway.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "tanaguru",
@@ -200,7 +206,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.tanaguru.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "asqatasun",
@@ -229,7 +236,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://asqatasun.org/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "facil-iti",
@@ -258,7 +266,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.facil-iti.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "eye-able",
@@ -287,7 +296,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://eye-able.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "silktide",
@@ -316,7 +326,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://silktide.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "siteimprove",
@@ -345,7 +356,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.siteimprove.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "monsido",
@@ -374,7 +386,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://monsido.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "access42",
@@ -403,7 +416,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://access42.net/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "qualiweb",
@@ -432,7 +446,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.qualiweb.net/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "fable",
@@ -461,7 +476,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://makeitfable.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "equalweb",
@@ -490,7 +506,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.equalweb.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "access-for-all",
@@ -519,7 +536,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.access-for-all.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

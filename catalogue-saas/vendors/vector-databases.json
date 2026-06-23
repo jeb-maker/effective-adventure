@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "weaviate",
@@ -56,7 +57,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "qdrant",
@@ -84,7 +86,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "zilliz-milvus",
@@ -112,7 +115,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "chroma",
@@ -140,7 +144,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "pgvector",
@@ -169,7 +174,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://github.com/pgvector/pgvector",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "redis-vector-search",
@@ -198,7 +204,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://redis.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "mongodb-atlas-vector",
@@ -227,7 +234,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.mongodb.com/products/platform/atlas-vector-search",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "turbopuffer",
@@ -256,7 +264,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://turbopuffer.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "marqo",
@@ -286,7 +295,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.marqo.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lancedb",
@@ -315,7 +325,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://lancedb.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "elasticsearch-vector",
@@ -344,7 +355,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.elastic.co/elasticsearch/vector-search",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "opensearch-vector",
@@ -373,7 +385,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://opensearch.org/platform/search/vector-search.html",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "singlestore",
@@ -402,7 +415,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.singlestore.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "typesense",
@@ -431,7 +445,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://typesense.org/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "faiss",
@@ -460,7 +475,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://github.com/facebookresearch/faiss",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "supabase-vector",
@@ -489,7 +505,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://supabase.com/docs/guides/ai/vector-columns",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "neon-serverless",
@@ -518,7 +535,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://neon.tech/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "couchbase-vector",
@@ -547,7 +565,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.couchbase.com/products/vector-search",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "azure-ai-search",
@@ -576,7 +595,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://azure.microsoft.com/en-us/products/ai-services/ai-search",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

@@ -29,7 +29,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "crewai",
@@ -57,7 +58,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "microsoft-autogen",
@@ -85,7 +87,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "llamaindex",
@@ -114,7 +117,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "semantic-kernel",
@@ -142,7 +146,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "dify",
@@ -171,7 +176,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://dify.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "flowise",
@@ -200,7 +206,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://flowiseai.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "agno",
@@ -229,7 +236,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.agno.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "superagent",
@@ -258,7 +266,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.superagent.sh/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "agentops",
@@ -288,7 +297,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.agentops.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "langflow",
@@ -317,7 +327,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.langflow.org/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "mastra",
@@ -346,7 +357,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://mastra.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "letta",
@@ -375,7 +387,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.letta.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "vellum",
@@ -404,7 +417,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.vellum.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "rivet-ai",
@@ -433,7 +447,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://rivet.ironcladapp.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "beam-ai",
@@ -462,7 +477,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://beam.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "wordware",
@@ -491,7 +507,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.wordware.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "composio",
@@ -520,7 +537,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://composio.dev/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "botpress",
@@ -549,7 +567,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://botpress.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "pagero",
@@ -56,7 +57,8 @@
         "US"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "chorus-pro",
@@ -84,7 +86,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "stripe-tax",
@@ -112,7 +115,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "avalara",
@@ -140,7 +144,8 @@
       "discovery_pass": "2026-06-v5e-retrospective",
       "source_url": "https://www.avalara.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": false
     },
     {
       "id": "cegid",
@@ -169,7 +174,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.cegid.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "basware",
@@ -198,7 +204,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.basware.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "tradeshift",
@@ -227,7 +234,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://tradeshift.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "storecove",
@@ -256,7 +264,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.storecove.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "comarch-einvoicing",
@@ -285,7 +294,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.comarch.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "edicom",
@@ -314,7 +324,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://edicomgroup.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "generix",
@@ -343,7 +354,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.generixgroup.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "taxually",
@@ -372,7 +384,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.taxually.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "fonoa",
@@ -401,7 +414,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.fonoa.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "vertex-inc",
@@ -430,7 +444,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.vertexinc.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ecosio",
@@ -459,7 +474,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://ecosio.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "flowie",
@@ -488,7 +504,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.flowie.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "fintechos",
@@ -517,7 +534,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.fintechos.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "comarch-vat",
@@ -546,7 +564,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.comarch.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

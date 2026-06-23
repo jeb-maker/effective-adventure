@@ -29,7 +29,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "mimecast",
@@ -58,7 +59,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "abnormal-security",
@@ -86,7 +88,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "barracuda-email",
@@ -114,7 +117,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "google-email-security",
@@ -142,7 +146,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "vade",
@@ -171,7 +176,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.vadesecure.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "tessian",
@@ -201,7 +207,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.tessian.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ironscales",
@@ -231,7 +238,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://ironscales.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cofense",
@@ -260,7 +268,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://cofense.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "area1-security",
@@ -289,7 +298,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.cloudflare.com/zero-trust/products/email-security/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cloudflare-email-security",
@@ -318,7 +328,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.cloudflare.com/email-security/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "mailinblack",
@@ -347,7 +358,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.mailinblack.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "hornetsecurity",
@@ -378,7 +390,8 @@
       "source_url": "https://www.hornetsecurity.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Maison mère de Vade Secure."
+      "notes": "Maison mère de Vade Secure.",
+      "entry_ai_generated": true
     },
     {
       "id": "knowbe4",
@@ -407,7 +420,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.knowbe4.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "microsoft-defender-office365",
@@ -436,7 +450,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-office-365",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "keepnet-labs",
@@ -466,7 +481,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://keepnetlabs.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "libraesva",
@@ -496,7 +512,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.libraesva.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "avanan",
@@ -526,7 +543,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.checkpoint.com/harmony/email-security/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

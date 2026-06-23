@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-06-23",
+  "description": "Overrides manuels founded_year — prioritaire sur l'inférence notes.",
+  "vendors": {
+    "limnos": {
+      "founded_year": 2026,
+      "founded_year_source": "https://limnos.app/ — lancement avr. 2026 (revue idée 0029)"
+    },
+    "shift-claims": {
+      "founded_year": 2025,
+      "founded_year_source": "https://www.prnewswire.com/fr/communiques-de-presse/shift-claims-lia-agentique-qui-accelere-et-optimise-la-gestion-des-sinistres-302557040.html"
+    },
+    "orderscan": {
+      "founded_year": 2024,
+      "founded_year_source": "https://www.orderscan.ai/ — acteur FR récent (revue 0029, consulté 2026-06-23)"
+    },
+    "datagouv": {
+      "founded_year": 2011,
+      "founded_year_source": "https://www.data.gouv.fr/ — portail Etalab/open data FR"
+    },
+    "etalab-data-gouv": {
+      "founded_year": 2013,
+      "founded_year_source": "Mission Etalab (gouvernement FR)"
+    },
+    "aides-territoires": {
+      "founded_year": 2019,
+      "founded_year_source": "https://aides-territoires.beta.gouv.fr/ — beta.gouv.fr"
+    },
+    "maitre-ao": {
+      "founded_year": 2023,
+      "founded_year_source": "https://www.maitre-ao.fr/ — page produit « Nouveau » mars 2026, société Lumina récente (revue 0001)"
+    },
+    "nextend-ai": {
+      "founded_year": 2024,
+      "founded_year_source": "https://nextend.ai/ (revue 0001, consulté 2026-06-23)"
+    },
+    "marchespublics-ai": {
+      "founded_year": 2023,
+      "founded_year_source": "https://marchespublics.ai/ (revue 0001)"
+    },
+    "urbaa": {
+      "founded_year": 2024,
+      "founded_year_source": "https://www.data.gouv.fr/reuses/urbaa-app"
+    },
+    "datagouv-mcp": {
+      "founded_year": 2025,
+      "founded_year_source": "https://guides.data.gouv.fr/intelligence-artificielle/le-serveur-mcp-de-data.gouv.fr"
+    },
+    "ubble": {
+      "founded_year": 2018,
+      "founded_year_source": "https://ubble.ai/ — fondé FR, acquis Checkout 2022"
+    },
+    "checkfile-ai": {
+      "founded_year": 2023,
+      "founded_year_source": "https://www.checkfile.ai/ (revue 0029)"
+    },
+    "probo": {
+      "founded_year": 2023,
+      "founded_year_source": "https://www.probo.ai/"
+    },
+    "yooz": {
+      "founded_year": 2010,
+      "founded_year_source": "https://www.yooz.eu/ — Yooz Group"
+    },
+    "dilitrust": {
+      "founded_year": 2003,
+      "founded_year_source": "https://www.dilitrust.com/"
+    },
+    "doubletrade": {
+      "founded_year": 2000,
+      "founded_year_source": "https://www.doubletrade.com/ — veille MP depuis ~25 ans"
+    },
+    "vecteur-plus": {
+      "founded_year": 1995,
+      "founded_year_source": "https://vecteurplus.com/ — ~30 ans d'activité (fiche catalogue)"
+    }
+  }
+}

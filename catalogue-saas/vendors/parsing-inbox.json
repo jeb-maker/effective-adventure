@@ -31,7 +31,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
-      "notes": "Promotion verified V6b — grille tarifaire officielle parseur.com/pricing (revue 0029)."
+      "notes": "Promotion verified V6b — grille tarifaire officielle parseur.com/pricing (revue 0029).",
+      "entry_ai_generated": false
     },
     {
       "id": "mailparser",
@@ -60,7 +61,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
-      "notes": "Promotion verified V6b — source officielle (remplace listicle)."
+      "notes": "Promotion verified V6b — source officielle (remplace listicle).",
+      "entry_ai_generated": false
     },
     {
       "id": "docparser",
@@ -91,7 +93,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
-      "pricing_notes": "Source officielle ; remplace parsio.io listicle (consulté 2026-06-23)."
+      "pricing_notes": "Source officielle ; remplace parsio.io listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "parsio",
@@ -121,7 +124,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
-      "notes": "Promotion verified V6b — source officielle (remplace listicle)."
+      "notes": "Promotion verified V6b — source officielle (remplace listicle).",
+      "entry_ai_generated": false
     },
     {
       "id": "airparser",
@@ -151,7 +155,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
-      "pricing_notes": "Starter $33/mo, Growth $49, Premium $249 (annuel) (consulté 2026-06-23)."
+      "pricing_notes": "Starter $33/mo, Growth $49, Premium $249 (annuel) (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "mailgun-inbound",
@@ -179,7 +184,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "postmark-inbound",
@@ -207,7 +213,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "extracta-ai",
@@ -237,7 +244,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
-      "pricing_notes": "Page pricing officielle ; remplace listicle (consulté 2026-06-23)."
+      "pricing_notes": "Page pricing officielle ; remplace listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "nylas",
@@ -267,7 +275,8 @@
       "source_url": "https://www.nylas.com/pricing/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — page tarifs officielle."
+      "notes": "Promotion verified V6b — page tarifs officielle.",
+      "entry_ai_generated": true
     },
     {
       "id": "sendgrid-inbound",
@@ -295,7 +304,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/parsing-email/inbound-email",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "mailjet-parse",
@@ -324,7 +334,8 @@
       "source_url": "https://www.mailjet.com/pricing/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — éditeur FR (Sinch), page tarifs officielle."
+      "notes": "Promotion verified V6b — éditeur FR (Sinch), page tarifs officielle.",
+      "entry_ai_generated": true
     },
     {
       "id": "mailslurp",
@@ -353,7 +364,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.mailslurp.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "emailoctopus-parse",
@@ -381,7 +393,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://parser.zapier.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "streak-email",
@@ -410,7 +423,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.streak.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cloudmailin",
@@ -441,7 +455,8 @@
       "source_url": "https://www.cloudmailin.com/pricing",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — page tarifs officielle."
+      "notes": "Promotion verified V6b — page tarifs officielle.",
+      "entry_ai_generated": true
     },
     {
       "id": "aurinko",
@@ -470,7 +485,8 @@
       "discovery_pass": "2026-06-v5g-parsing-compliance",
       "source_url": "https://www.aurinko.io/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "unipile",
@@ -500,7 +516,8 @@
       "source_url": "https://www.unipile.com/pricing/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — éditeur FR, page tarifs officielle."
+      "notes": "Promotion verified V6b — éditeur FR, page tarifs officielle.",
+      "entry_ai_generated": true
     },
     {
       "id": "emailengine",
@@ -530,7 +547,8 @@
       "source_url": "https://emailengine.app/pricing",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — page tarifs officielle (licence self-hosted)."
+      "notes": "Promotion verified V6b — page tarifs officielle (licence self-hosted).",
+      "entry_ai_generated": true
     },
     {
       "id": "unstract",
@@ -561,7 +579,8 @@
       "source_url": "https://unstract.com/pricing/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — page tarifs officielle."
+      "notes": "Promotion verified V6b — page tarifs officielle.",
+      "entry_ai_generated": true
     },
     {
       "id": "microsoft-graph-mail",
@@ -590,7 +609,8 @@
       "discovery_pass": "2026-06-v5g-parsing-compliance",
       "source_url": "https://learn.microsoft.com/en-us/graph/api/resources/mail-api-overview",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "google-gmail-api",
@@ -619,7 +639,8 @@
       "discovery_pass": "2026-06-v5g-parsing-compliance",
       "source_url": "https://developers.google.com/gmail/api",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "inbound-missive",
@@ -649,7 +670,8 @@
       "discovery_pass": "2026-06-v5g-parsing-compliance",
       "source_url": "https://missiveapp.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "dext",
@@ -682,7 +704,8 @@
       "source_url": "https://dext.com/pricing",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — page tarifs officielle dext.com/pricing."
+      "notes": "Promotion verified V6b — page tarifs officielle dext.com/pricing.",
+      "entry_ai_generated": true
     },
     {
       "id": "autoentry",
@@ -713,7 +736,8 @@
       "discovery_pass": "2026-06-v5h-dossier-valide",
       "source_url": "https://www.autoentry.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "levity",
@@ -745,7 +769,8 @@
       "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
       "source_url": "https://levity.ai/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "entry_ai_generated": true
     },
     {
       "id": "indico",
@@ -775,7 +800,8 @@
       "discovery_pass": "2026-06-v5h-dossier-valide",
       "source_url": "https://indicodata.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "kissflow",
@@ -805,7 +831,8 @@
       "discovery_pass": "2026-06-v5h-dossier-valide",
       "source_url": "https://kissflow.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "pipefy",
@@ -836,7 +863,8 @@
       "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
       "source_url": "https://www.pipefy.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "entry_ai_generated": true
     },
     {
       "id": "tonkean",
@@ -866,7 +894,8 @@
       "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
       "source_url": "https://www.tonkean.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "entry_ai_generated": true
     },
     {
       "id": "formstack-documents",
@@ -896,7 +925,8 @@
       "discovery_pass": "2026-06-v5h-dossier-valide",
       "source_url": "https://www.formstack.com/products/documents",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "hiver",
@@ -925,7 +955,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://hiverhq.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "helpscout",
@@ -954,7 +985,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.helpscout.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "dixa",
@@ -985,7 +1017,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.dixa.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "emailtree-ai",
@@ -1014,7 +1047,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://emailtree.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "docuware",
@@ -1045,7 +1079,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://start.docuware.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "m-files",
@@ -1076,7 +1111,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.m-files.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "postscan-mail",
@@ -1105,7 +1141,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.postscanmail.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "mailbutler",
@@ -1136,7 +1173,8 @@
       "source_url": "https://www.mailbutler.io/pricing/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Starter ~$5/user/mo ; Professional ~$9 ; Business sur devis (consulté 2026-06-23)."
+      "pricing_notes": "Starter ~$5/user/mo ; Professional ~$9 ; Business sur devis (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "earth-class-mail",
@@ -1165,7 +1203,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.earthclassmail.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "limnos",
@@ -1198,7 +1237,10 @@
       "source_url": "https://limnos.app/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Concurrent cité revue idée 0029 — flux email entrant (consulté 2026-06-23)."
+      "notes": "Concurrent cité revue idée 0029 — flux email entrant (consulté 2026-06-23).",
+      "entry_ai_generated": false,
+      "founded_year": 2026,
+      "founded_year_source": "https://limnos.app/ — lancement avr. 2026 (revue idée 0029)"
     },
     {
       "id": "orderscan",
@@ -1228,7 +1270,10 @@
       "source_url": "https://www.orderscan.ai/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Concurrent cité revue idée 0029 (consulté 2026-06-23)."
+      "notes": "Concurrent cité revue idée 0029 (consulté 2026-06-23).",
+      "entry_ai_generated": false,
+      "founded_year": 2024,
+      "founded_year_source": "https://www.orderscan.ai/ — acteur FR récent (revue 0029, consulté 2026-06-23)"
     }
   ]
 }

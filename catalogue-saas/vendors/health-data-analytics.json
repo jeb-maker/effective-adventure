@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "komodo-health",
@@ -56,7 +57,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "tempus",
@@ -84,7 +86,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "truveta",
@@ -112,7 +115,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "health-catalyst",
@@ -140,7 +144,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "openhealth",
@@ -170,7 +175,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.openhealth.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "health-data-hub",
@@ -200,7 +206,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.health-data-hub.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "inato",
@@ -229,7 +236,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.inato.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cegedim-health-data",
@@ -259,7 +267,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.cegedim-health-data.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "datavant",
@@ -288,7 +297,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.datavant.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "aetion",
@@ -317,7 +327,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://aetion.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "adimed",
@@ -346,7 +357,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.adimed.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "phare-data",
@@ -375,7 +387,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.pharedata.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "omny-health",
@@ -404,7 +417,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.omnyhealth.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "iqvia-rwe",
@@ -433,7 +447,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.iqvia.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "medtrail",
@@ -462,7 +477,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.medtrail.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "holihealth",
@@ -491,7 +507,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.holihealth.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "syntegra",
@@ -520,7 +537,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.syntegra.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

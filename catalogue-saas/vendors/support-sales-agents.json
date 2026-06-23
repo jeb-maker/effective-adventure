@@ -30,7 +30,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "zendesk-ai",
@@ -60,7 +61,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6h-listicle-civic-open-data"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "entry_ai_generated": false
     },
     {
       "id": "salesforce-agentforce",
@@ -89,7 +91,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify"
+      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
+      "entry_ai_generated": false
     },
     {
       "id": "sierra",
@@ -117,7 +120,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace pickaxe.co listicle ; pricing enterprise sur devis (consulté 2026-06-23)."
+      "pricing_notes": "Remplace pickaxe.co listicle ; pricing enterprise sur devis (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "11x",
@@ -146,7 +150,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace pickaxe.co/post/ai-agent-pricing-models listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace pickaxe.co/post/ai-agent-pricing-models listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "pickaxe",
@@ -176,7 +181,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6h-listicle-civic-open-data"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "entry_ai_generated": false
     },
     {
       "id": "ada",
@@ -205,7 +211,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "forethought",
@@ -234,7 +241,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace helply.com listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace helply.com listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "decagon",
@@ -263,7 +271,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace pickaxe.co/post/ai-agent-pricing-models listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace pickaxe.co/post/ai-agent-pricing-models listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "hubspot-breeze",
@@ -293,7 +302,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6h-listicle-civic-open-data"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "entry_ai_generated": false
     },
     {
       "id": "freshworks-freddy",
@@ -322,7 +332,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "parloa",
@@ -352,7 +363,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.g2.com/categories/ai-customer-service",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "yellow-ai",
@@ -381,7 +393,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://yellow.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ultimate-ai",
@@ -409,7 +422,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://ultimate.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "replicant",
@@ -437,7 +451,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.replicant.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "gladly",
@@ -466,7 +481,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.gladly.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cognigy",
@@ -497,7 +513,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.cognigy.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "kore-ai",
@@ -526,7 +543,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://kore.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "liveperson",
@@ -555,7 +573,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.liveperson.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "moveworks",
@@ -585,7 +604,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.moveworks.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "netomi",
@@ -614,7 +634,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.netomi.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "boost-ai",
@@ -645,7 +666,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://boost.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cresta",
@@ -674,7 +696,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.cresta.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "aisera",
@@ -703,7 +726,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://aisera.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "servicenow-now-assist",
@@ -734,7 +758,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.servicenow.com/now-platform/now-assist.html",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "calldesk",
@@ -764,7 +789,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.calldesk.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "dydu",
@@ -793,7 +819,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.dydu.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

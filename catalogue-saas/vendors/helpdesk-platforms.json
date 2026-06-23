@@ -29,7 +29,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "front",
@@ -57,7 +58,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "help-scout",
@@ -85,7 +87,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "kustomer",
@@ -113,7 +116,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "crisp",
@@ -142,7 +146,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://crisp.chat/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "zendesk-support",
@@ -171,7 +176,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.zendesk.com/service/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "intercom",
@@ -201,7 +207,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.intercom.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "servicenow-csm",
@@ -230,7 +237,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.servicenow.com/products/customer-service-management.html",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "zoho-desk",
@@ -260,7 +268,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.zoho.com/desk/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "deskpro",
@@ -290,7 +299,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.deskpro.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "gorgias",
@@ -319,7 +329,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.gorgias.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "aircall",
@@ -349,7 +360,8 @@
       "source_url": "https://aircall.io/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Acteur FR — téléphonie cloud PME/ETI."
+      "notes": "Acteur FR — téléphonie cloud PME/ETI.",
+      "entry_ai_generated": true
     },
     {
       "id": "ringover",
@@ -379,7 +391,8 @@
       "source_url": "https://www.ringover.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Acteur FR — centre d'appels cloud."
+      "notes": "Acteur FR — centre d'appels cloud.",
+      "entry_ai_generated": true
     },
     {
       "id": "diabolocom",
@@ -409,7 +422,8 @@
       "source_url": "https://www.diabolocom.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Acteur FR — CCaaS enterprise."
+      "notes": "Acteur FR — CCaaS enterprise.",
+      "entry_ai_generated": true
     },
     {
       "id": "reamaze",
@@ -438,7 +452,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.reamaze.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "happyfox",
@@ -467,7 +482,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.happyfox.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "liveagent",
@@ -496,7 +512,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.liveagent.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "talkdesk",
@@ -525,7 +542,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.talkdesk.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

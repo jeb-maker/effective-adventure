@@ -31,7 +31,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "modulos",
@@ -63,7 +64,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
-      "pricing_notes": "Remplace modulos.ai/best-ai-governance listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace modulos.ai/best-ai-governance listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "trustible",
@@ -93,7 +95,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace trustible.ai/post/types-of-ai-governance-platforms listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace trustible.ai/post/types-of-ai-governance-platforms listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "holistic-ai",
@@ -122,7 +125,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6e-territorial-btp-verify",
-      "pricing_notes": "Source officielle ; remplace kla.digital listicle — tarifs sur devis (consulté 2026-06-23)."
+      "pricing_notes": "Source officielle ; remplace kla.digital listicle — tarifs sur devis (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "responsible-ai-studio",
@@ -150,7 +154,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "kla-digital",
@@ -180,7 +185,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
-      "pricing_notes": "Remplace kla.digital/blog listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace kla.digital/blog listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "fiddler-ai",
@@ -210,7 +216,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6e-territorial-btp-verify",
-      "pricing_notes": "Remplace dancumberlandlabs.com listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace dancumberlandlabs.com listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "arize-ai",
@@ -240,7 +247,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6e-territorial-btp-verify",
-      "pricing_notes": "Remplace dancumberlandlabs.com listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace dancumberlandlabs.com listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "ibm-watsonx-governance",
@@ -269,7 +277,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6e-territorial-btp-verify",
-      "pricing_notes": "Source officielle IBM ; remplace modulos.ai listicle (consulté 2026-06-23)."
+      "pricing_notes": "Source officielle IBM ; remplace modulos.ai listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "langsmith",
@@ -300,7 +309,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6e-territorial-btp-verify",
-      "pricing_notes": "Developer $0 ; Plus $39/seat/mo ; Enterprise custom ; remplace kla.digital listicle (consulté 2026-06-23)."
+      "pricing_notes": "Developer $0 ; Plus $39/seat/mo ; Enterprise custom ; remplace kla.digital listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "arthur-ai",
@@ -329,7 +339,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
-      "pricing_notes": "Source officielle ; remplace dancumberlandlabs listicle (consulté 2026-06-23)."
+      "pricing_notes": "Source officielle ; remplace dancumberlandlabs listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "modelop",
@@ -359,7 +370,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
-      "pricing_notes": "Source officielle ; remplace dancumberlandlabs listicle (consulté 2026-06-23)."
+      "pricing_notes": "Source officielle ; remplace dancumberlandlabs listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "atlan",
@@ -389,7 +401,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
-      "pricing_notes": "Source officielle ; remplace dancumberlandlabs listicle (consulté 2026-06-23)."
+      "pricing_notes": "Source officielle ; remplace dancumberlandlabs listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "monitaur",
@@ -418,7 +431,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.monitaur.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "robust-intelligence",
@@ -447,7 +461,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.robustintelligence.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "hiddenlayer",
@@ -475,7 +490,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://hiddenlayer.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "guardrails-ai",
@@ -505,7 +521,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.guardrailsai.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lakera",
@@ -534,7 +551,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.lakera.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "fairly-ai",
@@ -564,7 +582,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.fairly.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "securiti-ai",
@@ -594,7 +613,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://securiti.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "whylabs",
@@ -625,7 +645,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://whylabs.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "truera",
@@ -654,7 +675,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://truera.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "immuta",
@@ -684,7 +706,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.immuta.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "verta-ai",
@@ -713,7 +736,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.verta.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lumenova-ai",
@@ -742,7 +766,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.lumenova.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "zama",
@@ -773,7 +798,8 @@
       "source_url": "https://www.zama.ai/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Acteur FR — gouvernance via chiffrement homomorphe et traçabilité modèles."
+      "notes": "Acteur FR — gouvernance via chiffrement homomorphe et traçabilité modèles.",
+      "entry_ai_generated": true
     },
     {
       "id": "giskard",
@@ -803,7 +829,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.giskard.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "saidot",
@@ -832,7 +859,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.saidot.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "calypsoai",
@@ -861,7 +889,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://calypsoai.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "aporia",
@@ -891,7 +920,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.aporia.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "airia",
@@ -920,7 +950,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://airia.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "eqty-lab",
@@ -949,7 +980,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.eqtylab.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "superwise",
@@ -979,7 +1011,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.superwise.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "datarobot-ai-governance",
@@ -1008,7 +1041,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.datarobot.com/platform/ai-governance/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "deeploy",
@@ -1037,7 +1071,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.deeploy.ml/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

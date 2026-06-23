@@ -29,7 +29,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "persefoni",
@@ -57,7 +58,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "normative",
@@ -85,7 +87,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "greenly",
@@ -113,7 +116,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "workiva-esg",
@@ -141,7 +145,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "sweep",
@@ -170,7 +175,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.sweep.net/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "plan-a",
@@ -199,7 +205,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://plan-a.earth/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ecovadis",
@@ -228,7 +235,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.ecovadis.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "carbonfact",
@@ -257,7 +265,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.carbonfact.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "carbonmaps",
@@ -287,7 +296,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.carbonmaps.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ibm-envizi",
@@ -316,7 +326,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.ibm.com/products/envizi",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "apiday",
@@ -345,7 +356,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.apiday.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "climate-partner",
@@ -374,7 +386,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.climatepartner.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "emitwise",
@@ -403,7 +416,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.emitwise.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "klim",
@@ -432,7 +446,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.klim.eco/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "metrio",
@@ -461,7 +476,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.metrio.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "position-green",
@@ -490,7 +506,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.positiongreen.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "altruistiq",
@@ -519,7 +536,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.altruistiq.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "minimum",
@@ -548,7 +566,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.minimum.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

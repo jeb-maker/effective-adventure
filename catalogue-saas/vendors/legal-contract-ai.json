@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "ironclad",
@@ -56,7 +57,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "luminance",
@@ -84,7 +86,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "spellbook",
@@ -112,7 +115,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "linksquares",
@@ -140,7 +144,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://linksquares.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "doctrine",
@@ -169,7 +174,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.doctrine.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ordalie",
@@ -198,7 +204,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.ordalie.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "jimini",
@@ -227,7 +234,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.jimini.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "predictice",
@@ -256,7 +264,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.predictice.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "henchman",
@@ -285,7 +294,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.henchman.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "legalfly",
@@ -314,7 +324,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.legalfly.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "legalstart",
@@ -343,7 +354,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.legalstart.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "legalplace",
@@ -372,7 +384,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.legalplace.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "kleo",
@@ -401,7 +414,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.kleo.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "dili",
@@ -430,7 +444,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.dili.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lawgeex",
@@ -459,7 +474,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.lawgeex.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "kira-systems",
@@ -488,7 +504,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://kirasystems.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "genie-ai-legal",
@@ -517,7 +534,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.genieai.co/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

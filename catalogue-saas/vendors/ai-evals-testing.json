@@ -29,7 +29,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "promptfoo",
@@ -57,7 +58,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "patronus-ai",
@@ -85,7 +87,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "galileo-ai",
@@ -113,7 +116,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "maxim-ai",
@@ -141,7 +145,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "arize-phoenix",
@@ -170,7 +175,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://phoenix.arize.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "helicone",
@@ -199,7 +205,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.helicone.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "confident-ai",
@@ -228,7 +235,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.confident-ai.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "deepeval",
@@ -257,7 +265,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://github.com/confident-ai/deepeval",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ragas",
@@ -286,7 +295,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://docs.ragas.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "wandb-weave",
@@ -315,7 +325,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://wandb.ai/site/weave",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "langfuse",
@@ -344,7 +355,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://langfuse.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "langwatch",
@@ -373,7 +385,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://langwatch.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "openlayer",
@@ -402,7 +415,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.openlayer.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "humanloop",
@@ -431,7 +445,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://humanloop.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "freeplay",
@@ -460,7 +475,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://freeplay.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "trulens",
@@ -489,7 +505,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.trulens.org/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "comet-opik",
@@ -518,7 +535,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.comet.com/site/products/opik/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

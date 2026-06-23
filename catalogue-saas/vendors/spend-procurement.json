@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "zip",
@@ -56,7 +57,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "procurify",
@@ -84,7 +86,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "spendesk",
@@ -113,7 +116,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "tipalti",
@@ -142,7 +146,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://tipalti.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "sap-ariba",
@@ -172,7 +177,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.ariba.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ivalua",
@@ -201,7 +207,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.ivalua.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "jaggaer",
@@ -230,7 +237,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.jaggaer.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "proactis",
@@ -259,7 +267,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.proactis.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "gep-smart",
@@ -288,7 +297,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.gep.com/software/gep-smart-procurement-software",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "zycus",
@@ -317,7 +327,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.zycus.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "pleo",
@@ -347,7 +358,8 @@
       "source_url": "https://www.pleo.io/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Acteur EU — spend management PME."
+      "notes": "Acteur EU — spend management PME.",
+      "entry_ai_generated": true
     },
     {
       "id": "payhawk",
@@ -377,7 +389,8 @@
       "source_url": "https://payhawk.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Acteur EU — spend management scale-up."
+      "notes": "Acteur EU — spend management scale-up.",
+      "entry_ai_generated": true
     },
     {
       "id": "soldo",
@@ -406,7 +419,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.soldo.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "mesh-payments",
@@ -435,7 +449,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.meshpayments.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "tropic",
@@ -464,7 +479,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.tropicapp.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "precoro",
@@ -493,7 +509,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://precoro.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "order-co",
@@ -522,7 +539,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://order.co/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

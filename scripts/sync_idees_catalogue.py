@@ -53,18 +53,20 @@ def render_block(idea_slug: str, segment_ids: list[str], seg_labels: dict[str, s
             lines.append("_Segment vide dans le catalogue._")
             lines.append("")
             continue
-        lines.append("| ID | Nom | HQ | Marché FR | Vérification |")
-        lines.append("|---|---|---|---|---|")
+        lines.append("| ID | Nom | Depuis | IA | HQ | Marché FR | Vérification |")
+        lines.append("|---|---|:---:|:---:|---|---|---|")
         for v in vendors[:12]:
             hq = v.get("hq_country", "—")
             fr = v.get("france_market", "—")
             status = v.get("verification_status", "—")
             name = v["name"].replace("|", "\\|")
+            since = v.get("founded_year") or "?"
+            ai = "oui" if v.get("entry_ai_generated") else "non"
             lines.append(
-                f"| `{v['id']}` | {name} | {hq} | {fr} | {status} |"
+                f"| `{v['id']}` | {name} | {since} | {ai} | {hq} | {fr} | {status} |"
             )
         if len(vendors) > 12:
-            lines.append(f"| … | _+{len(vendors) - 12} autres_ | | | |")
+            lines.append(f"| … | _+{len(vendors) - 12} autres_ | | | | | |")
         lines.append("")
 
     lines.extend(

@@ -30,7 +30,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "orca-security",
@@ -58,7 +59,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "prisma-cloud",
@@ -87,7 +89,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "lacework",
@@ -115,7 +118,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "aqua-security",
@@ -143,7 +147,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "datadog-cspm",
@@ -172,7 +177,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.datadoghq.com/product/cloud-security/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "sysdig",
@@ -201,7 +207,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://sysdig.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "check-point-cloud",
@@ -231,7 +238,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.checkpoint.com/cloudguard/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "netskope",
@@ -260,7 +268,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.netskope.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "bridgecrew",
@@ -289,7 +298,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.paloaltonetworks.com/prisma/cloud/bridgecrew",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "panoptica",
@@ -318,7 +328,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://panoptica.app/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "zscaler",
@@ -347,7 +358,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.zscaler.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "tailscale",
@@ -376,7 +388,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://tailscale.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "upwind",
@@ -406,7 +419,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.upwind.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "microsoft-defender-cloud",
@@ -435,7 +449,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.microsoft.com/en-us/security/business/cloud-security",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "google-security-command-center",
@@ -464,7 +479,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://cloud.google.com/security-command-center",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "stacklet",
@@ -493,7 +509,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://stacklet.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cloudflare-zero-trust",
@@ -522,7 +539,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.cloudflare.com/zero-trust/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

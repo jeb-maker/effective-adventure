@@ -29,7 +29,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6d-procurement-verify-listicle"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "entry_ai_generated": false
     },
     {
       "id": "make",
@@ -58,7 +59,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6d-procurement-verify-listicle"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "entry_ai_generated": false
     },
     {
       "id": "n8n",
@@ -87,7 +89,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "workato",
@@ -117,7 +120,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "tray-io",
@@ -146,7 +150,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "pipedream",
@@ -176,7 +181,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "activepieces",
@@ -206,7 +212,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6d-procurement-verify-listicle"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "entry_ai_generated": false
     },
     {
       "id": "microsoft-power-automate",
@@ -237,7 +244,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
-      "pricing_notes": "Source officielle Microsoft ; remplace blog youngju.dev (consulté 2026-06-23)."
+      "pricing_notes": "Source officielle Microsoft ; remplace blog youngju.dev (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "tines",
@@ -266,7 +274,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
-      "pricing_notes": "URL tarifs officielle ; remplace youngju.dev (consulté 2026-06-23)."
+      "pricing_notes": "URL tarifs officielle ; remplace youngju.dev (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "windmill",
@@ -297,7 +306,8 @@
       "source_url": "https://www.windmill.dev/pricing",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Community $0 ; Team ~$10/seat/mo ; Enterprise sur devis (consulté 2026-06-23)."
+      "pricing_notes": "Community $0 ; Team ~$10/seat/mo ; Enterprise sur devis (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "relay-app",
@@ -326,7 +336,8 @@
       "discovery_pass": "2026-06-v5j-recordai-orchestration",
       "source_url": "https://www.relay.app/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "bardeen",
@@ -355,7 +366,8 @@
       "discovery_pass": "2026-06-v5j-recordai-orchestration",
       "source_url": "https://www.bardeen.ai/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "parabola",
@@ -384,7 +396,8 @@
       "discovery_pass": "2026-06-v5j-recordai-orchestration",
       "source_url": "https://parabola.io/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "gumloop",
@@ -413,7 +426,8 @@
       "discovery_pass": "2026-06-v5j-recordai-orchestration",
       "source_url": "https://www.gumloop.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "stack-ai",
@@ -443,7 +457,8 @@
       "discovery_pass": "2026-06-v5j-recordai-orchestration",
       "source_url": "https://www.stack-ai.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "retool-workflows",
@@ -472,7 +487,8 @@
       "discovery_pass": "2026-06-v5j-recordai-orchestration",
       "source_url": "https://retool.com/workflows",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "budibase",
@@ -503,7 +519,8 @@
       "source_url": "https://budibase.com/pricing",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Pro $19/mo ; Premium $49 ; Business $299 ; OSS self-host gratuit (consulté 2026-06-23)."
+      "pricing_notes": "Pro $19/mo ; Premium $49 ; Business $299 ; OSS self-host gratuit (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "celonis",
@@ -533,7 +550,8 @@
       "discovery_pass": "2026-06-v5j-recordai-orchestration",
       "source_url": "https://www.celonis.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "temporal",
@@ -563,7 +581,8 @@
       "discovery_pass": "2026-06-v5j-recordai-orchestration",
       "source_url": "https://temporal.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "prefect",
@@ -593,7 +612,8 @@
       "discovery_pass": "2026-06-v5j-recordai-orchestration",
       "source_url": "https://www.prefect.io/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "flowable",
@@ -624,7 +644,8 @@
       "discovery_pass": "2026-06-v5j-recordai-orchestration",
       "source_url": "https://www.flowable.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "bonitasoft",
@@ -656,7 +677,8 @@
       "source_url": "https://www.bonitasoft.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "bizagi",
@@ -686,7 +708,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.bizagi.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "bonita",
@@ -716,7 +739,8 @@
       "source_url": "https://www.bonitasoft.com/products",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Moteur OSS distinct de la plateforme Bonitasoft commercial cataloguée."
+      "notes": "Moteur OSS distinct de la plateforme Bonitasoft commercial cataloguée.",
+      "entry_ai_generated": true
     },
     {
       "id": "inngest",
@@ -746,7 +770,8 @@
       "source_url": "https://www.inngest.com/pricing",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Hobby $0 (50k exécutions) ; Pro dès $75/mo ; Enterprise custom (consulté 2026-06-23)."
+      "pricing_notes": "Hobby $0 (50k exécutions) ; Pro dès $75/mo ; Enterprise custom (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "kestra",
@@ -777,7 +802,8 @@
       "source_url": "https://kestra.io/pricing",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Open Source gratuit ; Enterprise sur devis ; Kestra Cloud pay-as-you-scale (consulté 2026-06-23)."
+      "pricing_notes": "Open Source gratuit ; Enterprise sur devis ; Kestra Cloud pay-as-you-scale (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "hatchet",
@@ -806,7 +832,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://hatchet.run/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "flokzu",
@@ -836,7 +863,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://flokzu.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "process-street",
@@ -865,7 +893,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.process.st/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "nintex",
@@ -894,7 +923,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.nintex.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

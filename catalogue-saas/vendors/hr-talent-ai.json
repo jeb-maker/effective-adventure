@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "eightfold",
@@ -56,7 +57,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "hirevue",
@@ -84,7 +86,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "textio",
@@ -113,7 +116,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "greenhouse",
@@ -141,7 +145,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.greenhouse.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "talentsoft",
@@ -171,7 +176,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.talentsoft.com/fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lucca",
@@ -201,7 +207,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.lucca.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "jobteaser",
@@ -230,7 +237,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.jobteaser.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "beetween",
@@ -259,7 +267,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.beetween.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "flatchr",
@@ -288,7 +297,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.flatchr.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "welcom-hr",
@@ -317,7 +327,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.welcometothejungle.com/fr/solutions/ats",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "people-spheres",
@@ -346,7 +357,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.peoplespheres.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lightcast",
@@ -377,7 +389,8 @@
       "source_url": "https://lightcast.io/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Référence labour market intel citée idée 0028."
+      "notes": "Référence labour market intel citée idée 0028.",
+      "entry_ai_generated": true
     },
     {
       "id": "figures-hr",
@@ -406,7 +419,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://figures.hr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "smartrecruiters",
@@ -435,7 +449,8 @@
       "discovery_pass": "2026-06-v5u-fill-last4",
       "source_url": "https://www.smartrecruiters.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lever",
@@ -464,7 +479,8 @@
       "discovery_pass": "2026-06-v5u-fill-last4",
       "source_url": "https://www.lever.co/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "workable",
@@ -493,7 +509,8 @@
       "discovery_pass": "2026-06-v5u-fill-last4",
       "source_url": "https://www.workable.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "icims",
@@ -522,7 +539,8 @@
       "discovery_pass": "2026-06-v5u-fill-last4",
       "source_url": "https://www.icims.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "teamtailor",
@@ -551,7 +569,8 @@
       "discovery_pass": "2026-06-v5u-fill-last4",
       "source_url": "https://www.teamtailor.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

@@ -30,7 +30,8 @@
         "US"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "sumsub",
@@ -58,7 +59,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "jumio",
@@ -86,7 +88,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "complyadvantage",
@@ -116,7 +119,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "seon",
@@ -144,7 +148,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "ubble",
@@ -175,7 +180,10 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Concurrent cité idée 0029 RecordAI KYC lite.",
-      "pricing_notes": "Vérification identité vidéo ; benchmark §13 idée 0029 (consulté 2026-06-23)."
+      "pricing_notes": "Vérification identité vidéo ; benchmark §13 idée 0029 (consulté 2026-06-23).",
+      "entry_ai_generated": true,
+      "founded_year": 2018,
+      "founded_year_source": "https://ubble.ai/ — fondé FR, acquis Checkout 2022"
     },
     {
       "id": "veriff",
@@ -205,7 +213,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.veriff.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "idnow",
@@ -235,7 +244,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.idnow.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "persona",
@@ -264,7 +274,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://withpersona.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "trulioo",
@@ -294,7 +305,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.trulioo.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "alloy",
@@ -325,7 +337,8 @@
       "source_url": "https://www.alloy.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "dotfile",
@@ -355,7 +368,8 @@
       "source_url": "https://www.dotfile.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Onboarding/KYC PME ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "Onboarding/KYC PME ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "salv",
@@ -386,7 +400,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://salv.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "didit",
@@ -415,7 +430,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://didit.me/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lemonway-kyc",
@@ -446,7 +462,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "KYC lite fintech FR — écosystème paiement Lemonway.",
-      "pricing_notes": "KYC paiement / EMI ; acteur FR cité idée 0029 (consulté 2026-06-23)."
+      "pricing_notes": "KYC paiement / EMI ; acteur FR cité idée 0029 (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "treezor",
@@ -475,7 +492,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.treezor.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "mangopay-kyc",
@@ -505,7 +523,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://mangopay.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "fourthline",
@@ -534,7 +553,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://fourthline.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "flagright",
@@ -564,7 +584,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.flagright.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "checkin-com",
@@ -593,7 +614,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://checkin.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "shufti-pro",
@@ -623,7 +645,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://shuftipro.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ondorse",
@@ -654,7 +677,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Concurrent Dotfile — niche KYC lite fintech FR.",
-      "pricing_notes": "KYC/AML automatisé FR ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "KYC/AML automatisé FR ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "ariadnext",
@@ -683,7 +707,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.ariadnext.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "passfort",
@@ -713,7 +738,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.passfort.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "stripe-identity",
@@ -742,7 +768,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://stripe.com/identity",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "api-entreprise-gouv",
@@ -774,7 +801,8 @@
       "source_url": "https://www.data.gouv.fr/dataservices/api-entreprise",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Service public cité idée 0029 — pivot KYC lite (consulté 2026-06-23)."
+      "notes": "Service public cité idée 0029 — pivot KYC lite (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "api-recherche-entreprises",
@@ -806,7 +834,8 @@
       "source_url": "https://recherche-entreprises.api.gouv.fr/docs/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Découvert auto data.gouv ; complète API Entreprise (consulté 2026-06-23)."
+      "notes": "Découvert auto data.gouv ; complète API Entreprise (consulté 2026-06-23).",
+      "entry_ai_generated": true
     }
   ]
 }

@@ -53,7 +53,20 @@
     },
     "discovery_source": { "type": "string" },
     "discovery_pass": { "type": "string" },
-    "founded_year": { "type": "integer" },
+    "founded_year": {
+      "type": ["integer", "null"],
+      "minimum": 1970,
+      "maximum": 2100,
+      "description": "Année de création de l'acteur (entreprise ou service). null = inconnu."
+    },
+    "founded_year_source": {
+      "type": "string",
+      "description": "URL ou note datée justifiant founded_year."
+    },
+    "entry_ai_generated": {
+      "type": "boolean",
+      "description": "true si la fiche catalogue a été produite par pipeline auto/agent sans curation manuelle explicite."
+    },
     "notes": { "type": "string" },
     "source_url": { "type": "string", "format": "uri" },
     "source_consulted_at": {

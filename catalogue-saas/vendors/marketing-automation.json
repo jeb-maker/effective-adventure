@@ -29,7 +29,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "mailchimp",
@@ -57,7 +58,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "brevo",
@@ -86,7 +88,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "activecampaign",
@@ -114,7 +117,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "customer-io",
@@ -143,7 +147,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "klaviyo",
@@ -172,7 +177,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.klaviyo.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "omnisend",
@@ -201,7 +207,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.omnisend.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "braze",
@@ -230,7 +237,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.braze.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "iterable",
@@ -259,7 +267,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://iterable.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lemlist",
@@ -288,7 +297,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.lemlist.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "drip",
@@ -317,7 +327,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.drip.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "hubspot-marketing",
@@ -346,7 +357,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.hubspot.com/products/marketing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "pardot",
@@ -375,7 +387,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.salesforce.com/products/marketing-cloud/account-engagement/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "eloqua",
@@ -404,7 +417,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.oracle.com/cx/marketing/automation/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "sarbacane",
@@ -434,7 +448,8 @@
       "source_url": "https://www.sarbacane.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Acteur FR — emailing PME conforme RGPD."
+      "notes": "Acteur FR — emailing PME conforme RGPD.",
+      "entry_ai_generated": true
     },
     {
       "id": "actito",
@@ -464,7 +479,8 @@
       "source_url": "https://www.actito.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Acteur EU — marketing automation Benelux."
+      "notes": "Acteur EU — marketing automation Benelux.",
+      "entry_ai_generated": true
     },
     {
       "id": "splio",
@@ -494,7 +510,8 @@
       "source_url": "https://www.splio.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Acteur FR — CRM marketing retail."
+      "notes": "Acteur FR — CRM marketing retail.",
+      "entry_ai_generated": true
     },
     {
       "id": "mailjet",
@@ -524,7 +541,8 @@
       "source_url": "https://www.mailjet.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Acteur FR — email API Sinch."
+      "notes": "Acteur FR — email API Sinch.",
+      "entry_ai_generated": true
     }
   ]
 }

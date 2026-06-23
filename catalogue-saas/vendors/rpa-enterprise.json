@@ -29,7 +29,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "automation-anywhere",
@@ -57,7 +58,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "blue-prism",
@@ -85,7 +87,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "workfusion",
@@ -114,7 +117,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "power-automate-desktop",
@@ -142,7 +146,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://powerautomate.microsoft.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "kryon-rpa",
@@ -172,7 +177,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.nintex.com/platform/rpa/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "pegasystems",
@@ -201,7 +207,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.pega.com/products/platform",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "robocorp",
@@ -231,7 +238,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://robocorp.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "appian-rpa",
@@ -260,7 +268,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://appian.com/products/platform/rpa",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "electroneek",
@@ -289,7 +298,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://electroneek.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "nice-rpa",
@@ -319,7 +329,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.nice.com/products/automation/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "sap-build-rpa",
@@ -348,7 +359,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.sap.com/products/technology-platform/process-automation.html",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ibm-rpa",
@@ -377,7 +389,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.ibm.com/products/robotic-process-automation",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "workato-rpa",
@@ -406,7 +419,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.workato.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "hyland-rpa",
@@ -435,7 +449,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.hyland.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "automation-edge",
@@ -464,7 +479,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://automationedge.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "softomotive",
@@ -493,7 +509,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.microsoft.com/en-us/power-platform/products/power-automate",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "rocketbot",
@@ -522,7 +539,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://rocketbot.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

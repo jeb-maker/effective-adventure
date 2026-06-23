@@ -30,7 +30,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "cube-regulatory-intelligence",
@@ -60,7 +61,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "corlytics",
@@ -91,7 +93,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "ascent-regtech",
@@ -119,7 +122,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "finrege",
@@ -148,7 +152,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "kalipso",
@@ -177,7 +182,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "sia-regai",
@@ -209,7 +215,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "regl-ai",
@@ -239,7 +246,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "regology",
@@ -270,7 +278,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "norm-ai",
@@ -300,7 +309,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "compliance-ai",
@@ -329,7 +339,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "4crisk-ai",
@@ -358,7 +369,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "clausematch",
@@ -388,7 +400,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "diligent",
@@ -418,7 +431,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "metricstream-reg",
@@ -448,7 +462,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "vixio",
@@ -476,7 +491,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "steel-eye",
@@ -504,7 +520,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "fenergo",
@@ -534,7 +551,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.fenergo.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lseg-regulatory-intelligence",
@@ -562,7 +580,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.lseg.com/en/data-analytics/products/regulatory-intelligence",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "encompass",
@@ -592,7 +611,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.encompasscorporation.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "actico",
@@ -621,7 +641,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.actico.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "alyne",
@@ -651,7 +672,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.alyne.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "acaglobal",
@@ -679,7 +701,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.acaglobal.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "nice-actimize",
@@ -709,7 +732,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.niceactimize.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "waystone",
@@ -737,7 +761,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.waystone.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "hummingbird-regtech",
@@ -766,7 +791,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.hummingbird.co/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "aca-foreside",
@@ -794,7 +820,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.acaforeside.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "behavox",
@@ -824,7 +851,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.behavox.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "regnology",
@@ -853,7 +881,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.regnology.net/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "solidatus",
@@ -884,7 +913,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.solidatus.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lucinity",
@@ -915,7 +945,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://lucinity.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "feedzai",
@@ -946,7 +977,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://feedzai.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "eventus",
@@ -975,7 +1007,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://eventus.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "regtrack",
@@ -1004,7 +1037,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.regtrack.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "apiax",
@@ -1033,7 +1067,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.apiax.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "kharon",
@@ -1062,7 +1097,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.kharon.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "napier",
@@ -1092,7 +1128,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.napier.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "opensee",
@@ -1121,7 +1158,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://opensee.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "aveni",
@@ -1150,7 +1188,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.aveni.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

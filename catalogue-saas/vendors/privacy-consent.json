@@ -29,7 +29,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "onetrust-privacy",
@@ -59,7 +60,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "osano",
@@ -87,7 +89,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "axeptio",
@@ -116,7 +119,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "cookiebot",
@@ -145,7 +149,8 @@
       "discovery_pass": "2026-06-v5e-retrospective",
       "source_url": "https://www.cookiebot.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": false
     },
     {
       "id": "iubenda",
@@ -174,7 +179,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.iubenda.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "termly",
@@ -203,7 +209,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://termly.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cookieyes",
@@ -232,7 +239,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.cookieyes.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "sirdata",
@@ -261,7 +269,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.sirdata.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "tarteaucitron",
@@ -290,7 +299,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://tarteaucitron.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "usercentrics",
@@ -319,7 +329,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://usercentrics.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "commanders-act",
@@ -348,7 +359,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.commandersact.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cookie-information",
@@ -377,7 +389,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://cookieinformation.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "consentmanager",
@@ -406,7 +419,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.consentmanager.net/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "complianz",
@@ -435,7 +449,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://complianz.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "pandectes",
@@ -464,7 +479,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://pandectes.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "privacybee",
@@ -493,7 +509,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://privacybee.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "quantcast-choice",
@@ -522,7 +539,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.quantcast.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

@@ -22,6 +22,9 @@
         "source_url": "https://example.com/",
         "source_consulted_at": "2026-06-23",
         "verification_status": "verified",
+        "entry_ai_generated": false,
+        "founded_year": 2018,
+        "founded_year_source": "https://example.com/about",
         "notes": "Concurrent cité idée XXXX."
       }
     ]

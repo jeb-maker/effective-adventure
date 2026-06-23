@@ -30,7 +30,10 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false,
+      "founded_year": 2011,
+      "founded_year_source": "https://www.data.gouv.fr/ — portail Etalab/open data FR"
     },
     {
       "id": "georisques",
@@ -59,7 +62,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "ofgl",
@@ -87,7 +91,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "cartes-gouv",
@@ -115,7 +120,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "data-gov-uk",
@@ -145,7 +151,8 @@
       "source_url": "https://www.data.gov.uk/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "ons-uk",
@@ -174,7 +181,8 @@
       "source_url": "https://www.ons.gov.uk/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "eurostat-regional",
@@ -203,7 +211,8 @@
       "source_url": "https://ec.europa.eu/eurostat/web/regions",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Référence EU — comparable aux observatoires territoriaux FR."
+      "notes": "Référence EU — comparable aux observatoires territoriaux FR.",
+      "entry_ai_generated": true
     },
     {
       "id": "carto-territorial",
@@ -234,7 +243,8 @@
       "source_url": "https://carto.com/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "smappen",
@@ -265,7 +275,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Concurrent cité idées 0006/0028.",
-      "pricing_notes": "Free / Essential / Pro / Advanced ; démographie FR/BE incluse (consulté 2026-06-23)."
+      "pricing_notes": "Free / Essential / Pro / Advanced ; démographie FR/BE incluse (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "geomarket",
@@ -296,7 +307,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Concurrent cité idée 0006.",
-      "pricing_notes": "Standard 42 € HT/étude ; Pro 60 € ; Abonnement Pro 300 € HT/mois (consulté 2026-06-23)."
+      "pricing_notes": "Standard 42 € HT/étude ; Pro 60 € ; Abonnement Pro 300 € HT/mois (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "data-b",
@@ -326,7 +338,8 @@
       "source_url": "https://www.data-b.fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent cité idées 0006/0028."
+      "notes": "Concurrent cité idées 0006/0028.",
+      "entry_ai_generated": true
     },
     {
       "id": "vigicite",
@@ -355,7 +368,8 @@
       "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
       "source_url": "https://www.vigicite.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "entry_ai_generated": true
     },
     {
       "id": "localnova",
@@ -384,7 +398,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.localnova-finance-publique.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "galigeo",
@@ -413,7 +428,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.galigeo.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "insee-portrait-commune",
@@ -442,7 +458,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.insee.fr/fr/statistiques/2017499",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "place-statistiques-locales",
@@ -471,7 +488,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.insee.fr/fr/outil-interactif/7134178",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "france-travail-emploi-territoire",
@@ -503,7 +521,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Source citée idée 0028.",
-      "pricing_notes": "API Informations emploi territoire ; complète le portail stats (consulté 2026-06-23)."
+      "pricing_notes": "API Informations emploi territoire ; complète le portail stats (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "dares-emploi",
@@ -534,7 +553,8 @@
       "source_url": "https://dares.travail-emploi.gouv.fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Source citée idée 0028."
+      "notes": "Source citée idée 0028.",
+      "entry_ai_generated": true
     },
     {
       "id": "orama-limited",
@@ -564,7 +584,8 @@
       "source_url": "https://oramalimited.com/comment-ca-marche/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent direct idée 0007 ; citoyen 0 € (consulté 2026-06-23)."
+      "notes": "Concurrent direct idée 0007 ; citoyen 0 € (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "habity",
@@ -595,7 +616,8 @@
       "source_url": "https://habity.fr/a-propos/methodologie",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Réutilisation data.gouv ; MAJ finances avril 2026 (consulté 2026-06-23)."
+      "notes": "Réutilisation data.gouv ; MAJ finances avril 2026 (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "depenses-publiques",
@@ -626,7 +648,8 @@
       "source_url": "https://depensespubliques.fr/donnees-sources",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Modèle économique non public ; citoyen 0 € (consulté 2026-06-23)."
+      "notes": "Modèle économique non public ; citoyen 0 € (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "data-emploi-francetravail",
@@ -655,7 +678,8 @@
       "source_url": "https://dataemploi.francetravail.fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Concurrent direct idée 0028 — couvre ~80 % du besoin sans développement (consulté 2026-06-23)."
+      "notes": "Concurrent direct idée 0028 — couvre ~80 % du besoin sans développement (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "eclaireur-public",
@@ -687,7 +711,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Adjacent idées 0027/0018 ; gratuit (consulté 2026-06-23).",
-      "pricing_notes": "Observatoire subventions/marchés ; méthodologie publique (consulté 2026-06-23)."
+      "pricing_notes": "Observatoire subventions/marchés ; méthodologie publique (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "aides-territoires",
@@ -719,7 +744,10 @@
       "source_url": "https://aides-territoires.beta.gouv.fr/api/doc",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Découvert auto data.gouv ; adjacent idée 0010 (consulté 2026-06-23)."
+      "notes": "Découvert auto data.gouv ; adjacent idée 0010 (consulté 2026-06-23).",
+      "entry_ai_generated": true,
+      "founded_year": 2019,
+      "founded_year_source": "https://aides-territoires.beta.gouv.fr/ — beta.gouv.fr"
     },
     {
       "id": "territoires-fertiles",
@@ -750,7 +778,8 @@
       "source_url": "https://territoiresfertiles.fr/methodologie",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Découvert auto data.gouv (consulté 2026-06-23)."
+      "notes": "Découvert auto data.gouv (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "agence-ore-consommation-commune",
@@ -781,7 +810,8 @@
       "source_url": "https://opendata.agenceore.fr/data-fair/api/v1/datasets/consommation-annuelle-d-electricite-et-gaz-par-commune/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Jeu national Agence ORE ; découvert auto data.gouv (consulté 2026-06-23)."
+      "notes": "Jeu national Agence ORE ; découvert auto data.gouv (consulté 2026-06-23).",
+      "entry_ai_generated": false
     }
   ]
 }

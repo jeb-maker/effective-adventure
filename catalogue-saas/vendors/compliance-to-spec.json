@@ -31,7 +31,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "aispecify",
@@ -60,7 +61,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "open-policy-agent",
@@ -89,7 +91,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "hyperproof",
@@ -120,7 +123,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "onspring",
@@ -150,7 +154,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "secureframe",
@@ -181,7 +186,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace v-comply.com/blog/top-grc-software listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace v-comply.com/blog/top-grc-software listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "snyk",
@@ -212,7 +218,8 @@
         "US"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "styra",
@@ -241,7 +248,8 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://www.styra.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "regscale",
@@ -270,7 +278,8 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://www.g2.com/categories/grc-platforms",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "anecdotes",
@@ -302,7 +311,8 @@
       "source_url": "https://www.anecdotes.ai/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "scrut-automation",
@@ -333,7 +343,8 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://www.scrut.io/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "thoropass",
@@ -363,7 +374,8 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://thoropass.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "hashicorp-sentinel",
@@ -392,7 +404,8 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://developer.hashicorp.com/sentinel",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "entry_ai_generated": true
     },
     {
       "id": "pulumi-crossguard",
@@ -420,7 +433,8 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://www.pulumi.com/crossguard/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "trustcloud",
@@ -450,7 +464,8 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://www.trustcloud.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "reggenome",
@@ -481,7 +496,8 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://www.reggenome.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "delve-compliance",
@@ -510,7 +526,8 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://www.delve.co/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "probo",
@@ -542,7 +559,10 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Promotion verified V6b — compliance open-source FR (revue 0029).",
-      "pricing_notes": "Compliance→spec FR ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "Compliance→spec FR ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": false,
+      "founded_year": 2023,
+      "founded_year_source": "https://www.probo.ai/"
     },
     {
       "id": "sixclicks",
@@ -573,7 +593,8 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://www.6clicks.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cedar-policy",
@@ -602,7 +623,8 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://www.cedarpolicy.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "entry_ai_generated": true
     },
     {
       "id": "kintent",
@@ -631,7 +653,8 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://www.kintent.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "trustarc",
@@ -660,7 +683,8 @@
       "discovery_pass": "2026-06-v5g-parsing-compliance",
       "source_url": "https://trustarc.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "processunity",
@@ -690,7 +714,8 @@
       "discovery_pass": "2026-06-v5g-parsing-compliance",
       "source_url": "https://www.processunity.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ostendio",
@@ -720,7 +745,8 @@
       "discovery_pass": "2026-06-v5g-parsing-compliance",
       "source_url": "https://www.ostendio.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "fairnow",
@@ -749,7 +775,8 @@
       "discovery_pass": "2026-06-v5g-parsing-compliance",
       "source_url": "https://www.fairnow.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "regulativ-ai",
@@ -780,7 +807,8 @@
       "source_url": "https://www.regulativ.ai/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — site officiel (regulatory change → specs)."
+      "notes": "Promotion verified V6b — site officiel (regulatory change → specs).",
+      "entry_ai_generated": true
     },
     {
       "id": "camunda",
@@ -812,7 +840,8 @@
       "source_url": "https://camunda.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "conformiq",
@@ -841,7 +870,8 @@
       "source_url": "https://www.conformiq.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "compliance-cow",
@@ -872,7 +902,8 @@
       "source_url": "https://www.compliancecow.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "dilitrust",
@@ -903,7 +934,10 @@
       "source_url": "https://www.dilitrust.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "GRC/compliance FR ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "GRC/compliance FR ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": false,
+      "founded_year": 2003,
+      "founded_year_source": "https://www.dilitrust.com/"
     },
     {
       "id": "yooz",
@@ -936,7 +970,10 @@
       "source_url": "https://www.yooz.eu/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "AP automation FR ; concurrent idée 0029 (consulté 2026-06-23)."
+      "pricing_notes": "AP automation FR ; concurrent idée 0029 (consulté 2026-06-23).",
+      "entry_ai_generated": false,
+      "founded_year": 2010,
+      "founded_year_source": "https://www.yooz.eu/ — Yooz Group"
     },
     {
       "id": "libeo",
@@ -966,7 +1003,8 @@
       "source_url": "https://libeo.io/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Paiements fournisseurs FR ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "Paiements fournisseurs FR ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "whistic",
@@ -996,7 +1034,8 @@
       "discovery_pass": "2026-06-v5h-dossier-valide",
       "source_url": "https://www.whistic.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "formalize",
@@ -1026,7 +1065,8 @@
       "discovery_pass": "2026-06-v5h-dossier-valide",
       "source_url": "https://formalize.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "conformio",
@@ -1056,7 +1096,8 @@
       "source_url": "https://conformio.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "laika",
@@ -1086,7 +1127,8 @@
       "discovery_pass": "2026-06-v5h-dossier-valide",
       "source_url": "https://www.heylaika.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "inscribe",
@@ -1117,7 +1159,8 @@
       "source_url": "https://www.inscribe.ai/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Benchmark revue 0029 — KYC document fraud US, france_market partial."
+      "notes": "Benchmark revue 0029 — KYC document fraud US, france_market partial.",
+      "entry_ai_generated": true
     },
     {
       "id": "certivity",
@@ -1148,7 +1191,8 @@
       "source_url": "https://www.certivity.io/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "qualio",
@@ -1178,7 +1222,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.qualio.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "compliancequest",
@@ -1208,7 +1253,8 @@
       "source_url": "https://www.compliancequest.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "zengrc",
@@ -1237,7 +1283,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.zengrc.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "standard-fusion",
@@ -1266,7 +1313,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.standardfusion.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "certa",
@@ -1296,7 +1344,8 @@
       "source_url": "https://www.getcerta.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "complion",
@@ -1326,7 +1375,8 @@
       "source_url": "https://www.complion.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "ideagen",
@@ -1358,7 +1408,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.ideagen.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "origami-risk",
@@ -1387,7 +1438,8 @@
       "discovery_pass": "2026-06-v5q-recordai-chain-l3",
       "source_url": "https://www.origamirisk.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "checkfile-ai",
@@ -1421,7 +1473,10 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "pricing_notes": "Usage-based ~0,30 €/fichier ; plans Starter 100/mois, Business 500/mois, Enterprise sur devis (consulté 2026-06-23).",
-      "notes": "Concurrent omis en revue idée 0029 — clone direct du positionnement RecordAI KYC lite DORA."
+      "notes": "Concurrent omis en revue idée 0029 — clone direct du positionnement RecordAI KYC lite DORA.",
+      "entry_ai_generated": true,
+      "founded_year": 2023,
+      "founded_year_source": "https://www.checkfile.ai/ (revue 0029)"
     },
     {
       "id": "verifypdf",
@@ -1453,7 +1508,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "pricing_notes": "Vérification PDF DORA ; cité idée 0029 (consulté 2026-06-23).",
-      "notes": "Angle fraude documentaire / DORA prestataires tiers — complète CheckFile sur l'intégrité PDF."
+      "notes": "Angle fraude documentaire / DORA prestataires tiers — complète CheckFile sur l'intégrité PDF.",
+      "entry_ai_generated": false
     },
     {
       "id": "shift-claims",
@@ -1485,7 +1541,10 @@
       "source_url": "https://shift-claims.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent vertical sinistres cité idée 0029 revue (consulté 2026-06-23)."
+      "notes": "Concurrent vertical sinistres cité idée 0029 revue (consulté 2026-06-23).",
+      "entry_ai_generated": false,
+      "founded_year": 2025,
+      "founded_year_source": "https://www.prnewswire.com/fr/communiques-de-presse/shift-claims-lia-agentique-qui-accelere-et-optimise-la-gestion-des-sinistres-302557040.html"
     },
     {
       "id": "korint",
@@ -1518,7 +1577,8 @@
       "source_url": "https://www.korint.io/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent assurance cité idée 0029 (consulté 2026-06-23)."
+      "notes": "Concurrent assurance cité idée 0029 (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "mediar",
@@ -1552,7 +1612,8 @@
       "source_url": "https://www.mediar.ai/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent workflow documents cité idée 0029 revue (consulté 2026-06-23)."
+      "notes": "Concurrent workflow documents cité idée 0029 revue (consulté 2026-06-23).",
+      "entry_ai_generated": false
     }
   ]
 }

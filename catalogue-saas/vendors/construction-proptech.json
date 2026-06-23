@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "fieldwire",
@@ -56,7 +57,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "buildertrend",
@@ -84,7 +86,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "planradar",
@@ -111,7 +114,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "alice-technologies",
@@ -139,7 +143,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "finalcad",
@@ -168,7 +173,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.finalcad.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "dalux",
@@ -197,7 +203,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.dalux.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "buildots",
@@ -226,7 +233,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://buildots.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "openspace",
@@ -255,7 +263,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.openspace.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "catenda",
@@ -284,7 +293,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://catenda.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "graneet",
@@ -313,7 +323,8 @@
       "discovery_pass": "2026-06-v5m-verticals-compliance",
       "source_url": "https://www.graneet.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "archilogic",
@@ -342,7 +353,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://archilogic.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "bimtrack",
@@ -371,7 +383,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://bimtrack.co/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ibat",
@@ -400,7 +413,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.ibat.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "helyx",
@@ -429,7 +443,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.helyx.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "planbim",
@@ -458,7 +473,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.plan-bim.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "trimble-connect",
@@ -487,7 +503,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://connect.trimble.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "inovva",
@@ -516,7 +533,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.inovva.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "spigao",
@@ -548,7 +566,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Groupe Intescia ; tarifs sur devis — comparatifs tiers 200–400 €/mois (consulté 2026-06-23).",
-      "pricing_notes": "Cartographie DPE passoires ; concurrent idée 0009 (consulté 2026-06-23)."
+      "pricing_notes": "Cartographie DPE passoires ; concurrent idée 0009 (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "prescriptio",
@@ -579,7 +598,8 @@
       "source_url": "https://prescriptio.fr/prescriptio-vs-vecteur-plus",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "39 €/mois ou 390 €/an ; essai 14 j sans engagement (consulté 2026-06-23)."
+      "pricing_notes": "39 €/mois ou 390 €/an ; essai 14 j sans engagement (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "bati-pulse",
@@ -609,7 +629,8 @@
       "source_url": "https://bati-pulse.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Explore Bati-Pulse ; tarifs sur devis (consulté 2026-06-23)."
+      "notes": "Explore Bati-Pulse ; tarifs sur devis (consulté 2026-06-23).",
+      "entry_ai_generated": true
     }
   ]
 }

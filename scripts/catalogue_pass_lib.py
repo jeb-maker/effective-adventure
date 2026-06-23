@@ -84,6 +84,10 @@ def apply_additions(additions: dict[str, list[dict]]) -> tuple[int, list[str]]:
                 continue
             data["vendors"].append(vendor)
             all_ids.add(vendor["id"])
+            if "entry_ai_generated" not in vendor:
+                vendor["entry_ai_generated"] = False
+            if "founded_year" not in vendor:
+                vendor["founded_year"] = None
             added.append(vendor["id"])
             count += 1
             total += 1

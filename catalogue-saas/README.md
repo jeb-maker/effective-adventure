@@ -93,6 +93,11 @@ python3 scripts/catalogue_pass.py weekly --limit 20 --dry-run   # promote auto �
 python3 scripts/catalogue_saas.py verify-promote --retravailler --limit 20
 python3 scripts/catalogue_saas.py gate                         # validate + revues + listicle
 
+# Provenance acteur (depuis quand + fiche générée IA)
+python3 scripts/tag_catalogue_provenance_v1.py                   # rétro-tag
+python3 scripts/catalogue_saas.py provenance-report
+# Overrides founded_year : catalogue-saas/founded-years-overrides.json
+
 # Découverte secteurs / acteurs (semi-auto — voir docs/cartographie-existant.md)
 python3 scripts/catalogue_discover.py plan --retravailler
 python3 scripts/catalogue_discover.py brief SEGMENT_ID

@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "phrase",
@@ -56,7 +57,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "smartling",
@@ -84,7 +86,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "lokalise",
@@ -112,7 +115,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "crowdin",
@@ -140,7 +144,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "transifex",
@@ -169,7 +174,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.transifex.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "weglot",
@@ -198,7 +204,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.weglot.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "smartcat",
@@ -227,7 +234,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.smartcat.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "poeditor",
@@ -257,7 +265,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://poeditor.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "gridly",
@@ -287,7 +296,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.gridly.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "memsource",
@@ -317,7 +327,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://cloud.memsource.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "textmaster",
@@ -346,7 +357,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.textmaster.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "unbabel",
@@ -375,7 +387,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://unbabel.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "locize",
@@ -404,7 +417,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://locize.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "localizejs",
@@ -433,7 +447,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://localizejs.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "rws-trados",
@@ -462,7 +477,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://www.rws.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "xtm-cloud",
@@ -491,7 +507,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://xtm.cloud/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lingohub",
@@ -520,7 +537,8 @@
       "discovery_pass": "2026-06-v5t-verticals-l3",
       "source_url": "https://lingohub.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

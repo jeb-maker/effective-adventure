@@ -27,7 +27,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "cityway",
@@ -55,7 +56,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "transport-data-gouv",
@@ -83,7 +85,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "padam-mobility",
@@ -111,7 +114,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "hove",
@@ -138,7 +142,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "tfl-open-data",
@@ -168,7 +173,8 @@
       "source_url": "https://tfl.gov.uk/info-for/open-data-users/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "mobilitydata-org",
@@ -197,7 +203,8 @@
       "source_url": "https://mobilitydata.org/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "transit-land",
@@ -227,7 +234,8 @@
       "source_url": "https://www.transit.land/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "itoworld",
@@ -256,7 +264,8 @@
       "source_url": "https://www.itoworld.com/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "navitia",
@@ -286,7 +295,8 @@
       "source_url": "https://navitia.io/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent cité idée 0015."
+      "notes": "Concurrent cité idée 0015.",
+      "entry_ai_generated": true
     },
     {
       "id": "geovelo",
@@ -315,7 +325,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://www.geovelo.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "karos",
@@ -344,7 +355,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://www.karos.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "blablacar-daily",
@@ -373,7 +385,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://www.blablacar.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "sncf-open-data",
@@ -402,7 +415,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://ressources.data.sncf.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cerema-capamob",
@@ -432,7 +446,8 @@
       "source_url": "https://capamob.cerema.fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent cité idée 0015."
+      "notes": "Concurrent cité idée 0015.",
+      "entry_ai_generated": true
     },
     {
       "id": "ratp-open-data",
@@ -461,7 +476,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://data.ratp.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "fluctuo",
@@ -490,7 +506,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://www.fluctuo.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "mappy",
@@ -519,7 +536,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://www.mappy.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

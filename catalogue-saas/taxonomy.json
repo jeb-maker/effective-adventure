@@ -541,5 +541,10 @@
     "L1",
     "L2",
     "L3"
-  ]
+  ],
+  "vendor_metadata": {
+    "founded_year": "Année création acteur — null si inconnu",
+    "founded_year_source": "Preuve (URL consultée) pour founded_year",
+    "entry_ai_generated": "Fiche catalogue générée par agent/pipeline auto (true) vs curation manuelle ou rétrospective humaine (false)"
+  }
 }

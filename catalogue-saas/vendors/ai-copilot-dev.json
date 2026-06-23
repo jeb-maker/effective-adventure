@@ -30,7 +30,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "github-copilot",
@@ -60,7 +61,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "microsoft-copilot-365",
@@ -89,7 +91,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "cursor",
@@ -119,7 +122,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6h-listicle-civic-open-data"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "entry_ai_generated": false
     },
     {
       "id": "replit",
@@ -149,7 +153,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6d-procurement-verify-listicle"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "entry_ai_generated": false
     },
     {
       "id": "windsurf",
@@ -178,7 +183,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify"
+      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
+      "entry_ai_generated": false
     },
     {
       "id": "devin",
@@ -208,7 +214,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "claude-code",
@@ -237,7 +244,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6h-listicle-civic-open-data"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "entry_ai_generated": false
     },
     {
       "id": "amazon-q-developer",
@@ -265,7 +273,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "jetbrains-ai",
@@ -293,7 +302,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "tabnine",
@@ -321,7 +331,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "sourcegraph-cody",
@@ -350,7 +361,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://sourcegraph.com/cody",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "continue-dev",
@@ -379,7 +391,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.continue.dev/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "codeium",
@@ -408,7 +421,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://codeium.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "qodo",
@@ -438,7 +452,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.qodo.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "augment-code",
@@ -467,7 +482,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.augmentcode.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "supermaven",
@@ -495,7 +511,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://supermaven.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "greptile",
@@ -524,7 +541,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.greptile.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "poolside",
@@ -554,7 +572,8 @@
       "source_url": "https://poolside.ai/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Modèles code enterprise — alternative copilots souverains."
+      "notes": "Modèles code enterprise — alternative copilots souverains.",
+      "entry_ai_generated": true
     }
   ]
 }

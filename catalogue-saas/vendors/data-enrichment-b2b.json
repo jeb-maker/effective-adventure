@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "clearbit",
@@ -56,7 +57,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "pappers",
@@ -85,7 +87,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "zoominfo",
@@ -113,7 +116,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "lusha",
@@ -142,7 +146,8 @@
       "discovery_pass": "2026-06-v5e-retrospective",
       "source_url": "https://www.lusha.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": false
     },
     {
       "id": "6sense",
@@ -171,7 +176,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://6sense.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "demandbase",
@@ -200,7 +206,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.demandbase.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cognism",
@@ -229,7 +236,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.cognism.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "rocketreach",
@@ -258,7 +266,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://rocketreach.co/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "leadfeeder",
@@ -287,7 +296,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.leadfeeder.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "dealfront",
@@ -316,7 +326,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.dealfront.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "kaspr",
@@ -347,7 +358,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Acteur FR — enrichissement LinkedIn PME.",
-      "pricing_notes": "Free 15 crédits ; Starter €45/mo ; Business €79/mo ; éditeur FR (consulté 2026-06-23)."
+      "pricing_notes": "Free 15 crédits ; Starter €45/mo ; Business €79/mo ; éditeur FR (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "dropcontact",
@@ -378,7 +390,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Acteur FR — enrichissement conforme RGPD.",
-      "pricing_notes": "Starter 79 €/mois (500 crédits) ; Growth 120 € ; Entreprise sur volume (consulté 2026-06-23)."
+      "pricing_notes": "Starter 79 €/mois (500 crédits) ; Growth 120 € ; Entreprise sur volume (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "fullcontact",
@@ -407,7 +420,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.fullcontact.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "peopledatalabs",
@@ -436,7 +450,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.peopledatalabs.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "datagma",
@@ -466,7 +481,8 @@
       "source_url": "https://datagma.com/pricing/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Regular $49/mo, Popular $99, Expert $249 ; éditeur FR (consulté 2026-06-23)."
+      "pricing_notes": "Regular $49/mo, Popular $99, Expert $249 ; éditeur FR (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "reverse-contact",
@@ -495,7 +511,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.reversecontact.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "adapt-io",
@@ -524,7 +541,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.adapt.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "hunter-io",
@@ -555,7 +573,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Acteur FR — email finder adoption EU.",
-      "pricing_notes": "Free 50 crédits/mo ; Starter $49/mo ; Growth $149 ; Scale $299 (consulté 2026-06-23)."
+      "pricing_notes": "Free 50 crédits/mo ; Starter $49/mo ; Growth $149 ; Scale $299 (consulté 2026-06-23).",
+      "entry_ai_generated": true
     }
   ]
 }

@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "monday-com",
@@ -56,7 +57,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "linear",
@@ -84,7 +86,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "clickup",
@@ -112,7 +115,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "wrike",
@@ -140,7 +144,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "smartsheet",
@@ -169,7 +174,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.smartsheet.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "basecamp",
@@ -198,7 +204,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://basecamp.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "height-app",
@@ -227,7 +234,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://height.app/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "teamwork-com",
@@ -257,7 +265,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.teamwork.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "airtable",
@@ -286,7 +295,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.airtable.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "todoist-business",
@@ -316,7 +326,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://todoist.com/team",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "jira-atlassian",
@@ -345,7 +356,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.atlassian.com/software/jira",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "trello",
@@ -374,7 +386,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://trello.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "shortcut",
@@ -403,7 +416,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://shortcut.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "productboard",
@@ -432,7 +446,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.productboard.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "hive-app",
@@ -461,7 +476,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://hive.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "zoho-projects",
@@ -490,7 +506,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.zoho.com/projects/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "notion-projects",
@@ -519,7 +536,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.notion.so/product/projects",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

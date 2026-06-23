@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "dust",
@@ -57,7 +58,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "coveo",
@@ -85,7 +87,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "contextual-ai",
@@ -113,7 +116,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "vespa",
@@ -143,7 +147,8 @@
       "discovery_pass": "2026-06-v5e-retrospective",
       "source_url": "https://vespa.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": false
     },
     {
       "id": "onyx-enterprise",
@@ -172,7 +177,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.onyx.app/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "kapa-ai",
@@ -201,7 +207,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.kapa.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ragie",
@@ -230,7 +237,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.ragie.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "guru",
@@ -259,7 +267,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.getguru.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "bloomfire",
@@ -288,7 +297,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://bloomfire.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "elastic-enterprise-search",
@@ -318,7 +328,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.elastic.co/enterprise-search",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "deepset",
@@ -349,7 +360,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.deepset.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "hebbia",
@@ -378,7 +390,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.hebbia.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "sana-labs",
@@ -408,7 +421,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.sana.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "perplexity-enterprise",
@@ -438,7 +452,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://www.perplexity.ai/enterprise",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "amazon-kendra",
@@ -467,7 +482,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://aws.amazon.com/kendra/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lucidworks",
@@ -496,7 +512,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://lucidworks.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "algolia-neural-search",
@@ -526,7 +543,8 @@
       "source_url": "https://www.algolia.com/products/neuralsearch/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "HQ Paris — NeuralSearch pour retrieval enterprise."
+      "notes": "HQ Paris — NeuralSearch pour retrieval enterprise.",
+      "entry_ai_generated": true
     },
     {
       "id": "writer-knowledge",
@@ -555,7 +573,8 @@
       "discovery_pass": "2026-06-v5s-ai-stack-l3",
       "source_url": "https://writer.com/product/knowledge-graph/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

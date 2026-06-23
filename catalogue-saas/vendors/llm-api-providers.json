@@ -29,7 +29,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "anthropic-api",
@@ -57,7 +58,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "mistral-ai",
@@ -87,7 +89,8 @@
         "US"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "google-gemini-api",
@@ -115,7 +118,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "cohere",
@@ -144,7 +148,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "aleph-alpha",
@@ -174,7 +179,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://aleph-alpha.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ai21-labs",
@@ -204,7 +210,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.ai21.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "meta-llama-api",
@@ -233,7 +240,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://llama.meta.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "deepseek-api",
@@ -263,7 +271,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://platform.deepseek.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "fireworks-ai",
@@ -293,7 +302,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://fireworks.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "groq",
@@ -323,7 +333,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://groq.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "openrouter",
@@ -352,7 +363,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://openrouter.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "xai-grok-api",
@@ -381,7 +393,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://x.ai/api",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "reka-ai",
@@ -410,7 +423,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://reka.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "openchat",
@@ -439,7 +453,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://openchat.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "nvidia-nim",
@@ -468,7 +483,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.nvidia.com/en-us/ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "amazon-nova",
@@ -497,7 +513,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://aws.amazon.com/ai/generative-ai/nova/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "google-vertex-ai",
@@ -526,7 +543,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://cloud.google.com/vertex-ai",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

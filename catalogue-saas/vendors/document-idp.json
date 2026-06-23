@@ -31,7 +31,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "aws-textract",
@@ -60,7 +61,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "azure-document-intelligence",
@@ -89,7 +91,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
-      "pricing_notes": "Tarification Azure pay-as-you-go ; remplace comparatif extend.ai (consulté 2026-06-23)."
+      "pricing_notes": "Tarification Azure pay-as-you-go ; remplace comparatif extend.ai (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "nanonets",
@@ -121,7 +124,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze"
+      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
+      "entry_ai_generated": false
     },
     {
       "id": "extend-ai",
@@ -151,7 +155,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze"
+      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
+      "entry_ai_generated": false
     },
     {
       "id": "docupipe",
@@ -182,7 +187,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "sensible",
@@ -214,7 +220,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace extend.ai/resources listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace extend.ai/resources listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "docsumo",
@@ -245,7 +252,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
-      "notes": "Promotion verified V6b — page tarifs officielle (remplace comparatif)."
+      "notes": "Promotion verified V6b — page tarifs officielle (remplace comparatif).",
+      "entry_ai_generated": false
     },
     {
       "id": "rossum",
@@ -275,7 +283,8 @@
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
       "pricing_notes": "Starter à partir de 18 000 $/an (publié) ; Business/Enterprise/Ultimate sur devis ; engagement minimum 1 an (consulté 2026-06-23).",
-      "notes": "Source mise à jour vers page tarifs officielle rossum.ai/pricing-plans (revue 0029)."
+      "notes": "Source mise à jour vers page tarifs officielle rossum.ai/pricing-plans (revue 0029).",
+      "entry_ai_generated": false
     },
     {
       "id": "snapparse",
@@ -306,7 +315,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "iteration-layer",
@@ -335,7 +345,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "docld",
@@ -365,7 +376,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "docxtract",
@@ -395,7 +407,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "parsli",
@@ -424,7 +437,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "abbyy-vantage",
@@ -453,7 +467,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "hyperscience",
@@ -482,7 +497,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "reducto",
@@ -514,7 +530,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "llamaparse",
@@ -544,7 +561,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "unstructured",
@@ -573,7 +591,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "uipath-document-understanding",
@@ -603,7 +622,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "opentext-idp",
@@ -632,7 +652,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "hyland-idp",
@@ -661,7 +682,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "klippa",
@@ -691,7 +713,8 @@
       "source_url": "https://www.klippa.com/en/pricing/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — page tarifs officielle."
+      "notes": "Promotion verified V6b — page tarifs officielle.",
+      "entry_ai_generated": true
     },
     {
       "id": "veryfi",
@@ -721,7 +744,8 @@
       "source_url": "https://www.veryfi.com/pricing/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — page tarifs officielle."
+      "notes": "Promotion verified V6b — page tarifs officielle.",
+      "entry_ai_generated": true
     },
     {
       "id": "mindee",
@@ -751,7 +775,8 @@
       "source_url": "https://www.mindee.com/pricing",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — éditeur FR, page tarifs officielle."
+      "notes": "Promotion verified V6b — éditeur FR, page tarifs officielle.",
+      "entry_ai_generated": true
     },
     {
       "id": "ocrolus",
@@ -781,7 +806,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.ocrolus.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "instabase",
@@ -810,7 +836,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.instabase.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "affinda",
@@ -841,7 +868,8 @@
       "source_url": "https://www.affinda.com/pricing",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — page tarifs officielle."
+      "notes": "Promotion verified V6b — page tarifs officielle.",
+      "entry_ai_generated": true
     },
     {
       "id": "konfuzio",
@@ -870,7 +898,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://konfuzio.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "infrrd",
@@ -899,7 +928,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.infrrd.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "tungsten-automation",
@@ -928,7 +958,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://www.tungstenautomation.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "base64-ai",
@@ -957,7 +988,8 @@
       "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
       "source_url": "https://base64.ai/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ephesoft",
@@ -986,7 +1018,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://ephesoft.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "grooper",
@@ -1015,7 +1048,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://grooper.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "alkymi",
@@ -1045,7 +1079,8 @@
       "source_url": "https://www.alkymi.io/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "super-ai",
@@ -1075,7 +1110,8 @@
       "source_url": "https://super.ai/pricing",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Starter Free (25k crédits) ; Growth $140/mo ; Enterprise custom (consulté 2026-06-23)."
+      "pricing_notes": "Starter Free (25k crédits) ; Growth $140/mo ; Enterprise custom (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "docdigitizer",
@@ -1104,7 +1140,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://docdigitizer.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "natif-ai",
@@ -1133,7 +1170,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://natif.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "automation-hero",
@@ -1164,7 +1202,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://automationhero.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ibm-datacap",
@@ -1193,7 +1232,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://www.ibm.com/products/datacap",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "microsoft-syntex",
@@ -1222,7 +1262,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://www.microsoft.com/en-us/microsoft-365/enterprise/microsoft-syntex",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "docugami",
@@ -1251,7 +1292,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://www.docugami.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "parascript",
@@ -1280,7 +1322,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://www.parascript.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "antworks",
@@ -1311,7 +1354,8 @@
       "source_url": "https://www.ant.works/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "iron-mountain-insight",
@@ -1340,7 +1384,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://www.ironmountain.com/services/digital/insight",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "laiye",
@@ -1372,7 +1417,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://laiye.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "heron-data",
@@ -1402,7 +1448,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://www.herondata.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "cascading-ai",
@@ -1431,7 +1478,8 @@
       "discovery_pass": "2026-06-v5i-document-idp",
       "source_url": "https://www.cascading.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "formx",
@@ -1462,7 +1510,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.formx.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "datasnipper",
@@ -1493,7 +1542,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.datasnipper.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "deepopinion",
@@ -1522,7 +1572,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.deepopinion.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "stampli",
@@ -1552,7 +1603,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.stampli.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "medius",
@@ -1582,7 +1634,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.medius.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "abbyy-flexicapture",
@@ -1613,7 +1666,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Produit capture complémentaire à ABBYY Vantage déjà catalogué.",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "amazon-a2i",
@@ -1643,7 +1697,8 @@
       "source_url": "https://aws.amazon.com/augmented-ai/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "invofox",
@@ -1672,7 +1727,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://invofox.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "docubee",
@@ -1702,7 +1758,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.docubee.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "fabasoft",
@@ -1731,7 +1788,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.fabasoft.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "pspdfkit",
@@ -1761,7 +1819,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://pspdfkit.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "square9",
@@ -1790,7 +1849,8 @@
       "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
       "source_url": "https://www.square-9.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

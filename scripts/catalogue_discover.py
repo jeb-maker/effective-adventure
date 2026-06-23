@@ -361,6 +361,8 @@ def candidate_to_vendor(item: dict, segment_id: str, pass_id: str) -> dict:
         "source_consulted_at": today,
         "verification_status": "partial",
         "notes": f"Découvert auto data.gouv ({item['query']}) — À VALIDER avant merge.",
+        "entry_ai_generated": True,
+        "founded_year": None,
     }
 
 

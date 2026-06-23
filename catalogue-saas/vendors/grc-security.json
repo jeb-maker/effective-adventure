@@ -31,7 +31,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6h-listicle-civic-open-data"
+      "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
+      "entry_ai_generated": false
     },
     {
       "id": "drata",
@@ -63,7 +64,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace v-comply.com listicle ; pricing sur devis (consulté 2026-06-23)."
+      "pricing_notes": "Remplace v-comply.com listicle ; pricing sur devis (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "onetrust",
@@ -94,7 +96,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
-      "pricing_notes": "Source officielle ; remplace dancumberlandlabs listicle (consulté 2026-06-23)."
+      "pricing_notes": "Source officielle ; remplace dancumberlandlabs listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "venvera",
@@ -121,7 +124,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "aigis-grc",
@@ -150,7 +154,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "assurai",
@@ -179,7 +184,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "sorena-ai",
@@ -209,7 +215,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "logicgate",
@@ -238,7 +245,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "scytale",
@@ -266,7 +274,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace v-comply.com/blog/top-grc-software listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace v-comply.com/blog/top-grc-software listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "servicenow-grc",
@@ -297,7 +306,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace modulos.ai/best-ai-governance listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace modulos.ai/best-ai-governance listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "ibm-openpages",
@@ -328,7 +338,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace modulos.ai/best-ai-governance listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace modulos.ai/best-ai-governance listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "navex",
@@ -358,7 +369,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace riskpublishing.com listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "vcomply",
@@ -388,7 +400,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace v-comply.com/blog/navex-alternatives listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace v-comply.com/blog/navex-alternatives listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "auditboard",
@@ -418,7 +431,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "rsa-archer",
@@ -447,7 +461,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "collibra",
@@ -477,7 +492,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6h-listicle-civic-open-data",
-      "pricing_notes": "Remplace modulos.ai/best-ai-governance listicle (consulté 2026-06-23)."
+      "pricing_notes": "Remplace modulos.ai/best-ai-governance listicle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "sprinto",
@@ -507,7 +523,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://sprinto.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "standardfusion",
@@ -536,7 +553,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.standardfusion.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "resolver",
@@ -565,7 +583,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.resolver.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "fusion-framework",
@@ -593,7 +612,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://www.fusionrm.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "riskonnect",
@@ -622,7 +642,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://riskonnect.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "swimlane",
@@ -650,7 +671,8 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://swimlane.com/",
       "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

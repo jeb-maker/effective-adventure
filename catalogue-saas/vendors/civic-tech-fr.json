@@ -27,7 +27,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "cap-collectif",
@@ -54,7 +55,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "make-org",
@@ -81,7 +83,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "open-source-politics",
@@ -109,7 +112,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "respublica",
@@ -137,7 +141,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "citizenlab",
@@ -166,7 +171,8 @@
       "source_url": "https://www.citizenlab.co/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "consul-project",
@@ -197,7 +203,8 @@
       "source_url": "https://consulproject.org/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "bang-the-table",
@@ -227,7 +234,8 @@
       "source_url": "https://www.bangthetable.com/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "commonplace-uk",
@@ -257,7 +265,8 @@
       "source_url": "https://www.commonplace.is/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "polis-co",
@@ -286,7 +295,8 @@
       "source_url": "https://pol.is/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "civiliz",
@@ -315,7 +325,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://www.civiliz.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "neocity",
@@ -344,7 +355,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://www.neocity.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "demarches-simplifiees",
@@ -374,7 +386,8 @@
       "source_url": "https://www.demarches-simplifiees.fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent cité idée 0018."
+      "notes": "Concurrent cité idée 0018.",
+      "entry_ai_generated": true
     },
     {
       "id": "consultations-publiques",
@@ -403,7 +416,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://consultations-publiques.developpement-durable.gouv.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "voxe",
@@ -433,7 +447,8 @@
       "source_url": "https://www.voxe.org/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Adjacent idée 0018."
+      "notes": "Adjacent idée 0018.",
+      "entry_ai_generated": true
     },
     {
       "id": "wegov",
@@ -462,7 +477,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://www.wegov.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "place-decidim",
@@ -491,7 +507,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://place.dev/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "jalios-jplatform",
@@ -521,7 +538,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://www.jalios.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "urbaa",
@@ -555,7 +573,10 @@
       "source_url": "https://www.data.gouv.fr/reuses/urbaa-app",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Concurrent direct idée 0003 ; réutilisation data.gouv + site urbaa.app (consulté 2026-06-23)."
+      "notes": "Concurrent direct idée 0003 ; réutilisation data.gouv + site urbaa.app (consulté 2026-06-23).",
+      "entry_ai_generated": true,
+      "founded_year": 2024,
+      "founded_year_source": "https://www.data.gouv.fr/reuses/urbaa-app"
     }
   ]
 }

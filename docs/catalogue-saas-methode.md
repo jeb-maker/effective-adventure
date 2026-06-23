@@ -79,6 +79,11 @@ Chaque vendeur (`vendor`) contient au minimum :
 | `operating_regions` | non | zones documentées (`FR`, `EU`, `US`…) |
 | `discovery_source` | non | type de source (voir taxonomy) |
 | `discovery_pass` | non | identifiant de passe (`2026-06-v5b-…`) |
+| `founded_year` | oui* | année création acteur ; `null` si inconnu |
+| `founded_year_source` | non | URL ou note datée justifiant `founded_year` |
+| `entry_ai_generated` | oui* | `true` = fiche produite par pipeline agent/auto |
+
+\* Obligatoire après `tag_catalogue_provenance_v1.py`. Overrides : `catalogue-saas/founded-years-overrides.json`.
 
 Règle : **`unverified` interdit dans les exports utilisés pour scorer une idée**.
 

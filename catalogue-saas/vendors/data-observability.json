@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "great-expectations",
@@ -56,7 +57,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "soda",
@@ -84,7 +86,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "acceldata",
@@ -113,7 +116,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "auto-weekly-discover-2026-06-23",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "anomalo",
@@ -142,7 +146,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "auto-weekly-discover-2026-06-23",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "bigeye",
@@ -171,7 +176,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.bigeye.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "elementary-data",
@@ -201,7 +207,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.elementary-data.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "sifflet",
@@ -230,7 +237,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.siffletdata.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "datafold",
@@ -259,7 +267,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.datafold.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lightup",
@@ -288,7 +297,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.lightup.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "lakefs",
@@ -318,7 +328,8 @@
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://lakefs.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "metaplane",
@@ -347,7 +358,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.metaplane.dev/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "datahub-project",
@@ -376,7 +388,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://datahub.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "validio",
@@ -405,7 +418,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://validio.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "selectstar",
@@ -434,7 +448,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.selectstar.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "observe-dqm",
@@ -463,7 +478,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.observeinc.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "databand",
@@ -492,7 +508,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.ibm.com/products/databand",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "telmai",
@@ -521,7 +538,8 @@
       "discovery_pass": "2026-06-v5t-workplace-l3",
       "source_url": "https://www.telmai.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

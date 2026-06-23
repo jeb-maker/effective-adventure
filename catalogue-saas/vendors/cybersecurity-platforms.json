@@ -29,7 +29,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "palo-alto-cortex",
@@ -58,7 +59,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "sentinelone",
@@ -86,7 +88,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "splunk-enterprise-security",
@@ -115,7 +118,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "microsoft-defender-xdr",
@@ -144,7 +148,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "elastic-security",
@@ -173,7 +178,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.elastic.co/security",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "arctic-wolf",
@@ -202,7 +208,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://arcticwolf.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "harfanglab",
@@ -231,7 +238,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://harfanglab.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "sekoia",
@@ -260,7 +268,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.sekoia.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "ibm-qradar",
@@ -289,7 +298,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.ibm.com/qradar",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "trend-micro-vision-one",
@@ -319,7 +329,8 @@
       "discovery_pass": "2026-06-v5l-security-kyc-infra",
       "source_url": "https://www.trendmicro.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "stormshield",
@@ -349,7 +360,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.stormshield.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "tehtris",
@@ -378,7 +390,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://tehtris.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "crowdsec",
@@ -408,7 +421,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.crowdsec.net/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "gatewatcher",
@@ -437,7 +451,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.gatewatcher.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "darktrace",
@@ -467,7 +482,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.darktrace.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "withsecure",
@@ -497,7 +513,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://www.withsecure.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "stellar-cyber",
@@ -526,7 +543,8 @@
       "discovery_pass": "2026-06-v5t-security-l3",
       "source_url": "https://stellarcyber.ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     }
   ]
 }

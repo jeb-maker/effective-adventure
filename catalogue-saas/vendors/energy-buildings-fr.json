@@ -27,7 +27,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6g-verified-section4-ecartees"
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
+      "entry_ai_generated": false
     },
     {
       "id": "ademe-data",
@@ -56,7 +57,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "auto-weekly-discover-2026-06-23",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "effy-pro",
@@ -84,7 +86,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
-      "pricing_notes": "Gestion Prime CEE gratuite ; Projets Qualifiés dès 39 € HT/projet (consulté 2026-06-23)."
+      "pricing_notes": "Gestion Prime CEE gratuite ; Projets Qualifiés dès 39 € HT/projet (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "hub-anah",
@@ -111,7 +114,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "heero",
@@ -138,7 +142,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6g-verified-section4-ecartees"
+      "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
+      "entry_ai_generated": false
     },
     {
       "id": "uk-epc-register",
@@ -168,7 +173,8 @@
       "source_url": "https://www.gov.uk/find-energy-certificate",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Benchmark réglementaire bâtiments — équivalent DPE FR."
+      "notes": "Benchmark réglementaire bâtiments — équivalent DPE FR.",
+      "entry_ai_generated": true
     },
     {
       "id": "building-performance-database",
@@ -198,7 +204,8 @@
       "source_url": "https://bpd.lbl.gov/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "dena-gebaeudedaten",
@@ -228,7 +235,8 @@
       "source_url": "https://www.dena.de/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "gridx-energy",
@@ -258,7 +266,8 @@
       "source_url": "https://www.gridx.ai/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "hellowatt",
@@ -287,7 +296,8 @@
       "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
       "source_url": "https://www.hellowatt.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "entry_ai_generated": true
     },
     {
       "id": "enoptea",
@@ -316,7 +326,8 @@
       "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
       "source_url": "https://www.enoptea.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "entry_ai_generated": true
     },
     {
       "id": "cantine-energetique",
@@ -346,7 +357,8 @@
       "source_url": "https://www.cantine-energetique.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "SaaS efficacité énergétique bâtiments ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "SaaS efficacité énergétique bâtiments ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "welii",
@@ -375,7 +387,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.welii.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "homeys",
@@ -405,7 +418,8 @@
       "source_url": "https://www.homeys.fr/tarifs",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Energy Analytics 99 € HT/mois ; Energy Management 149 € HT/mois (consulté 2026-06-23)."
+      "pricing_notes": "Energy Analytics 99 € HT/mois ; Energy Management 149 € HT/mois (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "metron",
@@ -435,7 +449,8 @@
       "discovery_pass": "2026-06-v6g-verified-section4-ecartees",
       "source_url": "https://www.metron.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "entry_ai_generated": true
     },
     {
       "id": "izybat",
@@ -464,7 +479,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.izybat.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "go-renove-pro",
@@ -496,7 +512,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Concurrent cité idée 0025.",
-      "pricing_notes": "Service public CSTB gratuit pour bailleurs/collectivités (consulté 2026-06-23)."
+      "pricing_notes": "Service public CSTB gratuit pour bailleurs/collectivités (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "streem-energy",
@@ -525,7 +542,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.streem.eu/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "coproff-cerema",
@@ -556,7 +574,8 @@
       "source_url": "https://www.cerema.fr/fr/actualites/coproff-outil-de-visualisation-des-coproprietes",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Service public Cerema ; cité idée 0025 (consulté 2026-06-23)."
+      "notes": "Service public Cerema ; cité idée 0025 (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "api-dpe-logements-ademe",
@@ -586,7 +605,8 @@
       "source_url": "https://data.ademe.fr/data-fair/api/v1/datasets/dpe-france",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Concurrent public idée 0009 ; complète ademe-data (consulté 2026-06-23)."
+      "notes": "Concurrent public idée 0009 ; complète ademe-data (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "observatoire-dpe-passoires-ademe",
@@ -617,7 +637,8 @@
       "source_url": "https://observatoire-dpe-audit.ademe.fr/donnees-dpe-publiques",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Réutilisation publique idée 0009 (consulté 2026-06-23)."
+      "notes": "Réutilisation publique idée 0009 (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "api-imope-urbs",
@@ -650,7 +671,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Découvert auto data.gouv ; pricing sur devis (consulté 2026-06-23).",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     }
   ]
 }

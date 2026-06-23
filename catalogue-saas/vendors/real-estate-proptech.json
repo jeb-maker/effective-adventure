@@ -28,7 +28,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "yardi",
@@ -56,7 +57,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "procore",
@@ -85,7 +87,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "matera",
@@ -114,7 +117,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
-      "pricing_notes": "Syndic copropriété digital ; site officiel (consulté 2026-06-23)."
+      "pricing_notes": "Syndic copropriété digital ; site officiel (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "pricehubble",
@@ -142,7 +146,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "scanreno",
@@ -175,7 +180,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Concurrent cité idée 0025.",
-      "pricing_notes": "Rénovation copropriétés ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "Rénovation copropriétés ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "powimo",
@@ -204,7 +210,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.powimo.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "egide-copro",
@@ -233,7 +240,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.egide-copro.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "copro-solutions",
@@ -265,7 +273,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Concurrent cité idée 0025.",
-      "pricing_notes": "Pilotage PPT/DPE copropriétés ; concurrent Hellio idée 0025 (consulté 2026-06-23)."
+      "pricing_notes": "Pilotage PPT/DPE copropriétés ; concurrent Hellio idée 0025 (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "bdnb",
@@ -297,7 +306,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.bdnb.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "kel-foncier",
@@ -328,7 +338,8 @@
       "source_url": "https://www.kelfoncier.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent citée idée 0021/0026."
+      "notes": "Concurrent citée idée 0021/0026.",
+      "entry_ai_generated": true
     },
     {
       "id": "deepki",
@@ -361,7 +372,8 @@
       "source_url": "https://www.deepki.com/fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent cité idées 0024/0025."
+      "notes": "Concurrent cité idées 0024/0025.",
+      "entry_ai_generated": true
     },
     {
       "id": "cityscan",
@@ -391,7 +403,8 @@
       "source_url": "https://www.cityscan.fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Avis de Valeur dès 39 € HT/mois ; Captation leads dès 30 € HT/mois (consulté 2026-06-23)."
+      "pricing_notes": "Avis de Valeur dès 39 € HT/mois ; Captation leads dès 30 € HT/mois (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "immopen",
@@ -420,7 +433,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://www.immopen.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "foncia-digital",
@@ -449,7 +463,8 @@
       "discovery_pass": "2026-06-v5k-territoire-idees",
       "source_url": "https://fr.foncia.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "appfolio",
@@ -479,7 +494,8 @@
       "source_url": "https://www.appfolio.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "buildium",
@@ -508,7 +524,8 @@
       "discovery_pass": "2026-06-v5u-fill-last4",
       "source_url": "https://www.buildium.com/pricing/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "entrata",
@@ -537,7 +554,8 @@
       "discovery_pass": "2026-06-v5u-fill-last4",
       "source_url": "https://www.entrata.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "realpage",
@@ -565,7 +583,8 @@
       "discovery_pass": "2026-06-v5u-fill-last4",
       "source_url": "https://www.realpage.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "hektor",
@@ -592,7 +611,8 @@
       "discovery_pass": "2026-06-v5u-fill-last4",
       "source_url": "https://hektor.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "hellio-copropriete",
@@ -623,7 +643,8 @@
       "source_url": "https://copropriete.hellio.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Concurrent CoproSolutions cité idée 0025 (consulté 2026-06-23)."
+      "notes": "Concurrent CoproSolutions cité idée 0025 (consulté 2026-06-23).",
+      "entry_ai_generated": false
     }
   ]
 }

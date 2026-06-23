@@ -172,6 +172,15 @@ def validate() -> int:
             if len(vendor["description"]) < 10:
                 errors.append(f"{prefix}: description trop courte")
 
+            if "entry_ai_generated" not in vendor:
+                errors.append(f"{prefix}: entry_ai_generated manquant")
+            elif not isinstance(vendor["entry_ai_generated"], bool):
+                errors.append(f"{prefix}: entry_ai_generated doit être booléen")
+
+            fy = vendor.get("founded_year")
+            if fy is not None and not isinstance(fy, int):
+                errors.append(f"{prefix}: founded_year invalide '{fy}'")
+
     for seg_id in sorted(segment_ids):
         vendor_file = VENDORS_DIR / f"{seg_id}.json"
         if not vendor_file.exists():
@@ -329,6 +338,9 @@ def export_csv(output: Path) -> None:
         "source_url",
         "source_consulted_at",
         "notes",
+        "founded_year",
+        "founded_year_source",
+        "entry_ai_generated",
     ]
 
     with output.open("w", newline="", encoding="utf-8") as f:
@@ -340,6 +352,10 @@ def export_csv(output: Path) -> None:
             row["capabilities"] = "|".join(v["capabilities"])
             regions = v.get("operating_regions")
             row["operating_regions"] = "|".join(regions) if regions else ""
+            if row.get("founded_year") is None:
+                row["founded_year"] = ""
+            if "entry_ai_generated" not in v:
+                row["entry_ai_generated"] = ""
             writer.writerow(row)
 
     print(f"Export CSV : {output} ({len(vendors)} lignes)")
@@ -926,6 +942,44 @@ def segment_readiness() -> None:
     )
 
 
+def provenance_report() -> None:
+    vendors = iter_vendors()
+    ai_true = sum(1 for v in vendors if v.get("entry_ai_generated"))
+    ai_false = sum(1 for v in vendors if v.get("entry_ai_generated") is False)
+    ai_missing = len(vendors) - ai_true - ai_false
+    year_known = sum(1 for v in vendors if v.get("founded_year") is not None)
+    year_unknown = len(vendors) - year_known
+
+    print("Provenance fiches catalogue")
+    print(f"  Total vendeurs : {len(vendors)}")
+    print()
+    print("entry_ai_generated (fiche produite par pipeline agent/auto) :")
+    print(f"  oui (true)     {ai_true}")
+    print(f"  non (false)    {ai_false}")
+    if ai_missing:
+        print(f"  manquant       {ai_missing}")
+    print()
+    print("founded_year (ancienneté acteur) :")
+    print(f"  connu          {year_known}")
+    print(f"  inconnu (null) {year_unknown}")
+    print()
+    print("Exemples IA=oui (auto/agent) :")
+    for v in sorted(
+        [x for x in vendors if x.get("entry_ai_generated")],
+        key=lambda x: x["id"],
+    )[:12]:
+        print(f"  {v['id']:32} {v.get('founded_year') or '?':>4}  {v['name'][:40]}")
+    if ai_true > 12:
+        print(f"  … +{ai_true - 12} autres")
+    print()
+    print("Exemples IA=non (rétrospective / manuel) :")
+    for v in sorted(
+        [x for x in vendors if v.get("entry_ai_generated") is False],
+        key=lambda x: x["id"],
+    )[:8]:
+        print(f"  {v['id']:32} {v.get('founded_year') or '?':>4}  {v['name'][:40]}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Catalogue SaaS — outils")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -977,6 +1031,10 @@ def main() -> int:
     sub.add_parser(
         "segment-readiness",
         help="Profondeur inventaire vs saturation par segment",
+    )
+    sub.add_parser(
+        "provenance-report",
+        help="Couverture founded_year et entry_ai_generated",
     )
 
     p_gate = sub.add_parser("gate", help="Validate + audit listicle + check_idees --strict")
@@ -1045,6 +1103,9 @@ def main() -> int:
         return 0
     if args.command == "segment-readiness":
         segment_readiness()
+        return 0
+    if args.command == "provenance-report":
+        provenance_report()
         return 0
     if args.command == "gate":
         return gate(

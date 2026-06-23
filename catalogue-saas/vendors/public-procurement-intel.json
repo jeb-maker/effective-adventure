@@ -31,7 +31,10 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
-      "pricing_notes": "Starter 149 € HT/mo, Pro 399 €, Business 1 290 € ; plans acheteurs publics séparés (consulté 2026-06-23)."
+      "pricing_notes": "Starter 149 € HT/mo, Pro 399 €, Business 1 290 € ; plans acheteurs publics séparés (consulté 2026-06-23).",
+      "entry_ai_generated": false,
+      "founded_year": 2023,
+      "founded_year_source": "https://marchespublics.ai/ (revue 0001)"
     },
     {
       "id": "maitre-ao",
@@ -63,7 +66,10 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
-      "pricing_notes": "Découverte 0 € ; Starter 39 €/mois ; Pro 79 €/mois ; Max 199 €/mois ; intelligence DECP incluse dès Starter (consulté 2026-06-23)."
+      "pricing_notes": "Découverte 0 € ; Starter 39 €/mois ; Pro 79 €/mois ; Max 199 €/mois ; intelligence DECP incluse dès Starter (consulté 2026-06-23).",
+      "entry_ai_generated": false,
+      "founded_year": 2023,
+      "founded_year_source": "https://www.maitre-ao.fr/ — page produit « Nouveau » mars 2026, société Lumina récente (revue 0001)"
     },
     {
       "id": "aws-boamp",
@@ -92,7 +98,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "achatpublic",
@@ -120,7 +127,8 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "auto-weekly-discover-2026-06-23",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "tussell",
@@ -150,7 +158,8 @@
       "source_url": "https://www.tussell.com/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "spend-network",
@@ -179,7 +188,8 @@
       "source_url": "https://spendnetwork.com/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "govwin-deltek",
@@ -209,7 +219,8 @@
       "source_url": "https://www.deltek.com/en/govwin",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "open-contracting-partnership",
@@ -238,7 +249,8 @@
       "source_url": "https://www.open-contracting.org/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "decp-info",
@@ -271,7 +283,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Réutilisation data.gouv citée idées 0025/0027.",
-      "pricing_notes": "Exploration DECP tabulaire gratuite ; réutilisation data.gouv (consulté 2026-06-23)."
+      "pricing_notes": "Exploration DECP tabulaire gratuite ; réutilisation data.gouv (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "data-economie-gouv",
@@ -301,7 +314,8 @@
       "source_url": "https://data.economie.gouv.fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Source citée idée 0027."
+      "notes": "Source citée idée 0027.",
+      "entry_ai_generated": true
     },
     {
       "id": "openbar",
@@ -331,7 +345,8 @@
       "source_url": "https://openbar.fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent cité idée 0027."
+      "notes": "Concurrent cité idée 0027.",
+      "entry_ai_generated": true
     },
     {
       "id": "nextend-ai",
@@ -364,7 +379,10 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Concurrent cité idée 0001.",
-      "pricing_notes": "Gratuit ; Pro 150 €/mois (5000 crédits IA) ; Business 250 €/mois ; à la carte dès 50 € (consulté 2026-06-23)."
+      "pricing_notes": "Gratuit ; Pro 150 €/mois (5000 crédits IA) ; Business 250 €/mois ; à la carte dès 50 € (consulté 2026-06-23).",
+      "entry_ai_generated": true,
+      "founded_year": 2024,
+      "founded_year_source": "https://nextend.ai/ (revue 0001, consulté 2026-06-23)"
     },
     {
       "id": "doubletrade",
@@ -394,7 +412,10 @@
       "source_url": "https://www.doubletrade.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Intelligence marchés publics FR ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "Intelligence marchés publics FR ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": false,
+      "founded_year": 2000,
+      "founded_year_source": "https://www.doubletrade.com/ — veille MP depuis ~25 ans"
     },
     {
       "id": "scdl-portail",
@@ -425,7 +446,8 @@
       "source_url": "https://www.data.gouv.fr/datasets/subventions-de-collectivites-locales-aux-associations-et-entreprises",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Source citée idée 0027."
+      "notes": "Source citée idée 0027.",
+      "entry_ai_generated": true
     },
     {
       "id": "weproc",
@@ -456,7 +478,8 @@
       "source_url": "https://www.weproc.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Veille AO FR ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "Veille AO FR ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "maximilien",
@@ -484,7 +507,8 @@
       "discovery_pass": "2026-06-v5u-fill-last4",
       "source_url": "https://www.maximilien.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "megalis-bretagne",
@@ -511,7 +535,8 @@
       "discovery_pass": "2026-06-v5u-fill-last4",
       "source_url": "https://www.megalis.bretagne.bzh/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "klekoon",
@@ -538,7 +563,8 @@
       "discovery_pass": "2026-06-v5u-fill-last4",
       "source_url": "https://www.klekoon.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "achat-solution",
@@ -567,7 +593,8 @@
       "source_url": "https://www.achat-solution.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "marches-online",
@@ -595,7 +622,8 @@
       "source_url": "https://www.marchesonline.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Veille AO ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "Veille AO ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "tenderbolt-ai",
@@ -625,7 +653,10 @@
       "source_url": "https://www.tenderbolt.ai/fr/solutions/public",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Citée en comparaison par Maître AO ; fondée 2024 Paris."
+      "notes": "Citée en comparaison par Maître AO ; fondée 2024 Paris.",
+      "entry_ai_generated": true,
+      "founded_year": 2024,
+      "founded_year_source": "inféré depuis notes"
     },
     {
       "id": "iziao",
@@ -655,7 +686,8 @@
       "source_url": "https://www.iziao.fr/repondre-aux-marches-publics-tarifs",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Crédits 0,10 € HT/unité ; packs Essentiel 350 € HT (3500 cr.), Expert 600 € HT, Sérénité 800 € HT ; 0 % engagement (consulté 2026-06-23)."
+      "pricing_notes": "Crédits 0,10 € HT/unité ; packs Essentiel 350 € HT (3500 cr.), Expert 600 € HT, Sérénité 800 € HT ; 0 % engagement (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "alertoffres",
@@ -685,7 +717,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "pricing_notes": "Gratuit 0 € ; Pro 29,99 € HT/mois (50 crédits IA) ; Expert 44,99 € HT/mois (100 crédits) (consulté 2026-06-23).",
-      "notes": "Concurrent veille cité en analyse idée 0001/0008."
+      "notes": "Concurrent veille cité en analyse idée 0001/0008.",
+      "entry_ai_generated": true
     },
     {
       "id": "publikconnect",
@@ -713,7 +746,8 @@
       "source_url": "https://publikconnect.fr/tarifs",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Découverte 0 € ; Pro 49 € HT/mois ; Fondateur 39 € HT/mois à vie (consulté 2026-06-23)."
+      "pricing_notes": "Découverte 0 € ; Pro 49 € HT/mois ; Fondateur 39 € HT/mois à vie (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "france-marches",
@@ -744,7 +778,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "pricing_notes": "Marchés publics FR ; site éditeur (consulté 2026-06-23).",
-      "notes": "Veille majeure FR (160k+ abonnés) ; distincte de Synapse Entreprises (dématérialisation profil acheteur)."
+      "notes": "Veille majeure FR (160k+ abonnés) ; distincte de Synapse Entreprises (dématérialisation profil acheteur).",
+      "entry_ai_generated": false
     },
     {
       "id": "tengo",
@@ -775,7 +810,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Concurrent IA réponse AO cité idée 0001 ; tarifs sur demande.",
-      "pricing_notes": "Démat AO ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "Démat AO ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "openmarches",
@@ -808,7 +844,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Analytics attribution (différent de decp.info) ; pipeline open source DuckDB/dbt/FastAPI.",
-      "pricing_notes": "479k+ marchés IT DECP ; fiche réutilisation data.gouv (consulté 2026-06-23)."
+      "pricing_notes": "479k+ marchés IT DECP ; fiche réutilisation data.gouv (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "doaken",
@@ -840,7 +877,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "pricing_notes": "Intelligence attribution DECP ; page solutions officielle (consulté 2026-06-23).",
-      "notes": "Hébergement France ; couvre marchés publics et privés (détection Sitadel)."
+      "notes": "Hébergement France ; couvre marchés publics et privés (détection Sitadel).",
+      "entry_ai_generated": true
     },
     {
       "id": "olra",
@@ -871,7 +909,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "pricing_notes": "Essentiel/Pro/Entreprise sur devis ; essai 14 j sans CB ; quotas 500/1500 pages/mois (consulté 2026-06-23).",
-      "notes": "Ciblage bâtiment TPE/PME ; chaîne veille→audit→rédaction sans bibliothèque préalable."
+      "notes": "Ciblage bâtiment TPE/PME ; chaîne veille→audit→rédaction sans bibliothèque préalable.",
+      "entry_ai_generated": true
     },
     {
       "id": "vecteur-plus",
@@ -902,7 +941,10 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "pricing_notes": "Veille AO/privé ; site éditeur (consulté 2026-06-23).",
-      "notes": "Acteur historique veille AO + projets privés ; 12 000+ sources."
+      "notes": "Acteur historique veille AO + projets privés ; 12 000+ sources.",
+      "entry_ai_generated": false,
+      "founded_year": 1995,
+      "founded_year_source": "https://vecteurplus.com/ — ~30 ans d'activité (fiche catalogue)"
     },
     {
       "id": "synapse-entreprises",
@@ -931,7 +973,8 @@
       "source_url": "https://www.synapse-entreprises.com/espace-entreprises/alerte-marches",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Double rôle acheteur/entreprise ; tarifs abonnement non publics (consulté 2026-06-23)."
+      "notes": "Double rôle acheteur/entreprise ; tarifs abonnement non publics (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "wanao",
@@ -960,7 +1003,8 @@
       "source_url": "https://wanao.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "~400 000 AO/an ; tarifs sur devis (consulté 2026-06-23)."
+      "notes": "~400 000 AO/an ; tarifs sur devis (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "first-ao",
@@ -989,7 +1033,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Groupe First ECO ; tarifs sur devis (consulté 2026-06-23).",
-      "pricing_notes": "Plateforme AO ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "Plateforme AO ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "saqara",
@@ -1019,7 +1064,8 @@
       "source_url": "https://core.saqara.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Ex-AOS (go-aos.io → saqara.com) ; segment AO privés BTP, distinct de la veille BOAMP classique."
+      "notes": "Ex-AOS (go-aos.io → saqara.com) ; segment AO privés BTP, distinct de la veille BOAMP classique.",
+      "entry_ai_generated": true
     },
     {
       "id": "explore",
@@ -1050,7 +1096,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Groupe Intescia (Spigao, Bati-Pulse) ; abonnement annuel sur devis.",
-      "pricing_notes": "Veille marchés publics ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "Veille marchés publics ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "dematis",
@@ -1082,7 +1129,10 @@
       "source_url": "https://formation.dematis.com/sam-ia/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "pricing_notes": "Sam IA : forfait Découverte 500 crédits sans engagement ; forfaits sur mesure dès 1 000 crédits (consulté 2026-06-23)."
+      "pricing_notes": "Sam IA : forfait Découverte 500 crédits sans engagement ; forfaits sur mesure dès 1 000 crédits (consulté 2026-06-23).",
+      "entry_ai_generated": true,
+      "founded_year": 2003,
+      "founded_year_source": "inféré depuis description"
     },
     {
       "id": "centrale-des-marches",
@@ -1112,7 +1162,8 @@
       "source_url": "https://www.centraledesmarches.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Portail AO ; site éditeur (consulté 2026-06-23)."
+      "pricing_notes": "Portail AO ; site éditeur (consulté 2026-06-23).",
+      "entry_ai_generated": false
     },
     {
       "id": "tendly",
@@ -1143,7 +1194,8 @@
       "source_url": "https://tendly.eu/fr/pricing",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Gratuit (20 cr. uniques) ; Professionnel 29 €/mois (200 cr.) ; Entreprise 149 €/mois (400 cr.) ; packs dès 15 € (consulté 2026-06-23)."
+      "pricing_notes": "Gratuit (20 cr. uniques) ; Professionnel 29 €/mois (200 cr.) ; Entreprise 149 €/mois (400 cr.) ; packs dès 15 € (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "remporte",
@@ -1174,7 +1226,8 @@
       "source_url": "https://remporte.fr/tarifs/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Starter 4 000 € HT/an (15 AO rédigés) ; Regular et Citadelle (on-premise OIV) sur devis (consulté 2026-06-23)."
+      "pricing_notes": "Starter 4 000 € HT/an (15 AO rédigés) ; Regular et Citadelle (on-premise OIV) sur devis (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "tendiz",
@@ -1205,7 +1258,8 @@
       "source_url": "https://tendiz.ai/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Ne pas confondre avec Tendrix (tendrix.fr) ; tarifs sur devis."
+      "notes": "Ne pas confondre avec Tendrix (tendrix.fr) ; tarifs sur devis.",
+      "entry_ai_generated": true
     },
     {
       "id": "e-marchespublics",
@@ -1237,7 +1291,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "pricing_notes": "Veille sur avis E-MP gratuite ; extension BOAMP/JOUE/presse (~600k AO/an) sur devis (consulté 2026-06-23).",
-      "notes": "Produit éditorial Dematis — lier à l'entrée dematis sans fusionner."
+      "notes": "Produit éditorial Dematis — lier à l'entrée dematis sans fusionner.",
+      "entry_ai_generated": true
     },
     {
       "id": "mpf-france",
@@ -1268,7 +1323,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "pricing_notes": "Veille AO 1 200–5 000 € HT/an ; alertes renouvellement 1 450–4 000 € HT/an selon zone (consulté 2026-06-23).",
-      "notes": "Sœur de Marchés Online (Infopro Digital)."
+      "notes": "Sœur de Marchés Online (Infopro Digital).",
+      "entry_ai_generated": true
     },
     {
       "id": "attribution-intelligence",
@@ -1299,7 +1355,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Concurrent cité revue idée 0001 (consulté 2026-06-23).",
-      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23).",
+      "entry_ai_generated": true
     }
   ]
 }

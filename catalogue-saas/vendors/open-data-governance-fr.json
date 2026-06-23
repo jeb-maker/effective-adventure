@@ -29,7 +29,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "etalab-data-gouv",
@@ -57,7 +58,10 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false,
+      "founded_year": 2013,
+      "founded_year_source": "Mission Etalab (gouvernement FR)"
     },
     {
       "id": "fairness",
@@ -85,7 +89,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "toucan-toco",
@@ -114,7 +119,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "data-europa",
@@ -141,7 +147,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v5a",
+      "entry_ai_generated": false
     },
     {
       "id": "socrata-tyler",
@@ -171,7 +178,8 @@
       "source_url": "https://tylertech.com/solutions/socrata",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "ckan",
@@ -200,7 +208,8 @@
       "source_url": "https://ckan.org/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "arcgis-hub",
@@ -230,7 +239,8 @@
       "source_url": "https://www.esri.com/en-us/arcgis/products/arcgis-hub/overview",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+      "notes": "Équivalent international pour benchmark — hors marché FR principal.",
+      "entry_ai_generated": true
     },
     {
       "id": "data-gov-us",
@@ -260,7 +270,8 @@
       "source_url": "https://data.gov/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial",
-      "notes": "Benchmark portail national — comparable Etalab/data.gouv.fr."
+      "notes": "Benchmark portail national — comparable Etalab/data.gouv.fr.",
+      "entry_ai_generated": true
     },
     {
       "id": "huwise",
@@ -290,7 +301,8 @@
       "source_url": "https://www.huwise.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Rebrand Opendatasoft — complète entrée opendatasoft."
+      "notes": "Rebrand Opendatasoft — complète entrée opendatasoft.",
+      "entry_ai_generated": true
     },
     {
       "id": "validata",
@@ -321,7 +333,8 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "notes": "Concurrent cité idées 0002/0023.",
-      "pricing_notes": "Plateforme publique de validation vs schémas schema.data.gouv.fr (consulté 2026-06-23)."
+      "pricing_notes": "Plateforme publique de validation vs schémas schema.data.gouv.fr (consulté 2026-06-23).",
+      "entry_ai_generated": true
     },
     {
       "id": "opendatafrance",
@@ -351,7 +364,8 @@
       "source_url": "https://opendatafrance.fr/presentation-de-lobservatoire/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent cité idée 0023."
+      "notes": "Concurrent cité idée 0023.",
+      "entry_ai_generated": true
     },
     {
       "id": "datactivist",
@@ -380,7 +394,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://datactivist.coop/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "data-publica",
@@ -410,7 +425,8 @@
       "source_url": "https://www.data-publica.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent cité idée 0023."
+      "notes": "Concurrent cité idée 0023.",
+      "entry_ai_generated": true
     },
     {
       "id": "numerique360",
@@ -439,7 +455,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://numerique360.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "dkod",
@@ -468,7 +485,8 @@
       "discovery_pass": "2026-06-v5r-france-thematic-l3",
       "source_url": "https://www.dkod.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "partial",
+      "entry_ai_generated": true
     },
     {
       "id": "schema-data-gouv",
@@ -498,7 +516,8 @@
       "source_url": "https://schema.data.gouv.fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Source citée idées 0023/0027."
+      "notes": "Source citée idées 0023/0027.",
+      "entry_ai_generated": true
     },
     {
       "id": "dataclic",
@@ -528,7 +547,8 @@
       "source_url": "https://dataclic.fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Concurrent cité idée 0023."
+      "notes": "Concurrent cité idée 0023.",
+      "entry_ai_generated": true
     },
     {
       "id": "datagouv-mcp",
@@ -562,7 +582,10 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "pricing_notes": "Service public expérimental gratuit ; endpoint https://mcp.data.gouv.fr/mcp (consulté 2026-06-23).",
-      "notes": "Dépôt https://github.com/datagouv/datagouv-mcp ; cité idée 0003 revue."
+      "notes": "Dépôt https://github.com/datagouv/datagouv-mcp ; cité idée 0003 revue.",
+      "entry_ai_generated": true,
+      "founded_year": 2025,
+      "founded_year_source": "https://guides.data.gouv.fr/intelligence-artificielle/le-serveur-mcp-de-data.gouv.fr"
     },
     {
       "id": "france-data-mcp",
@@ -595,7 +618,8 @@
       "source_url": "https://github.com/cturkieh/france-data-mcp",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Repo actif (habib256/france-data-mcp introuvable 2026-06-23) ; cité idées 0003/0006."
+      "notes": "Repo actif (habib256/france-data-mcp introuvable 2026-06-23) ; cité idées 0003/0006.",
+      "entry_ai_generated": true
     },
     {
       "id": "h-genai",
@@ -628,7 +652,8 @@
       "source_url": "https://github.com/podolskyDavid/h-genai",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
-      "notes": "Repo actif (habib256/h-genai et huggingface/h-genai introuvables 2026-06-23) ; cité idées 0003/0006."
+      "notes": "Repo actif (habib256/h-genai et huggingface/h-genai introuvables 2026-06-23) ; cité idées 0003/0006.",
+      "entry_ai_generated": true
     },
     {
       "id": "api-sirene-insee",
@@ -659,7 +684,10 @@
       "source_url": "https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Découvert auto data.gouv ; référentiel entreprises FR (consulté 2026-06-23)."
+      "notes": "Découvert auto data.gouv ; référentiel entreprises FR (consulté 2026-06-23).",
+      "entry_ai_generated": true,
+      "founded_year": 1973,
+      "founded_year_source": "inféré depuis description"
     }
   ]
 }
