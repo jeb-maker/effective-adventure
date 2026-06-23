@@ -1,6 +1,6 @@
 {
   "segment": "rpa-enterprise",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "uipath",
@@ -141,6 +141,183 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://powerautomate.microsoft.com/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kryon-rpa",
+      "name": "Kryon (Nintex RPA)",
+      "url": "https://www.nintex.com/platform/rpa/",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "RPA enterprise ; discovery processus, bots attended/unattended et analytics ROI.",
+      "capabilities": [
+        "process_discovery",
+        "attended_bots",
+        "unattended_bots",
+        "roi_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.nintex.com/platform/rpa/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pegasystems",
+      "name": "Pega",
+      "url": "https://www.pega.com/products/platform",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "Platform BPM + RPA ; case management, decisioning IA et automation end-to-end.",
+      "capabilities": [
+        "bpm",
+        "rpa",
+        "case_management",
+        "ai_decisioning"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.pega.com/products/platform",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "robocorp",
+      "name": "Robocorp",
+      "url": "https://robocorp.com/",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "RPA developer-first ; robots Python, orchestration cloud et CI/CD bots.",
+      "capabilities": [
+        "python_rpa",
+        "cloud_orchestration",
+        "ci_cd",
+        "developer_first"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "FI",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://robocorp.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "appian-rpa",
+      "name": "Appian RPA",
+      "url": "https://appian.com/products/platform/rpa",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "Low-code + RPA intégré ; workflows, IDP et orchestration processus métier.",
+      "capabilities": [
+        "low_code",
+        "rpa",
+        "idp",
+        "process_orchestration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://appian.com/products/platform/rpa",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "electroneek",
+      "name": "ElectroNeek",
+      "url": "https://electroneek.com/",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "RPA MSP-friendly ; studio no-code, orchestrateur et modèle partenaires intégrateurs.",
+      "capabilities": [
+        "no_code_studio",
+        "orchestrator",
+        "msp",
+        "integrators"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://electroneek.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "nice-rpa",
+      "name": "NICE RPA",
+      "url": "https://www.nice.com/products/automation/",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "Hyperautomation NICE ; RPA, attended automation et analytics processus contact center.",
+      "capabilities": [
+        "rpa",
+        "attended_automation",
+        "contact_center",
+        "process_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.nice.com/products/automation/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]

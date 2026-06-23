@@ -1,6 +1,6 @@
 {
   "segment": "revenue-intelligence",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "gong",
@@ -141,6 +141,181 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "revenue-io",
+      "name": "Revenue.io",
+      "url": "https://www.revenue.io/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Revenue orchestration ; dialer, coaching appels et analytics pipeline temps réel.",
+      "capabilities": [
+        "dialer",
+        "call_coaching",
+        "pipeline_analytics",
+        "orchestration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.revenue.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "scratchpad",
+      "name": "Scratchpad",
+      "url": "https://www.scratchpad.com/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Workspace sales ops ; hygiene CRM, notes deal et workflows Salesforce natifs.",
+      "capabilities": [
+        "sales_ops",
+        "crm_hygiene",
+        "deal_notes",
+        "salesforce"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.scratchpad.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "winn-ai",
+      "name": "Winn.ai",
+      "url": "https://www.winn.ai/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Assistant IA appels vente ; capture CRM auto, coaching et suivi next steps.",
+      "capabilities": [
+        "call_assistant",
+        "crm_capture",
+        "coaching",
+        "ai"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.winn.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "aviso",
+      "name": "Aviso",
+      "url": "https://www.aviso.com/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Revenue intelligence IA ; forecasting, deal guidance et analytics équipes commerciales.",
+      "capabilities": [
+        "forecasting",
+        "deal_guidance",
+        "ai",
+        "pipeline"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.aviso.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ebsta",
+      "name": "Ebsta",
+      "url": "https://www.ebsta.com/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Relationship intelligence Salesforce ; engagement contacts, sentiment et deal risk.",
+      "capabilities": [
+        "relationship_intelligence",
+        "salesforce",
+        "engagement",
+        "deal_risk"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.ebsta.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "oliv-ai",
+      "name": "Oliv AI",
+      "url": "https://www.oliv.ai/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Copilot CRM IA ; résumés deals, prep meetings et mise à jour Salesforce automatique.",
+      "capabilities": [
+        "crm_copilot",
+        "deal_summaries",
+        "meeting_prep",
+        "salesforce"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.oliv.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "segment": "data-integration-etl",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "fivetran",
@@ -142,6 +142,181 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "matillion",
+      "name": "Matillion",
+      "url": "https://www.matillion.com/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "ETL cloud-native ; pipelines visuels Snowflake/BigQuery/Databricks et orchestration.",
+      "capabilities": [
+        "etl",
+        "cloud_warehouse",
+        "visual_pipelines",
+        "orchestration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.matillion.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "informatica-cloud",
+      "name": "Informatica Cloud",
+      "url": "https://www.informatica.com/products/cloud-data-integration.html",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "iPaaS enterprise ; intégration cloud/on-prem, qualité données et gouvernance.",
+      "capabilities": [
+        "ipaas",
+        "data_quality",
+        "governance",
+        "hybrid_integration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.informatica.com/products/cloud-data-integration.html",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "talend-cloud",
+      "name": "Talend Cloud",
+      "url": "https://www.talend.com/products/cloud-data-integration/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "Intégration données Qlik ; ETL/ELT, API management et data fabric.",
+      "capabilities": [
+        "etl",
+        "elt",
+        "api_management",
+        "data_fabric"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.talend.com/products/cloud-data-integration/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "portable-io",
+      "name": "Portable",
+      "url": "https://portable.io/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "Connecteurs SaaS long-tail ; ELT vers entrepôts et sync APIs métier.",
+      "capabilities": [
+        "connectors",
+        "elt",
+        "saas_sync",
+        "long_tail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://portable.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dagster",
+      "name": "Dagster",
+      "url": "https://dagster.io/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "Orchestrateur data assets ; pipelines Python, observabilité lineage et tests.",
+      "capabilities": [
+        "orchestration",
+        "python_pipelines",
+        "lineage",
+        "data_assets"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://dagster.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "census",
+      "name": "Census (Reverse ETL)",
+      "url": "https://www.getcensus.com/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "Reverse ETL ; sync entrepôt vers CRM/support/marketing sans code.",
+      "capabilities": [
+        "reverse_etl",
+        "warehouse_sync",
+        "crm_sync",
+        "no_code"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.getcensus.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -88,7 +88,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `bi-analytics-platforms` — BI & analytics
 
-Fichier : [`catalogue-saas/vendors/bi-analytics-platforms.json`](../../catalogue-saas/vendors/bi-analytics-platforms.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/bi-analytics-platforms.json`](../../catalogue-saas/vendors/bi-analytics-platforms.json) (11 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -97,6 +97,12 @@ Fichier : [`catalogue-saas/vendors/bi-analytics-platforms.json`](../../catalogue
 | `looker` | Looker (Google Cloud) | US | partial | partial |
 | `thoughtspot` | ThoughtSpot | US | partial | partial |
 | `mode-analytics` | Mode | US | partial | partial |
+| `qlik-sense` | Qlik Sense | SE | partial | partial |
+| `domo` | Domo | US | partial | partial |
+| `sisense` | Sisense | IL | partial | partial |
+| `metabase` | Metabase | US | partial | partial |
+| `hex-tech` | Hex | US | partial | partial |
+| `sigma-computing` | Sigma Computing | US | partial | partial |
 
 Commandes :
 ```bash

@@ -1,6 +1,6 @@
 {
   "segment": "spend-procurement",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "coupa",
@@ -141,6 +141,181 @@
       "discovery_pass": "2026-06-v5f-agents-parsing-grc",
       "source_url": "https://tipalti.com/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sap-ariba",
+      "name": "SAP Ariba",
+      "url": "https://www.ariba.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Procurement network enterprise ; sourcing, e-procurement et supplier management global.",
+      "capabilities": [
+        "sourcing",
+        "e_procurement",
+        "supplier_management",
+        "network"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.ariba.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ivalua",
+      "name": "Ivalua",
+      "url": "https://www.ivalua.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Suite source-to-pay ; achats directs/indirects, contrats et analytics spend FR/EU.",
+      "capabilities": [
+        "source_to_pay",
+        "spend_analytics",
+        "contracts",
+        "supplier_collaboration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.ivalua.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "jaggaer",
+      "name": "JAGGAER",
+      "url": "https://www.jaggaer.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Procurement verticalisé ; sourcing, e-invoicing et compliance achats secteur public/privé.",
+      "capabilities": [
+        "sourcing",
+        "e_invoicing",
+        "compliance",
+        "vertical"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.jaggaer.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "proactis",
+      "name": "Proactis",
+      "url": "https://www.proactis.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Spend management mid-market ; achats, factures fournisseurs et contrôle budgets.",
+      "capabilities": [
+        "spend_management",
+        "supplier_invoices",
+        "budget_control",
+        "mid_market"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.proactis.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gep-smart",
+      "name": "GEP SMART",
+      "url": "https://www.gep.com/software/gep-smart-procurement-software",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Procurement cloud unified ; sourcing, P2P, analytics spend et supplier risk.",
+      "capabilities": [
+        "p2p",
+        "sourcing",
+        "spend_analytics",
+        "supplier_risk"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.gep.com/software/gep-smart-procurement-software",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zycus",
+      "name": "Zycus",
+      "url": "https://www.zycus.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Source-to-pay IA ; cognitive procurement, contract management et savings tracking.",
+      "capabilities": [
+        "source_to_pay",
+        "cognitive_procurement",
+        "contract_management",
+        "savings"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.zycus.com/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]

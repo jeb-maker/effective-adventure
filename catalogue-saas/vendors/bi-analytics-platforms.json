@@ -1,6 +1,6 @@
 {
   "segment": "bi-analytics-platforms",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "tableau",
@@ -141,6 +141,182 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "qlik-sense",
+      "name": "Qlik Sense",
+      "url": "https://www.qlik.com/us/products/qlik-sense",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "BI associative ; dashboards, alerting et intégration Talend/Qlik data pipeline.",
+      "capabilities": [
+        "associative_bi",
+        "dashboards",
+        "alerting",
+        "data_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "SE",
+      "france_market": "partial",
+      "operating_regions": [
+        "SE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.qlik.com/us/products/qlik-sense",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "domo",
+      "name": "Domo",
+      "url": "https://www.domo.com/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "BI cloud ; connecteurs 1000+, dashboards exécutifs et alerting mobile.",
+      "capabilities": [
+        "cloud_bi",
+        "connectors",
+        "executive_dashboards",
+        "mobile"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.domo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sisense",
+      "name": "Sisense",
+      "url": "https://www.sisense.com/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "Analytics embarqué ; modélisation, dashboards white-label et API analytics.",
+      "capabilities": [
+        "embedded_analytics",
+        "modeling",
+        "white_label",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.sisense.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "metabase",
+      "name": "Metabase",
+      "url": "https://www.metabase.com/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "BI open source ; questions SQL/no-code, dashboards et embedding self-hosted.",
+      "capabilities": [
+        "open_source",
+        "sql",
+        "dashboards",
+        "embedding"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.metabase.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hex-tech",
+      "name": "Hex",
+      "url": "https://hex.tech/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "Notebook analytics collaboratif ; Python/SQL, apps data et partage équipes.",
+      "capabilities": [
+        "notebooks",
+        "python_sql",
+        "data_apps",
+        "collaboration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://hex.tech/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sigma-computing",
+      "name": "Sigma Computing",
+      "url": "https://www.sigmacomputing.com/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "Spreadsheet BI cloud ; exploration warehouse live, gouvernance et dashboards.",
+      "capabilities": [
+        "spreadsheet_bi",
+        "warehouse_live",
+        "governance",
+        "dashboards"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.sigmacomputing.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

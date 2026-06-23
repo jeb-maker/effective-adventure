@@ -1,6 +1,6 @@
 {
   "segment": "crm-platforms",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "salesforce-crm",
@@ -142,6 +142,181 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "microsoft-dynamics-365-sales",
+      "name": "Microsoft Dynamics 365 Sales",
+      "url": "https://www.microsoft.com/dynamics-365/products/sales",
+      "segments": [
+        "crm-platforms"
+      ],
+      "description": "CRM enterprise Microsoft ; pipeline, Copilot sales et intégration Teams/Outlook.",
+      "capabilities": [
+        "pipeline",
+        "copilot",
+        "teams_integration",
+        "forecasting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.microsoft.com/dynamics-365/products/sales",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "freshsales",
+      "name": "Freshsales (Freshworks)",
+      "url": "https://www.freshworks.com/crm/sales/",
+      "segments": [
+        "crm-platforms"
+      ],
+      "description": "CRM PME Freshworks ; scoring leads, séquences email et Freddy AI.",
+      "capabilities": [
+        "lead_scoring",
+        "email_sequences",
+        "ai",
+        "pipeline"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "IN",
+      "france_market": "partial",
+      "operating_regions": [
+        "IN",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.freshworks.com/crm/sales/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "close-crm",
+      "name": "Close",
+      "url": "https://www.close.com/",
+      "segments": [
+        "crm-platforms"
+      ],
+      "description": "CRM ventes outbound ; appels, SMS et email natifs dans le pipeline.",
+      "capabilities": [
+        "outbound",
+        "calling",
+        "sms",
+        "pipeline"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.close.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "copper-crm",
+      "name": "Copper",
+      "url": "https://www.copper.com/",
+      "segments": [
+        "crm-platforms"
+      ],
+      "description": "CRM natif Google Workspace ; pipeline, automations et reporting ventes.",
+      "capabilities": [
+        "google_workspace",
+        "pipeline",
+        "automations",
+        "reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.copper.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zendesk-sell",
+      "name": "Zendesk Sell",
+      "url": "https://www.zendesk.com/sell/",
+      "segments": [
+        "crm-platforms"
+      ],
+      "description": "CRM mobile-first ; pipeline visuel, séquences et intégration Zendesk Support.",
+      "capabilities": [
+        "mobile_crm",
+        "pipeline",
+        "sequences",
+        "support_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.zendesk.com/sell/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "insightly",
+      "name": "Insightly",
+      "url": "https://www.insightly.com/",
+      "segments": [
+        "crm-platforms"
+      ],
+      "description": "CRM + gestion projets ; relations clients, livraison et automations marketing.",
+      "capabilities": [
+        "crm",
+        "project_management",
+        "automations",
+        "reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.insightly.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

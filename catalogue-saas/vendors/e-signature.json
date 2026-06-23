@@ -1,6 +1,6 @@
 {
   "segment": "e-signature",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "docusign",
@@ -143,6 +143,182 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "signaturit",
+      "name": "Signaturit",
+      "url": "https://www.signaturit.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "Signature électronique EU ; eIDAS, workflows KYC et API intégration CRM.",
+      "capabilities": [
+        "e_signature",
+        "eidas",
+        "kyc",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "ES",
+      "france_market": "partial",
+      "operating_regions": [
+        "ES",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.signaturit.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Complète Yousign/DocuSign — pas de doublon."
+    },
+    {
+      "id": "universign",
+      "name": "Universign",
+      "url": "https://www.universign.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "Prestataire signature FR eIDAS ; certificats qualifiés et parcours signature entreprise.",
+      "capabilities": [
+        "e_signature",
+        "eidas",
+        "qualified_certificates",
+        "enterprise"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.universign.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "signable",
+      "name": "Signable",
+      "url": "https://www.signable.co.uk/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "Signature électronique PME ; templates, rappels et audit trail conformité UK/EU.",
+      "capabilities": [
+        "e_signature",
+        "templates",
+        "reminders",
+        "audit_trail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.signable.co.uk/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "signnow",
+      "name": "SignNow (airSlate)",
+      "url": "https://www.signnow.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "Signature documentaire mid-market ; workflows, teams et intégrations Salesforce.",
+      "capabilities": [
+        "e_signature",
+        "workflows",
+        "teams",
+        "salesforce"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.signnow.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "getaccept",
+      "name": "GetAccept",
+      "url": "https://www.getaccept.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "Digital sales room ; propositions interactives, signature et tracking engagement acheteur.",
+      "capabilities": [
+        "digital_sales_room",
+        "proposals",
+        "e_signature",
+        "buyer_engagement"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "SE",
+      "france_market": "partial",
+      "operating_regions": [
+        "SE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.getaccept.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "concord",
+      "name": "Concord",
+      "url": "https://www.concordnow.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "CLM + signature ; négociation contrats, versioning et e-signature intégrée.",
+      "capabilities": [
+        "clm",
+        "contract_negotiation",
+        "e_signature",
+        "versioning"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.concordnow.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

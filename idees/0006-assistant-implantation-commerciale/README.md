@@ -153,7 +153,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `data-enrichment-b2b` — Enrichissement données B2B
 
-Fichier : [`catalogue-saas/vendors/data-enrichment-b2b.json`](../../catalogue-saas/vendors/data-enrichment-b2b.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/data-enrichment-b2b.json`](../../catalogue-saas/vendors/data-enrichment-b2b.json) (11 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -162,6 +162,12 @@ Fichier : [`catalogue-saas/vendors/data-enrichment-b2b.json`](../../catalogue-sa
 | `pappers` | Pappers | FR | strong | partial |
 | `zoominfo` | ZoomInfo | US | partial | partial |
 | `lusha` | Lusha | IL | partial | partial |
+| `6sense` | 6sense | US | partial | partial |
+| `demandbase` | Demandbase | US | partial | partial |
+| `cognism` | Cognism | GB | partial | partial |
+| `rocketreach` | RocketReach | US | partial | partial |
+| `leadfeeder` | Leadfeeder (Dealfront) | FI | partial | partial |
+| `dealfront` | Dealfront | FI | partial | partial |
 
 #### Segment `retail-ecommerce-ai` — Retail & e-commerce IA
 

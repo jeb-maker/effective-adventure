@@ -144,6 +144,181 @@
       "source_url": "https://vespa.ai/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial"
+    },
+    {
+      "id": "onyx-enterprise",
+      "name": "Onyx (Danswer)",
+      "url": "https://www.onyx.app/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Enterprise search open source ; RAG interne, connecteurs docs et chat grounded.",
+      "capabilities": [
+        "enterprise_search",
+        "rag",
+        "connectors",
+        "open_source"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.onyx.app/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kapa-ai",
+      "name": "kapa.ai",
+      "url": "https://www.kapa.ai/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Support docs RAG ; chatbot grounded sur docs produit, analytics gaps et API.",
+      "capabilities": [
+        "docs_rag",
+        "product_chatbot",
+        "gap_analytics",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.kapa.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ragie",
+      "name": "Ragie",
+      "url": "https://www.ragie.ai/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "RAG-as-a-service ; ingestion multimédia, chunking et API retrieval enterprise.",
+      "capabilities": [
+        "rag_api",
+        "multimedia_ingestion",
+        "chunking",
+        "retrieval"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.ragie.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "guru",
+      "name": "Guru",
+      "url": "https://www.getguru.com/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Knowledge management ; wiki entreprise, vérification contenu et suggestions contextuelles.",
+      "capabilities": [
+        "knowledge_base",
+        "verification",
+        "contextual_suggestions",
+        "wiki"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.getguru.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "bloomfire",
+      "name": "Bloomfire",
+      "url": "https://bloomfire.com/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Knowledge engagement ; recherche IA, Q&A communautaire et analytics usage contenu.",
+      "capabilities": [
+        "ai_search",
+        "community_qa",
+        "content_analytics",
+        "engagement"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://bloomfire.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "elastic-enterprise-search",
+      "name": "Elastic Enterprise Search",
+      "url": "https://www.elastic.co/enterprise-search",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Recherche enterprise Elastic ; connecteurs, relevance tuning et RAG via vector search.",
+      "capabilities": [
+        "enterprise_search",
+        "vector_search",
+        "connectors",
+        "relevance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "NL",
+      "france_market": "partial",
+      "operating_regions": [
+        "NL",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.elastic.co/enterprise-search",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

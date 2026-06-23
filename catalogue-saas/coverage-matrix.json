@@ -1237,18 +1237,18 @@
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
+          "new_added": 3,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 5
         },
         "capterra": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "crunchbase": {
           "consulted_at": "2026-06-22",
@@ -1272,7 +1272,13 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "open_source": null,
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 2,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -1281,25 +1287,25 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "translation-localization": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 3,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 5
         },
         "capterra": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "crunchbase": {
           "consulted_at": "2026-06-22",
@@ -1309,11 +1315,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -1323,7 +1329,13 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "open_source": null,
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 1,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 1
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -1332,18 +1344,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "data-integration-etl": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 16,
+          "new_added": 3,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 5
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -1353,18 +1365,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -1373,7 +1385,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 1,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 1
+        },
         "geo_digest": null,
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -1383,18 +1401,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "ai-productivity": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 4,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 6
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -1404,11 +1422,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 8,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "new_added": 2,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 3
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -1434,8 +1452,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 4
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "ai-copilot-dev": {
       "target_level": "L2",
@@ -1492,11 +1510,11 @@
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
           "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 4
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -1506,11 +1524,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 8,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "new_added": 2,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 3
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -1526,42 +1544,48 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 10,
+          "new_added": 1,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 1
+        },
         "geo_digest": null,
         "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 4
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "project-work-management": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 16,
+          "new_added": 4,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 6
         },
         "capterra": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -1587,18 +1611,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "meeting-intelligence": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 4,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 6
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -1608,11 +1632,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 2,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 3
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -1638,8 +1662,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "automation-platforms": {
       "target_level": "L2",
@@ -1708,11 +1732,11 @@
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 10,
           "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 4
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -1729,11 +1753,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
+          "new_added": 3,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 4
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -1742,7 +1766,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
+          "new_added": 1,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 1
+        },
         "geo_digest": null,
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -1752,8 +1782,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 4
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "support-sales-agents": {
       "target_level": "L2",
@@ -1854,18 +1884,18 @@
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 18,
+          "new_added": 4,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 6
         },
         "capterra": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
+          "new_added": 2,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 3
         },
         "crunchbase": {
           "consulted_at": "2026-06-22",
@@ -1898,25 +1928,25 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "marketing-automation": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 16,
+          "new_added": 4,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 6
         },
         "capterra": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "crunchbase": {
           "consulted_at": "2026-06-22",
@@ -1940,7 +1970,13 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "open_source": null,
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 1,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 1
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -1949,18 +1985,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "seo-content-ai": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 16,
+          "new_added": 5,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 7
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -1991,7 +2027,13 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "open_source": null,
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
+          "new_added": 1,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 1
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -2000,18 +2042,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "revenue-intelligence": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 3,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 5
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -2021,18 +2063,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 10,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "new_added": 2,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 3
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -2051,18 +2093,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "helpdesk-platforms": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 18,
+          "new_added": 5,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 7
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -2079,11 +2121,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -2102,25 +2144,25 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 4
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "customer-success": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 4,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 6
         },
         "capterra": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "crunchbase": {
           "consulted_at": "2026-06-22",
@@ -2130,11 +2172,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -2153,8 +2195,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "finance-accounting-ai": {
       "target_level": "L2",
@@ -2262,11 +2304,11 @@
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 10,
           "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 4
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -2283,11 +2325,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 3,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 4
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -2297,7 +2339,13 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "open_source": null,
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 1,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 1
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 8,
@@ -2306,8 +2354,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 4
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "legal-contract-ai": {
       "target_level": "L2",
@@ -2937,11 +2985,11 @@
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 3,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 5
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -2958,11 +3006,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -2972,7 +3020,13 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "open_source": null,
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 2,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 8,
@@ -2981,18 +3035,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 4
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "bi-analytics-platforms": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 16,
+          "new_added": 4,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 6
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -3002,11 +3056,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -3022,7 +3076,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
+          "new_added": 1,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 1
+        },
         "geo_digest": null,
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -3032,18 +3092,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "data-observability": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
           "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 4
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -3053,11 +3113,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -3073,8 +3133,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 10,
+          "new_added": 2,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 2
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
+          "new_added": 1,
+          "pass": "2026-06-v5n-workplace-data-sales",
+          "cumulative_new": 1
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -3083,8 +3155,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5n-workplace-data-sales",
+      "vendor_count_after_pass": 11
     },
     "public-procurement-intel": {
       "target_level": "L2",

@@ -1,6 +1,6 @@
 {
   "segment": "data-enrichment-b2b",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "apollo-io",
@@ -142,6 +142,180 @@
       "discovery_pass": "2026-06-v5e-retrospective",
       "source_url": "https://www.lusha.com/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "6sense",
+      "name": "6sense",
+      "url": "https://6sense.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "ABM intent data ; identification comptes anonymes, scoring intent et orchestration.",
+      "capabilities": [
+        "abm",
+        "intent_data",
+        "account_identification",
+        "orchestration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://6sense.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "demandbase",
+      "name": "Demandbase",
+      "url": "https://www.demandbase.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "ABM platform ; enrichment firmographique, intent B2B et publicité ciblée.",
+      "capabilities": [
+        "abm",
+        "firmographics",
+        "intent",
+        "advertising"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.demandbase.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cognism",
+      "name": "Cognism",
+      "url": "https://www.cognism.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Données contacts B2B EU ; emails vérifiés, mobile numbers et compliance GDPR.",
+      "capabilities": [
+        "contact_data",
+        "verified_emails",
+        "mobile",
+        "gdpr"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.cognism.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "rocketreach",
+      "name": "RocketReach",
+      "url": "https://rocketreach.co/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Recherche contacts pro ; emails, téléphones et profils LinkedIn entreprises.",
+      "capabilities": [
+        "contact_search",
+        "email_finder",
+        "linkedin",
+        "enrichment"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://rocketreach.co/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "leadfeeder",
+      "name": "Leadfeeder (Dealfront)",
+      "url": "https://www.leadfeeder.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Identification visiteurs site ; entreprises anonymes, intent et sync CRM.",
+      "capabilities": [
+        "visitor_identification",
+        "intent",
+        "crm_sync",
+        "website_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "FI",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.leadfeeder.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dealfront",
+      "name": "Dealfront",
+      "url": "https://www.dealfront.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Suite go-to-market EU ; Leadfeeder + Echobot enrichment firmographique DACH/EU.",
+      "capabilities": [
+        "gtm",
+        "firmographics",
+        "visitor_id",
+        "eu_data"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "FI",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.dealfront.com/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]

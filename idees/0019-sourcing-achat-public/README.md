@@ -202,7 +202,7 @@ Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalog
 
 #### Segment `spend-procurement` — Spend & procurement
 
-Fichier : [`catalogue-saas/vendors/spend-procurement.json`](../../catalogue-saas/vendors/spend-procurement.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/spend-procurement.json`](../../catalogue-saas/vendors/spend-procurement.json) (11 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -211,6 +211,12 @@ Fichier : [`catalogue-saas/vendors/spend-procurement.json`](../../catalogue-saas
 | `procurify` | Procurify | US | partial | partial |
 | `spendesk` | Spendesk | FR | strong | partial |
 | `tipalti` | Tipalti | US | partial | partial |
+| `sap-ariba` | SAP Ariba | DE | partial | partial |
+| `ivalua` | Ivalua | FR | strong | partial |
+| `jaggaer` | JAGGAER | US | partial | partial |
+| `proactis` | Proactis | GB | partial | partial |
+| `gep-smart` | GEP SMART | US | partial | partial |
+| `zycus` | Zycus | US | partial | partial |
 
 Commandes :
 ```bash

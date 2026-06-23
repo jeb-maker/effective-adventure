@@ -1,6 +1,6 @@
 {
   "segment": "meeting-intelligence",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "fireflies-ai",
@@ -141,6 +141,180 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "tldv",
+      "name": "tl;dv",
+      "url": "https://tldv.io/",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "Enregistrement réunions ; highlights, clips partageables et intégrations CRM.",
+      "capabilities": [
+        "recording",
+        "highlights",
+        "clips",
+        "crm_integration"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://tldv.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sembly",
+      "name": "Sembly AI",
+      "url": "https://www.sembly.ai/",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "Transcription et insights réunions ; action items, sentiment et search meetings.",
+      "capabilities": [
+        "transcription",
+        "action_items",
+        "sentiment",
+        "meeting_search"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.sembly.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "supernormal",
+      "name": "Supernormal",
+      "url": "https://supernormal.com/",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "Notes réunion auto ; templates, sync CRM et partage équipe post-call.",
+      "capabilities": [
+        "auto_notes",
+        "templates",
+        "crm_sync",
+        "team_sharing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://supernormal.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "meetgeek",
+      "name": "MeetGeek",
+      "url": "https://meetgeek.ai/",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "Meeting assistant ; résumés IA, KPI réunions et intégrations Slack/Notion.",
+      "capabilities": [
+        "ai_summaries",
+        "meeting_kpi",
+        "slack",
+        "notion"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://meetgeek.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "circleback",
+      "name": "Circleback",
+      "url": "https://www.circleback.ai/",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "Automatisation follow-up ; notes, emails recap et CRM updates post-réunion.",
+      "capabilities": [
+        "follow_up",
+        "recap_emails",
+        "crm_updates",
+        "automation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.circleback.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "krisp-meetings",
+      "name": "Krisp",
+      "url": "https://krisp.ai/",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "Audio AI réunions ; suppression bruit, transcription et accent localization.",
+      "capabilities": [
+        "noise_cancellation",
+        "transcription",
+        "accent_localization",
+        "audio_ai"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://krisp.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "segment": "data-observability",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "monte-carlo",
@@ -141,6 +141,182 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "bigeye",
+      "name": "Bigeye",
+      "url": "https://www.bigeye.com/",
+      "segments": [
+        "data-observability"
+      ],
+      "description": "Observabilité qualité données ; métriques auto, alerting et root cause analysis.",
+      "capabilities": [
+        "data_quality",
+        "auto_metrics",
+        "alerting",
+        "root_cause"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.bigeye.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "elementary-data",
+      "name": "Elementary",
+      "url": "https://www.elementary-data.com/",
+      "segments": [
+        "data-observability"
+      ],
+      "description": "Observabilité dbt-native ; tests, anomalies et lineage dans le stack analytics.",
+      "capabilities": [
+        "dbt",
+        "anomaly_detection",
+        "lineage",
+        "data_tests"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.elementary-data.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sifflet",
+      "name": "Sifflet",
+      "url": "https://www.siffletdata.com/",
+      "segments": [
+        "data-observability"
+      ],
+      "description": "Data observability EU ; catalog, monitoring qualité et impact analysis pipelines.",
+      "capabilities": [
+        "catalog",
+        "quality_monitoring",
+        "impact_analysis",
+        "pipelines"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.siffletdata.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "datafold",
+      "name": "Datafold",
+      "url": "https://www.datafold.com/",
+      "segments": [
+        "data-observability"
+      ],
+      "description": "Data diff & CI ; comparaison prod/staging, regression tests et column-level lineage.",
+      "capabilities": [
+        "data_diff",
+        "ci_cd",
+        "regression_tests",
+        "lineage"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.datafold.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lightup",
+      "name": "Lightup",
+      "url": "https://www.lightup.ai/",
+      "segments": [
+        "data-observability"
+      ],
+      "description": "Monitoring données temps réel ; détection anomalies, SLA et alerting incident.",
+      "capabilities": [
+        "real_time_monitoring",
+        "anomaly_detection",
+        "sla",
+        "incident_alerting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.lightup.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lakefs",
+      "name": "lakeFS",
+      "url": "https://lakefs.io/",
+      "segments": [
+        "data-observability"
+      ],
+      "description": "Versioning data lake ; branches, commits et rollback datasets type Git.",
+      "capabilities": [
+        "data_versioning",
+        "git_for_data",
+        "branches",
+        "rollback"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://lakefs.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "segment": "translation-localization",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "deepl",
@@ -141,6 +141,183 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "transifex",
+      "name": "Transifex",
+      "url": "https://www.transifex.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "TMS cloud ; workflows traduction, CI/CD strings et QA linguistique.",
+      "capabilities": [
+        "tms",
+        "ci_cd",
+        "string_management",
+        "linguistic_qa"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.transifex.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "weglot",
+      "name": "Weglot",
+      "url": "https://www.weglot.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "Localisation site web FR ; traduction automatique, SEO multilingue et workflow review.",
+      "capabilities": [
+        "website_translation",
+        "seo_multilingual",
+        "auto_translate",
+        "review"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.weglot.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "smartcat",
+      "name": "Smartcat",
+      "url": "https://www.smartcat.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "Plateforme traduction IA ; marketplace linguistes, TMS et MT post-édition.",
+      "capabilities": [
+        "tms",
+        "ai_translation",
+        "marketplace",
+        "post_editing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.smartcat.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "poeditor",
+      "name": "POEditor",
+      "url": "https://poeditor.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "Gestion traductions logiciel ; import/export formats dev, équipes et API.",
+      "capabilities": [
+        "software_localization",
+        "dev_formats",
+        "collaboration",
+        "api"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "RO",
+      "france_market": "partial",
+      "operating_regions": [
+        "RO",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://poeditor.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gridly",
+      "name": "Gridly",
+      "url": "https://www.gridly.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "CMS localisation jeux/apps ; branches contenu, workflows loc et intégrations dev.",
+      "capabilities": [
+        "game_localization",
+        "content_branching",
+        "workflows",
+        "dev_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "SE",
+      "france_market": "partial",
+      "operating_regions": [
+        "SE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.gridly.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "memsource",
+      "name": "Memsource (Phrase)",
+      "url": "https://cloud.memsource.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "TMS enterprise Phrase ; MT, terminologie et connecteurs CMS/ERP.",
+      "capabilities": [
+        "tms",
+        "machine_translation",
+        "terminology",
+        "connectors"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "CZ",
+      "france_market": "partial",
+      "operating_regions": [
+        "CZ",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://cloud.memsource.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

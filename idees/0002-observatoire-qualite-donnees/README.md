@@ -75,7 +75,7 @@ Fichier : [`catalogue-saas/vendors/open-data-governance-fr.json`](../../catalogu
 
 #### Segment `data-observability` — Data observability
 
-Fichier : [`catalogue-saas/vendors/data-observability.json`](../../catalogue-saas/vendors/data-observability.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/data-observability.json`](../../catalogue-saas/vendors/data-observability.json) (11 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -84,6 +84,12 @@ Fichier : [`catalogue-saas/vendors/data-observability.json`](../../catalogue-saa
 | `soda` | Soda | US | partial | partial |
 | `acceldata` | Acceldata | US | partial | partial |
 | `anomalo` | Anomalo | US | partial | partial |
+| `bigeye` | Bigeye | US | partial | partial |
+| `elementary-data` | Elementary | IL | partial | partial |
+| `sifflet` | Sifflet | FR | strong | partial |
+| `datafold` | Datafold | US | partial | partial |
+| `lightup` | Lightup | US | partial | partial |
+| `lakefs` | lakeFS | IL | partial | partial |
 
 Commandes :
 ```bash

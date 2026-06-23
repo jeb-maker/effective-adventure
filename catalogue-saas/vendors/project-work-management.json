@@ -1,6 +1,6 @@
 {
   "segment": "project-work-management",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "asana",
@@ -141,6 +141,182 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "smartsheet",
+      "name": "Smartsheet",
+      "url": "https://www.smartsheet.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Work management enterprise ; grilles, Gantt, automations et portefeuilles projets.",
+      "capabilities": [
+        "grids",
+        "gantt",
+        "automations",
+        "portfolio"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.smartsheet.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "basecamp",
+      "name": "Basecamp",
+      "url": "https://basecamp.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Gestion projet simplifiée ; to-do, message boards et calendrier équipe tout-en-un.",
+      "capabilities": [
+        "todo",
+        "message_boards",
+        "team_calendar",
+        "simplicity"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://basecamp.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "height-app",
+      "name": "Height",
+      "url": "https://height.app/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Project tracker moderne ; vues flexibles, automations et intégrations dev/design.",
+      "capabilities": [
+        "flexible_views",
+        "automations",
+        "dev_integration",
+        "tracking"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://height.app/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "teamwork-com",
+      "name": "Teamwork.com",
+      "url": "https://www.teamwork.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "PM agences/services ; time tracking, budgets client et collaboration projets.",
+      "capabilities": [
+        "time_tracking",
+        "client_budgets",
+        "collaboration",
+        "agency"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IE",
+      "france_market": "partial",
+      "operating_regions": [
+        "IE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.teamwork.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "url": "https://www.airtable.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Work OS flexible ; bases relationnelles, interfaces et automations no-code.",
+      "capabilities": [
+        "relational_bases",
+        "interfaces",
+        "automations",
+        "no_code"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.airtable.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "todoist-business",
+      "name": "Todoist Business",
+      "url": "https://todoist.com/team",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Task management équipes ; projets partagés, labels, filtres et productivité personnelle.",
+      "capabilities": [
+        "task_management",
+        "shared_projects",
+        "labels",
+        "productivity"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "PT",
+      "france_market": "partial",
+      "operating_regions": [
+        "PT",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://todoist.com/team",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

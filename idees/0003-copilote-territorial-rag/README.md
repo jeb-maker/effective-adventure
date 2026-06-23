@@ -73,7 +73,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `rag-knowledge` — RAG & knowledge enterprise
 
-Fichier : [`catalogue-saas/vendors/rag-knowledge.json`](../../catalogue-saas/vendors/rag-knowledge.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/rag-knowledge.json`](../../catalogue-saas/vendors/rag-knowledge.json) (11 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -82,10 +82,16 @@ Fichier : [`catalogue-saas/vendors/rag-knowledge.json`](../../catalogue-saas/ven
 | `coveo` | Coveo | US | partial | partial |
 | `contextual-ai` | Contextual AI | US | partial | partial |
 | `vespa` | Vespa.ai | US | partial | partial |
+| `onyx-enterprise` | Onyx (Danswer) | US | partial | partial |
+| `kapa-ai` | kapa.ai | US | partial | partial |
+| `ragie` | Ragie | US | partial | partial |
+| `guru` | Guru | US | partial | partial |
+| `bloomfire` | Bloomfire | US | partial | partial |
+| `elastic-enterprise-search` | Elastic Enterprise Search | NL | partial | partial |
 
 #### Segment `bi-analytics-platforms` — BI & analytics
 
-Fichier : [`catalogue-saas/vendors/bi-analytics-platforms.json`](../../catalogue-saas/vendors/bi-analytics-platforms.json) (5 entrées)
+Fichier : [`catalogue-saas/vendors/bi-analytics-platforms.json`](../../catalogue-saas/vendors/bi-analytics-platforms.json) (11 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -94,6 +100,12 @@ Fichier : [`catalogue-saas/vendors/bi-analytics-platforms.json`](../../catalogue
 | `looker` | Looker (Google Cloud) | US | partial | partial |
 | `thoughtspot` | ThoughtSpot | US | partial | partial |
 | `mode-analytics` | Mode | US | partial | partial |
+| `qlik-sense` | Qlik Sense | SE | partial | partial |
+| `domo` | Domo | US | partial | partial |
+| `sisense` | Sisense | IL | partial | partial |
+| `metabase` | Metabase | US | partial | partial |
+| `hex-tech` | Hex | US | partial | partial |
+| `sigma-computing` | Sigma Computing | US | partial | partial |
 
 Commandes :
 ```bash
