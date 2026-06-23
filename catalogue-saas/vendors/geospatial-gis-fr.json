@@ -19,15 +19,16 @@
       "target_market": "mid_market",
       "geography": "france",
       "source_url": "https://www.geofoncier.fr/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "FR",
       "france_market": "strong",
       "operating_regions": [
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6e-territorial-btp-verify",
+      "pricing_notes": "Portail notaires ; accès professionnel — tarifs par abonnement (consulté 2026-06-23)."
     },
     {
       "id": "alkante",
@@ -73,8 +74,8 @@
       "target_market": "mid_market",
       "geography": "france",
       "source_url": "https://geoservices.ign.fr/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "FR",
       "france_market": "strong",
       "operating_regions": [
@@ -82,7 +83,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6e-territorial-btp-verify",
+      "pricing_notes": "Services géographiques IGN ; open data + APIs professionnelles (consulté 2026-06-23)."
     },
     {
       "id": "cartelie",

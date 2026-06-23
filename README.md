@@ -142,7 +142,11 @@ CI : [`.github/workflows/validate.yml`](.github/workflows/validate.yml).
 
 1. **Ne plus ouvrir de nouvelles idées** tant qu'aucune des 7 candidates 🔁 ne
    franchit le seuil Go (≥ 70) après pivot documenté.
-2. ~~Appliquer le red-team~~ — **fait** (28/28 revues sur statuts finaux).
-3. **Prototyper une seule idée** qui franchit le seuil — ou **fermer le registre**
-   : après red-team complet, **aucune idée ≥ 70** ; la décision est un pivot
-   explicite (0001 niche attribution ? 0029 micro-vertical ?) ou arrêt.
+2. ~~Appliquer le red-team~~ — **fait** (29/29 revues).
+3. **Choix de suite** (exclusifs, pas cumulables sans limite) :
+   - **Pivot produit** : une seule idée 🔁 → entretiens + prototype 🚧 ;
+   - **Cartographie** (piste active) : catalogue A + §4 fiches B — voir
+     [`docs/cartographie-existant.md`](docs/cartographie-existant.md) §6 ;
+   - **Fermeture registre** : documenter l'arrêt de la discovery ouverte.
+4. La cartographie **ne remplace pas** la décision payeur/pivot — elle prépare
+   un recadrage ultérieur avec un existant déjà cartographié.

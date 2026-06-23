@@ -3219,10 +3219,10 @@
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 16,
-          "new_added": 4,
-          "pass": "2026-06-v5t-verticals-l3",
-          "cumulative_new": 10
+          "candidates_found": 4,
+          "new_added": 3,
+          "pass": "2026-06-v6e-territorial-btp-verify",
+          "cumulative_new": 13
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -3232,8 +3232,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5t-verticals-l3",
-      "vendor_count_after_pass": 18
+      "last_pass": "2026-06-v6e-territorial-btp-verify",
+      "vendor_count_after_pass": 21
     },
     "supply-chain-logistics": {
       "target_level": "L3",
@@ -3656,10 +3656,10 @@
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 10,
-          "new_added": 8,
-          "pass": "2026-06-v6d-procurement-verify-listicle",
-          "cumulative_new": 23
+          "candidates_found": 2,
+          "new_added": 1,
+          "pass": "2026-06-v6e-territorial-btp-verify",
+          "cumulative_new": 24
         },
         "official_site": {
           "consulted_at": "2026-06-23",
@@ -3669,8 +3669,8 @@
           "cumulative_new": 19
         }
       },
-      "last_pass": "2026-06-v6d-procurement-verify-listicle",
-      "vendor_count_after_pass": 41
+      "last_pass": "2026-06-v6e-territorial-btp-verify",
+      "vendor_count_after_pass": 42
     },
     "territorial-analytics": {
       "target_level": "L2",
@@ -3710,14 +3710,14 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 14,
-          "new_added": 4,
-          "pass": "2026-06-v5k-territoire-idees",
-          "cumulative_new": 6
+          "candidates_found": 5,
+          "new_added": 3,
+          "pass": "2026-06-v6e-territorial-btp-verify",
+          "cumulative_new": 9
         }
       },
-      "last_pass": "2026-06-v5k-territoire-idees",
-      "vendor_count_after_pass": 18
+      "last_pass": "2026-06-v6e-territorial-btp-verify",
+      "vendor_count_after_pass": 21
     },
     "civic-tech-fr": {
       "target_level": "L3",

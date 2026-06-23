@@ -47,7 +47,7 @@ ce que ça ne fait **pas**.
 | **Profondeur inventaire** | ≥ N entrées par segment (ex. 18) | Inventaire curaté, pas exhaustif |
 | **Saturation marché** | Dernière passe < 5 % de nouveaux candidats | Seul critère de **gel** segment |
 | **`verified`** | Site officiel consulté, pricing/capabilities confirmés | Minorité des entrées — cible à monter |
-| **Gel (`frozen-segments.json`)** | Saturation atteinte, pas de moisson avant revue trim. | 0 segment gelé = marché **non clos** |
+| **Gel (`frozen-segments.json`)** | Saturation atteinte, pas de moisson avant revue trim. | **6 segments gelés** (parsing-inbox, document-idp, kyc-aml, automation-platforms, voice-speech-ai, real-estate-proptech) |
 
 Ne jamais écrire « segment L3 complet » si la saturation n'est pas atteinte.
 Préférer : « inventaire ≥ 18 entrées, saturation non atteinte ».
@@ -94,6 +94,24 @@ Contrôle automatisé :
 python3 scripts/check_idees.py          # rapport backlog revues
 python3 scripts/check_idees.py --strict  # échoue si revue manquante
 ```
+
+---
+
+## 6. Piste cartographie continue (alternative au pivot produit)
+
+Quand le registre idées ne produit **aucun Go** mais que la valeur du dépôt
+est la **connaissance du marché**, on peut prioriser la cartographie sans ouvrir
+de nouvelles idées :
+
+| Priorité | Cartographie | Livrable |
+|---|---|---|
+| 1 | **A — Catalogue SaaS** | Passes V6* : verified ↑, segments 🔁 des idées restantes, gel saturation |
+| 2 | **B — §4 fiches** | Sous-sections obligatoires (services publics, réutilisations data.gouv) sur les 7 🔁 |
+| 3 | **Réutilisations data.gouv** | Entrées catalogue pour Orama, Habity, DépensesPubliques… (cartographie citoyenne) |
+| 4 | **Audit listicle** | `audit-sources` → promotion `verified` par vague (~20/semaine) |
+
+**Règle** : la cartographie **n'invalide pas** le verdict discovery (0 Go) — elle
+**alimente** un futur pivot (0001, 0029, 0025) avec un §4 déjà complet.
 
 ---
 

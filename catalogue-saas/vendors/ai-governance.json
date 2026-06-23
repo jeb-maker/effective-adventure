@@ -109,8 +109,8 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://kla.digital/blog/best-eu-ai-act-compliance-software-2026",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://www.holisticai.com/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "hq_country": "US",
       "france_market": "partial",
@@ -119,7 +119,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6e-territorial-btp-verify",
+      "pricing_notes": "Source officielle ; remplace kla.digital listicle — tarifs sur devis (consulté 2026-06-23)."
     },
     {
       "id": "responsible-ai-studio",
@@ -195,9 +196,9 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://dancumberlandlabs.com/blog/ai-governance-tools/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.fiddler.ai/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -205,7 +206,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6e-territorial-btp-verify",
+      "pricing_notes": "Remplace dancumberlandlabs.com listicle (consulté 2026-06-23)."
     },
     {
       "id": "arize-ai",
@@ -224,9 +226,9 @@
       "pricing_model": "hybrid",
       "target_market": "mid_market",
       "geography": "global",
-      "source_url": "https://dancumberlandlabs.com/blog/ai-governance-tools/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://arize.com/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -234,7 +236,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6e-territorial-btp-verify",
+      "pricing_notes": "Remplace dancumberlandlabs.com listicle (consulté 2026-06-23)."
     },
     {
       "id": "ibm-watsonx-governance",
@@ -252,8 +255,8 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://www.modulos.ai/best-ai-governance-platforms/",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://www.ibm.com/products/watsonx-governance",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "hq_country": "US",
       "france_market": "partial",
@@ -262,7 +265,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6e-territorial-btp-verify",
+      "pricing_notes": "Source officielle IBM ; remplace modulos.ai listicle (consulté 2026-06-23)."
     },
     {
       "id": "langsmith",
@@ -282,9 +286,9 @@
       "pricing_model": "hybrid",
       "target_market": "mid_market",
       "geography": "global",
-      "source_url": "https://kla.digital/blog/best-eu-ai-act-compliance-software-2026",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.langchain.com/pricing-langsmith",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -292,7 +296,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6e-territorial-btp-verify",
+      "pricing_notes": "Developer $0 ; Plus $39/seat/mo ; Enterprise custom ; remplace kla.digital listicle (consulté 2026-06-23)."
     },
     {
       "id": "arthur-ai",
