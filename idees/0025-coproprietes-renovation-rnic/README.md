@@ -74,7 +74,25 @@ par entretiens.
 
 ## 4. Existant / concurrence
 
-### Concurrents directs sur la niche syndic + DPE + rénovation
+> Cartographie B (consultée 2026-06-23). Voir aussi [`revue.md`](revue.md).
+
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Go Rénove PRO (CSTB / BDNB)** | https://www.bdnb.io/services/gorenove/ | Analyse de parc copropriétés/bailleurs — **gratuit** |
+| **ANAH / Hub rénovation** | https://www.anah.fr/ | Dispositifs MaPrimeRénov' copropriété |
+| **CoproFF (Cerema)** | https://www.cerema.fr/fr/actualites/coproff-outil-de-visualisation-des-coproprietes | Visualisation copropriétés (RNIC × foncier) — service public |
+
+### Réutilisations data.gouv
+
+| Jeu / service | URL | Rôle |
+|---|---|---|
+| **RNIC** | https://www.data.gouv.fr/datasets/registre-national-dimmatriculation-des-coproprietes | Registre copropriétés (socle idée) |
+| **DECP consolidée** | https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-consolidees-format-tabulaire | Marchés publics (limite : copropriété ≠ acheteur public) |
+| **API RGE** | https://www.data.gouv.fr/dataservices/api-professionnels-rge | Entreprises certifiées rénovation |
+
+### Concurrents directs — syndic + DPE + rénovation
 
 | Concurrent | Positionnement | URL | Consulté |
 |---|---|---|---|

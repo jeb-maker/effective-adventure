@@ -42,9 +42,26 @@ Pas de dépendance à un dataset open data unique : les **documents entrants** (
 
 ## 4. Existant / concurrence
 
-Marché fragmenté entre **parsing inbox**, **IDP** et **automation** — voir catalogue structuré (segments liés ci-dessous).
+> Cartographie B (consultée 2026-06-23). Marché fragmenté entre parsing inbox,
+> IDP et automation — catalogue structuré ci-dessous.
 
-Synthèse (consulté 2026-06-23) :
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **API Entreprise (INPI / DILA)** | https://www.data.gouv.fr/dataservices/api-entreprise | KYC lite : statuts, dirigeants, attestations — pivot possible |
+| **Chorus Pro / facturation publique** | https://chorus-pro.gouv.fr/ | Dématérialisation factures secteur public (adjacent process document) |
+| **MCP data.gouv.fr** | https://www.data.gouv.fr/dataservices | Catalogue datasets — contexte enrichissement, pas extraction email |
+
+### Réutilisations data.gouv
+
+Peu de réutilisation directe « email → dossier » sur data.gouv ; les jeux ouverts
+servent surtout de **contexte métier** (SIRENE, RNA) dans un pivot KYC lite.
+API Entreprise : https://www.data.gouv.fr/dataservices/api-entreprise (consulté 2026-06-23).
+
+### Produits commerciaux (parsing / IDP / automation)
+
+Synthèse :
 - **Parsing email dédié** : [Parseur](https://parseur.com/pricing) (à partir de 39 $/mois, consulté 2026-06-23), [Mailparser](https://mailparser.io/pricing) (49 $/mois), [Parsio](https://parsio.io/pricing) (41 $/mois) — extraction champs, peu de boucle validation métier.
 - **IDP générique** : [Rossum](https://rossum.ai/pricing/) (usage-based, consulté 2026-06-23), [Extend](https://www.extend.ai/pricing) (crédits documents), [Nanonets](https://nanonets.com/pricing) — extraction performante, workflow « dossier validé » souvent absent ou add-on.
 - **Workflow + revue** : Dext, Levity, Pipefy, Tonkean (V5h) — plus proches du positionnement mais généralistes ou verticaux compta/ops, pas micro-process configurable.

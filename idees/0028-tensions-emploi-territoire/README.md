@@ -72,9 +72,26 @@ data.gouv.fr (MàJ déc. 2025) ; accès nécessite inscription portail France Tr
 
 ## 4. Existant / concurrence
 
-> Toutes les sources vérifiées le 2026-06-23.
+> Toutes les sources vérifiées le 2026-06-23. Cartographie B complète.
 
-### Concurrent direct et principal — France Travail officiel
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Data Emploi (France Travail)** | https://dataemploi.francetravail.fr/ | Tensions métier × territoire — **gratuit**, couvre ~80 % du besoin |
+| **API Marché du travail** | https://www.data.gouv.fr/dataservices/api-marche-du-travail | Données ouvertes France Travail (OAuth) |
+| **Mes Services Locaux** | https://meserviceslocaux.francetravail.fr/ | Consultation publique partielle bassin emploi |
+| **INSEE — FiLoSoFi / Melodi** | https://www.insee.fr/ | Revenus, démographie territoriale |
+
+### Réutilisations data.gouv
+
+| Jeu / API | URL | Rôle |
+|---|---|---|
+| **SIRENE** | https://www.data.gouv.fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret | Établissements par NAF/commune |
+| **API Accès à l'emploi** | https://www.data.gouv.fr/dataservices/api-acces-a-lemploi-des-demandeurs-demploi | Demandeurs par métier ROME |
+| **API Informations emploi territoire** | https://www.data.gouv.fr/dataservices/api-informations-sur-lemploi-dans-un-territoire | Établissements, salariés |
+
+### Concurrent direct — France Travail officiel
 
 **Data Emploi** ([https://dataemploi.francetravail.fr/](https://dataemploi.francetravail.fr/),
 consulté 2026-06-23) : plateforme officielle France Travail, **gratuite et

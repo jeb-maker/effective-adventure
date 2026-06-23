@@ -70,6 +70,26 @@ dans le cadre d'un diagnostic territorial — pas l'agriculteur individuel.
 
 ## 4. Existant / concurrence
 
+> Cartographie B — foncier agricole × risques (consultée 2026-06-23).
+
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Géoportail (IGN)** | https://www.geoportail.gouv.fr/ | Consultation RPG, ICPE, Natura 2000 — gratuit |
+| **Géorisques (BRGM/MTES)** | https://www.georisques.gouv.fr/ | Rapport risques par adresse/parcelle |
+| **Géoportail urbanisme (GPU)** | https://www.geoportail-urbanisme.gouv.fr/ | PLU, zonage |
+| **Cartes DDT/DDTM** | Ex. https://www.seine-maritime.gouv.fr/Actions-de-l-Etat/Agriculture-Foret/ | Cartographies départementales gratuites |
+
+### Réutilisations data.gouv
+
+| Jeu / API | URL | Rôle |
+|---|---|---|
+| **RPG** | https://www.data.gouv.fr/datasets/registre-parcellaire-graphique-agricole | Registre parcellaire graphique |
+| **API Géorisques** | https://www.data.gouv.fr/dataservices/api-georisques | ICPE, BASIAS, aléas — REST |
+| **Hub'Eau** | https://hubeau.eaufrance.fr/ | Hydrométrie, qualité eau (référencé data.gouv) |
+| **Cadastre** | https://www.data.gouv.fr/datasets/cadastre | PCI / parcelles |
+
 ### Outils publics gratuits — barrière d'entrée basse
 
 | Concurrent | Positionnement | URL | Consulté |

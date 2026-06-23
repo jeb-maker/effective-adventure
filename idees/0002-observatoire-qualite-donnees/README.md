@@ -36,19 +36,40 @@ détecter ces régressions en continu.
 | Modèle de référence (transport) | https://doc.transport.data.gouv.fr/outils/outils-disponibles-sur-le-pan/indicateurs-de-qualite | — | — | dispo/conformité/fraîcheur historisés | Limité au domaine transport |
 
 ## 4. Existant / concurrence
-Plus fourni que prévu — mais **fragmenté**, et rien au niveau « produit
-transversal » :
-- **Score de qualité des métadonnées** natif data.gouv.fr (description, doc,
-  fréquence respectée, licence ouverte, format ouvert, couverture) — mais c'est
-  de la **métadonnée, pas de la donnée**.
-  https://guides.data.gouv.fr/guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/ameliorer-le-score-de-qualite-des-metadonnees.md
-- **Validata** : valide un fichier contre un schéma, **pas un monitoring
-  continu**. https://validata.fr/
-- **transport.data.gouv.fr** : le modèle (disponibilité horaire, conformité
-  quotidienne, fraîcheur, historisés) **mais limité au transport**.
-- Champ `quality` exposé par l'API, distinction `last_update`/`last_modified`.
-  https://dawap.fr/actualites-developpement/integration-api-data-gouv-fr-services-publics-open-data
+
+> Cartographie B (consultée 2026-06-23). Verdict : **fragmenté**, pas de produit
+> transversal « monitoring qualité données » au niveau national.
+
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Etalab / data.gouv.fr** | https://www.data.gouv.fr/ | Score qualité métadonnées natif, API catalogue |
+| **schema.data.gouv.fr** | https://schema.data.gouv.fr/ | Schémas Table Schema de référence |
+| **transport.data.gouv.fr** | https://doc.transport.data.gouv.fr/outils/outils-disponibles-sur-le-pan/indicateurs-de-qualite | Modèle indicateurs dispo/conformité/fraîcheur (transport) |
+| **Observatoire OpenDataFrance** | https://www.opendatafrance.org/ | Veille écosystème open data FR |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **Validata** | https://validata.fr/ | Validation fichier vs schéma (à la demande, pas monitoring continu) |
+| **udata-hydra** (Etalab) | https://github.com/opendatateam/udata-hydra | Crawling URLs ressources — infra qualité liens |
+| **Guides qualité Etalab** | https://guides.data.gouv.fr/guides/guide-qualite/ | Méthode amélioration score métadonnées |
+
+Champ `quality` API data.gouv, distinction `last_update`/`last_modified` :
+https://dawap.fr/actualites-developpement/integration-api-data-gouv-fr-services-publics-open-data
 (Sources consultées 2026-06-20.)
+
+### Produits commerciaux
+
+Opendatasoft/Huwise, Toucan Toco, Fairness, Sifflet (data observability) —
+segments `open-data-governance-fr` et `data-observability` du catalogue (voir ci-dessous).
+
+### Bricolage
+
+Great Expectations, Soda, scripts cron sur API catalogue — souvent le vrai
+concurrent des équipes data internes.
 
 <!-- catalogue-saas-begin -->
 

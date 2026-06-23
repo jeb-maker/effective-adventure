@@ -43,18 +43,48 @@ marché (titulaires multiples, avenants via `modification_id`) ; `donneesActuell
 = dernière version. → **données tabulaires propres, donc SQL fiable**.
 
 ## 4. Existant / concurrence
-- **Veille d'AO = saturé.** Vecteur Plus (>300 €/mois, devis), France Marchés
-  (~30–50 €), Synapse, Doaken, Olra, PublikConnect (49 € HT), AlertOffres
-  (29,99 €), AOS, Explore, Marchés Online, Dématis, Centrale des Marchés.
-  Plusieurs ont déjà l'IA (scoring, analyse de DCE, mémoire technique).
-  Sources (consultées 2026-06-20) : https://olra.fr/blog/alternatives-synapse-france-marches-comparatif ,
-  https://remporte.fr/blog/plateformes-appels-offres-comparatif/ ,
-  https://publikconnect.fr/tarifs/ , https://www.alertoffres.fr/tarifs
-- **Analyse d'attribution (DECP) = peu mûr en produit.**
-  - `decp.info` : exploration/téléchargement (Datasette), **outil pas produit** —
-    https://www.data.gouv.fr/reuses/decp-info-interface-dexploration-et-de-telechargement-des-donnees-de-la-commande-publique-au-format-tabulaire
-  - `OpenMarchés` : visualisation **marchés IT uniquement**, analyse one-shot —
-    https://www.data.gouv.fr/reuses/openmarches-visualisation-des-marches-it-publics
+
+> Cartographie B complète (consultée 2026-06-23). Catalogue SaaS segment
+> `public-procurement-intel` : 42 entrées — voir ci-dessous.
+
+**Verdict saturation** : veille AO **saturée** ; analyse d'attribution **disputée**
+(Maître AO, Nextend.ai, marchespublics.ai intègrent déjà DECP).
+
+### Services publics / .gouv.fr
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **BOAMP (open data)** | https://www.boamp.fr/ / https://www.data.gouv.fr/datasets/boamp | Source officielle avis de marché |
+| **data.economie.gouv.fr — DECP** | https://data.economie.gouv.fr/ | Données essentielles commande publique consolidées |
+| **PLACE / profils acheteurs** | https://www.achatpublic.com/ , https://www.maximilien.fr/ | Dématérialisation côté acheteurs |
+| **Tableau de bord comptes collectivités** | https://data.economie.gouv.fr/explore/dataset/comptes-individuels-des-collectivites/ | Contexte acheteur public (adjacent) |
+
+### Réutilisations data.gouv
+
+| Acteur | URL | Rôle |
+|---|---|---|
+| **decp.info** | https://www.data.gouv.fr/reuses/decp-info-interface-dexploration-et-de-telechargement-des-donnees-de-la-commande-publique-au-format-tabulaire | Exploration DECP tabulaire (outil, pas produit SaaS) |
+| **OpenMarchés** | https://www.data.gouv.fr/reuses/openmarches-visualisation-des-marches-it-publics | Analytics attribution marchés IT (479k+ contrats) |
+| **OpenBar / subventions** | https://openbar.fr/ | Transparence subventions (adjacent idée 0027) |
+
+### Produits commerciaux (veille + attribution)
+
+Veille **saturée** : Vecteur Plus, France Marchés, Synapse, Doaken, Olra,
+PublikConnect (49 € HT), AlertOffres (29,99 €), Saqara (ex-AOS), Explore,
+Marchés Online, Dématis, Centrale des Marchés, Tendly, Remporte, Maître AO,
+Nextend.ai, marchespublics.ai — plusieurs avec IA (scoring DCE, mémoire technique).
+Sources comparatifs (2026-06-20) : https://olra.fr/blog/alternatives-synapse-france-marches-comparatif ,
+https://remporte.fr/blog/plateformes-appels-offres-comparatif/ ,
+https://publikconnect.fr/tarifs/ , https://www.alertoffres.fr/tarifs
+
+**Attribution DECP** : plus « vierge » qu'annoncé — Maître AO (82k+ titulaires),
+Nextend.ai (observatoire), marchespublics.ai (benchmark 10 M+ contrats), DOAKEN,
+OpenMarchés.
+
+### Open source / bricolage
+
+- Requêtes API tabulaire data.gouv + DuckDB sur dump DECP Parquet
+- Excel / Metabase sur jeux BOAMP + DECP open data
 
 <!-- catalogue-saas-begin -->
 
