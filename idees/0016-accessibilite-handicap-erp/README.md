@@ -2,8 +2,8 @@
 
 - **ID** : 0016
 - **Statut** : ❌ Écartée
-- **Score** : 52 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Score** : 48 / 100
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Exploiter les données d'accessibilité des ERP (acceslibre)
   pour aider les personnes handicapées à trouver des lieux accessibles et/ou
   aider commerces et collectivités à se mettre en conformité.
@@ -197,34 +197,39 @@ l'idée et à croiser d'autres sources (BPE/SIRENE pour le dénominateur ERP).
 
 ## 10. Scoring
 
-| # | Critère | Poids | Note (1-5) | Pondéré |
-|---|---|---|---|---|
-| C1 | Intensité du problème | 3 | 4 | 12 |
-| C2 | Cible solvable (qui paie) | 3 | 2 | 6 |
-| C3 | Disponibilité & fiabilité données | 3 | 3 | 9 |
-| C4 | Espace concurrentiel libre | 2 | 1 | 2 |
-| C5 | Différenciation défendable | 2 | 1 | 2 |
-| C6 | Faisabilité & fiabilité technique | 2 | 4 | 8 |
-| C7 | Facilité du MVP | 2 | 4 | 8 |
-| C8 | Maîtrise des risques | 2 | 2 | 4 |
-| C9 | Monétisation / impact | 2 | 2 | 4 |
-| | **Total** | | | **55 / 105** |
+> **Scoring ajusté après revue critique du 2026-06-23** (voir [`revue.md`](revue.md)).
+> Notes abaissées : C2 (2→1), C7 (4→3). Score 52 → **48** ; verdict inchangé
+> (❌ Écartée, marge sous le seuil élargie). Notes initiales rappelées en colonne dédiée.
 
-**Score /100** : 55 / 105 × 100 = **52**
+| # | Critère | Poids | Note initiale | Note (post-revue) | Pondéré |
+|---|---|---|---|---|---|
+| C1 | Intensité du problème | 3 | 4 | 4 | 12 |
+| C2 | Cible solvable (qui paie) | 3 | 2 | 1 | 3 |
+| C3 | Disponibilité & fiabilité données | 3 | 3 | 3 | 9 |
+| C4 | Espace concurrentiel libre | 2 | 1 | 1 | 2 |
+| C5 | Différenciation défendable | 2 | 1 | 1 | 2 |
+| C6 | Faisabilité & fiabilité technique | 2 | 4 | 4 | 8 |
+| C7 | Facilité du MVP | 2 | 4 | 3 | 6 |
+| C8 | Maîtrise des risques | 2 | 2 | 2 | 4 |
+| C9 | Monétisation / impact | 2 | 2 | 2 | 4 |
+| | **Total** | | | | **50 / 105** |
 
-Justification des notes (une phrase chacune) :
+**Score /100** : 50 / 105 × 100 = **48**
+
+Justification des notes (post-revue) :
 - **C1 = 4** : douleur réelle et large (12 M de personnes), mais déjà adressée par un service public, donc pas 5.
-- **C2 = 2** : les usagers ne paient pas et aucun payeur (ERP/collectivité) n'est laissé non servi par l'offre publique/B2B existante.
+- **C2 = 1** (ajusté) : **aucun payeur non servi** — usagers gratuits, ERP non vendables sur du déclaratif (≠ conformité), collectivités déjà servies par l'État (acceslibre) + Someware/Handimap, et État qui finance l'aide (Fonds territorial 300 M€).
 - **C3 = 3** : données ouvertes, propres, quotidiennes et au standard CNIG, mais couverture ~30 % et nature déclarative qui plafonnent la fiabilité.
-- **C4 = 1** : segment grand public saturé par le service officiel + Jaccede + Wheelmap + Google Maps.
+- **C4 = 1** : segment grand public saturé par le service officiel + Jaccede + Wheelmap + Google Maps ; acceslibre occupe **aussi** le segment collectivités (open data obligatoire, validateur, passerelles SIG, ALM).
 - **C5 = 1** : refaire acceslibre est copiable et déjà fait par l'État ; aucune différenciation défendable trouvée.
 - **C6 = 4** : API/CSV prêts et chiffres SQL-traçables (RAG limité au sens), mais pas 5 car la donnée elle-même est incomplète.
-- **C7 = 4** : MVP techniquement rapide grâce à l'API et au client open source, mais sans intérêt produit.
+- **C7 = 3** (ajusté) : un MVP **crédible** ne ferait que dupliquer acceslibre (inutile) ; le seul MVP utile (observatoire de couverture, dénominateur BPE/SIRENE) requalifie l'idée et coûte plus → pas un 4.
 - **C8 = 2** : redondance avec un service public gratuit + responsabilité sur donnée déclarative = risques élevés.
 - **C9 = 2** : ni revenu crédible ni impact additionnel par rapport à l'existant public.
 
 ## 11. Verdict & décision
-❌ **Écartée.** Score 52/100 (< 55), et surtout **critère quasi-éliminatoire de
+❌ **Écartée.** Score **48/100** après revue critique du 2026-06-23 (< 55 ; recalcul
+C2 2→1, C7 4→3 confortant la décision), et surtout **critère quasi-éliminatoire de
 redondance** : la seed reproduit le service public officiel **acceslibre**
 (beta.gouv.fr), qui couvre déjà la recherche de lieux accessibles, est gratuit,
 mieux doté en données que ne le serait un réutilisateur, et pousse activement la
@@ -245,4 +250,4 @@ avant toute analyse approfondie.
 
 ---
 
-0016 | Accessibilité handicap des lieux (ERP) | ❌ Écartée | 52/100 | Redondant avec service public acceslibre, sans payeur
+0016 | Accessibilité handicap des lieux (ERP) | ❌ Écartée | 48/100 | Redondant avec acceslibre (qui occupe aussi les collectivités), sans payeur ; revue 2026-06-23
