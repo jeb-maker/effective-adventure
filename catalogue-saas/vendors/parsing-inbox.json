@@ -20,9 +20,9 @@
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://parseur.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "unknown",
       "france_market": "unknown",
       "operating_regions": [
@@ -30,7 +30,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "notes": "Promotion verified V6b — grille tarifaire officielle parseur.com/pricing (revue 0029)."
     },
     {
       "id": "mailparser",
@@ -48,9 +49,9 @@
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://mailparser.io/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "unknown",
       "france_market": "unknown",
       "operating_regions": [
@@ -58,7 +59,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "notes": "Promotion verified V6b — source officielle (remplace listicle)."
     },
     {
       "id": "docparser",
@@ -107,9 +109,9 @@
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://parsio.io/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "unknown",
       "france_market": "unknown",
       "operating_regions": [
@@ -117,7 +119,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "notes": "Promotion verified V6b — source officielle (remplace listicle)."
     },
     {
       "id": "airparser",
@@ -257,10 +260,11 @@
         "EU"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
-      "source_url": "https://www.nylas.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://www.nylas.com/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — page tarifs officielle."
     },
     {
       "id": "sendgrid-inbound",
@@ -313,10 +317,11 @@
         "EU"
       ],
       "discovery_source": "capterra",
-      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
-      "source_url": "https://www.mailjet.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://www.mailjet.com/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — éditeur FR (Sinch), page tarifs officielle."
     },
     {
       "id": "mailslurp",
@@ -429,10 +434,11 @@
         "US"
       ],
       "discovery_source": "alternatives",
-      "discovery_pass": "2026-06-v5g-parsing-compliance",
-      "source_url": "https://www.cloudmailin.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://www.cloudmailin.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — page tarifs officielle."
     },
     {
       "id": "aurinko",
@@ -487,10 +493,11 @@
         "EU"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5g-parsing-compliance",
-      "source_url": "https://www.unipile.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://www.unipile.com/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — éditeur FR, page tarifs officielle."
     },
     {
       "id": "emailengine",
@@ -516,10 +523,11 @@
         "US"
       ],
       "discovery_source": "open_source",
-      "discovery_pass": "2026-06-v5g-parsing-compliance",
-      "source_url": "https://emailengine.app/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://emailengine.app/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — page tarifs officielle (licence self-hosted)."
     },
     {
       "id": "unstract",
@@ -546,10 +554,11 @@
         "EU"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5g-parsing-compliance",
-      "source_url": "https://unstract.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://unstract.com/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — page tarifs officielle."
     },
     {
       "id": "microsoft-graph-mail",
@@ -666,10 +675,11 @@
         "US"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
       "source_url": "https://dext.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — page tarifs officielle dext.com/pricing."
     },
     {
       "id": "autoentry",

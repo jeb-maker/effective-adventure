@@ -708,6 +708,193 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "pricing_notes": "À partir de 49 €/mois (citée idée 0001 ; tarifs à reconfirmer sur site)."
+    },
+    {
+      "id": "france-marches",
+      "name": "France Marchés",
+      "url": "https://www.francemarches.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Portail veille marchés publics FR : agrégation BOAMP, JOUE et 1 000+ profils acheteurs, alertes email gratuites et avis d'attribution.",
+      "capabilities": [
+        "ao_monitoring",
+        "email_alerts",
+        "boamp_joue",
+        "attribution_notices",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://www.francemarches.com/offre",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "pricing_notes": "Service d'alertes gratuit ; abonnements premium non affichés publiquement (consulté 2026-06-23).",
+      "notes": "Veille majeure FR (160k+ abonnés) ; distincte de Synapse Entreprises (dématérialisation profil acheteur)."
+    },
+    {
+      "id": "tengo",
+      "name": "Tengo",
+      "url": "https://www.tengo.cc/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Startup IA FR détection et réponse appels d'offres : veille 50+ plateformes, analyse DCE et génération de réponses sur mesure.",
+      "capabilities": [
+        "ao_monitoring",
+        "dce_analysis",
+        "ai_response_generation",
+        "go_nogo",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://www.tengo.cc/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent IA réponse AO cité idée 0001 ; tarifs sur demande."
+    },
+    {
+      "id": "openmarches",
+      "name": "OpenMarchés",
+      "url": "https://www.data.gouv.fr/reuses/openmarches-visualisation-des-marches-it-publics",
+      "segments": [
+        "public-procurement-intel",
+        "territorial-analytics"
+      ],
+      "description": "Réutilisation open data DECP : analyse et visualisation de 479k+ marchés publics IT FR (2018-2026), attributaires, montants et concurrence.",
+      "capabilities": [
+        "decp",
+        "attribution_analytics",
+        "data_visualization",
+        "open_data",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://www.data.gouv.fr/reuses/openmarches-visualisation-des-marches-it-publics",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Analytics attribution (différent de decp.info) ; pipeline open source DuckDB/dbt/FastAPI."
+    },
+    {
+      "id": "doaken",
+      "name": "DOAKEN",
+      "url": "https://doaken.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Logiciel FR de réponse aux appels d'offres : analyse DCE, score Go/No-Go, chiffrage DPGF vs 367k+ marchés attribués, mémoire technique et veille BOAMP/TED.",
+      "capabilities": [
+        "dce_analysis",
+        "go_nogo",
+        "dpgf_pricing",
+        "memoire_technique",
+        "ao_monitoring",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://doaken.fr/solutions",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "pricing_notes": "Profils Essentiel/Croissance/Enterprise selon volume ; tarifs sur devis (consulté 2026-06-23).",
+      "notes": "Hébergement France ; couvre marchés publics et privés (détection Sitadel)."
+    },
+    {
+      "id": "olra",
+      "name": "Olra",
+      "url": "https://olra.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Plateforme IA marchés publics pour artisans/TPE/PME du bâtiment : veille BOAMP/JOUE/DECP, brief stratégique DCE, rédaction et audit de mémoire technique.",
+      "capabilities": [
+        "ao_monitoring",
+        "dce_analysis",
+        "memoire_technique",
+        "memoire_audit",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://olra.fr/fonctionnalites",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "pricing_notes": "Plan Essentiel et Plan Pro sur devis ; essai gratuit sans CB (consulté 2026-06-23).",
+      "notes": "Ciblage bâtiment TPE/PME ; chaîne veille→audit→rédaction sans bibliothèque préalable."
+    },
+    {
+      "id": "vecteur-plus",
+      "name": "Vecteur Plus",
+      "url": "https://vecteurplus.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille opportunités commerciales FR depuis ~30 ans : appels d'offres publics et projets privés, indexation 7 000+ thématiques métier, IA + qualification humaine.",
+      "capabilities": [
+        "ao_monitoring",
+        "private_projects",
+        "lead_qualification",
+        "email_alerts",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://www.vecteurplus.com/commande-publique/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "pricing_notes": "3 marchés offerts à l'inscription ; abonnement veille sur devis (consulté 2026-06-23).",
+      "notes": "Acteur historique veille AO + projets privés ; 12 000+ sources."
     }
   ]
 }

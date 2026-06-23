@@ -533,10 +533,11 @@
         "EU"
       ],
       "discovery_source": "open_source",
-      "discovery_pass": "2026-06-v5b-compliance-to-spec",
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
       "source_url": "https://www.probo.io/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — compliance open-source FR (revue 0029)."
     },
     {
       "id": "sixclicks",
@@ -770,10 +771,11 @@
         "US"
       ],
       "discovery_source": "analyst_report",
-      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
       "source_url": "https://www.regulativ.ai/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — site officiel (regulatory change → specs)."
     },
     {
       "id": "camunda",

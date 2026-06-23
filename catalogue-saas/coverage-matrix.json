@@ -544,13 +544,13 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 2,
-          "new_added": 1,
-          "pass": "2026-06-v6-pilot-compliance-procurement",
+          "candidates_found": 5,
+          "new_added": 0,
+          "pass": "2026-06-v6b-procurement-parsing-verify",
           "cumulative_new": 3
         }
       },
-      "last_pass": "2026-06-v6-pilot-compliance-procurement",
+      "last_pass": "2026-06-v6b-procurement-parsing-verify",
       "vendor_count_after_pass": 25
     },
     "pharma-regulatory": {
@@ -1300,12 +1300,12 @@
         "official_site": {
           "consulted_at": "2026-06-23",
           "candidates_found": 10,
-          "new_added": 1,
-          "pass": "2026-06-v5p-l3-regtech-kyc-idp",
+          "new_added": 0,
+          "pass": "2026-06-v6b-procurement-parsing-verify",
           "cumulative_new": 7
         }
       },
-      "last_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "last_pass": "2026-06-v6b-procurement-parsing-verify",
       "vendor_count_after_pass": 60
     },
     "parsing-inbox": {
@@ -1362,13 +1362,13 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 8,
-          "new_added": 1,
-          "pass": "2026-06-v5q-recordai-chain-l3",
+          "candidates_found": 10,
+          "new_added": 0,
+          "pass": "2026-06-v6b-procurement-parsing-verify",
           "cumulative_new": 7
         }
       },
-      "last_pass": "2026-06-v5q-recordai-chain-l3",
+      "last_pass": "2026-06-v6b-procurement-parsing-verify",
       "vendor_count_after_pass": 39
     },
     "e-signature": {
@@ -3656,21 +3656,21 @@
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 5,
-          "new_added": 0,
-          "pass": "2026-06-v6-pilot-compliance-procurement",
-          "cumulative_new": 6
+          "candidates_found": 6,
+          "new_added": 3,
+          "pass": "2026-06-v6b-procurement-parsing-verify",
+          "cumulative_new": 12
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 8,
-          "new_added": 4,
-          "pass": "2026-06-v6-pilot-compliance-procurement",
-          "cumulative_new": 13
+          "candidates_found": 7,
+          "new_added": 3,
+          "pass": "2026-06-v6b-procurement-parsing-verify",
+          "cumulative_new": 19
         }
       },
-      "last_pass": "2026-06-v6-pilot-compliance-procurement",
-      "vendor_count_after_pass": 24
+      "last_pass": "2026-06-v6b-procurement-parsing-verify",
+      "vendor_count_after_pass": 30
     },
     "territorial-analytics": {
       "target_level": "L2",

@@ -232,9 +232,9 @@
       "pricing_notes": "~$0.15/page cité dans comparatifs enterprise.",
       "target_market": "mid_market",
       "geography": "global",
-      "source_url": "https://www.documentdataextraction.com/compare",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.docsumo.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -242,7 +242,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "notes": "Promotion verified V6b — page tarifs officielle (remplace comparatif)."
     },
     {
       "id": "rossum",
@@ -260,8 +261,8 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://www.extend.ai/resources/best-document-parsing-software-for-developers",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://rossum.ai/pricing-plans/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
@@ -270,7 +271,9 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "pricing_notes": "Starter à partir de 18 000 $/an (publié) ; Business/Enterprise/Ultimate sur devis ; engagement minimum 1 an (consulté 2026-06-23).",
+      "notes": "Source mise à jour vers page tarifs officielle rossum.ai/pricing-plans (revue 0029)."
     },
     {
       "id": "snapparse",
@@ -682,10 +685,11 @@
         "US"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
-      "source_url": "https://www.klippa.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://www.klippa.com/en/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — page tarifs officielle."
     },
     {
       "id": "veryfi",
@@ -711,10 +715,11 @@
         "EU"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
-      "source_url": "https://www.veryfi.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://www.veryfi.com/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — page tarifs officielle."
     },
     {
       "id": "mindee",
@@ -740,10 +745,11 @@
         "US"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
-      "source_url": "https://www.mindee.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://www.mindee.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — éditeur FR, page tarifs officielle."
     },
     {
       "id": "ocrolus",
@@ -829,10 +835,11 @@
         "US"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5c-regtech-idp-ai-gov",
-      "source_url": "https://www.affinda.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "source_url": "https://www.affinda.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Promotion verified V6b — page tarifs officielle."
     },
     {
       "id": "konfuzio",
