@@ -70,7 +70,7 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 | [0026](idees/0026-exposition-parcelles-agricoles/) | Exposition risques parcelles agricoles (RPG × Géorisques × Hub'Eau) | 🔁 À retravailler | 56 | 2026-06-23 |
 | [0027](idees/0027-transparence-subventions-marches/) | Transparence subventions × marchés (DECP × SCDL × RNA) | ❌ Écartée | 51 | 2026-06-23 |
 | [0028](idees/0028-tensions-emploi-territoire/) | Tensions emploi par territoire (France Travail × SIRENE × FiLoSoFi) | 🔁 À retravailler | 58 | 2026-06-23 |
-| [0029](idees/0029-recordai/) | RecordAI — email/PDF → dossier structuré validé | 🔁 À retravailler | 66 | 2026-06-23 |
+| [0029](idees/0029-recordai/) | RecordAI — email/PDF → dossier structuré validé | 🔁 À retravailler | 67 | 2026-06-23 |
 
 ---
 
@@ -78,7 +78,7 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 
 - **29 idées** enregistrées, dont **24 analysées** avec scoring complet (0007
   reste à analyser).
-- **1 idée SaaS** (0029 RecordAI) analysée via le catalogue marché structuré — score **66/100** (🔁).
+- **1 idée SaaS** (0029 RecordAI) analysée via le catalogue marché structuré — score **67/100** (🔁) — benchmark KYC lite Ubble/Inscribe/Klippa confirmé (§13).
 - **8 idées enrichies** avec croisements et sources complémentaires vérifiées
   (0003, 0006, 0007, 0009, 0018, 0019, 0021, 0024) — voir
   [`docs/sources-complementaires.md`](docs/sources-complementaires.md).
@@ -93,7 +93,7 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
   des concurrents directs omis (Maître AO, Nextend.ai, marchespublics.ai) et un
   piège sémantique (`montant` DECP ≠ dépense réelle).
 - **À retravailler** : 0001 (66), 0002 (57), 0009 (60), 0011 (60), 0013 (59),
-  0003 (—), **0025 (64)**, **0026 (56)**, **0028 (58)**, **0029 (66)**.
+  0003 (—), **0025 (64)**, **0026 (56)**, **0028 (58)**, **0029 (67)**.
 - **Écartées** : 0004, 0005, 0006, 0008, 0010, 0012, 0014, 0015, 0016, 0017,
   0018, 0019, 0020, 0021, 0022, 0023, 0024, **0027 (51)** — conservées avec leur analyse.
 - **Encore à analyser** : 0007 (💡 capturée).
