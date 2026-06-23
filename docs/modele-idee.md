@@ -15,13 +15,15 @@ Voir docs/methode-analyse.md pour les règles.
 ---
 
 ## 1. Problème / douleur
-<!-- Quel problème réel ? Pour qui ? À quel point ça fait mal ? -->
+<!-- Quel problème réel ? Pour qui ? À quel point ça fait mal ? (section prioritaire) -->
 
 ## 2. Cible & qui paie
-<!-- Utilisateurs vs payeurs. Sont-ils les mêmes ? -->
+<!-- Utilisateurs vs payeurs. Sont-ils les mêmes ? Budget existant ? (section prioritaire) -->
 
 ## 3. Données sources
-<!-- Pour chaque source : URL, licence, format, fraîcheur, fiabilité, limites. -->
+<!-- Si data-driven : URL, licence, format, fraîcheur, limites pour chaque source.
+     Sinon : inputs primaires (documents, emails, APIs métier…) ou « N/A — produit process »
+     avec justification. -->
 
 | Source | URL | Licence | Format | Fraîcheur | Limites |
 |---|---|---|---|---|---|
@@ -50,7 +52,7 @@ Voir docs/methode-analyse.md pour les règles.
 |---|---|---|---|---|
 | C1 | Intensité du problème | 3 | | |
 | C2 | Cible solvable (qui paie) | 3 | | |
-| C3 | Disponibilité & fiabilité données | 3 | | |
+| C3 | Disponibilité & fiabilité données / inputs | 3 | | |
 | C4 | Espace concurrentiel libre | 2 | | |
 | C5 | Différenciation défendable | 2 | | |
 | C6 | Faisabilité & fiabilité technique | 2 | | |

@@ -8,7 +8,8 @@ SaaS concurrents / comparables, en cohérence avec les règles de preuve du dép
 
 ## 1. Objectif
 
-Construire une base **traçable et maintenable** pour :
+Alimenter le **pipeline de discovery produit** du dépôt (voir §0 de
+[`methode-analyse.md`](methode-analyse.md)) :
 
 - cartographier l'existant par segment (RegTech, IDP, GRC, agents IA…) ;
 - comparer modèles de pricing et positionnement ;

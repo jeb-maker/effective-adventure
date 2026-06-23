@@ -1,7 +1,11 @@
 # Prompts d'analyse des idées
 
-Prompts réutilisables pour traiter une idée de façon **reproductible**, en
-appliquant la méthode définie dans [`../methode-analyse.md`](../methode-analyse.md).
+Prompts réutilisables pour traiter une **hypothèse produit B2B/B2G** de façon
+**reproductible**, en appliquant la méthode définie dans
+[`../methode-analyse.md`](../methode-analyse.md).
+
+> **Objectif du dépôt** : filtrer avant de construire. Partir du payeur et de la
+> douleur, pas d'un dataset. Voir §0 de `methode-analyse.md`.
 
 > Principe : ces prompts **ne redéfinissent pas** le barème ni les règles. Ils
 > renvoient à `methode-analyse.md` et `modele-idee.md`, qui restent la **source
@@ -27,9 +31,11 @@ idée brute
    │
    ▼  02-analyse-rigoureuse  → fiche complète + scoring + verdict (statut 🔍→décision)
    │
-   ▼  03-revue-critique      → rapport de revue, score ajusté si besoin
+   ▼  03-revue-critique      → rapport de revue (OBLIGATOIRE), score ajusté si besoin
    │
    ▼  mise à jour du registre dans /README.md
+   │
+   ▼  si ✅ Go → statut 🚧 Prototype (sortie attendue)
 ```
 
 ## Règles communes à tous les prompts

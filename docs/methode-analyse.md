@@ -3,7 +3,35 @@
 Ce document définit **comment** on capture une idée puis comment on la soumet à
 une **analyse rigoureuse**. L'objectif est que toutes les idées soient évaluées
 avec la même grille, les mêmes règles de preuve et le même barème, afin de
-pouvoir les **comparer honnêtement**.
+pouvoir les **comparer honnêtement** et **décider si un prototype vaut le coup**.
+
+---
+
+## 0. Objectif du dépôt
+
+**Filtrer avant de construire.** Chaque idée est traitée comme une hypothèse
+produit (B2B/B2G) à valider ou invalider avec preuves — pas comme une occasion
+d'exploiter un dataset ouvert.
+
+**Ordre de raisonnement imposé :**
+
+1. **Douleur** — quel problème réel, pour qui, à quel coût ?
+2. **Payeur** — qui paie aujourd'hui pour le résoudre (ou devrait) ?
+3. **Existant** — qui sert déjà ce besoin (concurrents, services publics, bricolage) ?
+4. **Levier données** — *ensuite seulement* : quelles sources (ouvertes, propriétaires,
+   documents…) rendent la solution crédible et défendable ?
+
+Une idée capturée à partir d'un croisement de datasets sans payeur identifié est
+**incomplète** tant que les sections 1–2 ne sont pas solides.
+
+**Livrables du dépôt :**
+
+| Livrable | Rôle |
+|---|---|
+| Fiches `idees/` | Hypothèses produit analysées et scorées |
+| Revues `revue.md` | Passage adversarial obligatoire avant décision finale |
+| `catalogue-saas/` | Intelligence concurrentielle pour les sections « Existant » |
+| Statut 🚧 Prototype | Sortie attendue du pipeline — pas une collection d'idées |
 
 ---
 
@@ -34,9 +62,10 @@ L'analyse n'a de valeur que si elle est sourcée. Trois règles non négociables
    recevable.
 2. **Toute donnée chiffrée** (taille de marché, prix concurrent, volume de
    dataset) doit citer sa source.
-3. **Toute source de données** envisagée doit préciser : URL, licence,
-   format, fraîcheur/fréquence de mise à jour, et limites connues (trous de
-   couverture, qualité).
+3. **Toute source de données** (ou input externe : API, document, flux) envisagée
+   doit préciser : URL, licence, format, fraîcheur/fréquence de mise à jour, et
+   limites connues (trous de couverture, qualité). Si l'idée n'est pas
+   data-driven, le justifier explicitement en §3.
 
 ---
 
@@ -84,7 +113,7 @@ puis multiplié par son poids. Pour les critères « inversés » (risque, effor
 |---|---|---|---|---|
 | C1 | Intensité du problème | ×3 | gadget, besoin tiède | douleur forte, récurrente |
 | C2 | Cible solvable (qui paie) | ×3 | personne ne paie | payeurs identifiés, budget existant |
-| C3 | Disponibilité & fiabilité des données | ×3 | données absentes/sales | données prêtes, propres, traçables |
+| C3 | Disponibilité & fiabilité des données / inputs | ×3 | inputs absents ou fragiles | inputs prêts, propres, traçables |
 | C4 | Espace concurrentiel libre | ×2 | saturé | quasi vierge au niveau produit |
 | C5 | Différenciation défendable | ×2 | copiable en un week-end | avantage durable |
 | C6 | Faisabilité & fiabilité technique | ×2 | repose sur du RAG fragile | chiffres SQL/objectifs traçables |
@@ -115,13 +144,18 @@ score. Dans ce cas, le justifier explicitement dans le verdict.
 
 ## 6. Workflow pratique
 
-1. **Capturer** : copier `docs/modele-idee.md` vers
-   `idees/<id>-<slug>/README.md`, remplir au minimum les sections 1 à 3.
-   Statut = 💡 Capturée.
+1. **Capturer** : partir du **payeur + douleur**. Copier `docs/modele-idee.md`
+   vers `idees/<id>-<slug>/README.md`, remplir au minimum les sections 1 à 2
+   (section 3 si data/API au cœur du produit). Statut = 💡 Capturée.
 2. **Analyser** : compléter toutes les sections + le scoring. Statut = 🔍.
-3. **Décider** : appliquer les seuils §5, fixer le statut final.
-4. **Indexer** : ajouter/mettre à jour la ligne dans le registre du `README.md`
+3. **Revoir** : appliquer le prompt [`03-revue-critique.md`](prompts/03-revue-critique.md)
+   ; produire `revue.md` dans le dossier de l'idée. Ajuster score et verdict si
+   nécessaire. **Aucune décision finale sans cette étape.**
+4. **Décider** : appliquer les seuils §5, fixer le statut final.
+5. **Indexer** : ajouter/mettre à jour la ligne dans le registre du `README.md`
    racine (id, titre, statut, score, date).
+6. **Prototyper** (si ✅ Go) : statut 🚧 — c'est la sortie normale du pipeline,
+   pas une exception.
 
 > Convention d'`id` : numérotation à 4 chiffres (`0001`, `0002`, …) dans l'ordre
 > de capture. Le slug est en minuscules, mots séparés par des tirets.

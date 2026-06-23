@@ -1,8 +1,18 @@
-# Répertoire d'idées — données publiques (data.gouv.fr)
+# Discovery produit — validation rigoureuse avant prototype
 
-Ce dépôt collecte des **idées de produits/projets fondés sur les données
-ouvertes** (principalement data.gouv.fr) et les soumet à une **analyse
-rigoureuse et comparable**.
+Ce dépôt est un **registre d'idées produit B2B/B2G** soumises à une **analyse
+comparable, sourcée et adversariale**, pour décider quoi **construire**, quoi
+**retravailler** ou quoi **abandonner** — avant d'écrire du code.
+
+**Point de départ** : un **payeur** avec une **douleur chère et mal servie**, pas
+un jeu de données disponible. La donnée ouverte (data.gouv.fr, INSEE, APIs
+publiques…) n'est qu'un **levier possible** parmi d'autres (documents entrants,
+APIs tierces, données propriétaires).
+
+**Ce n'est pas** : un catalogue de datasets à exploiter, une base exhaustive du
+marché SaaS mondial, ni un produit livré. C'est une **phase 0 de discovery**
+documentée — avec pour objectif explicite de **sortir une ou deux idées en
+prototype**, pas d'en accumuler indéfiniment.
 
 ## Comment ça marche
 
@@ -22,10 +32,12 @@ rigoureuse et comparable**.
 
 ### Ajouter une idée
 
-1. Copier `docs/modele-idee.md` vers `idees/<id>-<slug>/README.md`.
-2. Remplir au minimum les sections 1 à 3 (statut 💡 Capturée).
-3. Quand on l'analyse : compléter toutes les sections + le scoring, fixer le
-   statut, puis mettre à jour le registre.
+1. Partir d'une **douleur + payeur** identifiés (pas d'un dataset repéré).
+2. Copier `docs/modele-idee.md` vers `idees/<id>-<slug>/README.md`.
+3. Remplir au minimum les sections 1 à 2 (statut 💡 Capturée) ; section 3 si des
+   données/APIs sont au cœur du produit.
+4. Analyser (sections complètes + scoring), **revue critique obligatoire** (prompt
+   03), fixer le statut, mettre à jour le registre.
 
 ### Statuts
 
@@ -76,6 +88,11 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
 
 ## État actuel
 
+> **Note historique** : les idées 0001–0028 ont été capturées sous l'ancien
+> objectif (« produit fondé sur données ouvertes »). Elles restent dans le
+> registre comme corpus de test de la méthode. Les **nouvelles idées** suivent
+> l'objectif révisé (payeur + douleur d'abord).
+
 - **29 idées** enregistrées, dont **24 analysées** avec scoring complet (0007
   reste à analyser).
 - **1 idée SaaS** (0029 RecordAI) analysée via le catalogue marché structuré — score **67/100** (🔁) — benchmark KYC lite Ubble/Inscribe/Klippa confirmé (§13).
@@ -110,13 +127,16 @@ retravailler**, **< 55 écartée**. Détail dans `docs/methode-analyse.md`.
    Rénove, udata-hydra…) ou saturées côté commercial.
 3. Même les idées B2B « donnée chiffrée traçable » ont déjà des concurrents :
    l'avantage doit venir d'une **niche/distribution**, pas de la donnée seule.
-4. **La donnée ouverte seule n'est pas un avantage compétitif** : elle est par
-   définition accessible à tous. Les 24 idées confirment que la valeur défendable
-   vient d'un **enrichissement propriétaire**, d'une **distribution captive**
-   (partenariat, canal) ou d'une **niche réglementaire pointue** — pas du dataset.
+4. **La donnée ouverte seule n'est pas un avantage compétitif** : c'est pourquoi
+   l'objectif du dépôt a été reformulé. La valeur défendable vient d'un
+   **enrichissement propriétaire**, d'une **distribution captive** (partenariat,
+   canal) ou d'une **niche réglementaire pointue** — pas du dataset.
 
-### Piste pour la suite
+### Règle de priorisation (post-discovery)
 
-Arrêter de chercher « quel dataset exploiter » (tous sont déjà exploités).
-Partir plutôt d'un **payeur précis avec une douleur chère et mal servie**, puis
-voir si une donnée ouverte y répond — l'inverse de la démarche menée jusqu'ici.
+1. **Ne plus ouvrir de nouvelles idées** tant qu'aucune des candidates « à
+   retravailler » n'a passé revue critique + seuil Go (≥ 70).
+2. **Appliquer le red-team** aux 10 idées 🔁 restantes (aujourd'hui seulement 6
+   ont un `revue.md`).
+3. **Prototyper une seule idée** qui franchit le seuil — ou fermer le registre
+   si aucune ne passe après revue.
