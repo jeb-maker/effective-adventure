@@ -318,6 +318,210 @@
       "source_url": "https://www.pingidentity.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "alsid",
+      "name": "Alsid (Trend Micro)",
+      "url": "https://www.trendmicro.com/en_us/business/products/identity/detection-and-response.html",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "Protection AD/identité FR ; détection compromission comptes privilégiés et attaques Kerberos/AD.",
+      "capabilities": [
+        "ad_security",
+        "identity_threat_detection",
+        "privileged_accounts",
+        "kerberos"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.trendmicro.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acquis Trend Micro — Defender for Identity / AD protection."
+    },
+    {
+      "id": "thales-ciphertrust",
+      "name": "Thales CipherTrust",
+      "url": "https://cpl.thalesgroup.com/encryption/data-security-platform",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "Plateforme sécurité données FR ; IAM secrets, chiffrement, tokenisation et accès privilégiés cloud.",
+      "capabilities": [
+        "secrets_management",
+        "encryption",
+        "tokenization",
+        "privileged_access"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://cpl.thalesgroup.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "evidian",
+      "name": "Evidian (Atos)",
+      "url": "https://evidian.com/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "IAM enterprise FR ; SSO, provisioning, gouvernance identités et conformité secteurs public/régulés.",
+      "capabilities": [
+        "sso",
+        "provisioning",
+        "identity_governance",
+        "public_sector"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://evidian.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "beyondtrust",
+      "name": "BeyondTrust",
+      "url": "https://www.beyondtrust.com/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "PAM et accès privilégiés ; vault secrets, session management et least privilege endpoint.",
+      "capabilities": [
+        "pam",
+        "secrets_vault",
+        "session_management",
+        "least_privilege"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.beyondtrust.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "saviynt",
+      "name": "Saviynt",
+      "url": "https://saviynt.com/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "IGA cloud-native ; gouvernance accès, certifications, provisioning SaaS/IaaS et SoD.",
+      "capabilities": [
+        "iga",
+        "access_governance",
+        "certification",
+        "sod"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://saviynt.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "onelogin",
+      "name": "OneLogin",
+      "url": "https://www.onelogin.com/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "IAM workforce ; SSO, MFA, directory et provisioning apps cloud pour PME/enterprise.",
+      "capabilities": [
+        "sso",
+        "mfa",
+        "directory",
+        "provisioning"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.onelogin.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "strongdm",
+      "name": "StrongDM",
+      "url": "https://www.strongdm.com/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "Infrastructure access platform ; PAM moderne, accès DB/K8s/servers avec audit session complet.",
+      "capabilities": [
+        "infrastructure_access",
+        "pam",
+        "session_audit",
+        "zero_trust"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.strongdm.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

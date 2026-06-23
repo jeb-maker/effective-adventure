@@ -319,6 +319,210 @@
       "source_url": "https://panoptica.app/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "zscaler",
+      "name": "Zscaler",
+      "url": "https://www.zscaler.com/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "SSE/ZTNA ; SWG, CASB, posture SaaS et accès zero-trust sans VPN pour workforce distribué.",
+      "capabilities": [
+        "sse",
+        "ztna",
+        "casb",
+        "swg"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.zscaler.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tailscale",
+      "name": "Tailscale",
+      "url": "https://tailscale.com/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "Mesh VPN zero-trust ; accès réseau WireGuard, ACLs identity-aware et posture devices.",
+      "capabilities": [
+        "zero_trust",
+        "mesh_vpn",
+        "wireguard",
+        "device_posture"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://tailscale.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "upwind",
+      "name": "Upwind",
+      "url": "https://www.upwind.io/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "CNAPP runtime-first ; posture cloud, détection menaces K8s/containers et prioritisation risques.",
+      "capabilities": [
+        "cnapp",
+        "cspm",
+        "runtime_detection",
+        "kubernetes"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.upwind.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "microsoft-defender-cloud",
+      "name": "Microsoft Defender for Cloud",
+      "url": "https://www.microsoft.com/en-us/security/business/cloud-security",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "CSPM/CWPP Azure/multi-cloud ; posture, recommandations CIS, CIEM et workload protection.",
+      "capabilities": [
+        "cspm",
+        "cwpp",
+        "ciem",
+        "multi_cloud"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.microsoft.com/en-us/security/business/cloud-security",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "google-security-command-center",
+      "name": "Google Security Command Center",
+      "url": "https://cloud.google.com/security-command-center",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "CSPM GCP ; détection menaces, vulnérabilités assets, compliance et SIEM intégration Chronicle.",
+      "capabilities": [
+        "cspm",
+        "threat_detection",
+        "asset_inventory",
+        "compliance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://cloud.google.com/security-command-center",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "stacklet",
+      "name": "Stacklet",
+      "url": "https://stacklet.io/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "Cloud governance ; policies-as-code multi-cloud, guardrails compliance et remédiation automatisée.",
+      "capabilities": [
+        "cloud_governance",
+        "policy_as_code",
+        "guardrails",
+        "remediation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://stacklet.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cloudflare-zero-trust",
+      "name": "Cloudflare Zero Trust",
+      "url": "https://www.cloudflare.com/zero-trust/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "SSE zero-trust ; ZTNA, CASB, SWG, DLP et posture accès applications SaaS/self-hosted.",
+      "capabilities": [
+        "ztna",
+        "sse",
+        "casb",
+        "dlp"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.cloudflare.com/zero-trust/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }
