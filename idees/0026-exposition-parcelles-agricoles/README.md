@@ -4,6 +4,11 @@
 - **Statut** : 🔁 À retravailler
 - **Score** : 56 / 100
 - **Dernière mise à jour** : 2026-06-23
+- **Révision critique** : voir [`revue.md`](revue.md) — score **confirmé à 56**
+  (inchangé) après audit adversarial. Diagnostic durci : la cible « chambres
+  d'agriculture » est un **faux payeur** (elles éditent déjà **MesParcelles**), et
+  le croisement RPG × couches réglementaires est **déjà gratuit** (cartes
+  environnementales DDT). À écarter si la willingness-to-pay n'est pas prouvée.
 - **Pitch (1 phrase)** : Cartographier l'exposition des parcelles agricoles aux
   risques industriels (ICPE), hydriques et réglementaires (PLU) en croisant le
   Registre parcellaire graphique, Géorisques et Hub'Eau — pour agriculteurs,
