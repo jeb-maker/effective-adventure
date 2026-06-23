@@ -1,9 +1,16 @@
 # Copilote d'études territoriales (RAG sur données publiques)
 
 - **ID** : 0003
-- **Statut** : 🔁 À retravailler
-- **Score** : — / 100 (analyse partielle)
-- **Dernière mise à jour** : 2026-06-21
+- **Statut** : ❌ Écartée (produit généraliste)
+- **Score** : 46 / 100
+- **Dernière mise à jour** : 2026-06-23
+- **Révision critique** : voir [`revue.md`](revue.md) — score posé à **46/100**
+  et statut passé de 🔁 à **❌ Écartée** après audit adversarial (concurrent grand
+  public direct **Urbaa.app** omis, briques OSS **h-genai** / **france-data-mcp**,
+  outillage public **OFGL** et **POC Albert** ; le créneau « brancher un LLM sur
+  data.gouv » est tenu par l'acteur officiel ; aucun payeur identifié — §2 absente).
+  La valeur résiduelle (couche de fiabilité transverse au-dessus d'un vertical
+  comme 0001) n'est **pas un produit à prototyper seul**.
 - **Pitch (1 phrase)** : Un assistant qui transforme les données publiques en
   rapports fiables et cités sur un territoire (comparer des communes, expliquer
   des finances locales, etc.).
@@ -123,9 +130,39 @@ Piège majeur : **mélanger RAG et chiffres**. data.gouv.fr le dit pour son prop
 MCP : réponses « approximatives ou erronées », « en aucun cas une source
 officielle ». Impose RAG(sens)/SQL(chiffres) strict.
 
+## 10. Scoring
+
+> Tableau posé par la revue critique (la fiche n'en avait pas). Notes adversariales.
+
+| # | Critère | Poids | Note (1-5) | Pondéré | Justification (1 phrase) |
+|---|---|---|---|---|---|
+| C1 | Intensité du problème | 3 | 3 | 9 | Douleur réelle mais diffuse et déjà asséchée par le MCP officiel + Urbaa. |
+| C2 | Cible solvable (qui paie) | 3 | 2 | 6 | Aucun payeur identifié (§2 absente) ; alternatives gratuites (MCP, Urbaa). |
+| C3 | Disponibilité & fiabilité données | 3 | 3 | 9 | Inputs prêts (MCP, Melodi, OFGL) mais fiabilité généraliste fragile. |
+| C4 | Espace concurrentiel libre | 2 | 1 | 2 | Occupé par l'acteur officiel + Urbaa.app + OSS (h-genai, france-data-mcp). |
+| C5 | Différenciation défendable | 2 | 2 | 4 | « Fiabilité vérifiable » non prouvée, copiable, déjà visée par l'État. |
+| C6 | Faisabilité & fiabilité technique | 2 | 3 | 6 | RAG/SQL en intention OK, mais inapplicable en généraliste sans verticaux. |
+| C7 | Facilité du MVP | 2 | 2 | 4 | Périmètre « tout data.gouv » trop large ; la fiche admet « vertical first ». |
+| C8 | Maîtrise des risques | 2 | 2 | 4 | Risque concurrentiel (acteur officiel) + fiabilité non maîtrisés. |
+| C9 | Monétisation / impact | 2 | 2 | 4 | Pas de revenu (gratuit public) ; impact déjà porté par data.gouv/Albert. |
+| | **Total** | | | **48 / 105** | |
+
+**Score /100** : 48 / 105 × 100 = **46**
+
 ## 11. Verdict & décision
-🔁 **À retravailler.** Bonne **vision**, mauvais **point de départ** : trop large,
-et l'acteur officiel occupe déjà le terrain « brancher un LLM sur data.gouv.fr ».
-La valeur n'est pas la connexion (déjà faite) mais la **fiabilité vérifiable**.
-À reprendre comme couche transverse au-dessus d'un vertical (ex. 0001), pas comme
-produit généraliste de premier MVP.
+❌ **Écartée** (produit généraliste) — décision **issue de la revue critique**
+(score recalculé 46/100, < 55).
+
+Bonne **vision**, mauvais **point de départ** : trop large, et l'acteur officiel
+occupe déjà le terrain « brancher un LLM sur data.gouv.fr » (MCP officiel public
+sans clé, POC Albert). Surtout, un **concurrent grand public direct** existe —
+**Urbaa.app** (35 000 communes analysées par IA, comparaison de territoires,
+finances locales, 29 sources open data, consulté 2026-06-23) — et le « copilote
+finances locales » est déjà disponible en **open source** (h-genai) comme dans
+l'**outillage public** (OFGL). La valeur n'est pas la connexion (déjà faite) ni
+même un produit horizontal : c'est, au mieux, une **couche transverse de
+fiabilité** au-dessus d'un vertical (ex. 0001). Tant qu'aucun **payeur précis**
+ni **différenciateur prouvé** face à Urbaa/MCP n'est démontré, ne pas prototyper.
+
+**Prochaine étape** : si l'angle revient, le traiter comme module de fiabilité de
+0001 (et non comme idée généraliste autonome), avec payeur B2B/B2G identifié.
