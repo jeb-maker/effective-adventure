@@ -475,10 +475,11 @@
         "EU"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5u-fill-last4",
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
       "source_url": "https://www.appfolio.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "buildium",
@@ -592,6 +593,37 @@
       "source_url": "https://hektor.fr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "hellio-copropriete",
+      "name": "Hellio Copropriété",
+      "url": "https://copropriete.hellio.com/",
+      "segments": [
+        "real-estate-proptech",
+        "energy-buildings-fr"
+      ],
+      "description": "CoproSolutions Hellio : suivi PPT, DPE collectif et pilotage travaux rénovation copropriétés.",
+      "capabilities": [
+        "copropriete",
+        "ppt",
+        "dpe_collectif",
+        "renovation",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-discover-validated-retravaille",
+      "source_url": "https://copropriete.hellio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Concurrent CoproSolutions cité idée 0025 (consulté 2026-06-23)."
     }
   ]
 }

@@ -1,0 +1,252 @@
+{
+  "pass_id": "2026-06-discover-validated-retravaille",
+  "date": "2026-06-23",
+  "description": "Candidats validés après discover run — services publics nationaux + concurrents revues 0025/0029",
+  "additions": {
+    "territorial-analytics.json": [
+      {
+        "id": "aides-territoires",
+        "name": "Aides Territoires",
+        "url": "https://aides-territoires.beta.gouv.fr/",
+        "segments": ["territorial-analytics", "civic-tech-fr"],
+        "description": "Moteur de recherche de ~3000 aides publiques par territoire ; API ouverte beta.gouv.fr.",
+        "capabilities": ["subventions", "aides_publiques", "territory", "open_data", "api", "france"],
+        "pricing_model": "freemium",
+        "target_market": "mid_market",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-discover-validated-retravaille",
+        "source_url": "https://aides-territoires.beta.gouv.fr/api/doc",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "verified",
+        "notes": "Découvert auto data.gouv ; adjacent idée 0010 (consulté 2026-06-23)."
+      },
+      {
+        "id": "territoires-fertiles",
+        "name": "Territoires Fertiles",
+        "url": "https://territoiresfertiles.fr/",
+        "segments": ["territorial-analytics", "environmental-data-fr"],
+        "description": "API et cartographie : indicateurs de résilience alimentaire des territoires (France hexagonale).",
+        "capabilities": ["food_resilience", "territorial_analytics", "open_data", "api", "france"],
+        "pricing_model": "freemium",
+        "target_market": "mid_market",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-discover-validated-retravaille",
+        "source_url": "https://territoiresfertiles.fr/methodologie",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (consulté 2026-06-23)."
+      },
+      {
+        "id": "agence-ore-consommation-commune",
+        "name": "Agence ORE — consommation énergie par commune",
+        "url": "https://opendata.agenceore.fr/",
+        "segments": ["territorial-analytics", "energy-buildings-fr"],
+        "description": "Open data consommation électricité/gaz par commune, secteur NAF et catégorie (2011–2024).",
+        "capabilities": ["energy_consumption", "commune", "open_data", "territorial_analytics", "france"],
+        "pricing_model": "freemium",
+        "target_market": "mid_market",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-discover-validated-retravaille",
+        "source_url": "https://opendata.agenceore.fr/data-fair/api/v1/datasets/consommation-annuelle-d-electricite-et-gaz-par-commune/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "verified",
+        "notes": "Jeu national Agence ORE ; découvert auto data.gouv (consulté 2026-06-23)."
+      }
+    ],
+    "energy-buildings-fr.json": [
+      {
+        "id": "api-dpe-logements-ademe",
+        "name": "API DPE logements (ADEME)",
+        "url": "https://data.ademe.fr/datasets/dpe-france",
+        "segments": ["energy-buildings-fr"],
+        "description": "API open data ADEME : diagnostics de performance énergétique logements et bâtiments France.",
+        "capabilities": ["dpe", "energy_performance", "open_data", "api", "france"],
+        "pricing_model": "freemium",
+        "target_market": "mid_market",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-discover-validated-retravaille",
+        "source_url": "https://data.ademe.fr/data-fair/api/v1/datasets/dpe-france",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "verified",
+        "notes": "Concurrent public idée 0009 ; complète ademe-data (consulté 2026-06-23)."
+      },
+      {
+        "id": "observatoire-dpe-passoires-ademe",
+        "name": "Observatoire DPE — passoires énergétiques (ADEME)",
+        "url": "https://observatoire-dpe-audit.ademe.fr/donnees-dpe-publiques",
+        "segments": ["energy-buildings-fr", "real-estate-proptech"],
+        "description": "Données publiques DPE pour cartographier et qualifier les logements classés E/F/G.",
+        "capabilities": ["dpe", "passoires_thermiques", "cartography", "open_data", "france"],
+        "pricing_model": "freemium",
+        "target_market": "mid_market",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-discover-validated-retravaille",
+        "source_url": "https://observatoire-dpe-audit.ademe.fr/donnees-dpe-publiques",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "verified",
+        "notes": "Réutilisation publique idée 0009 (consulté 2026-06-23)."
+      },
+      {
+        "id": "api-imope-urbs",
+        "name": "API IMOPE (Urbs)",
+        "url": "https://app.urbs.fr/",
+        "segments": ["energy-buildings-fr", "real-estate-proptech"],
+        "description": "Observatoire national des bâtiments : 400+ attributs (DPE, énergie, risques, foncier) par adresse FR.",
+        "capabilities": ["building_attributes", "dpe", "energy", "risk", "api", "france"],
+        "pricing_model": "hybrid",
+        "target_market": "mid_market",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-discover-validated-retravaille",
+        "source_url": "https://app.urbs.fr/resources/api-doc/swagger/attributes/jannatmin",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv ; pricing sur devis (consulté 2026-06-23)."
+      }
+    ],
+    "open-data-governance-fr.json": [
+      {
+        "id": "api-sirene-insee",
+        "name": "API Sirene (INSEE)",
+        "url": "https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f",
+        "segments": ["open-data-governance-fr", "data-enrichment-b2b"],
+        "description": "API officielle répertoire Sirene : unités légales et établissements depuis 1973.",
+        "capabilities": ["sirene", "companies", "open_data", "api", "france"],
+        "pricing_model": "freemium",
+        "target_market": "mid_market",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-discover-validated-retravaille",
+        "source_url": "https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "verified",
+        "notes": "Découvert auto data.gouv ; référentiel entreprises FR (consulté 2026-06-23)."
+      }
+    ],
+    "parsing-inbox.json": [
+      {
+        "id": "limnos",
+        "name": "Limnos",
+        "url": "https://limnos.app/",
+        "segments": ["parsing-inbox", "document-idp", "automation-platforms"],
+        "description": "Agent IA ADV : extraction commandes B2B email/PDF/Excel, validation métier, intégration ERP.",
+        "capabilities": ["email_parsing", "order_extraction", "erp_integration", "b2b", "france"],
+        "pricing_model": "enterprise_quote",
+        "target_market": "mid_market",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR", "EU"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-discover-validated-retravaille",
+        "source_url": "https://limnos.app/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "verified",
+        "notes": "Concurrent cité revue idée 0029 — flux email entrant (consulté 2026-06-23)."
+      },
+      {
+        "id": "orderscan",
+        "name": "OrderScan",
+        "url": "https://www.orderscan.ai/",
+        "segments": ["parsing-inbox", "document-idp"],
+        "description": "Automatisation saisie commandes et documents entrants pour PME/ETI françaises.",
+        "capabilities": ["order_scanning", "document_extraction", "email", "france"],
+        "pricing_model": "hybrid",
+        "target_market": "smb",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-discover-validated-retravaille",
+        "source_url": "https://www.orderscan.ai/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "verified",
+        "notes": "Concurrent cité revue idée 0029 (consulté 2026-06-23)."
+      }
+    ],
+    "real-estate-proptech.json": [
+      {
+        "id": "hellio-copropriete",
+        "name": "Hellio Copropriété",
+        "url": "https://copropriete.hellio.com/",
+        "segments": ["real-estate-proptech", "energy-buildings-fr"],
+        "description": "CoproSolutions Hellio : suivi PPT, DPE collectif et pilotage travaux rénovation copropriétés.",
+        "capabilities": ["copropriete", "ppt", "dpe_collectif", "renovation", "france"],
+        "pricing_model": "hybrid",
+        "target_market": "mid_market",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-discover-validated-retravaille",
+        "source_url": "https://copropriete.hellio.com/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "verified",
+        "notes": "Concurrent CoproSolutions cité idée 0025 (consulté 2026-06-23)."
+      }
+    ]
+  },
+  "verify_updates": {
+    "france-travail-emploi-territoire": {
+      "verification_status": "verified",
+      "source_url": "https://francetravail.io/produits-partages/catalogue/informations-territoire",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-discover-validated-retravaille",
+      "pricing_notes": "API Informations emploi territoire ; complète le portail stats (consulté 2026-06-23)."
+    }
+  },
+  "coverage_updates": {
+    "territorial-analytics": {
+      "official_site": {
+        "consulted_at": "2026-06-23",
+        "candidates_found": 3,
+        "new_added": 3,
+        "pass": "2026-06-discover-validated-retravaille"
+      }
+    },
+    "energy-buildings-fr": {
+      "official_site": {
+        "consulted_at": "2026-06-23",
+        "candidates_found": 3,
+        "new_added": 3,
+        "pass": "2026-06-discover-validated-retravaille"
+      }
+    },
+    "open-data-governance-fr": {
+      "official_site": {
+        "consulted_at": "2026-06-23",
+        "candidates_found": 1,
+        "new_added": 1,
+        "pass": "2026-06-discover-validated-retravaille"
+      }
+    }
+  }
+}

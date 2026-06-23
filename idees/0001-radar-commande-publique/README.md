@@ -95,27 +95,27 @@ OpenMarchés.
 
 #### Segment `public-procurement-intel` — Intelligence marchés publics
 
-Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalogue-saas/vendors/public-procurement-intel.json) (20 entrées)
+Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalogue-saas/vendors/public-procurement-intel.json) (42 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
-| `marchespublics-ai` | marchespublics.ai | FR | strong | partial |
-| `maitre-ao` | Maître AO | FR | strong | partial |
+| `marchespublics-ai` | marchespublics.ai | FR | strong | verified |
+| `maitre-ao` | Maître AO | FR | strong | verified |
 | `aws-boamp` | BOAMP (open data) | FR | strong | verified |
-| `achatpublic` | PLACE (achatpublic.com) | FR | strong | partial |
+| `achatpublic` | PLACE (achatpublic.com) | FR | strong | verified |
 | `tussell` | Tussell | GB | absent | partial |
 | `spend-network` | Spend Network | GB | absent | partial |
 | `govwin-deltek` | GovWin (Deltek) | US | absent | partial |
 | `open-contracting-partnership` | Open Contracting Partnership | GB | unknown | partial |
-| `decp-info` | decp.info | FR | strong | partial |
+| `decp-info` | decp.info | FR | strong | verified |
 | `data-economie-gouv` | data.economie.gouv.fr | FR | strong | partial |
 | `openbar` | OpenBar (Regards Citoyens) | FR | strong | partial |
-| `nextend-ai` | Nextend.ai | FR | strong | partial |
-| … | _+8 autres_ | | | |
+| `nextend-ai` | Nextend.ai | FR | strong | verified |
+| … | _+30 autres_ | | | |
 
 #### Segment `territorial-analytics` — Analytics territoriales
 
-Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (18 entrées)
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (26 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -127,11 +127,11 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 | `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
 | `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
 | `carto-territorial` | CARTO | ES | partial | partial |
-| `smappen` | Smappen | FR | strong | partial |
-| `geomarket` | Geomarket | FR | strong | partial |
+| `smappen` | Smappen | FR | strong | verified |
+| `geomarket` | Geomarket | FR | strong | verified |
 | `data-b` | Data-B | FR | strong | partial |
-| `vigicite` | VigiCité | FR | strong | partial |
-| … | _+6 autres_ | | | |
+| `vigicite` | VigiCité | FR | strong | verified |
+| … | _+14 autres_ | | | |
 
 Commandes :
 ```bash

@@ -122,13 +122,13 @@ Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/k
 | `jumio` | Jumio | US | partial | partial |
 | `complyadvantage` | ComplyAdvantage | US | partial | partial |
 | `seon` | SEON | US | partial | partial |
-| `ubble` | Ubble | FR | strong | partial |
+| `ubble` | Ubble | FR | strong | verified |
 | `veriff` | Veriff | EE | partial | partial |
 | `idnow` | IDnow | DE | partial | partial |
 | `persona` | Persona | US | partial | partial |
 | `trulioo` | Trulioo | CA | partial | partial |
-| `alloy` | Alloy | US | partial | partial |
-| `dotfile` | Dotfile | FR | strong | partial |
+| `alloy` | Alloy | US | partial | verified |
+| `dotfile` | Dotfile | FR | strong | verified |
 | … | _+13 autres_ | | | |
 
 #### Segment `data-enrichment-b2b` — Enrichissement données B2B
@@ -148,7 +148,7 @@ Fichier : [`catalogue-saas/vendors/data-enrichment-b2b.json`](../../catalogue-sa
 | `rocketreach` | RocketReach | US | partial | partial |
 | `leadfeeder` | Leadfeeder (Dealfront) | FI | partial | partial |
 | `dealfront` | Dealfront | FI | partial | partial |
-| `kaspr` | Kaspr | FR | strong | partial |
+| `kaspr` | Kaspr | FR | strong | verified |
 | … | _+7 autres_ | | | |
 
 Commandes :

@@ -80,7 +80,7 @@ concurrent des équipes data internes.
 
 #### Segment `open-data-governance-fr` — Gouvernance open data FR
 
-Fichier : [`catalogue-saas/vendors/open-data-governance-fr.json`](../../catalogue-saas/vendors/open-data-governance-fr.json) (18 entrées)
+Fichier : [`catalogue-saas/vendors/open-data-governance-fr.json`](../../catalogue-saas/vendors/open-data-governance-fr.json) (22 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -94,9 +94,9 @@ Fichier : [`catalogue-saas/vendors/open-data-governance-fr.json`](../../catalogu
 | `arcgis-hub` | ArcGIS Hub | US | partial | partial |
 | `data-gov-us` | Data.gov (US) | US | absent | partial |
 | `huwise` | Huwise (ex-Opendatasoft) | FR | strong | partial |
-| `validata` | Validata | FR | strong | partial |
+| `validata` | Validata | FR | strong | verified |
 | `opendatafrance` | OpenDataFrance — Observatoire | FR | strong | partial |
-| … | _+6 autres_ | | | |
+| … | _+10 autres_ | | | |
 
 #### Segment `data-observability` — Data observability
 
@@ -107,8 +107,8 @@ Fichier : [`catalogue-saas/vendors/data-observability.json`](../../catalogue-saa
 | `monte-carlo` | Monte Carlo | US | partial | partial |
 | `great-expectations` | Great Expectations | unknown | unknown | partial |
 | `soda` | Soda | US | partial | partial |
-| `acceldata` | Acceldata | US | partial | partial |
-| `anomalo` | Anomalo | US | partial | partial |
+| `acceldata` | Acceldata | US | partial | verified |
+| `anomalo` | Anomalo | US | partial | verified |
 | `bigeye` | Bigeye | US | partial | partial |
 | `elementary-data` | Elementary | IL | partial | partial |
 | `sifflet` | Sifflet | FR | strong | partial |

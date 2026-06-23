@@ -103,8 +103,8 @@
       "target_market": "enterprise",
       "geography": "global",
       "source_url": "https://www.acceldata.io/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -112,7 +112,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "anomalo",
@@ -131,8 +132,8 @@
       "target_market": "mid_market",
       "geography": "global",
       "source_url": "https://www.anomalo.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -140,7 +141,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "bigeye",

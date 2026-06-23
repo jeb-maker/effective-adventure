@@ -134,20 +134,39 @@ def api_get(path: str, params: dict) -> dict:
         raise RuntimeError(f"API data.gouv {path} → HTTP {exc.code}") from exc
 
 
+def dataservice_urls(item: dict) -> tuple[str, str]:
+    """Retourne (url produit, url source) pour un dataservice data.gouv."""
+    doc = item.get("business_documentation_url") or ""
+    api = item.get("base_api_url") or ""
+    page = item.get("page") or ""
+    if page and not page.startswith("http"):
+        page = f"https://www.data.gouv.fr{page}"
+    product = doc or page or api
+    source = doc or api or page
+    if not product and item.get("id"):
+        product = f"https://www.data.gouv.fr/dataservices/{item['id']}/"
+        source = product
+    return product, source
+
+
 def search_data_gouv(kind: str, query: str, *, page_size: int = 15) -> list[dict]:
     payload = api_get(f"{kind}/", {"q": query, "page_size": page_size})
     results: list[dict] = []
     for item in payload.get("data", []):
-        page = item.get("page") or ""
         if kind == "reuses":
+            page = item.get("page") or ""
             url = page if page.startswith("http") else f"https://www.data.gouv.fr{page}"
+            source = url
         else:
-            url = page or item.get("link") or ""
+            url, source = dataservice_urls(item)
+        if not url:
+            continue
         results.append(
             {
                 "kind": kind,
                 "title": item.get("title") or "(sans titre)",
                 "url": url,
+                "source_url": source,
                 "description": (item.get("description") or "")[:280],
                 "query": query,
             }
@@ -321,7 +340,8 @@ def scan_segment(
 def candidate_to_vendor(item: dict, segment_id: str, pass_id: str) -> dict:
     vid = slugify(item["title"])
     today = date.today().isoformat()
-    src_type = "official_site" if item["kind"] == "reuses" else "official_site"
+    src_type = "official_site"
+    source = item.get("source_url") or item["url"]
     return {
         "id": vid,
         "name": item["title"],
@@ -329,7 +349,7 @@ def candidate_to_vendor(item: dict, segment_id: str, pass_id: str) -> dict:
         "segments": [segment_id],
         "description": item["description"] or f"Entrée découverte {item['kind']} data.gouv.",
         "capabilities": ["france", "open_data"],
-        "pricing_model": "freemium",
+        "pricing_model": "freemium" if item["kind"] == "reuses" else "open_source",
         "target_market": "self_serve",
         "geography": "france",
         "hq_country": "FR",
@@ -337,7 +357,7 @@ def candidate_to_vendor(item: dict, segment_id: str, pass_id: str) -> dict:
         "operating_regions": ["FR"],
         "discovery_source": src_type,
         "discovery_pass": pass_id,
-        "source_url": item["url"],
+        "source_url": source,
         "source_consulted_at": today,
         "verification_status": "partial",
         "notes": f"Découvert auto data.gouv ({item['query']}) — À VALIDER avant merge.",

@@ -157,43 +157,43 @@ un SaaS horizontal « croiser Sitadel + DVF + PLU + friches + PM ».
 
 #### Segment `real-estate-proptech` — Immobilier & proptech
 
-Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-saas/vendors/real-estate-proptech.json) (20 entrées)
+Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-saas/vendors/real-estate-proptech.json) (21 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
 | `costar` | CoStar | US | partial | partial |
 | `yardi` | Yardi | US | partial | partial |
 | `procore` | Procore | US | partial | partial |
-| `matera` | Matera | FR | strong | partial |
+| `matera` | Matera | FR | strong | verified |
 | `pricehubble` | PriceHubble | CH | partial | partial |
-| `scanreno` | ScanReno | FR | strong | partial |
+| `scanreno` | ScanReno | FR | strong | verified |
 | `powimo` | Powimo | FR | strong | partial |
 | `egide-copro` | EGIDE Copro | FR | strong | partial |
-| `copro-solutions` | CoproSolutions | FR | strong | partial |
+| `copro-solutions` | CoproSolutions | FR | strong | verified |
 | `bdnb` | BDNB (CSTB) | FR | strong | partial |
 | `kel-foncier` | Kel Foncier | FR | strong | partial |
 | `deepki` | Deepki | FR | strong | partial |
-| … | _+8 autres_ | | | |
+| … | _+9 autres_ | | | |
 
 #### Segment `geospatial-gis-fr` — Géospatial & carto FR
 
-Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas/vendors/geospatial-gis-fr.json) (21 entrées)
+Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas/vendors/geospatial-gis-fr.json) (22 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
-| `geofoncier` | Géofoncier | FR | strong | partial |
-| `alkante` | Alkante | FR | strong | partial |
-| `ign-geoservices` | IGN Géoservices | FR | strong | partial |
+| `geofoncier` | Géofoncier | FR | strong | verified |
+| `alkante` | Alkante | FR | strong | verified |
+| `ign-geoservices` | IGN Géoservices | FR | strong | verified |
 | `cartelie` | Cartélie (IGN) | FR | strong | partial |
 | `opendatasoft-geo` | Opendatasoft | FR | strong | partial |
 | `ordnance-survey` | Ordnance Survey | GB | absent | partial |
 | `esri-arcgis` | Esri ArcGIS | US | partial | partial |
 | `mapbox` | Mapbox | US | partial | partial |
 | `here-technologies` | HERE Technologies | NL | partial | partial |
-| `geoperso` | GÉOPERSO | FR | strong | partial |
-| `makina-corpus` | Makina Corpus | FR | strong | partial |
+| `geoperso` | GÉOPERSO | FR | strong | verified |
+| `makina-corpus` | Makina Corpus | FR | strong | verified |
 | `geoportail-urbanisme` | Géoportail de l'urbanisme (GPU) | FR | strong | partial |
-| … | _+9 autres_ | | | |
+| … | _+10 autres_ | | | |
 
 Commandes :
 ```bash

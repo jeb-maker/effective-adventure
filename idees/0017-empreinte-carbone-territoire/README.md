@@ -161,11 +161,11 @@ Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
-| `atmo-france` | Atmo France | FR | strong | partial |
-| `hub-eau` | Hub'Eau | FR | strong | partial |
+| `atmo-france` | Atmo France | FR | strong | verified |
+| `hub-eau` | Hub'Eau | FR | strong | verified |
 | `inpn` | INPN (OFB) | FR | strong | partial |
 | `brgm-infoterre` | BRGM InfoTerre | FR | strong | partial |
-| `georisques-api` | Géorisques | FR | strong | partial |
+| `georisques-api` | Géorisques | FR | strong | verified |
 | `uk-environment-agency` | UK Environment Agency — Open Data | GB | absent | partial |
 | `eea-europe` | European Environment Agency | EU | partial | partial |
 | `copernicus-land` | Copernicus Land Monitoring | EU | partial | partial |
@@ -177,23 +177,23 @@ Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-
 
 #### Segment `energy-buildings-fr` — Bâtiments & énergie FR
 
-Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-saas/vendors/energy-buildings-fr.json) (18 entrées)
+Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-saas/vendors/energy-buildings-fr.json) (22 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
-| `openmeti` | OpenMéti | FR | strong | partial |
-| `ademe-data` | ADEME — data services | FR | strong | partial |
-| `effy-pro` | Effy Pro | FR | strong | partial |
+| `openmeti` | OpenMéti | FR | strong | verified |
+| `ademe-data` | ADEME — data services | FR | strong | verified |
+| `effy-pro` | Effy Pro | FR | strong | verified |
 | `hub-anah` | Anah — Hub rénovation | FR | strong | partial |
-| `heero` | Heero | FR | strong | partial |
+| `heero` | Heero | FR | strong | verified |
 | `uk-epc-register` | UK EPC Register | GB | absent | partial |
 | `building-performance-database` | Building Performance Database (US DOE) | US | absent | partial |
 | `dena-gebaeudedaten` | dena — Gebäudedaten (DE) | DE | unknown | partial |
 | `gridx-energy` | gridX | DE | partial | partial |
-| `hellowatt` | Hello Watt | FR | strong | partial |
-| `enoptea` | Enoptea | FR | strong | partial |
-| `cantine-energetique` | Cantine Énergétique | FR | strong | partial |
-| … | _+6 autres_ | | | |
+| `hellowatt` | Hello Watt | FR | strong | verified |
+| `enoptea` | Enoptea | FR | strong | verified |
+| `cantine-energetique` | Cantine Énergétique | FR | strong | verified |
+| … | _+10 autres_ | | | |
 
 Commandes :
 ```bash

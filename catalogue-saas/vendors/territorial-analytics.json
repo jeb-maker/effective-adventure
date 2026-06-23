@@ -498,11 +498,12 @@
         "EU"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
-      "source_url": "https://www.francetravail.org/statistiques-analyses/",
+      "discovery_pass": "2026-06-discover-validated-retravaille",
+      "source_url": "https://francetravail.io/produits-partages/catalogue/informations-territoire",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Source citée idée 0028."
+      "verification_status": "verified",
+      "notes": "Source citée idée 0028.",
+      "pricing_notes": "API Informations emploi territoire ; complète le portail stats (consulté 2026-06-23)."
     },
     {
       "id": "dares-emploi",
@@ -687,6 +688,100 @@
       "verification_status": "verified",
       "notes": "Adjacent idées 0027/0018 ; gratuit (consulté 2026-06-23).",
       "pricing_notes": "Observatoire subventions/marchés ; méthodologie publique (consulté 2026-06-23)."
+    },
+    {
+      "id": "aides-territoires",
+      "name": "Aides Territoires",
+      "url": "https://aides-territoires.beta.gouv.fr/",
+      "segments": [
+        "territorial-analytics",
+        "civic-tech-fr"
+      ],
+      "description": "Moteur de recherche de ~3000 aides publiques par territoire ; API ouverte beta.gouv.fr.",
+      "capabilities": [
+        "subventions",
+        "aides_publiques",
+        "territory",
+        "open_data",
+        "api",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-discover-validated-retravaille",
+      "source_url": "https://aides-territoires.beta.gouv.fr/api/doc",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Découvert auto data.gouv ; adjacent idée 0010 (consulté 2026-06-23)."
+    },
+    {
+      "id": "territoires-fertiles",
+      "name": "Territoires Fertiles",
+      "url": "https://territoiresfertiles.fr/",
+      "segments": [
+        "territorial-analytics",
+        "environmental-data-fr"
+      ],
+      "description": "API et cartographie : indicateurs de résilience alimentaire des territoires (France hexagonale).",
+      "capabilities": [
+        "food_resilience",
+        "territorial_analytics",
+        "open_data",
+        "api",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-discover-validated-retravaille",
+      "source_url": "https://territoiresfertiles.fr/methodologie",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Découvert auto data.gouv (consulté 2026-06-23)."
+    },
+    {
+      "id": "agence-ore-consommation-commune",
+      "name": "Agence ORE — consommation énergie par commune",
+      "url": "https://opendata.agenceore.fr/",
+      "segments": [
+        "territorial-analytics",
+        "energy-buildings-fr"
+      ],
+      "description": "Open data consommation électricité/gaz par commune, secteur NAF et catégorie (2011–2024).",
+      "capabilities": [
+        "energy_consumption",
+        "commune",
+        "open_data",
+        "territorial_analytics",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-discover-validated-retravaille",
+      "source_url": "https://opendata.agenceore.fr/data-fair/api/v1/datasets/consommation-annuelle-d-electricite-et-gaz-par-commune/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Jeu national Agence ORE ; découvert auto data.gouv (consulté 2026-06-23)."
     }
   ]
 }

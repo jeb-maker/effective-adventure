@@ -298,10 +298,11 @@
         "EU"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5b-compliance-to-spec",
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
       "source_url": "https://www.anecdotes.ai/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "scrut-automation",

@@ -1,0 +1,63 @@
+{
+  "pass_id": "discover-geospatial-gis-fr-2026-06-23",
+  "date": "2026-06-23",
+  "description": "Draft auto — geospatial-gis-fr",
+  "additions": {
+    "geospatial-gis-fr.json": [
+      {
+        "id": "service-de-visualisation-de-donn-es-pour-les-ter",
+        "name": "Service de visualisation de données pour les Territoire à risque d’inondation (TRI) du SIG Directive inondation - Guadeloupe - rapportage 2013",
+        "url": "https://mapsref.brgm.fr/wxs/georisques/di_glp_2013",
+        "segments": [
+          "geospatial-gis-fr"
+        ],
+        "description": "Série de données géographiques produites par le SIG Directive inondation pour le territoire de France métropolitaine et cartographiées aux fins de rapportage pour la directive européenne sur les inondations. La Directive européenne 2007/60/CE du 23 octobre 2007 relative à l'évalu",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-geospatial-gis-fr-2026-06-23",
+        "source_url": "https://mapsref.brgm.fr/wxs/georisques/di_glp_2013",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (sig) — À VALIDER avant merge."
+      },
+      {
+        "id": "cadastre-b-timents-ca-saint-quentin-en-yvelines",
+        "name": "Cadastre - Bâtiments - CA Saint-Quentin-en-Yvelines",
+        "url": "https://opendata.sqy.fr/data-fair/api/v1/datasets/cadastre-batiments-ca-saint-quentin-en-yvelines/",
+        "segments": [
+          "geospatial-gis-fr"
+        ],
+        "description": "<div><p>Donnée qui présente les bâtiments du cadastre des 12 communes de Saint-Quentin-en-Yvelines</p><p>Origine ou Source : DGFIP<br /><span>Actualité : 20</span><span>22<br /></span><span>Système de référence : RGF93-CC49 (3949)</span><span></span></p><p>Contact : opendata@sqy.",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-geospatial-gis-fr-2026-06-23",
+        "source_url": "https://opendata.sqy.fr/data-fair/api/v1/datasets/cadastre-batiments-ca-saint-quentin-en-yvelines/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (cadastre) — À VALIDER avant merge."
+      }
+    ]
+  }
+}

@@ -1041,10 +1041,11 @@
         "EU"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5i-document-idp",
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
       "source_url": "https://www.alkymi.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "super-ai",
@@ -1306,10 +1307,11 @@
         "US"
       ],
       "discovery_source": "analyst_report",
-      "discovery_pass": "2026-06-v5i-document-idp",
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
       "source_url": "https://www.ant.works/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "iron-mountain-insight",
@@ -1606,11 +1608,12 @@
         "EU"
       ],
       "discovery_source": "analyst_report",
-      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
       "source_url": "https://www.abbyy.com/flexicapture/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Produit capture complémentaire à ABBYY Vantage déjà catalogué."
+      "verification_status": "verified",
+      "notes": "Produit capture complémentaire à ABBYY Vantage déjà catalogué.",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "amazon-a2i",
@@ -1636,10 +1639,11 @@
         "EU"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v5p-l3-regtech-kyc-idp",
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
       "source_url": "https://aws.amazon.com/augmented-ai/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "invofox",

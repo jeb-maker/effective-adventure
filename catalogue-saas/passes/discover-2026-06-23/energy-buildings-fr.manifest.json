@@ -1,0 +1,90 @@
+{
+  "pass_id": "discover-energy-buildings-fr-2026-06-23",
+  "date": "2026-06-23",
+  "description": "Draft auto — energy-buildings-fr",
+  "additions": {
+    "energy-buildings-fr.json": [
+      {
+        "id": "dpe-passoires-nerg-tiques",
+        "name": " DPE — Passoires énergétiques",
+        "url": "https://observatoire-dpe-audit.ademe.fr/donnees-dpe-publiques",
+        "segments": [
+          "energy-buildings-fr"
+        ],
+        "description": "Ce projet a pour objectif de créer un outil d’analyse immobilière permettant d’identifier, cartographier et qualifier les logements disposant d’un DPE classé E, F ou G sur Cannes et dans un rayon d’environ 10 km autour de Cannes.\n\nL’usage prévu est d’exploiter les données publiqu",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-energy-buildings-fr-2026-06-23",
+        "source_url": "https://observatoire-dpe-audit.ademe.fr/donnees-dpe-publiques",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (dpe) — À VALIDER avant merge."
+      },
+      {
+        "id": "api-imope-observatoire-national-des-b-timents",
+        "name": "API IMOPE — Observatoire National des Bâtiments",
+        "url": "https://app.urbs.fr/resources/api-doc/swagger/attributes/jannatmin",
+        "segments": [
+          "energy-buildings-fr"
+        ],
+        "description": "Enrichissez vos applications, modèles et systèmes d'information avec les caractéristiques complètes de n'importe quelle adresse et bâtiment en France. L'API IMOPE donne accès à 400+ attributs thématiques — DPE, énergie, technique, règlementaire, gestion, prix, foncier, risques, s",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-energy-buildings-fr-2026-06-23",
+        "source_url": "https://app.urbs.fr/resources/api-doc/swagger/attributes/jannatmin",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (bâtiment) — À VALIDER avant merge."
+      },
+      {
+        "id": "cadastre-b-timents-ca-saint-quentin-en-yvelines",
+        "name": "Cadastre - Bâtiments - CA Saint-Quentin-en-Yvelines",
+        "url": "https://opendata.sqy.fr/data-fair/api/v1/datasets/cadastre-batiments-ca-saint-quentin-en-yvelines/",
+        "segments": [
+          "energy-buildings-fr"
+        ],
+        "description": "<div><p>Donnée qui présente les bâtiments du cadastre des 12 communes de Saint-Quentin-en-Yvelines</p><p>Origine ou Source : DGFIP<br /><span>Actualité : 20</span><span>22<br /></span><span>Système de référence : RGF93-CC49 (3949)</span><span></span></p><p>Contact : opendata@sqy.",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-energy-buildings-fr-2026-06-23",
+        "source_url": "https://opendata.sqy.fr/data-fair/api/v1/datasets/cadastre-batiments-ca-saint-quentin-en-yvelines/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (bâtiment) — À VALIDER avant merge."
+      }
+    ]
+  }
+}

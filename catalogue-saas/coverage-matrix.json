@@ -3710,14 +3710,14 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 4,
-          "new_added": 2,
-          "pass": "2026-06-v6g-verified-section4-ecartees",
-          "cumulative_new": 11
+          "candidates_found": 3,
+          "new_added": 3,
+          "pass": "2026-06-discover-validated-retravaille",
+          "cumulative_new": 14
         }
       },
-      "last_pass": "2026-06-v6g-verified-section4-ecartees",
-      "vendor_count_after_pass": 23
+      "last_pass": "2026-06-discover-validated-retravaille",
+      "vendor_count_after_pass": 26
     },
     "civic-tech-fr": {
       "target_level": "L3",
@@ -3902,14 +3902,14 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 2,
-          "new_added": 1,
-          "pass": "2026-06-v6g-verified-section4-ecartees",
-          "cumulative_new": 4
+          "candidates_found": 3,
+          "new_added": 3,
+          "pass": "2026-06-discover-validated-retravaille",
+          "cumulative_new": 7
         }
       },
-      "last_pass": "2026-06-v6g-verified-section4-ecartees",
-      "vendor_count_after_pass": 19
+      "last_pass": "2026-06-discover-validated-retravaille",
+      "vendor_count_after_pass": 22
     },
     "environmental-data-fr": {
       "target_level": "L3",
@@ -4094,14 +4094,14 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 2,
-          "new_added": 2,
-          "pass": "2026-06-v6h-listicle-civic-open-data",
-          "cumulative_new": 8
+          "candidates_found": 1,
+          "new_added": 1,
+          "pass": "2026-06-discover-validated-retravaille",
+          "cumulative_new": 9
         }
       },
-      "last_pass": "2026-06-v6i-terravisu-retravaille-verify",
-      "vendor_count_after_pass": 21
+      "last_pass": "2026-06-discover-validated-retravaille",
+      "vendor_count_after_pass": 22
     }
   }
 }

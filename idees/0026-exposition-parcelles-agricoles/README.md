@@ -130,23 +130,23 @@ agricole » en libre-service — mais la demande solvable pour ce produit reste 
 
 #### Segment `geospatial-gis-fr` — Géospatial & carto FR
 
-Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas/vendors/geospatial-gis-fr.json) (21 entrées)
+Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas/vendors/geospatial-gis-fr.json) (22 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
-| `geofoncier` | Géofoncier | FR | strong | partial |
-| `alkante` | Alkante | FR | strong | partial |
-| `ign-geoservices` | IGN Géoservices | FR | strong | partial |
+| `geofoncier` | Géofoncier | FR | strong | verified |
+| `alkante` | Alkante | FR | strong | verified |
+| `ign-geoservices` | IGN Géoservices | FR | strong | verified |
 | `cartelie` | Cartélie (IGN) | FR | strong | partial |
 | `opendatasoft-geo` | Opendatasoft | FR | strong | partial |
 | `ordnance-survey` | Ordnance Survey | GB | absent | partial |
 | `esri-arcgis` | Esri ArcGIS | US | partial | partial |
 | `mapbox` | Mapbox | US | partial | partial |
 | `here-technologies` | HERE Technologies | NL | partial | partial |
-| `geoperso` | GÉOPERSO | FR | strong | partial |
-| `makina-corpus` | Makina Corpus | FR | strong | partial |
+| `geoperso` | GÉOPERSO | FR | strong | verified |
+| `makina-corpus` | Makina Corpus | FR | strong | verified |
 | `geoportail-urbanisme` | Géoportail de l'urbanisme (GPU) | FR | strong | partial |
-| … | _+9 autres_ | | | |
+| … | _+10 autres_ | | | |
 
 #### Segment `environmental-data-fr` — Environnement & risques FR
 
@@ -154,11 +154,11 @@ Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
-| `atmo-france` | Atmo France | FR | strong | partial |
-| `hub-eau` | Hub'Eau | FR | strong | partial |
+| `atmo-france` | Atmo France | FR | strong | verified |
+| `hub-eau` | Hub'Eau | FR | strong | verified |
 | `inpn` | INPN (OFB) | FR | strong | partial |
 | `brgm-infoterre` | BRGM InfoTerre | FR | strong | partial |
-| `georisques-api` | Géorisques | FR | strong | partial |
+| `georisques-api` | Géorisques | FR | strong | verified |
 | `uk-environment-agency` | UK Environment Agency — Open Data | GB | absent | partial |
 | `eea-europe` | European Environment Agency | EU | partial | partial |
 | `copernicus-land` | Copernicus Land Monitoring | EU | partial | partial |

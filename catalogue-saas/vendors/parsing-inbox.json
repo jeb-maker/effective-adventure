@@ -1166,6 +1166,69 @@
       "source_url": "https://www.earthclassmail.com/pricing",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "limnos",
+      "name": "Limnos",
+      "url": "https://limnos.app/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp",
+        "automation-platforms"
+      ],
+      "description": "Agent IA ADV : extraction commandes B2B email/PDF/Excel, validation métier, intégration ERP.",
+      "capabilities": [
+        "email_parsing",
+        "order_extraction",
+        "erp_integration",
+        "b2b",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-discover-validated-retravaille",
+      "source_url": "https://limnos.app/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Concurrent cité revue idée 0029 — flux email entrant (consulté 2026-06-23)."
+    },
+    {
+      "id": "orderscan",
+      "name": "OrderScan",
+      "url": "https://www.orderscan.ai/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "Automatisation saisie commandes et documents entrants pour PME/ETI françaises.",
+      "capabilities": [
+        "order_scanning",
+        "document_extraction",
+        "email",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-discover-validated-retravaille",
+      "source_url": "https://www.orderscan.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Concurrent cité revue idée 0029 (consulté 2026-06-23)."
     }
   ]
 }

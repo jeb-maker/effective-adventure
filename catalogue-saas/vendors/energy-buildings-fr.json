@@ -47,15 +47,16 @@
       "target_market": "mid_market",
       "geography": "france",
       "source_url": "https://data.ademe.fr/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "FR",
       "france_market": "strong",
       "operating_regions": [
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "effy-pro",
@@ -556,6 +557,100 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "notes": "Service public Cerema ; cité idée 0025 (consulté 2026-06-23)."
+    },
+    {
+      "id": "api-dpe-logements-ademe",
+      "name": "API DPE logements (ADEME)",
+      "url": "https://data.ademe.fr/datasets/dpe-france",
+      "segments": [
+        "energy-buildings-fr"
+      ],
+      "description": "API open data ADEME : diagnostics de performance énergétique logements et bâtiments France.",
+      "capabilities": [
+        "dpe",
+        "energy_performance",
+        "open_data",
+        "api",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-discover-validated-retravaille",
+      "source_url": "https://data.ademe.fr/data-fair/api/v1/datasets/dpe-france",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Concurrent public idée 0009 ; complète ademe-data (consulté 2026-06-23)."
+    },
+    {
+      "id": "observatoire-dpe-passoires-ademe",
+      "name": "Observatoire DPE — passoires énergétiques (ADEME)",
+      "url": "https://observatoire-dpe-audit.ademe.fr/donnees-dpe-publiques",
+      "segments": [
+        "energy-buildings-fr",
+        "real-estate-proptech"
+      ],
+      "description": "Données publiques DPE pour cartographier et qualifier les logements classés E/F/G.",
+      "capabilities": [
+        "dpe",
+        "passoires_thermiques",
+        "cartography",
+        "open_data",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-discover-validated-retravaille",
+      "source_url": "https://observatoire-dpe-audit.ademe.fr/donnees-dpe-publiques",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Réutilisation publique idée 0009 (consulté 2026-06-23)."
+    },
+    {
+      "id": "api-imope-urbs",
+      "name": "API IMOPE (Urbs)",
+      "url": "https://app.urbs.fr/",
+      "segments": [
+        "energy-buildings-fr",
+        "real-estate-proptech"
+      ],
+      "description": "Observatoire national des bâtiments : 400+ attributs (DPE, énergie, risques, foncier) par adresse FR.",
+      "capabilities": [
+        "building_attributes",
+        "dpe",
+        "energy",
+        "risk",
+        "api",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
+      "source_url": "https://app.urbs.fr/resources/api-doc/swagger/attributes/jannatmin",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Découvert auto data.gouv ; pricing sur devis (consulté 2026-06-23).",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     }
   ]
 }

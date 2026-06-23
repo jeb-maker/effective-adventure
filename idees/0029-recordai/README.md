@@ -79,23 +79,23 @@ Synthèse :
 
 #### Segment `parsing-inbox` — Parsing email & inbox
 
-Fichier : [`catalogue-saas/vendors/parsing-inbox.json`](../../catalogue-saas/vendors/parsing-inbox.json) (39 entrées)
+Fichier : [`catalogue-saas/vendors/parsing-inbox.json`](../../catalogue-saas/vendors/parsing-inbox.json) (41 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
-| `parseur` | Parseur | unknown | unknown | partial |
-| `mailparser` | Mailparser | unknown | unknown | partial |
+| `parseur` | Parseur | unknown | unknown | verified |
+| `mailparser` | Mailparser | unknown | unknown | verified |
 | `docparser` | Docparser | unknown | unknown | partial |
-| `parsio` | Parsio | unknown | unknown | partial |
-| `airparser` | Airparser | unknown | unknown | partial |
+| `parsio` | Parsio | unknown | unknown | verified |
+| `airparser` | Airparser | unknown | unknown | verified |
 | `mailgun-inbound` | Mailgun Inbound Routes | unknown | unknown | partial |
 | `postmark-inbound` | Postmark Inbound | unknown | unknown | partial |
 | `extracta-ai` | Extracta.ai | unknown | unknown | partial |
-| `nylas` | Nylas | US | partial | partial |
+| `nylas` | Nylas | US | partial | verified |
 | `sendgrid-inbound` | Twilio SendGrid Inbound Parse | US | partial | partial |
-| `mailjet-parse` | Mailjet Email Parser | FR | strong | partial |
+| `mailjet-parse` | Mailjet Email Parser | FR | strong | verified |
 | `mailslurp` | MailSlurp | US | partial | partial |
-| … | _+27 autres_ | | | |
+| … | _+29 autres_ | | | |
 
 #### Segment `document-idp` — IDP & extraction documentaire
 
@@ -105,12 +105,12 @@ Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vend
 |---|---|---|---|---|
 | `google-document-ai` | Google Cloud Document AI | US | partial | verified |
 | `aws-textract` | AWS Textract | US | partial | partial |
-| `azure-document-intelligence` | Azure AI Document Intelligence | US | partial | partial |
+| `azure-document-intelligence` | Azure AI Document Intelligence | US | partial | verified |
 | `nanonets` | Nanonets | US | partial | verified |
 | `extend-ai` | Extend AI | US | partial | verified |
 | `docupipe` | DocuPipe | unknown | unknown | verified |
 | `sensible` | Sensible | US | partial | verified |
-| `docsumo` | Docsumo | US | partial | partial |
+| `docsumo` | Docsumo | US | partial | verified |
 | `rossum` | Rossum | US | partial | verified |
 | `snapparse` | Snapparse | unknown | unknown | verified |
 | `iteration-layer` | Iteration Layer | US | partial | verified |
@@ -119,23 +119,23 @@ Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vend
 
 #### Segment `compliance-to-spec` — Réglementation → spec produit
 
-Fichier : [`catalogue-saas/vendors/compliance-to-spec.json`](../../catalogue-saas/vendors/compliance-to-spec.json) (46 entrées)
+Fichier : [`catalogue-saas/vendors/compliance-to-spec.json`](../../catalogue-saas/vendors/compliance-to-spec.json) (48 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
 | `compliance-to-architecture` | Compliance-to-Architecture (CtA) | unknown | unknown | verified |
 | `aispecify` | AiSpecify | US | partial | verified |
 | `open-policy-agent` | Open Policy Agent (OPA) | unknown | unknown | verified |
-| `hyperproof` | Hyperproof | US | partial | partial |
-| `onspring` | Onspring | US | partial | partial |
-| `secureframe` | Secureframe | unknown | unknown | partial |
+| `hyperproof` | Hyperproof | US | partial | verified |
+| `onspring` | Onspring | US | partial | verified |
+| `secureframe` | Secureframe | unknown | unknown | verified |
 | `snyk` | Snyk | IE | partial | partial |
 | `styra` | Styra | US | partial | partial |
 | `regscale` | RegScale | US | absent | partial |
-| `anecdotes` | Anecdotes | US | partial | partial |
+| `anecdotes` | Anecdotes | US | partial | verified |
 | `scrut-automation` | Scrut Automation | IN | absent | partial |
 | `thoropass` | Thoropass | US | partial | partial |
-| … | _+34 autres_ | | | |
+| … | _+36 autres_ | | | |
 
 #### Segment `automation-platforms` — Automatisation no-code / iPaaS
 
@@ -143,16 +143,16 @@ Fichier : [`catalogue-saas/vendors/automation-platforms.json`](../../catalogue-s
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
-| `zapier` | Zapier | unknown | unknown | partial |
+| `zapier` | Zapier | unknown | unknown | verified |
 | `make` | Make | unknown | unknown | partial |
 | `n8n` | n8n | unknown | unknown | partial |
 | `workato` | Workato | US | partial | verified |
 | `tray-io` | Tray.io | US | partial | partial |
 | `pipedream` | Pipedream | unknown | unknown | verified |
-| `activepieces` | Activepieces | unknown | unknown | partial |
+| `activepieces` | Activepieces | unknown | unknown | verified |
 | `microsoft-power-automate` | Microsoft Power Automate | US | partial | partial |
 | `tines` | Tines | US | partial | partial |
-| `windmill` | Windmill | FR | strong | partial |
+| `windmill` | Windmill | FR | strong | verified |
 | `relay-app` | Relay.app | US | partial | partial |
 | `bardeen` | Bardeen | US | partial | partial |
 | … | _+18 autres_ | | | |
@@ -168,13 +168,13 @@ Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/k
 | `jumio` | Jumio | US | partial | partial |
 | `complyadvantage` | ComplyAdvantage | US | partial | partial |
 | `seon` | SEON | US | partial | partial |
-| `ubble` | Ubble | FR | strong | partial |
+| `ubble` | Ubble | FR | strong | verified |
 | `veriff` | Veriff | EE | partial | partial |
 | `idnow` | IDnow | DE | partial | partial |
 | `persona` | Persona | US | partial | partial |
 | `trulioo` | Trulioo | CA | partial | partial |
-| `alloy` | Alloy | US | partial | partial |
-| `dotfile` | Dotfile | FR | strong | partial |
+| `alloy` | Alloy | US | partial | verified |
+| `dotfile` | Dotfile | FR | strong | verified |
 | … | _+13 autres_ | | | |
 
 Commandes :

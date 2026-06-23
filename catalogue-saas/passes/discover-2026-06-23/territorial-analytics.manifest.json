@@ -1,0 +1,279 @@
+{
+  "pass_id": "discover-territorial-analytics-2026-06-23",
+  "date": "2026-06-23",
+  "description": "Draft auto — territorial-analytics",
+  "additions": {
+    "territorial-analytics.json": [
+      {
+        "id": "api-aides-territoires",
+        "name": "API Aides Territoires",
+        "url": "https://aides-territoires.beta.gouv.fr/",
+        "segments": [
+          "territorial-analytics"
+        ],
+        "description": "Aides Territoires est un moteur de recherche qui permet de retrouver près de 3000 dispositifs d'aides publiques existants en fonction du territoire. Ces aides proviennent de plus de 600 porteurs :\n\n* collectivités territoriales ;\n* agences ou établissements publics ;\n* partenaire",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-territorial-analytics-2026-06-23",
+        "source_url": "https://aides-territoires.beta.gouv.fr/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (territoire) — À VALIDER avant merge."
+      },
+      {
+        "id": "api-informations-sur-l-emploi-dans-un-territoire",
+        "name": "API Informations sur l'emploi dans un territoire",
+        "url": "https://francetravail.io/produits-partages/catalogue/informations-territoire",
+        "segments": [
+          "territorial-analytics"
+        ],
+        "description": "L’API Informations sur l'emploi dans un territoire permet d'accéder à des données clés pour comprendre un territoire (population, établissements, salariés).\n\n#### Ressources disponibles dans l'API\n\nL’API Informations sur l'emploi dans un territoire met à disposition toutes les do",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-territorial-analytics-2026-06-23",
+        "source_url": "https://francetravail.io/produits-partages/catalogue/informations-territoire",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (territoire) — À VALIDER avant merge."
+      },
+      {
+        "id": "diagnostic-de-la-r-silience-alimentaire-de-votre",
+        "name": "Diagnostic de la résilience alimentaire de votre territoire",
+        "url": "https://territoiresfertiles.fr/methodologie",
+        "segments": [
+          "territorial-analytics"
+        ],
+        "description": "L'API de l'application [Territoires Fertiles](https://territoiresfertiles.fr/?mtm_campaign=data_gouv_api_crater) donne accès à  un ensemble d'indicateurs permettant d'évaluer la résilience du système alimentaire des territoires de France hexagonale. Ces données sont disponibles p",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-territorial-analytics-2026-06-23",
+        "source_url": "https://territoiresfertiles.fr/methodologie",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (territoire) — À VALIDER avant merge."
+      },
+      {
+        "id": "les-r-servoirs-r-gionaux-de-biodiversit-dans-les",
+        "name": "Les réservoirs régionaux de biodiversité dans les territoires en Bretagne",
+        "url": "https://data.bretagne-environnement.fr/data-fair/api/v1/datasets/oeb-reservoirs-regionaux-biodiversite-territoires-bretagne/",
+        "segments": [
+          "territorial-analytics"
+        ],
+        "description": "En 2015, dans le cadre du SRCE, déclinaison de la dynamique nationale Trames Verte et Bleue, les réservoirs de biodiversité d'envergure régionale ont été identifiés en compilant les données issues : des zonages réglementaires ou d’inventaires, des espaces à forte naturalité d’au ",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-territorial-analytics-2026-06-23",
+        "source_url": "https://data.bretagne-environnement.fr/data-fair/api/v1/datasets/oeb-reservoirs-regionaux-biodiversite-territoires-bretagne/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (territoire) — À VALIDER avant merge."
+      },
+      {
+        "id": "annuaire-des-d-ch-teries-dma-sur-le-territoire-d",
+        "name": "Annuaire des déchèteries DMA sur le territoire de Saintes Grandes Rives, l'Agglo",
+        "url": "https://opendata.agglo-saintes.fr/data-fair/api/v1/datasets/annuaire-decheteries-dma-epci/",
+        "segments": [
+          "territorial-analytics"
+        ],
+        "description": "Le jeu de données \"**Annuaire des déchèteries acceptant des déchets ménagers et assimilés**\" contient la liste détaillée des déchèteries situées en France, ouvertes suivant l'année d'enquête nationale depuis 2009 (enquête bisannuelle). Pour l'année en cours, les données sont cell",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-territorial-analytics-2026-06-23",
+        "source_url": "https://opendata.agglo-saintes.fr/data-fair/api/v1/datasets/annuaire-decheteries-dma-epci/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (territoire) — À VALIDER avant merge."
+      },
+      {
+        "id": "d-lib-rations-communes",
+        "name": "Délibérations - Communes",
+        "url": "https://data.grandpoitiers.fr/data-fair/api/v1/datasets/deliberations-communes/",
+        "segments": [
+          "territorial-analytics"
+        ],
+        "description": "Délibérations saisies par les communes de Grand Poitiers.\nPour le moment, les données sont disponibles sur les communes de Chasseneuil du Poitou, Montamisé et Buxerolles.\nLe modèle de données est conforme au standard du Socle Commun des Données Locales (SCDL)",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-territorial-analytics-2026-06-23",
+        "source_url": "https://data.grandpoitiers.fr/data-fair/api/v1/datasets/deliberations-communes/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (commune) — À VALIDER avant merge."
+      },
+      {
+        "id": "communes-nouvelles",
+        "name": "Communes nouvelles",
+        "url": "https://datanova.laposte.fr/data-fair/api/v1/datasets/laposte-commnouv/",
+        "segments": [
+          "territorial-analytics"
+        ],
+        "description": "Ce jeu de données recense les nouvelles communes créées depuis la promulgation de la loi **n° 2015-292 du 16 mars 2015 relative à l'amélioration du régime de la commune nouvelle et fournit les nouvelles données d’adresse correspondantes.** Ces données sont fournies par le Service",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-territorial-analytics-2026-06-23",
+        "source_url": "https://datanova.laposte.fr/data-fair/api/v1/datasets/laposte-commnouv/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (commune) — À VALIDER avant merge."
+      },
+      {
+        "id": "cadastre-communes-ca-saint-quentin-en-yvelines",
+        "name": "Cadastre - Communes - CA Saint-Quentin-en-Yvelines",
+        "url": "https://opendata.sqy.fr/data-fair/api/v1/datasets/cadastre-communes-ca-saint-quentin-en-yvelines/",
+        "segments": [
+          "territorial-analytics"
+        ],
+        "description": "<div><p><span>Cette donnée concerne les 12 communes de Sain-Quentin-en-Yvelines : </span><span>Les Clayes-sous-Bois, Coignières, Élancourt, Guyancourt, Magny-les-Hameaux, Maurepas, Montigny-le-Bretonneux, Plaisir, Trappes, La Verrière, Villepreux et Voisins-le-Bretonneux.</span><",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-territorial-analytics-2026-06-23",
+        "source_url": "https://opendata.sqy.fr/data-fair/api/v1/datasets/cadastre-communes-ca-saint-quentin-en-yvelines/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (commune) — À VALIDER avant merge."
+      },
+      {
+        "id": "consommation-annuelle-d-lectricit-et-gaz-par-com",
+        "name": "Consommation annuelle d’électricité et gaz par commune",
+        "url": "https://opendata.agenceore.fr/data-fair/api/v1/datasets/consommation-annuelle-d-electricite-et-gaz-par-commune/",
+        "segments": [
+          "territorial-analytics"
+        ],
+        "description": "Permet de visualiser l’évolution de 2011 à 2024 des consommations d'électricité et de gaz par secteur d'activité, par catégorie de consommation, par code NAF et par commune.\n******\nUne notice méthodologique est disponible en PJ (méthodologie appliquée depuis le millésime 2022). L",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-territorial-analytics-2026-06-23",
+        "source_url": "https://opendata.agenceore.fr/data-fair/api/v1/datasets/consommation-annuelle-d-electricite-et-gaz-par-commune/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (commune) — À VALIDER avant merge."
+      },
+      {
+        "id": "production-d-lectricit-annuelle-par-fili-re-la-m",
+        "name": "Production d'électricité annuelle par filière à la maille commune (de 2011 à 2016)",
+        "url": "https://opendata.enedis.fr/data-fair/api/v1/datasets/production-electrique-par-filiere-a-la-maille-commune/",
+        "segments": [
+          "territorial-analytics"
+        ],
+        "description": "Le jeu de données restitue la production électrique annuelle totale et le nombre de sites, par \"filière\" et par \"domaine de tension et de puissance\" à la maille commune sur le réseau géré par Enedis.\n\nÀ partir de l'année 2017, les données sont présentées annuellement dans des jeu",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-territorial-analytics-2026-06-23",
+        "source_url": "https://opendata.enedis.fr/data-fair/api/v1/datasets/production-electrique-par-filiere-a-la-maille-commune/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (commune) — À VALIDER avant merge."
+      }
+    ]
+  }
+}

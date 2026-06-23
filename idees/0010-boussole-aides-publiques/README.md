@@ -104,7 +104,7 @@ publique), plutôt qu'un énième agrégateur d'éligibilité.
 
 #### Segment `territorial-analytics` — Analytics territoriales
 
-Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (18 entrées)
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (26 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -116,15 +116,15 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 | `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
 | `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
 | `carto-territorial` | CARTO | ES | partial | partial |
-| `smappen` | Smappen | FR | strong | partial |
-| `geomarket` | Geomarket | FR | strong | partial |
+| `smappen` | Smappen | FR | strong | verified |
+| `geomarket` | Geomarket | FR | strong | verified |
 | `data-b` | Data-B | FR | strong | partial |
-| `vigicite` | VigiCité | FR | strong | partial |
-| … | _+6 autres_ | | | |
+| `vigicite` | VigiCité | FR | strong | verified |
+| … | _+14 autres_ | | | |
 
 #### Segment `civic-tech-fr` — Civic tech France
 
-Fichier : [`catalogue-saas/vendors/civic-tech-fr.json`](../../catalogue-saas/vendors/civic-tech-fr.json) (18 entrées)
+Fichier : [`catalogue-saas/vendors/civic-tech-fr.json`](../../catalogue-saas/vendors/civic-tech-fr.json) (19 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -140,7 +140,7 @@ Fichier : [`catalogue-saas/vendors/civic-tech-fr.json`](../../catalogue-saas/ven
 | `polis-co` | Polis | US | absent | partial |
 | `civiliz` | Civiliz | FR | strong | partial |
 | `neocity` | Neocity | FR | strong | partial |
-| … | _+6 autres_ | | | |
+| … | _+7 autres_ | | | |
 
 Commandes :
 ```bash

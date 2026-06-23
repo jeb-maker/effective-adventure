@@ -111,15 +111,16 @@
       "target_market": "enterprise",
       "geography": "france",
       "source_url": "https://www.achatpublic.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "FR",
       "france_market": "strong",
       "operating_regions": [
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "tussell",
@@ -560,10 +561,11 @@
         "FR"
       ],
       "discovery_source": "capterra",
-      "discovery_pass": "2026-06-v5u-fill-last4",
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
       "source_url": "https://www.achat-solution.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "marches-online",

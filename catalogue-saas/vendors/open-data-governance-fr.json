@@ -629,6 +629,37 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "notes": "Repo actif (habib256/h-genai et huggingface/h-genai introuvables 2026-06-23) ; cité idées 0003/0006."
+    },
+    {
+      "id": "api-sirene-insee",
+      "name": "API Sirene (INSEE)",
+      "url": "https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f",
+      "segments": [
+        "open-data-governance-fr",
+        "data-enrichment-b2b"
+      ],
+      "description": "API officielle répertoire Sirene : unités légales et établissements depuis 1973.",
+      "capabilities": [
+        "sirene",
+        "companies",
+        "open_data",
+        "api",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-discover-validated-retravaille",
+      "source_url": "https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Découvert auto data.gouv ; référentiel entreprises FR (consulté 2026-06-23)."
     }
   ]
 }

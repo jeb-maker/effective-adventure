@@ -150,43 +150,43 @@ contraint (§8).
 
 #### Segment `energy-buildings-fr` — Bâtiments & énergie FR
 
-Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-saas/vendors/energy-buildings-fr.json) (18 entrées)
+Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-saas/vendors/energy-buildings-fr.json) (22 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
-| `openmeti` | OpenMéti | FR | strong | partial |
-| `ademe-data` | ADEME — data services | FR | strong | partial |
-| `effy-pro` | Effy Pro | FR | strong | partial |
+| `openmeti` | OpenMéti | FR | strong | verified |
+| `ademe-data` | ADEME — data services | FR | strong | verified |
+| `effy-pro` | Effy Pro | FR | strong | verified |
 | `hub-anah` | Anah — Hub rénovation | FR | strong | partial |
-| `heero` | Heero | FR | strong | partial |
+| `heero` | Heero | FR | strong | verified |
 | `uk-epc-register` | UK EPC Register | GB | absent | partial |
 | `building-performance-database` | Building Performance Database (US DOE) | US | absent | partial |
 | `dena-gebaeudedaten` | dena — Gebäudedaten (DE) | DE | unknown | partial |
 | `gridx-energy` | gridX | DE | partial | partial |
-| `hellowatt` | Hello Watt | FR | strong | partial |
-| `enoptea` | Enoptea | FR | strong | partial |
-| `cantine-energetique` | Cantine Énergétique | FR | strong | partial |
-| … | _+6 autres_ | | | |
+| `hellowatt` | Hello Watt | FR | strong | verified |
+| `enoptea` | Enoptea | FR | strong | verified |
+| `cantine-energetique` | Cantine Énergétique | FR | strong | verified |
+| … | _+10 autres_ | | | |
 
 #### Segment `real-estate-proptech` — Immobilier & proptech
 
-Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-saas/vendors/real-estate-proptech.json) (20 entrées)
+Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-saas/vendors/real-estate-proptech.json) (21 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
 | `costar` | CoStar | US | partial | partial |
 | `yardi` | Yardi | US | partial | partial |
 | `procore` | Procore | US | partial | partial |
-| `matera` | Matera | FR | strong | partial |
+| `matera` | Matera | FR | strong | verified |
 | `pricehubble` | PriceHubble | CH | partial | partial |
-| `scanreno` | ScanReno | FR | strong | partial |
+| `scanreno` | ScanReno | FR | strong | verified |
 | `powimo` | Powimo | FR | strong | partial |
 | `egide-copro` | EGIDE Copro | FR | strong | partial |
-| `copro-solutions` | CoproSolutions | FR | strong | partial |
+| `copro-solutions` | CoproSolutions | FR | strong | verified |
 | `bdnb` | BDNB (CSTB) | FR | strong | partial |
 | `kel-foncier` | Kel Foncier | FR | strong | partial |
 | `deepki` | Deepki | FR | strong | partial |
-| … | _+8 autres_ | | | |
+| … | _+9 autres_ | | | |
 
 Commandes :
 ```bash

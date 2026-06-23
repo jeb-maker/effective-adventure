@@ -321,10 +321,11 @@
         "EU"
       ],
       "discovery_source": "crunchbase",
-      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
       "source_url": "https://www.alloy.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "dotfile",

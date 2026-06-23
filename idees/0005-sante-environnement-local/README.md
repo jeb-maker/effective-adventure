@@ -57,11 +57,11 @@ Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
-| `atmo-france` | Atmo France | FR | strong | partial |
-| `hub-eau` | Hub'Eau | FR | strong | partial |
+| `atmo-france` | Atmo France | FR | strong | verified |
+| `hub-eau` | Hub'Eau | FR | strong | verified |
 | `inpn` | INPN (OFB) | FR | strong | partial |
 | `brgm-infoterre` | BRGM InfoTerre | FR | strong | partial |
-| `georisques-api` | Géorisques | FR | strong | partial |
+| `georisques-api` | Géorisques | FR | strong | verified |
 | `uk-environment-agency` | UK Environment Agency — Open Data | GB | absent | partial |
 | `eea-europe` | European Environment Agency | EU | partial | partial |
 | `copernicus-land` | Copernicus Land Monitoring | EU | partial | partial |

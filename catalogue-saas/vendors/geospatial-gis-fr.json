@@ -410,11 +410,12 @@
         "EU"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
       "source_url": "https://www.data.gouv.fr/datasets/registre-parcellaire-graphique-agricole",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Source citée idée 0026."
+      "verification_status": "verified",
+      "notes": "Source citée idée 0026.",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "magellium",
@@ -616,11 +617,12 @@
         "EU"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "discovery_pass": "auto-weekly-discover-2026-06-23",
       "source_url": "https://apicarto.ign.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Source citée idées 0011/0026."
+      "verification_status": "verified",
+      "notes": "Source citée idées 0011/0026.",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "terravisu",

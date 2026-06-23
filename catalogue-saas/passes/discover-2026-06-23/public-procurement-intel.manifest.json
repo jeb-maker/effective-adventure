@@ -1,0 +1,36 @@
+{
+  "pass_id": "discover-public-procurement-intel-2026-06-23",
+  "date": "2026-06-23",
+  "description": "Draft auto — public-procurement-intel",
+  "additions": {
+    "public-procurement-intel.json": [
+      {
+        "id": "march-s-publics-saintes-grandes-rives-l-agglo-pe",
+        "name": "Marchés Publics Saintes Grandes Rives, l'Agglo (PES)",
+        "url": "https://opendata.agglo-saintes.fr/data-fair/api/v1/datasets/donnees-essentielles-commande-publique-pes-epci/",
+        "segments": [
+          "public-procurement-intel"
+        ],
+        "description": "**Ce jeu de données liste les marchés passés par Saintes Grandes Rives, l'Agglo en 2025.\nUn premier fichier est disponible [ici](https://opendata.agglo-saintes.fr/data-fair/api/v1/datasets/k8e9rrdw4354449vhtdfy677/metadata-attachments/Donn%C3%A9es_essentielles_Agglo%20Janv-Mai202",
+        "capabilities": [
+          "france",
+          "open_data"
+        ],
+        "pricing_model": "open_source",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": [
+          "FR"
+        ],
+        "discovery_source": "official_site",
+        "discovery_pass": "discover-public-procurement-intel-2026-06-23",
+        "source_url": "https://opendata.agglo-saintes.fr/data-fair/api/v1/datasets/donnees-essentielles-commande-publique-pes-epci/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Découvert auto data.gouv (marches publics) — À VALIDER avant merge."
+      }
+    ]
+  }
+}

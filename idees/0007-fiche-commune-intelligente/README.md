@@ -136,32 +136,47 @@ le pitch.
 ### Référence catalogue SaaS (dépôt)
 
 **Idée** : `0007-fiche-commune-intelligente` — segments liés pour benchmark concurrence structuré.
-**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `partial` seules pour conclure C4.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
 
 #### Segment `territorial-analytics` — Analytics territoriales
 
-Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (24 entrées)
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (26 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
-| `ofgl` | OFGL Observatoire | FR | strong | verified |
 | `datagouv` | data.gouv.fr | FR | strong | verified |
-| `localnova` | LocalNova | FR | strong | partial |
+| `georisques` | Géorisques | FR | strong | verified |
+| `ofgl` | OFGL Observatoire | FR | strong | verified |
+| `cartes-gouv` | Géoportail / cartes.gouv.fr | FR | strong | verified |
+| `data-gov-uk` | data.gov.uk | GB | absent | partial |
+| `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
+| `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
+| `carto-territorial` | CARTO | ES | partial | partial |
 | `smappen` | Smappen | FR | strong | verified |
 | `geomarket` | Geomarket | FR | strong | verified |
-| `vigicite` | VigiCité | FR | strong | partial |
-| … | _+18 autres_ | | | |
+| `data-b` | Data-B | FR | strong | partial |
+| `vigicite` | VigiCité | FR | strong | verified |
+| … | _+14 autres_ | | | |
 
-#### Segment `open-data-governance-fr` — Gouvernance open data FR
+#### Segment `bi-analytics-platforms` — BI & analytics
 
-Fichier : [`catalogue-saas/vendors/open-data-governance-fr.json`](../../catalogue-saas/vendors/open-data-governance-fr.json) (20 entrées)
+Fichier : [`catalogue-saas/vendors/bi-analytics-platforms.json`](../../catalogue-saas/vendors/bi-analytics-platforms.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
-| `toucan-toco` | Toucan Toco | FR | partial | partial |
-| `opendatasoft` | Opendatasoft | FR | strong | partial |
-| `validata` | Validata | FR | strong | verified |
-| … | _+17 autres_ | | | |
+| `tableau` | Tableau (Salesforce) | US | partial | partial |
+| `power-bi` | Microsoft Power BI | US | partial | partial |
+| `looker` | Looker (Google Cloud) | US | partial | partial |
+| `thoughtspot` | ThoughtSpot | US | partial | partial |
+| `mode-analytics` | Mode | US | partial | partial |
+| `qlik-sense` | Qlik Sense | SE | partial | partial |
+| `domo` | Domo | US | partial | partial |
+| `sisense` | Sisense | IL | partial | partial |
+| `metabase` | Metabase | US | partial | partial |
+| `hex-tech` | Hex | US | partial | partial |
+| `sigma-computing` | Sigma Computing | US | partial | partial |
+| `microstrategy` | MicroStrategy | US | partial | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash
