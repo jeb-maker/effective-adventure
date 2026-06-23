@@ -2,8 +2,8 @@
 
 - **ID** : 0024
 - **Statut** : ❌ Écartée
-- **Score** : 54 / 100
-- **Dernière mise à jour** : 2026-06-21
+- **Score** : 51 / 100 (révisé après revue red team du 2026-06-23 — cf. [`revue.md`](revue.md) ; 54/100 avant revue, C2 abaissé 3→2)
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Outil B2B pour scorer en masse l'exposition d'un portefeuille de biens (batch d'adresses) aux risques naturels et climatiques (inondation, RGA, submersion, sécheresse, sismique) via Géorisques + données climat, pour tarification, provisionnement et reporting TCFD/CSRD — distinct du diagnostic unitaire grand public (0011).
 
 ---
@@ -277,6 +277,12 @@ Le MVP rapide souffre du même problème que 0011 : **facile à copier, impossib
 
 **Score /100** : 57 / 105 × 100 = **54,3 → 54 / 100** (arrondi final)
 
+> **Score révisé après revue red team (2026-06-23) : 51/100** — la revue abaisse
+> C2 de 3 à 2 (marché en consolidation — rachat NamR par Addactis — aux budgets
+> *déjà captés* par des suites intégrées, pas de budget additionnel) ; total
+> 54/105 → 51/100. Verdict inchangé (❌ Écartée). Recalcul détaillé dans
+> [`revue.md`](revue.md).
+
 Justification note par note :
 
 - **C1 = 4** : douleur forte et croissante (sinistralité Cat Nat, CSRD, stress tests BCE) — le problème est réel, pas un gadget.
@@ -305,4 +311,4 @@ Aucun critère strictement éliminatoire juridique ou « donnée inexistante »,
 
 ---
 
-0024 | Exposition climat/risques d'un portefeuille d'actifs (B2B assurance/immo) | ❌ Écartée | 54/100 | Saturé : NamR, Callendar, Deepki, Jupiter
+0024 | Exposition climat/risques d'un portefeuille d'actifs (B2B assurance/immo) | ❌ Écartée | 51/100 | Saturé : NamR, Callendar, Deepki, Jupiter (score revu, cf. revue.md)
