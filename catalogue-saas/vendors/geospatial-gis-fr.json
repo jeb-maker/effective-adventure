@@ -317,11 +317,12 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
       "source_url": "https://makina-corpus.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Concurrent cité idée 0026 (Terravisu)."
+      "verification_status": "verified",
+      "notes": "Concurrent cité idée 0026 (Terravisu).",
+      "pricing_notes": "Intégrateur Terravisu ; site éditeur (consulté 2026-06-23)."
     },
     {
       "id": "geoportail-urbanisme",
@@ -378,11 +379,12 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
       "source_url": "https://www.isagri.fr/geofolia/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Adjacent idée 0026."
+      "verification_status": "verified",
+      "notes": "Adjacent idée 0026.",
+      "pricing_notes": "Gestion parcellaire agricole Isagri ; adjacent idée 0026 (consulté 2026-06-23)."
     },
     {
       "id": "agreste-rpg",
@@ -619,6 +621,39 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "notes": "Source citée idées 0011/0026."
+    },
+    {
+      "id": "terravisu",
+      "name": "Terravisu (Makina Corpus)",
+      "url": "https://makina-corpus.com/sig-webmapping/application-cartographique-identification-parcelles-agricoles-assolements",
+      "segments": [
+        "geospatial-gis-fr",
+        "environmental-data-fr"
+      ],
+      "description": "Application SIG web coopérative : croisement RPG × ICPE × Natura 2000 × Hub'Eau pour identifier parcelles agricoles exposées aux risques industriels et hydriques.",
+      "capabilities": [
+        "rpg",
+        "icpe",
+        "natura2000",
+        "hub_eau",
+        "parcelles_agricoles",
+        "webmapping",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
+      "source_url": "https://makina-corpus.com/sig-webmapping/application-cartographique-identification-parcelles-agricoles-assolements",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Preuve production SeineYonne ; concurrent direct idée 0026 (consulté 2026-06-23)."
     }
   ]
 }

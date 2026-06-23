@@ -104,8 +104,8 @@
       "target_market": "smb",
       "geography": "france",
       "source_url": "https://www.matera.eu/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "FR",
       "france_market": "strong",
       "operating_regions": [
@@ -113,7 +113,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
+      "pricing_notes": "Syndic copropriété digital ; site officiel (consulté 2026-06-23)."
     },
     {
       "id": "pricehubble",
@@ -169,11 +170,12 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
       "source_url": "https://www.scanreno.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Concurrent cité idée 0025."
+      "verification_status": "verified",
+      "notes": "Concurrent cité idée 0025.",
+      "pricing_notes": "Rénovation copropriétés ; site éditeur (consulté 2026-06-23)."
     },
     {
       "id": "powimo",
@@ -258,11 +260,12 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
       "source_url": "https://www.copro-solutions.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Concurrent cité idée 0025."
+      "verification_status": "verified",
+      "notes": "Concurrent cité idée 0025.",
+      "pricing_notes": "Pilotage PPT/DPE copropriétés ; concurrent Hellio idée 0025 (consulté 2026-06-23)."
     },
     {
       "id": "bdnb",

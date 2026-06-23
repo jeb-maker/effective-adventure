@@ -596,6 +596,39 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "notes": "Repo actif (habib256/france-data-mcp introuvable 2026-06-23) ; cité idées 0003/0006."
+    },
+    {
+      "id": "h-genai",
+      "name": "h-genai (OSS)",
+      "url": "https://github.com/podolskyDavid/h-genai",
+      "segments": [
+        "open-data-governance-fr",
+        "territorial-analytics",
+        "rag-knowledge"
+      ],
+      "description": "Stack OSS FastAPI/Vue : agents LLM sur données OFGL et open data pour analyse financière des collectivités territoriales (AWS Bedrock).",
+      "capabilities": [
+        "open_source",
+        "ofgl",
+        "rag",
+        "llm_agents",
+        "municipal_finance",
+        "france"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
+      "source_url": "https://github.com/podolskyDavid/h-genai",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Repo actif (habib256/h-genai et huggingface/h-genai introuvables 2026-06-23) ; cité idées 0003/0006."
     }
   ]
 }

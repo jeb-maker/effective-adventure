@@ -265,11 +265,12 @@
         "EU"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
       "source_url": "https://decp.info/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Réutilisation data.gouv citée idées 0025/0027."
+      "verification_status": "verified",
+      "notes": "Réutilisation data.gouv citée idées 0025/0027.",
+      "pricing_notes": "Exploration DECP tabulaire gratuite ; réutilisation data.gouv (consulté 2026-06-23)."
     },
     {
       "id": "data-economie-gouv",
@@ -796,11 +797,12 @@
         "EU"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
       "source_url": "https://www.data.gouv.fr/reuses/openmarches-visualisation-des-marches-it-publics",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Analytics attribution (différent de decp.info) ; pipeline open source DuckDB/dbt/FastAPI."
+      "verification_status": "verified",
+      "notes": "Analytics attribution (différent de decp.info) ; pipeline open source DuckDB/dbt/FastAPI.",
+      "pricing_notes": "479k+ marchés IT DECP ; fiche réutilisation data.gouv (consulté 2026-06-23)."
     },
     {
       "id": "doaken",
@@ -827,11 +829,11 @@
         "FR"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
+      "discovery_pass": "2026-06-v6i-terravisu-retravaille-verify",
       "source_url": "https://doaken.fr/solutions",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "pricing_notes": "Profils Essentiel/Croissance/Enterprise selon volume ; tarifs sur devis (consulté 2026-06-23).",
+      "verification_status": "verified",
+      "pricing_notes": "Intelligence attribution DECP ; page solutions officielle (consulté 2026-06-23).",
       "notes": "Hébergement France ; couvre marchés publics et privés (détection Sitadel)."
     },
     {

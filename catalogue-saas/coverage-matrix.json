@@ -3806,14 +3806,14 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 8,
-          "new_added": 2,
-          "pass": "2026-06-v5r-france-thematic-l3",
-          "cumulative_new": 7
+          "candidates_found": 1,
+          "new_added": 1,
+          "pass": "2026-06-v6i-terravisu-retravaille-verify",
+          "cumulative_new": 8
         }
       },
-      "last_pass": "2026-06-v5r-france-thematic-l3",
-      "vendor_count_after_pass": 21
+      "last_pass": "2026-06-v6i-terravisu-retravaille-verify",
+      "vendor_count_after_pass": 22
     },
     "transport-mobility-data-fr": {
       "target_level": "L3",
@@ -4080,10 +4080,10 @@
         },
         "open_source": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 8,
+          "candidates_found": 1,
           "new_added": 1,
-          "pass": "2026-06-v5r-france-thematic-l3",
-          "cumulative_new": 2
+          "pass": "2026-06-v6i-terravisu-retravaille-verify",
+          "cumulative_new": 3
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
@@ -4100,8 +4100,8 @@
           "cumulative_new": 8
         }
       },
-      "last_pass": "2026-06-v6h-listicle-civic-open-data",
-      "vendor_count_after_pass": 20
+      "last_pass": "2026-06-v6i-terravisu-retravaille-verify",
+      "vendor_count_after_pass": 21
     }
   }
 }

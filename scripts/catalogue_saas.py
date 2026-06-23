@@ -68,7 +68,10 @@ def extract_domain(url: str) -> str:
     return host
 
 
-def is_listicle_source(source_url: str) -> bool:
+def is_listicle_source(source_url: str, product_url: str = "") -> bool:
+    """True si la source ressemble à un listicle — sauf si c'est le site officiel du produit."""
+    if product_url and domains_match(product_url, source_url):
+        return False
     lower = source_url.lower()
     return any(pattern in lower for pattern in LISTICLE_PATTERNS)
 
@@ -235,14 +238,16 @@ def stats() -> None:
     ).most_common():
         print(f"  {status:12} {count}")
 
-    listicle_count = sum(1 for v in vendors if is_listicle_source(v["source_url"]))
+    listicle_count = sum(
+        1 for v in vendors if is_listicle_source(v["source_url"], v["url"])
+    )
     by_verification = Counter(v["verification_status"] for v in vendors)
     eligible = sum(
         1
         for v in vendors
         if v["verification_status"] == "partial"
         and domains_match(v["url"], v["source_url"])
-        and not is_listicle_source(v["source_url"])
+        and not is_listicle_source(v["source_url"], v["url"])
     )
 
     print()
@@ -684,7 +689,7 @@ def saturation_freeze() -> int:
 
 def audit_sources() -> None:
     vendors = iter_vendors()
-    flagged = [v for v in vendors if is_listicle_source(v["source_url"])]
+    flagged = [v for v in vendors if is_listicle_source(v["source_url"], v["url"])]
 
     print(f"Audit sources listicle / agrégateur — {len(flagged)} / {len(vendors)} vendeurs")
     print()
@@ -708,14 +713,16 @@ def audit_sources() -> None:
 
 def verify_eligible() -> None:
     vendors = iter_vendors()
-    listicle_count = sum(1 for v in vendors if is_listicle_source(v["source_url"]))
+    listicle_count = sum(
+        1 for v in vendors if is_listicle_source(v["source_url"], v["url"])
+    )
 
     eligible = [
         v
         for v in vendors
         if v["verification_status"] == "partial"
         and domains_match(v["url"], v["source_url"])
-        and not is_listicle_source(v["source_url"])
+        and not is_listicle_source(v["source_url"], v["url"])
     ]
     verified = [v for v in vendors if v["verification_status"] == "verified"]
 
@@ -731,7 +738,7 @@ def verify_eligible() -> None:
     print(f"Déjà verified — {len(verified)} entrée(s)")
     for v in sorted(verified, key=lambda item: item["id"])[:15]:
         domain = extract_domain(v["url"])
-        flag = " [listicle src]" if is_listicle_source(v["source_url"]) else ""
+        flag = " [listicle src]" if is_listicle_source(v["source_url"], v["url"]) else ""
         print(f"  {v['id']:32} {domain:24}  {v['name']}{flag}")
     if len(verified) > 15:
         print(f"  … +{len(verified) - 15} autres")
