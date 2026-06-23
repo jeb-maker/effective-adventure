@@ -74,7 +74,7 @@ Fichier : [`catalogue-saas/vendors/parsing-inbox.json`](../../catalogue-saas/ven
 
 #### Segment `document-idp` — IDP & extraction documentaire
 
-Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vendors/document-idp.json) (32 entrées)
+Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vendors/document-idp.json) (48 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -90,7 +90,7 @@ Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vend
 | `snapparse` | Snapparse | unknown | unknown | verified |
 | `iteration-layer` | Iteration Layer | US | partial | verified |
 | `docld` | DocLD | unknown | unknown | verified |
-| … | _+20 autres_ | | | |
+| … | _+36 autres_ | | | |
 
 #### Segment `compliance-to-spec` — Réglementation → spec produit
 

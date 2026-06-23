@@ -948,6 +948,474 @@
       "source_url": "https://base64.ai/",
       "source_consulted_at": "2026-06-22",
       "verification_status": "partial"
+    },
+    {
+      "id": "ephesoft",
+      "name": "Ephesoft",
+      "url": "https://ephesoft.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Capture intelligente ; classification, extraction et postes de validation humaine avant export ERP.",
+      "capabilities": [
+        "document_capture",
+        "classification",
+        "human_validation",
+        "erp_export"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://ephesoft.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "grooper",
+      "name": "Grooper",
+      "url": "https://grooper.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Plateforme document intelligence ; OCR, extraction champs et revue opérateur avec audit trail dossier.",
+      "capabilities": [
+        "ocr",
+        "field_extraction",
+        "human_review",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://grooper.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "alkymi",
+      "name": "Alkymi",
+      "url": "https://www.alkymi.io/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Extraction documents financiers ; workflows revue analyste et validation dossier avant intégration.",
+      "capabilities": [
+        "financial_documents",
+        "field_extraction",
+        "human_review",
+        "workflow"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://www.alkymi.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "super-ai",
+      "name": "Super.AI",
+      "url": "https://super.ai/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Traitement hybride IA + opérateurs ; classification, extraction et QC humain sur dossiers complexes.",
+      "capabilities": [
+        "hybrid_processing",
+        "classification",
+        "human_qc",
+        "complex_documents"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://super.ai/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "docdigitizer",
+      "name": "DocDigitizer",
+      "url": "https://docdigitizer.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "IDP avec validation humaine intégrée ; extraction champs et contrôle qualité dossier avant livraison.",
+      "capabilities": [
+        "field_extraction",
+        "human_validation",
+        "quality_control",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "PT",
+      "france_market": "partial",
+      "operating_regions": [
+        "PT",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://docdigitizer.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "natif-ai",
+      "name": "Natif.ai",
+      "url": "https://natif.ai/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "IDP européen ; modèles pré-entraînés, interface revue humaine et export dossier validé.",
+      "capabilities": [
+        "pretrained_models",
+        "field_extraction",
+        "human_review",
+        "eu_hosting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://natif.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "automation-hero",
+      "name": "Automation Hero",
+      "url": "https://automationhero.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "IDP industriel ; extraction, règles métier et postes de validation opérateur pour dossiers.",
+      "capabilities": [
+        "industrial_idp",
+        "business_rules",
+        "human_validation",
+        "workflow"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://automationhero.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ibm-datacap",
+      "name": "IBM Datacap",
+      "url": "https://www.ibm.com/products/datacap",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Capture enterprise ; scan/OCR, reconnaissance champs et stations validation humaine auditables.",
+      "capabilities": [
+        "document_capture",
+        "ocr",
+        "validation_station",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://www.ibm.com/products/datacap",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "microsoft-syntex",
+      "name": "Microsoft Syntex",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/enterprise/microsoft-syntex",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Traitement docs SharePoint/M365 ; extraction, métadonnées et approbations humaines sur dossiers.",
+      "capabilities": [
+        "sharepoint",
+        "metadata_extraction",
+        "human_approval",
+        "content_processing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365/enterprise/microsoft-syntex",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "docugami",
+      "name": "Docugami",
+      "url": "https://www.docugami.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Compréhension contrats/docs ; graphe sémantique, revue humaine et dossier validé exportable.",
+      "capabilities": [
+        "contract_understanding",
+        "semantic_graph",
+        "human_review",
+        "export"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://www.docugami.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "parascript",
+      "name": "Parascript",
+      "url": "https://www.parascript.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Reconnaissance chèques/docs ; extraction champs, scores confiance et validation opérateur.",
+      "capabilities": [
+        "check_recognition",
+        "field_extraction",
+        "confidence_scoring",
+        "human_validation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://www.parascript.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "antworks",
+      "name": "AntWorks",
+      "url": "https://www.ant.works/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "IDP cognitive ; classification, extraction et boucle human-in-the-loop pour exceptions dossier.",
+      "capabilities": [
+        "cognitive_idp",
+        "classification",
+        "human_in_loop",
+        "exception_handling"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://www.ant.works/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "iron-mountain-insight",
+      "name": "Iron Mountain InSight",
+      "url": "https://www.ironmountain.com/services/digital/insight",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Numérisation + IDP ; OCR, indexation et contrôle qualité humain sur dossiers archivés.",
+      "capabilities": [
+        "digitization",
+        "ocr",
+        "indexing",
+        "human_qc"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://www.ironmountain.com/services/digital/insight",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "laiye",
+      "name": "Laiye",
+      "url": "https://laiye.com/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Automatisation intelligente ; IDP, règles métier et revue humaine sur files d'attente dossier.",
+      "capabilities": [
+        "intelligent_automation",
+        "idp",
+        "human_review",
+        "work_queue"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "CN",
+      "france_market": "partial",
+      "operating_regions": [
+        "CN",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://laiye.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "heron-data",
+      "name": "Heron Data",
+      "url": "https://www.herondata.io/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "Extraction docs financiers crédit ; scoring, revue analyste et dossier validé pour underwriting.",
+      "capabilities": [
+        "financial_extraction",
+        "credit_scoring",
+        "human_review",
+        "underwriting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://www.herondata.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cascading-ai",
+      "name": "Cascading AI",
+      "url": "https://www.cascading.ai/",
+      "segments": [
+        "document-idp"
+      ],
+      "description": "IDP crédit/commercial ; collecte docs, extraction et validation humaine dossier prêt.",
+      "capabilities": [
+        "loan_documents",
+        "field_extraction",
+        "human_validation",
+        "case_management"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5i-document-idp",
+      "source_url": "https://www.cascading.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }
