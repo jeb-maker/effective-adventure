@@ -90,7 +90,8 @@ Segment **non clos** tant que < 4 types sont renseignés dans `coverage-matrix.j
 | **V5t-a** | L3 sécurité (6 segments) | Fait |
 | **V5t-b** | L3 verticaux + compliance (18 segments) | Fait |
 | **V5t-c** | L3 workplace / sales / data (20 segments) | Fait |
-| Maintenance | 4 segments 14–17 entrées, long tail L3 | Continu |
+| **V5u** | Complétion finale 4 segments (<18) | Fait |
+| Maintenance | Long tail L3, surveillance saturation | Continu |
 
 ### Surveillance saturation (maintenance)
 
@@ -153,6 +154,7 @@ python3 scripts/catalogue_saas.py validate
 | **Post-V5l–V5n (L2 complet)** | **~914** |
 | **Post-V5q–V5s (L3 ciblé)** | **~1 072** |
 | **Post-V5t (L3 complet, 68 segments)** | **~1 392** |
+| **Post-V5u (complétion finale)** | **~1 410** |
 | Long tail L3 + maintenance | 1 500–2 500 |
 
 La fiabilité prime sur la vitesse : **`unknown` est préférable à une guess non sourcée**.

@@ -16,10 +16,10 @@ Registre **curaté** de SaaS comparables, aligné sur les règles de preuve du d
 ## État (2026-06-23)
 
 - **68 segments** définis (tous avec fichier `vendors/<id>.json`)
-- **68 segments peuplés** — **64 segments ≥ 18 entrées (L3)**, **0 segment ≤ 11**
-- **1 392 vendeurs** recensés (vagues 5b–5t)
+- **68 segments peuplés** — **68 segments ≥ 18 entrées (L3)**, **0 segment ≤ 11**
+- **1 410 vendeurs** recensés (vagues 5b–5u)
 - **29 idées** liées au catalogue (`idees/catalogue-segments.json`)
-- **Surveillance** : `frozen-segments.json` + `saturation watch` (2 segments `[PROCHE]` post-V5s)
+- **Surveillance** : `frozen-segments.json` + `saturation watch` (2 segments `[SATURÉ]`, 2 `[PROCHE]` post-V5u)
 
 ## Les 18 catégories
 
@@ -74,6 +74,7 @@ python3 scripts/enrich_catalogue_v5s.py
 python3 scripts/enrich_catalogue_v5t_security.py
 python3 scripts/enrich_catalogue_v5t_verticals.py
 python3 scripts/enrich_catalogue_v5t_workplace.py
+python3 scripts/enrich_catalogue_v5u_fill_last4.py
 python3 scripts/sync_idees_catalogue.py
 
 # Saturation (passes réelles vs seuil 5 %)
