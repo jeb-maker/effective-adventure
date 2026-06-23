@@ -2,8 +2,8 @@
 
 - **ID** : 0015
 - **Statut** : ❌ Écartée
-- **Score** : 54 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Score** : 50 / 100
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Croiser les horaires de transport public (GTFS via
   transport.data.gouv.fr) avec la population et les équipements (INSEE) pour
   cartographier les **déserts de mobilité** et l'accessibilité aux services, à
@@ -190,31 +190,37 @@ les trous de couverture.
 
 ## 10. Scoring
 
-| # | Critère | Poids | Note (1-5) | Pondéré |
-|---|---|---|---|---|
-| C1 | Intensité du problème | 3 | 3 | 9 |
-| C2 | Cible solvable (qui paie) | 3 | 3 | 9 |
-| C3 | Disponibilité & fiabilité données | 3 | 3 | 9 |
-| C4 | Espace concurrentiel libre | 2 | 2 | 4 |
-| C5 | Différenciation défendable | 2 | 2 | 4 |
-| C6 | Faisabilité & fiabilité technique | 2 | 4 | 8 |
-| C7 | Facilité du MVP | 2 | 2 | 4 |
-| C8 | Maîtrise des risques | 2 | 2 | 4 |
-| C9 | Monétisation / impact | 2 | 3 | 6 |
-| | **Total** | | | **57 / 105** |
+> **Scoring ajusté après revue critique du 2026-06-23** (voir [`revue.md`](revue.md)).
+> Notes abaissées : C2 (3→2), C9 (3→2). Score 54 → **50** ; verdict inchangé
+> (❌ Écartée, marge sous le seuil élargie). Notes initiales rappelées en colonne dédiée.
 
-**Score /100** : 57 / 105 × 100 = **54**
+| # | Critère | Poids | Note initiale | Note (post-revue) | Pondéré |
+|---|---|---|---|---|---|
+| C1 | Intensité du problème | 3 | 3 | 3 | 9 |
+| C2 | Cible solvable (qui paie) | 3 | 3 | 2 | 6 |
+| C3 | Disponibilité & fiabilité données | 3 | 3 | 3 | 9 |
+| C4 | Espace concurrentiel libre | 2 | 2 | 2 | 4 |
+| C5 | Différenciation défendable | 2 | 2 | 2 | 4 |
+| C6 | Faisabilité & fiabilité technique | 2 | 4 | 4 | 8 |
+| C7 | Facilité du MVP | 2 | 2 | 2 | 4 |
+| C8 | Maîtrise des risques | 2 | 2 | 2 | 4 |
+| C9 | Monétisation / impact | 2 | 3 | 2 | 4 |
+| | **Total** | | | | **52 / 105** |
 
-Justification des notes (une phrase chacune) :
+**Score /100** : 52 / 105 × 100 = **50**
+
+Justification des notes (post-revue) :
 - **C1 = 3** : problème public réel mais besoin diagnostique épisodique et douleur
   surtout côté habitant non-payeur, pas une douleur marchande aiguë.
-- **C2 = 3** : budgets mobilité publics existent (LOM), mais achat via marché
-  public lent, pas d'acheteur récurrent et alternative gratuite → pas un 4.
+- **C2 = 2** (ajusté) : budgets mobilité publics existent (LOM), mais achat via
+  marché public lent, **pas d'acheteur récurrent en self-service** et alternative
+  gratuite officielle (Cerema) → ancrage 2.
 - **C3 = 3** : INSEE BPE/Filosofi et GTFS sont ouverts et propres, mais la
   couverture GTFS est partielle (~76 % pop) et la plus faible exactement dans
   les zones-cibles → ni 4 ni 2.
 - **C4 = 2** : cœur déjà couvert par Cerema (gratuit), ANCT, INSEE et outils de
-  géomarketing ; il reste juste un créneau de packaging.
+  géomarketing ; le résidu de packaging est lui-même rogné par les **observatoires
+  Cerema** (politiques locales de mobilité, plans de mobilité) — note plafonnée.
 - **C5 = 2** : méthode publique et moteur officiel gratuit → différenciation de
   pur produit, copiable.
 - **C6 = 4** : chiffres issus de routing/SQL traçables, RAG borné au sens ; pas 5
@@ -223,12 +229,13 @@ Justification des notes (une phrase chacune) :
   trous = chantier, pas un MVP rapide.
 - **C8 = 2** : paradoxe de la donnée (aveugle là où ça compte) + concurrent
   public gratuit = risques structurels mal maîtrisés.
-- **C9 = 3** : monétisation faible mais impact public réel — c'est l'impact qui
-  porte la note.
+- **C9 = 2** (ajusté) : impact public réel mais **déjà capté** par les dispositifs
+  publics (observatoires Cerema, ANCT) → impact marginal d'un énième observatoire faible.
 
 ## 11. Verdict & décision
-❌ **Écartée** (score 54/100, **sous le seuil de 55**), et fragilisée par un point
-quasi éliminatoire : le **paradoxe de couverture** (la donnée GTFS manque
+❌ **Écartée** (score **50/100** après revue critique du 2026-06-23, **sous le seuil
+de 55** ; recalcul C2 3→2, C9 3→2 confortant la décision initiale), et fragilisée
+par un point quasi éliminatoire : le **paradoxe de couverture** (la donnée GTFS manque
 précisément dans les déserts à mesurer) couplé à un **concurrent officiel
 gratuit** (Cerema « Networks »/Capamob) qui sert déjà la même cible avec
 légitimité. La donnée INSEE d'accessibilité existante étant en outre **routière**
@@ -245,4 +252,4 @@ ré-ouvrir que si un payeur récurrent nommé est confirmé.
 
 ---
 
-0015 | Observatoire des déserts de mobilité | ❌ Écartée | 54/100 | Cœur déjà fait par Cerema gratuit ; donnée manque dans déserts
+0015 | Observatoire des déserts de mobilité | ❌ Écartée | 50/100 | Cœur déjà fait par Cerema gratuit (+ observatoires Cerema) ; donnée manque dans déserts ; revue 2026-06-23
