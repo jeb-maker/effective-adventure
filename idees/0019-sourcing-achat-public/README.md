@@ -2,8 +2,8 @@
 
 - **ID** : 0019
 - **Statut** : ❌ Écartée
-- **Score** : 53 / 100
-- **Dernière mise à jour** : 2026-06-21
+- **Score** : 50 / 100
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Outil B2G pour les acheteurs publics (collectivités,
   hôpitaux, ministères) : à partir des DECP (marchés attribués) + recensement,
   benchmarker les prix payés par CPV, identifier des fournisseurs (sourcing),
@@ -305,30 +305,37 @@ code.
 
 ## 10. Scoring
 
-| # | Critère | Poids | Note (1-5) | Pondéré |
-|---|---|---|---|---|
-| C1 | Intensité du problème | 3 | 4 | 12 |
-| C2 | Cible solvable (qui paie) | 3 | 3 | 9 |
-| C3 | Disponibilité & fiabilité données | 3 | 3 | 9 |
-| C4 | Espace concurrentiel libre | 2 | 1 | 2 |
-| C5 | Différenciation défendable | 2 | 1 | 2 |
-| C6 | Faisabilité & fiabilité technique | 2 | 4 | 8 |
-| C7 | Facilité du MVP | 2 | 3 | 6 |
-| C8 | Maîtrise des risques | 2 | 2 | 4 |
-| C9 | Monétisation / impact | 2 | 2 | 4 |
-| | **Total** | | | **56 / 105** |
+> **Scoring ajusté après revue critique du 2026-06-23** (voir [`revue.md`](revue.md)).
+> Note abaissée : C2 (3→2). Score 53 → **50** ; verdict inchangé (❌ Écartée, marge
+> sous le seuil élargie). Notes initiales rappelées en colonne dédiée.
 
-**Score /100** : 56 / 105 × 100 = **53**
+| # | Critère | Poids | Note initiale | Note (post-revue) | Pondéré |
+|---|---|---|---|---|---|
+| C1 | Intensité du problème | 3 | 4 | 4 | 12 |
+| C2 | Cible solvable (qui paie) | 3 | 3 | 2 | 6 |
+| C3 | Disponibilité & fiabilité données | 3 | 3 | 3 | 9 |
+| C4 | Espace concurrentiel libre | 2 | 1 | 1 | 2 |
+| C5 | Différenciation défendable | 2 | 1 | 1 | 2 |
+| C6 | Faisabilité & fiabilité technique | 2 | 4 | 4 | 8 |
+| C7 | Facilité du MVP | 2 | 3 | 3 | 6 |
+| C8 | Maîtrise des risques | 2 | 2 | 2 | 4 |
+| C9 | Monétisation / impact | 2 | 2 | 2 | 4 |
+| | **Total** | | | | **53 / 105** |
 
-Justification des notes (une phrase chacune) :
+**Score /100** : 53 / 105 × 100 = **50**
+
+Justification des notes (post-revue) :
 - **C1 = 4** : estimation prix, sourcing et comparaison inter-acheteurs sont des
   douleurs récurrentes documentées par les produits existants et le guide OECP.
-- **C2 = 3** : payeurs et budgets existent (marchespublics.ai tarifé, MA.iA/UGAP,
-  300+ clients) mais achat lent, bundling MPE et gratuit limitent un SaaS autonome.
+- **C2 = 2** (ajusté) : payeurs et budgets existent mais **partent ailleurs** —
+  gratuits (decp.info/data.economie/Nextend), bundling MPE (Atexo/Ordiges),
+  centrales (UGAP/CAIH) ; le budget *additionnel* pour un SaaS standalone est quasi
+  inexistant (constat de la fiche elle-même).
 - **C3 = 3** : DECP ouvert et quotidien, SQL fiable sur agrégats, mais `montant`
   ≠ dépense réelle, pas de prix unitaires, délais de publication longs.
 - **C4 = 1** : au moins 8 solutions (3 B2G dédiées, 3 MPE, 3 gratuites) couvrent
-  exactement le seed — marché saturé côté acheteur.
+  exactement le seed ; le dernier résidu « acheteurs comparables » est lui-même
+  fermé par **OFGL/data.ofgl.fr** (gratuit) + Nextend → marché saturé côté acheteur.
 - **C5 = 1** : même proposition que marchespublics.ai Acheteurs et MA.iA Sourcing,
   sur donnée ouverte copiable.
 - **C6 = 4** : archi RAG(sens)/SQL(chiffres) saine pour agrégats ; réserve sur la
@@ -338,7 +345,9 @@ Justification des notes (une phrase chacune) :
 - **C9 = 2** : revenu standalone faible, impact déjà capté par l'existant.
 
 ## 11. Verdict & décision
-❌ **Écartée.** Score **53/100** (< 55). Le problème est réel et les données DECP
+❌ **Écartée.** Score **50/100** après revue critique du 2026-06-23 (< 55 ; recalcul
+C2 3→2, et fermeture du dernier résidu « acheteurs comparables » par OFGL gratuit).
+Le problème est réel et les données DECP
 utilisables, mais le seed décrit un produit **déjà commercialisé** (marchespublics.ai
 Acheteurs, MA.iA) et **gratuitement accessible** (Nextend comparateur, decp.info,
 data.economie). La distinction avec l'idée 0001 (côté entreprise) ne crée pas
@@ -355,4 +364,4 @@ DECP agrégé) — à valider par une nouvelle recherche existant avant toute ca
 
 ---
 
-0019 | Sourcing & benchmark de prix pour acheteurs publics (côté acheteur) | ❌ Écartée | 53/100 | Saturé : marchespublics.ai, MA.iA, Nextend gratuits
+0019 | Sourcing & benchmark de prix pour acheteurs publics (côté acheteur) | ❌ Écartée | 50/100 | Saturé : marchespublics.ai, MA.iA, Nextend + OFGL gratuits ; revue 2026-06-23
