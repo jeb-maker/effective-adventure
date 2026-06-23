@@ -2,8 +2,8 @@
 
 - **ID** : 0023
 - **Statut** : ❌ Écartée
-- **Score** : 47 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Score** : 44 / 100 (révisé après revue red team du 2026-06-23 — cf. [`revue.md`](revue.md) ; 47/100 avant revue, C1 abaissé 4→3)
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Outil B2G aidant les collectivités assujetties (LRN 2016) à **vérifier et atteindre** leur conformité de **publication** open data — inventaire réglementaire vs jeux publiés, écarts, feuille de route — distinct de l'idée **0002** (qualité technique des datasets déjà publiés).
 
 ---
@@ -247,6 +247,12 @@ python3 scripts/catalogue_saas.py gaps --segment open-data-governance-fr
 
 **Score /100** : 49 / 105 × 100 = **47**
 
+> **Score révisé après revue red team (2026-06-23) : 44/100** — la revue abaisse
+> C1 de 4 à 3 (obligation légale **sans sanction** + priorité « transparence » en
+> recul = besoin tiède) et ajoute deux angles morts (**udata-hydra**, **Éclaireur
+> Public**) confortant C4=1 ; total 46/105 → 44/100. Verdict inchangé (❌ Écartée,
+> critère éliminatoire confirmé). Recalcul détaillé dans [`revue.md`](revue.md).
+
 ---
 
 ## 11. Verdict & décision
@@ -261,4 +267,4 @@ python3 scripts/catalogue_saas.py gaps --segment open-data-governance-fr
 
 ---
 
-0023 | Conformité de publication open data des collectivités (B2G) | ❌ Écartée | 47/100 | Marché saturé, données obligations absentes
+0023 | Conformité de publication open data des collectivités (B2G) | ❌ Écartée | 44/100 | Marché saturé, données obligations absentes (score revu, cf. revue.md)
