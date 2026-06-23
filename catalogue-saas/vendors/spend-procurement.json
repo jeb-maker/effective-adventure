@@ -91,7 +91,8 @@
       "name": "Spendesk",
       "url": "https://www.spendesk.com/",
       "segments": [
-        "spend-procurement"
+        "spend-procurement",
+        "finance-accounting-ai"
       ],
       "description": "Spend management PME Europe ; cartes, factures et workflows.",
       "capabilities": [
@@ -315,6 +316,211 @@
       "discovery_source": "g2",
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.zycus.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pleo",
+      "name": "Pleo",
+      "url": "https://www.pleo.io/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Cartes dépenses EU ; contrôle spend, receipts et comptabilité intégrée.",
+      "capabilities": [
+        "expense_cards",
+        "spend_control",
+        "receipts",
+        "accounting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DK",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.pleo.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur EU — spend management PME."
+    },
+    {
+      "id": "payhawk",
+      "name": "Payhawk",
+      "url": "https://payhawk.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Spend management EU ; cartes corporate, approvals et ERP sync.",
+      "capabilities": [
+        "corporate_cards",
+        "approvals",
+        "erp_sync",
+        "spend_management"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "BG",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://payhawk.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur EU — spend management scale-up."
+    },
+    {
+      "id": "soldo",
+      "name": "Soldo",
+      "url": "https://www.soldo.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Cartes dépenses UK/EU ; multi-utilisateur, budgets et export compta.",
+      "capabilities": [
+        "multi_user_cards",
+        "budgets",
+        "accounting_export",
+        "eu"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.soldo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mesh-payments",
+      "name": "Mesh Payments",
+      "url": "https://www.meshpayments.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Spend management startup ; cartes virtuelles, budgets et SaaS tracking.",
+      "capabilities": [
+        "virtual_cards",
+        "budgets",
+        "saas_tracking",
+        "startup"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.meshpayments.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tropic",
+      "name": "Tropic",
+      "url": "https://www.tropicapp.io/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "SaaS procurement ; négociation contrats, renewals et spend analytics.",
+      "capabilities": [
+        "saas_procurement",
+        "negotiation",
+        "renewals",
+        "spend_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.tropicapp.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "precoro",
+      "name": "Precoro",
+      "url": "https://precoro.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Procurement PME ; PO, approvals, budgets et three-way matching.",
+      "capabilities": [
+        "purchase_orders",
+        "approvals",
+        "budgets",
+        "three_way_match"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://precoro.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "order-co",
+      "name": "Order.co",
+      "url": "https://order.co/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Procurement unifié ; catalogues, approvals et paiements centralisés.",
+      "capabilities": [
+        "unified_procurement",
+        "catalogs",
+        "approvals",
+        "payments"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://order.co/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }

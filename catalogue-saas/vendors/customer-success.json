@@ -316,6 +316,238 @@
       "source_url": "https://www.strikedeck.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "skilljar",
+      "name": "Skilljar",
+      "url": "https://www.skilljar.com/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "LMS customer education ; onboarding clients, certifications et analytics.",
+      "capabilities": [
+        "customer_education",
+        "onboarding",
+        "certifications",
+        "analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.skilljar.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "workramp",
+      "name": "WorkRamp",
+      "url": "https://www.workramp.com/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "Plateforme enablement ; formation clients, partenaires et employés unifiée.",
+      "capabilities": [
+        "customer_training",
+        "partner_enablement",
+        "employee_lms",
+        "analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.workramp.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "stonly",
+      "name": "Stonly",
+      "url": "https://stonly.com/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "Guides interactifs CS ; walkthroughs in-app, KB et résolution self-service.",
+      "capabilities": [
+        "interactive_guides",
+        "in_app",
+        "knowledge_base",
+        "self_service"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://stonly.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "userpilot",
+      "name": "Userpilot",
+      "url": "https://userpilot.com/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "Product adoption CS ; onboarding in-app, NPS et feature announcements.",
+      "capabilities": [
+        "in_app_onboarding",
+        "nps",
+        "feature_announcements",
+        "adoption"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://userpilot.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pendo",
+      "name": "Pendo",
+      "url": "https://www.pendo.io/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "Product analytics + CS ; guides in-app, feedback et health scoring.",
+      "capabilities": [
+        "product_analytics",
+        "in_app_guides",
+        "feedback",
+        "health_scoring"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.pendo.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "client-success",
+      "name": "ClientSuccess",
+      "url": "https://clientsuccess.com/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "Plateforme CS B2B ; health scores, playbooks et renouvellements.",
+      "capabilities": [
+        "health_scores",
+        "playbooks",
+        "renewals",
+        "b2b_cs"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://clientsuccess.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gainsight-nxt",
+      "name": "Gainsight PX",
+      "url": "https://www.gainsight.com/product-experience/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "Product experience CS ; analytics in-app, guides et NPS intégré Gainsight.",
+      "capabilities": [
+        "product_experience",
+        "in_app_analytics",
+        "guides",
+        "nps"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.gainsight.com/product-experience/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "northpass-lms",
+      "name": "Northpass (groupe Gainsight)",
+      "url": "https://www.northpass.com/",
+      "segments": [
+        "customer-success"
+      ],
+      "description": "LMS customer success ; parcours formation clients et certifications.",
+      "capabilities": [
+        "customer_lms",
+        "learning_paths",
+        "certifications",
+        "integrations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.northpass.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -315,6 +315,209 @@
       "source_url": "https://www.legalfly.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "legalstart",
+      "name": "Legalstart",
+      "url": "https://www.legalstart.fr/",
+      "segments": [
+        "legal-contract-ai"
+      ],
+      "description": "Legaltech PME FR ; création société, contrats types et formalités juridiques en ligne.",
+      "capabilities": [
+        "company_creation",
+        "contract_templates",
+        "legal_formalities",
+        "sme"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.legalstart.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "legalplace",
+      "name": "LegalPlace",
+      "url": "https://www.legalplace.fr/",
+      "segments": [
+        "legal-contract-ai"
+      ],
+      "description": "Services juridiques online FR ; statuts, contrats commerciaux et veille obligations légales PME.",
+      "capabilities": [
+        "legal_services",
+        "statutes",
+        "commercial_contracts",
+        "compliance_alerts"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.legalplace.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kleo",
+      "name": "Kleo",
+      "url": "https://www.kleo.fr/",
+      "segments": [
+        "legal-contract-ai"
+      ],
+      "description": "Practice management avocats FR ; dossiers, facturation, agenda et automatisation actes juridiques.",
+      "capabilities": [
+        "practice_management",
+        "billing",
+        "case_management",
+        "legal_automation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.kleo.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dili",
+      "name": "Dili",
+      "url": "https://www.dili.fr/",
+      "segments": [
+        "legal-contract-ai"
+      ],
+      "description": "Analyse contrats IA FR ; revue clauses, scoring risques et recommandations négociation.",
+      "capabilities": [
+        "contract_analysis",
+        "clause_review",
+        "risk_scoring",
+        "negotiation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.dili.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lawgeex",
+      "name": "LawGeex",
+      "url": "https://www.lawgeex.com/",
+      "segments": [
+        "legal-contract-ai"
+      ],
+      "description": "Contract review AI ; analyse automatique contrats, playbooks et approbation workflows legal ops.",
+      "capabilities": [
+        "contract_review",
+        "playbooks",
+        "approval_workflows",
+        "legal_ops"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.lawgeex.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kira-systems",
+      "name": "Kira Systems (Litera)",
+      "url": "https://kirasystems.com/",
+      "segments": [
+        "legal-contract-ai"
+      ],
+      "description": "Due diligence IA ; extraction clauses, analyse M&A et revue portefeuilles contrats enterprise.",
+      "capabilities": [
+        "due_diligence",
+        "clause_extraction",
+        "m_and_a",
+        "contract_portfolio"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "CA",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://kirasystems.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "genie-ai-legal",
+      "name": "Genie AI",
+      "url": "https://www.genieai.co/",
+      "segments": [
+        "legal-contract-ai"
+      ],
+      "description": "Legal drafting AI ; génération contrats, templates intelligents et collaboration legal/business.",
+      "capabilities": [
+        "contract_drafting",
+        "smart_templates",
+        "collaboration",
+        "legal_ai"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.genieai.co/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

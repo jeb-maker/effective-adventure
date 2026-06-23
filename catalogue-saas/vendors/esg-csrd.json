@@ -317,6 +317,238 @@
       "source_url": "https://www.ibm.com/products/envizi",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "apiday",
+      "name": "Apiday",
+      "url": "https://www.apiday.com/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Collecte ESG PME FR ; questionnaires investisseurs, KPIs CSRD et reporting extra-financier simplifié.",
+      "capabilities": [
+        "esg_data_collection",
+        "investor_questionnaires",
+        "csrd",
+        "sme_reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.apiday.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "climate-partner",
+      "name": "ClimatePartner",
+      "url": "https://www.climatepartner.com/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Neutralité carbone EU ; calcul empreinte, compensation certifiée et labels ClimatePartner.",
+      "capabilities": [
+        "carbon_footprint",
+        "offsetting",
+        "certification",
+        "climate_labels"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.climatepartner.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "emitwise",
+      "name": "Emitwise",
+      "url": "https://www.emitwise.com/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Carbon accounting scope 1-3 ; collecte données supply chain, trajectoires SBTi et reporting CSRD.",
+      "capabilities": [
+        "carbon_accounting",
+        "scope_3",
+        "sbti",
+        "csrd_reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.emitwise.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "klim",
+      "name": "Klim",
+      "url": "https://www.klim.eco/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Crédits carbone agricoles FR ; pratiques régénératives, MRV sols et marketplace agriculteurs.",
+      "capabilities": [
+        "agricarbon",
+        "regenerative_ag",
+        "soil_mrv",
+        "farmer_marketplace"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.klim.eco/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "metrio",
+      "name": "Metrio (EcoAct)",
+      "url": "https://www.metrio.com/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Plateforme ESG EU ; collecte KPIs, reporting CSRD/ESRS et analytics performance durable.",
+      "capabilities": [
+        "esg_platform",
+        "csrd",
+        "esrs",
+        "sustainability_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.metrio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "position-green",
+      "name": "Position Green",
+      "url": "https://www.positiongreen.com/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "ESG software nordique ; double matérialité, CSRD disclosures et gestion données extra-financières.",
+      "capabilities": [
+        "double_materiality",
+        "csrd_disclosures",
+        "esg_data",
+        "reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "SE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.positiongreen.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "altruistiq",
+      "name": "Altruistiq",
+      "url": "https://www.altruistiq.com/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Carbon management enterprise ; mesure scope 3, plans réduction et reporting investisseurs CSRD.",
+      "capabilities": [
+        "scope_3",
+        "carbon_management",
+        "reduction_plans",
+        "investor_reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.altruistiq.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "minimum",
+      "name": "Minimum",
+      "url": "https://www.minimum.com/",
+      "segments": [
+        "esg-csrd"
+      ],
+      "description": "Carbon API enterprise ; calcul empreinte produits, intégration ERP et labels carbone automatisés.",
+      "capabilities": [
+        "carbon_api",
+        "product_footprint",
+        "erp_integration",
+        "carbon_labels"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.minimum.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

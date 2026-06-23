@@ -318,6 +318,209 @@
       "source_url": "https://aetion.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "adimed",
+      "name": "Adimed",
+      "url": "https://www.adimed.fr/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Data santé territoriale FR ; indicateurs population, analytics épidémiologie et tableaux ARS/communes.",
+      "capabilities": [
+        "territorial_health",
+        "epidemiology",
+        "population_indicators",
+        "public_health"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.adimed.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "phare-data",
+      "name": "Phare Data",
+      "url": "https://www.pharedata.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Real-world evidence FR ; analytics données médico-administratives, études pharmaco-épidémiologie.",
+      "capabilities": [
+        "rwe",
+        "medico_administrative",
+        "pharmaco_epidemiology",
+        "studies"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.pharedata.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "omny-health",
+      "name": "Omny Health",
+      "url": "https://www.omnyhealth.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Health data platform ; agrégation EHR/claims, analytics population health et cohortes recherche.",
+      "capabilities": [
+        "ehr_aggregation",
+        "claims",
+        "population_health",
+        "research_cohorts"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.omnyhealth.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "iqvia-rwe",
+      "name": "IQVIA Real-World Solutions",
+      "url": "https://www.iqvia.com/solutions/real-world-evidence",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "RWE enterprise ; données santé globales, analytics outcomes et études réglementaires/post-market.",
+      "capabilities": [
+        "rwe",
+        "global_health_data",
+        "outcomes_analytics",
+        "regulatory_studies"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.iqvia.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "medtrail",
+      "name": "MedTrail",
+      "url": "https://www.medtrail.io/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Patient journey analytics EU ; parcours de soins, adherence et analytics pharma/market access.",
+      "capabilities": [
+        "patient_journey",
+        "adherence",
+        "pharma_analytics",
+        "market_access"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.medtrail.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "holihealth",
+      "name": "HoliHealth",
+      "url": "https://www.holihealth.io/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Analytics prévention FR ; scoring risque santé, programmes prévention entreprise/assureurs.",
+      "capabilities": [
+        "prevention_analytics",
+        "risk_scoring",
+        "corporate_wellness",
+        "insurer_programs"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.holihealth.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "syntegra",
+      "name": "Syntegra",
+      "url": "https://www.syntegra.io/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Synthetic health data ; génération datasets synthétiques privacy-preserving pour recherche IA.",
+      "capabilities": [
+        "synthetic_data",
+        "privacy_preserving",
+        "research",
+        "health_ai"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.syntegra.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -314,6 +314,209 @@
       "source_url": "https://www.graneet.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "archilogic",
+      "name": "Archilogic",
+      "url": "https://archilogic.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Plans 3D interactifs ; digital twin bâtiments, visites virtuelles et intégration BIM léger.",
+      "capabilities": [
+        "3d_plans",
+        "digital_twin",
+        "virtual_tours",
+        "bim_light"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "CH",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://archilogic.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "bimtrack",
+      "name": "BIM Track",
+      "url": "https://bimtrack.co/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Coordination BIM cloud ; issues BCF, suivi clashes et collaboration maîtrise d'œuvre/chantier.",
+      "capabilities": [
+        "bim_coordination",
+        "bcf",
+        "clash_tracking",
+        "cloud_collaboration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "CA",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://bimtrack.co/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ibat",
+      "name": "iBAT",
+      "url": "https://www.ibat.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Achats BTP FR ; marketplace matériaux, devis chantier et pilotage dépenses sous-traitants.",
+      "capabilities": [
+        "construction_procurement",
+        "marketplace",
+        "quotes",
+        "spend_control"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.ibat.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "helyx",
+      "name": "Helyx",
+      "url": "https://www.helyx.io/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Gestion chantier mobile FR ; suivi avancement, photos terrain et rapports maîtrise d'ouvrage.",
+      "capabilities": [
+        "field_management",
+        "progress_tracking",
+        "photo_reports",
+        "mobile"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.helyx.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "planbim",
+      "name": "Plan BIM",
+      "url": "https://www.plan-bim.fr/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Accompagnement BIM FR ; formation, maquettes numériques et conformité référentiels construction.",
+      "capabilities": [
+        "bim_training",
+        "digital_models",
+        "compliance",
+        "consulting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.plan-bim.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "trimble-connect",
+      "name": "Trimble Connect",
+      "url": "https://connect.trimble.com/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Collaboration BIM Trimble ; modèles 3D, workflows construction et intégration écosystème Trimble.",
+      "capabilities": [
+        "bim_collaboration",
+        "3d_models",
+        "construction_workflows",
+        "trimble_ecosystem"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://connect.trimble.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "inovva",
+      "name": "Inovva",
+      "url": "https://www.inovva.fr/",
+      "segments": [
+        "construction-proptech"
+      ],
+      "description": "Plateforme données chantier FR ; jumeau numérique, capteurs IoT et analytics performance BTP.",
+      "capabilities": [
+        "digital_twin",
+        "iot_sensors",
+        "construction_analytics",
+        "performance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.inovva.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -88,7 +88,8 @@
       "name": "Doctolib",
       "url": "https://www.doctolib.fr/",
       "segments": [
-        "public-health-territory-fr"
+        "public-health-territory-fr",
+        "healthcare-clinical-ai"
       ],
       "description": "Plateforme santé ; données indirectes déserts médicaux via disponibilité.",
       "capabilities": [

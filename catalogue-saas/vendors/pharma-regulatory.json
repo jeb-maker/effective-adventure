@@ -318,6 +318,210 @@
       "source_url": "https://www.certara.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "montrium",
+      "name": "Montrium",
+      "url": "https://www.montrium.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "Regulatory cloud EU ; dossiers eCTD, soumissions EMA/FDA et collaboration regulatory affairs.",
+      "capabilities": [
+        "ectd",
+        "regulatory_submissions",
+        "ema_fda",
+        "collaboration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "NL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.montrium.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "arisglobal",
+      "name": "ArisGlobal",
+      "url": "https://www.arisglobal.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "Life sciences platform ; pharmacovigilance, regulatory information et quality management GxP.",
+      "capabilities": [
+        "pharmacovigilance",
+        "regulatory_information",
+        "gxp",
+        "quality_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.arisglobal.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "valgenesis",
+      "name": "ValGenesis",
+      "url": "https://www.valgenesis.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "Validation lifecycle management ; CSV, GxP validation et dossiers audit-ready pharma.",
+      "capabilities": [
+        "csv",
+        "gxp_validation",
+        "lifecycle_management",
+        "audit_ready"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.valgenesis.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "softway-medical",
+      "name": "Softway Medical",
+      "url": "https://www.softwaymedical.fr/",
+      "segments": [
+        "pharma-regulatory",
+        "healthcare-clinical-ai"
+      ],
+      "description": "SIH cloud FR ; DPI, prescriptions, traçabilité médicaments et conformité HAS/HDS.",
+      "capabilities": [
+        "ehr",
+        "prescriptions",
+        "medication_traceability",
+        "hds"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.softwaymedical.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pharmagest",
+      "name": "Pharmagest",
+      "url": "https://www.pharmagest.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "Solutions officine FR ; gestion pharmacie, traçabilité médicaments et conformité réglementaire ANSM.",
+      "capabilities": [
+        "pharmacy_management",
+        "medication_traceability",
+        "ansm_compliance",
+        "dispensing"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.pharmagest.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "idbs",
+      "name": "IDBS",
+      "url": "https://www.idbs.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "R&D data platform ; ELN, workflows labo et regulatory data management biopharma.",
+      "capabilities": [
+        "eln",
+        "lab_workflows",
+        "rd_data",
+        "regulatory_data"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.idbs.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sparta-systems",
+      "name": "Sparta Systems (TrackWise)",
+      "url": "https://www.spartasystems.com/",
+      "segments": [
+        "pharma-regulatory"
+      ],
+      "description": "Quality management pharma ; déviations, CAPA, audits et conformité FDA/EMA GxP.",
+      "capabilities": [
+        "quality_management",
+        "capa",
+        "deviations",
+        "fda_ema_gxp"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.spartasystems.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

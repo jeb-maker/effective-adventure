@@ -408,7 +408,8 @@
       "name": "Metron",
       "url": "https://www.metron.io/",
       "segments": [
-        "energy-buildings-fr"
+        "energy-buildings-fr",
+        "energy-cleantech"
       ],
       "description": "Optimisation énergétique industrie et tertiaire ; EMS, analytics conso et réduction factures.",
       "capabilities": [

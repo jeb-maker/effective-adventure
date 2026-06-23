@@ -315,6 +315,209 @@
       "source_url": "https://www.sennder.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "flowlity",
+      "name": "Flowlity",
+      "url": "https://www.flowlity.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Demand forecasting IA FR ; prévisions ML, inventory optimization et S&OP industrie/retail.",
+      "capabilities": [
+        "demand_forecasting",
+        "ml",
+        "inventory_optimization",
+        "s_and_op"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.flowlity.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "stockly",
+      "name": "Stockly",
+      "url": "https://www.stockly.ai/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Inventory sharing retail FR ; mutualisation stocks e-commerce, fulfillment et réduction ruptures.",
+      "capabilities": [
+        "inventory_sharing",
+        "ecommerce",
+        "fulfillment",
+        "stock_optimization"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.stockly.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "bigblue",
+      "name": "Bigblue",
+      "url": "https://www.bigblue.co/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Fulfillment e-commerce FR ; entrepôts, préparation commandes et livraison D2C Europe.",
+      "capabilities": [
+        "fulfillment",
+        "warehousing",
+        "d2c",
+        "ecommerce_logistics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.bigblue.co/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "everstream-analytics",
+      "name": "Everstream Analytics",
+      "url": "https://www.everstream.ai/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Supply chain risk AI ; alertes risques, prédictions disruptions et analytics fournisseurs/logistique.",
+      "capabilities": [
+        "supply_chain_risk",
+        "disruption_prediction",
+        "supplier_analytics",
+        "alerts"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.everstream.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "stowga",
+      "name": "Stowga",
+      "url": "https://www.stowga.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Marketplace entrepôts EU ; stockage flexible, fulfillment on-demand et optimisation coûts logistiques.",
+      "capabilities": [
+        "warehouse_marketplace",
+        "flex_storage",
+        "on_demand_fulfillment",
+        "cost_optimization"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.stowga.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "oware",
+      "name": "Oware",
+      "url": "https://www.oware.fr/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "WMS cloud FR ; gestion entrepôt, préparation commandes et intégration e-commerce/ERP.",
+      "capabilities": [
+        "wms",
+        "warehouse_management",
+        "order_picking",
+        "erp_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.oware.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "seven-send",
+      "name": "Seven Senders",
+      "url": "https://www.sevensenders.com/",
+      "segments": [
+        "supply-chain-logistics"
+      ],
+      "description": "Delivery platform EU ; orchestration transporteurs last-mile, tracking et analytics livraison e-commerce.",
+      "capabilities": [
+        "last_mile",
+        "carrier_orchestration",
+        "tracking",
+        "delivery_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.sevensenders.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -92,7 +92,8 @@
       "name": "Toucan Toco",
       "url": "https://www.toucantoco.com/",
       "segments": [
-        "open-data-governance-fr"
+        "open-data-governance-fr",
+        "bi-analytics-platforms"
       ],
       "description": "Data storytelling pour rendre données publiques accessibles citoyens.",
       "capabilities": [

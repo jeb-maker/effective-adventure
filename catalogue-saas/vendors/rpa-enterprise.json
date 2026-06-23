@@ -320,6 +320,209 @@
       "source_url": "https://www.nice.com/products/automation/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "sap-build-rpa",
+      "name": "SAP Build Process Automation",
+      "url": "https://www.sap.com/products/technology-platform/process-automation.html",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "RPA SAP ; workflows low-code, bots et intégration S/4HANA.",
+      "capabilities": [
+        "sap_rpa",
+        "low_code",
+        "bots",
+        "s4hana"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.sap.com/products/technology-platform/process-automation.html",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ibm-rpa",
+      "name": "IBM Robotic Process Automation",
+      "url": "https://www.ibm.com/products/robotic-process-automation",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "RPA IBM ; bots unattended, orchestration et Watson intégration.",
+      "capabilities": [
+        "unattended_bots",
+        "orchestration",
+        "watson",
+        "enterprise"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.ibm.com/products/robotic-process-automation",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "workato-rpa",
+      "name": "Workato",
+      "url": "https://www.workato.com/",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "Automation enterprise ; iPaaS, RPA léger et recipes pré-construites.",
+      "capabilities": [
+        "ipaas",
+        "light_rpa",
+        "recipes",
+        "enterprise"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.workato.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hyland-rpa",
+      "name": "Hyland RPA",
+      "url": "https://www.hyland.com/",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "RPA document-centric ; extraction, workflows et content services.",
+      "capabilities": [
+        "document_rpa",
+        "extraction",
+        "workflows",
+        "content_services"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.hyland.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "automation-edge",
+      "name": "Automation Edge",
+      "url": "https://automationedge.com/",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "RPA + AI enterprise ; bots, IDP et hyperautomation mid-market.",
+      "capabilities": [
+        "rpa",
+        "idp",
+        "hyperautomation",
+        "mid_market"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IN",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://automationedge.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "softomotive",
+      "name": "Softomotive (Microsoft)",
+      "url": "https://www.microsoft.com/en-us/power-platform/products/power-automate",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "WinAutomation RPA desktop ; scripts UI et intégration Power Platform.",
+      "capabilities": [
+        "desktop_rpa",
+        "ui_automation",
+        "power_platform",
+        "scripts"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.microsoft.com/en-us/power-platform/products/power-automate",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "rocketbot",
+      "name": "Rocketbot",
+      "url": "https://rocketbot.com/",
+      "segments": [
+        "rpa-enterprise"
+      ],
+      "description": "RPA open-source LATAM/EU ; studio visuel, orchestrateur et low-cost.",
+      "capabilities": [
+        "open_source_rpa",
+        "visual_studio",
+        "orchestrator",
+        "low_cost"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://rocketbot.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

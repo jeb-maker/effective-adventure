@@ -317,6 +317,209 @@
       "source_url": "https://www.getcensus.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "meltano",
+      "name": "Meltano",
+      "url": "https://meltano.com/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "ELT open-source ; Singer taps, dbt et orchestration data ops self-hosted.",
+      "capabilities": [
+        "elt",
+        "singer",
+        "dbt",
+        "self_hosted"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://meltano.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "rivery",
+      "name": "Rivery",
+      "url": "https://rivery.io/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "ELT cloud ; pipelines no-code, reverse ETL et gouvernance data.",
+      "capabilities": [
+        "elt",
+        "no_code",
+        "reverse_etl",
+        "governance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://rivery.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "integrate-io",
+      "name": "Integrate.io",
+      "url": "https://www.integrate.io/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "ETL/ELT low-code ; pipelines, API management et data warehouse sync.",
+      "capabilities": [
+        "etl",
+        "low_code",
+        "api_management",
+        "warehouse_sync"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.integrate.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "polytomic",
+      "name": "Polytomic",
+      "url": "https://www.polytomic.com/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "Sync données no-code ; ETL bidirectionnel CRM/warehouse et monitoring.",
+      "capabilities": [
+        "no_code_sync",
+        "bidirectional",
+        "crm_warehouse",
+        "monitoring"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.polytomic.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "nexla",
+      "name": "Nexla",
+      "url": "https://www.nexla.com/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "Data operations ; ingestion, transformation et gouvernance unified platform.",
+      "capabilities": [
+        "data_ops",
+        "ingestion",
+        "transformation",
+        "governance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.nexla.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "estuary",
+      "name": "Estuary",
+      "url": "https://estuary.dev/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "CDC streaming ETL ; sync temps réel sources→destinations open-core.",
+      "capabilities": [
+        "cdc",
+        "streaming",
+        "real_time",
+        "open_core"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://estuary.dev/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hightouch",
+      "name": "Hightouch",
+      "url": "https://hightouch.com/",
+      "segments": [
+        "data-integration-etl"
+      ],
+      "description": "Reverse ETL ; sync warehouse→SaaS, audiences et composable CDP.",
+      "capabilities": [
+        "reverse_etl",
+        "warehouse_sync",
+        "audiences",
+        "composable_cdp"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://hightouch.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

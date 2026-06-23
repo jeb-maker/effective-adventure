@@ -316,6 +316,180 @@
       "source_url": "https://www.talentlms.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "edflex",
+      "name": "Edflex",
+      "url": "https://www.edflex.com/",
+      "segments": [
+        "learning-lxp"
+      ],
+      "description": "LXP curation FR ; agrégation contenus formation, parcours upskilling et analytics compétences.",
+      "capabilities": [
+        "content_curation",
+        "upskilling",
+        "skills_analytics",
+        "lxp"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.edflex.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "domoscio",
+      "name": "Domoscio",
+      "url": "https://www.domoscio.com/",
+      "segments": [
+        "learning-lxp"
+      ],
+      "description": "Adaptive learning FR ; IA spaced repetition, parcours personnalisés et analytics mémorisation.",
+      "capabilities": [
+        "adaptive_learning",
+        "spaced_repetition",
+        "personalization",
+        "memory_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.domoscio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tentee",
+      "name": "Tentee",
+      "url": "https://www.tentee.co/",
+      "segments": [
+        "learning-lxp"
+      ],
+      "description": "Microlearning mobile FR ; capsules formation, gamification et suivi compétences équipes terrain.",
+      "capabilities": [
+        "microlearning",
+        "mobile",
+        "gamification",
+        "field_teams"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.tentee.co/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "learnosity",
+      "name": "Learnosity",
+      "url": "https://www.learnosity.com/",
+      "segments": [
+        "learning-lxp"
+      ],
+      "description": "Assessment engine ; évaluations interactives, analytics apprentissage et intégration LMS/LXP.",
+      "capabilities": [
+        "assessments",
+        "interactive",
+        "learning_analytics",
+        "lms_integration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "AU",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.learnosity.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "eloomi",
+      "name": "Eloomi",
+      "url": "https://www.eloomi.com/",
+      "segments": [
+        "learning-lxp"
+      ],
+      "description": "LXP/LMS EU ; parcours formation, performance management et analytics compétences.",
+      "capabilities": [
+        "lxp",
+        "lms",
+        "performance",
+        "skills_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DK",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.eloomi.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "neobrain",
+      "name": "Neobrain",
+      "url": "https://www.neobrain.io/",
+      "segments": [
+        "learning-lxp"
+      ],
+      "description": "Skills intelligence FR ; cartographie compétences, recommandations formation IA et mobilité interne.",
+      "capabilities": [
+        "skills_intelligence",
+        "competency_mapping",
+        "ai_recommendations",
+        "internal_mobility"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.neobrain.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

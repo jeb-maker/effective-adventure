@@ -324,6 +324,209 @@
       "source_url": "https://groq.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "Agrégateur API LLM ; routing multi-modèles, fallback et billing unifié.",
+      "capabilities": [
+        "model_routing",
+        "multi_model",
+        "fallback",
+        "unified_billing"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://openrouter.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "xai-grok-api",
+      "name": "xAI Grok API",
+      "url": "https://x.ai/api",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "API Grok xAI ; modèles reasoning, vision et contexte long.",
+      "capabilities": [
+        "grok_models",
+        "reasoning",
+        "vision",
+        "long_context"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://x.ai/api",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "reka-ai",
+      "name": "Reka AI",
+      "url": "https://reka.ai/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "Modèles multimodaux API ; vision, vidéo et agents enterprise.",
+      "capabilities": [
+        "multimodal",
+        "vision",
+        "video",
+        "agents"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://reka.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "openchat",
+      "name": "OpenChat",
+      "url": "https://openchat.ai/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "API chat open-weight ; modèles OSS hébergés et fine-tuning.",
+      "capabilities": [
+        "open_weight",
+        "hosted_models",
+        "fine_tuning",
+        "chat_api"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://openchat.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "nvidia-nim",
+      "name": "NVIDIA NIM",
+      "url": "https://www.nvidia.com/en-us/ai/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "Inference microservices NVIDIA ; modèles optimisés GPU et déploiement enterprise.",
+      "capabilities": [
+        "gpu_inference",
+        "microservices",
+        "optimized_models",
+        "enterprise"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.nvidia.com/en-us/ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "amazon-nova",
+      "name": "Amazon Nova",
+      "url": "https://aws.amazon.com/ai/generative-ai/nova/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "Modèles Nova AWS Bedrock ; texte, image et agents via API managée.",
+      "capabilities": [
+        "bedrock",
+        "text",
+        "image",
+        "agents"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://aws.amazon.com/ai/generative-ai/nova/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "google-vertex-ai",
+      "name": "Google Vertex AI",
+      "url": "https://cloud.google.com/vertex-ai",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "Plateforme ML/LLM Google ; Gemini, fine-tuning et MLOps unifié.",
+      "capabilities": [
+        "gemini",
+        "fine_tuning",
+        "mlops",
+        "enterprise"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://cloud.google.com/vertex-ai",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

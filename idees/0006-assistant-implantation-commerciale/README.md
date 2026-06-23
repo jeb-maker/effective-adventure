@@ -153,7 +153,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `data-enrichment-b2b` — Enrichissement données B2B
 
-Fichier : [`catalogue-saas/vendors/data-enrichment-b2b.json`](../../catalogue-saas/vendors/data-enrichment-b2b.json) (11 entrées)
+Fichier : [`catalogue-saas/vendors/data-enrichment-b2b.json`](../../catalogue-saas/vendors/data-enrichment-b2b.json) (19 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -168,6 +168,8 @@ Fichier : [`catalogue-saas/vendors/data-enrichment-b2b.json`](../../catalogue-sa
 | `rocketreach` | RocketReach | US | partial | partial |
 | `leadfeeder` | Leadfeeder (Dealfront) | FI | partial | partial |
 | `dealfront` | Dealfront | FI | partial | partial |
+| `kaspr` | Kaspr | FR | strong | partial |
+| … | _+7 autres_ | | | |
 
 #### Segment `retail-ecommerce-ai` — Retail & e-commerce IA
 

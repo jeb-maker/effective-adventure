@@ -317,6 +317,209 @@
       "source_url": "https://silktide.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "siteimprove",
+      "name": "Siteimprove",
+      "url": "https://www.siteimprove.com/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Monitoring accessibilité et qualité web ; scans WCAG, dashboards conformité et workflows remédiation.",
+      "capabilities": [
+        "wcag_monitoring",
+        "accessibility_scanning",
+        "compliance_dashboards",
+        "remediation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "DK",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.siteimprove.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "monsido",
+      "name": "Monsido",
+      "url": "https://monsido.com/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Plateforme web governance EU ; accessibilité WCAG, SEO, privacy et alertes régression multi-sites.",
+      "capabilities": [
+        "wcag",
+        "web_governance",
+        "regression_alerts",
+        "multi_site"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DK",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://monsido.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "access42",
+      "name": "Access 42",
+      "url": "https://access42.net/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Expertise accessibilité FR ; audits RGAA/WCAG, formation équipes et accompagnement secteur public.",
+      "capabilities": [
+        "rgaa",
+        "wcag",
+        "audit",
+        "training"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://access42.net/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "qualiweb",
+      "name": "Qualiweb",
+      "url": "https://www.qualiweb.net/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Audit et certification accessibilité FR ; conformité RGAA, rapports et plans de mise en conformité.",
+      "capabilities": [
+        "rgaa",
+        "certification",
+        "audit_reports",
+        "remediation_plans"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.qualiweb.net/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fable",
+      "name": "Fable",
+      "url": "https://makeitfable.com/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Tests utilisateurs accessibilité ; panels personnes en situation de handicap et feedback produit.",
+      "capabilities": [
+        "user_testing",
+        "disability_panels",
+        "accessibility_research",
+        "product_feedback"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "CA",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://makeitfable.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "equalweb",
+      "name": "EqualWeb",
+      "url": "https://www.equalweb.com/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Widget accessibilité IA ; conformité WCAG/ADA, personnalisation affichage et rapports audit.",
+      "capabilities": [
+        "accessibility_widget",
+        "wcag",
+        "ai_remediation",
+        "audit_reports"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.equalweb.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "access-for-all",
+      "name": "Access for All",
+      "url": "https://www.access-for-all.com/",
+      "segments": [
+        "accessibility-compliance"
+      ],
+      "description": "Consulting et outils accessibilité FR ; audits RGAA, sensibilisation et veille réglementaire EU.",
+      "capabilities": [
+        "rgaa",
+        "consulting",
+        "awareness",
+        "regulatory_watch"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.access-for-all.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

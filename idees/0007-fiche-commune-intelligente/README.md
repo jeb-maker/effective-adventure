@@ -88,7 +88,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `bi-analytics-platforms` — BI & analytics
 
-Fichier : [`catalogue-saas/vendors/bi-analytics-platforms.json`](../../catalogue-saas/vendors/bi-analytics-platforms.json) (11 entrées)
+Fichier : [`catalogue-saas/vendors/bi-analytics-platforms.json`](../../catalogue-saas/vendors/bi-analytics-platforms.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -103,6 +103,8 @@ Fichier : [`catalogue-saas/vendors/bi-analytics-platforms.json`](../../catalogue
 | `metabase` | Metabase | US | partial | partial |
 | `hex-tech` | Hex | US | partial | partial |
 | `sigma-computing` | Sigma Computing | US | partial | partial |
+| `microstrategy` | MicroStrategy | US | partial | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash

@@ -320,6 +320,212 @@
       "source_url": "https://www.gorgias.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "aircall",
+      "name": "Aircall",
+      "url": "https://aircall.io/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Téléphonie cloud helpdesk ; VoIP, CRM sync et analytics équipe support.",
+      "capabilities": [
+        "cloud_phone",
+        "voip",
+        "crm_sync",
+        "support_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://aircall.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — téléphonie cloud PME/ETI."
+    },
+    {
+      "id": "ringover",
+      "name": "Ringover",
+      "url": "https://www.ringover.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Centre d'appels cloud FR ; VoIP, power dialer et intégrations CRM.",
+      "capabilities": [
+        "cloud_contact_center",
+        "power_dialer",
+        "voip",
+        "crm"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.ringover.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — centre d'appels cloud."
+    },
+    {
+      "id": "diabolocom",
+      "name": "Diabolocom",
+      "url": "https://www.diabolocom.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "CCaaS FR ; routage intelligent, WFM et intégration CRM omnicanal.",
+      "capabilities": [
+        "ccaas",
+        "intelligent_routing",
+        "wfm",
+        "omnichannel"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.diabolocom.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — CCaaS enterprise."
+    },
+    {
+      "id": "reamaze",
+      "name": "Re:amaze",
+      "url": "https://www.reamaze.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk e-commerce ; chat, FAQ, order management et Shopify native.",
+      "capabilities": [
+        "ecommerce_helpdesk",
+        "chat",
+        "faq",
+        "shopify"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.reamaze.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "happyfox",
+      "name": "HappyFox",
+      "url": "https://www.happyfox.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk IT/ops ; ticketing, knowledge base et automatisations SLA.",
+      "capabilities": [
+        "ticketing",
+        "knowledge_base",
+        "sla",
+        "automation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.happyfox.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "liveagent",
+      "name": "LiveAgent",
+      "url": "https://www.liveagent.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk omnicanal ; chat, email, call center et social intégrés.",
+      "capabilities": [
+        "omnichannel",
+        "chat",
+        "call_center",
+        "social"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "SK",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.liveagent.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "talkdesk",
+      "name": "Talkdesk",
+      "url": "https://www.talkdesk.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "CCaaS cloud ; routage IA, omnicanal et intégrations CRM enterprise.",
+      "capabilities": [
+        "ccaas",
+        "ai_routing",
+        "omnichannel",
+        "crm_integrations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.talkdesk.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

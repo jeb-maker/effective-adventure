@@ -7,7 +7,8 @@
       "name": "Gong",
       "url": "https://www.gong.io/",
       "segments": [
-        "revenue-intelligence"
+        "revenue-intelligence",
+        "meeting-intelligence"
       ],
       "description": "Conversation intelligence : analyse appels, deals et coaching revenue.",
       "capabilities": [
@@ -63,7 +64,8 @@
       "name": "Chorus.ai (ZoomInfo)",
       "url": "https://www.chorus.ai/",
       "segments": [
-        "revenue-intelligence"
+        "revenue-intelligence",
+        "meeting-intelligence"
       ],
       "description": "Conversation analytics pour sales ; moments clés et playbook.",
       "capabilities": [
@@ -314,6 +316,209 @@
       "discovery_source": "crunchbase",
       "discovery_pass": "2026-06-v5n-workplace-data-sales",
       "source_url": "https://www.oliv.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "revenue-grid",
+      "name": "Revenue Grid",
+      "url": "https://revenuegrid.com/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Revenue orchestration ; guided selling, CRM automation et forecasting.",
+      "capabilities": [
+        "guided_selling",
+        "crm_automation",
+        "forecasting",
+        "orchestration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://revenuegrid.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "wingman",
+      "name": "Wingman (Clari)",
+      "url": "https://www.clari.com/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Conversation intelligence ; coaching live, deal risk et playbook ventes.",
+      "capabilities": [
+        "conversation_intel",
+        "live_coaching",
+        "deal_risk",
+        "playbooks"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.clari.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "common-room",
+      "name": "Common Room",
+      "url": "https://www.commonroom.io/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Revenue intelligence community ; signaux product-led et scoring accounts.",
+      "capabilities": [
+        "community_signals",
+        "product_led",
+        "account_scoring",
+        "intent"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.commonroom.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "revenue-base",
+      "name": "RevenueBase",
+      "url": "https://www.revenuebase.ai/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Pipeline intelligence IA ; deal inspection, risk alerts et CRM enrichi.",
+      "capabilities": [
+        "pipeline_intel",
+        "deal_inspection",
+        "risk_alerts",
+        "crm_enrichment"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.revenuebase.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mindtickle",
+      "name": "Mindtickle",
+      "url": "https://www.mindtickle.com/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Sales readiness ; enablement, coaching et revenue intelligence intégré.",
+      "capabilities": [
+        "sales_readiness",
+        "enablement",
+        "coaching",
+        "revenue_intel"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IN",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.mindtickle.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "salesloft",
+      "name": "Salesloft",
+      "url": "https://salesloft.com/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Sales engagement + intelligence ; séquences, dialer et conversation analytics.",
+      "capabilities": [
+        "sales_engagement",
+        "sequences",
+        "dialer",
+        "analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://salesloft.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "outreach",
+      "name": "Outreach",
+      "url": "https://www.outreach.io/",
+      "segments": [
+        "revenue-intelligence"
+      ],
+      "description": "Sales execution platform ; sequences, meeting intel Kaia et forecasting.",
+      "capabilities": [
+        "sequences",
+        "meeting_intel",
+        "forecasting",
+        "execution"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.outreach.io/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }

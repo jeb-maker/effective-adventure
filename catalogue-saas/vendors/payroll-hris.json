@@ -318,6 +318,209 @@
       "source_url": "https://www.sdworx.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "people-doc",
+      "name": "PeopleDoc (UKG)",
+      "url": "https://www.ukg.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "HR service delivery FR ; dossiers employés digitaux, workflows RH et conformité sociale.",
+      "capabilities": [
+        "employee_files",
+        "hr_workflows",
+        "service_delivery",
+        "social_compliance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.ukg.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "talentia",
+      "name": "Talentia Software",
+      "url": "https://www.talentia.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "SIRH/paie mid-market FR ; core HR, paie multi-conventions et reporting social.",
+      "capabilities": [
+        "hris",
+        "payroll",
+        "multi_convention",
+        "social_reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.talentia.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hr-path",
+      "name": "HR Path",
+      "url": "https://www.hr-path.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "Consulting et solutions HRIS FR ; déploiement SIRH, paie et transformation RH digital.",
+      "capabilities": [
+        "hris_implementation",
+        "payroll",
+        "hr_transformation",
+        "consulting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.hr-path.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kelio",
+      "name": "Kelio (Bodet)",
+      "url": "https://www.kelio.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "Gestion temps/paie FR ; pointage, planning, absences et interface paie expert-comptable.",
+      "capabilities": [
+        "time_tracking",
+        "scheduling",
+        "absences",
+        "payroll_interface"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.kelio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hibob",
+      "name": "HiBob",
+      "url": "https://www.hibob.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "HRIS moderne EU ; core HR, onboarding, performance et analytics people mid-market.",
+      "capabilities": [
+        "hris",
+        "onboarding",
+        "performance",
+        "people_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.hibob.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "papaya-global",
+      "name": "Papaya Global",
+      "url": "https://www.papaya-global.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "Global payroll platform ; EOR, paiements multi-pays et conformité fiscale/sociale internationale.",
+      "capabilities": [
+        "global_payroll",
+        "eor",
+        "multi_country",
+        "tax_compliance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.papaya-global.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sympa",
+      "name": "Sympa HR",
+      "url": "https://www.sympa.com/",
+      "segments": [
+        "payroll-hris"
+      ],
+      "description": "HRIS cloud EU ; core HR, workflows personnalisés et analytics RH PME/mid-market.",
+      "capabilities": [
+        "hris",
+        "custom_workflows",
+        "hr_analytics",
+        "cloud"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.sympa.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

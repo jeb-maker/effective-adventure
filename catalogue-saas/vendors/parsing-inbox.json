@@ -948,7 +948,8 @@
       "name": "Dixa",
       "url": "https://www.dixa.com/",
       "segments": [
-        "parsing-inbox"
+        "parsing-inbox",
+        "helpdesk-platforms"
       ],
       "description": "Plateforme ops client EU ; agrégation email/chat, dossier conversation et workflows validation.",
       "capabilities": [

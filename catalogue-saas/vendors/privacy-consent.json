@@ -320,6 +320,209 @@
       "source_url": "https://usercentrics.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "commanders-act",
+      "name": "Commanders Act (TrustCommander)",
+      "url": "https://www.commandersact.com/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "Tag management et CMP FR ; consentement cookies, gouvernance data marketing et conformité CNIL.",
+      "capabilities": [
+        "cmp",
+        "tag_management",
+        "cnil",
+        "marketing_governance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.commandersact.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cookie-information",
+      "name": "Cookie Information",
+      "url": "https://cookieinformation.com/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "CMP EU ; scan cookies, bannières conformes ePrivacy et logs consentement GDPR.",
+      "capabilities": [
+        "cmp",
+        "cookie_scan",
+        "eprivacy",
+        "consent_logs"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "DK",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://cookieinformation.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "consentmanager",
+      "name": "consentmanager",
+      "url": "https://www.consentmanager.net/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "CMP enterprise EU ; TCF IAB, multi-langues et gestion consentement multi-domaines.",
+      "capabilities": [
+        "cmp",
+        "tcf",
+        "multi_language",
+        "multi_domain"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.consentmanager.net/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "complianz",
+      "name": "Complianz",
+      "url": "https://complianz.io/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "CMP WordPress EU ; bannières cookies, privacy policy generator et conformité GDPR/CCPA.",
+      "capabilities": [
+        "cmp",
+        "wordpress",
+        "privacy_policy",
+        "gdpr_ccpa"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "NL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://complianz.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pandectes",
+      "name": "Pandectes",
+      "url": "https://pandectes.io/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "CMP Shopify/GDPR ; gestion consentement e-commerce, scan apps et conformité multi-régions.",
+      "capabilities": [
+        "cmp",
+        "shopify",
+        "ecommerce",
+        "multi_region"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "GR",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://pandectes.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "privacybee",
+      "name": "PrivacyBee",
+      "url": "https://privacybee.com/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "Privacy management EU ; registres traitements, DSAR et assessments GDPR pour PME.",
+      "capabilities": [
+        "processing_register",
+        "dsar",
+        "gdpr_assessments",
+        "sme"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "BE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://privacybee.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "quantcast-choice",
+      "name": "Quantcast Choice",
+      "url": "https://www.quantcast.com/products/consent-management/",
+      "segments": [
+        "privacy-consent"
+      ],
+      "description": "CMP TCF IAB ; consentement audience, intégration programmatic et conformité GDPR/CCPA.",
+      "capabilities": [
+        "cmp",
+        "tcf",
+        "programmatic",
+        "gdpr_ccpa"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.quantcast.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -183,7 +183,8 @@
       "name": "Fiddler AI",
       "url": "https://www.fiddler.ai/",
       "segments": [
-        "ai-governance"
+        "ai-governance",
+        "ai-evals-testing"
       ],
       "description": "Observabilité et monitoring modèles IA (performance, bias, drift) en production.",
       "capabilities": [
@@ -355,7 +356,8 @@
       "name": "Atlan",
       "url": "https://atlan.com/",
       "segments": [
-        "ai-governance"
+        "ai-governance",
+        "data-observability"
       ],
       "description": "Metadata/active governance pour données et actifs IA dans les pipelines analytics.",
       "capabilities": [
@@ -589,7 +591,8 @@
       "url": "https://whylabs.ai/",
       "segments": [
         "ai-governance",
-        "data-observability"
+        "data-observability",
+        "ai-evals-testing"
       ],
       "description": "Observability ML/LLM ; drift, data quality et monitoring modèles sans accès données brutes.",
       "capabilities": [

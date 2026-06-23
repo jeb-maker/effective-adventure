@@ -318,6 +318,209 @@
       "source_url": "https://cloud.memsource.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "textmaster",
+      "name": "TextMaster",
+      "url": "https://www.textmaster.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "Traduction professionnelle FR ; API/localisation contenu, réseau traducteurs et workflows enterprise.",
+      "capabilities": [
+        "professional_translation",
+        "api",
+        "translator_network",
+        "enterprise_workflows"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.textmaster.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "unbabel",
+      "name": "Unbabel",
+      "url": "https://unbabel.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "Traduction IA + humain ; customer service multilingue, QA linguistique et intégration helpdesk.",
+      "capabilities": [
+        "ai_human_translation",
+        "customer_service",
+        "linguistic_qa",
+        "helpdesk_integration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "PT",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://unbabel.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "locize",
+      "name": "locize",
+      "url": "https://locize.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "TMS/i18n cloud EU ; gestion clés traduction, CI/CD localisation et workflows développeurs.",
+      "capabilities": [
+        "tms",
+        "i18n",
+        "ci_cd",
+        "developer_workflows"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "CH",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://locize.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "localizejs",
+      "name": "Localize",
+      "url": "https://localizejs.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "Website localization ; traduction automatique/humaine, gestion strings et déploiement multilingue.",
+      "capabilities": [
+        "website_localization",
+        "auto_translation",
+        "string_management",
+        "multilingual_deploy"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://localizejs.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "rws-trados",
+      "name": "RWS Trados",
+      "url": "https://www.rws.com/localization/trados/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "TMS enterprise ; mémoires traduction, workflows linguistiques et QA localisation globale.",
+      "capabilities": [
+        "tms",
+        "translation_memory",
+        "linguistic_workflows",
+        "localization_qa"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.rws.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "xtm-cloud",
+      "name": "XTM Cloud",
+      "url": "https://xtm.cloud/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "TMS cloud ; gestion projets traduction, MT post-editing et analytics productivité linguistique.",
+      "capabilities": [
+        "tms",
+        "project_management",
+        "mt_post_editing",
+        "productivity_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://xtm.cloud/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lingohub",
+      "name": "LingoHub",
+      "url": "https://lingohub.com/",
+      "segments": [
+        "translation-localization"
+      ],
+      "description": "Localization platform ; workflows i18n, intégration Git et collaboration traducteurs/développeurs.",
+      "capabilities": [
+        "i18n",
+        "git_integration",
+        "translator_collaboration",
+        "workflows"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "AT",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://lingohub.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

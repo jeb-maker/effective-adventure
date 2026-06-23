@@ -202,7 +202,7 @@ Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalog
 
 #### Segment `spend-procurement` — Spend & procurement
 
-Fichier : [`catalogue-saas/vendors/spend-procurement.json`](../../catalogue-saas/vendors/spend-procurement.json) (11 entrées)
+Fichier : [`catalogue-saas/vendors/spend-procurement.json`](../../catalogue-saas/vendors/spend-procurement.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -217,6 +217,8 @@ Fichier : [`catalogue-saas/vendors/spend-procurement.json`](../../catalogue-saas
 | `proactis` | Proactis | GB | partial | partial |
 | `gep-smart` | GEP SMART | US | partial | partial |
 | `zycus` | Zycus | US | partial | partial |
+| `pleo` | Pleo | DK | partial | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash

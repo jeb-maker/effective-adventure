@@ -1129,7 +1129,8 @@
       "name": "Automation Hero",
       "url": "https://automationhero.com/",
       "segments": [
-        "document-idp"
+        "document-idp",
+        "rpa-enterprise"
       ],
       "description": "IDP industriel ; extraction, règles métier et postes de validation opérateur pour dossiers.",
       "capabilities": [

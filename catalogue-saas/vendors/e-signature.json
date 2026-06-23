@@ -319,6 +319,211 @@
       "source_url": "https://www.concordnow.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "signrequest",
+      "name": "SignRequest",
+      "url": "https://signrequest.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "E-signature EU ; workflows simples, API et conformité eIDAS.",
+      "capabilities": [
+        "eidas",
+        "workflows",
+        "api",
+        "simple_signing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "NL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://signrequest.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "signwell",
+      "name": "SignWell",
+      "url": "https://www.signwell.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "E-signature PME ; templates, bulk send et audit trail.",
+      "capabilities": [
+        "templates",
+        "bulk_send",
+        "audit_trail",
+        "smb"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.signwell.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "boldsign",
+      "name": "BoldSign",
+      "url": "https://boldsign.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "E-signature API-first ; embedded signing, webhooks et SDK.",
+      "capabilities": [
+        "api_first",
+        "embedded_signing",
+        "webhooks",
+        "sdk"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://boldsign.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "certigna",
+      "name": "Certigna",
+      "url": "https://www.certigna.fr/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "Signature électronique qualifiée FR ; eIDAS, archivage probatoire et secteur public.",
+      "capabilities": [
+        "qualified_signature",
+        "eidas",
+        "archiving",
+        "public_sector"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.certigna.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — signature qualifiée eIDAS."
+    },
+    {
+      "id": "luxtrust",
+      "name": "LuxTrust",
+      "url": "https://www.luxtrust.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "Identité et signature EU ; certificats qualifiés, eIDAS et secteur bancaire.",
+      "capabilities": [
+        "qualified_certs",
+        "eidas",
+        "identity",
+        "banking"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "LU",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.luxtrust.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur EU — trust services eIDAS."
+    },
+    {
+      "id": "firma-eu",
+      "name": "Firma",
+      "url": "https://firma.dev/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "E-signature developer-first ; API REST, webhooks et templates JSON.",
+      "capabilities": [
+        "developer_api",
+        "webhooks",
+        "templates",
+        "rest"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://firma.dev/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "legalesign",
+      "name": "Legalesign",
+      "url": "https://legalesign.com/",
+      "segments": [
+        "e-signature"
+      ],
+      "description": "E-signature UK/EU ; workflows, templates et conformité légale.",
+      "capabilities": [
+        "uk_eu_signing",
+        "workflows",
+        "templates",
+        "legal_compliance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://legalesign.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

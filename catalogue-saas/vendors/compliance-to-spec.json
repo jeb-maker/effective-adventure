@@ -275,7 +275,8 @@
       "url": "https://www.anecdotes.ai/",
       "segments": [
         "compliance-to-spec",
-        "grc-security"
+        "grc-security",
+        "data-observability"
       ],
       "description": "GRC automation : connecte outils existants, mappe frameworks vers contrôles opérationnels et specs d'evidence.",
       "capabilities": [
@@ -899,7 +900,8 @@
       "url": "https://www.getyooz.com/",
       "segments": [
         "compliance-to-spec",
-        "document-idp"
+        "document-idp",
+        "regulatory-reporting-eu"
       ],
       "description": "AP automation FR ; capture factures, contrôles conformité et workflow validation avant ERP.",
       "capabilities": [

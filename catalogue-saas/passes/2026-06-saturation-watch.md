@@ -15,18 +15,29 @@ python3 scripts/catalogue_saas.py saturation freeze
 python3 scripts/catalogue_saas.py saturation          # rapport historique par passe
 ```
 
-## État actuel (post V5q)
+## État actuel (post V5t-c)
 
 | Indicateur | Valeur |
 |---|---|
 | Segments avec passe réelle mesurable | **67 / 68** |
 | Segments gelés (`frozen-segments.json`) | **0** |
 | Segments `[SATURÉ]` (< 5 %) | **0** |
-| Segments `[PROCHE]` (5–8 %) | **0** |
-| Vendeurs catalogue | **1072** |
-| Taux minimum observé | **8,2 %** (`support-sales-agents`, V5s) |
+| Segments `[PROCHE]` (5–8 %) | **1** (`data-observability`, V5t) |
+| Vendeurs catalogue | **1261** |
+| Taux minimum observé | **7,4 %** (`data-observability`, V5t) |
 
-Aucun segment ne remplit encore le critère de gel L2/L3. La passe V5o (backfill coverage) est **exclue** du calcul : les taux affichés reflètent la **dernière passe de moisson réelle** (V5l–V5s, V5q chaîne RecordAI, etc.).
+Aucun segment ne remplit encore le critère de gel L2/L3. La passe V5o (backfill coverage) est **exclue** du calcul : les taux affichés reflètent la **dernière passe de moisson réelle** (V5l–V5t, V5q chaîne RecordAI, etc.).
+
+### V5t-c — workplace / sales / data / infra (2026-06-v5t-workplace-l3)
+
+| Segment | Nouveaux / candidats | Taux |
+|---|---:|---:|
+| `data-observability` | +5 / 68 | **7,4 %** `[PROCHE]` |
+| `llm-api-providers`, `model-inference-hosting`, … (14 segments) | +7 / 86 | **8,1 %** |
+| `helpdesk-platforms` | +7 / 77 | **9,1 %** |
+| `agent-frameworks-platforms`, `crm-platforms`, `customer-success`, `data-enrichment-b2b` | +10 / 95 | **10,5 %** |
+
+20 segments passés L2→L3 ; aucun gel imminent. `data-observability` à surveiller en maintenance (proche du seuil 5 %).
 
 ### V5q — chaîne RecordAI (2026-06-v5q-recordai-chain-l3)
 
@@ -42,11 +53,11 @@ Tous > seuil gel ; chaîne RecordAI (email → dossier validé → orchestration
 
 | Rang | Segment | Dernière passe réelle | Taux | Écart au seuil 5 % |
 |---:|---|---|---:|---:|
-| 1 | `support-sales-agents` | V5s | 8,2 % | +3,2 pts |
-| 2 | `ai-copilot-dev` | V5s | 8,9 % | +3,9 pts |
-| 3 | `ai-governance` | V5s | 9,6 % | +4,6 pts |
-| 4 | `rag-knowledge` | V5s | 10,3 % | +5,3 pts |
-| 5 | `voice-speech-ai` | V5s | 12,2 % | +7,2 pts |
+| 1 | `data-observability` | V5t | 7,4 % | +2,4 pts |
+| 2 | `support-sales-agents` | V5s | 8,2 % | +3,2 pts |
+| 3 | `llm-api-providers` | V5t | 8,1 % | +3,1 pts |
+| 4 | `ai-copilot-dev` | V5s | 8,9 % | +3,9 pts |
+| 5 | `ai-governance` | V5s | 9,6 % | +4,6 pts |
 
 Ces segments restent **éloignés** du seuil de gel mais seront les **premiers candidats** si une passe de maintenance ajoute peu de nouveaux acteurs.
 

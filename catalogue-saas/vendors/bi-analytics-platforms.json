@@ -317,6 +317,209 @@
       "source_url": "https://www.sigmacomputing.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "microstrategy",
+      "name": "MicroStrategy",
+      "url": "https://www.microstrategy.com/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "BI enterprise ; dashboards, embedded analytics et IA conversational.",
+      "capabilities": [
+        "enterprise_bi",
+        "dashboards",
+        "embedded",
+        "conversational_ai"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.microstrategy.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "yellowfin-bi",
+      "name": "Yellowfin BI",
+      "url": "https://www.yellowfinbi.com/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "BI collaborative ; storytelling data, alertes et embedded analytics.",
+      "capabilities": [
+        "collaborative_bi",
+        "storytelling",
+        "alerts",
+        "embedded"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "AU",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.yellowfinbi.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gooddata",
+      "name": "GoodData",
+      "url": "https://www.gooddata.com/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "Analytics embedded ; headless BI, métriques-as-code et multi-tenant.",
+      "capabilities": [
+        "embedded_analytics",
+        "headless_bi",
+        "metrics_as_code",
+        "multi_tenant"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.gooddata.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lightdash",
+      "name": "Lightdash",
+      "url": "https://www.lightdash.com/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "BI open-source dbt ; métriques dbt, dashboards self-serve et dbt Cloud sync.",
+      "capabilities": [
+        "dbt_bi",
+        "open_source",
+        "self_serve",
+        "metrics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.lightdash.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "evidence-dev",
+      "name": "Evidence",
+      "url": "https://evidence.dev/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "BI as code ; rapports Markdown/SQL, dashboards statiques et dbt intégration.",
+      "capabilities": [
+        "bi_as_code",
+        "markdown",
+        "sql",
+        "dbt"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://evidence.dev/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "holistics",
+      "name": "Holistics",
+      "url": "https://www.holistics.io/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "Semantic layer BI ; modèles métier, self-serve et embedded analytics.",
+      "capabilities": [
+        "semantic_layer",
+        "self_serve",
+        "embedded",
+        "modeling"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.holistics.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "preset-io",
+      "name": "Preset (Apache Superset)",
+      "url": "https://preset.io/",
+      "segments": [
+        "bi-analytics-platforms"
+      ],
+      "description": "Superset managé ; dashboards, SQL Lab et alerting cloud-hosted.",
+      "capabilities": [
+        "superset",
+        "dashboards",
+        "sql_lab",
+        "managed"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://preset.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

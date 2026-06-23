@@ -318,6 +318,213 @@
       "source_url": "https://www.drip.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "hubspot-marketing",
+      "name": "HubSpot Marketing Hub",
+      "url": "https://www.hubspot.com/products/marketing",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Marketing automation inbound ; workflows, lead scoring et analytics.",
+      "capabilities": [
+        "inbound",
+        "workflows",
+        "lead_scoring",
+        "analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.hubspot.com/products/marketing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pardot",
+      "name": "Salesforce Pardot",
+      "url": "https://www.salesforce.com/products/marketing-cloud/account-engagement/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "B2B marketing automation Salesforce ; nurturing, scoring et ROI.",
+      "capabilities": [
+        "b2b_nurturing",
+        "scoring",
+        "roi",
+        "salesforce"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.salesforce.com/products/marketing-cloud/account-engagement/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "eloqua",
+      "name": "Oracle Eloqua",
+      "url": "https://www.oracle.com/cx/marketing/automation/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Marketing automation enterprise Oracle ; campagnes complexes et ABM.",
+      "capabilities": [
+        "enterprise_campaigns",
+        "abm",
+        "complex_workflows",
+        "oracle"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.oracle.com/cx/marketing/automation/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sarbacane",
+      "name": "Sarbacane",
+      "url": "https://www.sarbacane.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Marketing automation FR ; email, SMS, landing pages et RGPD natif.",
+      "capabilities": [
+        "email",
+        "sms",
+        "landing_pages",
+        "rgpd"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.sarbacane.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — emailing PME conforme RGPD."
+    },
+    {
+      "id": "actito",
+      "name": "Actito",
+      "url": "https://www.actito.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "CDP marketing EU ; parcours omnicanal, consent et personnalisation.",
+      "capabilities": [
+        "cdp",
+        "omnichannel",
+        "consent",
+        "personalization"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "BE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.actito.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur EU — marketing automation Benelux."
+    },
+    {
+      "id": "splio",
+      "name": "Splio",
+      "url": "https://www.splio.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "CRM marketing FR ; fidélité, campagnes et data unifiée retail.",
+      "capabilities": [
+        "crm_marketing",
+        "loyalty",
+        "campaigns",
+        "retail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.splio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — CRM marketing retail."
+    },
+    {
+      "id": "mailjet",
+      "name": "Mailjet (Sinch)",
+      "url": "https://www.mailjet.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Email API FR ; campagnes, transactional et deliverability EU.",
+      "capabilities": [
+        "email_api",
+        "transactional",
+        "campaigns",
+        "deliverability"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.mailjet.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — email API Sinch."
     }
   ]
 }

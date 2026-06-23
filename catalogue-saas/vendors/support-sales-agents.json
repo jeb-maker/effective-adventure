@@ -440,7 +440,8 @@
       "name": "Gladly",
       "url": "https://www.gladly.com/",
       "segments": [
-        "support-sales-agents"
+        "support-sales-agents",
+        "helpdesk-platforms"
       ],
       "description": "CX platform people-centric ; AI sidekick pour agents support et clients.",
       "capabilities": [

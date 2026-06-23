@@ -417,7 +417,8 @@
       "name": "Stack AI",
       "url": "https://www.stack-ai.com/",
       "segments": [
-        "automation-platforms"
+        "automation-platforms",
+        "agent-frameworks-platforms"
       ],
       "description": "Orchestration agents IA ; chaînage LLM, outils métier et revue humaine sur outputs dossier.",
       "capabilities": [
@@ -565,7 +566,8 @@
       "name": "Prefect",
       "url": "https://www.prefect.io/",
       "segments": [
-        "automation-platforms"
+        "automation-platforms",
+        "data-integration-etl"
       ],
       "description": "Orchestration data/ops ; flows Python planifiés, observabilité runs et reprise sur échec dossier.",
       "capabilities": [

@@ -315,6 +315,209 @@
       "source_url": "https://krisp.ai/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "fellow-app",
+      "name": "Fellow.app",
+      "url": "https://fellow.app/",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "Gestion réunions ; agendas, notes action items et intégrations calendrier.",
+      "capabilities": [
+        "meeting_agendas",
+        "action_items",
+        "calendar",
+        "1on1"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://fellow.app/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hypercontext",
+      "name": "Hypercontext",
+      "url": "https://hypercontext.com/",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "1:1 et réunions équipe ; agendas structurés, feedback et goals.",
+      "capabilities": [
+        "one_on_one",
+        "team_meetings",
+        "feedback",
+        "goals"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://hypercontext.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "range-co",
+      "name": "Range",
+      "url": "https://www.range.co/",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "Standups async ; check-ins équipe, intégrations Slack et focus time.",
+      "capabilities": [
+        "async_standups",
+        "check_ins",
+        "slack",
+        "focus_time"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.range.co/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "jamie-ai",
+      "name": "Jamie (AI)",
+      "url": "https://www.meetjamie.ai/",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "Assistant réunion IA EU ; notes privées, résumés et action items locaux.",
+      "capabilities": [
+        "ai_meeting_notes",
+        "private",
+        "summaries",
+        "action_items"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.meetjamie.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "clari-copilot",
+      "name": "Clari Copilot",
+      "url": "https://www.clari.com/products/copilot/",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "Meeting intelligence revenue ; coaching appels, deal insights et CRM sync.",
+      "capabilities": [
+        "call_coaching",
+        "deal_insights",
+        "crm_sync",
+        "revenue"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.clari.com/products/copilot/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "salesloft-conversations",
+      "name": "Salesloft Conversations",
+      "url": "https://salesloft.com/platform/conversations",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "Conversation intelligence ; enregistrement, coaching et analytics ventes.",
+      "capabilities": [
+        "conversation_intel",
+        "recording",
+        "coaching",
+        "sales_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://salesloft.com/platform/conversations",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "outreach-kaia",
+      "name": "Outreach Kaia",
+      "url": "https://www.outreach.io/product/kaia",
+      "segments": [
+        "meeting-intelligence"
+      ],
+      "description": "Meeting intelligence ventes ; transcription live, battlecards et CRM.",
+      "capabilities": [
+        "live_transcription",
+        "battlecards",
+        "crm",
+        "sales"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.outreach.io/product/kaia",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

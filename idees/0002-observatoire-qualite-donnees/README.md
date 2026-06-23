@@ -79,7 +79,7 @@ Fichier : [`catalogue-saas/vendors/open-data-governance-fr.json`](../../catalogu
 
 #### Segment `data-observability` — Data observability
 
-Fichier : [`catalogue-saas/vendors/data-observability.json`](../../catalogue-saas/vendors/data-observability.json) (11 entrées)
+Fichier : [`catalogue-saas/vendors/data-observability.json`](../../catalogue-saas/vendors/data-observability.json) (18 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -94,6 +94,8 @@ Fichier : [`catalogue-saas/vendors/data-observability.json`](../../catalogue-saa
 | `datafold` | Datafold | US | partial | partial |
 | `lightup` | Lightup | US | partial | partial |
 | `lakefs` | lakeFS | IL | partial | partial |
+| `metaplane` | Metaplane | US | partial | partial |
+| … | _+6 autres_ | | | |
 
 Commandes :
 ```bash

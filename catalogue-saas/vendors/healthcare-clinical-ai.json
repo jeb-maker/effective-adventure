@@ -318,6 +318,238 @@
       "source_url": "https://www.caresyntax.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "cardiologs",
+      "name": "Cardiologs",
+      "url": "https://www.cardiologs.com/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "IA ECG FR ; analyse automatique ECG, détection arythmies et intégration workflows cardiologie.",
+      "capabilities": [
+        "ecg_ai",
+        "arrhythmia_detection",
+        "cardiology",
+        "clinical_workflows"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.cardiologs.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "incepto",
+      "name": "Incepto",
+      "url": "https://www.incepto-medical.com/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Marketplace IA radiologie FR ; distribution algorithmes diagnostiques, déploiement hôpitaux et MDR.",
+      "capabilities": [
+        "radiology_ai",
+        "algorithm_marketplace",
+        "hospital_deployment",
+        "mdr"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.incepto-medical.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "deepc",
+      "name": "deepc",
+      "url": "https://www.deepc.ai/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Orchestration IA imagerie EU ; routing algorithmes, gouvernance MDR et intégration PACS/RIS.",
+      "capabilities": [
+        "imaging_ai",
+        "algorithm_orchestration",
+        "mdr_governance",
+        "pacs_integration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.deepc.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "therapixel",
+      "name": "Therapixel",
+      "url": "https://www.therapixel.com/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "IA mammographie FR ; détection lésions, priorisation examens et aide diagnostic radiologues.",
+      "capabilities": [
+        "mammography_ai",
+        "lesion_detection",
+        "prioritization",
+        "diagnostic_aid"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.therapixel.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mediktor",
+      "name": "Mediktor",
+      "url": "https://www.mediktor.com/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Triage symptômes IA ; API triage patient, orientation soins et intégration parcours e-santé.",
+      "capabilities": [
+        "symptom_triage",
+        "patient_routing",
+        "api",
+        "ehealth"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "ES",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.mediktor.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "withings-health",
+      "name": "Withings Health Solutions",
+      "url": "https://www.withings.com/health-solutions",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Remote patient monitoring FR ; devices connectés, programmes RPM et intégration EHR hôpitaux.",
+      "capabilities": [
+        "rpm",
+        "connected_devices",
+        "patient_monitoring",
+        "ehr_integration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.withings.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "binah-ai",
+      "name": "Binah.ai",
+      "url": "https://www.binah.ai/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Vitals AI vidéo ; mesure signes vitaux via smartphone, triage et télésurveillance.",
+      "capabilities": [
+        "video_vitals",
+        "smartphone",
+        "triage",
+        "telemonitoring"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.binah.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "medecom",
+      "name": "Medecom",
+      "url": "https://www.medecom.fr/",
+      "segments": [
+        "healthcare-clinical-ai"
+      ],
+      "description": "Télémédecine et IA clinique FR ; téléconsultation spécialisée, dossiers patients et HDS.",
+      "capabilities": [
+        "telemedicine",
+        "specialist_consultation",
+        "patient_records",
+        "hds"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.medecom.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -63,7 +63,8 @@
       "name": "Procore",
       "url": "https://www.procore.com/",
       "segments": [
-        "real-estate-proptech"
+        "real-estate-proptech",
+        "construction-proptech"
       ],
       "description": "Construction management cloud ; projets, qualité et financials.",
       "capabilities": [

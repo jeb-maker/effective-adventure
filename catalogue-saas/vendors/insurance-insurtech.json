@@ -317,6 +317,238 @@
       "source_url": "https://www.wefox.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "zelros",
+      "name": "Zelros",
+      "url": "https://www.zelros.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "IA recommandation assurance FR ; cross-sell, personnalisation produits et analytics portefeuille.",
+      "capabilities": [
+        "ai_recommendations",
+        "cross_sell",
+        "product_personalization",
+        "portfolio_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.zelros.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "descartes-underwriting",
+      "name": "Descartes Underwriting",
+      "url": "https://www.descartesunderwriting.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Assurance paramétrique climat FR ; couverture risques naturels, agriculture et analytics météo.",
+      "capabilities": [
+        "parametric_insurance",
+        "climate_risk",
+        "agriculture",
+        "weather_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.descartesunderwriting.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "insly",
+      "name": "Insly",
+      "url": "https://insly.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Plateforme insurance software EU ; policy admin, billing et distribution white-label MGA/brokers.",
+      "capabilities": [
+        "policy_admin",
+        "billing",
+        "white_label",
+        "mga"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "EE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://insly.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "insify",
+      "name": "Insify",
+      "url": "https://insify.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Assurance PME digital EU ; souscription en ligne, couvertures modularisées et gestion sinistres.",
+      "capabilities": [
+        "sme_insurance",
+        "online_underwriting",
+        "modular_coverage",
+        "claims"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://insify.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "iptiq",
+      "name": "iptiQ (Swiss Re)",
+      "url": "https://www.iptiq.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Assurance white-label EU ; produits embarqués, APIs distribution et gestion risques digital.",
+      "capabilities": [
+        "white_label",
+        "embedded_insurance",
+        "api_distribution",
+        "digital_risk"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "CH",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.iptiq.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "neodigital",
+      "name": "Neodigital",
+      "url": "https://www.neodigital.fr/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Courtage assurance digital FR ; comparaison, souscription en ligne et gestion contrats PME/particuliers.",
+      "capabilities": [
+        "digital_broker",
+        "comparison",
+        "online_subscription",
+        "contract_management"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.neodigital.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "assurup",
+      "name": "Assurup",
+      "url": "https://www.assurup.com/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Distribution assurance embarquée FR ; APIs produits, parcours souscription et gestion partenaires.",
+      "capabilities": [
+        "embedded_insurance",
+        "api",
+        "partner_management",
+        "subscription"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.assurup.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "inspeer",
+      "name": "Inspeer",
+      "url": "https://www.inspeer.fr/",
+      "segments": [
+        "insurance-insurtech"
+      ],
+      "description": "Assurance collaborative FR ; mutuelles digitales, gestion adhérents et produits sur-mesure collectifs.",
+      "capabilities": [
+        "collaborative_insurance",
+        "digital_mutual",
+        "member_management",
+        "custom_products"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.inspeer.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }
