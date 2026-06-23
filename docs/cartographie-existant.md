@@ -110,6 +110,36 @@ de nouvelles idées :
 | 3 | **Réutilisations data.gouv** | Entrées catalogue pour Orama, Habity, DépensesPubliques… (cartographie citoyenne) |
 | 4 | **Audit listicle** | `audit-sources` → promotion `verified` par vague (~20/semaine) |
 
+### Automation (manifeste JSON + gate)
+
+Les passes V6* manuelles (`enrich_catalogue_v6*.py`) restent valides ; pour les
+suivantes, préférer le pipeline unifié :
+
+```bash
+# 1. Créer une passe (manifeste + journal)
+python3 scripts/catalogue_pass.py init 2026-07-v6j-ma-passe
+
+# 2. Éditer catalogue-saas/passes/2026-07-v6j-ma-passe.manifest.json
+#    (voir manifest.example.json)
+
+# 3. Appliquer + contrôle qualité complet
+python3 scripts/catalogue_pass.py run catalogue-saas/passes/2026-07-v6j-ma-passe.manifest.json
+
+# Passe hebdo cartographie (sans manifeste — promote auto 🔁 + gate)
+python3 scripts/catalogue_pass.py weekly --limit 20 --dry-run   # aperçu
+python3 scripts/catalogue_pass.py weekly --limit 20             # exécution
+
+# Gate seul (validate + listicle + check_idees --strict)
+python3 scripts/catalogue_saas.py gate
+
+# Promotion ciblée verify-eligible
+python3 scripts/catalogue_saas.py verify-promote --retravailler --limit 20 --dry-run
+python3 scripts/sync_idees_catalogue.py   # rafraîchir blocs README idées
+```
+
+**Ce qui reste manuel** : recherche des concurrents, rédaction des ajouts
+(`additions` dans le manifeste), revue adversariale des idées, décision produit.
+
 **Règle** : la cartographie **n'invalide pas** le verdict discovery (0 Go) — elle
 **alimente** un futur pivot (0001, 0029, 0025) avec un §4 déjà complet.
 

@@ -86,6 +86,13 @@ python3 scripts/enrich_catalogue_v6b.py        # V6b procurement + parsing/IDP v
 python3 scripts/enrich_catalogue_v6c.py        # V6c FR gaps + RecordAI verified + freeze
 python3 scripts/sync_idees_catalogue.py
 
+# Automation passes (manifeste JSON — voir passes/manifest.example.json)
+python3 scripts/catalogue_pass.py init 2026-07-ma-passe    # manifeste + journal vides
+python3 scripts/catalogue_pass.py run passes/….manifest.json  # apply + gate
+python3 scripts/catalogue_pass.py weekly --limit 20 --dry-run   # promote auto 🔁
+python3 scripts/catalogue_saas.py verify-promote --retravailler --limit 20
+python3 scripts/catalogue_saas.py gate                         # validate + revues + listicle
+
 # Saturation (passes réelles vs seuil 5 %)
 python3 scripts/catalogue_saas.py saturation
 python3 scripts/catalogue_saas.py saturation watch   # [SATURÉ] / [PROCHE] par passe

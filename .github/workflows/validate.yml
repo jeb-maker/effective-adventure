@@ -16,11 +16,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate catalogue SaaS
-        run: python3 scripts/catalogue_saas.py validate
-
-      - name: Check idees revues (strict)
-        run: python3 scripts/check_idees.py --strict
-
-      - name: Audit listicle sources (aperçu)
-        run: python3 scripts/catalogue_saas.py audit-sources | head
+      - name: Catalogue gate (validate + listicle + revues)
+        run: python3 scripts/catalogue_saas.py gate

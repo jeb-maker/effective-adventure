@@ -750,6 +750,104 @@ def verify_eligible() -> None:
     )
 
 
+def gate(*, check_idees: bool = True, max_listicle: int | None = None) -> int:
+    """Contrôle qualité complet : validate + audit listicle + check_idees."""
+    print("=== Gate catalogue ===", flush=True)
+    print(flush=True)
+
+    rc = validate()
+    if rc != 0:
+        print("\nGate ÉCHOUÉ — validation catalogue")
+        return rc
+
+    vendors = iter_vendors()
+    listicle_count = sum(
+        1 for v in vendors if is_listicle_source(v["source_url"], v["url"])
+    )
+    verified = sum(1 for v in vendors if v["verification_status"] == "verified")
+    eligible = sum(
+        1
+        for v in vendors
+        if v["verification_status"] == "partial"
+        and domains_match(v["url"], v["source_url"])
+        and not is_listicle_source(v["source_url"], v["url"])
+    )
+
+    print(f"OK — {len(vendors)} vendeurs | verified {verified} | listicle {listicle_count}")
+    print(f"     candidats verify-eligible : {eligible}")
+    print()
+
+    if max_listicle is not None and listicle_count > max_listicle:
+        print(
+            f"Gate ÉCHOUÉ — {listicle_count} source(s) listicle (> {max_listicle})"
+        )
+        audit_sources()
+        return 1
+
+    if listicle_count:
+        print("Audit listicle (aperçu) :")
+        audit_sources()
+        print()
+
+    if check_idees:
+        import subprocess
+
+        print("=== check_idees --strict ===")
+        idees_rc = subprocess.call(
+            [sys.executable, str(ROOT / "scripts" / "check_idees.py"), "--strict"],
+            cwd=ROOT,
+        )
+        if idees_rc != 0:
+            print("\nGate ÉCHOUÉ — revues idées")
+            return idees_rc
+
+    print("\nGate OK")
+    return 0
+
+
+def verify_promote_cmd(
+    *,
+    limit: int = 20,
+    segments: list[str] | None = None,
+    retravailler: bool = False,
+    france_market: str | None = None,
+    pass_id: str | None = None,
+    dry_run: bool = False,
+) -> int:
+    from catalogue_pass_lib import (  # import différé — évite cycle à l'init
+        eligible_for_promotion,
+        promote_verified,
+        retravailler_segment_ids,
+        today,
+    )
+
+    seg_set: set[str] | None = None
+    if retravailler:
+        seg_set = retravailler_segment_ids()
+        print(f"Segments idées 🔁 : {len(seg_set)}")
+    if segments:
+        seg_set = (seg_set or set()) | set(segments)
+
+    eligible = eligible_for_promotion(segments=seg_set, france_market=france_market)
+    if limit:
+        eligible = eligible[:limit]
+
+    if dry_run:
+        print(f"{len(eligible)} candidat(s) verify-eligible")
+        for v in eligible:
+            print(f"  {v['id']:32} {extract_domain(v['url']):24}  {v['name']}")
+        return 0
+
+    if not eligible:
+        print("Aucun candidat.")
+        return 0
+
+    pid = pass_id or f"auto-verify-{today()}"
+    count = promote_verified([v["id"] for v in eligible], pid)
+    print(f"Promu {count} vendeur(s) → verified (pass {pid})")
+    return 0
+
+
 def segment_readiness() -> None:
     matrix = load_coverage_matrix()
     taxonomy = load_taxonomy()
@@ -881,6 +979,29 @@ def main() -> int:
         help="Profondeur inventaire vs saturation par segment",
     )
 
+    p_gate = sub.add_parser("gate", help="Validate + audit listicle + check_idees --strict")
+    p_gate.add_argument("--no-idees", action="store_true")
+    p_gate.add_argument(
+        "--max-listicle",
+        type=int,
+        default=None,
+        help="Échouer si plus de N sources listicle",
+    )
+
+    p_vp = sub.add_parser(
+        "verify-promote",
+        help="Promouvoir candidats partial → verified (domaine officiel)",
+    )
+    p_vp.add_argument("--limit", type=int, default=20)
+    p_vp.add_argument("--segment", action="append")
+    p_vp.add_argument("--retravailler", action="store_true")
+    p_vp.add_argument(
+        "--france-market",
+        choices=["strong", "partial", "absent", "unknown"],
+    )
+    p_vp.add_argument("--pass-id")
+    p_vp.add_argument("--dry-run", action="store_true")
+
     args = parser.parse_args()
 
     if args.command == "validate":
@@ -925,6 +1046,20 @@ def main() -> int:
     if args.command == "segment-readiness":
         segment_readiness()
         return 0
+    if args.command == "gate":
+        return gate(
+            check_idees=not args.no_idees,
+            max_listicle=args.max_listicle,
+        )
+    if args.command == "verify-promote":
+        return verify_promote_cmd(
+            limit=args.limit,
+            segments=args.segment,
+            retravailler=args.retravailler,
+            france_market=args.france_market,
+            pass_id=args.pass_id,
+            dry_run=args.dry_run,
+        )
 
     return 1
 

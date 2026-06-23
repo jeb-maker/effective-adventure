@@ -1,0 +1,48 @@
+{
+  "pass_id": "YYYY-MM-vXx-description-courte",
+  "date": "2026-06-23",
+  "description": "Exemple — ajouts manuels + promotions ciblées",
+  "additions": {
+    "geospatial-gis-fr.json": [
+      {
+        "id": "exemple-vendor",
+        "name": "Exemple Vendor",
+        "url": "https://example.com/",
+        "segments": ["geospatial-gis-fr"],
+        "description": "Description courte.",
+        "capabilities": ["capability_a", "france"],
+        "pricing_model": "hybrid",
+        "target_market": "mid_market",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "YYYY-MM-vXx-description-courte",
+        "source_url": "https://example.com/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "verified",
+        "notes": "Concurrent cité idée XXXX."
+      }
+    ]
+  },
+  "verify_updates": {
+    "vendor-id-existant": {
+      "verification_status": "verified",
+      "source_url": "https://example.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "YYYY-MM-vXx-description-courte",
+      "pricing_notes": "Tarifs officiels (consulté 2026-06-23)."
+    }
+  },
+  "coverage_updates": {
+    "geospatial-gis-fr": {
+      "official_site": {
+        "consulted_at": "2026-06-23",
+        "candidates_found": 1,
+        "new_added": 1,
+        "pass": "YYYY-MM-vXx-description-courte"
+      }
+    }
+  }
+}

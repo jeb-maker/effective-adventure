@@ -1,0 +1,33 @@
+name: Cartography weekly (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Nombre max de promotions verify-eligible
+        required: false
+        default: "20"
+      execute:
+        description: Exécuter les promotions (false = dry-run)
+        type: boolean
+        default: false
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Aperçu promotion verify-eligible (idées 🔁)
+        run: |
+          python3 scripts/catalogue_pass.py weekly \
+            --limit "${{ inputs.limit }}" \
+            --dry-run
+
+      - name: Exécuter promotions
+        if: inputs.execute
+        run: |
+          python3 scripts/catalogue_pass.py weekly --limit "${{ inputs.limit }}"
+
+      - name: Gate qualité
+        run: python3 scripts/catalogue_saas.py gate
