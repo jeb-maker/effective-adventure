@@ -21,7 +21,7 @@ Objectif : passer les segments sous-alimentés de **~5 à ~10–11 vendeurs** (+
 | `supply-chain-logistics` | 5 | +6 | 11 | Shippeo, Transporeon, sennder, RELEX |
 | `retail-ecommerce-ai` | 5 | +6 | 11 | Mirakl, Contentsquare, AB Tasty, Lengow, PrestaShop |
 | `energy-cleantech` | 5 | +6 | 11 | Voltalis, Kizy, Schneider EcoStruxure, Octopus Energy |
-| `healthcare-clinical-ai` | 5 | +6 | 11 | Qare, Medadom, Lifen, Owkin, Nabla (existant) |
+| `healthcare-clinical-ai` | 5 | +6 | 11 | Qare, Medadom, Lifen, Owkin, Infermedica |
 | `health-data-analytics` | 5 | +6 | 11 | OpenHealth, Health Data Hub, Inato, Cegedim Health Data |
 | `legal-contract-ai` | 5 | +6 | 11 | Doctrine, Ordalie, Jimini, Predictice |
 | `payroll-hris` | 5 | +6 | 11 | Silae, Combo, Cegid HR, Deel (+ patch Lucca) |
