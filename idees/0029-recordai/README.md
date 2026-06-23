@@ -2,8 +2,16 @@
 
 - **ID** : 0029
 - **Statut** : 🔁 À retravailler
-- **Score** : 67 / 100
+- **Score** : 59 / 100
 - **Dernière mise à jour** : 2026-06-23
+- **Révision critique** : voir [`revue.md`](revue.md) — score abaissé de **67 à 59**
+  après audit adversarial. Le re-scoring §12/§13 (C4 2→3, C5 3→4) repose sur un
+  **benchmark sélectif** : il exclut les concurrents qui occupent le créneau —
+  surtout **CheckFile.ai** (FR/EU, DORA, KYC/AML, audit trail 5 ans, self-service
+  ~0,30 €/doc, **cité comme *source* sans être vu comme concurrent**), ainsi que
+  **Rossum** (inbox email native + HITL) et **Parseur** (email→JSON, 39 $/mois).
+  **C4=3 et C5=4 ne sont pas justifiés (→ 2 et 2).** Les §10–§13 ci-dessous
+  reflètent le passage initial et restent à corriger.
 - **Pitch (1 phrase)** : Work-as-a-Service sur **un micro-process métier** : email ou PDF entrant → dossier structuré (JSON + preuves) validé par un humain, avec traçabilité audit.
 
 ---
