@@ -1,9 +1,9 @@
 # Diagnostic des risques par adresse
 
 - **ID** : 0011
-- **Statut** : 🔁 À retravailler
-- **Score** : 60 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Statut** : ❌ Écartée
+- **Score** : 52 / 100
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Synthétiser à l'adresse/parcelle tous les risques (inondation,
   retrait‑gonflement des argiles, radon, sismicité, sites/sols pollués, ICPE…) à partir
   des données Géorisques, pour particuliers acheteurs, notaires, agents et assureurs.
@@ -198,50 +198,57 @@ ce qui demande des modèles propres (type Callendar) et sort du périmètre « s
 
 ## 10. Scoring
 
-| # | Critère | Poids | Note (1-5) | Pondéré |
-|---|---|---|---|---|
-| C1 | Intensité du problème | 3 | 3 | 9 |
-| C2 | Cible solvable (qui paie) | 3 | 3 | 9 |
-| C3 | Disponibilité & fiabilité données | 3 | 5 | 15 |
-| C4 | Espace concurrentiel libre | 2 | 1 | 2 |
-| C5 | Différenciation défendable | 2 | 1 | 2 |
-| C6 | Faisabilité & fiabilité technique | 2 | 4 | 8 |
-| C7 | Facilité du MVP | 2 | 4 | 8 |
-| C8 | Maîtrise des risques | 2 | 3 | 6 |
-| C9 | Monétisation / impact | 2 | 2 | 4 |
-| | **Total** | | | **63 / 105** |
+> **Scoring ajusté après revue critique du 2026-06-23** (voir [`revue.md`](revue.md)).
+> Notes abaissées : C2 (3→2), C3 (5→4), C8 (3→2). Score 60 → **52**, verdict
+> 🔁 → ❌. Les notes initiales de la fiche sont rappelées dans la colonne dédiée.
 
-**Score /100** : 63 / 105 × 100 = **60**
+| # | Critère | Poids | Note initiale | Note (post-revue) | Pondéré |
+|---|---|---|---|---|---|
+| C1 | Intensité du problème | 3 | 3 | 3 | 9 |
+| C2 | Cible solvable (qui paie) | 3 | 3 | 2 | 6 |
+| C3 | Disponibilité & fiabilité données | 3 | 5 | 4 | 12 |
+| C4 | Espace concurrentiel libre | 2 | 1 | 1 | 2 |
+| C5 | Différenciation défendable | 2 | 1 | 1 | 2 |
+| C6 | Faisabilité & fiabilité technique | 2 | 4 | 4 | 8 |
+| C7 | Facilité du MVP | 2 | 4 | 4 | 8 |
+| C8 | Maîtrise des risques | 2 | 3 | 2 | 4 |
+| C9 | Monétisation / impact | 2 | 2 | 2 | 4 |
+| | **Total** | | | | **55 / 105** |
 
-Justification note par note :
+**Score /100** : 55 / 105 × 100 = **52**
+
+Justification note par note (post-revue) :
 - **C1 = 3** : besoin réel et récurrent (achat immo, RGA en hausse), mais déjà servi
   gratuitement par Errial — la douleur d'accès est largement résolue.
-- **C2 = 3** : des payeurs existent (notaires, diagnostiqueurs paient Notiplus/Risqeo), mais
-  les particuliers ne paieront pas face au gratuit, et les pros sont déjà équipés.
-- **C3 = 5** : données prêtes, propres, traçables, gratuites, LO 2.0, API officielle unique —
-  c'est le point le plus fort, et il serait malhonnête de le sous‑noter.
+- **C2 = 2** (ajusté) : des payeurs existent mais sont **déjà équipés** (notaires/
+  diagnostiqueurs ↔ Notiplus/Risqeo) ; les particuliers ne paieront pas face au gratuit ;
+  aucun payeur **non servi** identifié et matière première gratuite → budget additionnel quasi inexistant.
+- **C3 = 4** (ajusté) : données ouvertes, propres et traçables (LO 2.0, API officielle),
+  mais maille **communale** pour radon/sismicité/GASPAR, buffers indicatifs (SSP/ICPE) et
+  dépendance à une **API unique avec token Cerbère** → solide, pas un 5 sans réserve.
 - **C4 = 1** : saturation manuelle (Errial public + Fonciris + ClimaScore + risques-adresse.fr
-  + Callendar + Risqeo + Notiplus + ATerraData + Apify) — cas d'école.
+  + Callendar + Risqeo + Notiplus + ATerraData + Apify) — cas d'école ; Errial **élargit** encore
+  son périmètre (couches recul du trait de côte, MàJ janvier 2026).
 - **C5 = 1** : même donnée publique pour tous, copiable en un week‑end, positionnement déjà
   pris jusque dans le nom (risques-adresse.fr).
 - **C6 = 4** : architecture simple, chiffres structurés issus de l'API (pas de RAG sur les
   nombres) → hallucination faible ; pénalisé seulement par la maille communale de certains risques.
 - **C7 = 4** : MVP rapide à construire — mais cette facilité profite surtout aux concurrents.
-- **C8 = 3** : risques juridiques (rapport non opposable) et de dépendance API gérables par
-  des disclaimers, mais le risque concurrentiel reste majeur.
+- **C8 = 2** (ajusté) : le risque dominant n'est pas juridique (gérable par disclaimer) mais
+  **concurrentiel/commoditisation** — subi, non maîtrisé — auquel s'ajoute la dépendance API.
 - **C9 = 2** : monétisation comprimée entre gratuit officiel et concurrents à < 25 €,
   matière première gratuite → marge faible.
 
 ## 11. Verdict & décision
-🔁 **À retravailler — mais au bas de la fourchette, et de fait quasi écartée en l'état.**
-Le score (60/100) place l'idée dans la bande « à retravailler », porté **uniquement** par
-l'excellence des données (C3) et la faisabilité technique (C6). Mais ce sont aussi ces
-atouts qui causent sa perte : la donnée est ouverte et identique pour tous, donc le produit
-est **commoditisé et saturé** (C4 = C5 = 1), avec un concurrent **public et gratuit** (Errial)
-qui est la référence réglementaire, et un homonyme privé gratuit (risques-adresse.fr) déjà
-en ligne. Aucun critère strictement éliminatoire (la donnée existe, l'usage est légal), donc
-on ne l'écarte pas d'office — mais le seul point faible « à lever » est le manque total
-d'espace concurrentiel, ce qui n'est pas un détail mais le cœur du problème.
+❌ **Écartée** (score **52/100** après revue critique du 2026-06-23, < 55).
+L'analyse initiale concluait à « 🔁 à retravailler, mais de fait quasi écartée en l'état » ;
+la revue **aligne la décision sur ce constat** en corrigeant trois notes trop indulgentes
+(C2 : budget existant ≠ budget additionnel ; C3 : maille communale + dépendance API ; C8 :
+risque concurrentiel subi, non maîtrisé). Le produit est **commoditisé et saturé**
+(C4 = C5 = 1), face à un concurrent **public, gratuit et réglementairement obligatoire**
+(Errial, qui **élargit** encore son périmètre en 2026) et à un homonyme privé gratuit
+(risques-adresse.fr) déjà en ligne. Le seul atout — l'excellence des données — est
+précisément ce qui condamne le produit (donnée identique pour tous, marge nulle).
 
 **Prochaine étape concrète** : ne PAS construire la « synthèse des risques par adresse »
 (saturée). Si l'on veut sauver quelque chose, instruire **une seule hypothèse de
@@ -252,4 +259,4 @@ si Callendar et consorts laissent un créneau réel. Sans créneau démontré, b
 
 ---
 
-0011 | Diagnostic des risques par adresse | 🔁 À retravailler | 60/100 | Saturé par Errial public et concurrents privés
+0011 | Diagnostic des risques par adresse | ❌ Écartée | 52/100 | Saturé par Errial public (élargi 2026) et concurrents privés ; revue 2026-06-23
