@@ -2,8 +2,13 @@
 
 - **ID** : 0004
 - **Statut** : ❌ Écartée
-- **Score** : — / 100 (écartée sur critère éliminatoire : saturation)
-- **Dernière mise à jour** : 2026-06-20
+- **Score** : 53 / 100
+- **Dernière mise à jour** : 2026-06-23
+- **Révision critique** : voir [`revue.md`](revue.md) — écart **confirmé** et
+  mieux étayé (score posé à **53/100**, < 55, + critère éliminatoire saturation).
+  L'audit adversarial a trouvé un **clone quasi exact en production** : **Fonciris**
+  (DVF + Géorisques + DPE + PLU + BDNB + SSMSI + ARCEP, aperçu 30 s, freemium +
+  offre Pro marque blanche/API), que la §4 d'origine n'avait pas vu.
 - **Pitch (1 phrase)** : Un « dossier d'achat » par bien (DVF + DPE + risques +
   PLU + bruit + transport + fiscalité + résumé IA).
 
@@ -19,11 +24,34 @@ mais largement adressée.
 - Carte Prix Immobilier, applis Android cadastre/DVF/DPE/PLU,
   Baromètre Stop Loyer (prix m², loyers, PTZ). (Consultés 2026-06-20.)
 
+## 10. Scoring
+
+> Tableau posé par la revue critique (la fiche écartait sans note). Notes adversariales.
+
+| # | Critère | Poids | Note (1-5) | Pondéré | Justification (1 phrase) |
+|---|---|---|---|---|---|
+| C1 | Intensité du problème | 3 | 4 | 12 | Besoin réel et fréquent, mais ponctuel par acheteur. |
+| C2 | Cible solvable (qui paie) | 3 | 2 | 6 | Acheteur paie une fois et au rabais ; payeur récurrent (agents) déjà capté. |
+| C3 | Disponibilité & fiabilité données | 3 | 4 | 12 | DVF/DPE/risques ouverts et prêts ; réserve : DVF semestriel, hors Alsace-Moselle. |
+| C4 | Espace concurrentiel libre | 2 | 1 | 2 | Saturé : Fonciris (clone exact) + Immo Data + MeilleursAgents + explorateur officiel. |
+| C5 | Différenciation défendable | 2 | 1 | 2 | Données 100 % publiques aussi chez Fonciris ; aucun moat. |
+| C6 | Faisabilité & fiabilité technique | 2 | 4 | 8 | Tabulaire → SQL traçable, LLM au résumé ; faisable. |
+| C7 | Facilité du MVP | 2 | 3 | 6 | Agrégation multi-sources + géo non triviale mais balisée. |
+| C8 | Maîtrise des risques | 2 | 2 | 4 | Saturation/prix non maîtrisés ; responsabilité du « verdict ». |
+| C9 | Monétisation / impact | 2 | 2 | 4 | Monétisation compressée par le freemium d'un clone existant. |
+| | **Total** | | | **56 / 105** | |
+
+**Score /100** : 56 / 105 × 100 = **53**
+
 ## 11. Verdict & décision
-❌ **Écartée** (pour un premier projet). La carte DVF est un commodity. Le seul
-angle survivant serait le « dossier d'achat » agrégé multi-sources, mais déjà
-attaqué par des applis matures. Faible ROI face à l'effort. À ne reconsidérer que
-sur une niche très précise.
+❌ **Écartée** (pour un premier projet). La carte DVF est un commodity, **et** le
+« dossier d'achat » agrégé multi-sources — le seul angle qu'on disait survivant —
+est lui aussi un **produit fini et monétisé** : **Fonciris** (croise DVF +
+Géorisques + DPE + PLU + BDNB + SSMSI + ARCEP, aperçu 30 s, freemium + Pro marque
+blanche/API, consulté 2026-06-23). Score reconstruit **53/100** (< 55) **et**
+critère éliminatoire de saturation → écart confirmé. Faible ROI face à l'effort.
+À ne reconsidérer que sur une **niche verticale très précise** non couverte par
+Fonciris, avec un payeur B2B clair.
 
 <!-- catalogue-saas-begin -->
 
