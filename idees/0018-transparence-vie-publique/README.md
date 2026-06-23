@@ -2,8 +2,8 @@
 
 - **ID** : 0018
 - **Statut** : ❌ Écartée
-- **Score** : 50 / 100
-- **Dernière mise à jour** : 2026-06-21
+- **Score** : 46 / 100
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Croiser les données ouvertes de la HATVP (déclarations
   d'intérêts, répertoire des représentants d'intérêts) et le financement de la
   vie politique pour montrer « qui influence quoi » et signaler les conflits
@@ -223,22 +223,26 @@ fait d'arriver après des outils gratuits déjà établis.
 
 ## 10. Scoring
 
-| # | Critère | Poids | Note (1-5) | Pondéré |
-|---|---|---|---|---|
-| C1 | Intensité du problème | 3 | 3 | 9 |
-| C2 | Cible solvable (qui paie) | 3 | 2 | 6 |
-| C3 | Disponibilité & fiabilité données | 3 | 3 | 9 |
-| C4 | Espace concurrentiel libre | 2 | 2 | 4 |
-| C5 | Différenciation défendable | 2 | 2 | 4 |
-| C6 | Faisabilité & fiabilité technique | 2 | 3 | 6 |
-| C7 | Facilité du MVP | 2 | 3 | 6 |
-| C8 | Maîtrise des risques | 2 | 2 | 4 |
-| C9 | Monétisation / impact | 2 | 2 | 4 |
-| | **Total** | | | **52 / 105** |
+> **Scoring ajusté après revue critique du 2026-06-23** (voir [`revue.md`](revue.md)).
+> Notes abaissées : C4 (2→1), C5 (2→1). Score 50 → **46** ; verdict inchangé
+> (❌ Écartée, point éliminatoire patrimoine maintenu). Notes initiales en colonne dédiée.
 
-**Score /100** : 52 / 105 × 100 = **50**
+| # | Critère | Poids | Note initiale | Note (post-revue) | Pondéré |
+|---|---|---|---|---|---|
+| C1 | Intensité du problème | 3 | 3 | 3 | 9 |
+| C2 | Cible solvable (qui paie) | 3 | 2 | 2 | 6 |
+| C3 | Disponibilité & fiabilité données | 3 | 3 | 3 | 9 |
+| C4 | Espace concurrentiel libre | 2 | 2 | 1 | 2 |
+| C5 | Différenciation défendable | 2 | 2 | 1 | 2 |
+| C6 | Faisabilité & fiabilité technique | 2 | 3 | 3 | 6 |
+| C7 | Facilité du MVP | 2 | 3 | 3 | 6 |
+| C8 | Maîtrise des risques | 2 | 2 | 2 | 4 |
+| C9 | Monétisation / impact | 2 | 2 | 2 | 4 |
+| | **Total** | | | | **48 / 105** |
 
-Justification des notes (une phrase chacune) :
+**Score /100** : 48 / 105 × 100 = **46**
+
+Justification des notes (post-revue) :
 - **C1 = 3** : besoin réel de recoupement mais tiède et porté par une niche
   militante/éditoriale, pas une douleur opérationnelle aiguë.
 - **C2 = 2** : les utilisateurs ne paient pas et les seuls payeurs solvables
@@ -246,10 +250,11 @@ Justification des notes (une phrase chacune) :
 - **C3 = 3** : données ouvertes, structurées et fraîches (MAJ nocturne/au fil de
   l'eau) mais déclaratives, sans API officielle et avec un pan (patrimoine)
   juridiquement hors-jeu.
-- **C4 = 2** : VigiCité, Integrity Watch et Poligraph occupent déjà précisément
-  ce créneau, gratuitement.
-- **C5 = 2** : aucune barrière, le croisement open data est reproductible en
-  quelques semaines.
+- **C4 = 1** (ajusté) : le produit décrit **existe déjà à l'identique, gratuitement
+  et en open source** (VigiCité AGPL — 6 763 élus, 2,29 M relations, OFGL inclus —
+  + Integrity Watch + Poligraph + Regards Citoyens) → saturé, pas « en consolidation ».
+- **C5 = 1** (ajusté) : aucune barrière ; croisement open data reproductible en
+  semaines, et le code du concurrent dominant est **public (AGPL)** → moat nul.
 - **C6 = 3** : architecture SQL/RAG saine pour les chiffres, mais le matching
   nominatif bruité est un point faible intrinsèque.
 - **C7 = 3** : ingestion faisable, mais alourdie par la revue juridique et
@@ -259,8 +264,10 @@ Justification des notes (une phrase chacune) :
 - **C9 = 2** : revenu faible et impact déjà capté par des ONG plus légitimes.
 
 ## 11. Verdict & décision
-❌ **Écartée.** Score de **50/100** (< 55), confirmé par un **point
-éliminatoire** : le seed inclut explicitement les déclarations de **patrimoine**,
+❌ **Écartée.** Score de **46/100** après revue critique du 2026-06-23 (< 55 ;
+recalcul C4 2→1, C5 2→1 — créneau entièrement servi par VigiCité **AGPL** et
+consorts), confirmé par un **point éliminatoire** : le seed inclut explicitement
+les déclarations de **patrimoine**,
 dont la republication est une **infraction pénale** (45 000 € — art. LO 135-2 /
 226-1), et l'angle « conflits d'intérêts potentiels » porte un risque de
 diffamation et RGPD difficile à maîtriser. À cela s'ajoute un créneau
@@ -279,4 +286,4 @@ redevabilité citoyenne.
 
 ---
 
-0018 | Transparence de la vie publique | ❌ Écartée | 50/100 | Saturé par ONG gratuites, payeur absent, risque juridique
+0018 | Transparence de la vie publique | ❌ Écartée | 46/100 | Saturé par ONG gratuites (VigiCité AGPL), payeur absent, risque pénal patrimoine ; revue 2026-06-23
