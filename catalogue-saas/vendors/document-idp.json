@@ -78,9 +78,9 @@
       "pricing_model": "per_usage",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://www.extend.ai/resources/best-document-parsing-software-for-developers",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://azure.microsoft.com/en-us/pricing/details/ai-document-intelligence/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "US",
       "france_market": "partial",
       "operating_regions": [
@@ -88,7 +88,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "pricing_notes": "Tarification Azure pay-as-you-go ; remplace comparatif extend.ai (consulté 2026-06-23)."
     },
     {
       "id": "nanonets",
@@ -1068,10 +1069,11 @@
         "EU"
       ],
       "discovery_source": "crunchbase",
-      "discovery_pass": "2026-06-v5i-document-idp",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
       "source_url": "https://super.ai/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Starter Free (25k crédits) ; Growth $140/mo ; Enterprise custom (consulté 2026-06-23)."
     },
     {
       "id": "docdigitizer",

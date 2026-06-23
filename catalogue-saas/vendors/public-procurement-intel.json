@@ -20,9 +20,9 @@
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "france",
-      "source_url": "https://marchespublics.ai/",
+      "source_url": "https://marchespublics.ai/tarifs",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
+      "verification_status": "verified",
       "notes": "Concurrent cité dans revue idée 0001 du dépôt.",
       "hq_country": "FR",
       "france_market": "strong",
@@ -30,8 +30,8 @@
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
-      "pricing_notes": "Compte gratuit ; tarifs payants non affichés publiquement (consulté 2026-06-23)."
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "pricing_notes": "Starter 149 € HT/mo, Pro 399 €, Business 1 290 € ; plans acheteurs publics séparés (consulté 2026-06-23)."
     },
     {
       "id": "maitre-ao",
@@ -703,11 +703,11 @@
         "FR"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
       "source_url": "https://publikconnect.fr/tarifs",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "pricing_notes": "À partir de 49 €/mois (citée idée 0001 ; tarifs à reconfirmer sur site)."
+      "verification_status": "verified",
+      "pricing_notes": "Découverte 0 € ; Pro 49 € HT/mois ; Fondateur 39 € HT/mois à vie (consulté 2026-06-23)."
     },
     {
       "id": "france-marches",
@@ -858,11 +858,11 @@
         "FR"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v6c-procurement-recordai-freeze",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
       "source_url": "https://olra.fr/tarifs",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "pricing_notes": "Essentiel/Pro/Entreprise sur devis ; essai 14 j sans CB ; pages 500/1500/mois (consulté 2026-06-23).",
+      "verification_status": "verified",
+      "pricing_notes": "Essentiel/Pro/Entreprise sur devis ; essai 14 j sans CB ; quotas 500/1500 pages/mois (consulté 2026-06-23).",
       "notes": "Ciblage bâtiment TPE/PME ; chaîne veille→audit→rédaction sans bibliothèque préalable."
     },
     {
@@ -981,6 +981,253 @@
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "notes": "Groupe First ECO ; tarifs sur devis (consulté 2026-06-23)."
+    },
+    {
+      "id": "saqara",
+      "name": "Saqara (ex AOS — Appels d'Offres Simplifiés)",
+      "url": "https://saqara.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Suite SaaS BTP pour piloter les AO privés (donneurs d'ordre) et détecter consultations exclusives via Chantier Privé côté entreprises.",
+      "capabilities": [
+        "private_btp_tenders",
+        "ao_management",
+        "dce_distribution",
+        "e_signature",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://core.saqara.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Ex-AOS (go-aos.io → saqara.com) ; segment AO privés BTP, distinct de la veille BOAMP classique."
+    },
+    {
+      "id": "explore",
+      "name": "EXPLORE",
+      "url": "https://explore.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille commerciale data-driven (25+ ans) : marchés publics, construction et projets privés avec qualification experte.",
+      "capabilities": [
+        "ao_monitoring",
+        "private_projects",
+        "construction_veille",
+        "attribution_analytics",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://www.explore.fr/solutions/veille-marches-publics/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Groupe Intescia (Spigao, Bati-Pulse) ; abonnement annuel sur devis."
+    },
+    {
+      "id": "dematis",
+      "name": "Dematis",
+      "url": "https://www.dematis.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Éditeur FR (depuis 2003) : dématérialisation marchés publics, veille entreprises, formations et assistant IA Sam IA pour DCE et réponses.",
+      "capabilities": [
+        "e_procurement",
+        "ao_monitoring",
+        "sam_ia",
+        "dce_analysis",
+        "go_nogo",
+        "memoire_technique",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://formation.dematis.com/sam-ia/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "pricing_notes": "Sam IA : forfait Découverte 500 crédits sans engagement ; forfaits sur mesure dès 1 000 crédits (consulté 2026-06-23)."
+    },
+    {
+      "id": "centrale-des-marches",
+      "name": "Centrale des Marchés",
+      "url": "https://centraledesmarches.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Portail Medialex (2021) de veille marchés publics et privés : recherche géolocalisée, alertes email et formations.",
+      "capabilities": [
+        "ao_monitoring",
+        "email_alerts",
+        "private_projects",
+        "geo_search",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://centraledesmarches.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "pricing_notes": "Compte et veille gratuits ; alertes premium non affichées publiquement (consulté 2026-06-23)."
+    },
+    {
+      "id": "tendly",
+      "name": "Tendly",
+      "url": "https://tendly.eu/fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Plateforme IA multi-pays (FR incluse) : matching AO publics, analyse risques/concurrence et génération de documents de soumission.",
+      "capabilities": [
+        "ao_monitoring",
+        "ai_matching",
+        "dce_analysis",
+        "document_generation",
+        "risk_analysis",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://tendly.eu/fr/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "pricing_notes": "Gratuit (20 cr. uniques) ; Professionnel 29 €/mois (200 cr.) ; Entreprise 149 €/mois (400 cr.) ; packs dès 15 € (consulté 2026-06-23)."
+    },
+    {
+      "id": "remporte",
+      "name": "Remporte",
+      "url": "https://remporte.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Logiciel IA FR (Flowt, 2024) pour PME/ETI : analyse DCE, scoring Go/No-Go 13 critères et rédaction mémoires techniques hébergés en France.",
+      "capabilities": [
+        "dce_analysis",
+        "go_nogo",
+        "memoire_technique",
+        "ai_response",
+        "knowledge_base",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://remporte.fr/tarifs/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "pricing_notes": "Starter 4 000 € HT/an (15 AO rédigés) ; Regular et Citadelle (on-premise OIV) sur devis (consulté 2026-06-23)."
+    },
+    {
+      "id": "tendiz",
+      "name": "Tendiz",
+      "url": "https://tendiz.ai/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Plateforme IA FR : agrégation 30+ sources (BOAMP, TED…), scoring sémantique et génération de dossiers de candidature.",
+      "capabilities": [
+        "ao_monitoring",
+        "ai_matching",
+        "dce_analysis",
+        "memoire_technique",
+        "competitive_scoring",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://tendiz.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Ne pas confondre avec Tendrix (tendrix.fr) ; tarifs sur devis."
+    },
+    {
+      "id": "e-marchespublics",
+      "name": "e-marchespublics.com",
+      "url": "https://www.e-marchespublics.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Portail Dematis de publication et veille AO : consultation gratuite, alertes E-MP, extensions BOAMP/JOUE/presse et dépôt électronique.",
+      "capabilities": [
+        "ao_monitoring",
+        "ao_publication",
+        "e_procurement",
+        "dce_download",
+        "electronic_bid",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://www.e-marchespublics.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "pricing_notes": "Veille sur avis E-MP gratuite ; extension BOAMP/JOUE/presse (~600k AO/an) sur devis (consulté 2026-06-23).",
+      "notes": "Produit éditorial Dematis — lier à l'entrée dematis sans fusionner."
     }
   ]
 }

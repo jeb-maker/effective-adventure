@@ -342,11 +342,12 @@
         "EU"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5t-workplace-l3",
-      "source_url": "https://www.kaspr.io/",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://www.kaspr.io/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Acteur FR — enrichissement LinkedIn PME."
+      "verification_status": "verified",
+      "notes": "Acteur FR — enrichissement LinkedIn PME.",
+      "pricing_notes": "Free 15 crédits ; Starter €45/mo ; Business €79/mo ; éditeur FR (consulté 2026-06-23)."
     },
     {
       "id": "dropcontact",
@@ -372,11 +373,12 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5t-workplace-l3",
-      "source_url": "https://www.dropcontact.com/",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://www.dropcontact.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Acteur FR — enrichissement conforme RGPD."
+      "verification_status": "verified",
+      "notes": "Acteur FR — enrichissement conforme RGPD.",
+      "pricing_notes": "Starter 79 €/mois (500 crédits) ; Growth 120 € ; Entreprise sur volume (consulté 2026-06-23)."
     },
     {
       "id": "fullcontact",
@@ -460,10 +462,11 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5t-workplace-l3",
-      "source_url": "https://datagma.com/",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://datagma.com/pricing/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Regular $49/mo, Popular $99, Expert $249 ; éditeur FR (consulté 2026-06-23)."
     },
     {
       "id": "reverse-contact",
@@ -547,11 +550,12 @@
         "EU"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5t-workplace-l3",
-      "source_url": "https://hunter.io/",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://hunter.io/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial",
-      "notes": "Acteur FR — email finder adoption EU."
+      "verification_status": "verified",
+      "notes": "Acteur FR — email finder adoption EU.",
+      "pricing_notes": "Free 50 crédits/mo ; Starter $49/mo ; Growth $149 ; Scale $299 (consulté 2026-06-23)."
     }
   ]
 }

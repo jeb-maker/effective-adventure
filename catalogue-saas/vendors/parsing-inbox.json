@@ -80,8 +80,8 @@
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://docparser.com/pricing/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "hq_country": "unknown",
       "france_market": "unknown",
@@ -90,7 +90,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "pricing_notes": "Source officielle ; remplace parsio.io listicle (consulté 2026-06-23)."
     },
     {
       "id": "parsio",
@@ -139,9 +140,9 @@
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://airparser.com/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "unknown",
       "france_market": "unknown",
       "operating_regions": [
@@ -149,7 +150,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "pricing_notes": "Starter $33/mo, Growth $49, Premium $249 (annuel) (consulté 2026-06-23)."
     },
     {
       "id": "mailgun-inbound",
@@ -224,8 +226,8 @@
       "pricing_model": "hybrid",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://parsio.io/blog/top-document-extraction-tools/",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://extracta.ai/pricing",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "hq_country": "unknown",
       "france_market": "unknown",
@@ -234,7 +236,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "pricing_notes": "Page pricing officielle ; remplace listicle (consulté 2026-06-23)."
     },
     {
       "id": "nylas",
@@ -1129,10 +1132,11 @@
         "US"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
-      "source_url": "https://www.mailbutler.io/pricing",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://www.mailbutler.io/pricing/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Starter ~$5/user/mo ; Professional ~$9 ; Business sur devis (consulté 2026-06-23)."
     },
     {
       "id": "earth-class-mail",

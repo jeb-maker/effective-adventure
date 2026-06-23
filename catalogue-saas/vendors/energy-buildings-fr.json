@@ -74,15 +74,16 @@
       "target_market": "smb",
       "geography": "france",
       "source_url": "https://www.effy.fr/pro",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "FR",
       "france_market": "strong",
       "operating_regions": [
         "FR"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "pricing_notes": "Gestion Prime CEE gratuite ; Projets Qualifiés dès 39 € HT/projet (consulté 2026-06-23)."
     },
     {
       "id": "hub-anah",
@@ -398,10 +399,11 @@
         "EU"
       ],
       "discovery_source": "crunchbase",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
-      "source_url": "https://www.homeys.io/",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://www.homeys.fr/tarifs",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Energy Analytics 99 € HT/mois ; Energy Management 149 € HT/mois (consulté 2026-06-23)."
     },
     {
       "id": "metron",

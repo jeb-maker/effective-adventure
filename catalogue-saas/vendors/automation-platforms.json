@@ -16,12 +16,12 @@
         "ai_actions"
       ],
       "pricing_model": "hybrid",
-      "pricing_notes": "À partir de ~$29.99/mo + tâches.",
+      "pricing_notes": "Remplace pickaxe.co ; page tarifs officielle (consulté 2026-06-23).",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://zapier.com/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "unknown",
       "france_market": "unknown",
       "operating_regions": [
@@ -29,7 +29,7 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle"
     },
     {
       "id": "make",
@@ -45,11 +45,11 @@
         "operations"
       ],
       "pricing_model": "hybrid",
-      "pricing_notes": "À partir de ~$10.59/mo + ops.",
+      "pricing_notes": "Source officielle ; remplace pickaxe.co (consulté 2026-06-23).",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://pickaxe.co/post/ai-agent-pricing-models",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://www.make.com/en/pricing",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "hq_country": "unknown",
       "france_market": "unknown",
@@ -58,7 +58,7 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle"
     },
     {
       "id": "n8n",
@@ -193,12 +193,12 @@
         "ai_flows"
       ],
       "pricing_model": "hybrid",
-      "pricing_notes": "Cloud Pro ~$25/mo ; OSS gratuit self-hosted.",
+      "pricing_notes": "Standard gratuit puis $5/flow actif/mo ; Ultimate sur contrat annuel (consulté 2026-06-23).",
       "target_market": "smb",
       "geography": "global",
-      "source_url": "https://propicked.com/blog/best-workflow-automation-2026-zapier-make-n8n-workato-tray",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://www.activepieces.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "unknown",
       "france_market": "unknown",
       "operating_regions": [
@@ -206,7 +206,7 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle"
     },
     {
       "id": "microsoft-power-automate",
@@ -226,8 +226,8 @@
       "pricing_model": "hybrid",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://www.youngju.dev/blog/culture/2026-05-16-zapier-n8n-make-activepieces-pipedream-workato-tines-power-automate-2026-deep-dive.en",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://www.microsoft.com/en-us/power-platform/products/power-automate/pricing",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "hq_country": "US",
       "france_market": "partial",
@@ -236,7 +236,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "pricing_notes": "Source officielle Microsoft ; remplace blog youngju.dev (consulté 2026-06-23)."
     },
     {
       "id": "tines",
@@ -254,8 +255,8 @@
       "pricing_model": "enterprise_quote",
       "target_market": "enterprise",
       "geography": "global",
-      "source_url": "https://www.youngju.dev/blog/culture/2026-05-16-zapier-n8n-make-activepieces-pipedream-workato-tines-power-automate-2026-deep-dive.en",
-      "source_consulted_at": "2026-06-22",
+      "source_url": "https://www.tines.com/pricing",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial",
       "hq_country": "US",
       "france_market": "partial",
@@ -264,7 +265,8 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "pricing_notes": "URL tarifs officielle ; remplace youngju.dev (consulté 2026-06-23)."
     },
     {
       "id": "windmill",
@@ -291,10 +293,11 @@
         "US"
       ],
       "discovery_source": "open_source",
-      "discovery_pass": "2026-06-v5j-recordai-orchestration",
-      "source_url": "https://www.windmill.dev/",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://www.windmill.dev/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Community $0 ; Team ~$10/seat/mo ; Enterprise sur devis (consulté 2026-06-23)."
     },
     {
       "id": "relay-app",
@@ -496,10 +499,11 @@
         "US"
       ],
       "discovery_source": "open_source",
-      "discovery_pass": "2026-06-v5j-recordai-orchestration",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
       "source_url": "https://budibase.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Pro $19/mo ; Premium $49 ; Business $299 ; OSS self-host gratuit (consulté 2026-06-23)."
     },
     {
       "id": "celonis",
@@ -737,10 +741,11 @@
         "EU"
       ],
       "discovery_source": "open_source",
-      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
       "source_url": "https://www.inngest.com/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Hobby $0 (50k exécutions) ; Pro dès $75/mo ; Enterprise custom (consulté 2026-06-23)."
     },
     {
       "id": "kestra",
@@ -767,10 +772,11 @@
         "US"
       ],
       "discovery_source": "open_source",
-      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
-      "source_url": "https://kestra.io/",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
+      "source_url": "https://kestra.io/pricing",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Open Source gratuit ; Enterprise sur devis ; Kestra Cloud pay-as-you-scale (consulté 2026-06-23)."
     },
     {
       "id": "hatchet",

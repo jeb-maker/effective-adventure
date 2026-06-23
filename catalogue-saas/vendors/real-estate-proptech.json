@@ -384,10 +384,11 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle",
       "source_url": "https://www.cityscan.fr/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Avis de Valeur dès 39 € HT/mois ; Captation leads dès 30 € HT/mois (consulté 2026-06-23)."
     },
     {
       "id": "immopen",

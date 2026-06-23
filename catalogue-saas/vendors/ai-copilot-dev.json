@@ -136,12 +136,12 @@
         "deployment"
       ],
       "pricing_model": "hybrid",
-      "pricing_notes": "Core ~$25/mo cité dans benchmarks agents.",
+      "pricing_notes": "Starter Free ; Core $20/mo annuel ; Pro $95/mo (consulté 2026-06-23).",
       "target_market": "self_serve",
       "geography": "global",
-      "source_url": "https://zylos.ai/research/2026-03-29-ai-agent-platform-economics-pricing-unit-economics",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial",
+      "source_url": "https://replit.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
       "hq_country": "unknown",
       "france_market": "unknown",
       "operating_regions": [
@@ -149,7 +149,7 @@
         "EU"
       ],
       "discovery_source": "retrospective_backfill",
-      "discovery_pass": "2026-06-v5a"
+      "discovery_pass": "2026-06-v6d-procurement-verify-listicle"
     },
     {
       "id": "windsurf",
