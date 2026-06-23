@@ -196,3 +196,56 @@ Aligné sur la tendance 2026 : hybride siège + usage + outcome partiel.
 🔁 **À retravailler.** Douleur réelle et modèle économique crédible, mais **C4 bloquant** : les segments `parsing-inbox` et `document-idp` sont denses ; la différenciation « dossier validé » n'est défendable qu'avec un **micro-process vertical précis** (ex. sinistre lite, KYC lite, bon de commande) et une preuve que les IDP génériques ne couvrent pas ce workflow.
 
 **Prochaine étape** : choisir 1 micro-process pilote, benchmarker 3 concurrents directs sur ce vertical (pas seulement le catalogue générique), puis re-scorer C4/C5.
+
+---
+
+## 12. Micro-process pilote recommandé
+
+### Comparatif des trois candidats
+
+| Critère | Sinistre lite | **KYC lite** ✓ | Bon de commande |
+|---|---|---|---|
+| **Saturation C4** | Haute — Shift Claims (FR, lancé sept. 2025, [PR Newswire 2025-09-16](https://www.prnewswire.com/fr/communiques-de-presse/shift-claims-lia-agentique-qui-accelere-et-optimise-la-gestion-des-sinistres-302557040.html)), Korint.io, Mediar.ai couvrent la chaîne complète | **Modérée** — segment enterprise (Onfido, Jumio) hors de portée PME/fintech ; niche « lite + audit trail DORA » peu couverte dans le catalogue (`inscribe` = seul acteur, HQ US, `france_market: partial`, [inscribe.ai](https://www.inscribe.ai/), consulté 2026-06-23) | Très haute — Limnos.app (FR, lancé avr. 2026, [limnos.app](https://limnos.app/), consulté 2026-06-23), OrderScan (FR, [orderscan.ai](https://www.orderscan.ai/), consulté 2026-06-23), Yooz (`france_market: strong`) |
+| **Payeur clair** | Flou : assureurs enterprise ont des outils dédiés ; courtiers SMB ont des budgets insuffisants ([Tensoria, consulté 2026-06-23](https://tensoria.fr/blog/automatiser-gestion-sinistres-courtier-ia)) | **Clair** : fintechs, EMI, néo-banques sous DORA (Art. 9-10, applicable depuis jan. 2025) ont un budget compliance réglementaire non-discrétionnaire ([CheckFile.ai, consulté 2026-06-23](https://www.checkfile.ai/fr-CH/blog/dora-2026-verification-documentaire-secteur-financier)) | Clair : équipes ADV/PME, ROI mesurable — mais concurrence directe déjà établie |
+| **MVP faisable** | Moyen — domaine complexe (fraude, ACPR, flux experts) | **Fort** — schéma standard ≤15 champs (nom, prénom, DDN, nationalité, type/n° pièce, justif. domicile), documents connus (CNI/passeport + quittance/relevé), règles de validation formalisées | Fort — mais marché déjà attaqué par des acteurs FR mieux positionnés |
+| **Angle FR/EU** | Moyen — réglementé ACPR mais marché occupé par des insurtechs FR | **Fort** — double contrainte DORA (UE 2022/2554) + AMLD6 : audit trail horodaté, 5 ans rétention, hébergement EU défendable face aux stacks US-only | Faible — e-facture 2026 est un vecteur, mais pas de contrainte audit trail comparable |
+
+---
+
+### Pilote recommandé : **KYC lite**
+
+**Justification en 3 points** :
+
+1. **Réglementation comme moteur de demande (payeur non-discrétionnaire)** — DORA (applicable depuis le 17 janvier 2025) et AMLD6 imposent aux entités financières un audit trail déterministe et horodaté pour toute vérification documentaire. Une traçabilité « qui a validé quoi, quelle version du document, quelle décision » n'est plus un argument commercial : c'est une obligation légale sous peine de sanction ACPR/AMF ([CheckFile.ai, consulté 2026-06-23](https://www.checkfile.ai/fr-CH/blog/dora-2026-verification-documentaire-secteur-financier) ; [VerifyPDF, consulté 2026-06-23](https://verifypdf.com/dora-compliance-document-verification-financial-services/)). RecordAI, avec son positionnement « dossier validé + audit trail natif », répond directement à cette obligation.
+
+2. **Espace concurrentiel moins saturé sur le segment SMB/fintech lite** — Les solutions enterprise (Onfido, Jumio) exigent des volumes et des budgets d'intégration inaccessibles aux PME fintechs et EMI. Dans le catalogue, `inscribe` est le seul acteur couvrant `kyc_validation + audit_trail`, mais avec `hq_country: US` et `france_market: partial` ([inscribe.ai](https://www.inscribe.ai/), consulté 2026-06-23). Aucun acteur catalogue n'adresse le flux complet « email/PDF entrant → dossier KYC structuré → validation humaine → export audit trail » pour une fintech FR/EU de 5–50 collaborateurs.
+
+3. **MVP le plus simple et schéma le plus stable** — Le schéma KYC de base est normalisé par la réglementation elle-même (L.561-1 CMF, AMLD6) : ≤15 champs, 2–3 types de documents (CNI, passeport, justificatif domicile), règles de validation formalisées. Contrairement au sinistre (multiplicité des types d'événement) ou au bon de commande (multiplicité des ERP et SKU catalogs), le KYC lite offre un périmètre MVP cadré et reproductible.
+
+---
+
+### Périmètre MVP KYC lite
+
+- **Entrée** : email entrant (IMAP/webhook) ou upload PDF/image
+- **Schéma JSON** : `nom`, `prenom`, `date_naissance`, `nationalite`, `type_piece_identite`, `numero_piece`, `date_expiration_piece`, `adresse`, `justificatif_domicile_type`, `date_justificatif`, `decision` (conforme / incomplet / à compléter)
+- **UI validation** : file de 10 champs à confirmer, avec aperçu document source (bbox/page tracés)
+- **Audit trail** : timestamp, identifiant validateur, version schéma, hash document source
+- **Export** : webhook JSON ou CSV, conservé 5 ans (AMLD6)
+- **Hébergement** : EU, RGPD natif — argument différenciant vs Inscribe (US)
+
+---
+
+### Note de re-scoring C4 / C5 (si pilote KYC lite retenu)
+
+> Le choix du vertical KYC lite modifie matériellement l'espace concurrentiel analysé.
+> Le scoring initial (C4 = 2, C5 = 3) portait sur les segments génériques `parsing-inbox` (30 acteurs) et `document-idp` (32 acteurs).
+> Recentré sur « KYC lite fintech FR/EU + audit trail DORA », les concurrents directs se réduisent à 1–2 acteurs partiellement positionnés.
+
+| Critère | Note actuelle | Note proposée | Justification |
+|---|---:|---:|---|
+| C4 — Espace concurrentiel libre | 2 | **3** | Segment « KYC lite + DORA audit trail + FR/EU » peu couvert dans le catalogue ; `inscribe` = seul acteur proche, US, `france_market: partial` (consulté 2026-06-23) |
+| C5 — Différenciation défendable | 3 | **4** | Ancre réglementaire (DORA art. 9-10, AMLD6) + hébergement EU + focus SMB fintech = différenciation plus durable qu'un simple « dossier validé » générique |
+
+**Nouveau score brut proposé** : 66 − 4 − 6 + 6 + 8 = **70 / 105** → **67 / 100** (toujours « À retravailler » mais +4 pts, seuil Go à 70/100)
+
+> Ce re-scoring reste conditionnel : il sera consolidé après benchmark de 3 concurrents directs sur le vertical KYC lite (Inscribe, Klippa, Mindee modèles ID) et validation du pricing avec 3 prospects fintechs FR.
