@@ -118,6 +118,29 @@ python3 scripts/catalogue_saas.py verify-eligible
 python3 scripts/catalogue_saas.py export -o catalogue-saas/exports/vendors.csv
 ```
 
+## Explorer web (+ RAG)
+
+Interface **100 % JavaScript** (filtres, stats, RAG TF-IDF dans le navigateur).
+
+**En ligne** (après merge sur `main` + activation Pages) :
+**https://jeb-maker.github.io/effective-adventure/**
+
+```bash
+# 1. Générer le bundle JSON (après enrichissement catalogue)
+node explorer/build.mjs
+
+# 2. Servir l'UI en local (fetch nécessite un serveur HTTP)
+cd explorer && npm start
+# → http://127.0.0.1:8765
+```
+
+Le déploiement GitHub Pages est automatisé via [`.github/workflows/pages.yml`](../.github/workflows/pages.yml)
+(merge sur `main` → rebuild bundle → publication).
+
+Fichiers : [`explorer/`](../explorer/) · `catalogue-bundle.json` (généré par `build.mjs`).
+
+Après une vague d'enrichissement, relancer `node explorer/build.mjs` pour rafraîchir le bundle.
+
 ## Ajouter un segment
 
 1. Éditer `scripts/sync_taxonomy_segments.py` → tuple dans `ALL_SEGMENTS`
