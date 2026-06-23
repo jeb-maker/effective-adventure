@@ -11,6 +11,7 @@ import sys
 from collections import Counter
 from datetime import date
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOGUE = ROOT / "catalogue-saas"
@@ -21,6 +22,20 @@ FROZEN_SEGMENTS_PATH = CATALOGUE / "frozen-segments.json"
 
 META_PASS_MARKERS = ("v5e-retrospective", "v5o-coverage")
 NEAR_THRESHOLD_PCT = 8.0
+INVENTORY_DEPTH_MIN = 18
+
+LISTICLE_PATTERNS = (
+    "/blog/",
+    "/post/",
+    "best-",
+    "top-",
+    "alternatives",
+    "pickaxe.co",
+    "modulos.ai",
+    "riskpublishing.com",
+    "zylos.ai/research",
+    "dancumberlandlabs.com/blog",
+)
 
 
 def load_taxonomy() -> dict:
@@ -41,6 +56,34 @@ def iter_vendors() -> list[dict]:
     for _, data in load_vendor_files():
         vendors.extend(data.get("vendors", []))
     return vendors
+
+
+def extract_domain(url: str) -> str:
+    if not url:
+        return ""
+    parsed = urlparse(url if "://" in url else f"https://{url}")
+    host = (parsed.netloc or parsed.path.split("/")[0]).lower()
+    if host.startswith("www."):
+        host = host[4:]
+    return host
+
+
+def is_listicle_source(source_url: str) -> bool:
+    lower = source_url.lower()
+    return any(pattern in lower for pattern in LISTICLE_PATTERNS)
+
+
+def domains_match(product_url: str, source_url: str) -> bool:
+    product_domain = extract_domain(product_url)
+    source_domain = extract_domain(source_url)
+    return bool(product_domain and source_domain and product_domain == source_domain)
+
+
+def load_frozen_segment_ids() -> set[str]:
+    if not FROZEN_SEGMENTS_PATH.exists():
+        return set()
+    data = json.loads(FROZEN_SEGMENTS_PATH.read_text(encoding="utf-8"))
+    return {item["segment_id"] for item in data.get("frozen", [])}
 
 
 def validate() -> int:
@@ -191,6 +234,24 @@ def stats() -> None:
         v["verification_status"] for v in vendors
     ).most_common():
         print(f"  {status:12} {count}")
+
+    listicle_count = sum(1 for v in vendors if is_listicle_source(v["source_url"]))
+    by_verification = Counter(v["verification_status"] for v in vendors)
+    eligible = sum(
+        1
+        for v in vendors
+        if v["verification_status"] == "partial"
+        and domains_match(v["url"], v["source_url"])
+        and not is_listicle_source(v["source_url"])
+    )
+
+    print()
+    print("Vérification / sources :")
+    for status in ("verified", "partial", "unverified"):
+        if by_verification.get(status):
+            print(f"  {status:20} {by_verification[status]}")
+    print(f"  {'listicle-sourced':20} {listicle_count}")
+    print(f"  {'promotion candidates':20} {eligible}  (partial + domaine officiel)")
 
     print()
     if any("hq_country" in v for v in vendors):
@@ -621,6 +682,145 @@ def saturation_freeze() -> int:
     return len(frozen)
 
 
+def audit_sources() -> None:
+    vendors = iter_vendors()
+    flagged = [v for v in vendors if is_listicle_source(v["source_url"])]
+
+    print(f"Audit sources listicle / agrégateur — {len(flagged)} / {len(vendors)} vendeurs")
+    print()
+    print("Par verification_status :")
+    for status, count in Counter(v["verification_status"] for v in flagged).most_common():
+        print(f"  {status:12} {count}")
+
+    print()
+    print("Top domaines source :")
+    domain_counts = Counter(extract_domain(v["source_url"]) for v in flagged)
+    for domain, count in domain_counts.most_common(15):
+        print(f"  {domain:40} {count}")
+
+    print()
+    print("Exemples :")
+    for v in flagged[:20]:
+        print(f"  {v['id']:32} {extract_domain(v['source_url']):24}  {v['source_url'][:72]}")
+    if len(flagged) > 20:
+        print(f"  … +{len(flagged) - 20} autres")
+
+
+def verify_eligible() -> None:
+    vendors = iter_vendors()
+    listicle_count = sum(1 for v in vendors if is_listicle_source(v["source_url"]))
+
+    eligible = [
+        v
+        for v in vendors
+        if v["verification_status"] == "partial"
+        and domains_match(v["url"], v["source_url"])
+        and not is_listicle_source(v["source_url"])
+    ]
+    verified = [v for v in vendors if v["verification_status"] == "verified"]
+
+    print("Candidats promotion → verified (partial, domaine officiel, hors listicle)")
+    print(f"  {len(eligible)} entrée(s)")
+    print()
+    for v in sorted(eligible, key=lambda item: item["id"])[:30]:
+        print(f"  {v['id']:32} {extract_domain(v['url']):24}  {v['name']}")
+    if len(eligible) > 30:
+        print(f"  … +{len(eligible) - 30} autres")
+
+    print()
+    print(f"Déjà verified — {len(verified)} entrée(s)")
+    for v in sorted(verified, key=lambda item: item["id"])[:15]:
+        domain = extract_domain(v["url"])
+        flag = " [listicle src]" if is_listicle_source(v["source_url"]) else ""
+        print(f"  {v['id']:32} {domain:24}  {v['name']}{flag}")
+    if len(verified) > 15:
+        print(f"  … +{len(verified) - 15} autres")
+
+    print()
+    print(
+        f"Résumé : {len(eligible)} éligible(s) promotion, "
+        f"{len(verified)} verified, {listicle_count} listicle-sourced"
+    )
+
+
+def segment_readiness() -> None:
+    matrix = load_coverage_matrix()
+    taxonomy = load_taxonomy()
+    threshold = matrix.get("saturation_threshold_pct", 5)
+    frozen_ids = load_frozen_segment_ids()
+
+    vendors = iter_vendors()
+    by_segment: Counter[str] = Counter()
+    for v in vendors:
+        for seg in v["segments"]:
+            by_segment[seg] += 1
+
+    inventory_ready = 0
+    saturated_count = 0
+    l3_ready = 0
+    l3_targets = 0
+
+    print(
+        f"Préparation segments — profondeur ≥ {INVENTORY_DEPTH_MIN}, "
+        f"saturation < {threshold:g} % (dernière passe réelle)"
+    )
+    print(
+        f"{'Segment':32} {'Cnt':>4} {'Lvl':>3} {'Rate':>6} {'Gelé':>5}  "
+        f"{'Inventaire':12} {'Saturation':12} {'L3 ready':8}"
+    )
+    print("-" * 96)
+
+    for seg in taxonomy["segments"]:
+        sid = seg["id"]
+        entry = matrix["segments"].get(sid, {})
+        target_level = entry.get("target_level", "?")
+        count = by_segment.get(sid, 0)
+        frozen = sid in frozen_ids
+
+        pass_id = effective_last_pass(entry)
+        rate: float | None = None
+        if pass_id:
+            metrics = segment_pass_metrics(entry, pass_id)
+            if metrics:
+                _, _, rate = metrics
+
+        inventory_ok = count >= INVENTORY_DEPTH_MIN
+        saturation_ok = rate is not None and rate < threshold
+        l3_ok = target_level == "L3" and saturation_ok
+
+        if inventory_ok:
+            inventory_ready += 1
+        if saturation_ok:
+            saturated_count += 1
+        if target_level == "L3":
+            l3_targets += 1
+            if l3_ok:
+                l3_ready += 1
+
+        rate_str = f"{rate:.1f}%" if rate is not None else "  n/a"
+        inv_flag = "≥18" if inventory_ok else f"<{INVENTORY_DEPTH_MIN}"
+        sat_flag = "OUI" if saturation_ok else "non"
+        l3_flag = "OUI" if l3_ok else ("—" if target_level != "L3" else "non")
+        frozen_str = "oui" if frozen else "—"
+
+        print(
+            f"  {sid:32} {count:4} {target_level:>3} {rate_str:>6} {frozen_str:>5}  "
+            f"{inv_flag:12} {sat_flag:12} {l3_flag:8}  — {seg['label'][:40]}"
+        )
+
+    total = len(taxonomy["segments"])
+    print()
+    print(
+        f"Résumé : {inventory_ready}/{total} segments profondeur inventaire "
+        f"(≥ {INVENTORY_DEPTH_MIN}), "
+        f"{saturated_count}/{total} segments saturés"
+    )
+    print(
+        f"         L3 ready (saturation, pas profondeur seule) : "
+        f"{l3_ready}/{l3_targets} segments cible L3"
+    )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Catalogue SaaS — outils")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -664,6 +864,16 @@ def main() -> int:
         help="Geler segments < seuil dans frozen-segments.json",
     )
 
+    sub.add_parser("audit-sources", help="Vendeurs avec source listicle / agrégateur")
+    sub.add_parser(
+        "verify-eligible",
+        help="Candidats verified (domaine officiel) vs listicle",
+    )
+    sub.add_parser(
+        "segment-readiness",
+        help="Profondeur inventaire vs saturation par segment",
+    )
+
     args = parser.parse_args()
 
     if args.command == "validate":
@@ -698,6 +908,15 @@ def main() -> int:
             saturation_freeze()
         else:
             saturation_report()
+        return 0
+    if args.command == "audit-sources":
+        audit_sources()
+        return 0
+    if args.command == "verify-eligible":
+        verify_eligible()
+        return 0
+    if args.command == "segment-readiness":
+        segment_readiness()
         return 0
 
     return 1
