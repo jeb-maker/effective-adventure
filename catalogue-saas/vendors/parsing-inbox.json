@@ -884,6 +884,273 @@
       "source_url": "https://www.formstack.com/products/documents",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "hiver",
+      "name": "Hiver",
+      "url": "https://hiverhq.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Shared inbox Gmail/Outlook ; routage email, assignation cas et workflows collaboratifs audités.",
+      "capabilities": [
+        "shared_inbox",
+        "email_routing",
+        "case_assignment",
+        "workflow"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://hiverhq.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "helpscout",
+      "name": "Help Scout",
+      "url": "https://www.helpscout.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Support inbox partagée ; threads email→cas, notes internes, SLA et historique client traçable.",
+      "capabilities": [
+        "shared_inbox",
+        "email_to_case",
+        "sla",
+        "audit_trail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.helpscout.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dixa",
+      "name": "Dixa",
+      "url": "https://www.dixa.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Plateforme ops client EU ; agrégation email/chat, dossier conversation et workflows validation.",
+      "capabilities": [
+        "omnichannel_inbox",
+        "email_aggregation",
+        "case_management",
+        "workflow"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DK",
+      "france_market": "partial",
+      "operating_regions": [
+        "DK",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.dixa.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "emailtree-ai",
+      "name": "EmailTree AI",
+      "url": "https://emailtree.ai/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Automatisation email IA EU ; classification, extraction PJ et boucle validation opérateur dossier.",
+      "capabilities": [
+        "email_classification",
+        "attachment_extraction",
+        "human_validation",
+        "ai_workflow"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "LU",
+      "france_market": "partial",
+      "operating_regions": [
+        "LU",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://emailtree.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "docuware",
+      "name": "DocuWare",
+      "url": "https://start.docuware.com/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "ECMS allemand ; capture email/scan, indexation, validation opérateur et archivage dossier conforme.",
+      "capabilities": [
+        "email_capture",
+        "document_indexing",
+        "operator_validation",
+        "records_archiving"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://start.docuware.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "m-files",
+      "name": "M-Files",
+      "url": "https://www.m-files.com/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "Gestion documentaire metadata EU ; intake email, workflow approbation et audit trail versionné.",
+      "capabilities": [
+        "metadata_dms",
+        "email_intake",
+        "approval_workflow",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "FI",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.m-files.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "postscan-mail",
+      "name": "PostScan Mail",
+      "url": "https://www.postscanmail.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Boîte postale virtuelle ; numérisation courrier entrant, OCR et routage dossier PDF validé.",
+      "capabilities": [
+        "virtual_mailbox",
+        "mail_digitization",
+        "ocr",
+        "document_routing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.postscanmail.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mailbutler",
+      "name": "Mailbutler",
+      "url": "https://www.mailbutler.io/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Extension email EU ; templates, tâches, notes dossier et suivi workflow depuis la boîte entrante.",
+      "capabilities": [
+        "email_extension",
+        "task_tracking",
+        "templates",
+        "workflow_notes"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.mailbutler.io/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "earth-class-mail",
+      "name": "Earth Class Mail",
+      "url": "https://www.earthclassmail.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Réception courrier physique ; scan haute qualité, classement dossier et export cloud auditables.",
+      "capabilities": [
+        "physical_mail_scan",
+        "document_classification",
+        "cloud_export",
+        "audit_trail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.earthclassmail.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

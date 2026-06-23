@@ -1101,6 +1101,272 @@
       "source_url": "https://www.inscribe.ai/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "certivity",
+      "name": "Certivity",
+      "url": "https://www.certivity.io/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Conformité produits EU ; exigences réglementaires traduites en specs techniques et dossiers CE.",
+      "capabilities": [
+        "regulatory_to_spec",
+        "ce_dossier",
+        "requirement_mapping",
+        "product_compliance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "SE",
+      "france_market": "partial",
+      "operating_regions": [
+        "SE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.certivity.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "qualio",
+      "name": "Qualio",
+      "url": "https://www.qualio.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "eQMS life sciences ; exigences ISO/FDA encodées en workflows, preuves et specs qualité validées.",
+      "capabilities": [
+        "eqms",
+        "requirement_workflows",
+        "evidence",
+        "validated_specs"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IE",
+      "france_market": "partial",
+      "operating_regions": [
+        "IE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.qualio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "compliancequest",
+      "name": "ComplianceQuest",
+      "url": "https://www.compliancequest.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Quality/compliance Salesforce ; exigences→contrôles, CAPA et dossiers audit trail sur plateforme unifiée.",
+      "capabilities": [
+        "quality_management",
+        "requirement_controls",
+        "capa",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.compliancequest.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zengrc",
+      "name": "ZenGRC (Archer)",
+      "url": "https://www.zengrc.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "GRC cloud ; mapping cadres réglementaires vers contrôles, tâches et preuves dossier conformité.",
+      "capabilities": [
+        "framework_mapping",
+        "control_tasks",
+        "evidence",
+        "compliance_dossier"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.zengrc.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "standard-fusion",
+      "name": "StandardFusion",
+      "url": "https://www.standardfusion.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "GRC mid-market ; exigences SOC2/ISO traduites en politiques, contrôles et specs opérationnelles.",
+      "capabilities": [
+        "policy_controls",
+        "framework_mapping",
+        "operational_specs",
+        "evidence"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.standardfusion.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "certa",
+      "name": "Certa",
+      "url": "https://www.getcerta.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Workflow compliance no-code ; questionnaires tiers, validation dossier et règles métier auditables.",
+      "capabilities": [
+        "third_party_workflows",
+        "questionnaires",
+        "case_validation",
+        "audit_rules"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.getcerta.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "complion",
+      "name": "Complion",
+      "url": "https://www.complion.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Conformité essais cliniques ; exigences protocole→checklists, dossiers site et piste audit FDA.",
+      "capabilities": [
+        "clinical_compliance",
+        "protocol_checklists",
+        "site_dossiers",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.complion.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ideagen",
+      "name": "Ideagen",
+      "url": "https://www.ideagen.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "Suite GRC globale ; obligations réglementaires, cas conformité et preuves centralisées multi-cadres.",
+      "capabilities": [
+        "grc_suite",
+        "regulatory_obligations",
+        "case_management",
+        "evidence"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US",
+        "AU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.ideagen.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "origami-risk",
+      "name": "Origami Risk",
+      "url": "https://www.origamirisk.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "GRC + assurance ; exigences réglementaires, workflows cas incidents et dossiers preuves traçables.",
+      "capabilities": [
+        "risk_grc",
+        "incident_cases",
+        "regulatory_requirements",
+        "evidence_dossier"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.origamirisk.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

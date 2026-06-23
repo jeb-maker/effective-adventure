@@ -54,7 +54,7 @@ Synthèse (consulté 2026-06-23) :
 
 #### Segment `parsing-inbox` — Parsing email & inbox
 
-Fichier : [`catalogue-saas/vendors/parsing-inbox.json`](../../catalogue-saas/vendors/parsing-inbox.json) (30 entrées)
+Fichier : [`catalogue-saas/vendors/parsing-inbox.json`](../../catalogue-saas/vendors/parsing-inbox.json) (39 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -70,7 +70,7 @@ Fichier : [`catalogue-saas/vendors/parsing-inbox.json`](../../catalogue-saas/ven
 | `sendgrid-inbound` | Twilio SendGrid Inbound Parse | US | partial | partial |
 | `mailjet-parse` | Mailjet Email Parser | FR | strong | partial |
 | `mailslurp` | MailSlurp | US | partial | partial |
-| … | _+18 autres_ | | | |
+| … | _+27 autres_ | | | |
 
 #### Segment `document-idp` — IDP & extraction documentaire
 
@@ -94,7 +94,7 @@ Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vend
 
 #### Segment `compliance-to-spec` — Réglementation → spec produit
 
-Fichier : [`catalogue-saas/vendors/compliance-to-spec.json`](../../catalogue-saas/vendors/compliance-to-spec.json) (37 entrées)
+Fichier : [`catalogue-saas/vendors/compliance-to-spec.json`](../../catalogue-saas/vendors/compliance-to-spec.json) (46 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -110,11 +110,11 @@ Fichier : [`catalogue-saas/vendors/compliance-to-spec.json`](../../catalogue-saa
 | `anecdotes` | Anecdotes | US | partial | partial |
 | `scrut-automation` | Scrut Automation | IN | absent | partial |
 | `thoropass` | Thoropass | US | partial | partial |
-| … | _+25 autres_ | | | |
+| … | _+34 autres_ | | | |
 
 #### Segment `automation-platforms` — Automatisation no-code / iPaaS
 
-Fichier : [`catalogue-saas/vendors/automation-platforms.json`](../../catalogue-saas/vendors/automation-platforms.json) (21 entrées)
+Fichier : [`catalogue-saas/vendors/automation-platforms.json`](../../catalogue-saas/vendors/automation-platforms.json) (30 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -130,7 +130,7 @@ Fichier : [`catalogue-saas/vendors/automation-platforms.json`](../../catalogue-s
 | `windmill` | Windmill | FR | strong | partial |
 | `relay-app` | Relay.app | US | partial | partial |
 | `bardeen` | Bardeen | US | partial | partial |
-| … | _+9 autres_ | | | |
+| … | _+18 autres_ | | | |
 
 #### Segment `kyc-aml` — KYC / AML / identity
 

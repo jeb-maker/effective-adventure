@@ -1456,7 +1456,8 @@
       "name": "DataSnipper",
       "url": "https://www.datasnipper.com/",
       "segments": [
-        "document-idp"
+        "document-idp",
+        "parsing-inbox"
       ],
       "description": "Audit document intelligence ; extraction Excel/PDF, validation analyste et dossier de travail signé.",
       "capabilities": [
@@ -1515,7 +1516,8 @@
       "name": "Stampli",
       "url": "https://www.stampli.com/",
       "segments": [
-        "document-idp"
+        "document-idp",
+        "parsing-inbox"
       ],
       "description": "AP automation ; capture factures, extraction champs, approbations humaines et audit trail dossier.",
       "capabilities": [
@@ -1662,7 +1664,8 @@
       "name": "Docubee",
       "url": "https://www.docubee.com/",
       "segments": [
-        "document-idp"
+        "document-idp",
+        "parsing-inbox"
       ],
       "description": "Workflow documentaire ; capture, extraction champs, approbations humaines et archivage dossier validé.",
       "capabilities": [

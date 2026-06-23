@@ -535,7 +535,8 @@
       "name": "Temporal",
       "url": "https://temporal.io/",
       "segments": [
-        "automation-platforms"
+        "automation-platforms",
+        "parsing-inbox"
       ],
       "description": "Moteur orchestration durable ; workflows code (retry, saga) avec historique complet exécutions.",
       "capabilities": [
@@ -593,7 +594,8 @@
       "name": "Flowable",
       "url": "https://www.flowable.com/",
       "segments": [
-        "automation-platforms"
+        "automation-platforms",
+        "compliance-to-spec"
       ],
       "description": "BPMN/CMMN européen ; moteur processus, tâches humaines, formulaires et audit trail dossier.",
       "capabilities": [
@@ -615,6 +617,273 @@
       "discovery_source": "geo_digest",
       "discovery_pass": "2026-06-v5j-recordai-orchestration",
       "source_url": "https://www.flowable.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "bonitasoft",
+      "name": "Bonitasoft",
+      "url": "https://www.bonitasoft.com/",
+      "segments": [
+        "automation-platforms",
+        "compliance-to-spec"
+      ],
+      "description": "BPM open source FR ; processus métier, tâches humaines, formulaires et audit trail dossier EU.",
+      "capabilities": [
+        "bpmn",
+        "human_tasks",
+        "case_management",
+        "audit_trail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.bonitasoft.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "bizagi",
+      "name": "Bizagi",
+      "url": "https://www.bizagi.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "BPM low-code ; modélisation processus, files humaines, connecteurs docs/email et journal cas.",
+      "capabilities": [
+        "bpmn",
+        "human_workqueues",
+        "document_connectors",
+        "case_log"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "CO",
+      "france_market": "partial",
+      "operating_regions": [
+        "CO",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.bizagi.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "bonita",
+      "name": "Bonita (Bonitasoft)",
+      "url": "https://www.bonitasoft.com/products",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Moteur BPMN open source ; orchestration durable, tâches opérateur et historique exécution complet.",
+      "capabilities": [
+        "bpmn_engine",
+        "human_tasks",
+        "orchestration",
+        "execution_history"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.bonitasoft.com/products",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Moteur OSS distinct de la plateforme Bonitasoft commercial cataloguée."
+    },
+    {
+      "id": "inngest",
+      "name": "Inngest",
+      "url": "https://www.inngest.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Orchestration événementielle ; workflows code, steps durables, reprise échec et logs audit exécution.",
+      "capabilities": [
+        "event_driven",
+        "durable_steps",
+        "retry_logic",
+        "execution_logs"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.inngest.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kestra",
+      "name": "Kestra",
+      "url": "https://kestra.io/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Orchestration data/ops FR ; flows YAML, observabilité runs, reprise dossier et audit trail EU.",
+      "capabilities": [
+        "yaml_flows",
+        "run_observability",
+        "retry",
+        "audit_trail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://kestra.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hatchet",
+      "name": "Hatchet",
+      "url": "https://hatchet.run/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Moteur workflows code ; files tâches, concurrence, reprise et historique runs auditables.",
+      "capabilities": [
+        "task_queues",
+        "workflow_engine",
+        "run_history",
+        "retry"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://hatchet.run/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "flokzu",
+      "name": "Flokzu",
+      "url": "https://flokzu.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "BPM cloud no-code ; formulaires entrants, approbations humaines et traçabilité processus EU.",
+      "capabilities": [
+        "no_code_bpm",
+        "form_intake",
+        "human_approvals",
+        "process_traceability"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "UY",
+      "france_market": "partial",
+      "operating_regions": [
+        "UY",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://flokzu.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "process-street",
+      "name": "Process Street",
+      "url": "https://www.process.st/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Checklists processus ; SOPs email/doc-triggered, assignations humaines et journal conformité.",
+      "capabilities": [
+        "process_checklists",
+        "sop",
+        "human_assignments",
+        "compliance_log"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.process.st/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "nintex",
+      "name": "Nintex",
+      "url": "https://www.nintex.com/",
+      "segments": [
+        "automation-platforms"
+      ],
+      "description": "Workflow enterprise ; orchestration SharePoint/M365, tâches humaines, docs et audit trail complet.",
+      "capabilities": [
+        "enterprise_workflow",
+        "human_tasks",
+        "document_automation",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.nintex.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }

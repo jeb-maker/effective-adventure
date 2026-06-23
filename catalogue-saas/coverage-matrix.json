@@ -307,10 +307,10 @@
       "sources": {
         "g2": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 20,
+          "candidates_found": 22,
           "new_added": 3,
-          "pass": "2026-06-v5h-dossier-valide",
-          "cumulative_new": 13
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 16
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -320,17 +320,17 @@
         },
         "crunchbase": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 8,
+          "candidates_found": 10,
           "new_added": 1,
-          "pass": "2026-06-v5h-dossier-valide",
-          "cumulative_new": 3
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 4
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 14,
-          "new_added": 3,
-          "pass": "2026-06-v5g-parsing-compliance",
-          "cumulative_new": 5
+          "new_added": 2,
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 7
         },
         "alternatives": {
           "consulted_at": "2026-06-23",
@@ -348,10 +348,10 @@
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 14,
-          "new_added": 4,
-          "pass": "2026-06-v5h-dossier-valide",
-          "cumulative_new": 6
+          "candidates_found": 12,
+          "new_added": 2,
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 8
         },
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -360,8 +360,8 @@
           "pass": "2026-06-v5b-compliance-to-spec"
         }
       },
-      "last_pass": "2026-06-v5h-dossier-valide",
-      "vendor_count_after_pass": 37
+      "last_pass": "2026-06-v5q-recordai-chain-l3",
+      "vendor_count_after_pass": 46
     },
     "accessibility-compliance": {
       "target_level": "L2",
@@ -1308,20 +1308,21 @@
       "vendor_count_after_pass": 60
     },
     "parsing-inbox": {
-      "target_level": "L2",
+      "target_level": "L3",
       "sources": {
         "g2": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 18,
+          "candidates_found": 20,
           "new_added": 4,
-          "pass": "2026-06-v5h-dossier-valide",
-          "cumulative_new": 8
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 12
         },
         "capterra": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 8,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 10,
           "new_added": 1,
-          "pass": "2026-06-v5f-agents-parsing-grc"
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 2
         },
         "crunchbase": {
           "consulted_at": "2026-06-22",
@@ -1353,21 +1354,21 @@
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 6,
-          "new_added": 1,
-          "pass": "2026-06-v5h-dossier-valide",
-          "cumulative_new": 3
+          "candidates_found": 14,
+          "new_added": 3,
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 6
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 12,
-          "new_added": 3,
-          "pass": "2026-06-v5h-dossier-valide",
-          "cumulative_new": 6
+          "candidates_found": 8,
+          "new_added": 1,
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 7
         }
       },
-      "last_pass": "2026-06-v5h-dossier-valide",
-      "vendor_count_after_pass": 30
+      "last_pass": "2026-06-v5q-recordai-chain-l3",
+      "vendor_count_after_pass": 39
     },
     "e-signature": {
       "target_level": "L2",
@@ -1868,21 +1869,21 @@
       "vendor_count_after_pass": 11
     },
     "automation-platforms": {
-      "target_level": "L2",
+      "target_level": "L3",
       "sources": {
         "g2": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 22,
-          "new_added": 4,
-          "pass": "2026-06-v5j-recordai-orchestration",
-          "cumulative_new": 8
+          "candidates_found": 18,
+          "new_added": 2,
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 10
         },
         "capterra": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 18,
-          "new_added": 3,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 1,
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 4
         },
         "crunchbase": {
           "consulted_at": "2026-06-23",
@@ -1893,10 +1894,10 @@
         },
         "analyst_report": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 8,
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5j-recordai-orchestration",
-          "cumulative_new": 2
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 3
         },
         "alternatives": {
           "consulted_at": "2026-06-23",
@@ -1907,17 +1908,17 @@
         },
         "open_source": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 12,
+          "candidates_found": 16,
           "new_added": 4,
-          "pass": "2026-06-v5j-recordai-orchestration",
-          "cumulative_new": 4
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 8
         },
         "geo_digest": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 6,
-          "new_added": 1,
-          "pass": "2026-06-v5j-recordai-orchestration",
-          "cumulative_new": 1
+          "candidates_found": 8,
+          "new_added": 2,
+          "pass": "2026-06-v5q-recordai-chain-l3",
+          "cumulative_new": 3
         },
         "official_site": {
           "consulted_at": "2026-06-23",
@@ -1927,8 +1928,8 @@
           "cumulative_new": 3
         }
       },
-      "last_pass": "2026-06-v5j-recordai-orchestration",
-      "vendor_count_after_pass": 21
+      "last_pass": "2026-06-v5q-recordai-chain-l3",
+      "vendor_count_after_pass": 30
     },
     "rpa-enterprise": {
       "target_level": "L2",

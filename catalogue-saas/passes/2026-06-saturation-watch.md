@@ -15,7 +15,7 @@ python3 scripts/catalogue_saas.py saturation freeze
 python3 scripts/catalogue_saas.py saturation          # rapport historique par passe
 ```
 
-## État actuel (post V5o)
+## État actuel (post V5q)
 
 | Indicateur | Valeur |
 |---|---|
@@ -23,20 +23,30 @@ python3 scripts/catalogue_saas.py saturation          # rapport historique par p
 | Segments gelés (`frozen-segments.json`) | **0** |
 | Segments `[SATURÉ]` (< 5 %) | **0** |
 | Segments `[PROCHE]` (5–8 %) | **0** |
-| Vendeurs catalogue | **914** |
-| Taux minimum observé | **13,8 %** (`support-sales-agents`, V5f) |
+| Vendeurs catalogue | **1072** |
+| Taux minimum observé | **8,2 %** (`support-sales-agents`, V5s) |
 
-Aucun segment ne remplit encore le critère de gel L2/L3. La passe V5o (backfill coverage) est **exclue** du calcul : les taux affichés reflètent la **dernière passe de moisson réelle** (V5l–V5n, V5f L3, etc.).
+Aucun segment ne remplit encore le critère de gel L2/L3. La passe V5o (backfill coverage) est **exclue** du calcul : les taux affichés reflètent la **dernière passe de moisson réelle** (V5l–V5s, V5q chaîne RecordAI, etc.).
+
+### V5q — chaîne RecordAI (2026-06-v5q-recordai-chain-l3)
+
+| Segment | Nouveaux / candidats | Taux |
+|---|---:|---:|
+| `compliance-to-spec` | +8 / 58 | **13,8 %** |
+| `parsing-inbox` | +9 / 52 | **17,3 %** |
+| `automation-platforms` | +10 / 56 | **17,9 %** |
+
+Tous > seuil gel ; chaîne RecordAI (email → dossier validé → orchestration) reste enrichissable en L3 niche.
 
 ## Top 5 à risque (taux le plus bas — gel si prochaine passe < 5 %)
 
 | Rang | Segment | Dernière passe réelle | Taux | Écart au seuil 5 % |
 |---:|---|---|---:|---:|
-| 1 | `support-sales-agents` | V5f | 13,8 % | +8,8 pts |
-| 2 | `data-integration-etl` | V5n | 15,0 % | +10,0 pts |
-| 3 | `llm-api-providers` | V5l | 15,8 % | +10,8 pts |
-| 4 | `grc-security` | V5f | 16,4 % | +11,4 pts |
-| 5 | `regtech` | V5c | 16,7 % | +11,7 pts |
+| 1 | `support-sales-agents` | V5s | 8,2 % | +3,2 pts |
+| 2 | `ai-copilot-dev` | V5s | 8,9 % | +3,9 pts |
+| 3 | `ai-governance` | V5s | 9,6 % | +4,6 pts |
+| 4 | `rag-knowledge` | V5s | 10,3 % | +5,3 pts |
+| 5 | `voice-speech-ai` | V5s | 12,2 % | +7,2 pts |
 
 Ces segments restent **éloignés** du seuil de gel mais seront les **premiers candidats** si une passe de maintenance ajoute peu de nouveaux acteurs.
 

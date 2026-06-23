@@ -1,6 +1,6 @@
 {
   "segment": "grc-security",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "vanta",
@@ -388,7 +388,8 @@
       "name": "AuditBoard",
       "url": "https://www.auditboard.com/",
       "segments": [
-        "grc-security"
+        "grc-security",
+        "compliance-to-spec"
       ],
       "description": "Plateforme audit, risque et compliance ; leader mid-market audit-centric.",
       "capabilities": [
