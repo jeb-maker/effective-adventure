@@ -1,4 +1,8 @@
+import { loadCatalogue } from "./catalogue.js";
+import { ask } from "./rag.js";
+
 const state = {
+  store: null,
   meta: null,
   segments: [],
   offset: 0,
@@ -30,15 +34,6 @@ const els = {
   ragInput: document.getElementById("rag-input"),
 };
 
-async function fetchJson(url, options) {
-  const res = await fetch(url, options);
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(text || res.statusText);
-  }
-  return res.json();
-}
-
 function fillSelect(select, values, formatter = (v) => v) {
   values.forEach((value) => {
     const opt = document.createElement("option");
@@ -50,26 +45,32 @@ function fillSelect(select, values, formatter = (v) => v) {
 
 function renderStats(meta) {
   els.globalStats.innerHTML = [
-  { label: "Vendeurs", value: meta.vendor_count },
-  { label: "Segments", value: meta.segment_count },
-  { label: "Gelés", value: meta.frozen_segment_count },
-  { label: "Idées liées", value: meta.idea_count },
-  ].map(
-    (item) =>
-      `<div class="stat-card"><strong>${item.value}</strong><span>${item.label}</span></div>`
-  ).join("");
+    { label: "Vendeurs", value: meta.vendor_count },
+    { label: "Segments", value: meta.segment_count },
+    { label: "Gelés", value: meta.frozen_segment_count },
+    { label: "Idées liées", value: meta.idea_count },
+  ]
+    .map(
+      (item) =>
+        `<div class="stat-card"><strong>${item.value}</strong><span>${item.label}</span></div>`
+    )
+    .join("");
 }
 
 function renderSegmentChart(segments) {
   const top = [...segments].sort((a, b) => b.count - a.count).slice(0, 12);
   const max = Math.max(...top.map((s) => s.count), 1);
-  els.segmentChart.innerHTML = top.map((seg) => `
+  els.segmentChart.innerHTML = top
+    .map(
+      (seg) => `
     <div class="chart-row" title="${seg.label}">
       <span class="chart-label">${seg.label}</span>
       <div class="chart-bar"><span style="width:${(seg.count / max) * 100}%"></span></div>
       <span>${seg.count}</span>
     </div>
-  `).join("");
+  `
+    )
+    .join("");
 }
 
 function tag(text, className = "") {
@@ -81,7 +82,12 @@ function renderVendorCard(vendor) {
   const flags = [
     vendor.pricing_model ? tag(vendor.pricing_model) : "",
     vendor.target_market ? tag(vendor.target_market) : "",
-    vendor.verification_status ? tag(vendor.verification_status, vendor.verification_status === "verified" ? "accent" : "warn") : "",
+    vendor.verification_status
+      ? tag(
+          vendor.verification_status,
+          vendor.verification_status === "verified" ? "accent" : "warn"
+        )
+      : "",
     vendor.hq_country ? tag(`HQ ${vendor.hq_country}`) : "",
     vendor.france_market ? tag(`FR ${vendor.france_market}`) : "",
     vendor.frozen_segment ? tag("segment gelé", "frozen") : "",
@@ -111,21 +117,13 @@ function currentFilters() {
   };
 }
 
-function filtersToQuery(filters, offset) {
-  const params = new URLSearchParams();
-  Object.entries(filters).forEach(([key, value]) => {
-    if (value) params.set(key, value);
-  });
-  params.set("limit", String(state.limit));
-  params.set("offset", String(offset));
-  return params.toString();
-}
-
-async function loadVendors(resetOffset = false) {
+function loadVendors(resetOffset = false) {
   if (resetOffset) state.offset = 0;
-  const filters = currentFilters();
-  const query = filtersToQuery(filters, state.offset);
-  const data = await fetchJson(`/api/vendors?${query}`);
+  const data = state.store.filterVendors({
+    ...currentFilters(),
+    limit: state.limit,
+    offset: state.offset,
+  });
   state.total = data.total;
 
   els.resultsCount.textContent = `${data.total} résultat(s)`;
@@ -154,13 +152,15 @@ function bindFilters() {
   inputs.forEach((el) => {
     el.addEventListener("input", () => {
       clearTimeout(state.debounce);
-      state.debounce = setTimeout(() => loadVendors(true), 250);
+      state.debounce = setTimeout(() => loadVendors(true), 200);
     });
     el.addEventListener("change", () => loadVendors(true));
   });
 
   els.resetFilters.addEventListener("click", () => {
-    inputs.forEach((el) => { el.value = ""; });
+    inputs.forEach((el) => {
+      el.value = "";
+    });
     loadVendors(true);
   });
 
@@ -208,57 +208,52 @@ function appendMessage(role, text, sources = null) {
   els.ragMessages.scrollTop = els.ragMessages.scrollHeight;
 }
 
-async function askRag(query) {
+function askRag(query) {
   appendMessage("user", query);
   els.ragInput.value = "";
-  appendMessage("assistant", "Recherche en cours…");
 
-  try {
-    const data = await fetchJson("/api/ask", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ query, top_k: 8 }),
-    });
-    els.ragMessages.lastChild.remove();
-    appendMessage("assistant", data.answer, data.sources);
-    els.ragMode.textContent = `Mode : ${data.mode}`;
-  } catch (err) {
-    els.ragMessages.lastChild.remove();
-    appendMessage("assistant", `Erreur : ${err.message}`);
-  }
+  const data = ask(query, state.store, 8);
+  appendMessage("assistant", data.answer, data.sources);
+  els.ragMode.textContent = "Mode : RAG local (TF-IDF, 100 % navigateur)";
 }
 
 async function init() {
-  const [meta, segmentsPayload] = await Promise.all([
-    fetchJson("/api/meta"),
-    fetchJson("/api/segments"),
-  ]);
-
+  const { store, meta, segments } = await loadCatalogue();
+  state.store = store;
   state.meta = meta;
-  state.segments = segmentsPayload.segments;
+  state.segments = segments;
 
   renderStats(meta);
-  renderSegmentChart(state.segments);
+  renderSegmentChart(segments);
 
-  fillSelect(els.filterCategory, meta.categories.map((c) => c.id), (id) => {
-    const cat = meta.categories.find((c) => c.id === id);
-    return cat ? cat.label : id;
-  });
-  fillSelect(els.filterSegment, state.segments.map((s) => s.id), (id) => {
-    const seg = state.segments.find((s) => s.id === id);
-    return seg ? seg.label : id;
-  });
+  fillSelect(
+    els.filterCategory,
+    meta.categories.map((c) => c.id),
+    (id) => {
+      const cat = meta.categories.find((c) => c.id === id);
+      return cat ? cat.label : id;
+    }
+  );
+  fillSelect(
+    els.filterSegment,
+    segments.map((s) => s.id),
+    (id) => {
+      const seg = segments.find((s) => s.id === id);
+      return seg ? seg.label : id;
+    }
+  );
   fillSelect(els.filterPricing, meta.pricing_models);
   fillSelect(els.filterTarget, meta.target_markets);
   fillSelect(els.filterVerification, meta.verification_statuses);
   fillSelect(els.filterFrance, meta.france_market_levels);
 
-  els.ragMode.textContent = meta.llm_available
-    ? "Mode : OpenAI (si OPENAI_API_KEY)"
-    : "Mode : synthèse locale TF-IDF";
+  els.ragMode.textContent = "Mode : RAG local (TF-IDF, 100 % navigateur)";
+  if (meta.generated_at) {
+    els.ragMode.textContent += ` · bundle ${meta.generated_at}`;
+  }
 
   bindFilters();
-  await loadVendors(true);
+  loadVendors(true);
 
   els.ragForm.addEventListener("submit", (event) => {
     event.preventDefault();

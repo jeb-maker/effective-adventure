@@ -108,19 +108,20 @@ python3 scripts/catalogue_saas.py export -o catalogue-saas/exports/vendors.csv
 
 ## Explorer web (+ RAG)
 
-Interface locale pour parcourir les vendeurs, filtrer par segment, et poser des
-questions en langage naturel (retrieval TF-IDF + synthèse locale ou OpenAI).
+Interface **100 % JavaScript** (filtres, stats, RAG TF-IDF dans le navigateur).
 
 ```bash
-# Lancer sur http://127.0.0.1:8765
-python3 scripts/explorer_server.py
+# 1. Générer le bundle JSON (après enrichissement catalogue)
+node explorer/build.mjs
 
-# Optionnel — synthèse LLM (sinon réponse locale structurée)
-export OPENAI_API_KEY=sk-...
-export OPENAI_MODEL=gpt-4o-mini   # optionnel
+# 2. Servir l'UI (fetch nécessite un serveur HTTP local)
+cd explorer && npm start
+# → http://127.0.0.1:8765
 ```
 
-Fichiers : [`explorer/`](../explorer/) (UI) · [`scripts/explorer_server.py`](../scripts/explorer_server.py) (API).
+Fichiers : [`explorer/`](../explorer/) · `catalogue-bundle.json` (généré par `build.mjs`).
+
+Après une vague d'enrichissement, relancer `node explorer/build.mjs` pour rafraîchir le bundle.
 
 ## Ajouter un segment
 
