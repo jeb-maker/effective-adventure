@@ -140,6 +140,35 @@ python3 scripts/sync_idees_catalogue.py   # rafraîchir blocs README idées
 **Ce qui reste manuel** : recherche des concurrents, rédaction des ajouts
 (`additions` dans le manifeste), revue adversariale des idées, décision produit.
 
+### Découverte semi-automatique (secteurs + acteurs)
+
+La **recherche web complète** (G2, pricing, concurrence honnête §4) ne peut pas
+être entièrement automatisée sans risque d'hallucination ou de violation de ToS.
+En revanche on peut automatiser **priorisation, briefs et moisson data.gouv** :
+
+```bash
+# Quels segments attaquer en priorité ?
+python3 scripts/catalogue_discover.py plan --retravailler --limit 10
+
+# Brief de recherche (URLs G2/Capterra/GitHub + état catalogue)
+python3 scripts/catalogue_discover.py brief public-procurement-intel -o /tmp/brief.md
+
+# Scan data.gouv — candidats absents du catalogue
+python3 scripts/catalogue_discover.py scan geospatial-gis-fr
+
+# Manifeste draft (partial, « À VALIDER ») — ne pas merger tel quel
+python3 scripts/catalogue_discover.py scan open-data-governance-fr --manifest \
+  -o catalogue-saas/passes/draft-open-data.manifest.json
+
+# Batch : plan + briefs + scan pour N segments
+python3 scripts/catalogue_discover.py run --retravailler --limit 5 --manifest
+```
+
+Mots-clés par segment : `catalogue-saas/discovery-keywords.json` (complète la taxonomie).
+
+**Pipeline recommandé** : `discover run` → relecture humaine/agent → enrichir manifeste
+→ `catalogue_pass run` → `gate`.
+
 **Règle** : la cartographie **n'invalide pas** le verdict discovery (0 Go) — elle
 **alimente** un futur pivot (0001, 0029, 0025) avec un §4 déjà complet.
 

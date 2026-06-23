@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "description": "Mots-clés de recherche par segment (complète label + description taxonomy).",
+  "segments": {
+    "public-procurement-intel": {
+      "queries": ["marchés publics", "commande publique DECP", "attribution marchés publics"],
+      "data_gouv": ["marches publics", "decp", "commande publique"]
+    },
+    "territorial-analytics": {
+      "queries": ["analytics territoriales France", "open data collectivités"],
+      "data_gouv": ["collectivités", "territoire", "commune"]
+    },
+    "open-data-governance-fr": {
+      "queries": ["qualité open data France", "validation schéma data.gouv"],
+      "data_gouv": ["open data", "qualité données", "schema data"]
+    },
+    "geospatial-gis-fr": {
+      "queries": ["SIG France agriculture parcelles", "cartographie open data IGN"],
+      "data_gouv": ["sig", "cadastre", "parcelle agricole"]
+    },
+    "energy-buildings-fr": {
+      "queries": ["rénovation énergétique bâtiments France DPE", "passoire thermique"],
+      "data_gouv": ["dpe", "rénovation énergétique", "bâtiment"]
+    },
+    "kyc-aml": {
+      "queries": ["KYC AML software France", "identity verification fintech"],
+      "data_gouv": ["entreprise", "kyc"]
+    },
+    "document-idp": {
+      "queries": ["document intelligence extraction IDP", "OCR invoice automation"],
+      "data_gouv": []
+    },
+    "parsing-inbox": {
+      "queries": ["email parsing automation B2B", "inbox document extraction"],
+      "data_gouv": []
+    }
+  }
+}
