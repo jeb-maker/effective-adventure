@@ -71,6 +71,8 @@ python3 scripts/sync_idees_catalogue.py
 
 # Saturation (passes réelles vs seuil 5 %)
 python3 scripts/catalogue_saas.py saturation
+python3 scripts/catalogue_saas.py saturation watch   # [SATURÉ] / [PROCHE] par passe
+python3 scripts/catalogue_saas.py saturation freeze  # → frozen-segments.json
 
 # Exhaustivité
 python3 scripts/catalogue_saas.py coverage

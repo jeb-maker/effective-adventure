@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-06-23",
+  "saturation_threshold_pct": 5,
+  "near_threshold_pct": 8.0,
+  "meta_passes_excluded": [
+    "v5e-retrospective",
+    "v5o-coverage"
+  ],
+  "frozen_count": 0,
+  "frozen": []
+}

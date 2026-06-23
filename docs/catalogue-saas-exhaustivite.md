@@ -86,6 +86,21 @@ Segment **non clos** tant que < 4 types sont renseignés dans `coverage-matrix.j
 | **V5o** | Backfill coverage-matrix segments L2 | Fait |
 | Maintenance | Long tail L3, revue trimestrielle | Continu |
 
+### Surveillance saturation (maintenance)
+
+Avant toute nouvelle vague de moisson :
+
+```bash
+python3 scripts/catalogue_saas.py saturation watch   # taux par passe réelle, flags [SATURÉ]/[PROCHE]
+python3 scripts/catalogue_saas.py saturation freeze  # met à jour frozen-segments.json (< 5 %)
+python3 scripts/catalogue_saas.py saturation         # rapport historique complet
+```
+
+- **Seuil gel** : < **5 %** nouveaux / candidats sur la **dernière passe réelle** (hors `v5e-retrospective`, `v5o-coverage`).
+- **Alerte** : **5–8 %** → segment `[PROCHE]` ; éviter une remoisson généraliste au cycle suivant.
+- **Registre gel** : `catalogue-saas/frozen-segments.json` — segments à ne pas remoissonner sans revue trimestrielle.
+- **Journal** : `catalogue-saas/passes/2026-06-saturation-watch.md`.
+
 ---
 
 ## 6. Commandes
@@ -106,6 +121,8 @@ python3 scripts/catalogue_saas.py gaps
 python3 scripts/catalogue_saas.py gaps --hq US --france-market absent
 python3 scripts/catalogue_saas.py gaps --segment compliance-to-spec
 python3 scripts/catalogue_saas.py saturation
+python3 scripts/catalogue_saas.py saturation watch
+python3 scripts/catalogue_saas.py saturation freeze
 python3 scripts/catalogue_saas.py validate
 ```
 
