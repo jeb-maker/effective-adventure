@@ -1,6 +1,6 @@
 {
   "segment": "support-sales-agents",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "intercom-fin",
@@ -319,6 +319,477 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "parloa",
+      "name": "Parloa",
+      "url": "https://www.parloa.com/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Agents conversationnels enterprise ; voice + chat pour service client et ventes.",
+      "capabilities": [
+        "voice_agents",
+        "chat_agents",
+        "enterprise",
+        "integrations"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.g2.com/categories/ai-customer-service",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "yellow-ai",
+      "name": "Yellow.ai",
+      "url": "https://yellow.ai/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Dynamic automation platform ; agents IA support et automation workflows.",
+      "capabilities": [
+        "support_automation",
+        "chatbots",
+        "workflows",
+        "multilingual"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://yellow.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ultimate-ai",
+      "name": "Ultimate.ai",
+      "url": "https://ultimate.ai/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Support automation IA ; résolution tickets et intégration CRM/helpdesk.",
+      "capabilities": [
+        "ticket_resolution",
+        "helpdesk_integration",
+        "nlp"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://ultimate.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "replicant",
+      "name": "Replicant",
+      "url": "https://www.replicant.com/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Voice AI agents ; résolution appels support sans humain, outcome-based.",
+      "capabilities": [
+        "voice_ai",
+        "call_resolution",
+        "contact_center"
+      ],
+      "pricing_model": "per_outcome",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.replicant.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gladly",
+      "name": "Gladly",
+      "url": "https://www.gladly.com/",
+      "segments": [
+        "support-sales-agents",
+        "helpdesk-platforms"
+      ],
+      "description": "CX platform people-centric ; AI sidekick pour agents support et clients.",
+      "capabilities": [
+        "cx_platform",
+        "ai_sidekick",
+        "customer_history"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.gladly.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cognigy",
+      "name": "Cognigy",
+      "url": "https://www.cognigy.com/",
+      "segments": [
+        "support-sales-agents",
+        "voice-speech-ai"
+      ],
+      "description": "Conversational AI enterprise ; voicebots et chatbots pour contact centers.",
+      "capabilities": [
+        "voicebots",
+        "chatbots",
+        "contact_center",
+        "low_code"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.cognigy.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kore-ai",
+      "name": "Kore.ai",
+      "url": "https://kore.ai/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Plateforme agents enterprise ; support, IT service desk et automation métier.",
+      "capabilities": [
+        "enterprise_agents",
+        "itsm",
+        "support",
+        "orchestration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://kore.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "liveperson",
+      "name": "LivePerson",
+      "url": "https://www.liveperson.com/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Conversational cloud ; messaging, voice et AI agents pour marques enterprise.",
+      "capabilities": [
+        "messaging",
+        "voice",
+        "ai_agents",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.liveperson.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "moveworks",
+      "name": "Moveworks",
+      "url": "https://www.moveworks.com/",
+      "segments": [
+        "support-sales-agents",
+        "rag-knowledge"
+      ],
+      "description": "Agent IA enterprise ; résolution tickets IT/support, recherche knowledge base et automation workflows.",
+      "capabilities": [
+        "it_support_agent",
+        "ticket_resolution",
+        "knowledge_search",
+        "enterprise"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.moveworks.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "netomi",
+      "name": "Netomi",
+      "url": "https://www.netomi.com/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Agents IA support client ; résolution autonome, escalade intelligente et intégration CRM/helpdesk.",
+      "capabilities": [
+        "customer_support",
+        "autonomous_resolution",
+        "escalation",
+        "crm_integration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.netomi.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "boost-ai",
+      "name": "Boost.ai",
+      "url": "https://boost.ai/",
+      "segments": [
+        "support-sales-agents",
+        "voice-speech-ai"
+      ],
+      "description": "Conversational AI enterprise ; virtual agents support/banking avec NLU et orchestration multicanal.",
+      "capabilities": [
+        "virtual_agents",
+        "nlu",
+        "multichannel",
+        "banking_support"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "NO",
+      "france_market": "partial",
+      "operating_regions": [
+        "NO",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://boost.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cresta",
+      "name": "Cresta",
+      "url": "https://www.cresta.com/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Real-time AI pour contact centers ; copilot agents, suggestions réponses et automation conversations.",
+      "capabilities": [
+        "agent_copilot",
+        "real_time_suggestions",
+        "contact_center",
+        "sales_ai"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.cresta.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "aisera",
+      "name": "Aisera",
+      "url": "https://aisera.com/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Agentic AI service desk ; résolution IT/HR automatique, AIOps et intégration ServiceNow/Jira.",
+      "capabilities": [
+        "service_desk",
+        "itsm",
+        "aiops",
+        "autonomous_resolution"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://aisera.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "servicenow-now-assist",
+      "name": "ServiceNow Now Assist",
+      "url": "https://www.servicenow.com/now-platform/now-assist.html",
+      "segments": [
+        "support-sales-agents",
+        "helpdesk-platforms",
+        "automation-platforms"
+      ],
+      "description": "Agents GenAI ServiceNow ; résolution incidents, génération knowledge et automation ITSM/HRSD.",
+      "capabilities": [
+        "itsm_agents",
+        "knowledge_generation",
+        "incident_resolution",
+        "genai"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.servicenow.com/now-platform/now-assist.html",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "calldesk",
+      "name": "CallDesk",
+      "url": "https://www.calldesk.io/",
+      "segments": [
+        "support-sales-agents",
+        "voice-speech-ai"
+      ],
+      "description": "Voicebots FR ; agents vocaux service client, STT/TTS natifs et intégration téléphonie/CCaaS.",
+      "capabilities": [
+        "voicebots",
+        "customer_service",
+        "telephony",
+        "ccaaS"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.calldesk.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dydu",
+      "name": "Dydu",
+      "url": "https://www.dydu.ai/",
+      "segments": [
+        "support-sales-agents"
+      ],
+      "description": "Chatbots IA FR ; automation support client, FAQ dynamiques et handoff agents humains.",
+      "capabilities": [
+        "chatbots",
+        "faq_automation",
+        "human_handoff",
+        "multichannel"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.dydu.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

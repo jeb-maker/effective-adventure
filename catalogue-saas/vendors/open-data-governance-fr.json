@@ -1,6 +1,6 @@
 {
   "segment": "open-data-governance-fr",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "opendatasoft",
@@ -92,7 +92,8 @@
       "name": "Toucan Toco",
       "url": "https://www.toucantoco.com/",
       "segments": [
-        "open-data-governance-fr"
+        "open-data-governance-fr",
+        "bi-analytics-platforms"
       ],
       "description": "Data storytelling pour rendre données publiques accessibles citoyens.",
       "capabilities": [
@@ -141,6 +142,392 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "socrata-tyler",
+      "name": "Socrata (Tyler Technologies)",
+      "url": "https://tylertech.com/solutions/socrata",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Plateforme open data gouvernementale US ; publication, API et gouvernance jeux de données.",
+      "capabilities": [
+        "open_data_platform",
+        "api",
+        "government",
+        "catalog"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://tylertech.com/solutions/socrata",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "ckan",
+      "name": "CKAN",
+      "url": "https://ckan.org/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Plateforme open-source catalogage données ; utilisée par data.gov.uk et centaines de portails.",
+      "capabilities": [
+        "open_source",
+        "data_catalog",
+        "harvesting",
+        "api"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "global"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://ckan.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "arcgis-hub",
+      "name": "ArcGIS Hub",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-hub/overview",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Portails open data géographiques ; gouvernance publication et engagement citoyen sur données.",
+      "capabilities": [
+        "open_data_hub",
+        "gis",
+        "community_engagement",
+        "catalog"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.esri.com/en-us/arcgis/products/arcgis-hub/overview",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "data-gov-us",
+      "name": "Data.gov (US)",
+      "url": "https://data.gov/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Portail open data fédéral US ; métadonnées, fédération et standards comparable data.gouv.fr.",
+      "capabilities": [
+        "national_portal",
+        "metadata",
+        "federation",
+        "us"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://data.gov/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Benchmark portail national — comparable Etalab/data.gouv.fr."
+    },
+    {
+      "id": "huwise",
+      "name": "Huwise (ex-Opendatasoft)",
+      "url": "https://www.huwise.com/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Plateforme open data B2G ; portails collectivités, data marketplace et gouvernance jeux.",
+      "capabilities": [
+        "data_portal",
+        "marketplace",
+        "governance",
+        "api"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.huwise.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Rebrand Opendatasoft — complète entrée opendatasoft."
+    },
+    {
+      "id": "validata",
+      "name": "Validata",
+      "url": "https://validata.fr/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Validation open data vs schémas nationaux ; API Table Schema et contrôle qualité fichiers.",
+      "capabilities": [
+        "schema_validation",
+        "table_schema",
+        "api",
+        "quality"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://validata.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idées 0002/0023."
+    },
+    {
+      "id": "opendatafrance",
+      "name": "OpenDataFrance — Observatoire",
+      "url": "https://opendatafrance.fr/presentation-de-lobservatoire/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Observatoire open data territoires ; conformité publication, profils collectivités et base Grist.",
+      "capabilities": [
+        "observatory",
+        "compliance",
+        "collectivites",
+        "grist"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://opendatafrance.fr/presentation-de-lobservatoire/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0023."
+    },
+    {
+      "id": "datactivist",
+      "name": "Datactivist",
+      "url": "https://datactivist.coop/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Coopérative accompagnement open data ; audits, formations et déploiement portails collectivités.",
+      "capabilities": [
+        "advisory",
+        "training",
+        "open_data",
+        "collectivites"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://datactivist.coop/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "data-publica",
+      "name": "Data Publica",
+      "url": "https://www.data-publica.com/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Baromètre et analytics open data collectivités ; benchmarking pratiques et IA générative.",
+      "capabilities": [
+        "barometer",
+        "benchmark",
+        "collectivites",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.data-publica.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0023."
+    },
+    {
+      "id": "numerique360",
+      "name": "Numérique360 (Banque des Territoires)",
+      "url": "https://numerique360.fr/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Observatoire numérique collectivités ; maturité SI, open data et comparaisons territoriales.",
+      "capabilities": [
+        "digital_maturity",
+        "observatory",
+        "collectivites",
+        "benchmark"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://numerique360.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dkod",
+      "name": "DKOD",
+      "url": "https://www.dkod.fr/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Intégrateur open data FR ; déploiement portails CKAN/Opendatasoft et gouvernance données.",
+      "capabilities": [
+        "integration",
+        "data_portal",
+        "ckan",
+        "governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.dkod.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "schema-data-gouv",
+      "name": "schema.data.gouv.fr (Etalab)",
+      "url": "https://schema.data.gouv.fr/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Référentiel schémas nationaux ; SCDL, Table Schema et conformité jeux prioritaires.",
+      "capabilities": [
+        "national_schemas",
+        "scdl",
+        "table_schema",
+        "etalab"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://schema.data.gouv.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idées 0023/0027."
+    },
+    {
+      "id": "dataclic",
+      "name": "DataClic (OpenDataFactory)",
+      "url": "https://dataclic.fr/",
+      "segments": [
+        "open-data-governance-fr"
+      ],
+      "description": "Plateforme publication jeux SCDL ; workflow dépôt, validation schéma et moissonnage data.gouv.fr.",
+      "capabilities": [
+        "scdl",
+        "publishing",
+        "schema_validation",
+        "harvesting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://dataclic.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0023."
     }
   ]
 }

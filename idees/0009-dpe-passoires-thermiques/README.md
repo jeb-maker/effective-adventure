@@ -135,6 +135,60 @@ les artisans ; tutoriels gratuits pour le bricolage. L'espace produit libre est
 **marginal**, et l'usage phare (prospection) est par ailleurs juridiquement
 contraint (§8).
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0009-dpe-passoires-thermiques` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `energy-buildings-fr` — Bâtiments & énergie FR
+
+Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-saas/vendors/energy-buildings-fr.json) (18 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `openmeti` | OpenMéti | FR | strong | partial |
+| `ademe-data` | ADEME — data services | FR | strong | partial |
+| `effy-pro` | Effy Pro | FR | strong | partial |
+| `hub-anah` | Anah — Hub rénovation | FR | strong | partial |
+| `heero` | Heero | FR | strong | partial |
+| `uk-epc-register` | UK EPC Register | GB | absent | partial |
+| `building-performance-database` | Building Performance Database (US DOE) | US | absent | partial |
+| `dena-gebaeudedaten` | dena — Gebäudedaten (DE) | DE | unknown | partial |
+| `gridx-energy` | gridX | DE | partial | partial |
+| `hellowatt` | Hello Watt | FR | strong | partial |
+| `enoptea` | Enoptea | FR | strong | partial |
+| `cantine-energetique` | Cantine Énergétique | FR | strong | partial |
+| … | _+6 autres_ | | | |
+
+#### Segment `real-estate-proptech` — Immobilier & proptech
+
+Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-saas/vendors/real-estate-proptech.json) (20 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `costar` | CoStar | US | partial | partial |
+| `yardi` | Yardi | US | partial | partial |
+| `procore` | Procore | US | partial | partial |
+| `matera` | Matera | FR | strong | partial |
+| `pricehubble` | PriceHubble | CH | partial | partial |
+| `scanreno` | ScanReno | FR | strong | partial |
+| `powimo` | Powimo | FR | strong | partial |
+| `egide-copro` | EGIDE Copro | FR | strong | partial |
+| `copro-solutions` | CoproSolutions | FR | strong | partial |
+| `bdnb` | BDNB (CSTB) | FR | strong | partial |
+| `kel-foncier` | Kel Foncier | FR | strong | partial |
+| `deepki` | Deepki | FR | strong | partial |
+| … | _+8 autres_ | | | |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment energy-buildings-fr
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 Très faible et **peu défendable**. La donnée est la même pour tous (open data
 ADEME/BDNB sous Etalab), le geste technique (filtrer F/G + cartographier +

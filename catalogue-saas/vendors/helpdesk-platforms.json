@@ -1,6 +1,6 @@
 {
   "segment": "helpdesk-platforms",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "freshdesk",
@@ -114,6 +114,418 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "crisp",
+      "name": "Crisp",
+      "url": "https://crisp.chat/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Messagerie client omnicanal ; inbox partagée, chatbot et CRM lite.",
+      "capabilities": [
+        "live_chat",
+        "shared_inbox",
+        "chatbot",
+        "crm"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://crisp.chat/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zendesk-support",
+      "name": "Zendesk Support",
+      "url": "https://www.zendesk.com/service/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk leader ; ticketing omnicanal, AI agents et base connaissances.",
+      "capabilities": [
+        "ticketing",
+        "omnichannel",
+        "ai_agents",
+        "knowledge_base"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.zendesk.com/service/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "intercom",
+      "name": "Intercom",
+      "url": "https://www.intercom.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Support client conversationnel ; inbox, Fin AI agent et produit tours in-app.",
+      "capabilities": [
+        "messenger",
+        "ai_agent",
+        "inbox",
+        "product_tours"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IE",
+      "france_market": "partial",
+      "operating_regions": [
+        "IE",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.intercom.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "servicenow-csm",
+      "name": "ServiceNow CSM",
+      "url": "https://www.servicenow.com/products/customer-service-management.html",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "CSM enterprise ; workflows ITSM-adjacent, portails self-service et AI Now Assist.",
+      "capabilities": [
+        "csm",
+        "workflows",
+        "self_service",
+        "ai_assist"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.servicenow.com/products/customer-service-management.html",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zoho-desk",
+      "name": "Zoho Desk",
+      "url": "https://www.zoho.com/desk/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk PME ; ticketing, Zia AI et intégration écosystème Zoho CRM.",
+      "capabilities": [
+        "ticketing",
+        "zia_ai",
+        "zoho_integration",
+        "knowledge_base"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "IN",
+      "france_market": "partial",
+      "operating_regions": [
+        "IN",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.zoho.com/desk/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "deskpro",
+      "name": "Deskpro",
+      "url": "https://www.deskpro.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk flexible ; on-premise ou cloud, multibrand et automations tickets.",
+      "capabilities": [
+        "multibrand",
+        "automations",
+        "on_premise",
+        "ticketing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.deskpro.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gorgias",
+      "name": "Gorgias",
+      "url": "https://www.gorgias.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk e-commerce ; Shopify, automations macros et support omnicanal D2C.",
+      "capabilities": [
+        "ecommerce",
+        "shopify",
+        "macros",
+        "omnichannel"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.gorgias.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "aircall",
+      "name": "Aircall",
+      "url": "https://aircall.io/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Téléphonie cloud helpdesk ; VoIP, CRM sync et analytics équipe support.",
+      "capabilities": [
+        "cloud_phone",
+        "voip",
+        "crm_sync",
+        "support_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://aircall.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — téléphonie cloud PME/ETI."
+    },
+    {
+      "id": "ringover",
+      "name": "Ringover",
+      "url": "https://www.ringover.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Centre d'appels cloud FR ; VoIP, power dialer et intégrations CRM.",
+      "capabilities": [
+        "cloud_contact_center",
+        "power_dialer",
+        "voip",
+        "crm"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.ringover.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — centre d'appels cloud."
+    },
+    {
+      "id": "diabolocom",
+      "name": "Diabolocom",
+      "url": "https://www.diabolocom.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "CCaaS FR ; routage intelligent, WFM et intégration CRM omnicanal.",
+      "capabilities": [
+        "ccaas",
+        "intelligent_routing",
+        "wfm",
+        "omnichannel"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.diabolocom.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — CCaaS enterprise."
+    },
+    {
+      "id": "reamaze",
+      "name": "Re:amaze",
+      "url": "https://www.reamaze.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk e-commerce ; chat, FAQ, order management et Shopify native.",
+      "capabilities": [
+        "ecommerce_helpdesk",
+        "chat",
+        "faq",
+        "shopify"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.reamaze.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "happyfox",
+      "name": "HappyFox",
+      "url": "https://www.happyfox.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk IT/ops ; ticketing, knowledge base et automatisations SLA.",
+      "capabilities": [
+        "ticketing",
+        "knowledge_base",
+        "sla",
+        "automation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.happyfox.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "liveagent",
+      "name": "LiveAgent",
+      "url": "https://www.liveagent.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "Helpdesk omnicanal ; chat, email, call center et social intégrés.",
+      "capabilities": [
+        "omnichannel",
+        "chat",
+        "call_center",
+        "social"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "SK",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.liveagent.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "talkdesk",
+      "name": "Talkdesk",
+      "url": "https://www.talkdesk.com/",
+      "segments": [
+        "helpdesk-platforms"
+      ],
+      "description": "CCaaS cloud ; routage IA, omnicanal et intégrations CRM enterprise.",
+      "capabilities": [
+        "ccaas",
+        "ai_routing",
+        "omnichannel",
+        "crm_integrations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.talkdesk.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -58,3 +58,58 @@ La plupart restent des **dashboards bruts**, peu d'explication pédagogique.
 💡 **Capturée.** Angle « explication » plausible mais marché moyen et outils
 existants. Pourrait fusionner avec 0003 comme vertical « finances locales ».
 Priorité < 0001.
+
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0007-fiche-commune-intelligente` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `territorial-analytics` — Analytics territoriales
+
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (18 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `datagouv` | data.gouv.fr | FR | strong | verified |
+| `georisques` | Géorisques | FR | strong | verified |
+| `ofgl` | OFGL Observatoire | FR | strong | verified |
+| `cartes-gouv` | Géoportail / cartes.gouv.fr | FR | strong | verified |
+| `data-gov-uk` | data.gov.uk | GB | absent | partial |
+| `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
+| `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
+| `carto-territorial` | CARTO | ES | partial | partial |
+| `smappen` | Smappen | FR | strong | partial |
+| `geomarket` | Geomarket | FR | strong | partial |
+| `data-b` | Data-B | FR | strong | partial |
+| `vigicite` | VigiCité | FR | strong | partial |
+| … | _+6 autres_ | | | |
+
+#### Segment `bi-analytics-platforms` — BI & analytics
+
+Fichier : [`catalogue-saas/vendors/bi-analytics-platforms.json`](../../catalogue-saas/vendors/bi-analytics-platforms.json) (18 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `tableau` | Tableau (Salesforce) | US | partial | partial |
+| `power-bi` | Microsoft Power BI | US | partial | partial |
+| `looker` | Looker (Google Cloud) | US | partial | partial |
+| `thoughtspot` | ThoughtSpot | US | partial | partial |
+| `mode-analytics` | Mode | US | partial | partial |
+| `qlik-sense` | Qlik Sense | SE | partial | partial |
+| `domo` | Domo | US | partial | partial |
+| `sisense` | Sisense | IL | partial | partial |
+| `metabase` | Metabase | US | partial | partial |
+| `hex-tech` | Hex | US | partial | partial |
+| `sigma-computing` | Sigma Computing | US | partial | partial |
+| `microstrategy` | MicroStrategy | US | partial | partial |
+| … | _+6 autres_ | | | |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment territorial-analytics
+```
+
+<!-- catalogue-saas-end -->

@@ -9,15 +9,17 @@ Registre **curaté** de SaaS comparables, aligné sur les règles de preuve du d
 | [`vendors/`](vendors/) | Un fichier JSON par segment |
 | [`docs/catalogue-saas-methode.md`](../docs/catalogue-saas-methode.md) | Méthode d'enrichissement |
 | [`docs/catalogue-saas-exhaustivite.md`](../docs/catalogue-saas-exhaustivite.md) | Méthode L2/L3 et tagging géo |
+| [`idees/catalogue-segments.json`](../idees/catalogue-segments.json) | Liaison idées → segments |
 | [`passes/`](passes/) | Journal des passes de moisson |
 | [`coverage-matrix.json`](coverage-matrix.json) | Matrice segment × sources |
 
-## État (2026-06-22)
+## État (2026-06-23)
 
 - **68 segments** définis (tous avec fichier `vendors/<id>.json`)
-- **68 segments peuplés** (vague 4)
-- **440 vendeurs** recensés (vagues 5b–5c)
-- **Tagging géo** : `hq_country`, `france_market`, `operating_regions` (vague 5a)
+- **68 segments peuplés** — **68 segments ≥ 18 entrées (L3)**, **0 segment ≤ 11**
+- **1 410 vendeurs** recensés (vagues 5b–5u)
+- **29 idées** liées au catalogue (`idees/catalogue-segments.json`)
+- **Surveillance** : `frozen-segments.json` + `saturation watch` (2 segments `[SATURÉ]`, 2 `[PROCHE]` post-V5u)
 
 ## Les 18 catégories
 
@@ -53,6 +55,32 @@ python3 scripts/tag_catalogue_geography_v5a.py
 python3 scripts/enrich_catalogue_v4.py
 python3 scripts/enrich_compliance_to_spec_v5b.py
 python3 scripts/enrich_catalogue_v5c.py
+python3 scripts/enrich_catalogue_v5d.py
+python3 scripts/enrich_catalogue_v5e.py
+python3 scripts/enrich_catalogue_v5f.py
+python3 scripts/enrich_catalogue_v5g.py
+python3 scripts/enrich_catalogue_v5h.py
+python3 scripts/enrich_catalogue_v5i.py
+python3 scripts/enrich_catalogue_v5j.py
+python3 scripts/enrich_catalogue_v5k.py
+python3 scripts/enrich_catalogue_v5l.py
+python3 scripts/enrich_catalogue_v5m.py
+python3 scripts/enrich_catalogue_v5n.py
+python3 scripts/enrich_catalogue_v5o_coverage.py
+python3 scripts/enrich_catalogue_v5p.py
+python3 scripts/enrich_catalogue_v5q.py
+python3 scripts/enrich_catalogue_v5r.py
+python3 scripts/enrich_catalogue_v5s.py
+python3 scripts/enrich_catalogue_v5t_security.py
+python3 scripts/enrich_catalogue_v5t_verticals.py
+python3 scripts/enrich_catalogue_v5t_workplace.py
+python3 scripts/enrich_catalogue_v5u_fill_last4.py
+python3 scripts/sync_idees_catalogue.py
+
+# Saturation (passes réelles vs seuil 5 %)
+python3 scripts/catalogue_saas.py saturation
+python3 scripts/catalogue_saas.py saturation watch   # [SATURÉ] / [PROCHE] par passe
+python3 scripts/catalogue_saas.py saturation freeze  # → frozen-segments.json
 
 # Exhaustivité
 python3 scripts/catalogue_saas.py coverage

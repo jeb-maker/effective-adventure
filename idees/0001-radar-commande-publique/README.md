@@ -56,6 +56,60 @@ marché (titulaires multiples, avenants via `modification_id`) ; `donneesActuell
   - `OpenMarchés` : visualisation **marchés IT uniquement**, analyse one-shot —
     https://www.data.gouv.fr/reuses/openmarches-visualisation-des-marches-it-publics
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0001-radar-commande-publique` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `public-procurement-intel` — Intelligence marchés publics
+
+Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalogue-saas/vendors/public-procurement-intel.json) (20 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `marchespublics-ai` | marchespublics.ai | FR | strong | partial |
+| `maitre-ao` | Maître AO | FR | strong | partial |
+| `aws-boamp` | BOAMP (open data) | FR | strong | verified |
+| `achatpublic` | PLACE (achatpublic.com) | FR | strong | partial |
+| `tussell` | Tussell | GB | absent | partial |
+| `spend-network` | Spend Network | GB | absent | partial |
+| `govwin-deltek` | GovWin (Deltek) | US | absent | partial |
+| `open-contracting-partnership` | Open Contracting Partnership | GB | unknown | partial |
+| `decp-info` | decp.info | FR | strong | partial |
+| `data-economie-gouv` | data.economie.gouv.fr | FR | strong | partial |
+| `openbar` | OpenBar (Regards Citoyens) | FR | strong | partial |
+| `nextend-ai` | Nextend.ai | FR | strong | partial |
+| … | _+8 autres_ | | | |
+
+#### Segment `territorial-analytics` — Analytics territoriales
+
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (18 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `datagouv` | data.gouv.fr | FR | strong | verified |
+| `georisques` | Géorisques | FR | strong | verified |
+| `ofgl` | OFGL Observatoire | FR | strong | verified |
+| `cartes-gouv` | Géoportail / cartes.gouv.fr | FR | strong | verified |
+| `data-gov-uk` | data.gov.uk | GB | absent | partial |
+| `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
+| `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
+| `carto-territorial` | CARTO | ES | partial | partial |
+| `smappen` | Smappen | FR | strong | partial |
+| `geomarket` | Geomarket | FR | strong | partial |
+| `data-b` | Data-B | FR | strong | partial |
+| `vigicite` | VigiCité | FR | strong | partial |
+| … | _+6 autres_ | | | |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment public-procurement-intel
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 Ne pas concurrencer la veille frontalement. Se positionner sur **l'intelligence
 d'attribution récurrente** : fiche acheteur, fiche entreprise (SIREN), vue

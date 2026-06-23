@@ -1,6 +1,6 @@
 {
   "segment": "real-estate-proptech",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "costar",
@@ -63,7 +63,8 @@
       "name": "Procore",
       "url": "https://www.procore.com/",
       "segments": [
-        "real-estate-proptech"
+        "real-estate-proptech",
+        "construction-proptech"
       ],
       "description": "Construction management cloud ; projets, qualité et financials.",
       "capabilities": [
@@ -141,6 +142,452 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "scanreno",
+      "name": "ScanReno",
+      "url": "https://www.scanreno.fr/",
+      "segments": [
+        "real-estate-proptech",
+        "energy-buildings-fr"
+      ],
+      "description": "SaaS syndics pros : PPT 10 ans, DPE collectif, aides ANAH et pilotage rénovation copropriétés.",
+      "capabilities": [
+        "syndic",
+        "dpe_collectif",
+        "ppt",
+        "renovation",
+        "copropriete"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.scanreno.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0025."
+    },
+    {
+      "id": "powimo",
+      "name": "Powimo",
+      "url": "https://www.powimo.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "ERP syndic et gestion locative ; comptabilité copropriété, AG digitale et portail copropriétaires.",
+      "capabilities": [
+        "syndic",
+        "copropriete",
+        "gestion_locative",
+        "erp"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.powimo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "egide-copro",
+      "name": "EGIDE Copro",
+      "url": "https://www.egide-copro.fr/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Logiciel syndic français ; gestion copropriétés, budgets, AG et communication copropriétaires.",
+      "capabilities": [
+        "syndic",
+        "copropriete",
+        "budget",
+        "ag_digitale"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.egide-copro.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "copro-solutions",
+      "name": "CoproSolutions",
+      "url": "https://www.copro-solutions.fr/",
+      "segments": [
+        "real-estate-proptech",
+        "energy-buildings-fr"
+      ],
+      "description": "Plateforme syndics : pilotage copropriétés, DPE et plan pluriannuel travaux rénovation.",
+      "capabilities": [
+        "syndic",
+        "dpe",
+        "ppt",
+        "copropriete"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.copro-solutions.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0025."
+    },
+    {
+      "id": "bdnb",
+      "name": "BDNB (CSTB)",
+      "url": "https://www.bdnb.io/",
+      "segments": [
+        "real-estate-proptech",
+        "energy-buildings-fr",
+        "geospatial-gis-fr"
+      ],
+      "description": "Base nationale open data bâtiments ; géolocalisation, DPE, matériaux et métriques rénovation.",
+      "capabilities": [
+        "bdnb",
+        "dpe",
+        "open_data",
+        "batiments",
+        "api"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.bdnb.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kel-foncier",
+      "name": "Kel Foncier",
+      "url": "https://www.kelfoncier.com/",
+      "segments": [
+        "real-estate-proptech",
+        "geospatial-gis-fr"
+      ],
+      "description": "Veille foncière et cartographie parcelles ; alertes opportunités pour aménageurs et promoteurs.",
+      "capabilities": [
+        "veille_fonciere",
+        "parcelles",
+        "alertes",
+        "cartographie"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.kelfoncier.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent citée idée 0021/0026."
+    },
+    {
+      "id": "deepki",
+      "name": "Deepki",
+      "url": "https://www.deepki.com/fr/",
+      "segments": [
+        "real-estate-proptech",
+        "energy-buildings-fr",
+        "environmental-data-fr"
+      ],
+      "description": "Plateforme ESG immobilier ; conso énergie, DPE portefeuille, résilience climatique et reporting CSRD.",
+      "capabilities": [
+        "esg",
+        "dpe",
+        "energy_analytics",
+        "climate_resilience",
+        "portfolio"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.deepki.com/fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idées 0024/0025."
+    },
+    {
+      "id": "cityscan",
+      "name": "CityScan",
+      "url": "https://www.cityscan.fr/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Diagnostic immobilier digital ; collecte DPE, photos et rapports pour pros de l'immobilier.",
+      "capabilities": [
+        "diagnostic",
+        "dpe",
+        "rapports",
+        "immobilier"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.cityscan.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "immopen",
+      "name": "ImmOpen",
+      "url": "https://www.immopen.fr/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Gestion locative et syndic digital ; loyers, quittances et portail locataires/copropriétaires.",
+      "capabilities": [
+        "gestion_locative",
+        "syndic",
+        "quittances",
+        "portail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.immopen.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "foncia-digital",
+      "name": "Foncia Digital",
+      "url": "https://fr.foncia.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Suite digitale grand syndic FR ; gestion copropriétés, locatif et services résidents à l'échelle nationale.",
+      "capabilities": [
+        "syndic",
+        "property_management",
+        "copropriete",
+        "locatif"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://fr.foncia.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "appfolio",
+      "name": "AppFolio",
+      "url": "https://www.appfolio.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Property management : leasing, maintenance, compta et portail locataires.",
+      "capabilities": [
+        "property_management",
+        "leasing",
+        "maintenance",
+        "accounting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.appfolio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "buildium",
+      "name": "Buildium",
+      "url": "https://www.buildium.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Property management SMB : comptabilité, locations, paiements, tickets.",
+      "capabilities": [
+        "property_management",
+        "payments",
+        "tickets",
+        "accounting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.buildium.com/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "entrata",
+      "name": "Entrata",
+      "url": "https://www.entrata.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Plateforme multifamily : CRM, leasing, marketing, operations.",
+      "capabilities": [
+        "leasing",
+        "crm",
+        "operations",
+        "marketing"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.entrata.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "realpage",
+      "name": "RealPage",
+      "url": "https://www.realpage.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Suite property management enterprise (multifamily, analytics, revenue mgmt).",
+      "capabilities": [
+        "property_management",
+        "analytics",
+        "revenue_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.realpage.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hektor",
+      "name": "Hektor",
+      "url": "https://hektor.fr/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Logiciel immobilier (transactions) : CRM agences, annonces, matching acquéreurs.",
+      "capabilities": [
+        "real_estate_crm",
+        "listings",
+        "lead_management"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://hektor.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

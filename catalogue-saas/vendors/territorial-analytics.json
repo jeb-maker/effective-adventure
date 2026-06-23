@@ -1,13 +1,14 @@
 {
   "segment": "territorial-analytics",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "datagouv",
       "name": "data.gouv.fr",
       "url": "https://www.data.gouv.fr/",
       "segments": [
-        "territorial-analytics"
+        "territorial-analytics",
+        "open-data-governance-fr"
       ],
       "description": "Portail open data France ; base pour observatoires et réutilisations territoriales.",
       "capabilities": [
@@ -37,7 +38,8 @@
       "url": "https://www.georisques.gouv.fr/",
       "segments": [
         "territorial-analytics",
-        "environmental-data-fr"
+        "environmental-data-fr",
+        "geospatial-gis-fr"
       ],
       "description": "Portail public risques environnementaux par adresse/territoire.",
       "capabilities": [
@@ -114,6 +116,422 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "data-gov-uk",
+      "name": "data.gov.uk",
+      "url": "https://www.data.gov.uk/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Portail open data national UK ; jeux territoriaux, stats locales et API CKAN.",
+      "capabilities": [
+        "open_data_portal",
+        "uk",
+        "ckan",
+        "local_stats"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.data.gov.uk/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "ons-uk",
+      "name": "Office for National Statistics (UK)",
+      "url": "https://www.ons.gov.uk/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Statistiques officielles UK ; indicateurs territoriaux, démographie et économie régionale.",
+      "capabilities": [
+        "official_statistics",
+        "regional_indicators",
+        "uk"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.ons.gov.uk/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "eurostat-regional",
+      "name": "Eurostat — Regional Statistics",
+      "url": "https://ec.europa.eu/eurostat/web/regions",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Statistiques régionales EU NUTS ; comparables territoriaux transfrontaliers incl. France.",
+      "capabilities": [
+        "nuts",
+        "eu_regional",
+        "comparative_stats",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "EU",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://ec.europa.eu/eurostat/web/regions",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Référence EU — comparable aux observatoires territoriaux FR."
+    },
+    {
+      "id": "carto-territorial",
+      "name": "CARTO",
+      "url": "https://carto.com/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Plateforme spatial analytics ; dashboards territoriaux et analyse géolocalisée pour secteur public.",
+      "capabilities": [
+        "spatial_analytics",
+        "dashboards",
+        "gis",
+        "public_sector"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "ES",
+      "france_market": "partial",
+      "operating_regions": [
+        "ES",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://carto.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "smappen",
+      "name": "Smappen",
+      "url": "https://www.smappen.com/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Géomarketing SaaS ; isochrones, zones de chalandise, démographie INSEE et études implantation.",
+      "capabilities": [
+        "geomarketing",
+        "isochrones",
+        "catchment",
+        "insee"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.smappen.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idées 0006/0028."
+    },
+    {
+      "id": "geomarket",
+      "name": "Geomarket",
+      "url": "https://www.geomarket.one/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Études d'implantation commerciale ; concurrence SIRENE, pouvoir d'achat et zones ELM franchise.",
+      "capabilities": [
+        "implantation",
+        "sirene",
+        "elm",
+        "franchise"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.geomarket.one/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0006."
+    },
+    {
+      "id": "data-b",
+      "name": "Data-B",
+      "url": "https://www.data-b.fr/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Intelligence territoriale B2B ; flux piéton, concurrence locale et scoring emplacement commercial.",
+      "capabilities": [
+        "footfall",
+        "local_competition",
+        "scoring",
+        "b2b"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.data-b.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idées 0006/0028."
+    },
+    {
+      "id": "vigicite",
+      "name": "VigiCité",
+      "url": "https://www.vigicite.fr/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Observatoire territorial collectivités ; indicateurs locaux, tableaux de bord et benchmarking inter-villes.",
+      "capabilities": [
+        "observatoire",
+        "collectivites",
+        "benchmark",
+        "dashboards"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.vigicite.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "localnova",
+      "name": "LocalNova",
+      "url": "https://www.localnova-finance-publique.fr/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Analytics finances locales ; budgets, dette et indicateurs EPCI/collectivités pour décideurs publics.",
+      "capabilities": [
+        "finances_locales",
+        "budget",
+        "epci",
+        "benchmark"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.localnova-finance-publique.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "galigeo",
+      "name": "Galigeo",
+      "url": "https://www.galigeo.com/",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Géomarketing et études territoriales ; cartographie concurrence, flux et potentiel commercial.",
+      "capabilities": [
+        "geomarketing",
+        "cartography",
+        "commercial_potential",
+        "studies"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.galigeo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "insee-portrait-commune",
+      "name": "INSEE — Portrait de commune",
+      "url": "https://www.insee.fr/fr/statistiques/2017499",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Statistiques communales officielles ; démographie, emploi, logement et revenus par territoire.",
+      "capabilities": [
+        "official_statistics",
+        "commune",
+        "demography",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.insee.fr/fr/statistiques/2017499",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "place-statistiques-locales",
+      "name": "Place des statistiques locales",
+      "url": "https://www.insee.fr/fr/outil-interactif/7134178",
+      "segments": [
+        "territorial-analytics"
+      ],
+      "description": "Outil interactif INSEE ; comparaison indicateurs territoriaux entre communes et EPCI.",
+      "capabilities": [
+        "insee",
+        "comparative_stats",
+        "local",
+        "interactive"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.insee.fr/fr/outil-interactif/7134178",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "france-travail-emploi-territoire",
+      "name": "France Travail — Emploi par territoire",
+      "url": "https://www.francetravail.org/statistiques-analyses/",
+      "segments": [
+        "territorial-analytics",
+        "hr-talent-ai"
+      ],
+      "description": "Statistiques marché du travail ; demandeurs d'emploi, offres et tension par métier/commune.",
+      "capabilities": [
+        "labour_market",
+        "employment_stats",
+        "territory",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.francetravail.org/statistiques-analyses/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0028."
+    },
+    {
+      "id": "dares-emploi",
+      "name": "DARES — Données emploi",
+      "url": "https://dares.travail-emploi.gouv.fr/",
+      "segments": [
+        "territorial-analytics",
+        "hr-talent-ai"
+      ],
+      "description": "Statistiques emploi ministère Travail ; séries territoriales, métiers en tension et analyses sectorielles.",
+      "capabilities": [
+        "employment_data",
+        "territorial",
+        "labour_tension",
+        "official"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://dares.travail-emploi.gouv.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0028."
     }
   ]
 }

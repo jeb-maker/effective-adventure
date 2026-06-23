@@ -1,6 +1,6 @@
 {
   "segment": "vector-databases",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "pinecone",
@@ -141,6 +141,442 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "pgvector",
+      "name": "pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Extension PostgreSQL vectors ; recherche similarité, HNSW/IVFFlat et stack SQL familière.",
+      "capabilities": [
+        "postgres_extension",
+        "similarity_search",
+        "hnsw",
+        "sql"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://github.com/pgvector/pgvector",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "redis-vector-search",
+      "name": "Redis Vector Search",
+      "url": "https://redis.io/docs/latest/develop/interact/search-and-query/vectors/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Recherche vectorielle Redis ; indexing HNSW, hybrid search et cache embeddings temps réel.",
+      "capabilities": [
+        "vector_index",
+        "hybrid_search",
+        "hnsw",
+        "real_time"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://redis.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mongodb-atlas-vector",
+      "name": "MongoDB Atlas Vector Search",
+      "url": "https://www.mongodb.com/products/platform/atlas-vector-search",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Vector search natif Atlas ; filtres metadata, RAG et intégration documents JSON.",
+      "capabilities": [
+        "vector_search",
+        "metadata_filter",
+        "rag",
+        "document_store"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.mongodb.com/products/platform/atlas-vector-search",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "turbopuffer",
+      "name": "Turbopuffer",
+      "url": "https://turbopuffer.com/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Vector DB serverless ; stockage objet + ANN, latence faible et pricing usage-based.",
+      "capabilities": [
+        "serverless",
+        "ann",
+        "object_storage",
+        "low_latency"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://turbopuffer.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "marqo",
+      "name": "Marqo",
+      "url": "https://www.marqo.ai/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Vector search end-to-end ; embeddings intégrés, multimodal et API RAG simplifiée.",
+      "capabilities": [
+        "embedded_models",
+        "multimodal",
+        "rag_api",
+        "hybrid_search"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "AU",
+      "france_market": "partial",
+      "operating_regions": [
+        "AU",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.marqo.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lancedb",
+      "name": "LanceDB",
+      "url": "https://lancedb.com/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Vector DB serverless ; stockage columnar Lance, recherche multimodale et embeddings à l'échelle.",
+      "capabilities": [
+        "serverless",
+        "multimodal",
+        "columnar",
+        "embeddings"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://lancedb.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "elasticsearch-vector",
+      "name": "Elasticsearch Vector Search",
+      "url": "https://www.elastic.co/elasticsearch/vector-search",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Recherche vectorielle Elastic ; dense/sparse vectors, hybrid search et RAG sur stack ELK.",
+      "capabilities": [
+        "vector_search",
+        "hybrid_search",
+        "dense_sparse",
+        "rag"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.elastic.co/elasticsearch/vector-search",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "opensearch-vector",
+      "name": "OpenSearch k-NN",
+      "url": "https://opensearch.org/platform/search/vector-search.html",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Vector search open-source ; k-NN HNSW, filtres metadata et déploiement self-hosted/cloud.",
+      "capabilities": [
+        "knn",
+        "hnsw",
+        "metadata_filter",
+        "self_hosted"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://opensearch.org/platform/search/vector-search.html",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "singlestore",
+      "name": "SingleStore",
+      "url": "https://www.singlestore.com/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Base HTAP + vectors ; SQL, vector search temps réel et analytics unifiés pour apps GenAI.",
+      "capabilities": [
+        "htap",
+        "vector_search",
+        "real_time",
+        "genai"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.singlestore.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "typesense",
+      "name": "Typesense",
+      "url": "https://typesense.org/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Moteur recherche typo-tolerant ; vector search intégré, API simple et self-hosted léger.",
+      "capabilities": [
+        "typo_tolerance",
+        "vector_search",
+        "self_hosted",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://typesense.org/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "faiss",
+      "name": "Faiss (Meta)",
+      "url": "https://github.com/facebookresearch/faiss",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Bibliothèque ANN open-source ; index GPU/CPU, quantization et base des stacks vector self-hosted.",
+      "capabilities": [
+        "ann",
+        "gpu_index",
+        "quantization",
+        "open_source"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://github.com/facebookresearch/faiss",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "supabase-vector",
+      "name": "Supabase Vector",
+      "url": "https://supabase.com/docs/guides/ai/vector-columns",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "pgvector managé Supabase ; embeddings Postgres, edge functions et API RAG développeur-friendly.",
+      "capabilities": [
+        "pgvector",
+        "managed_postgres",
+        "edge_functions",
+        "rag"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://supabase.com/docs/guides/ai/vector-columns",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "neon-serverless",
+      "name": "Neon Serverless Postgres",
+      "url": "https://neon.tech/docs/extensions/pgvector",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Postgres serverless + pgvector ; branching DB, scale-to-zero et stack SQL pour RAG production.",
+      "capabilities": [
+        "serverless_postgres",
+        "pgvector",
+        "branching",
+        "scale_to_zero"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://neon.tech/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "couchbase-vector",
+      "name": "Couchbase Capella Vector Search",
+      "url": "https://www.couchbase.com/products/vector-search",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Vector search NoSQL ; filtres metadata riches, mobile edge sync et latence sub-ms.",
+      "capabilities": [
+        "nosql_vectors",
+        "metadata_filter",
+        "edge_sync",
+        "low_latency"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.couchbase.com/products/vector-search",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "azure-ai-search",
+      "name": "Azure AI Search",
+      "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-search",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Recherche cognitive Azure ; vector/hybrid search, semantic ranking et intégration OpenAI RAG.",
+      "capabilities": [
+        "vector_search",
+        "hybrid_search",
+        "semantic_ranking",
+        "azure_openai"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://azure.microsoft.com/en-us/products/ai-services/ai-search",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

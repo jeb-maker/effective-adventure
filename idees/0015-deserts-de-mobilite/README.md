@@ -103,6 +103,40 @@ réduit à un **packaging** (observatoire national clé en main, mise à jour
 automatique, vocabulaire « désert de mobilité », pré-calcul national) — créneau
 étroit et imitable.
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0015-deserts-de-mobilite` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `transport-mobility-data-fr` — Transport & mobilité FR
+
+Fichier : [`catalogue-saas/vendors/transport-mobility-data-fr.json`](../../catalogue-saas/vendors/transport-mobility-data-fr.json) (18 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `iv-mobilites` | Île-de-France Mobilités — open data | FR | strong | partial |
+| `cityway` | Cityway | FR | strong | partial |
+| `transport-data-gouv` | transport.data.gouv.fr | FR | strong | partial |
+| `padam-mobility` | Padam Mobility | FR | strong | partial |
+| `hove` | Hove (ex-Deliveroo data ref mobility analytics) | FR | strong | partial |
+| `tfl-open-data` | Transport for London — Open Data | GB | absent | partial |
+| `mobilitydata-org` | MobilityData | US | unknown | partial |
+| `transit-land` | Transitland | US | absent | partial |
+| `itoworld` | ITO World | GB | absent | partial |
+| `navitia` | Navitia (Hove Group) | FR | strong | partial |
+| `geovelo` | Geovelo | FR | strong | partial |
+| `karos` | Karos | FR | strong | partial |
+| … | _+6 autres_ | | | |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment transport-mobility-data-fr
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 Faible et peu défendable. La méthodologie (GTFS + population + isochrones) est
 publique, le moteur de référence (Cerema Networks/Musliw) est **donné

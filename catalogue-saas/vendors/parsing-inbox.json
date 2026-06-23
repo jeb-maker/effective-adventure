@@ -1,13 +1,14 @@
 {
   "segment": "parsing-inbox",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "parseur",
       "name": "Parseur",
       "url": "https://parseur.com/",
       "segments": [
-        "parsing-inbox"
+        "parsing-inbox",
+        "document-idp"
       ],
       "description": "Parsing email et documents avec zones configurables ; export vers apps et API.",
       "capabilities": [
@@ -123,7 +124,8 @@
       "name": "Airparser",
       "url": "https://airparser.com/",
       "segments": [
-        "parsing-inbox"
+        "parsing-inbox",
+        "document-idp"
       ],
       "description": "Parser email/document GPT-powered pour extraction de champs structurés.",
       "capabilities": [
@@ -230,6 +232,926 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "nylas",
+      "name": "Nylas",
+      "url": "https://www.nylas.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Email API ; parsing, sync et extraction métadonnées depuis boîtes mail.",
+      "capabilities": [
+        "email_api",
+        "sync",
+        "parsing",
+        "calendar"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.nylas.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sendgrid-inbound",
+      "name": "Twilio SendGrid Inbound Parse",
+      "url": "https://www.twilio.com/docs/sendgrid/for-developers/parsing-email/inbound-email",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Webhook parsing email entrant ; extraction corps et pièces jointes vers app.",
+      "capabilities": [
+        "inbound_parse",
+        "webhooks",
+        "attachments"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/parsing-email/inbound-email",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mailjet-parse",
+      "name": "Mailjet Email Parser",
+      "url": "https://www.mailjet.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Parsing emails entrants via API ; routage et extraction pour workflows.",
+      "capabilities": [
+        "inbound_email",
+        "api",
+        "routing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.mailjet.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mailslurp",
+      "name": "MailSlurp",
+      "url": "https://www.mailslurp.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "API boîtes mail test et parsing ; extraction emails pour tests et automation.",
+      "capabilities": [
+        "test_inboxes",
+        "email_api",
+        "parsing",
+        "webhooks"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.mailslurp.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "emailoctopus-parse",
+      "name": "Email Parser API (Zapier Email Parser)",
+      "url": "https://parser.zapier.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Parsing email no-code ; règles extraction champs vers webhooks/Zapier.",
+      "capabilities": [
+        "no_code",
+        "field_extraction",
+        "webhooks"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://parser.zapier.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "streak-email",
+      "name": "Streak",
+      "url": "https://www.streak.com/",
+      "segments": [
+        "parsing-inbox",
+        "crm-platforms"
+      ],
+      "description": "CRM dans Gmail ; extraction pipeline depuis emails et workflows inbox.",
+      "capabilities": [
+        "gmail_crm",
+        "pipeline",
+        "email_workflows"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.streak.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cloudmailin",
+      "name": "CloudMailin",
+      "url": "https://www.cloudmailin.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Réception et parsing email HTTP ; extraction corps HTML/texte et pièces jointes.",
+      "capabilities": [
+        "inbound_email",
+        "http_post",
+        "attachments",
+        "parsing"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.cloudmailin.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "aurinko",
+      "name": "Aurinko",
+      "url": "https://www.aurinko.io/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Unified API email/calendar ; sync et parsing multi-fournisseurs pour apps B2B.",
+      "capabilities": [
+        "unified_api",
+        "email_sync",
+        "calendar",
+        "integrations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.aurinko.io/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "unipile",
+      "name": "Unipile",
+      "url": "https://www.unipile.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "API messagerie unifiée ; LinkedIn, email, WhatsApp — extraction et webhooks.",
+      "capabilities": [
+        "unified_messaging",
+        "email_api",
+        "webhooks",
+        "crm"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.unipile.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "emailengine",
+      "name": "EmailEngine",
+      "url": "https://emailengine.app/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Gateway email self-hosted ; IMAP/SMTP vers API REST pour parsing et automation.",
+      "capabilities": [
+        "imap_gateway",
+        "rest_api",
+        "self_hosted",
+        "webhooks"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "EE",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU",
+        "US"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://emailengine.app/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "unstract",
+      "name": "Unstract",
+      "url": "https://unstract.com/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "LLMWhisperer + pipelines ; email/PDF → JSON structuré sans templates fixes.",
+      "capabilities": [
+        "llm_parsing",
+        "email_to_json",
+        "pdf_extraction",
+        "api"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://unstract.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "microsoft-graph-mail",
+      "name": "Microsoft Graph Mail API",
+      "url": "https://learn.microsoft.com/en-us/graph/api/resources/mail-api-overview",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Accès programmatique boîtes Exchange/M365 ; lecture, pièces jointes et webhooks.",
+      "capabilities": [
+        "graph_api",
+        "outlook",
+        "attachments",
+        "webhooks"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://learn.microsoft.com/en-us/graph/api/resources/mail-api-overview",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "google-gmail-api",
+      "name": "Gmail API",
+      "url": "https://developers.google.com/gmail/api",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "API Gmail ; lecture messages, parsing MIME et push notifications pour workflows.",
+      "capabilities": [
+        "gmail_api",
+        "mime",
+        "push_notifications",
+        "attachments"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://developers.google.com/gmail/api",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "inbound-missive",
+      "name": "Missive Inbound",
+      "url": "https://missiveapp.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Boîte collaborative ; règles entrantes et intégrations pour trier emails métier.",
+      "capabilities": [
+        "shared_inbox",
+        "rules",
+        "integrations",
+        "collaboration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "CA",
+      "france_market": "partial",
+      "operating_regions": [
+        "CA",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://missiveapp.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dext",
+      "name": "Dext",
+      "url": "https://dext.com/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp",
+        "automation-platforms"
+      ],
+      "description": "Capture factures/reçus par email ou scan ; extraction comptable et revue humaine avant export.",
+      "capabilities": [
+        "email_capture",
+        "ocr",
+        "human_review",
+        "accounting_export"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "strong",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://dext.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "autoentry",
+      "name": "AutoEntry",
+      "url": "https://www.autoentry.com/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "Saisie automatisée factures et relevés ; boîte email dédiée et validation avant ERP.",
+      "capabilities": [
+        "inbound_email",
+        "invoice_extraction",
+        "bank_statements",
+        "erp_sync"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "IE",
+      "france_market": "partial",
+      "operating_regions": [
+        "IE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.autoentry.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "levity",
+      "name": "Levity",
+      "url": "https://levity.ai/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp",
+        "automation-platforms"
+      ],
+      "description": "No-code AI workflows ; classification email/PDF, extraction champs et routage avec revue.",
+      "capabilities": [
+        "email_classification",
+        "field_extraction",
+        "workflow",
+        "human_review"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://levity.ai/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "indico",
+      "name": "Indico Data",
+      "url": "https://indicodata.ai/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "Intake documentaire intelligent ; pipelines email/PDF avec validation et audit trail métier.",
+      "capabilities": [
+        "document_intake",
+        "unstructured_data",
+        "human_in_loop",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://indicodata.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kissflow",
+      "name": "Kissflow",
+      "url": "https://kissflow.com/",
+      "segments": [
+        "parsing-inbox",
+        "automation-platforms"
+      ],
+      "description": "Workflow no-code ; formulaires entrants, parsing pièces jointes et approbations multi-étapes.",
+      "capabilities": [
+        "workflow",
+        "form_intake",
+        "approvals",
+        "attachments"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://kissflow.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pipefy",
+      "name": "Pipefy",
+      "url": "https://www.pipefy.com/",
+      "segments": [
+        "parsing-inbox",
+        "automation-platforms"
+      ],
+      "description": "Orchestration processus ; inbox email déclencheur, champs extraits et tâches de validation.",
+      "capabilities": [
+        "process_orchestration",
+        "email_trigger",
+        "task_validation",
+        "sla"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "BR",
+      "france_market": "partial",
+      "operating_regions": [
+        "BR",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.pipefy.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tonkean",
+      "name": "Tonkean",
+      "url": "https://www.tonkean.com/",
+      "segments": [
+        "parsing-inbox",
+        "automation-platforms"
+      ],
+      "description": "Orchestration ops ; agrège emails/docs, propose actions et boucle human-in-the-loop auditée.",
+      "capabilities": [
+        "ops_orchestration",
+        "email_aggregation",
+        "human_in_loop",
+        "integrations"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.tonkean.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "formstack-documents",
+      "name": "Formstack Documents",
+      "url": "https://www.formstack.com/products/documents",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "Génération et parsing documents ; merge données formulaire/email vers PDF structuré validé.",
+      "capabilities": [
+        "document_generation",
+        "merge_fields",
+        "e_signature",
+        "workflow"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.formstack.com/products/documents",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hiver",
+      "name": "Hiver",
+      "url": "https://hiverhq.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Shared inbox Gmail/Outlook ; routage email, assignation cas et workflows collaboratifs audités.",
+      "capabilities": [
+        "shared_inbox",
+        "email_routing",
+        "case_assignment",
+        "workflow"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://hiverhq.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "helpscout",
+      "name": "Help Scout",
+      "url": "https://www.helpscout.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Support inbox partagée ; threads email→cas, notes internes, SLA et historique client traçable.",
+      "capabilities": [
+        "shared_inbox",
+        "email_to_case",
+        "sla",
+        "audit_trail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.helpscout.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dixa",
+      "name": "Dixa",
+      "url": "https://www.dixa.com/",
+      "segments": [
+        "parsing-inbox",
+        "helpdesk-platforms"
+      ],
+      "description": "Plateforme ops client EU ; agrégation email/chat, dossier conversation et workflows validation.",
+      "capabilities": [
+        "omnichannel_inbox",
+        "email_aggregation",
+        "case_management",
+        "workflow"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DK",
+      "france_market": "partial",
+      "operating_regions": [
+        "DK",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.dixa.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "emailtree-ai",
+      "name": "EmailTree AI",
+      "url": "https://emailtree.ai/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Automatisation email IA EU ; classification, extraction PJ et boucle validation opérateur dossier.",
+      "capabilities": [
+        "email_classification",
+        "attachment_extraction",
+        "human_validation",
+        "ai_workflow"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "LU",
+      "france_market": "partial",
+      "operating_regions": [
+        "LU",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://emailtree.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "docuware",
+      "name": "DocuWare",
+      "url": "https://start.docuware.com/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "ECMS allemand ; capture email/scan, indexation, validation opérateur et archivage dossier conforme.",
+      "capabilities": [
+        "email_capture",
+        "document_indexing",
+        "operator_validation",
+        "records_archiving"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://start.docuware.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "m-files",
+      "name": "M-Files",
+      "url": "https://www.m-files.com/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "Gestion documentaire metadata EU ; intake email, workflow approbation et audit trail versionné.",
+      "capabilities": [
+        "metadata_dms",
+        "email_intake",
+        "approval_workflow",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "FI",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.m-files.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "postscan-mail",
+      "name": "PostScan Mail",
+      "url": "https://www.postscanmail.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Boîte postale virtuelle ; numérisation courrier entrant, OCR et routage dossier PDF validé.",
+      "capabilities": [
+        "virtual_mailbox",
+        "mail_digitization",
+        "ocr",
+        "document_routing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.postscanmail.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mailbutler",
+      "name": "Mailbutler",
+      "url": "https://www.mailbutler.io/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Extension email EU ; templates, tâches, notes dossier et suivi workflow depuis la boîte entrante.",
+      "capabilities": [
+        "email_extension",
+        "task_tracking",
+        "templates",
+        "workflow_notes"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.mailbutler.io/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "earth-class-mail",
+      "name": "Earth Class Mail",
+      "url": "https://www.earthclassmail.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Réception courrier physique ; scan haute qualité, classement dossier et export cloud auditables.",
+      "capabilities": [
+        "physical_mail_scan",
+        "document_classification",
+        "cloud_export",
+        "audit_trail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.earthclassmail.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

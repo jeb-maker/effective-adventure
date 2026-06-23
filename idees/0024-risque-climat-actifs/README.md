@@ -113,6 +113,60 @@ Les assureurs, foncières, gestionnaires d'actifs et banques doivent **quantifie
 
 ---
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0024-risque-climat-actifs` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `environmental-data-fr` — Environnement & risques FR
+
+Fichier : [`catalogue-saas/vendors/environmental-data-fr.json`](../../catalogue-saas/vendors/environmental-data-fr.json) (20 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `atmo-france` | Atmo France | FR | strong | partial |
+| `hub-eau` | Hub'Eau | FR | strong | partial |
+| `inpn` | INPN (OFB) | FR | strong | partial |
+| `brgm-infoterre` | BRGM InfoTerre | FR | strong | partial |
+| `georisques-api` | Géorisques | FR | strong | partial |
+| `uk-environment-agency` | UK Environment Agency — Open Data | GB | absent | partial |
+| `eea-europe` | European Environment Agency | EU | partial | partial |
+| `copernicus-land` | Copernicus Land Monitoring | EU | partial | partial |
+| `us-epa-envirofacts` | US EPA Envirofacts | US | absent | partial |
+| `sandre` | Sandre | FR | strong | partial |
+| `drias-climat` | DRIAS — Futurs climatiques | FR | strong | partial |
+| `basol` | BASOL — Sites et sols pollués | FR | strong | partial |
+| … | _+8 autres_ | | | |
+
+#### Segment `insurance-insurtech` — Assurance & insurtech
+
+Fichier : [`catalogue-saas/vendors/insurance-insurtech.json`](../../catalogue-saas/vendors/insurance-insurtech.json) (19 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `guidewire` | Guidewire | US | partial | partial |
+| `duck-creek` | Duck Creek Technologies | US | partial | partial |
+| `lemonade` | Lemonade | unknown | unknown | partial |
+| `coalition` | Coalition | US | partial | partial |
+| `shift-technology` | Shift Technology | FR | partial | partial |
+| `akur8` | Akur8 | FR | strong | partial |
+| `wakam` | Wakam | FR | strong | partial |
+| `qover` | Qover | BE | partial | partial |
+| `luko` | Luko (Allianz Direct) | FR | strong | partial |
+| `alan` | Alan | FR | strong | partial |
+| `wefox` | wefox | DE | partial | partial |
+| `zelros` | Zelros | FR | strong | partial |
+| … | _+7 autres_ | | | |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment environmental-data-fr
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 
 **Très faible, non défendable.**

@@ -1,6 +1,6 @@
 {
   "segment": "transport-mobility-data-fr",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "iv-mobilites",
@@ -139,6 +139,387 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "tfl-open-data",
+      "name": "Transport for London — Open Data",
+      "url": "https://tfl.gov.uk/info-for/open-data-users/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Portail open data mobilité Londres ; GTFS, temps réel et APIs transport public.",
+      "capabilities": [
+        "gtfs",
+        "real_time",
+        "uk",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://tfl.gov.uk/info-for/open-data-users/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "mobilitydata-org",
+      "name": "MobilityData",
+      "url": "https://mobilitydata.org/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Gouvernance standards mobilité (GTFS, GBFS, MDS) ; catalogues et outils open data global.",
+      "capabilities": [
+        "gtfs",
+        "gbfs",
+        "mds",
+        "standards"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "unknown",
+      "operating_regions": [
+        "global"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://mobilitydata.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "transit-land",
+      "name": "Transitland",
+      "url": "https://www.transit.land/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Agrégateur open data transport mondial ; GTFS et feeds multi-opérateurs.",
+      "capabilities": [
+        "gtfs_aggregation",
+        "global_feeds",
+        "api",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.transit.land/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "itoworld",
+      "name": "ITO World",
+      "url": "https://www.itoworld.com/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Visualisation et analytics données transport ; open data mobility pour collectivités.",
+      "capabilities": [
+        "transport_visualization",
+        "mobility_analytics",
+        "gtfs"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.itoworld.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "navitia",
+      "name": "Navitia (Hove Group)",
+      "url": "https://navitia.io/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "API mobilité multimodale ; routing GTFS, isochrones et agrégation flux transport FR/EU.",
+      "capabilities": [
+        "gtfs",
+        "routing",
+        "isochrones",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://navitia.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0015."
+    },
+    {
+      "id": "geovelo",
+      "name": "Geovelo",
+      "url": "https://www.geovelo.fr/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "App et API vélo ; itinéraires cyclables, comptages et données mobilité douce collectivités.",
+      "capabilities": [
+        "cycling",
+        "routing",
+        "api",
+        "collectivites"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.geovelo.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "karos",
+      "name": "Karos",
+      "url": "https://www.karos.fr/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Covoiturage court trajet ; données flux domicile-travail et complémentarité transport public.",
+      "capabilities": [
+        "carpooling",
+        "commute",
+        "territory",
+        "mobility"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.karos.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "blablacar-daily",
+      "name": "BlaBlaCar Daily",
+      "url": "https://www.blablacar.fr/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Covoiturage quotidien ; signaux mobilité pendulaire et complémentarité réseaux TP.",
+      "capabilities": [
+        "carpooling",
+        "daily_commute",
+        "territory",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.blablacar.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sncf-open-data",
+      "name": "SNCF Open Data",
+      "url": "https://ressources.data.sncf.com/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Portail open data SNCF ; horaires, gares, fréquentation et GTFS national ferroviaire.",
+      "capabilities": [
+        "rail",
+        "gtfs",
+        "open_data",
+        "national"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://ressources.data.sncf.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cerema-capamob",
+      "name": "Cerema — Capamob / Networks",
+      "url": "https://capamob.cerema.fr/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Méthodes et outils accessibilité multimodale ; extension QGIS GTFS Musliw pour collectivités.",
+      "capabilities": [
+        "accessibility",
+        "gtfs",
+        "qgis",
+        "isochrones"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://capamob.cerema.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0015."
+    },
+    {
+      "id": "ratp-open-data",
+      "name": "RATP — Open Data",
+      "url": "https://data.ratp.fr/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Données open transport RATP ; fréquentation, lignes, accessibilité et APIs Paris/IDF.",
+      "capabilities": [
+        "transit",
+        "open_data",
+        "paris",
+        "api"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://data.ratp.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fluctuo",
+      "name": "Fluctuo",
+      "url": "https://www.fluctuo.com/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Analytics micromobilité ; données free-floating, trottinettes et vélos partagés par ville.",
+      "capabilities": [
+        "micromobility",
+        "shared_mobility",
+        "analytics",
+        "gbfs"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.fluctuo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mappy",
+      "name": "Mappy",
+      "url": "https://www.mappy.com/",
+      "segments": [
+        "transport-mobility-data-fr"
+      ],
+      "description": "Cartographie et routing FR ; itinéraires multimodaux, trafic et APIs mobilité.",
+      "capabilities": [
+        "routing",
+        "multimodal",
+        "traffic",
+        "maps_api"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.mappy.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

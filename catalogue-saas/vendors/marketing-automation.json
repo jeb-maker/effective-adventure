@@ -1,6 +1,6 @@
 {
   "segment": "marketing-automation",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "adobe-marketo",
@@ -144,6 +144,387 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "klaviyo",
+      "name": "Klaviyo",
+      "url": "https://www.klaviyo.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Marketing automation e-commerce ; segmentation, flows et analytics ROI campagnes.",
+      "capabilities": [
+        "ecommerce",
+        "segmentation",
+        "flows",
+        "analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.klaviyo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "omnisend",
+      "name": "Omnisend",
+      "url": "https://www.omnisend.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Automation omnicanale e-commerce ; email, SMS, push et workflows visuels.",
+      "capabilities": [
+        "omnichannel",
+        "sms",
+        "workflows",
+        "ecommerce"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.omnisend.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "braze",
+      "name": "Braze",
+      "url": "https://www.braze.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Engagement client cross-canal ; journeys, personnalisation et analytics temps réel.",
+      "capabilities": [
+        "customer_engagement",
+        "journeys",
+        "personalization",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.braze.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "iterable",
+      "name": "Iterable",
+      "url": "https://iterable.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Plateforme growth marketing ; workflows, A/B tests et orchestration multi-canal.",
+      "capabilities": [
+        "workflows",
+        "ab_testing",
+        "cross_channel",
+        "growth"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://iterable.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lemlist",
+      "name": "lemlist",
+      "url": "https://www.lemlist.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Outreach multicanal B2B ; séquences email/LinkedIn, personnalisation et warm-up.",
+      "capabilities": [
+        "outreach",
+        "linkedin",
+        "personalization",
+        "sequences"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.lemlist.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "drip",
+      "name": "Drip",
+      "url": "https://www.drip.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Marketing automation e-commerce ; tags comportementaux, workflows et segmentation avancée.",
+      "capabilities": [
+        "ecommerce",
+        "behavioral_tags",
+        "workflows",
+        "segmentation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.drip.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hubspot-marketing",
+      "name": "HubSpot Marketing Hub",
+      "url": "https://www.hubspot.com/products/marketing",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Marketing automation inbound ; workflows, lead scoring et analytics.",
+      "capabilities": [
+        "inbound",
+        "workflows",
+        "lead_scoring",
+        "analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.hubspot.com/products/marketing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pardot",
+      "name": "Salesforce Pardot",
+      "url": "https://www.salesforce.com/products/marketing-cloud/account-engagement/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "B2B marketing automation Salesforce ; nurturing, scoring et ROI.",
+      "capabilities": [
+        "b2b_nurturing",
+        "scoring",
+        "roi",
+        "salesforce"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.salesforce.com/products/marketing-cloud/account-engagement/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "eloqua",
+      "name": "Oracle Eloqua",
+      "url": "https://www.oracle.com/cx/marketing/automation/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Marketing automation enterprise Oracle ; campagnes complexes et ABM.",
+      "capabilities": [
+        "enterprise_campaigns",
+        "abm",
+        "complex_workflows",
+        "oracle"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.oracle.com/cx/marketing/automation/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sarbacane",
+      "name": "Sarbacane",
+      "url": "https://www.sarbacane.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Marketing automation FR ; email, SMS, landing pages et RGPD natif.",
+      "capabilities": [
+        "email",
+        "sms",
+        "landing_pages",
+        "rgpd"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.sarbacane.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — emailing PME conforme RGPD."
+    },
+    {
+      "id": "actito",
+      "name": "Actito",
+      "url": "https://www.actito.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "CDP marketing EU ; parcours omnicanal, consent et personnalisation.",
+      "capabilities": [
+        "cdp",
+        "omnichannel",
+        "consent",
+        "personalization"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "BE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.actito.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur EU — marketing automation Benelux."
+    },
+    {
+      "id": "splio",
+      "name": "Splio",
+      "url": "https://www.splio.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "CRM marketing FR ; fidélité, campagnes et data unifiée retail.",
+      "capabilities": [
+        "crm_marketing",
+        "loyalty",
+        "campaigns",
+        "retail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.splio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — CRM marketing retail."
+    },
+    {
+      "id": "mailjet",
+      "name": "Mailjet (Sinch)",
+      "url": "https://www.mailjet.com/",
+      "segments": [
+        "marketing-automation"
+      ],
+      "description": "Email API FR ; campagnes, transactional et deliverability EU.",
+      "capabilities": [
+        "email_api",
+        "transactional",
+        "campaigns",
+        "deliverability"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.mailjet.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — email API Sinch."
     }
   ]
 }

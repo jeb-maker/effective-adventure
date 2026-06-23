@@ -1,6 +1,6 @@
 {
   "segment": "data-enrichment-b2b",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "apollo-io",
@@ -114,6 +114,444 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "lusha",
+      "name": "Lusha",
+      "url": "https://www.lusha.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Enrichissement contacts B2B ; emails, téléphones et firmographics via extension/API.",
+      "capabilities": [
+        "contact_enrichment",
+        "firmographics",
+        "api",
+        "chrome_extension"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5e-retrospective",
+      "source_url": "https://www.lusha.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "6sense",
+      "name": "6sense",
+      "url": "https://6sense.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "ABM intent data ; identification comptes anonymes, scoring intent et orchestration.",
+      "capabilities": [
+        "abm",
+        "intent_data",
+        "account_identification",
+        "orchestration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://6sense.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "demandbase",
+      "name": "Demandbase",
+      "url": "https://www.demandbase.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "ABM platform ; enrichment firmographique, intent B2B et publicité ciblée.",
+      "capabilities": [
+        "abm",
+        "firmographics",
+        "intent",
+        "advertising"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.demandbase.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cognism",
+      "name": "Cognism",
+      "url": "https://www.cognism.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Données contacts B2B EU ; emails vérifiés, mobile numbers et compliance GDPR.",
+      "capabilities": [
+        "contact_data",
+        "verified_emails",
+        "mobile",
+        "gdpr"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.cognism.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "rocketreach",
+      "name": "RocketReach",
+      "url": "https://rocketreach.co/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Recherche contacts pro ; emails, téléphones et profils LinkedIn entreprises.",
+      "capabilities": [
+        "contact_search",
+        "email_finder",
+        "linkedin",
+        "enrichment"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://rocketreach.co/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "leadfeeder",
+      "name": "Leadfeeder (Dealfront)",
+      "url": "https://www.leadfeeder.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Identification visiteurs site ; entreprises anonymes, intent et sync CRM.",
+      "capabilities": [
+        "visitor_identification",
+        "intent",
+        "crm_sync",
+        "website_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "FI",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.leadfeeder.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dealfront",
+      "name": "Dealfront",
+      "url": "https://www.dealfront.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Suite go-to-market EU ; Leadfeeder + Echobot enrichment firmographique DACH/EU.",
+      "capabilities": [
+        "gtm",
+        "firmographics",
+        "visitor_id",
+        "eu_data"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "FI",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.dealfront.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kaspr",
+      "name": "Kaspr",
+      "url": "https://www.kaspr.io/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Enrichissement LinkedIn B2B ; emails/téléphones prospects et extension Chrome.",
+      "capabilities": [
+        "linkedin_enrichment",
+        "emails",
+        "phones",
+        "chrome_extension"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.kaspr.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — enrichissement LinkedIn PME."
+    },
+    {
+      "id": "dropcontact",
+      "name": "Dropcontact",
+      "url": "https://www.dropcontact.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Enrichissement CRM RGPD ; emails pro vérifiés sans base stale, sync CRM.",
+      "capabilities": [
+        "gdpr_enrichment",
+        "verified_emails",
+        "crm_sync",
+        "no_database"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.dropcontact.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — enrichissement conforme RGPD."
+    },
+    {
+      "id": "fullcontact",
+      "name": "FullContact",
+      "url": "https://www.fullcontact.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Identity resolution B2B ; profils person/enrichment API et consent management.",
+      "capabilities": [
+        "identity_resolution",
+        "enrichment_api",
+        "profiles",
+        "consent"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.fullcontact.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "peopledatalabs",
+      "name": "People Data Labs",
+      "url": "https://www.peopledatalabs.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "API données personnes/entreprises ; enrichissement bulk et firmographics.",
+      "capabilities": [
+        "people_api",
+        "company_api",
+        "bulk_enrichment",
+        "firmographics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.peopledatalabs.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "datagma",
+      "name": "Datagma",
+      "url": "https://datagma.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Enrichissement B2B EU ; emails, technographics et signaux intent PME.",
+      "capabilities": [
+        "b2b_enrichment",
+        "technographics",
+        "intent",
+        "eu_data"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://datagma.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "reverse-contact",
+      "name": "Reverse Contact",
+      "url": "https://www.reversecontact.com/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Reverse lookup email ; identification personne/entreprise depuis adresse email.",
+      "capabilities": [
+        "reverse_lookup",
+        "email_identification",
+        "company_match",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.reversecontact.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "adapt-io",
+      "name": "Adapt.io",
+      "url": "https://www.adapt.io/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Prospecting B2B ; base contacts vérifiés, technographics et séquences.",
+      "capabilities": [
+        "prospecting",
+        "verified_contacts",
+        "technographics",
+        "sequences"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.adapt.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hunter-io",
+      "name": "Hunter.io",
+      "url": "https://hunter.io/",
+      "segments": [
+        "data-enrichment-b2b"
+      ],
+      "description": "Recherche emails domaine ; vérification, bulk et API enrichissement.",
+      "capabilities": [
+        "email_finder",
+        "verification",
+        "bulk",
+        "api"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://hunter.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur FR — email finder adoption EU."
     }
   ]
 }

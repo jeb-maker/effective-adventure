@@ -1,13 +1,14 @@
 {
   "segment": "cloud-security-cspm",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "wiz",
       "name": "Wiz",
       "url": "https://www.wiz.io/",
       "segments": [
-        "cloud-security-cspm"
+        "cloud-security-cspm",
+        "cybersecurity-platforms"
       ],
       "description": "CNAPP leader : posture cloud, vulnérabilités workloads, secrets et CIEM.",
       "capabilities": [
@@ -143,6 +144,385 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "datadog-cspm",
+      "name": "Datadog Cloud Security",
+      "url": "https://www.datadoghq.com/product/cloud-security/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "CSPM/CWPP Datadog ; posture multi-cloud, détection menaces runtime et compliance.",
+      "capabilities": [
+        "cspm",
+        "cwpp",
+        "runtime_detection",
+        "compliance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.datadoghq.com/product/cloud-security/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sysdig",
+      "name": "Sysdig Secure",
+      "url": "https://sysdig.com/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "CNAPP conteneurs/K8s ; CSPM, runtime protection, Falco et supply chain security.",
+      "capabilities": [
+        "cnapp",
+        "cspm",
+        "kubernetes",
+        "falco"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://sysdig.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "check-point-cloud",
+      "name": "Check Point CloudGuard",
+      "url": "https://www.checkpoint.com/cloudguard/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "Sécurité cloud multi-hyperviseur ; posture, WAF, CNAPP et IaC scanning.",
+      "capabilities": [
+        "cspm",
+        "waf",
+        "cnapp",
+        "iac_scanning"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.checkpoint.com/cloudguard/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "netskope",
+      "name": "Netskope",
+      "url": "https://www.netskope.com/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "SSE/CASB ; visibilité SaaS, DLP cloud, SWG et posture applications cloud.",
+      "capabilities": [
+        "casb",
+        "sse",
+        "dlp",
+        "saas_security"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.netskope.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "bridgecrew",
+      "name": "Bridgecrew (Prisma Cloud)",
+      "url": "https://www.paloaltonetworks.com/prisma/cloud/bridgecrew",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "IaC security et shift-left ; scan Terraform/CloudFormation, policies-as-code et remédiation.",
+      "capabilities": [
+        "iac_security",
+        "shift_left",
+        "policy_as_code",
+        "terraform"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.paloaltonetworks.com/prisma/cloud/bridgecrew",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "panoptica",
+      "name": "Panoptica (Cisco)",
+      "url": "https://panoptica.app/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "CNAPP cloud-native ; cartographie attack path, vulnérabilités API et posture K8s.",
+      "capabilities": [
+        "cnapp",
+        "attack_path",
+        "api_security",
+        "kubernetes"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://panoptica.app/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zscaler",
+      "name": "Zscaler",
+      "url": "https://www.zscaler.com/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "SSE/ZTNA ; SWG, CASB, posture SaaS et accès zero-trust sans VPN pour workforce distribué.",
+      "capabilities": [
+        "sse",
+        "ztna",
+        "casb",
+        "swg"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.zscaler.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tailscale",
+      "name": "Tailscale",
+      "url": "https://tailscale.com/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "Mesh VPN zero-trust ; accès réseau WireGuard, ACLs identity-aware et posture devices.",
+      "capabilities": [
+        "zero_trust",
+        "mesh_vpn",
+        "wireguard",
+        "device_posture"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://tailscale.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "upwind",
+      "name": "Upwind",
+      "url": "https://www.upwind.io/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "CNAPP runtime-first ; posture cloud, détection menaces K8s/containers et prioritisation risques.",
+      "capabilities": [
+        "cnapp",
+        "cspm",
+        "runtime_detection",
+        "kubernetes"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.upwind.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "microsoft-defender-cloud",
+      "name": "Microsoft Defender for Cloud",
+      "url": "https://www.microsoft.com/en-us/security/business/cloud-security",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "CSPM/CWPP Azure/multi-cloud ; posture, recommandations CIS, CIEM et workload protection.",
+      "capabilities": [
+        "cspm",
+        "cwpp",
+        "ciem",
+        "multi_cloud"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.microsoft.com/en-us/security/business/cloud-security",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "google-security-command-center",
+      "name": "Google Security Command Center",
+      "url": "https://cloud.google.com/security-command-center",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "CSPM GCP ; détection menaces, vulnérabilités assets, compliance et SIEM intégration Chronicle.",
+      "capabilities": [
+        "cspm",
+        "threat_detection",
+        "asset_inventory",
+        "compliance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://cloud.google.com/security-command-center",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "stacklet",
+      "name": "Stacklet",
+      "url": "https://stacklet.io/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "Cloud governance ; policies-as-code multi-cloud, guardrails compliance et remédiation automatisée.",
+      "capabilities": [
+        "cloud_governance",
+        "policy_as_code",
+        "guardrails",
+        "remediation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://stacklet.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cloudflare-zero-trust",
+      "name": "Cloudflare Zero Trust",
+      "url": "https://www.cloudflare.com/zero-trust/",
+      "segments": [
+        "cloud-security-cspm"
+      ],
+      "description": "SSE zero-trust ; ZTNA, CASB, SWG, DLP et posture accès applications SaaS/self-hosted.",
+      "capabilities": [
+        "ztna",
+        "sse",
+        "casb",
+        "dlp"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.cloudflare.com/zero-trust/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

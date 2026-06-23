@@ -131,6 +131,60 @@ moyennes 10k-100k hab. où la recherche dit que « les progrès les plus importa
 pourront être accomplis ») destiné à la **presse régionale / collectivités**,
 plutôt qu'aux partis. Mais ce créneau reste à payeur incertain.
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0014-analyse-electorale-fine` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `electoral-data-fr` — Données électorales FR
+
+Fichier : [`catalogue-saas/vendors/electoral-data-fr.json`](../../catalogue-saas/vendors/electoral-data-fr.json) (18 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `data-gouv-elections` | data.gouv.fr — élections | FR | strong | partial |
+| `registre-perma` | Registre des représentants d'intérêts (ref transparence) | FR | strong | partial |
+| `contexte` | Contexte | FR | strong | partial |
+| `regards-citoyens` | Regards Citoyens | FR | strong | partial |
+| `poligma` | Poligma | FR | strong | partial |
+| `uk-electoral-commission` | UK Electoral Commission — Open Data | GB | absent | partial |
+| `mit-election-lab` | MIT Election Data and Science Lab | US | absent | partial |
+| `elections-europe` | European Parliament — Elections data | EU | partial | partial |
+| `ballotpedia-data` | Ballotpedia | US | absent | partial |
+| `ballotage-datagere` | Ballotage (Datagère) | FR | strong | partial |
+| `qomon` | Qomon | FR | strong | partial |
+| `politicae` | Politiciae DATA | FR | strong | partial |
+| … | _+6 autres_ | | | |
+
+#### Segment `territorial-analytics` — Analytics territoriales
+
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (18 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `datagouv` | data.gouv.fr | FR | strong | verified |
+| `georisques` | Géorisques | FR | strong | verified |
+| `ofgl` | OFGL Observatoire | FR | strong | verified |
+| `cartes-gouv` | Géoportail / cartes.gouv.fr | FR | strong | verified |
+| `data-gov-uk` | data.gov.uk | GB | absent | partial |
+| `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
+| `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
+| `carto-territorial` | CARTO | ES | partial | partial |
+| `smappen` | Smappen | FR | strong | partial |
+| `geomarket` | Geomarket | FR | strong | partial |
+| `data-b` | Data-B | FR | strong | partial |
+| `vigicite` | VigiCité | FR | strong | partial |
+| … | _+6 autres_ | | | |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment electoral-data-fr
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 Faible et peu défendable. La méthode (« approche écologique » : résultats BV ×
 socio carroyée, classement par déciles/centiles de niveau de vie) est

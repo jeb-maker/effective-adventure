@@ -1,6 +1,6 @@
 {
   "segment": "health-data-analytics",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "flatiron-health",
@@ -141,6 +141,386 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "openhealth",
+      "name": "OpenHealth",
+      "url": "https://www.openhealth.fr/",
+      "segments": [
+        "health-data-analytics",
+        "public-health-territory-fr"
+      ],
+      "description": "Plateforme données santé FR ; agrégation claims, analytics population et études épidémiologiques.",
+      "capabilities": [
+        "health_data",
+        "claims_analytics",
+        "population_studies",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.openhealth.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "health-data-hub",
+      "name": "Health Data Hub",
+      "url": "https://www.health-data-hub.fr/",
+      "segments": [
+        "health-data-analytics",
+        "public-health-territory-fr"
+      ],
+      "description": "Infrastructure nationale données santé FR ; accès SNDS, hébergement études et gouvernance.",
+      "capabilities": [
+        "snds",
+        "national_health_data",
+        "research_access",
+        "governance"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.health-data-hub.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "inato",
+      "name": "Inato",
+      "url": "https://www.inato.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Matching essais cliniques FR ; recrutement patients/sites, analytics faisabilité et diversité.",
+      "capabilities": [
+        "clinical_trials",
+        "site_matching",
+        "patient_recruitment",
+        "feasibility"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.inato.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cegedim-health-data",
+      "name": "Cegedim Health Data",
+      "url": "https://www.cegedim-health-data.com/",
+      "segments": [
+        "health-data-analytics",
+        "public-health-territory-fr"
+      ],
+      "description": "Real-world data FR ; bases THIN/EPRD, analytics médico-économiques et recherche pharmaceutique.",
+      "capabilities": [
+        "rwd",
+        "medico_economic",
+        "pharma_research",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.cegedim-health-data.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "datavant",
+      "name": "Datavant",
+      "url": "https://www.datavant.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Tokenisation données santé ; linkage privacy-preserving, RWD et analytics recherche.",
+      "capabilities": [
+        "tokenization",
+        "privacy_preserving",
+        "rwd",
+        "linkage"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.datavant.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "aetion",
+      "name": "Aetion",
+      "url": "https://aetion.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "RWE analytics ; causal inference, études réglementaires et comparateurs effectiveness.",
+      "capabilities": [
+        "rwe",
+        "causal_inference",
+        "regulatory_studies",
+        "effectiveness"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://aetion.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "adimed",
+      "name": "Adimed",
+      "url": "https://www.adimed.fr/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Data santé territoriale FR ; indicateurs population, analytics épidémiologie et tableaux ARS/communes.",
+      "capabilities": [
+        "territorial_health",
+        "epidemiology",
+        "population_indicators",
+        "public_health"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.adimed.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "phare-data",
+      "name": "Phare Data",
+      "url": "https://www.pharedata.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Real-world evidence FR ; analytics données médico-administratives, études pharmaco-épidémiologie.",
+      "capabilities": [
+        "rwe",
+        "medico_administrative",
+        "pharmaco_epidemiology",
+        "studies"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.pharedata.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "omny-health",
+      "name": "Omny Health",
+      "url": "https://www.omnyhealth.com/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Health data platform ; agrégation EHR/claims, analytics population health et cohortes recherche.",
+      "capabilities": [
+        "ehr_aggregation",
+        "claims",
+        "population_health",
+        "research_cohorts"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.omnyhealth.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "iqvia-rwe",
+      "name": "IQVIA Real-World Solutions",
+      "url": "https://www.iqvia.com/solutions/real-world-evidence",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "RWE enterprise ; données santé globales, analytics outcomes et études réglementaires/post-market.",
+      "capabilities": [
+        "rwe",
+        "global_health_data",
+        "outcomes_analytics",
+        "regulatory_studies"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.iqvia.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "medtrail",
+      "name": "MedTrail",
+      "url": "https://www.medtrail.io/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Patient journey analytics EU ; parcours de soins, adherence et analytics pharma/market access.",
+      "capabilities": [
+        "patient_journey",
+        "adherence",
+        "pharma_analytics",
+        "market_access"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.medtrail.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "holihealth",
+      "name": "HoliHealth",
+      "url": "https://www.holihealth.io/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Analytics prévention FR ; scoring risque santé, programmes prévention entreprise/assureurs.",
+      "capabilities": [
+        "prevention_analytics",
+        "risk_scoring",
+        "corporate_wellness",
+        "insurer_programs"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.holihealth.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "syntegra",
+      "name": "Syntegra",
+      "url": "https://www.syntegra.io/",
+      "segments": [
+        "health-data-analytics"
+      ],
+      "description": "Synthetic health data ; génération datasets synthétiques privacy-preserving pour recherche IA.",
+      "capabilities": [
+        "synthetic_data",
+        "privacy_preserving",
+        "research",
+        "health_ai"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.syntegra.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "segment": "ai-evals-testing",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "braintrust",
@@ -142,6 +142,383 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "arize-phoenix",
+      "name": "Arize Phoenix",
+      "url": "https://phoenix.arize.com/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Observabilité LLM open-source ; tracing, evals, drift detection et datasets.",
+      "capabilities": [
+        "llm_tracing",
+        "evals",
+        "drift_detection",
+        "datasets"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://phoenix.arize.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "helicone",
+      "name": "Helicone",
+      "url": "https://www.helicone.ai/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "LLM observability ; logging proxy, coûts, latence et evals intégrées production.",
+      "capabilities": [
+        "llm_logging",
+        "cost_tracking",
+        "latency",
+        "evals"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.helicone.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "confident-ai",
+      "name": "Confident AI (DeepEval)",
+      "url": "https://www.confident-ai.com/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Evals LLM unitaires ; métriques RAG, hallucination, CI/CD et regression testing.",
+      "capabilities": [
+        "unit_evals",
+        "rag_metrics",
+        "hallucination",
+        "ci_cd"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.confident-ai.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "deepeval",
+      "name": "DeepEval",
+      "url": "https://github.com/confident-ai/deepeval",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Framework evals Python open-source ; métriques G-Eval, RAG et red teaming.",
+      "capabilities": [
+        "python_evals",
+        "g_eval",
+        "rag_metrics",
+        "red_teaming"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://github.com/confident-ai/deepeval",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ragas",
+      "name": "Ragas",
+      "url": "https://docs.ragas.io/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Framework evals RAG ; faithfulness, answer relevance et synthetic test generation.",
+      "capabilities": [
+        "rag_evals",
+        "faithfulness",
+        "synthetic_data",
+        "metrics"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://docs.ragas.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "wandb-weave",
+      "name": "Weights & Biases Weave",
+      "url": "https://wandb.ai/site/weave",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Tracing et evals GenAI ; expériences LLM, datasets et comparaison modèles.",
+      "capabilities": [
+        "genai_tracing",
+        "experiments",
+        "model_comparison",
+        "datasets"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://wandb.ai/site/weave",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "langfuse",
+      "name": "Langfuse",
+      "url": "https://langfuse.com/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Observabilité et evals LLM ; traces, scores, datasets et playground prompts.",
+      "capabilities": [
+        "tracing",
+        "evals",
+        "datasets",
+        "prompt_playground"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://langfuse.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "langwatch",
+      "name": "LangWatch",
+      "url": "https://langwatch.ai/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Monitoring qualité LLM ; evals automatisés, alertes régression et analytics production.",
+      "capabilities": [
+        "llm_monitoring",
+        "automated_evals",
+        "alerts",
+        "analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://langwatch.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "openlayer",
+      "name": "OpenLayer",
+      "url": "https://www.openlayer.com/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Evals et tests ML/LLM ; scénarios, métriques custom et CI/CD intégration.",
+      "capabilities": [
+        "ml_evals",
+        "llm_evals",
+        "custom_metrics",
+        "ci_cd"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.openlayer.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "humanloop",
+      "name": "Humanloop",
+      "url": "https://humanloop.com/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Plateforme evals prompts ; A/B testing, feedback humain et optimisation LLM.",
+      "capabilities": [
+        "prompt_evals",
+        "ab_testing",
+        "human_feedback",
+        "optimization"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://humanloop.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "freeplay",
+      "name": "Freeplay",
+      "url": "https://freeplay.ai/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Evals et observabilité GenAI ; test sets, comparaison modèles et monitoring production.",
+      "capabilities": [
+        "genai_evals",
+        "test_sets",
+        "model_comparison",
+        "monitoring"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://freeplay.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "trulens",
+      "name": "TruLens",
+      "url": "https://www.trulens.org/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Framework evals RAG/agents open-source ; feedback functions et tracing LangChain.",
+      "capabilities": [
+        "rag_evals",
+        "feedback_functions",
+        "tracing",
+        "open_source"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.trulens.org/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "comet-opik",
+      "name": "Comet Opik",
+      "url": "https://www.comet.com/site/products/opik/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Evals et traces LLM ; expériences, métriques hallucination et comparaison modèles.",
+      "capabilities": [
+        "llm_traces",
+        "hallucination_metrics",
+        "experiments",
+        "model_comparison"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.comet.com/site/products/opik/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

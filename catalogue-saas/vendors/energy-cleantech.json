@@ -1,6 +1,6 @@
 {
   "segment": "energy-cleantech",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "enphase",
@@ -141,6 +141,384 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "octopus-energy",
+      "name": "Octopus Energy",
+      "url": "https://octopusenergy.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Retail énergie et tech cleantech ; tariffs dynamiques, Kraken platform et flexibilité réseau.",
+      "capabilities": [
+        "retail_energy",
+        "dynamic_tariffs",
+        "kraken_platform",
+        "flexibility"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://octopusenergy.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tiko",
+      "name": "Tiko",
+      "url": "https://tiko.energy/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Flexibilité énergétique résidentielle ; agrégation DER, demand response et services utilities EU.",
+      "capabilities": [
+        "demand_response",
+        "der_aggregation",
+        "residential",
+        "utilities"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "CH",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://tiko.energy/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "voltalis",
+      "name": "Voltalis",
+      "url": "https://www.voltalis.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Effacement demande B2B FR ; pilotage charges électriques, RTE/CBP et rémunération flexibilité.",
+      "capabilities": [
+        "demand_response",
+        "load_control",
+        "rte",
+        "b2b_flexibility"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.voltalis.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "schneider-ecostruxure",
+      "name": "Schneider EcoStruxure",
+      "url": "https://www.se.com/ww/en/work/solutions/system/s1/ecostruxure/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "IoT énergie bâtiments/industrie FR ; monitoring, EMS et décarbonation portefeuilles.",
+      "capabilities": [
+        "ems",
+        "iot_energy",
+        "building_management",
+        "decarbonation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.se.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kizy",
+      "name": "Kizy",
+      "url": "https://www.kizy.io/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Collecte données énergie tertiaire FR ; capteurs IoT, analytics conso et reporting décret tertiaire.",
+      "capabilities": [
+        "iot_sensors",
+        "energy_analytics",
+        "tertiary",
+        "reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.kizy.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "totalenergies-digital",
+      "name": "TotalEnergies Digital Services",
+      "url": "https://totalenergies.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Services digitaux énergie ; pilotage conso B2B, PPAs et solutions décarbonation corporate.",
+      "capabilities": [
+        "b2b_energy",
+        "ppa",
+        "corporate_decarbonation",
+        "energy_services"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://totalenergies.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dreev",
+      "name": "Dreev (TotalEnergies)",
+      "url": "https://dreev.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Smart charging EV FR ; V2G, optimisation charge flottes et services utilities/intégrateurs.",
+      "capabilities": [
+        "smart_charging",
+        "v2g",
+        "fleet_optimization",
+        "utilities"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://dreev.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "watteco",
+      "name": "Watteco",
+      "url": "https://www.watteco.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Capteurs IoT énergie FR ; monitoring conso, protocoles LoRa/SmartGrid et intégration BMS.",
+      "capabilities": [
+        "iot_sensors",
+        "energy_monitoring",
+        "lorawan",
+        "bms_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.watteco.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "beem-energy",
+      "name": "Beem Energy",
+      "url": "https://www.beemenergy.fr/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Kits solaires plug-and-play FR ; autoconsommation résidentielle, app monitoring et installation simplifiée.",
+      "capabilities": [
+        "residential_solar",
+        "plug_and_play",
+        "self_consumption",
+        "monitoring_app"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.beemenergy.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tado",
+      "name": "tado°",
+      "url": "https://www.tado.com/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Smart thermostat EU ; pilotage chauffage/clim, géofencing et économies énergie résidentiel.",
+      "capabilities": [
+        "smart_thermostat",
+        "heating_control",
+        "geofencing",
+        "energy_savings"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.tado.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "isometric",
+      "name": "Isometric",
+      "url": "https://isometric.com/",
+      "segments": [
+        "energy-cleantech",
+        "esg-csrd"
+      ],
+      "description": "Registre crédits carbone ; MRV, certification removals et marketplace crédits haute intégrité.",
+      "capabilities": [
+        "carbon_credits",
+        "mrv",
+        "carbon_removals",
+        "marketplace"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://isometric.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sunology",
+      "name": "Sunology",
+      "url": "https://www.sunology.eu/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Panneaux solaires EU ; kits résidentiels, monitoring production et optimisation autoconsommation.",
+      "capabilities": [
+        "solar_panels",
+        "residential",
+        "production_monitoring",
+        "self_consumption"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.sunology.eu/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ekodev",
+      "name": "Ekodev",
+      "url": "https://www.ekodev.fr/",
+      "segments": [
+        "energy-cleantech"
+      ],
+      "description": "Performance énergétique tertiaire FR ; audits, CPE et pilotage décret tertiaire/RE2020.",
+      "capabilities": [
+        "energy_performance",
+        "tertiary",
+        "decret_tertiaire",
+        "re2020"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.ekodev.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

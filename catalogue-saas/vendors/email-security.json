@@ -1,6 +1,6 @@
 {
   "segment": "email-security",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "proofpoint",
@@ -143,6 +143,390 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "vade",
+      "name": "Vade (Hornetsecurity)",
+      "url": "https://www.vadesecure.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Filtrage email IA FR ; anti-phishing, spear phishing et protection Microsoft 365/Google.",
+      "capabilities": [
+        "email_filtering",
+        "anti_phishing",
+        "ai_detection",
+        "m365"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.vadesecure.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tessian",
+      "name": "Tessian",
+      "url": "https://www.tessian.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Email security comportementale ; BEC, data loss prevention et coaching utilisateurs.",
+      "capabilities": [
+        "bec_protection",
+        "dlp",
+        "behavioral_ai",
+        "user_coaching"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.tessian.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ironscales",
+      "name": "IRONSCALES",
+      "url": "https://ironscales.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Email security crowdsourced ; phishing, BEC et remédiation automatisée boîtes utilisateurs.",
+      "capabilities": [
+        "phishing",
+        "bec",
+        "crowdsourced_intel",
+        "remediation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://ironscales.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cofense",
+      "name": "Cofense",
+      "url": "https://cofense.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Phishing defense ; simulation, reporting utilisateurs et triage analyste threats email.",
+      "capabilities": [
+        "phishing_simulation",
+        "user_reporting",
+        "triage",
+        "awareness"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://cofense.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "area1-security",
+      "name": "Area 1 Security (Cloudflare)",
+      "url": "https://www.cloudflare.com/zero-trust/products/email-security/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Email security preemptive ; détection phishing zero-day et intégration Cloudflare Zero Trust.",
+      "capabilities": [
+        "preemptive_phishing",
+        "zero_day",
+        "zero_trust",
+        "bec"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.cloudflare.com/zero-trust/products/email-security/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cloudflare-email-security",
+      "name": "Cloudflare Email Security",
+      "url": "https://www.cloudflare.com/email-security/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Protection email cloud ; anti-phishing, impersonation et isolation navigateur liens.",
+      "capabilities": [
+        "anti_phishing",
+        "impersonation",
+        "link_isolation",
+        "cloud_native"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.cloudflare.com/email-security/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mailinblack",
+      "name": "Mailinblack",
+      "url": "https://www.mailinblack.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Protection email FR ; anti-phishing, anti-spam, sensibilisation utilisateurs et conformité RGPD.",
+      "capabilities": [
+        "anti_phishing",
+        "anti_spam",
+        "awareness",
+        "rgpd"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.mailinblack.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hornetsecurity",
+      "name": "Hornetsecurity",
+      "url": "https://www.hornetsecurity.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Email security cloud EU ; backup M365/Google, filtrage avancé et compliance eDiscovery.",
+      "capabilities": [
+        "email_filtering",
+        "backup",
+        "m365",
+        "ediscovery"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "FR"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.hornetsecurity.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Maison mère de Vade Secure."
+    },
+    {
+      "id": "knowbe4",
+      "name": "KnowBe4",
+      "url": "https://www.knowbe4.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Human risk management ; simulation phishing, formation sécurité et scoring vulnérabilité utilisateurs.",
+      "capabilities": [
+        "phishing_simulation",
+        "security_awareness",
+        "training",
+        "human_risk"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.knowbe4.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "microsoft-defender-office365",
+      "name": "Microsoft Defender for Office 365",
+      "url": "https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-office-365",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Protection email M365 ; anti-phishing, Safe Links/Attachments, BEC et investigation Threat Explorer.",
+      "capabilities": [
+        "anti_phishing",
+        "safe_links",
+        "bec",
+        "threat_investigation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-office-365",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "keepnet-labs",
+      "name": "Keepnet Labs",
+      "url": "https://keepnetlabs.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Human-centric email security ; simulation phishing, awareness et incident response email automatisé.",
+      "capabilities": [
+        "phishing_simulation",
+        "awareness",
+        "incident_response",
+        "email_threats"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://keepnetlabs.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "libraesva",
+      "name": "Libraesva",
+      "url": "https://www.libraesva.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Email security EU ; filtrage spam/phishing, sandboxing attachments et gateway messagerie souveraine.",
+      "capabilities": [
+        "email_filtering",
+        "sandboxing",
+        "gateway",
+        "anti_phishing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "IT",
+      "france_market": "partial",
+      "operating_regions": [
+        "IT",
+        "EU",
+        "FR"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.libraesva.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "avanan",
+      "name": "Avanan (Check Point Harmony Email)",
+      "url": "https://www.checkpoint.com/harmony/email-security/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Email security cloud ; API M365/Google, anti-phishing IA et remédiation post-delivery inline.",
+      "capabilities": [
+        "cloud_email",
+        "m365",
+        "anti_phishing",
+        "post_delivery_remediation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.checkpoint.com/harmony/email-security/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

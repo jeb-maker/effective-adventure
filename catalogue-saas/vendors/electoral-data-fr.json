@@ -1,6 +1,6 @@
 {
   "segment": "electoral-data-fr",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "data-gouv-elections",
@@ -34,7 +34,8 @@
       "name": "Registre des représentants d'intérêts (ref transparence)",
       "url": "https://www.hatvp.fr/",
       "segments": [
-        "electoral-data-fr"
+        "electoral-data-fr",
+        "civic-tech-fr"
       ],
       "description": "Données transparence vie publique ; croisement intérêts et mandats.",
       "capabilities": [
@@ -138,6 +139,390 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "uk-electoral-commission",
+      "name": "UK Electoral Commission — Open Data",
+      "url": "https://www.electoralcommission.org.uk/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Données électorales UK ; financement campagnes, résultats et registre électoral.",
+      "capabilities": [
+        "election_results",
+        "campaign_finance",
+        "uk",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.electoralcommission.org.uk/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "mit-election-lab",
+      "name": "MIT Election Data and Science Lab",
+      "url": "https://electionlab.mit.edu/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Recherche et datasets électoraux US ; méthodes et données comparables pour analytics territoriaux.",
+      "capabilities": [
+        "election_data",
+        "research",
+        "datasets",
+        "methodology"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://electionlab.mit.edu/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "elections-europe",
+      "name": "European Parliament — Elections data",
+      "url": "https://results.elections.europa.eu/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Résultats élections européennes ; données agrégées par pays et circonscription.",
+      "capabilities": [
+        "eu_elections",
+        "results",
+        "territorial",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "EU",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://results.elections.europa.eu/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "ballotpedia-data",
+      "name": "Ballotpedia",
+      "url": "https://ballotpedia.org/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Encyclopédie électorale US ; données candidats, scrutins et analyses territoriales.",
+      "capabilities": [
+        "election_encyclopedia",
+        "candidates",
+        "ballot_measures",
+        "us"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://ballotpedia.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "ballotage-datagere",
+      "name": "Ballotage (Datagère)",
+      "url": "https://www.datagere.com/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "App analytics électoraux FR ; harmonisation BV 2002–2024, basculements et exports multi-scrutins.",
+      "capabilities": [
+        "bureau_vote",
+        "harmonisation",
+        "basculements",
+        "exports"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.datagere.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0014."
+    },
+    {
+      "id": "qomon",
+      "name": "Qomon",
+      "url": "https://fr.qomon.com/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "CRM campagne + carto BV×INSEE ; force électorale, évolution territoriale et exports PDF.",
+      "capabilities": [
+        "bv_insee",
+        "electoral_maps",
+        "campaign_crm",
+        "territory"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://fr.qomon.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "politicae",
+      "name": "Politiciae DATA",
+      "url": "https://politicae.fr/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Cartographie électorale commune/IRIS/BV ; analytics territoriaux pour campagnes et médias.",
+      "capabilities": [
+        "commune",
+        "iris",
+        "bureau_vote",
+        "cartography"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://politicae.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0014."
+    },
+    {
+      "id": "explain-lmp",
+      "name": "Explain (ex-Liegey-Muller-Pons)",
+      "url": "https://www.explain.fr/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Scoring électoral campagnes ; agrégation BV×INSEE et ciblage terrain pour candidats.",
+      "capabilities": [
+        "electoral_scoring",
+        "bv_insee",
+        "campaign",
+        "targeting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.explain.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "digitalebox",
+      "name": "DigitaleBox",
+      "url": "https://digitalebox.com/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "CRM politique français ; cartographie électeurs par secteur et mobilisation campagne.",
+      "capabilities": [
+        "political_crm",
+        "elector_mapping",
+        "mobilization",
+        "campaign"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://digitalebox.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "terre-de-donnees",
+      "name": "Terre de Données",
+      "url": "https://www.terre-de-donnees.fr/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Data journalism électoral ; jeux harmonisés, cartes interactives et analyses territoriales.",
+      "capabilities": [
+        "election_data",
+        "data_journalism",
+        "maps",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.terre-de-donnees.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "politic-data",
+      "name": "Politic Data",
+      "url": "https://www.politicdata.io/",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Plateforme analytics électoraux ; historique scrutins, comparaisons territoriales et API.",
+      "capabilities": [
+        "election_analytics",
+        "historical",
+        "api",
+        "territory"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.politicdata.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0014."
+    },
+    {
+      "id": "elections-agregees-etalab",
+      "name": "Données élections agrégées (Etalab)",
+      "url": "https://www.data.gouv.fr/datasets/donnees-des-elections-agregees",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Jeu national BV harmonisé ; résultats candidats, général et tables de jointure IRIS/BV.",
+      "capabilities": [
+        "aggregated_results",
+        "bureau_vote",
+        "open_data",
+        "etalab"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.data.gouv.fr/datasets/donnees-des-elections-agregees",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0014."
+    },
+    {
+      "id": "interieur-resultats-elections",
+      "name": "Ministère de l'Intérieur — résultats électoraux",
+      "url": "https://www.interieur.gouv.fr/Elections/Les-resultats",
+      "segments": [
+        "electoral-data-fr"
+      ],
+      "description": "Publication officielle résultats ; législatives, municipales, présidentielles par commune/BV.",
+      "capabilities": [
+        "official_results",
+        "elections",
+        "commune",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.interieur.gouv.fr/Elections/Les-resultats",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

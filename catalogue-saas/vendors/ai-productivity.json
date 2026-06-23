@@ -1,6 +1,6 @@
 {
   "segment": "ai-productivity",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "notion-ai",
@@ -117,6 +117,411 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "scribe",
+      "name": "Scribe",
+      "url": "https://scribehow.com/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Documentation processus auto-générée ; guides pas-à-pas avec captures.",
+      "capabilities": [
+        "process_docs",
+        "auto_capture",
+        "guides"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://scribehow.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "motion-app",
+      "name": "Motion",
+      "url": "https://www.usemotion.com/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Calendrier IA ; planification auto tâches, priorités et réunion scheduling intelligent.",
+      "capabilities": [
+        "ai_scheduling",
+        "task_prioritization",
+        "calendar",
+        "automation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.usemotion.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "reclaim-ai",
+      "name": "Reclaim.ai",
+      "url": "https://reclaim.ai/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Optimisation calendrier ; habits, focus time et scheduling équipes Google/Outlook.",
+      "capabilities": [
+        "calendar_optimization",
+        "focus_time",
+        "habits",
+        "team_scheduling"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://reclaim.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tango-us",
+      "name": "Tango",
+      "url": "https://www.tango.us/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Documentation processus auto ; captures écran, guides step-by-step et partage équipe.",
+      "capabilities": [
+        "process_docs",
+        "screenshots",
+        "step_by_step",
+        "team_sharing"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.tango.us/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "beautiful-ai",
+      "name": "Beautiful.ai",
+      "url": "https://www.beautiful.ai/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Présentations IA ; templates smart, design auto et collaboration slides.",
+      "capabilities": [
+        "presentations",
+        "smart_templates",
+        "auto_design",
+        "collaboration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.beautiful.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tome-app",
+      "name": "Tome",
+      "url": "https://tome.app/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Storytelling IA ; decks narratifs, génération contenu et partage interactif.",
+      "capabilities": [
+        "ai_decks",
+        "storytelling",
+        "content_generation",
+        "sharing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://tome.app/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mem-ai",
+      "name": "Mem",
+      "url": "https://mem.ai/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Notes IA self-organizing ; recherche sémantique, rappels contextuels et team workspace.",
+      "capabilities": [
+        "ai_notes",
+        "semantic_search",
+        "contextual_reminders",
+        "workspace"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://mem.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "reflect-app",
+      "name": "Reflect",
+      "url": "https://reflect.app/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Notes IA networked ; backlinks, GPT intégré et sync chiffré cross-device.",
+      "capabilities": [
+        "networked_notes",
+        "gpt",
+        "encrypted_sync",
+        "backlinks"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://reflect.app/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "craft-do",
+      "name": "Craft",
+      "url": "https://www.craft.do/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Docs et notes IA ; rédaction assistée, templates et collaboration équipe.",
+      "capabilities": [
+        "ai_writing",
+        "docs",
+        "templates",
+        "collaboration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.craft.do/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "granola",
+      "name": "Granola",
+      "url": "https://www.granola.ai/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Notes réunion IA ; transcription locale, synthèse action items sans bot visible.",
+      "capabilities": [
+        "meeting_notes",
+        "local_transcription",
+        "summaries",
+        "action_items"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.granola.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tactiq",
+      "name": "Tactiq",
+      "url": "https://tactiq.io/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Transcription Meet/Zoom IA ; résumés, highlights et export Notion/Docs.",
+      "capabilities": [
+        "meet_transcription",
+        "summaries",
+        "highlights",
+        "export"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://tactiq.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "superhuman",
+      "name": "Superhuman",
+      "url": "https://superhuman.com/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Email IA premium ; tri intelligent, raccourcis et rédaction assistée GPT.",
+      "capabilities": [
+        "ai_email",
+        "smart_triage",
+        "shortcuts",
+        "ai_compose"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://superhuman.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "url": "https://www.descript.com/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Édition audio/vidéo IA ; transcription, overdub voix et montage text-based.",
+      "capabilities": [
+        "transcription",
+        "overdub",
+        "text_editing",
+        "video_ai"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.descript.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lex-writing",
+      "name": "Lex",
+      "url": "https://lex.page/",
+      "segments": [
+        "ai-productivity"
+      ],
+      "description": "Éditeur rédaction IA ; co-écriture, brainstorming et export long-form.",
+      "capabilities": [
+        "ai_writing",
+        "co_authoring",
+        "brainstorming",
+        "long_form"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://lex.page/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "segment": "project-work-management",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "asana",
@@ -141,6 +141,385 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "smartsheet",
+      "name": "Smartsheet",
+      "url": "https://www.smartsheet.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Work management enterprise ; grilles, Gantt, automations et portefeuilles projets.",
+      "capabilities": [
+        "grids",
+        "gantt",
+        "automations",
+        "portfolio"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.smartsheet.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "basecamp",
+      "name": "Basecamp",
+      "url": "https://basecamp.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Gestion projet simplifiée ; to-do, message boards et calendrier équipe tout-en-un.",
+      "capabilities": [
+        "todo",
+        "message_boards",
+        "team_calendar",
+        "simplicity"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://basecamp.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "height-app",
+      "name": "Height",
+      "url": "https://height.app/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Project tracker moderne ; vues flexibles, automations et intégrations dev/design.",
+      "capabilities": [
+        "flexible_views",
+        "automations",
+        "dev_integration",
+        "tracking"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://height.app/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "teamwork-com",
+      "name": "Teamwork.com",
+      "url": "https://www.teamwork.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "PM agences/services ; time tracking, budgets client et collaboration projets.",
+      "capabilities": [
+        "time_tracking",
+        "client_budgets",
+        "collaboration",
+        "agency"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IE",
+      "france_market": "partial",
+      "operating_regions": [
+        "IE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.teamwork.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "url": "https://www.airtable.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Work OS flexible ; bases relationnelles, interfaces et automations no-code.",
+      "capabilities": [
+        "relational_bases",
+        "interfaces",
+        "automations",
+        "no_code"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.airtable.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "todoist-business",
+      "name": "Todoist Business",
+      "url": "https://todoist.com/team",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Task management équipes ; projets partagés, labels, filtres et productivité personnelle.",
+      "capabilities": [
+        "task_management",
+        "shared_projects",
+        "labels",
+        "productivity"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "PT",
+      "france_market": "partial",
+      "operating_regions": [
+        "PT",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://todoist.com/team",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "jira-atlassian",
+      "name": "Jira",
+      "url": "https://www.atlassian.com/software/jira",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Gestion projet agile ; sprints, backlogs, roadmaps et intégrations dev.",
+      "capabilities": [
+        "agile",
+        "sprints",
+        "backlogs",
+        "roadmaps"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.atlassian.com/software/jira",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "url": "https://trello.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Kanban visuel ; boards, automatisations Butler et Power-Ups.",
+      "capabilities": [
+        "kanban",
+        "boards",
+        "butler_automation",
+        "power_ups"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://trello.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "shortcut",
+      "name": "Shortcut (ex-Clubhouse)",
+      "url": "https://shortcut.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Gestion projet dev ; stories, sprints et roadmap produit unifiée.",
+      "capabilities": [
+        "dev_project",
+        "stories",
+        "sprints",
+        "roadmap"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://shortcut.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "productboard",
+      "name": "Productboard",
+      "url": "https://www.productboard.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Gestion produit ; roadmaps, prioritisation feedback et discovery.",
+      "capabilities": [
+        "product_roadmaps",
+        "prioritization",
+        "feedback",
+        "discovery"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.productboard.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hive-app",
+      "name": "Hive",
+      "url": "https://hive.com/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Work management ; projets, time tracking et proofing créatif.",
+      "capabilities": [
+        "projects",
+        "time_tracking",
+        "proofing",
+        "collaboration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://hive.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zoho-projects",
+      "name": "Zoho Projects",
+      "url": "https://www.zoho.com/projects/",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Gestion projet PME ; tâches, Gantt, timesheets et intégrations Zoho.",
+      "capabilities": [
+        "tasks",
+        "gantt",
+        "timesheets",
+        "zoho_suite"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "IN",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.zoho.com/projects/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "notion-projects",
+      "name": "Notion Projects",
+      "url": "https://www.notion.so/product/projects",
+      "segments": [
+        "project-work-management"
+      ],
+      "description": "Projets dans Notion ; vues timeline, sprints et bases de données liées.",
+      "capabilities": [
+        "notion_projects",
+        "timeline",
+        "sprints",
+        "linked_db"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.notion.so/product/projects",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

@@ -8,12 +8,12 @@ Généré depuis `taxonomy.json` — **68 segments**.
 | ID | Label | Vendeurs |
 |---|---|---:|
 | `regtech` | RegTech — veille & obligations | 29 |
-| `regulatory-reporting-eu` | Reporting réglementaire EU | 4 |
-| `grc-security` | GRC & conformité sécurité | 38 |
-| `privacy-consent` | Privacy & consent management | 6 |
+| `regulatory-reporting-eu` | Reporting réglementaire EU | 5 |
+| `grc-security` | GRC & conformité sécurité | 44 |
+| `privacy-consent` | Privacy & consent management | 7 |
 | `ai-governance` | AI Governance | 32 |
-| `compliance-to-spec` | Réglementation → spec produit | 29 |
-| `accessibility-compliance` | Accessibilité numérique | 4 |
+| `compliance-to-spec` | Réglementation → spec produit | 30 |
+| `accessibility-compliance` | Accessibilité numérique | 5 |
 | `esg-csrd` | ESG & reporting extra-financier | 5 |
 | `kyc-aml` | KYC / AML / identity | 8 |
 | `pharma-regulatory` | Pharma & life sciences regulatory | 5 |
@@ -34,7 +34,7 @@ Généré depuis `taxonomy.json` — **68 segments**.
 |---|---|---:|
 | `llm-api-providers` | API LLM & modèles | 5 |
 | `model-inference-hosting` | Inference & hosting modèles | 5 |
-| `vector-databases` | Bases vectorielles | 5 |
+| `vector-databases` | Bases vectorielles | 6 |
 | `ai-evals-testing` | Evals & tests IA | 7 |
 | `agent-frameworks-platforms` | Frameworks & plateformes agents | 5 |
 
@@ -43,7 +43,7 @@ Généré depuis `taxonomy.json` — **68 segments**.
 | ID | Label | Vendeurs |
 |---|---|---:|
 | `document-idp` | IDP & extraction documentaire | 34 |
-| `parsing-inbox` | Parsing email & inbox | 9 |
+| `parsing-inbox` | Parsing email & inbox | 15 |
 | `e-signature` | Signature électronique | 5 |
 | `translation-localization` | Traduction & localisation | 5 |
 | `data-integration-etl` | Intégration & ETL données | 5 |
@@ -52,9 +52,9 @@ Généré depuis `taxonomy.json` — **68 segments**.
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `ai-productivity` | Productivité IA métier | 5 |
+| `ai-productivity` | Productivité IA métier | 6 |
 | `ai-copilot-dev` | Copilots IA & dev tools | 11 |
-| `rag-knowledge` | RAG & knowledge enterprise | 4 |
+| `rag-knowledge` | RAG & knowledge enterprise | 5 |
 | `project-work-management` | Gestion de projet & work OS | 6 |
 | `meeting-intelligence` | Meeting intelligence | 6 |
 
@@ -63,20 +63,20 @@ Généré depuis `taxonomy.json` — **68 segments**.
 | ID | Label | Vendeurs |
 |---|---|---:|
 | `automation-platforms` | Automatisation no-code / iPaaS | 12 |
-| `rpa-enterprise` | RPA enterprise | 5 |
+| `rpa-enterprise` | RPA enterprise | 6 |
 
 ## Agents & résultats
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `support-sales-agents` | Agents support & sales | 12 |
-| `voice-speech-ai` | Voix & speech IA | 5 |
+| `support-sales-agents` | Agents support & sales | 21 |
+| `voice-speech-ai` | Voix & speech IA | 11 |
 
 ## Sales & marketing
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `crm-platforms` | CRM | 5 |
+| `crm-platforms` | CRM | 6 |
 | `marketing-automation` | Marketing automation | 5 |
 | `seo-content-ai` | SEO & contenu IA | 6 |
 | `revenue-intelligence` | Revenue intelligence | 5 |
@@ -85,28 +85,28 @@ Généré depuis `taxonomy.json` — **68 segments**.
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `helpdesk-platforms` | Helpdesk & service client | 7 |
+| `helpdesk-platforms` | Helpdesk & service client | 8 |
 | `customer-success` | Customer success | 5 |
 
 ## Vertical — Finance
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `finance-accounting-ai` | Finance & compta IA | 4 |
+| `finance-accounting-ai` | Finance & compta IA | 6 |
 | `treasury-fpa` | Trésorerie & FP&A | 5 |
-| `spend-procurement` | Spend & procurement | 5 |
+| `spend-procurement` | Spend & procurement | 6 |
 
 ## Vertical — Legal
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `legal-contract-ai` | Legal & contract AI | 4 |
+| `legal-contract-ai` | Legal & contract AI | 5 |
 
 ## Vertical — RH
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `hr-talent-ai` | RH & talent IA | 4 |
+| `hr-talent-ai` | RH & talent IA | 5 |
 | `payroll-hris` | Paie & SIRH | 5 |
 | `learning-lxp` | Formation & LXP | 5 |
 
@@ -132,7 +132,7 @@ Généré depuis `taxonomy.json` — **68 segments**.
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `data-enrichment-b2b` | Enrichissement données B2B | 4 |
+| `data-enrichment-b2b` | Enrichissement données B2B | 5 |
 
 ## Data & analytics
 
@@ -145,19 +145,19 @@ Généré depuis `taxonomy.json` — **68 segments**.
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `public-procurement-intel` | Intelligence marchés publics | 4 |
-| `territorial-analytics` | Analytics territoriales | 6 |
-| `civic-tech-fr` | Civic tech France | 5 |
+| `public-procurement-intel` | Intelligence marchés publics | 8 |
+| `territorial-analytics` | Analytics territoriales | 10 |
+| `civic-tech-fr` | Civic tech France | 10 |
 
 ## France — open data thématique
 
 | ID | Label | Vendeurs |
 |---|---|---:|
-| `geospatial-gis-fr` | Géospatial & carto FR | 5 |
-| `transport-mobility-data-fr` | Transport & mobilité FR | 5 |
-| `energy-buildings-fr` | Bâtiments & énergie FR | 5 |
-| `environmental-data-fr` | Environnement & risques FR | 6 |
-| `electoral-data-fr` | Données électorales FR | 5 |
-| `public-health-territory-fr` | Santé territoriale FR | 5 |
-| `open-data-governance-fr` | Gouvernance open data FR | 5 |
+| `geospatial-gis-fr` | Géospatial & carto FR | 9 |
+| `transport-mobility-data-fr` | Transport & mobilité FR | 9 |
+| `energy-buildings-fr` | Bâtiments & énergie FR | 9 |
+| `environmental-data-fr` | Environnement & risques FR | 10 |
+| `electoral-data-fr` | Données électorales FR | 9 |
+| `public-health-territory-fr` | Santé territoriale FR | 9 |
+| `open-data-governance-fr` | Gouvernance open data FR | 9 |
 

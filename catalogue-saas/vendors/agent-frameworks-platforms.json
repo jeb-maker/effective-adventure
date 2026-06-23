@@ -1,6 +1,6 @@
 {
   "segment": "agent-frameworks-platforms",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "langchain",
@@ -143,6 +143,413 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "url": "https://dify.ai/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Plateforme LLM ops open-source ; agents, workflows visuels, RAG et API production.",
+      "capabilities": [
+        "agent_workflows",
+        "visual_builder",
+        "rag",
+        "api_deploy"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://dify.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "flowise",
+      "name": "Flowise",
+      "url": "https://flowiseai.com/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Builder agents visuel open-source ; LangChain nodes, chatflows et self-hosted.",
+      "capabilities": [
+        "visual_builder",
+        "langchain_nodes",
+        "chatflows",
+        "self_hosted"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://flowiseai.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "agno",
+      "name": "Agno",
+      "url": "https://www.agno.com/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Framework agents Python ; multi-agent, mémoire, tool use et déploiement production.",
+      "capabilities": [
+        "multi_agent",
+        "memory",
+        "tool_use",
+        "production_deploy"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.agno.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "superagent",
+      "name": "Superagent",
+      "url": "https://www.superagent.sh/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Framework agents TypeScript ; guardrails, tool calling et déploiement serverless.",
+      "capabilities": [
+        "typescript_agents",
+        "guardrails",
+        "tool_calling",
+        "serverless"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.superagent.sh/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "agentops",
+      "name": "AgentOps",
+      "url": "https://www.agentops.ai/",
+      "segments": [
+        "agent-frameworks-platforms",
+        "ai-evals-testing"
+      ],
+      "description": "Observabilité agents ; session replay, coûts, debugging et evals runtime.",
+      "capabilities": [
+        "agent_observability",
+        "session_replay",
+        "cost_tracking",
+        "debugging"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.agentops.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "langflow",
+      "name": "Langflow",
+      "url": "https://www.langflow.org/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "UI low-code LangChain ; flows agents, composants custom et export Python/API.",
+      "capabilities": [
+        "low_code",
+        "langchain",
+        "custom_components",
+        "api_export"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.langflow.org/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mastra",
+      "name": "Mastra",
+      "url": "https://mastra.ai/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Framework TypeScript agents ; workflows, mémoire, evals et déploiement serverless.",
+      "capabilities": [
+        "typescript",
+        "workflows",
+        "memory",
+        "evals"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://mastra.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "letta",
+      "name": "Letta (MemGPT)",
+      "url": "https://www.letta.com/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Plateforme agents stateful ; mémoire long terme, tool use et déploiement multi-agents.",
+      "capabilities": [
+        "stateful_agents",
+        "memory",
+        "tool_use",
+        "multi_agent"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.letta.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "vellum",
+      "name": "Vellum",
+      "url": "https://www.vellum.ai/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Plateforme dev agents LLM ; prompt engineering, evals, déploiement et observabilité.",
+      "capabilities": [
+        "prompt_engineering",
+        "evals",
+        "deployment",
+        "observability"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.vellum.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "rivet-ai",
+      "name": "Rivet",
+      "url": "https://rivet.ironcladapp.com/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "IDE visuel agents LLM ; graphes, debugging et intégration Ironclad workflows.",
+      "capabilities": [
+        "visual_ide",
+        "agent_graphs",
+        "debugging",
+        "workflows"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://rivet.ironcladapp.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "beam-ai",
+      "name": "Beam AI",
+      "url": "https://beam.ai/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Plateforme agents enterprise ; orchestration, human-in-the-loop et intégrations SaaS.",
+      "capabilities": [
+        "enterprise_agents",
+        "orchestration",
+        "hitl",
+        "integrations"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://beam.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "wordware",
+      "name": "Wordware",
+      "url": "https://www.wordware.ai/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "IDE langage naturel pour agents ; déploiement API, triggers et collaboration équipe.",
+      "capabilities": [
+        "natural_language_ide",
+        "api_deploy",
+        "triggers",
+        "collaboration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.wordware.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "composio",
+      "name": "Composio",
+      "url": "https://composio.dev/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Connecteurs tools agents ; 100+ intégrations SaaS, auth et actions typées pour LLM.",
+      "capabilities": [
+        "tool_connectors",
+        "integrations",
+        "auth",
+        "typed_actions"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://composio.dev/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "botpress",
+      "name": "Botpress",
+      "url": "https://botpress.com/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Plateforme agents conversationnels ; LLM, workflows visuels et déploiement omnicanal.",
+      "capabilities": [
+        "conversational_agents",
+        "visual_workflows",
+        "llm",
+        "omnichannel"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "CA",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://botpress.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

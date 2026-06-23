@@ -85,6 +85,60 @@ La douleur est **réelle et récurrente** : comprendre si sa dette, son épargne
 | Gratuit institutionnel | **Très présent** — OFGL, Collectiv'Finances, LocalOpen |
 | Espace libre éventuel | **Très étroit** : alertes mandat + narration IA pédagogique pour élus non-financiers, **sans** payer ni dupliquer l'OFGL — et Manty/LocalNova y investissent déjà. |
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0020-benchmark-financier-collectivites` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `territorial-analytics` — Analytics territoriales
+
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (18 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `datagouv` | data.gouv.fr | FR | strong | verified |
+| `georisques` | Géorisques | FR | strong | verified |
+| `ofgl` | OFGL Observatoire | FR | strong | verified |
+| `cartes-gouv` | Géoportail / cartes.gouv.fr | FR | strong | verified |
+| `data-gov-uk` | data.gov.uk | GB | absent | partial |
+| `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
+| `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
+| `carto-territorial` | CARTO | ES | partial | partial |
+| `smappen` | Smappen | FR | strong | partial |
+| `geomarket` | Geomarket | FR | strong | partial |
+| `data-b` | Data-B | FR | strong | partial |
+| `vigicite` | VigiCité | FR | strong | partial |
+| … | _+6 autres_ | | | |
+
+#### Segment `treasury-fpa` — Trésorerie & FP&A
+
+Fichier : [`catalogue-saas/vendors/treasury-fpa.json`](../../catalogue-saas/vendors/treasury-fpa.json) (18 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `anaplan` | Anaplan | US | partial | partial |
+| `pigment` | Pigment | FR | strong | partial |
+| `drivetrain` | Drivetrain | US | partial | partial |
+| `cube-software` | Cube | US | partial | partial |
+| `mosaic-tech` | Mosaic | US | partial | partial |
+| `kyriba` | Kyriba | FR | strong | partial |
+| `gtreasury` | GTreasury | US | partial | partial |
+| `cashforce` | Cashforce | BE | partial | partial |
+| `trovata` | Trovata | US | partial | partial |
+| `highradius` | HighRadius | US | partial | partial |
+| `blackline` | BlackLine | US | partial | partial |
+| `planful` | Planful | US | partial | partial |
+| … | _+6 autres_ | | | |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment territorial-analytics
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 
 Promesses possibles de l'idée 0020 vs l'existant :

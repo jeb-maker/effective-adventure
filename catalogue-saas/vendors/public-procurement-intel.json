@@ -1,6 +1,6 @@
 {
   "segment": "public-procurement-intel",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "marchespublics-ai",
@@ -113,6 +113,473 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "tussell",
+      "name": "Tussell",
+      "url": "https://www.tussell.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Intelligence marchés publics UK ; veille contrats gov, attributaires et tendances sectorielles.",
+      "capabilities": [
+        "uk_procurement",
+        "contract_alerts",
+        "spend_analysis",
+        "suppliers"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.tussell.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "spend-network",
+      "name": "Spend Network",
+      "url": "https://spendnetwork.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Données marchés publics globaux ; API contrats et analytics achats publics multi-pays.",
+      "capabilities": [
+        "public_contracts_api",
+        "global_coverage",
+        "spend_data"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://spendnetwork.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "govwin-deltek",
+      "name": "GovWin (Deltek)",
+      "url": "https://www.deltek.com/en/govwin",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille opportunités marchés publics US fédéraux et locaux ; forecasting et intelligence.",
+      "capabilities": [
+        "federal_contracts",
+        "forecasting",
+        "pipeline",
+        "us_public_sector"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.deltek.com/en/govwin",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "open-contracting-partnership",
+      "name": "Open Contracting Partnership",
+      "url": "https://www.open-contracting.org/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Standard open contracting (OCDS) et portails transparence achats publics internationaux.",
+      "capabilities": [
+        "ocds",
+        "transparency",
+        "open_data",
+        "standards"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "unknown",
+      "operating_regions": [
+        "global"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.open-contracting.org/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "decp-info",
+      "name": "decp.info",
+      "url": "https://decp.info/",
+      "segments": [
+        "public-procurement-intel",
+        "territorial-analytics"
+      ],
+      "description": "Interface exploration DECP ; recherche marchés par titulaire, acheteur, CPV et export tabulaire.",
+      "capabilities": [
+        "decp",
+        "exploration",
+        "titulaire",
+        "acheteur",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://decp.info/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Réutilisation data.gouv citée idées 0025/0027."
+    },
+    {
+      "id": "data-economie-gouv",
+      "name": "data.economie.gouv.fr",
+      "url": "https://data.economie.gouv.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Portail open data Économie ; jeux DECP, subventions et entreprises pour transparence marchés publics.",
+      "capabilities": [
+        "decp",
+        "subventions",
+        "open_data",
+        "portal"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://data.economie.gouv.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0027."
+    },
+    {
+      "id": "openbar",
+      "name": "OpenBar (Regards Citoyens)",
+      "url": "https://openbar.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Exploration subventions publiques ; bénéficiaires, montants et croisements RNA pour transparence.",
+      "capabilities": [
+        "subventions",
+        "beneficiaires",
+        "transparency",
+        "rna"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://openbar.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0027."
+    },
+    {
+      "id": "nextend-ai",
+      "name": "Nextend.ai",
+      "url": "https://nextend.ai/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille marchés publics IA ; alertes BOAMP/DECP, analyse cahiers des charges et matching opportunités.",
+      "capabilities": [
+        "ao_monitoring",
+        "decp",
+        "ai_analysis",
+        "alerts"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://nextend.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0001."
+    },
+    {
+      "id": "doubletrade",
+      "name": "DoubleTrade",
+      "url": "https://www.doubletrade.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Intelligence marchés publics FR ; veille AO, historique attributions et analytics acheteurs/titulaires.",
+      "capabilities": [
+        "ao_veille",
+        "decp",
+        "analytics",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.doubletrade.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "scdl-portail",
+      "name": "SCDL — Subventions de collectivités locales",
+      "url": "https://www.data.gouv.fr/datasets/subventions-de-collectivites-locales-aux-associations-et-entreprises",
+      "segments": [
+        "public-procurement-intel",
+        "territorial-analytics"
+      ],
+      "description": "Jeu national subventions collectivités ; croisement potentiel avec DECP par SIRET bénéficiaire.",
+      "capabilities": [
+        "scdl",
+        "subventions",
+        "collectivites",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.data.gouv.fr/datasets/subventions-de-collectivites-locales-aux-associations-et-entreprises",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0027."
+    },
+    {
+      "id": "weproc",
+      "name": "Weproc",
+      "url": "https://www.weproc.com/",
+      "segments": [
+        "public-procurement-intel",
+        "spend-procurement"
+      ],
+      "description": "SRM achats publics ; sourcing fournisseurs, conformité et veille marchés pour collectivités.",
+      "capabilities": [
+        "srm",
+        "public_buyers",
+        "sourcing",
+        "compliance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5k-territoire-idees",
+      "source_url": "https://www.weproc.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "maximilien",
+      "name": "Maximilien",
+      "url": "https://www.maximilien.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Plateforme achats publics (profil acheteur) et dématérialisation.",
+      "capabilities": [
+        "profil_acheteur",
+        "tenders",
+        "france",
+        "dematerialisation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.maximilien.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "megalis-bretagne",
+      "name": "Mégalis Bretagne",
+      "url": "https://www.megalis.bretagne.bzh/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Plateforme régionale achats publics et services numériques territoriaux.",
+      "capabilities": [
+        "profil_acheteur",
+        "france",
+        "tenders"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.megalis.bretagne.bzh/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "klekoon",
+      "name": "Klekoon",
+      "url": "https://www.klekoon.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Dématérialisation marchés publics (profil acheteur) et publication AO.",
+      "capabilities": [
+        "profil_acheteur",
+        "ao_publication",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.klekoon.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "achat-solution",
+      "name": "Achat Solution",
+      "url": "https://www.achat-solution.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Plateforme achats publics : sourcing, consultation, exécution.",
+      "capabilities": [
+        "tenders",
+        "supplier_portal",
+        "workflow",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.achat-solution.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "marches-online",
+      "name": "Marchés Online",
+      "url": "https://www.marchesonline.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille et publication d'avis (AO) + accès centralisé aux consultations.",
+      "capabilities": [
+        "ao_monitoring",
+        "tenders",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.marchesonline.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

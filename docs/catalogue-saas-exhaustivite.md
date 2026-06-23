@@ -72,8 +72,41 @@ Segment **non clos** tant que < 4 types sont renseignés dans `coverage-matrix.j
 | **V5a** | Schéma géo + tag rétrospectif 394 entrées | Fait |
 | **V5b** | Pilote L3 `compliance-to-spec` | Fait |
 | **V5c** | L2 `regtech`, `document-idp`, `ai-governance` | Fait |
-| V5d | Équivalents internationaux segments `france-*` | À faire |
-| V5e | Long tail + revue trimestrielle | Continu |
+| **V5d** | Équivalents internationaux `france-*` (+41) | Fait |
+| **V5e** | Coverage L2 rétrospectif + liaison 28 idées | Fait |
+| **V5f** | L3 agents/voix, parsing inbox, GRC (+32) | Fait |
+| **V5g** | 2e L3 parsing + compliance-to-spec, idée RecordAI | Fait |
+| **V5h** | 3e L3 dossier validé (parsing + compliance) | Fait |
+| **V5i** | L3 document-idp human-in-the-loop | Fait |
+| **V5j** | automation-platforms orchestration RecordAI | Fait |
+| **V5k** | Territoire idées 0025–0028 (7 segments FR) | Fait |
+| **V5l** | Sécurité + KYC + infra IA (L1→L2) | Fait |
+| **V5m** | Verticaux + compliance fins (L1→L2) | Fait |
+| **V5n** | Workplace / data / sales (L1→L2) | Fait |
+| **V5p** | L3 regtech + KYC + IDP | Fait |
+| **V5q** | L3 chaîne RecordAI (parsing, compliance, automation) | Fait |
+| **V5r** | L3 France open data thématique (7 segments) | Fait |
+| **V5s** | L3 stack IA (governance, agents, voix, RAG, dev) | Fait |
+| **V5t-a** | L3 sécurité (6 segments) | Fait |
+| **V5t-b** | L3 verticaux + compliance (18 segments) | Fait |
+| **V5t-c** | L3 workplace / sales / data (20 segments) | Fait |
+| **V5u** | Complétion finale 4 segments (<18) | Fait |
+| Maintenance | Long tail L3, surveillance saturation | Continu |
+
+### Surveillance saturation (maintenance)
+
+Avant toute nouvelle vague de moisson :
+
+```bash
+python3 scripts/catalogue_saas.py saturation watch   # taux par passe réelle, flags [SATURÉ]/[PROCHE]
+python3 scripts/catalogue_saas.py saturation freeze  # met à jour frozen-segments.json (< 5 %)
+python3 scripts/catalogue_saas.py saturation         # rapport historique complet
+```
+
+- **Seuil gel** : < **5 %** nouveaux / candidats sur la **dernière passe réelle** (hors `v5e-retrospective`, `v5o-coverage`).
+- **Alerte** : **5–8 %** → segment `[PROCHE]` ; éviter une remoisson généraliste au cycle suivant.
+- **Registre gel** : `catalogue-saas/frozen-segments.json` — segments à ne pas remoissonner sans revue trimestrielle.
+- **Journal** : `catalogue-saas/passes/2026-06-saturation-watch.md`.
 
 ---
 
@@ -86,11 +119,17 @@ python3 scripts/tag_catalogue_geography_v5a.py
 # Pilote L3 compliance-to-spec
 python3 scripts/enrich_compliance_to_spec_v5b.py
 
+# Liaison fiches idées
+python3 scripts/sync_idees_catalogue.py
+
 # Rapports
 python3 scripts/catalogue_saas.py coverage
 python3 scripts/catalogue_saas.py gaps
 python3 scripts/catalogue_saas.py gaps --hq US --france-market absent
 python3 scripts/catalogue_saas.py gaps --segment compliance-to-spec
+python3 scripts/catalogue_saas.py saturation
+python3 scripts/catalogue_saas.py saturation watch
+python3 scripts/catalogue_saas.py saturation freeze
 python3 scripts/catalogue_saas.py validate
 ```
 
@@ -110,8 +149,12 @@ python3 scripts/catalogue_saas.py validate
 
 | Étape | Vendeurs uniques (ordre de grandeur) |
 |---|---|
-| Actuel (post-V5b) | ~410 |
-| L2 tous segments | 800–1 200 |
-| L3 + maintenance | 1 500–2 500 |
+| Post-V5g (juin 2026) | ~534 |
+| Post-V5k + idées | ~637 |
+| **Post-V5l–V5n (L2 complet)** | **~914** |
+| **Post-V5q–V5s (L3 ciblé)** | **~1 072** |
+| **Post-V5t (L3 complet, 68 segments)** | **~1 392** |
+| **Post-V5u (complétion finale)** | **~1 410** |
+| Long tail L3 + maintenance | 1 500–2 500 |
 
 La fiabilité prime sur la vitesse : **`unknown` est préférable à une guess non sourcée**.

@@ -120,6 +120,40 @@ Le besoin n'est pas vierge : l'écosystème public et associatif couvre déjà l
 
 ---
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0023-conformite-open-data-collectivites` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `open-data-governance-fr` — Gouvernance open data FR
+
+Fichier : [`catalogue-saas/vendors/open-data-governance-fr.json`](../../catalogue-saas/vendors/open-data-governance-fr.json) (18 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `opendatasoft` | Opendatasoft | FR | strong | partial |
+| `etalab-data-gouv` | Etalab / data.gouv.fr | FR | strong | partial |
+| `fairness` | Fairness | FR | strong | partial |
+| `toucan-toco` | Toucan Toco | FR | partial | partial |
+| `data-europa` | data.europa.eu | EU | partial | partial |
+| `socrata-tyler` | Socrata (Tyler Technologies) | US | absent | partial |
+| `ckan` | CKAN | GB | partial | partial |
+| `arcgis-hub` | ArcGIS Hub | US | partial | partial |
+| `data-gov-us` | Data.gov (US) | US | absent | partial |
+| `huwise` | Huwise (ex-Opendatasoft) | FR | strong | partial |
+| `validata` | Validata | FR | strong | partial |
+| `opendatafrance` | OpenDataFrance — Observatoire | FR | strong | partial |
+| … | _+6 autres_ | | | |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment open-data-governance-fr
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 
 | Angle seed | Existant qui le couvre déjà | Écart résiduel |

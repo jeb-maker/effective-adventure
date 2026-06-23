@@ -1,6 +1,6 @@
 {
   "segment": "finance-accounting-ai",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "vic-ai",
@@ -115,6 +115,413 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "floqast",
+      "name": "FloQast",
+      "url": "https://www.floqast.com/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Close management ; automatisation clôture comptable et contrôles.",
+      "capabilities": [
+        "close_management",
+        "reconciliation",
+        "controls"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.floqast.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "agicap",
+      "name": "Agicap",
+      "url": "https://agicap.com/",
+      "segments": [
+        "finance-accounting-ai",
+        "treasury-fpa"
+      ],
+      "description": "Trésorerie PME FR ; cashflow forecasting, scenarios et connexion bancaire/compta.",
+      "capabilities": [
+        "cashflow",
+        "forecasting",
+        "scenarios",
+        "bank_sync"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://agicap.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "qonto",
+      "name": "Qonto",
+      "url": "https://qonto.com/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Néobanque pro FR ; comptes, cartes, facturation et automatisation comptable PME.",
+      "capabilities": [
+        "business_banking",
+        "invoicing",
+        "accounting_automation",
+        "cards"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://qonto.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "indigo",
+      "name": "Indigo (ex-Georges)",
+      "url": "https://www.indigo.fr/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Compta auto-entrepreneurs/PME FR ; TVA, liasse fiscale et assistant IA fiscal.",
+      "capabilities": [
+        "accounting",
+        "vat",
+        "tax_filing",
+        "ai_assist"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.indigo.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sage",
+      "name": "Sage",
+      "url": "https://www.sage.com/fr-fr/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "ERP/compta PME FR ; facturation, immobilisations, paie adjacente et reporting fiscal.",
+      "capabilities": [
+        "accounting",
+        "erp",
+        "invoicing",
+        "tax_reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "GB",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.sage.com/fr-fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "indy",
+      "name": "Indy",
+      "url": "https://www.indy.fr/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Comptabilité online FR ; OCR factures, TVA, liasse et télétransmission expert-comptable.",
+      "capabilities": [
+        "ocr_invoices",
+        "vat",
+        "tax_filing",
+        "accountant_portal"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.indy.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fulll",
+      "name": "Fulll",
+      "url": "https://www.fulll.io/",
+      "segments": [
+        "finance-accounting-ai",
+        "payroll-hris"
+      ],
+      "description": "Suite cabinets/experts-comptables FR ; production comptable, paie Silae et portail clients.",
+      "capabilities": [
+        "accounting_production",
+        "payroll",
+        "client_portal",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.fulll.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "expensya",
+      "name": "Expensya",
+      "url": "https://www.expensya.com/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Notes de frais IA FR ; OCR reçus, validation workflows et export comptable/paie.",
+      "capabilities": [
+        "expense_management",
+        "ocr",
+        "approval_workflows",
+        "accounting_export"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.expensya.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sellsy",
+      "name": "Sellsy",
+      "url": "https://www.sellsy.com/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "CRM/compta PME FR ; facturation, trésorerie, CRM et automatisation cycle vente-compta.",
+      "capabilities": [
+        "crm",
+        "invoicing",
+        "cashflow",
+        "sales_automation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.sellsy.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tiime",
+      "name": "Tiime",
+      "url": "https://www.tiime.fr/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Comptabilité PME FR ; saisie assistée IA, TVA, liasse fiscale et collaboration expert-comptable.",
+      "capabilities": [
+        "accounting",
+        "ai_assisted_entry",
+        "vat",
+        "tax_filing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.tiime.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dougs",
+      "name": "Dougs",
+      "url": "https://www.dougs.fr/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Expert-comptable online FR ; compta TPE, conseil fiscal et automatisation obligations légales.",
+      "capabilities": [
+        "online_accountant",
+        "sme_accounting",
+        "tax_advice",
+        "compliance_automation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.dougs.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sevdesk",
+      "name": "sevDesk",
+      "url": "https://sevdesk.com/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Compta cloud PME EU ; facturation, banque, TVA et automatisation comptable allemande/EU.",
+      "capabilities": [
+        "cloud_accounting",
+        "invoicing",
+        "vat",
+        "banking"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://sevdesk.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "freebe",
+      "name": "Freebe",
+      "url": "https://www.freebe.me/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Compta freelances FR ; facturation, URSSAF, TVA et prévisionnel activité indépendants.",
+      "capabilities": [
+        "freelance_accounting",
+        "invoicing",
+        "urssaf",
+        "vat"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.freebe.me/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "datev",
+      "name": "DATEV",
+      "url": "https://www.datev.de/",
+      "segments": [
+        "finance-accounting-ai"
+      ],
+      "description": "Suite comptable/fiscale EU ; production comptable cabinets, paie adjacente et conformité fiscale DE/EU.",
+      "capabilities": [
+        "accounting_suite",
+        "tax_compliance",
+        "accountant_tools",
+        "payroll_adjacent"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.datev.de/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

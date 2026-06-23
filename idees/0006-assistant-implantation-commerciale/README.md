@@ -124,6 +124,80 @@ un produit horizontal « pour tous les indépendants ».
 | **spopt** (modèle Huff, R) | https://walker-data.com/spopt-r/reference/huff.html | Part de marché / potentiel par gravité | Bibliothèque, pas produit FR clé en main |
 | **france-data-mcp** | https://github.com/cturkieh/france-data-mcp | Croisement SIRENE + référentiels (santé surtout) | MCP technique, pas interface implantation commerce |
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0006-assistant-implantation-commerciale` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `territorial-analytics` — Analytics territoriales
+
+Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-saas/vendors/territorial-analytics.json) (18 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `datagouv` | data.gouv.fr | FR | strong | verified |
+| `georisques` | Géorisques | FR | strong | verified |
+| `ofgl` | OFGL Observatoire | FR | strong | verified |
+| `cartes-gouv` | Géoportail / cartes.gouv.fr | FR | strong | verified |
+| `data-gov-uk` | data.gov.uk | GB | absent | partial |
+| `ons-uk` | Office for National Statistics (UK) | GB | absent | partial |
+| `eurostat-regional` | Eurostat — Regional Statistics | EU | partial | partial |
+| `carto-territorial` | CARTO | ES | partial | partial |
+| `smappen` | Smappen | FR | strong | partial |
+| `geomarket` | Geomarket | FR | strong | partial |
+| `data-b` | Data-B | FR | strong | partial |
+| `vigicite` | VigiCité | FR | strong | partial |
+| … | _+6 autres_ | | | |
+
+#### Segment `data-enrichment-b2b` — Enrichissement données B2B
+
+Fichier : [`catalogue-saas/vendors/data-enrichment-b2b.json`](../../catalogue-saas/vendors/data-enrichment-b2b.json) (19 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `apollo-io` | Apollo.io | unknown | unknown | partial |
+| `clearbit` | Clearbit (HubSpot) | US | partial | partial |
+| `pappers` | Pappers | FR | strong | partial |
+| `zoominfo` | ZoomInfo | US | partial | partial |
+| `lusha` | Lusha | IL | partial | partial |
+| `6sense` | 6sense | US | partial | partial |
+| `demandbase` | Demandbase | US | partial | partial |
+| `cognism` | Cognism | GB | partial | partial |
+| `rocketreach` | RocketReach | US | partial | partial |
+| `leadfeeder` | Leadfeeder (Dealfront) | FI | partial | partial |
+| `dealfront` | Dealfront | FI | partial | partial |
+| `kaspr` | Kaspr | FR | strong | partial |
+| … | _+7 autres_ | | | |
+
+#### Segment `retail-ecommerce-ai` — Retail & e-commerce IA
+
+Fichier : [`catalogue-saas/vendors/retail-ecommerce-ai.json`](../../catalogue-saas/vendors/retail-ecommerce-ai.json) (19 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `shopify` | Shopify | unknown | unknown | partial |
+| `dynamic-yield` | Dynamic Yield (Mastercard) | US | partial | partial |
+| `bloomreach` | Bloomreach | US | partial | partial |
+| `nosto` | Nosto | US | partial | partial |
+| `klevu` | Klevu | US | partial | partial |
+| `mirakl` | Mirakl | FR | strong | partial |
+| `contentsquare` | Contentsquare | FR | strong | partial |
+| `ab-tasty` | AB Tasty | FR | strong | partial |
+| `lengow` | Lengow | FR | strong | partial |
+| `ankorstore` | Ankorstore | FR | strong | partial |
+| `prestashop` | PrestaShop | FR | strong | partial |
+| `iadvize` | iAdvize | FR | strong | partial |
+| … | _+7 autres_ | | | |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment territorial-analytics
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 
 Le pitch initial — « concurrence + pouvoir d'achat + flux, expliqué aux

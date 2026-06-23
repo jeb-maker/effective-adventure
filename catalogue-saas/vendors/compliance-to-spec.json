@@ -1,6 +1,6 @@
 {
   "segment": "compliance-to-spec",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "compliance-to-architecture",
@@ -185,7 +185,9 @@
       "name": "Snyk",
       "url": "https://snyk.io/",
       "segments": [
-        "compliance-to-spec"
+        "compliance-to-spec",
+        "cloud-security-cspm",
+        "vulnerability-management"
       ],
       "description": "Sécurité dev avec policies-as-code dans le pipeline ; encode exigences dans le flux de livraison logicielle.",
       "capabilities": [
@@ -273,7 +275,8 @@
       "url": "https://www.anecdotes.ai/",
       "segments": [
         "compliance-to-spec",
-        "grc-security"
+        "grc-security",
+        "data-observability"
       ],
       "description": "GRC automation : connecte outils existants, mappe frameworks vers contrôles opérationnels et specs d'evidence.",
       "capabilities": [
@@ -622,6 +625,749 @@
       "discovery_pass": "2026-06-v5b-compliance-to-spec",
       "source_url": "https://www.kintent.com/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "trustarc",
+      "name": "TrustArc",
+      "url": "https://trustarc.com/",
+      "segments": [
+        "compliance-to-spec",
+        "privacy-consent"
+      ],
+      "description": "Privacy compliance platform ; assessments, policies et mapping exigences → contrôles.",
+      "capabilities": [
+        "privacy_assessments",
+        "policy_management",
+        "control_mapping"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://trustarc.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "processunity",
+      "name": "ProcessUnity",
+      "url": "https://www.processunity.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "GRC third-party risk ; workflows conformité et evidence pour tiers critiques.",
+      "capabilities": [
+        "tprm",
+        "grc_workflows",
+        "evidence",
+        "vendor_risk"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.processunity.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ostendio",
+      "name": "Ostendio",
+      "url": "https://www.ostendio.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "MyVCM platform ; policies, contrôles et preuves pour SOC2/HIPAA/ISO.",
+      "capabilities": [
+        "policies",
+        "controls",
+        "evidence",
+        "soc2"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.ostendio.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fairnow",
+      "name": "FairNow",
+      "url": "https://www.fairnow.ai/",
+      "segments": [
+        "compliance-to-spec",
+        "ai-governance"
+      ],
+      "description": "AI governance ; inventaire systèmes IA, risques et conformité EU AI Act encodée.",
+      "capabilities": [
+        "ai_inventory",
+        "risk_controls",
+        "eu_ai_act"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.fairnow.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "regulativ-ai",
+      "name": "Regulativ.ai",
+      "url": "https://www.regulativ.ai/",
+      "segments": [
+        "compliance-to-spec",
+        "regtech"
+      ],
+      "description": "Regulatory change → exigences actionnables ; mapping vers contrôles et specs produit.",
+      "capabilities": [
+        "regulatory_change",
+        "actionable_requirements",
+        "control_mapping"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.regulativ.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "camunda",
+      "name": "Camunda",
+      "url": "https://camunda.com/",
+      "segments": [
+        "compliance-to-spec",
+        "automation-platforms"
+      ],
+      "description": "Orchestration processus ; encode workflows conformité et human-in-the-loop auditables.",
+      "capabilities": [
+        "bpmn",
+        "workflow",
+        "audit_trail",
+        "orchestration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://camunda.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "conformiq",
+      "name": "Conformiq",
+      "url": "https://www.conformiq.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Model-based testing ; génération cas de test depuis exigences réglementaires formelles.",
+      "capabilities": [
+        "model_based_testing",
+        "requirements_to_tests",
+        "formal_specs"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.conformiq.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "compliance-cow",
+      "name": "ComplianceCow",
+      "url": "https://www.compliancecow.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "Compliance-as-code marketplace ; packs contrôles et evidence réutilisables.",
+      "capabilities": [
+        "compliance_as_code",
+        "control_packs",
+        "marketplace",
+        "evidence"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "source_url": "https://www.compliancecow.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dilitrust",
+      "name": "DiliTrust",
+      "url": "https://www.dilitrust.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "Suite gouvernance FR ; policies, contrôles et preuves pour conformité réglementaire encodée.",
+      "capabilities": [
+        "policy_management",
+        "controls",
+        "evidence",
+        "board_governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.dilitrust.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "yooz",
+      "name": "Yooz",
+      "url": "https://www.getyooz.com/",
+      "segments": [
+        "compliance-to-spec",
+        "document-idp",
+        "regulatory-reporting-eu"
+      ],
+      "description": "AP automation FR ; capture factures, contrôles conformité et workflow validation avant ERP.",
+      "capabilities": [
+        "ap_automation",
+        "invoice_controls",
+        "compliance_checks",
+        "erp_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.getyooz.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "libeo",
+      "name": "Libeo",
+      "url": "https://libeo.io/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Paiements fournisseurs B2B FR ; validation dossier facture et conformité avant règlement.",
+      "capabilities": [
+        "supplier_payments",
+        "invoice_validation",
+        "compliance",
+        "b2b"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://libeo.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "whistic",
+      "name": "Whistic",
+      "url": "https://www.whistic.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "Vendor security assessments ; questionnaires, preuves et mapping exigences → contrôles tiers.",
+      "capabilities": [
+        "vendor_assessments",
+        "questionnaires",
+        "evidence",
+        "control_mapping"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.whistic.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "formalize",
+      "name": "Formalize",
+      "url": "https://formalize.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Automatisation ISO/SOC2 ; exigences réglementaires traduites en tâches, preuves et specs internes.",
+      "capabilities": [
+        "iso_compliance",
+        "requirement_tasks",
+        "evidence",
+        "policy_templates"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "DK",
+      "france_market": "partial",
+      "operating_regions": [
+        "DK",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://formalize.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "conformio",
+      "name": "Conformio",
+      "url": "https://conformio.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Conformité produits EU ; exigences CE/RoHS/REACH encodées en checklists et specs techniques.",
+      "capabilities": [
+        "product_compliance",
+        "ce_marking",
+        "requirement_checklists",
+        "technical_files"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://conformio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "laika",
+      "name": "Laika",
+      "url": "https://www.heylaika.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "Compliance automation ; inventaire contrôles, policies et preuves mappées aux cadres (SOC2, ISO).",
+      "capabilities": [
+        "control_inventory",
+        "policy_automation",
+        "evidence",
+        "framework_mapping"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.heylaika.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "inscribe",
+      "name": "Inscribe",
+      "url": "https://www.inscribe.ai/",
+      "segments": [
+        "compliance-to-spec",
+        "document-idp"
+      ],
+      "description": "Vérification documents + extraction ; détection fraude et validation dossier KYC/onboarding.",
+      "capabilities": [
+        "document_fraud",
+        "kyc_validation",
+        "field_extraction",
+        "audit_trail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.inscribe.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "certivity",
+      "name": "Certivity",
+      "url": "https://www.certivity.io/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Conformité produits EU ; exigences réglementaires traduites en specs techniques et dossiers CE.",
+      "capabilities": [
+        "regulatory_to_spec",
+        "ce_dossier",
+        "requirement_mapping",
+        "product_compliance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "SE",
+      "france_market": "partial",
+      "operating_regions": [
+        "SE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.certivity.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "qualio",
+      "name": "Qualio",
+      "url": "https://www.qualio.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "eQMS life sciences ; exigences ISO/FDA encodées en workflows, preuves et specs qualité validées.",
+      "capabilities": [
+        "eqms",
+        "requirement_workflows",
+        "evidence",
+        "validated_specs"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IE",
+      "france_market": "partial",
+      "operating_regions": [
+        "IE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.qualio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "compliancequest",
+      "name": "ComplianceQuest",
+      "url": "https://www.compliancequest.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Quality/compliance Salesforce ; exigences→contrôles, CAPA et dossiers audit trail sur plateforme unifiée.",
+      "capabilities": [
+        "quality_management",
+        "requirement_controls",
+        "capa",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.compliancequest.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zengrc",
+      "name": "ZenGRC (Archer)",
+      "url": "https://www.zengrc.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "GRC cloud ; mapping cadres réglementaires vers contrôles, tâches et preuves dossier conformité.",
+      "capabilities": [
+        "framework_mapping",
+        "control_tasks",
+        "evidence",
+        "compliance_dossier"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.zengrc.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "standard-fusion",
+      "name": "StandardFusion",
+      "url": "https://www.standardfusion.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "GRC mid-market ; exigences SOC2/ISO traduites en politiques, contrôles et specs opérationnelles.",
+      "capabilities": [
+        "policy_controls",
+        "framework_mapping",
+        "operational_specs",
+        "evidence"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.standardfusion.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "certa",
+      "name": "Certa",
+      "url": "https://www.getcerta.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Workflow compliance no-code ; questionnaires tiers, validation dossier et règles métier auditables.",
+      "capabilities": [
+        "third_party_workflows",
+        "questionnaires",
+        "case_validation",
+        "audit_rules"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.getcerta.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "complion",
+      "name": "Complion",
+      "url": "https://www.complion.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Conformité essais cliniques ; exigences protocole→checklists, dossiers site et piste audit FDA.",
+      "capabilities": [
+        "clinical_compliance",
+        "protocol_checklists",
+        "site_dossiers",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.complion.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ideagen",
+      "name": "Ideagen",
+      "url": "https://www.ideagen.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "Suite GRC globale ; obligations réglementaires, cas conformité et preuves centralisées multi-cadres.",
+      "capabilities": [
+        "grc_suite",
+        "regulatory_obligations",
+        "case_management",
+        "evidence"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US",
+        "AU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.ideagen.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "origami-risk",
+      "name": "Origami Risk",
+      "url": "https://www.origamirisk.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "GRC + assurance ; exigences réglementaires, workflows cas incidents et dossiers preuves traçables.",
+      "capabilities": [
+        "risk_grc",
+        "incident_cases",
+        "regulatory_requirements",
+        "evidence_dossier"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "source_url": "https://www.origamirisk.com/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]

@@ -1,0 +1,78 @@
+# Surveillance saturation — juin 2026
+
+| Champ | Valeur |
+|---|---|
+| Date | 2026-06-23 |
+| Seuil gel | **< 5 %** nouveaux / candidats (passe réelle) |
+| Seuil alerte | **5–8 %** (`[PROCHE]`) |
+| Passes exclues | `v5e-retrospective`, `v5o-coverage` (backfill matrice, pas moisson) |
+
+## Commandes
+
+```bash
+python3 scripts/catalogue_saas.py saturation watch
+python3 scripts/catalogue_saas.py saturation freeze
+python3 scripts/catalogue_saas.py saturation          # rapport historique par passe
+```
+
+## État actuel (post V5t-c)
+
+| Indicateur | Valeur |
+|---|---|
+| Segments avec passe réelle mesurable | **67 / 68** |
+| Segments gelés (`frozen-segments.json`) | **0** |
+| Segments `[SATURÉ]` (< 5 %) | **0** |
+| Segments `[PROCHE]` (5–8 %) | **1** (`data-observability`, V5t) |
+| Vendeurs catalogue | **1261** |
+| Taux minimum observé | **7,4 %** (`data-observability`, V5t) |
+
+Aucun segment ne remplit encore le critère de gel L2/L3. La passe V5o (backfill coverage) est **exclue** du calcul : les taux affichés reflètent la **dernière passe de moisson réelle** (V5l–V5t, V5q chaîne RecordAI, etc.).
+
+### V5t-c — workplace / sales / data / infra (2026-06-v5t-workplace-l3)
+
+| Segment | Nouveaux / candidats | Taux |
+|---|---:|---:|
+| `data-observability` | +5 / 68 | **7,4 %** `[PROCHE]` |
+| `llm-api-providers`, `model-inference-hosting`, … (14 segments) | +7 / 86 | **8,1 %** |
+| `helpdesk-platforms` | +7 / 77 | **9,1 %** |
+| `agent-frameworks-platforms`, `crm-platforms`, `customer-success`, `data-enrichment-b2b` | +10 / 95 | **10,5 %** |
+
+20 segments passés L2→L3 ; aucun gel imminent. `data-observability` à surveiller en maintenance (proche du seuil 5 %).
+
+### V5q — chaîne RecordAI (2026-06-v5q-recordai-chain-l3)
+
+| Segment | Nouveaux / candidats | Taux |
+|---|---:|---:|
+| `compliance-to-spec` | +8 / 58 | **13,8 %** |
+| `parsing-inbox` | +9 / 52 | **17,3 %** |
+| `automation-platforms` | +10 / 56 | **17,9 %** |
+
+Tous > seuil gel ; chaîne RecordAI (email → dossier validé → orchestration) reste enrichissable en L3 niche.
+
+## Top 5 à risque (taux le plus bas — gel si prochaine passe < 5 %)
+
+| Rang | Segment | Dernière passe réelle | Taux | Écart au seuil 5 % |
+|---:|---|---|---:|---:|
+| 1 | `data-observability` | V5t | 7,4 % | +2,4 pts |
+| 2 | `support-sales-agents` | V5s | 8,2 % | +3,2 pts |
+| 3 | `llm-api-providers` | V5t | 8,1 % | +3,1 pts |
+| 4 | `ai-copilot-dev` | V5s | 8,9 % | +3,9 pts |
+| 5 | `ai-governance` | V5s | 9,6 % | +4,6 pts |
+
+Ces segments restent **éloignés** du seuil de gel mais seront les **premiers candidats** si une passe de maintenance ajoute peu de nouveaux acteurs.
+
+## Segments à éviter en remoisson (prochaine passe)
+
+Priorité basse pour une **nouvelle vague L2** — préférer le long tail L3 ou des segments sans passe réelle récente :
+
+1. **`support-sales-agents`**, **`grc-security`**, **`voice-speech-ai`** — V5f L3 déjà dense ; remoissonner sans angle niche (OSS, geo FR) produirait probablement < 5 %.
+2. **`regtech`**, **`ai-governance`**, **`document-idp`** — V5c/V5i L2 multi-sources ; viser L3 ciblé plutôt qu'une 2e passe généraliste.
+3. **Segments V5l–V5n** passés de L1→L2 (cyber, workplace, verticaux) — matrice complète post-V5o ; une remoisson immédiate dupliquerait le backfill coverage.
+4. **Segments France idées (V5k)** — taux 22–58 % sur petits échantillons ; continuer le ciblage geo_digest / open data plutôt qu'une passe G2/Capterra générique.
+
+## Recommandations maintenance
+
+- **Relancer la surveillance** avant toute vague V6 : `saturation watch` puis `saturation freeze`.
+- **Geler automatiquement** tout segment dont la prochaine passe réelle tombe < 5 % ; ne pas écraser le gel sans revue trimestrielle.
+- **Prioriser** les segments sans entrée dans `coverage-matrix.json` pour une passe réelle, ou ceux encore en montée L3 hors gel imminent (ex. `compliance-to-spec` V5q ~14 %, `parsing-inbox` V5q ~17 %).
+- **Ne pas remoissonner** les 46 segments dont `last_pass` = `v5o-coverage-l2` tant que leur passe d'enrichissement (V5l/V5m/V5n) reste > 5 %.

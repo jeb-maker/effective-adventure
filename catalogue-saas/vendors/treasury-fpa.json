@@ -1,6 +1,6 @@
 {
   "segment": "treasury-fpa",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "anaplan",
@@ -35,7 +35,8 @@
       "name": "Pigment",
       "url": "https://www.pigment.com/",
       "segments": [
-        "treasury-fpa"
+        "treasury-fpa",
+        "bi-analytics-platforms"
       ],
       "description": "FP&A moderne ; modélisation collaborative et intégrations données.",
       "capabilities": [
@@ -141,6 +142,383 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "kyriba",
+      "name": "Kyriba",
+      "url": "https://www.kyriba.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "TMS cloud ; trésorerie, cash forecasting, FX/risk et connectivité bancaire multi-pays.",
+      "capabilities": [
+        "tms",
+        "cash_forecasting",
+        "fx_risk",
+        "bank_connectivity"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.kyriba.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gtreasury",
+      "name": "GTreasury",
+      "url": "https://www.gtreasury.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Treasury management ; cash, debt, in-house banking et reporting trésorerie.",
+      "capabilities": [
+        "treasury",
+        "cash_management",
+        "in_house_banking",
+        "reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.gtreasury.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cashforce",
+      "name": "Cashforce",
+      "url": "https://www.cashforce.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Cash forecasting EU ; ML prévisions flux, rapprochement et dashboards trésorerie.",
+      "capabilities": [
+        "cash_forecasting",
+        "ml",
+        "reconciliation",
+        "dashboards"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "BE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.cashforce.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "trovata",
+      "name": "Trovata",
+      "url": "https://trovata.io/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Cash management API ; agrégation comptes bancaires, tags flux et analytics trésorerie.",
+      "capabilities": [
+        "bank_aggregation",
+        "cash_tags",
+        "api",
+        "analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://trovata.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "highradius",
+      "name": "HighRadius",
+      "url": "https://www.highradius.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Autonomous finance ; O2C, trésorerie, cash application IA et collections.",
+      "capabilities": [
+        "order_to_cash",
+        "treasury",
+        "cash_application",
+        "collections"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.highradius.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "blackline",
+      "name": "BlackLine",
+      "url": "https://www.blackline.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Financial close & accounting ; réconciliations, contrôles et reporting consolidé.",
+      "capabilities": [
+        "reconciliation",
+        "financial_close",
+        "controls",
+        "consolidation"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.blackline.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "planful",
+      "name": "Planful",
+      "url": "https://planful.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "FP&A cloud ; budgeting, forecasting rolling et reporting financier consolidé mid-market/enterprise.",
+      "capabilities": [
+        "fp_and_a",
+        "budgeting",
+        "rolling_forecast",
+        "consolidated_reporting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://planful.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "onestream",
+      "name": "OneStream",
+      "url": "https://www.onestream.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "CPE platform ; consolidation, reporting et analytics financiers unifiés enterprise.",
+      "capabilities": [
+        "cpe",
+        "consolidation",
+        "financial_reporting",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.onestream.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "jedox",
+      "name": "Jedox",
+      "url": "https://www.jedox.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "FP&A EU ; planning intégré Excel-like, scenarios et reporting EPM mid-market.",
+      "capabilities": [
+        "fp_and_a",
+        "integrated_planning",
+        "scenarios",
+        "epm"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.jedox.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "board-intl",
+      "name": "Board",
+      "url": "https://www.board.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Intelligent planning EU ; FP&A, supply chain planning et analytics décisionnels unifiés.",
+      "capabilities": [
+        "intelligent_planning",
+        "fp_and_a",
+        "supply_chain_planning",
+        "decision_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "CH",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.board.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fintecture",
+      "name": "Fintecture",
+      "url": "https://www.fintecture.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Open banking paiements FR ; virements instantanés, réconciliation et cash management PME.",
+      "capabilities": [
+        "open_banking",
+        "instant_payments",
+        "reconciliation",
+        "cash_management"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.fintecture.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "float-cash",
+      "name": "Float",
+      "url": "https://www.float.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Cash management PME ; prévisions trésorerie, scenarios et intégration comptabilité bancaire.",
+      "capabilities": [
+        "cash_management",
+        "cash_forecasting",
+        "scenarios",
+        "banking_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "CA",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.float.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cashanalytics",
+      "name": "CashAnalytics",
+      "url": "https://www.cashanalytics.com/",
+      "segments": [
+        "treasury-fpa"
+      ],
+      "description": "Cash forecasting EU ; ML prévisions flux, rapprochement bancaire et dashboards trésorerie.",
+      "capabilities": [
+        "cash_forecasting",
+        "ml",
+        "bank_reconciliation",
+        "treasury_dashboards"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "IE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.cashanalytics.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

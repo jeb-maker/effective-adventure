@@ -1,6 +1,6 @@
 {
   "segment": "retail-ecommerce-ai",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "shopify",
@@ -141,6 +141,412 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "mirakl",
+      "name": "Mirakl",
+      "url": "https://www.mirakl.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Marketplace platform FR ; catalogues sellers, pricing IA et orchestration commandes omnicanal.",
+      "capabilities": [
+        "marketplace",
+        "seller_management",
+        "ai_pricing",
+        "omnichannel"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.mirakl.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "contentsquare",
+      "name": "Contentsquare",
+      "url": "https://contentsquare.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Analytics expérience digitale FR ; heatmaps, journey AI et optimisation conversion e-commerce.",
+      "capabilities": [
+        "digital_analytics",
+        "journey_ai",
+        "conversion",
+        "heatmaps"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://contentsquare.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ab-tasty",
+      "name": "AB Tasty",
+      "url": "https://www.abtasty.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Experimentation et personalization FR ; A/B testing, recommandations IA et feature flags.",
+      "capabilities": [
+        "ab_testing",
+        "personalization",
+        "feature_flags",
+        "recommendations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.abtasty.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lengow",
+      "name": "Lengow",
+      "url": "https://www.lengow.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Feed management e-commerce FR ; diffusion marketplaces, pricing et analytics multicanal.",
+      "capabilities": [
+        "feed_management",
+        "marketplaces",
+        "multichannel",
+        "pricing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.lengow.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ankorstore",
+      "name": "Ankorstore",
+      "url": "https://www.ankorstore.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Marketplace B2B retail FR ; découverte marques, commandes grossistes et IA assortiment.",
+      "capabilities": [
+        "b2b_marketplace",
+        "wholesale",
+        "brand_discovery",
+        "assortment_ai"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.ankorstore.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "prestashop",
+      "name": "PrestaShop",
+      "url": "https://www.prestashop.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Plateforme e-commerce open source FR ; storefront, modules IA et écosystème agences.",
+      "capabilities": [
+        "ecommerce_platform",
+        "open_source",
+        "modules",
+        "storefront"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.prestashop.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "iadvize",
+      "name": "iAdvize",
+      "url": "https://www.iadvize.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Conversational commerce FR ; chatbot IA, copilot agents et personnalisation parcours e-commerce.",
+      "capabilities": [
+        "conversational_commerce",
+        "ai_chatbot",
+        "agent_copilot",
+        "personalization"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.iadvize.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "shoppingfeed",
+      "name": "Shoppingfeed",
+      "url": "https://www.shoppingfeed.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Feed management IA FR ; diffusion marketplaces, optimisation titres/prix et analytics multicanal.",
+      "capabilities": [
+        "feed_management",
+        "marketplaces",
+        "ai_optimization",
+        "multichannel"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.shoppingfeed.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "wishibam",
+      "name": "Wishibam",
+      "url": "https://www.wishibam.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Phygital retail FR ; showroom digital, prise RDV magasin et parcours omnicanal marques.",
+      "capabilities": [
+        "phygital",
+        "digital_showroom",
+        "store_appointments",
+        "omnichannel"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.wishibam.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "octopia",
+      "name": "Octopia (Cdiscount)",
+      "url": "https://www.octopia.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Marketplace tech FR ; onboarding sellers, catalogues, fulfillment et analytics marketplace.",
+      "capabilities": [
+        "marketplace_tech",
+        "seller_onboarding",
+        "fulfillment",
+        "marketplace_analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.octopia.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ravelin",
+      "name": "Ravelin",
+      "url": "https://www.ravelin.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Fraude e-commerce ML ; scoring transactions, chargebacks et analytics risque paiement retail.",
+      "capabilities": [
+        "fraud_detection",
+        "ml_scoring",
+        "chargebacks",
+        "payment_risk"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.ravelin.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "akeneo",
+      "name": "Akeneo",
+      "url": "https://www.akeneo.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "PIM open source FR ; gestion catalogues produits, enrichissement IA et syndication multicanal.",
+      "capabilities": [
+        "pim",
+        "product_catalog",
+        "ai_enrichment",
+        "syndication"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.akeneo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "wizville",
+      "name": "Wizville",
+      "url": "https://www.wizville.com/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Voice of customer FR ; avis clients, NPS et analytics satisfaction omnicanal retail.",
+      "capabilities": [
+        "customer_reviews",
+        "nps",
+        "voice_of_customer",
+        "retail_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.wizville.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "syte",
+      "name": "Syte",
+      "url": "https://www.syte.ai/",
+      "segments": [
+        "retail-ecommerce-ai"
+      ],
+      "description": "Visual AI discovery ; recherche visuelle, recommandations produits et tagging automatique catalogues.",
+      "capabilities": [
+        "visual_search",
+        "product_recommendations",
+        "auto_tagging",
+        "discovery"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.syte.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

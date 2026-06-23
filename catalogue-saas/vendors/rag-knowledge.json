@@ -1,6 +1,6 @@
 {
   "segment": "rag-knowledge",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "glean",
@@ -35,7 +35,8 @@
       "name": "Dust",
       "url": "https://dust.tt/",
       "segments": [
-        "rag-knowledge"
+        "rag-knowledge",
+        "agent-frameworks-platforms"
       ],
       "description": "Assistants IA sur données d'équipe avec connecteurs et agents.",
       "capabilities": [
@@ -113,6 +114,448 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "vespa",
+      "name": "Vespa.ai",
+      "url": "https://vespa.ai/",
+      "segments": [
+        "rag-knowledge",
+        "vector-databases"
+      ],
+      "description": "Moteur recherche + RAG enterprise ; ranking hybride et serving à grande échelle.",
+      "capabilities": [
+        "hybrid_search",
+        "rag",
+        "vector_search",
+        "enterprise"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5e-retrospective",
+      "source_url": "https://vespa.ai/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "onyx-enterprise",
+      "name": "Onyx (Danswer)",
+      "url": "https://www.onyx.app/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Enterprise search open source ; RAG interne, connecteurs docs et chat grounded.",
+      "capabilities": [
+        "enterprise_search",
+        "rag",
+        "connectors",
+        "open_source"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.onyx.app/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kapa-ai",
+      "name": "kapa.ai",
+      "url": "https://www.kapa.ai/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Support docs RAG ; chatbot grounded sur docs produit, analytics gaps et API.",
+      "capabilities": [
+        "docs_rag",
+        "product_chatbot",
+        "gap_analytics",
+        "api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.kapa.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ragie",
+      "name": "Ragie",
+      "url": "https://www.ragie.ai/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "RAG-as-a-service ; ingestion multimédia, chunking et API retrieval enterprise.",
+      "capabilities": [
+        "rag_api",
+        "multimedia_ingestion",
+        "chunking",
+        "retrieval"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.ragie.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "guru",
+      "name": "Guru",
+      "url": "https://www.getguru.com/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Knowledge management ; wiki entreprise, vérification contenu et suggestions contextuelles.",
+      "capabilities": [
+        "knowledge_base",
+        "verification",
+        "contextual_suggestions",
+        "wiki"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.getguru.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "bloomfire",
+      "name": "Bloomfire",
+      "url": "https://bloomfire.com/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Knowledge engagement ; recherche IA, Q&A communautaire et analytics usage contenu.",
+      "capabilities": [
+        "ai_search",
+        "community_qa",
+        "content_analytics",
+        "engagement"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://bloomfire.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "elastic-enterprise-search",
+      "name": "Elastic Enterprise Search",
+      "url": "https://www.elastic.co/enterprise-search",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Recherche enterprise Elastic ; connecteurs, relevance tuning et RAG via vector search.",
+      "capabilities": [
+        "enterprise_search",
+        "vector_search",
+        "connectors",
+        "relevance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "NL",
+      "france_market": "partial",
+      "operating_regions": [
+        "NL",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.elastic.co/enterprise-search",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "deepset",
+      "name": "deepset",
+      "url": "https://www.deepset.ai/",
+      "segments": [
+        "rag-knowledge",
+        "agent-frameworks-platforms"
+      ],
+      "description": "Haystack enterprise ; pipelines RAG, retrieval hybride et déploiement on-prem/cloud EU.",
+      "capabilities": [
+        "rag_pipelines",
+        "hybrid_retrieval",
+        "haystack",
+        "on_prem"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.deepset.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hebbia",
+      "name": "Hebbia",
+      "url": "https://www.hebbia.com/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Recherche documentaire IA ; analyse corpus enterprise, Q&A grounded et workflows analystes.",
+      "capabilities": [
+        "document_search",
+        "grounded_qa",
+        "analyst_workflows",
+        "enterprise"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.hebbia.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sana-labs",
+      "name": "Sana",
+      "url": "https://www.sana.ai/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Knowledge OS enterprise ; recherche IA interne, formation adaptive et agents sur docs entreprise.",
+      "capabilities": [
+        "enterprise_search",
+        "adaptive_learning",
+        "agents",
+        "knowledge_os"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "SE",
+      "france_market": "partial",
+      "operating_regions": [
+        "SE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.sana.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "perplexity-enterprise",
+      "name": "Perplexity Enterprise",
+      "url": "https://www.perplexity.ai/enterprise",
+      "segments": [
+        "rag-knowledge",
+        "ai-productivity"
+      ],
+      "description": "Recherche IA enterprise ; answers grounded web+docs internes, SSO et contrôles admin équipe.",
+      "capabilities": [
+        "grounded_search",
+        "enterprise_sso",
+        "internal_docs",
+        "citations"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.perplexity.ai/enterprise",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "amazon-kendra",
+      "name": "Amazon Kendra",
+      "url": "https://aws.amazon.com/kendra/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Enterprise search AWS ; index intelligent, Q&A sémantique et connecteurs docs pour RAG interne.",
+      "capabilities": [
+        "enterprise_search",
+        "semantic_qa",
+        "connectors",
+        "aws_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://aws.amazon.com/kendra/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lucidworks",
+      "name": "Lucidworks",
+      "url": "https://lucidworks.com/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Relevance platform ; search hybride, recommandations et RAG sur knowledge bases enterprise.",
+      "capabilities": [
+        "hybrid_search",
+        "recommendations",
+        "rag",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://lucidworks.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "algolia-neural-search",
+      "name": "Algolia NeuralSearch",
+      "url": "https://www.algolia.com/products/neuralsearch/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Search-as-a-service ; vector + keyword, personnalisation et API retrieval pour apps RAG.",
+      "capabilities": [
+        "vector_search",
+        "keyword_search",
+        "personalization",
+        "retrieval_api"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://www.algolia.com/products/neuralsearch/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "HQ Paris — NeuralSearch pour retrieval enterprise."
+    },
+    {
+      "id": "writer-knowledge",
+      "name": "Writer Knowledge Graph",
+      "url": "https://writer.com/product/knowledge-graph/",
+      "segments": [
+        "rag-knowledge"
+      ],
+      "description": "Knowledge graph enterprise ; RAG grounded, gouvernance contenu et agents sur base interne.",
+      "capabilities": [
+        "knowledge_graph",
+        "grounded_rag",
+        "content_governance",
+        "agents"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5s-ai-stack-l3",
+      "source_url": "https://writer.com/product/knowledge-graph/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

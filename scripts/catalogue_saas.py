@@ -9,6 +9,7 @@ import json
 import sqlite3
 import sys
 from collections import Counter
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,6 +17,10 @@ CATALOGUE = ROOT / "catalogue-saas"
 TAXONOMY_PATH = CATALOGUE / "taxonomy.json"
 VENDORS_DIR = CATALOGUE / "vendors"
 COVERAGE_PATH = CATALOGUE / "coverage-matrix.json"
+FROZEN_SEGMENTS_PATH = CATALOGUE / "frozen-segments.json"
+
+META_PASS_MARKERS = ("v5e-retrospective", "v5o-coverage")
+NEAR_THRESHOLD_PCT = 8.0
 
 
 def load_taxonomy() -> dict:
@@ -429,6 +434,193 @@ def gaps_report(
             print()
 
 
+def load_coverage_matrix() -> dict:
+    if not COVERAGE_PATH.exists():
+        print(f"Fichier manquant : {COVERAGE_PATH}", file=sys.stderr)
+        raise SystemExit(1)
+    return json.loads(COVERAGE_PATH.read_text(encoding="utf-8"))
+
+
+def is_meta_pass(pass_id: str) -> bool:
+    return any(marker in pass_id for marker in META_PASS_MARKERS)
+
+
+def segment_pass_metrics(
+    entry: dict, pass_id: str
+) -> tuple[int, int, float] | None:
+    total_cand = 0
+    total_new = 0
+    for src_data in entry.get("sources", {}).values():
+        if not src_data or not isinstance(src_data, dict):
+            continue
+        if src_data.get("pass") != pass_id:
+            continue
+        total_cand += src_data.get("candidates_found", 0)
+        total_new += src_data.get("new_added", 0)
+    if total_cand == 0:
+        return None
+    return total_new, total_cand, 100.0 * total_new / total_cand
+
+
+def effective_last_pass(entry: dict) -> str | None:
+    last = entry.get("last_pass")
+    if last and not is_meta_pass(last):
+        return last
+    real_passes = [
+        src_data.get("pass")
+        for src_data in entry.get("sources", {}).values()
+        if src_data
+        and isinstance(src_data, dict)
+        and src_data.get("pass")
+        and not is_meta_pass(src_data["pass"])
+    ]
+    return max(real_passes) if real_passes else None
+
+
+def saturation_flag(rate: float, threshold: float) -> str:
+    if rate < threshold:
+        return " [SATURÉ]"
+    if rate <= NEAR_THRESHOLD_PCT:
+        return " [PROCHE]"
+    return ""
+
+
+def collect_saturation_rows(
+    matrix: dict, taxonomy: dict, *, real_passes_only: bool
+) -> list[dict]:
+    seg_labels = {s["id"]: s["label"] for s in taxonomy["segments"]}
+    rows: list[dict] = []
+    for seg in taxonomy["segments"]:
+        sid = seg["id"]
+        entry = matrix["segments"].get(sid, {})
+        pass_id = (
+            effective_last_pass(entry)
+            if real_passes_only
+            else entry.get("last_pass")
+        )
+        if not pass_id:
+            continue
+        if real_passes_only and is_meta_pass(pass_id):
+            continue
+        metrics = segment_pass_metrics(entry, pass_id)
+        if metrics is None:
+            continue
+        new, cand, rate = metrics
+        rows.append(
+            {
+                "segment_id": sid,
+                "label": seg_labels[sid],
+                "pass_id": pass_id,
+                "rate": rate,
+                "new": new,
+                "candidates": cand,
+            }
+        )
+    return rows
+
+
+def _print_saturation_by_pass(
+    rows: list[dict], threshold: float, header: str
+) -> None:
+    by_pass: dict[str, list[dict]] = {}
+    for row in rows:
+        by_pass.setdefault(row["pass_id"], []).append(row)
+
+    print(header)
+    print(
+        f"Seuils : [SATURÉ] < {threshold:g} %  |  "
+        f"[PROCHE] {threshold:g}–{NEAR_THRESHOLD_PCT:g} %"
+    )
+    print()
+
+    for pass_id in sorted(by_pass.keys()):
+        print(f"## {pass_id}")
+        for row in sorted(by_pass[pass_id], key=lambda r: r["rate"]):
+            flag = saturation_flag(row["rate"], threshold)
+            print(
+                f"  {row['segment_id']:32} {row['rate']:5.1f}%  "
+                f"(+{row['new']}/{row['candidates']}){flag}"
+                f"  — {row['label']}"
+            )
+        print()
+
+
+def saturation_report() -> None:
+    matrix = load_coverage_matrix()
+    taxonomy = load_taxonomy()
+    threshold = matrix.get("saturation_threshold_pct", 5)
+    rows = [
+        row
+        for row in collect_saturation_rows(matrix, taxonomy, real_passes_only=False)
+        if "v5e-retrospective" not in row["pass_id"]
+    ]
+    _print_saturation_by_pass(
+        rows,
+        threshold,
+        f"Saturation par passe (seuil gel : < {threshold} % nouveaux / candidats)",
+    )
+
+
+def saturation_watch() -> None:
+    matrix = load_coverage_matrix()
+    taxonomy = load_taxonomy()
+    threshold = matrix.get("saturation_threshold_pct", 5)
+    rows = collect_saturation_rows(matrix, taxonomy, real_passes_only=True)
+    _print_saturation_by_pass(
+        rows,
+        threshold,
+        "Surveillance saturation — dernière passe réelle par segment",
+    )
+
+    saturated = sum(1 for r in rows if r["rate"] < threshold)
+    near = sum(
+        1 for r in rows if threshold <= r["rate"] <= NEAR_THRESHOLD_PCT
+    )
+    print(f"Résumé : {saturated} saturé(s), {near} proche(s) du seuil")
+
+
+def saturation_freeze() -> int:
+    matrix = load_coverage_matrix()
+    taxonomy = load_taxonomy()
+    threshold = matrix.get("saturation_threshold_pct", 5)
+    today = date.today().isoformat()
+    rows = collect_saturation_rows(matrix, taxonomy, real_passes_only=True)
+
+    frozen = [
+        {
+            "segment_id": row["segment_id"],
+            "label": row["label"],
+            "last_real_pass": row["pass_id"],
+            "new_rate_pct": round(row["rate"], 2),
+            "new_added": row["new"],
+            "candidates_found": row["candidates"],
+            "frozen_at": today,
+        }
+        for row in rows
+        if row["rate"] < threshold
+    ]
+    frozen.sort(key=lambda item: (item["new_rate_pct"], item["segment_id"]))
+
+    payload = {
+        "version": "1.0.0",
+        "updated_at": today,
+        "saturation_threshold_pct": threshold,
+        "near_threshold_pct": NEAR_THRESHOLD_PCT,
+        "meta_passes_excluded": list(META_PASS_MARKERS),
+        "frozen_count": len(frozen),
+        "frozen": frozen,
+    }
+    FROZEN_SEGMENTS_PATH.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    print(
+        f"Écrit : {FROZEN_SEGMENTS_PATH} — "
+        f"{len(frozen)} segment(s) gelé(s) (< {threshold} %)"
+    )
+    return len(frozen)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Catalogue SaaS — outils")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -464,6 +656,14 @@ def main() -> int:
     )
     p_gaps.add_argument("--segment", help="Un seul segment")
 
+    p_sat = sub.add_parser("saturation", help="Saturation / gel segments")
+    sat_sub = p_sat.add_subparsers(dest="sat_action")
+    sat_sub.add_parser("watch", help="Surveiller taux par passe réelle ([SATURÉ]/[PROCHE])")
+    sat_sub.add_parser(
+        "freeze",
+        help="Geler segments < seuil dans frozen-segments.json",
+    )
+
     args = parser.parse_args()
 
     if args.command == "validate":
@@ -490,6 +690,14 @@ def main() -> int:
             france_market=args.france_market,
             segment=args.segment,
         )
+        return 0
+    if args.command == "saturation":
+        if args.sat_action == "watch":
+            saturation_watch()
+        elif args.sat_action == "freeze":
+            saturation_freeze()
+        else:
+            saturation_report()
         return 0
 
     return 1

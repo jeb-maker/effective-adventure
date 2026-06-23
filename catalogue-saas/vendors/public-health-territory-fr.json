@@ -1,6 +1,6 @@
 {
   "segment": "public-health-territory-fr",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "ameli-open-data",
@@ -88,7 +88,8 @@
       "name": "Doctolib",
       "url": "https://www.doctolib.fr/",
       "segments": [
-        "public-health-territory-fr"
+        "public-health-territory-fr",
+        "healthcare-clinical-ai"
       ],
       "description": "Plateforme santé ; données indirectes déserts médicaux via disponibilité.",
       "capabilities": [
@@ -137,6 +138,390 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "nhs-digital-open-data",
+      "name": "NHS Digital — Open Data",
+      "url": "https://digital.nhs.uk/data-and-information",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Données santé publique UK ; offre de soins, prescriptions et indicateurs territoriaux.",
+      "capabilities": [
+        "health_open_data",
+        "nhs",
+        "territorial",
+        "uk"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://digital.nhs.uk/data-and-information",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "cdc-places",
+      "name": "CDC PLACES",
+      "url": "https://www.cdc.gov/places",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Statistiques santé territoriales US ; prévalence maladies et déterminants par zone.",
+      "capabilities": [
+        "territorial_health",
+        "prevalence",
+        "us",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.cdc.gov/places",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "who-health-observatory",
+      "name": "WHO Global Health Observatory",
+      "url": "https://www.who.int/data/gho",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Indicateurs santé mondiaux ; comparaisons territoriales et données pays.",
+      "capabilities": [
+        "global_health",
+        "indicators",
+        "country_data",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "CH",
+      "france_market": "unknown",
+      "operating_regions": [
+        "global"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://www.who.int/data/gho",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "healthdata-gov",
+      "name": "HealthData.gov (US)",
+      "url": "https://healthdata.gov/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Portail open data santé US ; jeux fédéraux et territoriaux pour analytics population.",
+      "capabilities": [
+        "health_open_data",
+        "us",
+        "federal",
+        "api"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5d-france-intl",
+      "source_url": "https://healthdata.gov/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial",
+      "notes": "Équivalent international pour benchmark — hors marché FR principal."
+    },
+    {
+      "id": "cartosante",
+      "name": "CartoSanté (Atlas Santé)",
+      "url": "https://cartosante.atlasante.fr/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Cartographie santé territoriale ; offre de soins, démographie médicale et indicateurs ARS.",
+      "capabilities": [
+        "health_mapping",
+        "medical_demography",
+        "territory",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://cartosante.atlasante.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0012."
+    },
+    {
+      "id": "annuaire-sante",
+      "name": "Annuaire Santé (ANS)",
+      "url": "https://annuaire.sante.fr/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Répertoire professionnels de santé ; géolocalisation PS, spécialités et libre accès par territoire.",
+      "capabilities": [
+        "health_directory",
+        "rpps",
+        "geolocation",
+        "api"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://annuaire.sante.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0012."
+    },
+    {
+      "id": "maiia",
+      "name": "Maiia",
+      "url": "https://www.maiia.com/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Prise de RDV santé ; disponibilité praticiens par commune et signaux déserts médicaux.",
+      "capabilities": [
+        "appointment_booking",
+        "availability",
+        "territory",
+        "telehealth"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.maiia.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ordoclic",
+      "name": "Ordoclic",
+      "url": "https://www.ordoclic.fr/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "E-prescription et parcours santé ; données indirectes activité médicale territoriale.",
+      "capabilities": [
+        "e_prescription",
+        "health_workflow",
+        "territory_signals",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.ordoclic.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "geodes-spf",
+      "name": "Géodes (Santé publique France)",
+      "url": "https://geodes.santepubliquefrance.fr/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Portail visualisation données santé publique ; cartes, indicateurs épidémiologie et exports.",
+      "capabilities": [
+        "epidemiology",
+        "visualization",
+        "indicators",
+        "open_data"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://geodes.santepubliquefrance.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "rezone-cpts",
+      "name": "Rézone CPTS",
+      "url": "https://www.paps.sante.fr/rezone-cpts",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Diagnostic territorial CPTS ; cartographie offre de soins et aide à l'implantation libérale.",
+      "capabilities": [
+        "cpts",
+        "territorial_diagnosis",
+        "care_access",
+        "mapping"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.paps.sante.fr/rezone-cpts",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0012."
+    },
+    {
+      "id": "crtosante-ars",
+      "name": "CRTOsanté (ARS)",
+      "url": "https://www.ars.sante.fr/crtosante-ou-sinstaller-en-liberal-en-un-clic",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Outil ARS implantation libérale ; zonages, aides et cartographie tension médicale.",
+      "capabilities": [
+        "medical_zoning",
+        "installation",
+        "ars",
+        "territory"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://www.ars.sante.fr/crtosante-ou-sinstaller-en-liberal-en-un-clic",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Source citée idée 0012."
+    },
+    {
+      "id": "mon-espace-sante",
+      "name": "Mon Espace Santé (ANS)",
+      "url": "https://monservicesante.fr/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Dossier médical partagé national ; parcours patient et données agrégées santé numérique.",
+      "capabilities": [
+        "dmp",
+        "patient_portal",
+        "health_records",
+        "public_service"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://monservicesante.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "healthcare-gouv",
+      "name": "HealthData.gouv.fr",
+      "url": "https://healthdata.gouv.fr/",
+      "segments": [
+        "public-health-territory-fr"
+      ],
+      "description": "Portail open data santé ; jeux ARS, hôpitaux, médicaments et APIs territoriales.",
+      "capabilities": [
+        "health_open_data",
+        "catalog",
+        "api",
+        "territory"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5r-france-thematic-l3",
+      "source_url": "https://healthdata.gouv.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

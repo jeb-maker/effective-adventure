@@ -1,6 +1,6 @@
 {
   "segment": "cybersecurity-platforms",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "crowdstrike-falcon",
@@ -145,6 +145,388 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "elastic-security",
+      "name": "Elastic Security",
+      "url": "https://www.elastic.co/security",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "SIEM/XDR open ; détection menaces, EDR, SOAR et threat hunting sur stack Elastic.",
+      "capabilities": [
+        "siem",
+        "xdr",
+        "edr",
+        "threat_hunting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.elastic.co/security",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "arctic-wolf",
+      "name": "Arctic Wolf",
+      "url": "https://arcticwolf.com/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "MDR/SOC-as-a-service ; monitoring 24/7, détection et réponse incidents managée.",
+      "capabilities": [
+        "mdr",
+        "soc_as_service",
+        "incident_response",
+        "managed_detection"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://arcticwolf.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "harfanglab",
+      "name": "HarfangLab",
+      "url": "https://harfanglab.io/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "EDR/XDR souverain FR ; détection comportementale, threat hunting et réponse endpoint.",
+      "capabilities": [
+        "edr",
+        "xdr",
+        "threat_hunting",
+        "sovereign"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://harfanglab.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sekoia",
+      "name": "Sekoia.io",
+      "url": "https://www.sekoia.io/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "XDR/SOC platform FR ; CTI intégrée, playbooks SOAR et détection multi-sources.",
+      "capabilities": [
+        "xdr",
+        "soc",
+        "cti",
+        "soar"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.sekoia.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ibm-qradar",
+      "name": "IBM QRadar",
+      "url": "https://www.ibm.com/qradar",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "SIEM enterprise ; corrélation logs, UEBA, SOAR et threat intelligence intégrée.",
+      "capabilities": [
+        "siem",
+        "ueba",
+        "soar",
+        "threat_intel"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.ibm.com/qradar",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "trend-micro-vision-one",
+      "name": "Trend Micro Vision One",
+      "url": "https://www.trendmicro.com/en_us/business/products/detection-response/vision-one.html",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "Plateforme XDR unifiée ; EDR, email security, cloud et attack surface management.",
+      "capabilities": [
+        "xdr",
+        "edr",
+        "attack_surface",
+        "soar"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "JP",
+      "france_market": "partial",
+      "operating_regions": [
+        "JP",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.trendmicro.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "stormshield",
+      "name": "Stormshield",
+      "url": "https://www.stormshield.com/",
+      "segments": [
+        "cybersecurity-platforms",
+        "cloud-security-cspm"
+      ],
+      "description": "Suite sécurité réseau FR ; firewall UTM, EDR et visibilité OT/IT pour secteurs régulés et souveraineté.",
+      "capabilities": [
+        "firewall",
+        "edr",
+        "network_security",
+        "sovereign"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.stormshield.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tehtris",
+      "name": "TEHTRIS",
+      "url": "https://tehtris.com/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "XDR souverain FR ; agents endpoint, détection zero-day et orchestration réponse multi-vecteurs.",
+      "capabilities": [
+        "xdr",
+        "edr",
+        "zero_day",
+        "sovereign"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://tehtris.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "crowdsec",
+      "name": "CrowdSec",
+      "url": "https://www.crowdsec.net/",
+      "segments": [
+        "cybersecurity-platforms",
+        "vulnerability-management"
+      ],
+      "description": "IPS collaboratif open-core FR ; blocage IPs malveillantes, CTI partagée et intégration SIEM/firewall.",
+      "capabilities": [
+        "collaborative_ips",
+        "threat_intel",
+        "siem_integration",
+        "open_core"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.crowdsec.net/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gatewatcher",
+      "name": "Gatewatcher",
+      "url": "https://www.gatewatcher.com/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "NDR/XDR FR ; détection menaces réseau, analyse comportementale et réponse automatisée APT.",
+      "capabilities": [
+        "ndr",
+        "xdr",
+        "network_detection",
+        "apt"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.gatewatcher.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "darktrace",
+      "name": "Darktrace",
+      "url": "https://www.darktrace.com/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "NDR/XDR IA ; modèle self-learning, détection anomalies réseau/cloud/email et réponse autonome.",
+      "capabilities": [
+        "ndr",
+        "xdr",
+        "ai_detection",
+        "autonomous_response"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.darktrace.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "withsecure",
+      "name": "WithSecure",
+      "url": "https://www.withsecure.com/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "Elements XDR européen ; EPP, EDR, MDR et exposure management pour mid-market et enterprise EU.",
+      "capabilities": [
+        "xdr",
+        "edr",
+        "mdr",
+        "exposure_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "FI",
+        "EU",
+        "FR"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://www.withsecure.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "stellar-cyber",
+      "name": "Stellar Cyber",
+      "url": "https://stellarcyber.ai/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "Open XDR ; corrélation multi-sources, SIEM intégré, SOAR et threat hunting unifié.",
+      "capabilities": [
+        "open_xdr",
+        "siem",
+        "soar",
+        "threat_hunting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-security-l3",
+      "source_url": "https://stellarcyber.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

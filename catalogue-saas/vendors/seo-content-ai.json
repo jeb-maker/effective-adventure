@@ -1,6 +1,6 @@
 {
   "segment": "seo-content-ai",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "surfer-seo",
@@ -141,6 +141,386 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "semrush",
+      "name": "Semrush",
+      "url": "https://www.semrush.com/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Suite SEO/SEM ; audit technique, recherche mots-clés et content marketing IA.",
+      "capabilities": [
+        "seo_audit",
+        "keyword_research",
+        "content_marketing",
+        "ai_writing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.semrush.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ahrefs",
+      "name": "Ahrefs",
+      "url": "https://ahrefs.com/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Outil SEO complet ; backlinks, audit site et recherche contenu concurrentiel.",
+      "capabilities": [
+        "backlinks",
+        "site_audit",
+        "competitive_research",
+        "content"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "SG",
+      "france_market": "partial",
+      "operating_regions": [
+        "SG",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://ahrefs.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "frase-io",
+      "name": "Frase",
+      "url": "https://www.frase.io/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Content SEO IA ; briefs, optimisation SERP et génération outlines research-driven.",
+      "capabilities": [
+        "content_briefs",
+        "serp_optimization",
+        "ai_outlines",
+        "research"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.frase.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "scalenut",
+      "name": "Scalenut",
+      "url": "https://www.scalenut.com/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Plateforme contenu SEO IA ; clustering mots-clés, rédaction et optimisation on-page.",
+      "capabilities": [
+        "keyword_clustering",
+        "ai_writing",
+        "on_page_seo",
+        "content_planning"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "IN",
+      "france_market": "partial",
+      "operating_regions": [
+        "IN",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.scalenut.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "neuroflash",
+      "name": "Neuroflash",
+      "url": "https://neuroflash.com/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Rédaction marketing IA EU ; SEO, brand voice et génération contenu multilingue.",
+      "capabilities": [
+        "ai_writing",
+        "seo",
+        "brand_voice",
+        "multilingual"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://neuroflash.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "writesonic",
+      "name": "Writesonic",
+      "url": "https://writesonic.com/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Génération contenu IA ; articles SEO, landing pages et optimisation ChatGPT-style.",
+      "capabilities": [
+        "ai_writing",
+        "seo_articles",
+        "landing_pages",
+        "content_optimization"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "IN",
+      "france_market": "partial",
+      "operating_regions": [
+        "IN",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://writesonic.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "content-at-scale",
+      "name": "Content at Scale",
+      "url": "https://contentatscale.ai/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Génération articles SEO long-form ; research, structure et optimisation.",
+      "capabilities": [
+        "long_form",
+        "seo_research",
+        "structure",
+        "optimization"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://contentatscale.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "originality-ai",
+      "name": "Originality.ai",
+      "url": "https://originality.ai/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Détection contenu IA + SEO ; plagiarism, fact-check et scoring.",
+      "capabilities": [
+        "ai_detection",
+        "plagiarism",
+        "fact_check",
+        "scoring"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://originality.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "surgegraph",
+      "name": "SurgeGraph",
+      "url": "https://surgegraph.io/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "SEO content IA ; topical maps, clustering et rédaction optimisée.",
+      "capabilities": [
+        "topical_maps",
+        "clustering",
+        "ai_writing",
+        "seo"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://surgegraph.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "byword-ai",
+      "name": "Byword",
+      "url": "https://byword.ai/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Articles SEO programmatiques ; bulk generation et intégrations CMS.",
+      "capabilities": [
+        "programmatic_seo",
+        "bulk_generation",
+        "cms",
+        "articles"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://byword.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "growthbar",
+      "name": "GrowthBar",
+      "url": "https://www.growthbarseo.com/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "SEO toolkit IA ; keyword research, outline et rédaction Chrome.",
+      "capabilities": [
+        "keyword_research",
+        "outline",
+        "ai_writing",
+        "chrome"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.growthbarseo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "inkforall",
+      "name": "INK For All",
+      "url": "https://inkforall.com/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "SEO writing IA ; score optimisation, clustering et content planner.",
+      "capabilities": [
+        "seo_score",
+        "clustering",
+        "content_planner",
+        "ai_writing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://inkforall.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "copymatic",
+      "name": "Copymatic",
+      "url": "https://copymatic.ai/",
+      "segments": [
+        "seo-content-ai"
+      ],
+      "description": "Génération contenu SEO ; templates, bulk et intégrations WordPress.",
+      "capabilities": [
+        "content_generation",
+        "templates",
+        "bulk",
+        "wordpress"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://copymatic.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

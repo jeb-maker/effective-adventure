@@ -148,6 +148,60 @@ un SaaS horizontal « croiser Sitadel + DVF + PLU + friches + PM ».
 | SOGEFI API ADS / MAJIC | https://www.sogefi-sig.com/geoservices-apis-wms/api-ads-autorisation-du-droit-des-sols/ | Sitadel + parcelle ; SIRENE déposant PM | API commerciale |
 | SOGEFI Open MAJIC | https://www.sogefi-sig.com/geoservices-apis-wms/api-open-majic/ | PM par parcelle | API commerciale ; MAJ annuelle |
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0021-veille-fonciere-amenageurs` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `real-estate-proptech` — Immobilier & proptech
+
+Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-saas/vendors/real-estate-proptech.json) (20 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `costar` | CoStar | US | partial | partial |
+| `yardi` | Yardi | US | partial | partial |
+| `procore` | Procore | US | partial | partial |
+| `matera` | Matera | FR | strong | partial |
+| `pricehubble` | PriceHubble | CH | partial | partial |
+| `scanreno` | ScanReno | FR | strong | partial |
+| `powimo` | Powimo | FR | strong | partial |
+| `egide-copro` | EGIDE Copro | FR | strong | partial |
+| `copro-solutions` | CoproSolutions | FR | strong | partial |
+| `bdnb` | BDNB (CSTB) | FR | strong | partial |
+| `kel-foncier` | Kel Foncier | FR | strong | partial |
+| `deepki` | Deepki | FR | strong | partial |
+| … | _+8 autres_ | | | |
+
+#### Segment `geospatial-gis-fr` — Géospatial & carto FR
+
+Fichier : [`catalogue-saas/vendors/geospatial-gis-fr.json`](../../catalogue-saas/vendors/geospatial-gis-fr.json) (21 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `geofoncier` | Géofoncier | FR | strong | partial |
+| `alkante` | Alkante | FR | strong | partial |
+| `ign-geoservices` | IGN Géoservices | FR | strong | partial |
+| `cartelie` | Cartélie (IGN) | FR | strong | partial |
+| `opendatasoft-geo` | Opendatasoft | FR | strong | partial |
+| `ordnance-survey` | Ordnance Survey | GB | absent | partial |
+| `esri-arcgis` | Esri ArcGIS | US | partial | partial |
+| `mapbox` | Mapbox | US | partial | partial |
+| `here-technologies` | HERE Technologies | NL | partial | partial |
+| `geoperso` | GÉOPERSO | FR | strong | partial |
+| `makina-corpus` | Makina Corpus | FR | strong | partial |
+| `geoportail-urbanisme` | Géoportail de l'urbanisme (GPU) | FR | strong | partial |
+| … | _+9 autres_ | | | |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment real-estate-proptech
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 
 Le pitch seed — « croiser Sitadel + DVF + PLU + Cartofriches + parcelles + PM pour

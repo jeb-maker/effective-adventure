@@ -1,6 +1,6 @@
 {
   "segment": "spend-procurement",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "coupa",
@@ -91,7 +91,8 @@
       "name": "Spendesk",
       "url": "https://www.spendesk.com/",
       "segments": [
-        "spend-procurement"
+        "spend-procurement",
+        "finance-accounting-ai"
       ],
       "description": "Spend management PME Europe ; cartes, factures et workflows.",
       "capabilities": [
@@ -113,6 +114,415 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "tipalti",
+      "name": "Tipalti",
+      "url": "https://tipalti.com/",
+      "segments": [
+        "spend-procurement",
+        "finance-accounting-ai"
+      ],
+      "description": "Paiements fournisseurs et AP automation ; workflows achats et compliance.",
+      "capabilities": [
+        "ap_automation",
+        "supplier_payments",
+        "procurement"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://tipalti.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sap-ariba",
+      "name": "SAP Ariba",
+      "url": "https://www.ariba.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Procurement network enterprise ; sourcing, e-procurement et supplier management global.",
+      "capabilities": [
+        "sourcing",
+        "e_procurement",
+        "supplier_management",
+        "network"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.ariba.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ivalua",
+      "name": "Ivalua",
+      "url": "https://www.ivalua.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Suite source-to-pay ; achats directs/indirects, contrats et analytics spend FR/EU.",
+      "capabilities": [
+        "source_to_pay",
+        "spend_analytics",
+        "contracts",
+        "supplier_collaboration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.ivalua.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "jaggaer",
+      "name": "JAGGAER",
+      "url": "https://www.jaggaer.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Procurement verticalisé ; sourcing, e-invoicing et compliance achats secteur public/privé.",
+      "capabilities": [
+        "sourcing",
+        "e_invoicing",
+        "compliance",
+        "vertical"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.jaggaer.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "proactis",
+      "name": "Proactis",
+      "url": "https://www.proactis.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Spend management mid-market ; achats, factures fournisseurs et contrôle budgets.",
+      "capabilities": [
+        "spend_management",
+        "supplier_invoices",
+        "budget_control",
+        "mid_market"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.proactis.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "gep-smart",
+      "name": "GEP SMART",
+      "url": "https://www.gep.com/software/gep-smart-procurement-software",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Procurement cloud unified ; sourcing, P2P, analytics spend et supplier risk.",
+      "capabilities": [
+        "p2p",
+        "sourcing",
+        "spend_analytics",
+        "supplier_risk"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.gep.com/software/gep-smart-procurement-software",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "zycus",
+      "name": "Zycus",
+      "url": "https://www.zycus.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Source-to-pay IA ; cognitive procurement, contract management et savings tracking.",
+      "capabilities": [
+        "source_to_pay",
+        "cognitive_procurement",
+        "contract_management",
+        "savings"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5n-workplace-data-sales",
+      "source_url": "https://www.zycus.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pleo",
+      "name": "Pleo",
+      "url": "https://www.pleo.io/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Cartes dépenses EU ; contrôle spend, receipts et comptabilité intégrée.",
+      "capabilities": [
+        "expense_cards",
+        "spend_control",
+        "receipts",
+        "accounting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "DK",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.pleo.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur EU — spend management PME."
+    },
+    {
+      "id": "payhawk",
+      "name": "Payhawk",
+      "url": "https://payhawk.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Spend management EU ; cartes corporate, approvals et ERP sync.",
+      "capabilities": [
+        "corporate_cards",
+        "approvals",
+        "erp_sync",
+        "spend_management"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "BG",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://payhawk.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Acteur EU — spend management scale-up."
+    },
+    {
+      "id": "soldo",
+      "name": "Soldo",
+      "url": "https://www.soldo.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Cartes dépenses UK/EU ; multi-utilisateur, budgets et export compta.",
+      "capabilities": [
+        "multi_user_cards",
+        "budgets",
+        "accounting_export",
+        "eu"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.soldo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mesh-payments",
+      "name": "Mesh Payments",
+      "url": "https://www.meshpayments.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Spend management startup ; cartes virtuelles, budgets et SaaS tracking.",
+      "capabilities": [
+        "virtual_cards",
+        "budgets",
+        "saas_tracking",
+        "startup"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.meshpayments.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tropic",
+      "name": "Tropic",
+      "url": "https://www.tropicapp.io/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "SaaS procurement ; négociation contrats, renewals et spend analytics.",
+      "capabilities": [
+        "saas_procurement",
+        "negotiation",
+        "renewals",
+        "spend_analytics"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://www.tropicapp.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "precoro",
+      "name": "Precoro",
+      "url": "https://precoro.com/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Procurement PME ; PO, approvals, budgets et three-way matching.",
+      "capabilities": [
+        "purchase_orders",
+        "approvals",
+        "budgets",
+        "three_way_match"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://precoro.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "order-co",
+      "name": "Order.co",
+      "url": "https://order.co/",
+      "segments": [
+        "spend-procurement"
+      ],
+      "description": "Procurement unifié ; catalogues, approvals et paiements centralisés.",
+      "capabilities": [
+        "unified_procurement",
+        "catalogs",
+        "approvals",
+        "payments"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-workplace-l3",
+      "source_url": "https://order.co/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

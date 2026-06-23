@@ -1,6 +1,6 @@
 {
   "segment": "regulatory-reporting-eu",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "sovos",
@@ -113,6 +113,440 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "avalara",
+      "name": "Avalara",
+      "url": "https://www.avalara.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Conformité taxe et e-invoicing globale ; reporting statutaire multi-juridictions EU.",
+      "capabilities": [
+        "e_invoicing",
+        "vat_compliance",
+        "statutory_reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5e-retrospective",
+      "source_url": "https://www.avalara.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cegid",
+      "name": "Cegid",
+      "url": "https://www.cegid.com/fr/facturation-electronique/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Suite ERP/finance FR ; facturation électronique réforme 2026, TVA et reporting fiscal multi-entités.",
+      "capabilities": [
+        "e_invoicing",
+        "erp",
+        "vat",
+        "france_reform"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.cegid.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "basware",
+      "name": "Basware",
+      "url": "https://www.basware.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Réseau e-invoicing et AP automation ; conformité Peppol, TVA et reporting statutaire Europe.",
+      "capabilities": [
+        "peppol",
+        "e_invoicing",
+        "ap_automation",
+        "vat"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FI",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.basware.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tradeshift",
+      "name": "Tradeshift",
+      "url": "https://tradeshift.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Plateforme B2B trade ; facturation électronique, supply chain finance et conformité multi-pays EU.",
+      "capabilities": [
+        "e_invoicing",
+        "b2b_network",
+        "compliance",
+        "multi_country"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://tradeshift.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "storecove",
+      "name": "Storecove",
+      "url": "https://www.storecove.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Gateway Peppol et e-invoicing ; routage factures B2B/B2G et conformité directives EU.",
+      "capabilities": [
+        "peppol",
+        "e_invoicing_gateway",
+        "b2g",
+        "routing"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "NL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.storecove.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "comarch-einvoicing",
+      "name": "Comarch e-Invoicing",
+      "url": "https://www.comarch.com/finance/e-invoicing/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "E-invoicing et reporting fiscal EU ; intégration ERP, archivage légal et TVA.",
+      "capabilities": [
+        "e_invoicing",
+        "erp_integration",
+        "legal_archive",
+        "vat"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "PL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://www.comarch.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "edicom",
+      "name": "EDICOM",
+      "url": "https://edicomgroup.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "EDI et e-invoicing global ; conformité facturation électronique et reporting réglementaire EU/LATAM.",
+      "capabilities": [
+        "edi",
+        "e_invoicing",
+        "compliance",
+        "global_reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "ES",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5m-verticals-compliance",
+      "source_url": "https://edicomgroup.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "generix",
+      "name": "Generix Group",
+      "url": "https://www.generixgroup.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Supply chain & e-invoicing FR ; EDI, facturation électronique réforme 2026 et conformité TVA EU.",
+      "capabilities": [
+        "edi",
+        "e_invoicing",
+        "vat_compliance",
+        "supply_chain"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.generixgroup.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "taxually",
+      "name": "Taxually",
+      "url": "https://www.taxually.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "VAT automation EU ; déclarations TVA multi-pays, e-invoicing et conformité fiscale cross-border.",
+      "capabilities": [
+        "vat_automation",
+        "multi_country",
+        "e_invoicing",
+        "tax_compliance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "HU",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.taxually.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fonoa",
+      "name": "Fonoa",
+      "url": "https://www.fonoa.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Tax compliance API ; TVA, e-invoicing et reporting fiscal automatisé pour plateformes/marketplaces.",
+      "capabilities": [
+        "tax_api",
+        "vat",
+        "e_invoicing",
+        "marketplace_compliance"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "IE",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.fonoa.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "vertex-inc",
+      "name": "Vertex Inc.",
+      "url": "https://www.vertexinc.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Indirect tax enterprise ; moteur TVA global, e-invoicing et conformité fiscale multi-juridictions.",
+      "capabilities": [
+        "indirect_tax",
+        "vat_engine",
+        "e_invoicing",
+        "multi_jurisdiction"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.vertexinc.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ecosio",
+      "name": "ecosio",
+      "url": "https://ecosio.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "E-invoicing Peppol EU ; réseau facturation électronique, routage B2B/B2G et conformité EN16931.",
+      "capabilities": [
+        "peppol",
+        "e_invoicing",
+        "b2b_b2g",
+        "en16931"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "AT",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://ecosio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "flowie",
+      "name": "Flowie",
+      "url": "https://www.flowie.fr/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "E-invoicing PME FR ; facturation électronique réforme 2026, archivage légal et intégration compta.",
+      "capabilities": [
+        "e_invoicing",
+        "france_reform_2026",
+        "legal_archive",
+        "accounting_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.flowie.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fintechos",
+      "name": "FintechOS",
+      "url": "https://www.fintechos.com/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Platform banking/regulatory EU ; produits financiers no-code, reporting et conformité multi-pays.",
+      "capabilities": [
+        "banking_platform",
+        "no_code",
+        "regulatory_reporting",
+        "multi_country"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.fintechos.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "comarch-vat",
+      "name": "Comarch VAT & e-Invoicing",
+      "url": "https://www.comarch.com/finance/",
+      "segments": [
+        "regulatory-reporting-eu"
+      ],
+      "description": "Suite fiscal EU ; TVA temps réel, SAF-T et facturation électronique intégrée ERP.",
+      "capabilities": [
+        "vat",
+        "saf_t",
+        "e_invoicing",
+        "erp_integration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "PL",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5t-verticals-l3",
+      "source_url": "https://www.comarch.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

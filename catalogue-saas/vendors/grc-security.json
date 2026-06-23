@@ -1,6 +1,6 @@
 {
   "segment": "grc-security",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "vanta",
@@ -388,7 +388,8 @@
       "name": "AuditBoard",
       "url": "https://www.auditboard.com/",
       "segments": [
-        "grc-security"
+        "grc-security",
+        "compliance-to-spec"
       ],
       "description": "Plateforme audit, risque et compliance ; leader mid-market audit-centric.",
       "capabilities": [
@@ -469,6 +470,179 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "sprinto",
+      "name": "Sprinto",
+      "url": "https://sprinto.com/",
+      "segments": [
+        "grc-security",
+        "compliance-to-spec"
+      ],
+      "description": "Compliance automation cloud ; SOC2/ISO/HIPAA avec evidence continue.",
+      "capabilities": [
+        "soc2",
+        "iso27001",
+        "automated_evidence",
+        "cloud"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IN",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://sprinto.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "standardfusion",
+      "name": "StandardFusion",
+      "url": "https://www.standardfusion.com/",
+      "segments": [
+        "grc-security"
+      ],
+      "description": "GRC platform ; risques, contrôles, audits et frameworks multi-réglementaires.",
+      "capabilities": [
+        "risk_management",
+        "controls",
+        "audits",
+        "frameworks"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.standardfusion.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "resolver",
+      "name": "Resolver",
+      "url": "https://www.resolver.com/",
+      "segments": [
+        "grc-security"
+      ],
+      "description": "GRC et gestion risques enterprise ; incidents, conformité et reporting.",
+      "capabilities": [
+        "risk_grc",
+        "incidents",
+        "compliance_reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "CA",
+      "france_market": "partial",
+      "operating_regions": [
+        "CA",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.resolver.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fusion-framework",
+      "name": "Fusion Framework GRC",
+      "url": "https://www.fusionrm.com/",
+      "segments": [
+        "grc-security"
+      ],
+      "description": "GRC modulaire ; risques opérationnels, conformité et résilience.",
+      "capabilities": [
+        "operational_risk",
+        "compliance",
+        "resilience"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://www.fusionrm.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "riskonnect",
+      "name": "Riskonnect",
+      "url": "https://riskonnect.com/",
+      "segments": [
+        "grc-security"
+      ],
+      "description": "Integrated risk management ; GRC unifié risques, conformité et assurance.",
+      "capabilities": [
+        "irm",
+        "grc",
+        "insurance",
+        "reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://riskonnect.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "swimlane",
+      "name": "Swimlane",
+      "url": "https://swimlane.com/",
+      "segments": [
+        "grc-security"
+      ],
+      "description": "Automation sécurité et compliance ; orchestration playbooks et evidence.",
+      "capabilities": [
+        "soar",
+        "automation",
+        "compliance_workflows"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5f-agents-parsing-grc",
+      "source_url": "https://swimlane.com/",
+      "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
     }
   ]
 }

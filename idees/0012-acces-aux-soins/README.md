@@ -109,6 +109,40 @@ tension ↔ médecin en recherche », suivi d'un plan d'attractivité), (b) les
 recours), (c) une **API/data-product** propre et requêtable par les éditeurs.
 Tous restent à valider commercialement.
 
+<!-- catalogue-saas-begin -->
+
+### Référence catalogue SaaS (dépôt)
+
+**Idée** : `0012-acces-aux-soins` — segments liés pour benchmark concurrence structuré.
+**Mise à jour** : 2026-06-23 — ne pas utiliser les entrées `unverified` pour scorer.
+
+#### Segment `public-health-territory-fr` — Santé territoriale FR
+
+Fichier : [`catalogue-saas/vendors/public-health-territory-fr.json`](../../catalogue-saas/vendors/public-health-territory-fr.json) (18 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `ameli-open-data` | Assurance Maladie — open data | FR | strong | partial |
+| `santepubliquefrance` | Santé publique France — data | FR | strong | partial |
+| `keldoc` | KelDoc | FR | strong | partial |
+| `doctolib` | Doctolib | FR | strong | partial |
+| `drees` | DREES | FR | strong | partial |
+| `nhs-digital-open-data` | NHS Digital — Open Data | GB | absent | partial |
+| `cdc-places` | CDC PLACES | US | absent | partial |
+| `who-health-observatory` | WHO Global Health Observatory | CH | unknown | partial |
+| `healthdata-gov` | HealthData.gov (US) | US | absent | partial |
+| `cartosante` | CartoSanté (Atlas Santé) | FR | strong | partial |
+| `annuaire-sante` | Annuaire Santé (ANS) | FR | strong | partial |
+| `maiia` | Maiia | FR | strong | partial |
+| … | _+6 autres_ | | | |
+
+Commandes :
+```bash
+python3 scripts/catalogue_saas.py stats
+python3 scripts/catalogue_saas.py gaps --segment public-health-territory-fr
+```
+
+<!-- catalogue-saas-end -->
 ## 5. Différenciation
 Faible et peu défendable face au seed. CartoSanté agrège déjà 300+ indicateurs et
 Rézone fait déjà la jonction démographie ↔ aides à l'installation, gratuitement et
