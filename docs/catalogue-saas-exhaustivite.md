@@ -83,8 +83,11 @@ Segment **non clos** tant que < 4 types sont renseignés dans `coverage-matrix.j
 | **V5l** | Sécurité + KYC + infra IA (L1→L2) | Fait |
 | **V5m** | Verticaux + compliance fins (L1→L2) | Fait |
 | **V5n** | Workplace / data / sales (L1→L2) | Fait |
-| **V5o** | Backfill coverage-matrix segments L2 | Fait |
-| Maintenance | Long tail L3, revue trimestrielle | Continu |
+| **V5p** | L3 regtech + KYC + IDP | Fait |
+| **V5q** | L3 chaîne RecordAI (parsing, compliance, automation) | Fait |
+| **V5r** | L3 France open data thématique (7 segments) | Fait |
+| **V5s** | L3 stack IA (governance, agents, voix, RAG, dev) | Fait |
+| Maintenance | 44 segments L2 restants, surveillance saturation | Continu |
 
 ### Surveillance saturation (maintenance)
 
@@ -145,6 +148,7 @@ python3 scripts/catalogue_saas.py validate
 | Post-V5g (juin 2026) | ~534 |
 | Post-V5k + idées | ~637 |
 | **Post-V5l–V5n (L2 complet)** | **~914** |
+| **Post-V5q–V5s (L3 ciblé)** | **~1 072** |
 | L3 + maintenance | 1 500–2 500 |
 
 La fiabilité prime sur la vitesse : **`unknown` est préférable à une guess non sourcée**.

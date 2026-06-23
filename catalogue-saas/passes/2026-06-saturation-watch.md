@@ -63,5 +63,5 @@ Priorité basse pour une **nouvelle vague L2** — préférer le long tail L3 ou
 
 - **Relancer la surveillance** avant toute vague V6 : `saturation watch` puis `saturation freeze`.
 - **Geler automatiquement** tout segment dont la prochaine passe réelle tombe < 5 % ; ne pas écraser le gel sans revue trimestrielle.
-- **Prioriser** les segments sans entrée dans `coverage-matrix.json` pour une passe réelle, ou ceux encore en montée L3 (ex. `compliance-to-spec`, `parsing-inbox` — V5h ~19–22 %).
+- **Prioriser** les segments sans entrée dans `coverage-matrix.json` pour une passe réelle, ou ceux encore en montée L3 hors gel imminent (ex. `compliance-to-spec` V5q ~14 %, `parsing-inbox` V5q ~17 %).
 - **Ne pas remoissonner** les 46 segments dont `last_pass` = `v5o-coverage-l2` tant que leur passe d'enrichissement (V5l/V5m/V5n) reste > 5 %.
