@@ -2,8 +2,14 @@
 
 - **ID** : 0009
 - **Statut** : 🔁 À retravailler
-- **Score** : 60 / 100
-- **Dernière mise à jour** : 2026-06-21
+- **Score** : 57 / 100
+- **Dernière mise à jour** : 2026-06-23
+- **Révision critique** : voir [`revue.md`](revue.md) — statut **maintenu** mais
+  affaibli : **C2 abaissé de 3 à 2** (payeur principal — artisan/prospection —
+  percuté par l'interdiction de démarchage + doublé par le freemium et Go Rénove
+  gratuit) → score **60 → 57/100**, à 2 points de l'écart. L'audit confirme la
+  saturation (ajout de **kelvin°**) et le mur juridique (loi du 30 juin 2025,
+  opt-in 11/08/2026, amendes 375 000 €). Sans payeur B2B légal prouvé → ❌ Écartée.
 - **Pitch (1 phrase)** : Exploiter la base nationale des DPE (ADEME) pour
   identifier et cibler les logements classés **F/G** ("passoires thermiques") à
   rénover — pour les artisans RGE, les collectivités et les bailleurs.
@@ -272,7 +278,7 @@ la légalité** le sont.
 | # | Critère | Poids | Note (1-5) | Pondéré |
 |---|---|---|---|---|
 | C1 | Intensité du problème | 3 | 4 | 12 |
-| C2 | Cible solvable (qui paie) | 3 | 3 | 9 |
+| C2 | Cible solvable (qui paie) | 3 | 2 | 6 |
 | C3 | Disponibilité & fiabilité données | 3 | 4 | 12 |
 | C4 | Espace concurrentiel libre | 2 | 1 | 2 |
 | C5 | Différenciation défendable | 2 | 1 | 2 |
@@ -280,15 +286,17 @@ la légalité** le sont.
 | C7 | Facilité du MVP | 2 | 5 | 10 |
 | C8 | Maîtrise des risques | 2 | 1 | 2 |
 | C9 | Monétisation / impact | 2 | 2 | 4 |
-| | **Total** | | | **63 / 105** |
+| | **Total** | | | **60 / 105** |
 
-**Score /100** : 63 / 105 × 100 = **60**
+**Score /100** : 60 / 105 × 100 = **57** (revue critique ; fiche d'origine : 63/105 → 60)
 
 Justification (une phrase par critère) :
 - **C1 = 4** : douleur réelle et récurrente (trouver des chantiers, piloter une
   politique), mais pas un 5 car déjà largement adressée.
-- **C2 = 3** : des payeurs existent (artisans, collectivités) mais le plus
-  naturel est miné par la loi et par le freemium, donc pas 4.
+- **C2 = 2** *(revue : 3 → 2)* : le payeur le plus naturel (artisan/prospection)
+  est à la fois **miné par la loi** (interdiction de démarchage en rénovation
+  énergétique) **et** doublé par le freemium (ScanReno) et le service public
+  gratuit (Go Rénove) — la voie légale et solvable se rétrécit.
 - **C3 = 4** : données ouvertes, propres, API + dump, traçables ; pas 5 à cause
   de l'absence du propriétaire, du ré-étiquetage 2026 et de la qualité variable.
 - **C4 = 1** : segment saturé sur tous les fronts (public + ≥5 produits
@@ -305,7 +313,8 @@ Justification (une phrase par critère) :
   additionnel marginal.
 
 ## 11. Verdict & décision
-🔁 **À retravailler** (score 60/100, dans la bande 55–69).
+🔁 **À retravailler** (score **57/100** après revue critique — C2 abaissé de 3 à 2 ;
+fiche d'origine : 60/100 — dans la bande 55–69, **à 2 points de l'écart**).
 
 L'idée part d'une **donnée excellente** (DPE ouvert, BDNB) et d'un **problème
 réel**, mais le **seed est bancal sur deux points décisifs** :
@@ -331,3 +340,10 @@ ne fournit pas (ex. ordonnancement des travaux, simulation budgétaire
 multi-aides traçable), en confirmant qu'il existe un payeur prêt à signer
 **malgré** l'alternative publique gratuite. Si ce payeur n'est pas trouvé après
 quelques entretiens, **basculer en ❌ Écartée**.
+
+> **Note revue (2026-06-23)** : la [`revue.md`](revue.md) confirme la saturation
+> (nouvel entrant **kelvin°** ajouté à ThermoData/ScanReno/MenuiserieAi/Thervy) et
+> le mur juridique, abaisse C2 (3 → 2) et le score (60 → 57/100). Le statut « à
+> retravailler » tient désormais **uniquement** grâce à la facilité technique
+> (C6/C7 = 5) — qui est aussi la cause de la saturation. La validation d'un payeur
+> B2B légal est érigée en **go/no-go**.
