@@ -2,8 +2,8 @@
 
 - **ID** : 0020
 - **Statut** : ❌ Écartée
-- **Score** : 53 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Score** : 53 / 100 (confirmé par revue red team du 2026-06-23 — cf. [`revue.md`](revue.md) ; scoring jugé fiable, aucune note modifiée)
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Outil B2G d'aide au pilotage pour DGS et élus : comparer sa commune/EPCI à des collectivités de strate comparable (comptes DGFiP/OFGL, fiscalité, dette, épargne) avec alertes et restitution pédagogique.
 
 ---
@@ -229,6 +229,13 @@ Périmètre minimal crédible (si l'idée n'était pas saturée) :
 | | **Total** | | | **56 / 105** | |
 
 **Score /100** : 56 / 105 × 100 = **53** (arrondi)
+
+> **Confirmé par revue red team (2026-06-23) : 53/100 inchangé** — scoring jugé
+> fiable (aucune note sur-optimiste). La revue note seulement deux concurrents
+> publics gratuits sous-documentés (DGFiP « Tableau de bord financier » / fiches
+> AEFF ; comparaison « groupe de référence » OFGL) qui **renforcent** C4=1, et
+> signale que « Girafe » n'a pas pu être vérifié comme produit. Détail dans
+> [`revue.md`](revue.md).
 
 ## 11. Verdict & décision
 
