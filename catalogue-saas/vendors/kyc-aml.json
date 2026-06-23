@@ -743,6 +743,70 @@
       "source_url": "https://stripe.com/identity",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "api-entreprise-gouv",
+      "name": "API Entreprise (DINUM)",
+      "url": "https://entreprise.api.gouv.fr/",
+      "segments": [
+        "kyc-aml",
+        "compliance-to-spec",
+        "open-data-governance-fr"
+      ],
+      "description": "API inter-administrations : statuts, dirigeants, attestations et données entreprises pour KYC lite et due diligence.",
+      "capabilities": [
+        "kyc_lite",
+        "company_data",
+        "attestations",
+        "api",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://www.data.gouv.fr/dataservices/api-entreprise",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Service public cité idée 0029 — pivot KYC lite (consulté 2026-06-23)."
+    },
+    {
+      "id": "api-recherche-entreprises",
+      "name": "API Recherche d'Entreprises",
+      "url": "https://recherche-entreprises.api.gouv.fr/",
+      "segments": [
+        "kyc-aml",
+        "data-enrichment-b2b",
+        "open-data-governance-fr"
+      ],
+      "description": "API open data recherche entreprises françaises : SIREN, SIRET, dirigeants, établissements.",
+      "capabilities": [
+        "company_search",
+        "sirene",
+        "open_data",
+        "api",
+        "france"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "self_serve",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://recherche-entreprises.api.gouv.fr/docs/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "notes": "Découvert auto data.gouv ; complète API Entreprise (consulté 2026-06-23)."
     }
   ]
 }

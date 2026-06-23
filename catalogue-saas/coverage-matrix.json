@@ -355,14 +355,14 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 4,
-          "new_added": 2,
-          "pass": "2026-06-v6-pilot-compliance-procurement",
-          "cumulative_new": 7
+          "candidates_found": 3,
+          "new_added": 3,
+          "pass": "2026-06-procurement-compliance-discover",
+          "cumulative_new": 10
         }
       },
-      "last_pass": "2026-06-v6-pilot-compliance-procurement",
-      "vendor_count_after_pass": 48
+      "last_pass": "2026-06-procurement-compliance-discover",
+      "vendor_count_after_pass": 51
     },
     "accessibility-compliance": {
       "target_level": "L3",
@@ -3663,14 +3663,14 @@
         },
         "official_site": {
           "consulted_at": "2026-06-23",
-          "candidates_found": 7,
-          "new_added": 3,
-          "pass": "2026-06-v6b-procurement-parsing-verify",
-          "cumulative_new": 19
+          "candidates_found": 1,
+          "new_added": 1,
+          "pass": "2026-06-procurement-compliance-discover",
+          "cumulative_new": 20
         }
       },
-      "last_pass": "2026-06-v6e-territorial-btp-verify",
-      "vendor_count_after_pass": 42
+      "last_pass": "2026-06-procurement-compliance-discover",
+      "vendor_count_after_pass": 43
     },
     "territorial-analytics": {
       "target_level": "L2",

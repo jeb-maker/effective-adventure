@@ -537,11 +537,12 @@
         "EU"
       ],
       "discovery_source": "open_source",
-      "discovery_pass": "2026-06-v6b-procurement-parsing-verify",
-      "source_url": "https://www.probo.io/",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://www.probo.ai/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "notes": "Promotion verified V6b — compliance open-source FR (revue 0029)."
+      "notes": "Promotion verified V6b — compliance open-source FR (revue 0029).",
+      "pricing_notes": "Compliance→spec FR ; site éditeur (consulté 2026-06-23)."
     },
     {
       "id": "sixclicks",
@@ -807,10 +808,11 @@
         "US"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "discovery_pass": "auto-verify-2026-06-23",
       "source_url": "https://camunda.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "conformiq",
@@ -835,10 +837,11 @@
         "US"
       ],
       "discovery_source": "analyst_report",
-      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "discovery_pass": "auto-verify-2026-06-23",
       "source_url": "https://www.conformiq.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "compliance-cow",
@@ -865,10 +868,11 @@
         "EU"
       ],
       "discovery_source": "open_source",
-      "discovery_pass": "2026-06-v5g-parsing-compliance",
+      "discovery_pass": "auto-verify-2026-06-23",
       "source_url": "https://www.compliancecow.com/",
-      "source_consulted_at": "2026-06-22",
-      "verification_status": "partial"
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "dilitrust",
@@ -895,10 +899,11 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
       "source_url": "https://www.dilitrust.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "GRC/compliance FR ; site éditeur (consulté 2026-06-23)."
     },
     {
       "id": "yooz",
@@ -927,10 +932,11 @@
         "US"
       ],
       "discovery_source": "g2",
-      "discovery_pass": "2026-06-v5h-dossier-valide",
-      "source_url": "https://www.getyooz.com/",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://www.yooz.eu/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "AP automation FR ; concurrent idée 0029 (consulté 2026-06-23)."
     },
     {
       "id": "libeo",
@@ -956,10 +962,11 @@
         "EU"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
       "source_url": "https://libeo.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Paiements fournisseurs FR ; site éditeur (consulté 2026-06-23)."
     },
     {
       "id": "whistic",
@@ -1045,10 +1052,11 @@
         "EU"
       ],
       "discovery_source": "alternatives",
-      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "discovery_pass": "auto-verify-2026-06-23",
       "source_url": "https://conformio.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "laika",
@@ -1136,10 +1144,11 @@
         "US"
       ],
       "discovery_source": "geo_digest",
-      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "discovery_pass": "auto-verify-2026-06-23",
       "source_url": "https://www.certivity.io/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "qualio",
@@ -1195,10 +1204,11 @@
         "EU"
       ],
       "discovery_source": "analyst_report",
-      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "discovery_pass": "auto-verify-2026-06-23",
       "source_url": "https://www.compliancequest.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "zengrc",
@@ -1282,10 +1292,11 @@
         "EU"
       ],
       "discovery_source": "crunchbase",
-      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "discovery_pass": "auto-verify-2026-06-23",
       "source_url": "https://www.getcerta.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "complion",
@@ -1311,10 +1322,11 @@
         "EU"
       ],
       "discovery_source": "analyst_report",
-      "discovery_pass": "2026-06-v5q-recordai-chain-l3",
+      "discovery_pass": "auto-verify-2026-06-23",
       "source_url": "https://www.complion.com/",
       "source_consulted_at": "2026-06-23",
-      "verification_status": "partial"
+      "verification_status": "verified",
+      "pricing_notes": "Promotion auto verify-eligible ; source officielle (consulté 2026-06-23)."
     },
     {
       "id": "ideagen",
@@ -1436,12 +1448,111 @@
         "EU"
       ],
       "discovery_source": "official_site",
-      "discovery_pass": "2026-06-v6-pilot-compliance-procurement",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
       "source_url": "https://verifypdf.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "verified",
-      "pricing_notes": "Basic 19 $/mois (150 docs), Professional 99 $/mois (1000 docs, API) ; essai 15 jours (consulté 2026-06-23).",
+      "pricing_notes": "Vérification PDF DORA ; cité idée 0029 (consulté 2026-06-23).",
       "notes": "Angle fraude documentaire / DORA prestataires tiers — complète CheckFile sur l'intégrité PDF."
+    },
+    {
+      "id": "shift-claims",
+      "name": "Shift Claims",
+      "url": "https://shift-claims.com/",
+      "segments": [
+        "compliance-to-spec",
+        "document-idp",
+        "insurance-insurtech"
+      ],
+      "description": "IA agentique gestion sinistres : traitement documents entrants, workflow assurance, lancement FR 2025.",
+      "capabilities": [
+        "claims_automation",
+        "document_processing",
+        "insurance",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://shift-claims.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent vertical sinistres cité idée 0029 revue (consulté 2026-06-23)."
+    },
+    {
+      "id": "korint",
+      "name": "Korint",
+      "url": "https://www.korint.io/",
+      "segments": [
+        "compliance-to-spec",
+        "insurance-insurtech",
+        "automation-platforms"
+      ],
+      "description": "Plateforme IA assurance : core, distribution, pricing engine et modules claims pour assureurs, courtiers et MGAs.",
+      "capabilities": [
+        "insurance_core",
+        "claims_module",
+        "pricing_engine",
+        "api",
+        "france"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://www.korint.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent assurance cité idée 0029 (consulté 2026-06-23)."
+    },
+    {
+      "id": "mediar",
+      "name": "Mediar",
+      "url": "https://www.mediar.ai/",
+      "segments": [
+        "compliance-to-spec",
+        "document-idp",
+        "rpa-enterprise",
+        "automation-platforms"
+      ],
+      "description": "Agents IA desktop : automatisation workflows Windows (formulaires, PDF, sinistres) sans API, alternative RPA.",
+      "capabilities": [
+        "desktop_automation",
+        "document_processing",
+        "claims",
+        "rpa",
+        "workflow"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "source_url": "https://www.mediar.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent workflow documents cité idée 0029 revue (consulté 2026-06-23)."
     }
   ]
 }

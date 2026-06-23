@@ -83,7 +83,7 @@ attaquer ce segment directement.
 
 #### Segment `public-procurement-intel` — Intelligence marchés publics
 
-Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalogue-saas/vendors/public-procurement-intel.json) (42 entrées)
+Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalogue-saas/vendors/public-procurement-intel.json) (43 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -99,7 +99,7 @@ Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalog
 | `data-economie-gouv` | data.economie.gouv.fr | FR | strong | partial |
 | `openbar` | OpenBar (Regards Citoyens) | FR | strong | partial |
 | `nextend-ai` | Nextend.ai | FR | strong | verified |
-| … | _+30 autres_ | | | |
+| … | _+31 autres_ | | | |
 
 Commandes :
 ```bash

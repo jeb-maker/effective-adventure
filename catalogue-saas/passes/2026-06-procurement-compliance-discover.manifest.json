@@ -1,0 +1,251 @@
+{
+  "pass_id": "2026-06-procurement-compliance-discover",
+  "date": "2026-06-23",
+  "description": "Passe procurement + compliance-to-spec — revues 0001/0029 + APIs publiques + promote FR",
+  "additions": {
+    "public-procurement-intel.json": [
+      {
+        "id": "attribution-intelligence",
+        "name": "Attribution Intelligence",
+        "url": "https://attribution-intelligence.fr/",
+        "segments": ["public-procurement-intel", "territorial-analytics"],
+        "description": "Intelligence attribution marchés publics : analyse titulaires, prix et concurrence sur données DECP.",
+        "capabilities": ["decp", "attribution_analytics", "pricing_benchmark", "france"],
+        "pricing_model": "hybrid",
+        "target_market": "smb",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-procurement-compliance-discover",
+        "source_url": "https://attribution-intelligence.fr/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Concurrent cité revue idée 0001 (consulté 2026-06-23)."
+      }
+    ],
+    "compliance-to-spec.json": [
+      {
+        "id": "shift-claims",
+        "name": "Shift Claims",
+        "url": "https://shift-claims.com/",
+        "segments": ["compliance-to-spec", "document-idp", "insurance-insurtech"],
+        "description": "IA agentique gestion sinistres : traitement documents entrants, workflow assurance, lancement FR 2025.",
+        "capabilities": ["claims_automation", "document_processing", "insurance", "france"],
+        "pricing_model": "enterprise_quote",
+        "target_market": "mid_market",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR", "EU"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-procurement-compliance-discover",
+        "source_url": "https://shift-claims.com/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Concurrent vertical sinistres cité idée 0029 revue (consulté 2026-06-23)."
+      },
+      {
+        "id": "korint",
+        "name": "Korint",
+        "url": "https://www.korint.io/",
+        "segments": ["compliance-to-spec", "insurance-insurtech", "automation-platforms"],
+        "description": "Plateforme IA assurance : core, distribution, pricing engine et modules claims pour assureurs, courtiers et MGAs.",
+        "capabilities": ["insurance_core", "claims_module", "pricing_engine", "api", "france"],
+        "pricing_model": "enterprise_quote",
+        "target_market": "enterprise",
+        "geography": "europe",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR", "EU"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-procurement-compliance-discover",
+        "source_url": "https://www.korint.io/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Concurrent assurance cité idée 0029 (consulté 2026-06-23)."
+      },
+      {
+        "id": "mediar",
+        "name": "Mediar",
+        "url": "https://www.mediar.ai/",
+        "segments": ["compliance-to-spec", "document-idp", "rpa-enterprise", "automation-platforms"],
+        "description": "Agents IA desktop : automatisation workflows Windows (formulaires, PDF, sinistres) sans API, alternative RPA.",
+        "capabilities": ["desktop_automation", "document_processing", "claims", "rpa", "workflow"],
+        "pricing_model": "hybrid",
+        "target_market": "mid_market",
+        "geography": "global",
+        "hq_country": "US",
+        "france_market": "partial",
+        "operating_regions": ["US", "EU"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-procurement-compliance-discover",
+        "source_url": "https://www.mediar.ai/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "partial",
+        "notes": "Concurrent workflow documents cité idée 0029 revue (consulté 2026-06-23)."
+      }
+    ],
+    "kyc-aml.json": [
+      {
+        "id": "api-entreprise-gouv",
+        "name": "API Entreprise (DINUM)",
+        "url": "https://entreprise.api.gouv.fr/",
+        "segments": ["kyc-aml", "compliance-to-spec", "open-data-governance-fr"],
+        "description": "API inter-administrations : statuts, dirigeants, attestations et données entreprises pour KYC lite et due diligence.",
+        "capabilities": ["kyc_lite", "company_data", "attestations", "api", "france"],
+        "pricing_model": "freemium",
+        "target_market": "mid_market",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-procurement-compliance-discover",
+        "source_url": "https://www.data.gouv.fr/dataservices/api-entreprise",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "verified",
+        "notes": "Service public cité idée 0029 — pivot KYC lite (consulté 2026-06-23)."
+      },
+      {
+        "id": "api-recherche-entreprises",
+        "name": "API Recherche d'Entreprises",
+        "url": "https://recherche-entreprises.api.gouv.fr/",
+        "segments": ["kyc-aml", "data-enrichment-b2b", "open-data-governance-fr"],
+        "description": "API open data recherche entreprises françaises : SIREN, SIRET, dirigeants, établissements.",
+        "capabilities": ["company_search", "sirene", "open_data", "api", "france"],
+        "pricing_model": "freemium",
+        "target_market": "self_serve",
+        "geography": "france",
+        "hq_country": "FR",
+        "france_market": "strong",
+        "operating_regions": ["FR"],
+        "discovery_source": "official_site",
+        "discovery_pass": "2026-06-procurement-compliance-discover",
+        "source_url": "https://recherche-entreprises.api.gouv.fr/docs/",
+        "source_consulted_at": "2026-06-23",
+        "verification_status": "verified",
+        "notes": "Découvert auto data.gouv ; complète API Entreprise (consulté 2026-06-23)."
+      }
+    ]
+  },
+  "verify_updates": {
+    "doubletrade": {
+      "verification_status": "verified",
+      "source_url": "https://www.doubletrade.com/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "Intelligence marchés publics FR ; site éditeur (consulté 2026-06-23)."
+    },
+    "weproc": {
+      "verification_status": "verified",
+      "source_url": "https://www.weproc.com/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "Veille AO FR ; site éditeur (consulté 2026-06-23)."
+    },
+    "first-ao": {
+      "verification_status": "verified",
+      "source_url": "https://www.first-ao.com/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "Plateforme AO ; site éditeur (consulté 2026-06-23)."
+    },
+    "explore": {
+      "verification_status": "verified",
+      "source_url": "https://www.explore.fr/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "Veille marchés publics ; site éditeur (consulté 2026-06-23)."
+    },
+    "centrale-des-marches": {
+      "verification_status": "verified",
+      "source_url": "https://www.centraledesmarches.com/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "Portail AO ; site éditeur (consulté 2026-06-23)."
+    },
+    "marches-online": {
+      "verification_status": "verified",
+      "source_url": "https://www.marchesonline.com/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "Veille AO ; site éditeur (consulté 2026-06-23)."
+    },
+    "france-marches": {
+      "verification_status": "verified",
+      "source_url": "https://www.francemarches.com/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "Marchés publics FR ; site éditeur (consulté 2026-06-23)."
+    },
+    "tengo": {
+      "verification_status": "verified",
+      "source_url": "https://www.tengo.fr/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "Démat AO ; site éditeur (consulté 2026-06-23)."
+    },
+    "vecteur-plus": {
+      "verification_status": "verified",
+      "source_url": "https://vecteurplus.com/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "Veille AO/privé ; site éditeur (consulté 2026-06-23)."
+    },
+    "dilitrust": {
+      "verification_status": "verified",
+      "source_url": "https://www.dilitrust.com/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "GRC/compliance FR ; site éditeur (consulté 2026-06-23)."
+    },
+    "yooz": {
+      "verification_status": "verified",
+      "source_url": "https://www.yooz.eu/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "AP automation FR ; concurrent idée 0029 (consulté 2026-06-23)."
+    },
+    "libeo": {
+      "verification_status": "verified",
+      "source_url": "https://libeo.io/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "Paiements fournisseurs FR ; site éditeur (consulté 2026-06-23)."
+    },
+    "probo": {
+      "verification_status": "verified",
+      "source_url": "https://www.probo.ai/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "Compliance→spec FR ; site éditeur (consulté 2026-06-23)."
+    },
+    "verifypdf": {
+      "verification_status": "verified",
+      "source_url": "https://verifypdf.com/",
+      "source_consulted_at": "2026-06-23",
+      "discovery_pass": "2026-06-procurement-compliance-discover",
+      "pricing_notes": "Vérification PDF DORA ; cité idée 0029 (consulté 2026-06-23)."
+    }
+  },
+  "coverage_updates": {
+    "public-procurement-intel": {
+      "official_site": {
+        "consulted_at": "2026-06-23",
+        "candidates_found": 1,
+        "new_added": 1,
+        "pass": "2026-06-procurement-compliance-discover"
+      }
+    },
+    "compliance-to-spec": {
+      "official_site": {
+        "consulted_at": "2026-06-23",
+        "candidates_found": 3,
+        "new_added": 3,
+        "pass": "2026-06-procurement-compliance-discover"
+      }
+    }
+  }
+}
