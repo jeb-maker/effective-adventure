@@ -1,6 +1,6 @@
 {
   "segment": "agent-frameworks-platforms",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "langchain",
@@ -143,6 +143,181 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "url": "https://dify.ai/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Plateforme LLM ops open-source ; agents, workflows visuels, RAG et API production.",
+      "capabilities": [
+        "agent_workflows",
+        "visual_builder",
+        "rag",
+        "api_deploy"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://dify.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "flowise",
+      "name": "Flowise",
+      "url": "https://flowiseai.com/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Builder agents visuel open-source ; LangChain nodes, chatflows et self-hosted.",
+      "capabilities": [
+        "visual_builder",
+        "langchain_nodes",
+        "chatflows",
+        "self_hosted"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://flowiseai.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "agno",
+      "name": "Agno",
+      "url": "https://www.agno.com/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Framework agents Python ; multi-agent, mémoire, tool use et déploiement production.",
+      "capabilities": [
+        "multi_agent",
+        "memory",
+        "tool_use",
+        "production_deploy"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.agno.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "superagent",
+      "name": "Superagent",
+      "url": "https://www.superagent.sh/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "Framework agents TypeScript ; guardrails, tool calling et déploiement serverless.",
+      "capabilities": [
+        "typescript_agents",
+        "guardrails",
+        "tool_calling",
+        "serverless"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.superagent.sh/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "agentops",
+      "name": "AgentOps",
+      "url": "https://www.agentops.ai/",
+      "segments": [
+        "agent-frameworks-platforms",
+        "ai-evals-testing"
+      ],
+      "description": "Observabilité agents ; session replay, coûts, debugging et evals runtime.",
+      "capabilities": [
+        "agent_observability",
+        "session_replay",
+        "cost_tracking",
+        "debugging"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.agentops.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "langflow",
+      "name": "Langflow",
+      "url": "https://www.langflow.org/",
+      "segments": [
+        "agent-frameworks-platforms"
+      ],
+      "description": "UI low-code LangChain ; flows agents, composants custom et export Python/API.",
+      "capabilities": [
+        "low_code",
+        "langchain",
+        "custom_components",
+        "api_export"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.langflow.org/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

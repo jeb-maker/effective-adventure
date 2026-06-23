@@ -65,7 +65,8 @@
       "name": "n8n",
       "url": "https://n8n.io/",
       "segments": [
-        "automation-platforms"
+        "automation-platforms",
+        "agent-frameworks-platforms"
       ],
       "description": "Workflow automation open-source / cloud ; populaire pour pipelines IA self-hosted.",
       "capabilities": [

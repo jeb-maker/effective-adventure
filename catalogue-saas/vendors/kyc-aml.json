@@ -1,6 +1,6 @@
 {
   "segment": "kyc-aml",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "onfido",
@@ -145,6 +145,245 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "ubble",
+      "name": "Ubble",
+      "url": "https://ubble.ai/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "Vérification identité vidéo certifiée ANSSI ; KYC lite pour fintech et onboarding digital FR.",
+      "capabilities": [
+        "video_identification",
+        "anssi_certified",
+        "kyc_lite",
+        "liveness"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://ubble.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial",
+      "notes": "Concurrent cité idée 0029 RecordAI KYC lite."
+    },
+    {
+      "id": "veriff",
+      "name": "Veriff",
+      "url": "https://www.veriff.com/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "Identity verification AI ; documents, biométrie, liveness et fraud prevention onboarding.",
+      "capabilities": [
+        "document_verification",
+        "biometric",
+        "liveness",
+        "fraud_prevention"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "EE",
+      "france_market": "partial",
+      "operating_regions": [
+        "EE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.veriff.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "idnow",
+      "name": "IDnow",
+      "url": "https://www.idnow.io/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "KYC/KYB européen ; vidéo-identification, eIDAS et conformité AML secteurs régulés.",
+      "capabilities": [
+        "video_identification",
+        "eidas",
+        "kyb",
+        "aml"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "FR"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.idnow.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "persona",
+      "name": "Persona",
+      "url": "https://withpersona.com/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "Plateforme identity orchestration ; workflows KYC configurables, screening et case management.",
+      "capabilities": [
+        "identity_orchestration",
+        "kyc_workflows",
+        "screening",
+        "case_management"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://withpersona.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "trulioo",
+      "name": "Trulioo",
+      "url": "https://www.trulioo.com/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "Global identity verification ; couverture 195 pays, KYB et watchlist screening.",
+      "capabilities": [
+        "global_kyc",
+        "kyb",
+        "watchlist",
+        "document_verification"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "CA",
+      "france_market": "partial",
+      "operating_regions": [
+        "CA",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.trulioo.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "alloy",
+      "name": "Alloy",
+      "url": "https://www.alloy.com/",
+      "segments": [
+        "kyc-aml",
+        "regtech"
+      ],
+      "description": "Identity decisioning fintech ; orchestration KYC/KYB, fraud et compliance onboarding.",
+      "capabilities": [
+        "identity_decisioning",
+        "kyc_kyb",
+        "fraud",
+        "workflow"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.alloy.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dotfile",
+      "name": "Dotfile",
+      "url": "https://www.dotfile.com/",
+      "segments": [
+        "kyc-aml"
+      ],
+      "description": "KYB/KYC no-code FR ; collecte dossiers, vérifications tierces et portail conformité PME.",
+      "capabilities": [
+        "kyb",
+        "kyc",
+        "no_code",
+        "compliance_portal"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.dotfile.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "salv",
+      "name": "Salv",
+      "url": "https://salv.com/",
+      "segments": [
+        "kyc-aml",
+        "regtech"
+      ],
+      "description": "AML screening et monitoring transactionnel ; sanctions, PEP et alertes temps réel.",
+      "capabilities": [
+        "aml_screening",
+        "transaction_monitoring",
+        "sanctions",
+        "pep"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "europe",
+      "hq_country": "EE",
+      "france_market": "partial",
+      "operating_regions": [
+        "EE",
+        "EU",
+        "FR"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://salv.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

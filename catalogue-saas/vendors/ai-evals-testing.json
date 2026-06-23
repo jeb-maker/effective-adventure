@@ -1,6 +1,6 @@
 {
   "segment": "ai-evals-testing",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "braintrust",
@@ -142,6 +142,180 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "arize-phoenix",
+      "name": "Arize Phoenix",
+      "url": "https://phoenix.arize.com/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Observabilité LLM open-source ; tracing, evals, drift detection et datasets.",
+      "capabilities": [
+        "llm_tracing",
+        "evals",
+        "drift_detection",
+        "datasets"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://phoenix.arize.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "helicone",
+      "name": "Helicone",
+      "url": "https://www.helicone.ai/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "LLM observability ; logging proxy, coûts, latence et evals intégrées production.",
+      "capabilities": [
+        "llm_logging",
+        "cost_tracking",
+        "latency",
+        "evals"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.helicone.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "confident-ai",
+      "name": "Confident AI (DeepEval)",
+      "url": "https://www.confident-ai.com/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Evals LLM unitaires ; métriques RAG, hallucination, CI/CD et regression testing.",
+      "capabilities": [
+        "unit_evals",
+        "rag_metrics",
+        "hallucination",
+        "ci_cd"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.confident-ai.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "deepeval",
+      "name": "DeepEval",
+      "url": "https://github.com/confident-ai/deepeval",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Framework evals Python open-source ; métriques G-Eval, RAG et red teaming.",
+      "capabilities": [
+        "python_evals",
+        "g_eval",
+        "rag_metrics",
+        "red_teaming"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://github.com/confident-ai/deepeval",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ragas",
+      "name": "Ragas",
+      "url": "https://docs.ragas.io/",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Framework evals RAG ; faithfulness, answer relevance et synthetic test generation.",
+      "capabilities": [
+        "rag_evals",
+        "faithfulness",
+        "synthetic_data",
+        "metrics"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://docs.ragas.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "wandb-weave",
+      "name": "Weights & Biases Weave",
+      "url": "https://wandb.ai/site/weave",
+      "segments": [
+        "ai-evals-testing"
+      ],
+      "description": "Tracing et evals GenAI ; expériences LLM, datasets et comparaison modèles.",
+      "capabilities": [
+        "genai_tracing",
+        "experiments",
+        "model_comparison",
+        "datasets"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://wandb.ai/site/weave",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

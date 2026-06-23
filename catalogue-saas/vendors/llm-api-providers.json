@@ -1,6 +1,6 @@
 {
   "segment": "llm-api-providers",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "openai-api",
@@ -64,7 +64,8 @@
       "name": "Mistral AI",
       "url": "https://mistral.ai/",
       "segments": [
-        "llm-api-providers"
+        "llm-api-providers",
+        "model-inference-hosting"
       ],
       "description": "Modèles open et propriétaires européens ; API, fine-tuning et déploiement souverain.",
       "capabilities": [
@@ -144,6 +145,185 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "aleph-alpha",
+      "name": "Aleph Alpha",
+      "url": "https://aleph-alpha.com/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "LLM européen souverain ; modèles Luminous, API enterprise et déploiement on-prem EU.",
+      "capabilities": [
+        "european_llm",
+        "luminous",
+        "sovereign_deployment",
+        "api"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "enterprise",
+      "geography": "europe",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "FR"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://aleph-alpha.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ai21-labs",
+      "name": "AI21 Labs",
+      "url": "https://www.ai21.com/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "Jurassic models API ; génération, summarization et RAG toolkit enterprise.",
+      "capabilities": [
+        "jurassic_models",
+        "generation",
+        "summarization",
+        "rag"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.ai21.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "meta-llama-api",
+      "name": "Meta Llama API",
+      "url": "https://llama.meta.com/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "Modèles Llama open via API ; inference managée Meta et partenaires cloud.",
+      "capabilities": [
+        "llama_models",
+        "open_weights",
+        "managed_inference",
+        "fine_tuning"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://llama.meta.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "deepseek-api",
+      "name": "DeepSeek API",
+      "url": "https://platform.deepseek.com/",
+      "segments": [
+        "llm-api-providers"
+      ],
+      "description": "API modèles DeepSeek ; reasoning, code et pricing compétitif pour workloads batch.",
+      "capabilities": [
+        "reasoning_models",
+        "code_generation",
+        "batch_inference",
+        "api"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "CN",
+      "france_market": "partial",
+      "operating_regions": [
+        "CN",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://platform.deepseek.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fireworks-ai",
+      "name": "Fireworks AI",
+      "url": "https://fireworks.ai/",
+      "segments": [
+        "llm-api-providers",
+        "model-inference-hosting"
+      ],
+      "description": "Inference API modèles open ; latence optimisée, fine-tuning et function calling.",
+      "capabilities": [
+        "fast_inference",
+        "open_models",
+        "fine_tuning",
+        "function_calling"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://fireworks.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "url": "https://groq.com/",
+      "segments": [
+        "llm-api-providers",
+        "model-inference-hosting"
+      ],
+      "description": "Inference ultra-rapide LPU ; API Llama/Mixtral et latence prévisible production.",
+      "capabilities": [
+        "lpu_inference",
+        "low_latency",
+        "llama_api",
+        "production"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://groq.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

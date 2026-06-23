@@ -1,6 +1,6 @@
 {
   "segment": "rag-knowledge",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "glean",
@@ -35,7 +35,8 @@
       "name": "Dust",
       "url": "https://dust.tt/",
       "segments": [
-        "rag-knowledge"
+        "rag-knowledge",
+        "agent-frameworks-platforms"
       ],
       "description": "Assistants IA sur données d'équipe avec connecteurs et agents.",
       "capabilities": [

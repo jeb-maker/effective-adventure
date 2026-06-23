@@ -1,6 +1,6 @@
 {
   "segment": "vector-databases",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "pinecone",
@@ -141,6 +141,152 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "pgvector",
+      "name": "pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Extension PostgreSQL vectors ; recherche similarité, HNSW/IVFFlat et stack SQL familière.",
+      "capabilities": [
+        "postgres_extension",
+        "similarity_search",
+        "hnsw",
+        "sql"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://github.com/pgvector/pgvector",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "redis-vector-search",
+      "name": "Redis Vector Search",
+      "url": "https://redis.io/docs/latest/develop/interact/search-and-query/vectors/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Recherche vectorielle Redis ; indexing HNSW, hybrid search et cache embeddings temps réel.",
+      "capabilities": [
+        "vector_index",
+        "hybrid_search",
+        "hnsw",
+        "real_time"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://redis.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "mongodb-atlas-vector",
+      "name": "MongoDB Atlas Vector Search",
+      "url": "https://www.mongodb.com/products/platform/atlas-vector-search",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Vector search natif Atlas ; filtres metadata, RAG et intégration documents JSON.",
+      "capabilities": [
+        "vector_search",
+        "metadata_filter",
+        "rag",
+        "document_store"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.mongodb.com/products/platform/atlas-vector-search",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "turbopuffer",
+      "name": "Turbopuffer",
+      "url": "https://turbopuffer.com/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Vector DB serverless ; stockage objet + ANN, latence faible et pricing usage-based.",
+      "capabilities": [
+        "serverless",
+        "ann",
+        "object_storage",
+        "low_latency"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://turbopuffer.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "marqo",
+      "name": "Marqo",
+      "url": "https://www.marqo.ai/",
+      "segments": [
+        "vector-databases"
+      ],
+      "description": "Vector search end-to-end ; embeddings intégrés, multimodal et API RAG simplifiée.",
+      "capabilities": [
+        "embedded_models",
+        "multimodal",
+        "rag_api",
+        "hybrid_search"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "AU",
+      "france_market": "partial",
+      "operating_regions": [
+        "AU",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.marqo.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

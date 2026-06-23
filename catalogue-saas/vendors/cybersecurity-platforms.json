@@ -1,6 +1,6 @@
 {
   "segment": "cybersecurity-platforms",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "crowdstrike-falcon",
@@ -145,6 +145,181 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "elastic-security",
+      "name": "Elastic Security",
+      "url": "https://www.elastic.co/security",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "SIEM/XDR open ; détection menaces, EDR, SOAR et threat hunting sur stack Elastic.",
+      "capabilities": [
+        "siem",
+        "xdr",
+        "edr",
+        "threat_hunting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.elastic.co/security",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "arctic-wolf",
+      "name": "Arctic Wolf",
+      "url": "https://arcticwolf.com/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "MDR/SOC-as-a-service ; monitoring 24/7, détection et réponse incidents managée.",
+      "capabilities": [
+        "mdr",
+        "soc_as_service",
+        "incident_response",
+        "managed_detection"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://arcticwolf.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "harfanglab",
+      "name": "HarfangLab",
+      "url": "https://harfanglab.io/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "EDR/XDR souverain FR ; détection comportementale, threat hunting et réponse endpoint.",
+      "capabilities": [
+        "edr",
+        "xdr",
+        "threat_hunting",
+        "sovereign"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://harfanglab.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sekoia",
+      "name": "Sekoia.io",
+      "url": "https://www.sekoia.io/",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "XDR/SOC platform FR ; CTI intégrée, playbooks SOAR et détection multi-sources.",
+      "capabilities": [
+        "xdr",
+        "soc",
+        "cti",
+        "soar"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.sekoia.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ibm-qradar",
+      "name": "IBM QRadar",
+      "url": "https://www.ibm.com/qradar",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "SIEM enterprise ; corrélation logs, UEBA, SOAR et threat intelligence intégrée.",
+      "capabilities": [
+        "siem",
+        "ueba",
+        "soar",
+        "threat_intel"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.ibm.com/qradar",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "trend-micro-vision-one",
+      "name": "Trend Micro Vision One",
+      "url": "https://www.trendmicro.com/en_us/business/products/detection-response/vision-one.html",
+      "segments": [
+        "cybersecurity-platforms"
+      ],
+      "description": "Plateforme XDR unifiée ; EDR, email security, cloud et attack surface management.",
+      "capabilities": [
+        "xdr",
+        "edr",
+        "attack_surface",
+        "soar"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "JP",
+      "france_market": "partial",
+      "operating_regions": [
+        "JP",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.trendmicro.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

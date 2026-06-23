@@ -1,6 +1,6 @@
 {
   "segment": "email-security",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "proofpoint",
@@ -143,6 +143,182 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "vade",
+      "name": "Vade (Hornetsecurity)",
+      "url": "https://www.vadesecure.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Filtrage email IA FR ; anti-phishing, spear phishing et protection Microsoft 365/Google.",
+      "capabilities": [
+        "email_filtering",
+        "anti_phishing",
+        "ai_detection",
+        "m365"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.vadesecure.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tessian",
+      "name": "Tessian",
+      "url": "https://www.tessian.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Email security comportementale ; BEC, data loss prevention et coaching utilisateurs.",
+      "capabilities": [
+        "bec_protection",
+        "dlp",
+        "behavioral_ai",
+        "user_coaching"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "partial",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.tessian.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ironscales",
+      "name": "IRONSCALES",
+      "url": "https://ironscales.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Email security crowdsourced ; phishing, BEC et remédiation automatisée boîtes utilisateurs.",
+      "capabilities": [
+        "phishing",
+        "bec",
+        "crowdsourced_intel",
+        "remediation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "IL",
+      "france_market": "partial",
+      "operating_regions": [
+        "IL",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://ironscales.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cofense",
+      "name": "Cofense",
+      "url": "https://cofense.com/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Phishing defense ; simulation, reporting utilisateurs et triage analyste threats email.",
+      "capabilities": [
+        "phishing_simulation",
+        "user_reporting",
+        "triage",
+        "awareness"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://cofense.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "area1-security",
+      "name": "Area 1 Security (Cloudflare)",
+      "url": "https://www.cloudflare.com/zero-trust/products/email-security/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Email security preemptive ; détection phishing zero-day et intégration Cloudflare Zero Trust.",
+      "capabilities": [
+        "preemptive_phishing",
+        "zero_day",
+        "zero_trust",
+        "bec"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.cloudflare.com/zero-trust/products/email-security/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cloudflare-email-security",
+      "name": "Cloudflare Email Security",
+      "url": "https://www.cloudflare.com/email-security/",
+      "segments": [
+        "email-security"
+      ],
+      "description": "Protection email cloud ; anti-phishing, impersonation et isolation navigateur liens.",
+      "capabilities": [
+        "anti_phishing",
+        "impersonation",
+        "link_isolation",
+        "cloud_native"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.cloudflare.com/email-security/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

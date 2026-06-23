@@ -132,6 +132,26 @@ Fichier : [`catalogue-saas/vendors/automation-platforms.json`](../../catalogue-s
 | `bardeen` | Bardeen | US | partial | partial |
 | … | _+9 autres_ | | | |
 
+#### Segment `kyc-aml` — KYC / AML / identity
+
+Fichier : [`catalogue-saas/vendors/kyc-aml.json`](../../catalogue-saas/vendors/kyc-aml.json) (13 entrées)
+
+| ID | Nom | HQ | Marché FR | Vérification |
+|---|---|---|---|---|
+| `onfido` | Onfido | GB | partial | partial |
+| `sumsub` | Sumsub | US | partial | partial |
+| `jumio` | Jumio | US | partial | partial |
+| `complyadvantage` | ComplyAdvantage | US | partial | partial |
+| `seon` | SEON | US | partial | partial |
+| `ubble` | Ubble | FR | strong | partial |
+| `veriff` | Veriff | EE | partial | partial |
+| `idnow` | IDnow | DE | partial | partial |
+| `persona` | Persona | US | partial | partial |
+| `trulioo` | Trulioo | CA | partial | partial |
+| `alloy` | Alloy | US | partial | partial |
+| `dotfile` | Dotfile | FR | strong | partial |
+| … | _+1 autres_ | | | |
+
 Commandes :
 ```bash
 python3 scripts/catalogue_saas.py stats

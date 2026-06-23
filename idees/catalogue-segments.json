@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "description": "Liaison idées → segments catalogue-saas (référence concurrence structurée).",
   "ideas": {
     "0001-radar-commande-publique": ["public-procurement-intel", "territorial-analytics"],
@@ -31,6 +31,6 @@
     "0026-exposition-parcelles-agricoles": ["geospatial-gis-fr", "environmental-data-fr"],
     "0027-transparence-subventions-marches": ["public-procurement-intel", "territorial-analytics"],
     "0028-tensions-emploi-territoire": ["territorial-analytics", "hr-talent-ai"],
-    "0029-recordai": ["parsing-inbox", "document-idp", "compliance-to-spec", "automation-platforms"]
+    "0029-recordai": ["parsing-inbox", "document-idp", "compliance-to-spec", "automation-platforms", "kyc-aml"]
   }
 }

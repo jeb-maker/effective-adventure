@@ -185,7 +185,9 @@
       "name": "Snyk",
       "url": "https://snyk.io/",
       "segments": [
-        "compliance-to-spec"
+        "compliance-to-spec",
+        "cloud-security-cspm",
+        "vulnerability-management"
       ],
       "description": "Sécurité dev avec policies-as-code dans le pipeline ; encode exigences dans le flux de livraison logicielle.",
       "capabilities": [

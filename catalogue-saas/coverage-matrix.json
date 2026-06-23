@@ -436,11 +436,11 @@
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 18,
+          "new_added": 4,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 6
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -450,11 +450,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 2
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -471,7 +471,13 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "open_source": null,
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
+          "new_added": 3,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 3
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -480,8 +486,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "vendor_count_after_pass": 13
     },
     "pharma-regulatory": {
       "target_level": "L2",
@@ -538,11 +544,11 @@
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 16,
+          "new_added": 3,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 5
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -559,11 +565,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 2
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -573,7 +579,13 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "open_source": null,
-        "geo_digest": null,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 10,
+          "new_added": 2,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 2
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -582,18 +594,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "vendor_count_after_pass": 11
     },
     "identity-access-management": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 4,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 6
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -623,8 +635,20 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
-        "geo_digest": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
+          "new_added": 1,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 1
+        },
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 1,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 1
+        },
         "official_site": {
           "consulted_at": "2026-06-22",
           "candidates_found": 10,
@@ -633,18 +657,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "vendor_count_after_pass": 11
     },
     "cloud-security-cspm": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 3,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 5
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -654,11 +678,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 2
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -677,25 +701,25 @@
         "open_source": null,
         "geo_digest": null,
         "official_site": {
-          "consulted_at": "2026-06-22",
+          "consulted_at": "2026-06-23",
           "candidates_found": 10,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "new_added": 2,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 3
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "vendor_count_after_pass": 11
     },
     "email-security": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
+          "new_added": 4,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 6
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -726,27 +750,33 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "open_source": null,
-        "geo_digest": null,
-        "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 1
+        },
+        "official_site": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
+          "new_added": 1,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 2
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "vendor_count_after_pass": 11
     },
     "vulnerability-management": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
+          "new_added": 3,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 5
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -763,11 +793,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "analyst_report": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
+          "new_added": 2,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 3
         },
         "alternatives": {
           "consulted_at": "2026-06-22",
@@ -776,7 +806,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 1,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 1
+        },
         "geo_digest": null,
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -786,18 +822,18 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "vendor_count_after_pass": 11
     },
     "llm-api-providers": {
       "target_level": "L2",
       "sources": {
         "g2": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
           "new_added": 2,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 4
         },
         "capterra": {
           "consulted_at": "2026-06-22",
@@ -807,11 +843,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 2,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 3
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -828,17 +864,23 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "open_source": null,
-        "geo_digest": null,
-        "official_site": {
-          "consulted_at": "2026-06-22",
+        "geo_digest": {
+          "consulted_at": "2026-06-23",
           "candidates_found": 10,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 1
+        },
+        "official_site": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
+          "new_added": 1,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 2
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "vendor_count_after_pass": 11
     },
     "model-inference-hosting": {
       "target_level": "L2",
@@ -858,11 +900,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 12,
+          "new_added": 4,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 5
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -878,18 +920,24 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
+          "new_added": 1,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 1
+        },
         "geo_digest": null,
         "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 2
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "vendor_count_after_pass": 11
     },
     "vector-databases": {
       "target_level": "L2",
@@ -909,11 +957,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 6,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 2
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -929,18 +977,24 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 10,
+          "new_added": 2,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 2
+        },
         "geo_digest": null,
         "official_site": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
-          "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
+          "new_added": 2,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 3
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "vendor_count_after_pass": 10
     },
     "ai-evals-testing": {
       "target_level": "L2",
@@ -960,11 +1014,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 2
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -980,7 +1034,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 14,
+          "new_added": 4,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 4
+        },
         "geo_digest": null,
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -990,8 +1050,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "vendor_count_after_pass": 11
     },
     "agent-frameworks-platforms": {
       "target_level": "L2",
@@ -1011,11 +1071,11 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
         "crunchbase": {
-          "consulted_at": "2026-06-22",
-          "candidates_found": 10,
+          "consulted_at": "2026-06-23",
+          "candidates_found": 8,
           "new_added": 1,
-          "pass": "2026-06-v5e-retrospective",
-          "notes": "Passe rétrospective L2 — enrichissement v4/v5"
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 2
         },
         "analyst_report": {
           "consulted_at": "2026-06-22",
@@ -1031,7 +1091,13 @@
           "pass": "2026-06-v5e-retrospective",
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         },
-        "open_source": null,
+        "open_source": {
+          "consulted_at": "2026-06-23",
+          "candidates_found": 16,
+          "new_added": 5,
+          "pass": "2026-06-v5l-security-kyc-infra",
+          "cumulative_new": 5
+        },
         "geo_digest": null,
         "official_site": {
           "consulted_at": "2026-06-22",
@@ -1041,8 +1107,8 @@
           "notes": "Passe rétrospective L2 — enrichissement v4/v5"
         }
       },
-      "last_pass": "2026-06-v5e-retrospective",
-      "vendor_count_after_pass": 5
+      "last_pass": "2026-06-v5l-security-kyc-infra",
+      "vendor_count_after_pass": 11
     },
     "document-idp": {
       "target_level": "L3",

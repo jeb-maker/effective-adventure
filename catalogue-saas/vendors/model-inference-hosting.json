@@ -1,6 +1,6 @@
 {
   "segment": "model-inference-hosting",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "hugging-face",
@@ -143,6 +143,181 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "baseten",
+      "name": "Baseten",
+      "url": "https://www.baseten.co/",
+      "segments": [
+        "model-inference-hosting"
+      ],
+      "description": "ML inference platform ; déploiement modèles custom, autoscaling GPU et observabilité.",
+      "capabilities": [
+        "model_deployment",
+        "gpu_autoscaling",
+        "custom_models",
+        "observability"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.baseten.co/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "anyscale",
+      "name": "Anyscale (Ray)",
+      "url": "https://www.anyscale.com/",
+      "segments": [
+        "model-inference-hosting"
+      ],
+      "description": "Ray platform managée ; training, inference distribuée et serving LLM à l'échelle.",
+      "capabilities": [
+        "ray",
+        "distributed_inference",
+        "llm_serving",
+        "training"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.anyscale.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "runpod",
+      "name": "RunPod",
+      "url": "https://www.runpod.io/",
+      "segments": [
+        "model-inference-hosting"
+      ],
+      "description": "GPU cloud serverless ; pods, serverless endpoints et fine-tuning modèles open.",
+      "capabilities": [
+        "gpu_cloud",
+        "serverless",
+        "fine_tuning",
+        "endpoints"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.runpod.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "fal-ai",
+      "name": "fal.ai",
+      "url": "https://fal.ai/",
+      "segments": [
+        "model-inference-hosting"
+      ],
+      "description": "Inference serverless GenAI ; modèles image/vidéo/LLM via API et workflows GPU.",
+      "capabilities": [
+        "serverless_inference",
+        "genai",
+        "media_models",
+        "api"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "self_serve",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://fal.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lepton-ai",
+      "name": "Lepton AI",
+      "url": "https://www.lepton.ai/",
+      "segments": [
+        "model-inference-hosting"
+      ],
+      "description": "Cloud inference simplifié ; déploiement one-click modèles Hugging Face et scaling auto.",
+      "capabilities": [
+        "one_click_deploy",
+        "huggingface",
+        "autoscaling",
+        "inference"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.lepton.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "scaleway-generative-api",
+      "name": "Scaleway Generative APIs",
+      "url": "https://www.scaleway.com/en/generative-apis/",
+      "segments": [
+        "model-inference-hosting",
+        "llm-api-providers"
+      ],
+      "description": "API LLM souveraine FR ; Mistral, Llama et embeddings hébergés datacenters européens.",
+      "capabilities": [
+        "sovereign_hosting",
+        "mistral",
+        "llama",
+        "european_dc"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.scaleway.com/en/generative-apis/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

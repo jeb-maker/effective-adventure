@@ -1,6 +1,6 @@
 {
   "segment": "identity-access-management",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "okta",
@@ -144,6 +144,180 @@
       ],
       "discovery_source": "retrospective_backfill",
       "discovery_pass": "2026-06-v5a"
+    },
+    {
+      "id": "auth0",
+      "name": "Auth0 (Okta)",
+      "url": "https://auth0.com/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "Customer Identity & Access ; SSO, MFA, social login et extensibility développeur.",
+      "capabilities": [
+        "ciam",
+        "sso",
+        "mfa",
+        "social_login"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://auth0.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "keycloak",
+      "name": "Keycloak",
+      "url": "https://www.keycloak.org/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "IAM open-source ; SSO, fédération, RBAC et self-hosted pour souveraineté identité.",
+      "capabilities": [
+        "sso",
+        "federation",
+        "rbac",
+        "self_hosted"
+      ],
+      "pricing_model": "open_source",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "unknown",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.keycloak.org/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "wallix",
+      "name": "Wallix",
+      "url": "https://www.wallix.com/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "PAM et bastion FR ; accès privilégiés, session recording et conformité NIS2/ANSSI.",
+      "capabilities": [
+        "pam",
+        "bastion",
+        "session_recording",
+        "privileged_access"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.wallix.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "cyberark",
+      "name": "CyberArk",
+      "url": "https://www.cyberark.com/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "PAM leader ; vault secrets, accès privilégiés et identity security poste-MFA.",
+      "capabilities": [
+        "pam",
+        "secrets_vault",
+        "privileged_access",
+        "identity_security"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.cyberark.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "ping-identity",
+      "name": "Ping Identity",
+      "url": "https://www.pingidentity.com/",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "IAM enterprise ; fédération, SSO, CIAM et orchestration identités hybrides.",
+      "capabilities": [
+        "federation",
+        "sso",
+        "ciam",
+        "orchestration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.pingidentity.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "forgerock",
+      "name": "ForgeRock (Ping)",
+      "url": "https://www.pingidentity.com/en/platform.html",
+      "segments": [
+        "identity-access-management"
+      ],
+      "description": "Identity platform ; CIAM, IAM workforce et consent management pour secteurs régulés.",
+      "capabilities": [
+        "ciam",
+        "workforce_iam",
+        "consent",
+        "orchestration"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5l-security-kyc-infra",
+      "source_url": "https://www.pingidentity.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }
