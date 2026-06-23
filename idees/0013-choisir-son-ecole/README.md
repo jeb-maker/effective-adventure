@@ -1,9 +1,9 @@
 # Aide au choix d'établissement scolaire (IPS + résultats)
 
 - **ID** : 0013
-- **Statut** : 🔁 À retravailler
-- **Score** : 59 / 100
-- **Dernière mise à jour** : 2026-06-20
+- **Statut** : ❌ Écartée
+- **Score** : 51 / 100
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Comparer collèges/lycées pour des parents à partir des
   données ouvertes (annuaire, IPS, résultats brevet/bac, valeur ajoutée IVAL/IVAC,
   effectifs) — un créneau **déjà servi par l'État, la presse et plusieurs
@@ -204,49 +204,59 @@ sans barrière à l'entrée pour qui que ce soit.
 
 ## 10. Scoring
 
-| # | Critère | Poids | Note (1-5) | Pondéré |
-|---|---|---|---|---|
-| C1 | Intensité du problème | 3 | 3 | 9 |
-| C2 | Cible solvable (qui paie) | 3 | 2 | 6 |
-| C3 | Disponibilité & fiabilité données | 3 | 5 | 15 |
-| C4 | Espace concurrentiel libre | 2 | 1 | 2 |
-| C5 | Différenciation défendable | 2 | 1 | 2 |
-| C6 | Faisabilité & fiabilité technique | 2 | 5 | 10 |
-| C7 | Facilité du MVP | 2 | 5 | 10 |
-| C8 | Maîtrise des risques | 2 | 2 | 4 |
-| C9 | Monétisation / impact | 2 | 2 | 4 |
-| | **Total** | | | **62 / 105** |
+> **Scoring ajusté après revue critique du 2026-06-23** (voir [`revue.md`](revue.md)).
+> Notes abaissées : C1 (3→2), C2 (2→1), C7 (5→4). Score 59 → **51**, verdict
+> 🔁 → ❌. Les notes initiales de la fiche sont rappelées dans la colonne dédiée.
 
-**Score /100** : 62 / 105 × 100 = **59**
+| # | Critère | Poids | Note initiale | Note (post-revue) | Pondéré |
+|---|---|---|---|---|---|
+| C1 | Intensité du problème | 3 | 3 | 2 | 6 |
+| C2 | Cible solvable (qui paie) | 3 | 2 | 1 | 3 |
+| C3 | Disponibilité & fiabilité données | 3 | 5 | 5 | 15 |
+| C4 | Espace concurrentiel libre | 2 | 1 | 1 | 2 |
+| C5 | Différenciation défendable | 2 | 1 | 1 | 2 |
+| C6 | Faisabilité & fiabilité technique | 2 | 5 | 5 | 10 |
+| C7 | Facilité du MVP | 2 | 5 | 4 | 8 |
+| C8 | Maîtrise des risques | 2 | 2 | 2 | 4 |
+| C9 | Monétisation / impact | 2 | 2 | 2 | 4 |
+| | **Total** | | | | **54 / 105** |
 
-Justification note par note :
-- **C1 = 3** : douleur réelle mais ponctuelle, contrainte par la carte scolaire au
-  collège, et déjà très servie → ni gadget, ni douleur brûlante non couverte.
-- **C2 = 2** : utilisateurs (parents) ne paient pas, journalistes/chercheurs à
-  petit budget, payeur B2B seulement hypothétique et non sourcé.
+**Score /100** : 54 / 105 × 100 = **51**
+
+Justification note par note (post-revue) :
+- **C1 = 2** (ajusté) : douleur **ponctuelle** (une fois par enfant), **contrainte**
+  par la carte scolaire au collège, et déjà très servie gratuitement → besoin tiède
+  côté marchand.
+- **C2 = 1** (ajusté) : **aucun payeur identifié** — parents ne paient pas,
+  journalistes/chercheurs à petit budget, et le B2B (relocation/immobilier/RH) est
+  reconnu « non sourcé/non validé » par la fiche elle-même.
 - **C3 = 5** : données complètes, propres, ouvertes (Licence Ouverte 2.0),
   jointes par UAI, mises à jour annuellement — quasi idéales.
-- **C4 = 1** : saturé (DEPP + Figaro/Parisien/L'Étudiant/franceinfo + réutilisation
-  data.gouv + Vis-Ma-Classe + Lucyol).
-- **C5 = 1** : aucun moat, pipeline copiable en un week-end et déjà copié.
+- **C4 = 1** : saturé (DEPP + Figaro/Parisien/L'Étudiant/franceinfo + réutilisations
+  data.gouv + Vis-Ma-Classe + Lucyol), **et saturation aggravée 2026-06-23**
+  (EducaScore créé le 10/06/2026, EcoleScope, EcolesInfo).
+- **C5 = 1** : aucun moat, pipeline copiable en un week-end et déjà copié plusieurs fois.
 - **C6 = 5** : chiffres 100 % SQL/traçables, LLM cantonné au sens → fiabilité par
   construction.
-- **C7 = 5** : MVP rapide, données prêtes — mais cette facilité est justement ce
-  qui explique la saturation.
+- **C7 = 4** (ajusté) : MVP rapide, mais un comparateur **crédible** doit neutraliser
+  les pièges de comparabilité (rupture série IPS 2022, seuils VA, IPS ≠ niveau) →
+  coût réel, pas trivial.
 - **C8 = 2** : risques économiques (pas de payeur) et éthiques (classements,
   ségrégation, mésusage de l'IPS) réels quoique non illégaux.
 - **C9 = 2** : revenu grand public ~nul et impact déjà capté ; seule porte = B2B
   non validé.
 
 ## 11. Verdict & décision
-🔁 **À retravailler** (59/100, dans la fourchette 55–69). Le dossier a une
-**donnée excellente** et une **faisabilité/fiabilité technique exemplaire**
-(C3+C6+C7 = 35/40), mais échoue là où ça compte pour un produit : **espace
-concurrentiel saturé** (C4=1), **différenciation nulle** (C5=1) et **absence de
-payeur** (C2=2, C9=2). Aucun critère strictement **éliminatoire** ne s'applique
-(les données sont officielles, ouvertes et légales), ce qui justifie « à
-retravailler » plutôt qu'« écartée » — mais sans pivot, le verdict de fait est
-proche du rejet : reconstruire un énième comparateur grand public n'a pas de sens.
+❌ **Écartée** (score **51/100** après revue critique du 2026-06-23, < 55).
+L'analyse initiale plaçait l'idée à 59 (« 🔁 à retravailler ») tout en concédant que
+« sans pivot, le verdict de fait est proche du rejet ». La revue acte ce rejet en
+corrigeant des notes complaisantes (C1 : douleur ponctuelle et contrainte ; C2 :
+**aucun payeur identifié**, le B2B étant non sourcé ; C7 : MVP crédible exige des
+garde-fous de comparabilité). Le dossier garde une **donnée excellente** (C3=5,
+C6=5), mais échoue là où ça compte : **espace concurrentiel saturé** (C4=1) — et
+**en aggravation** (EducaScore créé le 10/06/2026, EcoleScope, EcolesInfo) —,
+**différenciation nulle** (C5=1) et **absence de payeur** (C2=1). Reconstruire un
+énième comparateur grand public n'a aucun sens.
 
 **Prochaine étape concrète** : ne PAS construire le comparateur grand public.
 Tester en une page de validation l'**unique angle défendable** : un **payeur B2B
@@ -256,4 +266,4 @@ IVAL/IVAC normalisés, avec avertissements de comparabilité). Si aucun payeur n
 se confirme sous cet angle, **basculer l'idée en ❌ Écartée** (saturation + pas de
 modèle).
 
-0013 | Aide au choix d'établissement scolaire (IPS + résultats) | 🔁 À retravailler | 59/100 | Donnée parfaite mais marché saturé, sans payeur
+0013 | Aide au choix d'établissement scolaire (IPS + résultats) | ❌ Écartée | 51/100 | Donnée parfaite mais marché saturé (aggravé 2026) et sans payeur ; revue 2026-06-23
