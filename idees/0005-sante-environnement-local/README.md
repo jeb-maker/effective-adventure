@@ -2,8 +2,13 @@
 
 - **ID** : 0005
 - **Statut** : ❌ Écartée
-- **Score** : — / 100 (écartée : saturation + risque sanitaire)
-- **Dernière mise à jour** : 2026-06-20
+- **Score** : 44 / 100
+- **Dernière mise à jour** : 2026-06-23
+- **Révision critique** : voir [`revue.md`](revue.md) — écart **confirmé** et
+  renforcé (score posé à **44/100**, < 55, + critère éliminatoire sanitaire).
+  L'audit adversarial ajoute deux concurrents majeurs : la **carte officielle du
+  Ministère de la Santé** sur l'eau du robinet (mise en avant le 19/02/2026) et la
+  **carte interactive UFC-Que Choisir** (50 contaminants, PFAS).
 - **Pitch (1 phrase)** : Informer chaque habitant sur la qualité de son eau/air
   par commune, avec pédagogie et alertes.
 
@@ -78,6 +83,30 @@ python3 scripts/catalogue_saas.py gaps --segment environmental-data-fr
 Saturation forte **et** risque sanitaire/juridique (interprétation de mesures de
 santé). Données via Hub'Eau/SISE-Eaux déjà très exploitées.
 
+## 10. Scoring
+
+> Tableau posé par la revue critique (la fiche écartait sans note). Notes adversariales.
+
+| # | Critère | Poids | Note (1-5) | Pondéré | Justification (1 phrase) |
+|---|---|---|---|---|---|
+| C1 | Intensité du problème | 3 | 3 | 9 | Préoccupation réelle (eau/air) mais besoin d'information, pas douleur payante. |
+| C2 | Cible solvable (qui paie) | 3 | 1 | 3 | Habitant ne paie pas ; alternatives gratuites (État, UFC-QC) ; pas de payeur B2B. |
+| C3 | Disponibilité & fiabilité données | 3 | 4 | 12 | Hub'Eau/Atmo/SISE-Eaux ouvertes, prêtes et SQL-ables. |
+| C4 | Espace concurrentiel libre | 2 | 1 | 2 | Saturé : État (eau + air) + UFC-Que Choisir + Recosanté + réutilisations. |
+| C5 | Différenciation défendable | 2 | 1 | 2 | Aucune ; mêmes données publiques, caution moindre qu'État/UFC-QC. |
+| C6 | Faisabilité & fiabilité technique | 2 | 3 | 6 | Données SQL-ables, mais interprétation sanitaire = risque (pas un simple résumé). |
+| C7 | Facilité du MVP | 2 | 4 | 8 | MVP technique simple (données prêtes) — ce qui nourrit la saturation. |
+| C8 | Maîtrise des risques | 2 | 1 | 2 | Risque sanitaire/juridique quasi éliminatoire + saturation. |
+| C9 | Monétisation / impact | 2 | 1 | 2 | Pas de revenu (gratuit citoyen) ; impact déjà porté par l'État et l'UFC-QC. |
+| | **Total** | | | **46 / 105** | |
+
+**Score /100** : 46 / 105 × 100 = **44**
+
 ## 11. Verdict & décision
 ❌ **Écartée.** Arrivée tardive sur un créneau dense, avec un risque éliminatoire
-(santé). Pas de différenciation crédible identifiée.
+(santé). Le pitch (eau **et** air) affronte des services publics gratuits — la
+**carte officielle du Ministère de la Santé** sur l'eau du robinet (mise en avant
+le 19/02/2026), **Recosanté** (air) — **et** la **carte UFC-Que Choisir**
+(50 contaminants, PFAS), tous consultés 2026-06-23. Score reconstruit **44/100**
+(< 55) **et** critère éliminatoire sanitaire → écart confirmé. Pas de
+différenciation crédible identifiée.
