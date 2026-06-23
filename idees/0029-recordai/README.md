@@ -1,9 +1,9 @@
 # RecordAI — email/PDF → dossier structuré validé
 
 - **ID** : 0029
-- **Statut** : 💡 Capturée
-- **Score** : — / 100
-- **Dernière mise à jour** : 2026-06-22
+- **Statut** : 🔁 À retravailler
+- **Score** : 66 / 100
+- **Dernière mise à jour** : 2026-06-23
 - **Pitch (1 phrase)** : Work-as-a-Service sur **un micro-process métier** : email ou PDF entrant → dossier structuré (JSON + preuves) validé par un humain, avec traçabilité audit.
 
 ---
@@ -36,11 +36,12 @@ Pas de dépendance à un dataset open data unique : les **documents entrants** (
 
 Marché fragmenté entre **parsing inbox**, **IDP** et **automation** — voir catalogue structuré (segments liés ci-dessous).
 
-Synthèse (consulté 2026-06-22) :
-- **Parsing email dédié** : Parseur, Mailparser, Parsio, Nylas, Mailjet — extraction champs, peu de boucle validation métier.
-- **IDP générique** : Rossum, Extend, Nanonets, Mindee — extraction, souvent sans workflow « dossier validé ».
-- **Automation** : Zapier/Make + IDP — bricolage, gouvernance faible.
-- **Niche compliance→spec** : peu d'acteurs dédiés (Probo FR, Regulativ.ai, ComplianceCow) — segment encore ouvert.
+Synthèse (consulté 2026-06-23) :
+- **Parsing email dédié** : [Parseur](https://parseur.com/pricing) (à partir de 39 $/mois, consulté 2026-06-23), [Mailparser](https://mailparser.io/pricing) (49 $/mois), [Parsio](https://parsio.io/pricing) (41 $/mois) — extraction champs, peu de boucle validation métier.
+- **IDP générique** : [Rossum](https://rossum.ai/pricing/) (usage-based, consulté 2026-06-23), [Extend](https://www.extend.ai/pricing) (crédits documents), [Nanonets](https://nanonets.com/pricing) — extraction performante, workflow « dossier validé » souvent absent ou add-on.
+- **Workflow + revue** : Dext, Levity, Pipefy, Tonkean (V5h) — plus proches du positionnement mais généralistes ou verticaux compta/ops, pas micro-process configurable.
+- **Automation** : Zapier/Make + IDP — bricolage, gouvernance et traçabilité audit faibles.
+- **Niche compliance→spec** : [Probo](https://www.probo.ai/) (FR, strong), Regulativ.ai, DiliTrust, Yooz — segment moins saturé mais angle « réglementation → spec » plutôt que « email → dossier ».
 
 → Détail traçable : section **Catalogue SaaS** ci-dessous et [`catalogue-saas/README.md`](../../catalogue-saas/README.md).
 
@@ -53,7 +54,7 @@ Synthèse (consulté 2026-06-22) :
 
 #### Segment `parsing-inbox` — Parsing email & inbox
 
-Fichier : [`catalogue-saas/vendors/parsing-inbox.json`](../../catalogue-saas/vendors/parsing-inbox.json) (22 entrées)
+Fichier : [`catalogue-saas/vendors/parsing-inbox.json`](../../catalogue-saas/vendors/parsing-inbox.json) (30 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -69,7 +70,7 @@ Fichier : [`catalogue-saas/vendors/parsing-inbox.json`](../../catalogue-saas/ven
 | `sendgrid-inbound` | Twilio SendGrid Inbound Parse | US | partial | partial |
 | `mailjet-parse` | Mailjet Email Parser | FR | strong | partial |
 | `mailslurp` | MailSlurp | US | partial | partial |
-| … | _+10 autres_ | | | |
+| … | _+18 autres_ | | | |
 
 #### Segment `document-idp` — IDP & extraction documentaire
 
@@ -93,7 +94,7 @@ Fichier : [`catalogue-saas/vendors/document-idp.json`](../../catalogue-saas/vend
 
 #### Segment `compliance-to-spec` — Réglementation → spec produit
 
-Fichier : [`catalogue-saas/vendors/compliance-to-spec.json`](../../catalogue-saas/vendors/compliance-to-spec.json) (29 entrées)
+Fichier : [`catalogue-saas/vendors/compliance-to-spec.json`](../../catalogue-saas/vendors/compliance-to-spec.json) (37 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -109,7 +110,7 @@ Fichier : [`catalogue-saas/vendors/compliance-to-spec.json`](../../catalogue-saa
 | `anecdotes` | Anecdotes | US | partial | partial |
 | `scrut-automation` | Scrut Automation | IN | absent | partial |
 | `thoropass` | Thoropass | US | partial | partial |
-| … | _+17 autres_ | | | |
+| … | _+25 autres_ | | | |
 
 #### Segment `automation-platforms` — Automatisation no-code / iPaaS
 
@@ -175,8 +176,23 @@ Aligné sur la tendance 2026 : hybride siège + usage + outcome partiel.
 
 ## 10. Scoring
 
-_À compléter lors de l'analyse rigoureuse._
+| # | Critère | Poids | Note (1-5) | Pondéré | Justification courte |
+|---|---|---|---:|---:|---|
+| C1 | Intensité du problème | 3 | 4 | 12 | Saisie manuelle récurrente, coût ops réel |
+| C2 | Cible solvable (qui paie) | 3 | 3 | 9 | Payeurs identifiés mais budgets fragmentés (PME vs BPO) |
+| C3 | Disponibilité & fiabilité données | 3 | 3 | 9 | Documents = source ; pas d'avantage open data |
+| C4 | Espace concurrentiel libre | 2 | 2 | 4 | Parsing-inbox et IDP saturés (26+ / 32+ acteurs catalogue) |
+| C5 | Différenciation défendable | 2 | 3 | 6 | Micro-process + validation auditée ; imitable si vertical absent |
+| C6 | Faisabilité & fiabilité technique | 2 | 4 | 8 | Pipeline email→JSON traçable, champs ancrés source |
+| C7 | Facilité du MVP | 2 | 3 | 6 | 1 micro-process faisable mais choix vertical bloquant |
+| C8 | Maîtrise des risques | 2 | 2 | 4 | IDP montent en gamme ; coût LLM ; profondeur métier requise |
+| C9 | Monétisation / impact | 2 | 4 | 8 | Hybride abonnement + par dossier aligné marché 2026 |
+| | **Total** | | | **66 / 105** | |
+
+**Score /100** : 66 / 105 × 100 = **66**
 
 ## 11. Verdict & décision
 
-💡 **Capturée** — candidate à analyse approfondie après choix du micro-process pilote et benchmark catalogue (segments `parsing-inbox`, `document-idp`, `compliance-to-spec`).
+🔁 **À retravailler.** Douleur réelle et modèle économique crédible, mais **C4 bloquant** : les segments `parsing-inbox` et `document-idp` sont denses ; la différenciation « dossier validé » n'est défendable qu'avec un **micro-process vertical précis** (ex. sinistre lite, KYC lite, bon de commande) et une preuve que les IDP génériques ne couvrent pas ce workflow.
+
+**Prochaine étape** : choisir 1 micro-process pilote, benchmarker 3 concurrents directs sur ce vertical (pas seulement le catalogue générique), puis re-scorer C4/C5.

@@ -1,6 +1,6 @@
 {
   "segment": "document-idp",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "google-document-ai",
@@ -454,7 +454,8 @@
       "name": "Hyperscience",
       "url": "https://www.hyperscience.com/",
       "segments": [
-        "document-idp"
+        "document-idp",
+        "parsing-inbox"
       ],
       "description": "IDP enterprise ; cité leader IDC MarketScape 2025-2026.",
       "capabilities": [
@@ -748,7 +749,8 @@
       "name": "Ocrolus",
       "url": "https://www.ocrolus.com/",
       "segments": [
-        "document-idp"
+        "document-idp",
+        "parsing-inbox"
       ],
       "description": "Analyse documentaire fintech ; extraction données financières depuis relevés et formulaires.",
       "capabilities": [

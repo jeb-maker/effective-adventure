@@ -1,6 +1,6 @@
 {
   "segment": "parsing-inbox",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "parseur",
@@ -635,6 +635,247 @@
       "discovery_pass": "2026-06-v5g-parsing-compliance",
       "source_url": "https://missiveapp.com/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dext",
+      "name": "Dext",
+      "url": "https://dext.com/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "Capture factures/reçus par email ou scan ; extraction comptable et revue humaine avant export.",
+      "capabilities": [
+        "email_capture",
+        "ocr",
+        "human_review",
+        "accounting_export"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "GB",
+      "france_market": "strong",
+      "operating_regions": [
+        "GB",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://dext.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "autoentry",
+      "name": "AutoEntry",
+      "url": "https://www.autoentry.com/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "Saisie automatisée factures et relevés ; boîte email dédiée et validation avant ERP.",
+      "capabilities": [
+        "inbound_email",
+        "invoice_extraction",
+        "bank_statements",
+        "erp_sync"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "IE",
+      "france_market": "partial",
+      "operating_regions": [
+        "IE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.autoentry.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "levity",
+      "name": "Levity",
+      "url": "https://levity.ai/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "No-code AI workflows ; classification email/PDF, extraction champs et routage avec revue.",
+      "capabilities": [
+        "email_classification",
+        "field_extraction",
+        "workflow",
+        "human_review"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://levity.ai/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "indico",
+      "name": "Indico Data",
+      "url": "https://indicodata.ai/",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "Intake documentaire intelligent ; pipelines email/PDF avec validation et audit trail métier.",
+      "capabilities": [
+        "document_intake",
+        "unstructured_data",
+        "human_in_loop",
+        "audit_trail"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://indicodata.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "kissflow",
+      "name": "Kissflow",
+      "url": "https://kissflow.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Workflow no-code ; formulaires entrants, parsing pièces jointes et approbations multi-étapes.",
+      "capabilities": [
+        "workflow",
+        "form_intake",
+        "approvals",
+        "attachments"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://kissflow.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "pipefy",
+      "name": "Pipefy",
+      "url": "https://www.pipefy.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Orchestration processus ; inbox email déclencheur, champs extraits et tâches de validation.",
+      "capabilities": [
+        "process_orchestration",
+        "email_trigger",
+        "task_validation",
+        "sla"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "BR",
+      "france_market": "partial",
+      "operating_regions": [
+        "BR",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.pipefy.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "tonkean",
+      "name": "Tonkean",
+      "url": "https://www.tonkean.com/",
+      "segments": [
+        "parsing-inbox"
+      ],
+      "description": "Orchestration ops ; agrège emails/docs, propose actions et boucle human-in-the-loop auditée.",
+      "capabilities": [
+        "ops_orchestration",
+        "email_aggregation",
+        "human_in_loop",
+        "integrations"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.tonkean.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "formstack-documents",
+      "name": "Formstack Documents",
+      "url": "https://www.formstack.com/products/documents",
+      "segments": [
+        "parsing-inbox",
+        "document-idp"
+      ],
+      "description": "Génération et parsing documents ; merge données formulaire/email vers PDF structuré validé.",
+      "capabilities": [
+        "document_generation",
+        "merge_fields",
+        "e_signature",
+        "workflow"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.formstack.com/products/documents",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "segment": "compliance-to-spec",
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "vendors": [
     {
       "id": "compliance-to-architecture",
@@ -858,6 +858,245 @@
       "discovery_pass": "2026-06-v5g-parsing-compliance",
       "source_url": "https://www.compliancecow.com/",
       "source_consulted_at": "2026-06-22",
+      "verification_status": "partial"
+    },
+    {
+      "id": "dilitrust",
+      "name": "DiliTrust",
+      "url": "https://www.dilitrust.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "Suite gouvernance FR ; policies, contrôles et preuves pour conformité réglementaire encodée.",
+      "capabilities": [
+        "policy_management",
+        "controls",
+        "evidence",
+        "board_governance"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.dilitrust.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "yooz",
+      "name": "Yooz",
+      "url": "https://www.getyooz.com/",
+      "segments": [
+        "compliance-to-spec",
+        "document-idp"
+      ],
+      "description": "AP automation FR ; capture factures, contrôles conformité et workflow validation avant ERP.",
+      "capabilities": [
+        "ap_automation",
+        "invoice_controls",
+        "compliance_checks",
+        "erp_integration"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.getyooz.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "libeo",
+      "name": "Libeo",
+      "url": "https://libeo.io/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Paiements fournisseurs B2B FR ; validation dossier facture et conformité avant règlement.",
+      "capabilities": [
+        "supplier_payments",
+        "invoice_validation",
+        "compliance",
+        "b2b"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR",
+        "EU"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://libeo.io/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "whistic",
+      "name": "Whistic",
+      "url": "https://www.whistic.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "Vendor security assessments ; questionnaires, preuves et mapping exigences → contrôles tiers.",
+      "capabilities": [
+        "vendor_assessments",
+        "questionnaires",
+        "evidence",
+        "control_mapping"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.whistic.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "formalize",
+      "name": "Formalize",
+      "url": "https://formalize.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Automatisation ISO/SOC2 ; exigences réglementaires traduites en tâches, preuves et specs internes.",
+      "capabilities": [
+        "iso_compliance",
+        "requirement_tasks",
+        "evidence",
+        "policy_templates"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "DK",
+      "france_market": "partial",
+      "operating_regions": [
+        "DK",
+        "EU",
+        "US"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://formalize.com/pricing",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "conformio",
+      "name": "Conformio",
+      "url": "https://conformio.com/",
+      "segments": [
+        "compliance-to-spec"
+      ],
+      "description": "Conformité produits EU ; exigences CE/RoHS/REACH encodées en checklists et specs techniques.",
+      "capabilities": [
+        "product_compliance",
+        "ce_marking",
+        "requirement_checklists",
+        "technical_files"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "DE",
+      "france_market": "partial",
+      "operating_regions": [
+        "DE",
+        "EU"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://conformio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "laika",
+      "name": "Laika",
+      "url": "https://www.heylaika.com/",
+      "segments": [
+        "compliance-to-spec",
+        "grc-security"
+      ],
+      "description": "Compliance automation ; inventaire contrôles, policies et preuves mappées aux cadres (SOC2, ISO).",
+      "capabilities": [
+        "control_inventory",
+        "policy_automation",
+        "evidence",
+        "framework_mapping"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.heylaika.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "inscribe",
+      "name": "Inscribe",
+      "url": "https://www.inscribe.ai/",
+      "segments": [
+        "compliance-to-spec",
+        "document-idp"
+      ],
+      "description": "Vérification documents + extraction ; détection fraude et validation dossier KYC/onboarding.",
+      "capabilities": [
+        "document_fraud",
+        "kyc_validation",
+        "field_extraction",
+        "audit_trail"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "crunchbase",
+      "discovery_pass": "2026-06-v5h-dossier-valide",
+      "source_url": "https://www.inscribe.ai/",
+      "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
     }
   ]
