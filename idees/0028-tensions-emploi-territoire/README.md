@@ -157,7 +157,7 @@ Fichier : [`catalogue-saas/vendors/territorial-analytics.json`](../../catalogue-
 
 #### Segment `hr-talent-ai` — RH & talent IA
 
-Fichier : [`catalogue-saas/vendors/hr-talent-ai.json`](../../catalogue-saas/vendors/hr-talent-ai.json) (14 entrées)
+Fichier : [`catalogue-saas/vendors/hr-talent-ai.json`](../../catalogue-saas/vendors/hr-talent-ai.json) (19 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -173,7 +173,7 @@ Fichier : [`catalogue-saas/vendors/hr-talent-ai.json`](../../catalogue-saas/vend
 | `flatchr` | Flatchr | FR | strong | partial |
 | `welcom-hr` | Welcome to the Jungle (ATS) | FR | strong | partial |
 | `people-spheres` | PeopleSpheres | FR | strong | partial |
-| … | _+2 autres_ | | | |
+| … | _+7 autres_ | | | |
 
 Commandes :
 ```bash

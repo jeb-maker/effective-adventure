@@ -407,6 +407,151 @@
       "source_url": "https://figures.hr/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "smartrecruiters",
+      "name": "SmartRecruiters",
+      "url": "https://www.smartrecruiters.com/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "ATS + suite recrutement avec automatisations et matching IA.",
+      "capabilities": [
+        "ats",
+        "recruiting",
+        "automation",
+        "analytics"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.smartrecruiters.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "lever",
+      "name": "Lever",
+      "url": "https://www.lever.co/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "ATS + CRM candidats ; workflows recrutement et reporting.",
+      "capabilities": [
+        "ats",
+        "candidate_crm",
+        "workflows",
+        "reporting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.lever.co/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "workable",
+      "name": "Workable",
+      "url": "https://www.workable.com/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "ATS SMB/ETI ; sourcing, screening et automatisations recrutement.",
+      "capabilities": [
+        "ats",
+        "sourcing",
+        "screening",
+        "automation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.workable.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "icims",
+      "name": "iCIMS",
+      "url": "https://www.icims.com/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "Talent cloud : ATS + onboarding + CRM candidats enterprise.",
+      "capabilities": [
+        "ats",
+        "onboarding",
+        "candidate_crm",
+        "enterprise"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.icims.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "teamtailor",
+      "name": "Teamtailor",
+      "url": "https://www.teamtailor.com/",
+      "segments": [
+        "hr-talent-ai"
+      ],
+      "description": "ATS européen orienté expérience candidat (pages carrière, pipeline).",
+      "capabilities": [
+        "ats",
+        "candidate_experience",
+        "career_pages",
+        "pipeline"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "SE",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU",
+        "US"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.teamtailor.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

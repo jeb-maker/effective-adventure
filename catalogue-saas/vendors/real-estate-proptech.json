@@ -446,6 +446,148 @@
       "source_url": "https://fr.foncia.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "appfolio",
+      "name": "AppFolio",
+      "url": "https://www.appfolio.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Property management : leasing, maintenance, compta et portail locataires.",
+      "capabilities": [
+        "property_management",
+        "leasing",
+        "maintenance",
+        "accounting"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.appfolio.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "buildium",
+      "name": "Buildium",
+      "url": "https://www.buildium.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Property management SMB : comptabilité, locations, paiements, tickets.",
+      "capabilities": [
+        "property_management",
+        "payments",
+        "tickets",
+        "accounting"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.buildium.com/pricing/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "entrata",
+      "name": "Entrata",
+      "url": "https://www.entrata.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Plateforme multifamily : CRM, leasing, marketing, operations.",
+      "capabilities": [
+        "leasing",
+        "crm",
+        "operations",
+        "marketing"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.entrata.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "realpage",
+      "name": "RealPage",
+      "url": "https://www.realpage.com/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Suite property management enterprise (multifamily, analytics, revenue mgmt).",
+      "capabilities": [
+        "property_management",
+        "analytics",
+        "revenue_management"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "absent",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.realpage.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "hektor",
+      "name": "Hektor",
+      "url": "https://hektor.fr/",
+      "segments": [
+        "real-estate-proptech"
+      ],
+      "description": "Logiciel immobilier (transactions) : CRM agences, annonces, matching acquéreurs.",
+      "capabilities": [
+        "real_estate_crm",
+        "listings",
+        "lead_management"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "geo_digest",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://hektor.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

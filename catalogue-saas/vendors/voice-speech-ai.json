@@ -493,6 +493,93 @@
       "source_url": "https://azure.microsoft.com/products/ai-services/ai-speech",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "soniox",
+      "name": "Soniox",
+      "url": "https://soniox.com/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "Speech-to-text temps réel multi-langues ; API et diarisation.",
+      "capabilities": [
+        "stt",
+        "realtime",
+        "api",
+        "diarization"
+      ],
+      "pricing_model": "per_usage",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "US",
+      "france_market": "partial",
+      "operating_regions": [
+        "US",
+        "EU"
+      ],
+      "discovery_source": "g2",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://soniox.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "picovoice",
+      "name": "Picovoice",
+      "url": "https://picovoice.ai/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "Voice AI on-device : wake word, ASR, NLU, privacy-first.",
+      "capabilities": [
+        "on_device",
+        "wake_word",
+        "asr",
+        "nlu"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "global",
+      "hq_country": "CA",
+      "france_market": "partial",
+      "operating_regions": [
+        "CA",
+        "US",
+        "EU"
+      ],
+      "discovery_source": "open_source",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://picovoice.ai/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "sestek",
+      "name": "Sestek",
+      "url": "https://www.sestek.com/",
+      "segments": [
+        "voice-speech-ai"
+      ],
+      "description": "Speech analytics + voice biometrics pour centres de contact.",
+      "capabilities": [
+        "speech_analytics",
+        "voice_biometrics",
+        "contact_center"
+      ],
+      "pricing_model": "enterprise_quote",
+      "target_market": "enterprise",
+      "geography": "global",
+      "hq_country": "TR",
+      "france_market": "partial",
+      "operating_regions": [
+        "EU",
+        "US"
+      ],
+      "discovery_source": "analyst_report",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.sestek.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

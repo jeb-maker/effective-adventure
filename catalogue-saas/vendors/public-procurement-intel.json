@@ -443,6 +443,143 @@
       "source_url": "https://www.weproc.com/",
       "source_consulted_at": "2026-06-23",
       "verification_status": "partial"
+    },
+    {
+      "id": "maximilien",
+      "name": "Maximilien",
+      "url": "https://www.maximilien.fr/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Plateforme achats publics (profil acheteur) et dématérialisation.",
+      "capabilities": [
+        "profil_acheteur",
+        "tenders",
+        "france",
+        "dematerialisation"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.maximilien.fr/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "megalis-bretagne",
+      "name": "Mégalis Bretagne",
+      "url": "https://www.megalis.bretagne.bzh/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Plateforme régionale achats publics et services numériques territoriaux.",
+      "capabilities": [
+        "profil_acheteur",
+        "france",
+        "tenders"
+      ],
+      "pricing_model": "freemium",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.megalis.bretagne.bzh/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "klekoon",
+      "name": "Klekoon",
+      "url": "https://www.klekoon.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Dématérialisation marchés publics (profil acheteur) et publication AO.",
+      "capabilities": [
+        "profil_acheteur",
+        "ao_publication",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "official_site",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.klekoon.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "achat-solution",
+      "name": "Achat Solution",
+      "url": "https://www.achat-solution.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Plateforme achats publics : sourcing, consultation, exécution.",
+      "capabilities": [
+        "tenders",
+        "supplier_portal",
+        "workflow",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "mid_market",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "capterra",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.achat-solution.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
+    },
+    {
+      "id": "marches-online",
+      "name": "Marchés Online",
+      "url": "https://www.marchesonline.com/",
+      "segments": [
+        "public-procurement-intel"
+      ],
+      "description": "Veille et publication d'avis (AO) + accès centralisé aux consultations.",
+      "capabilities": [
+        "ao_monitoring",
+        "tenders",
+        "france"
+      ],
+      "pricing_model": "hybrid",
+      "target_market": "smb",
+      "geography": "france",
+      "hq_country": "FR",
+      "france_market": "strong",
+      "operating_regions": [
+        "FR"
+      ],
+      "discovery_source": "alternatives",
+      "discovery_pass": "2026-06-v5u-fill-last4",
+      "source_url": "https://www.marchesonline.com/",
+      "source_consulted_at": "2026-06-23",
+      "verification_status": "partial"
     }
   ]
 }

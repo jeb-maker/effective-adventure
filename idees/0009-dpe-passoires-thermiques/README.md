@@ -164,7 +164,7 @@ Fichier : [`catalogue-saas/vendors/energy-buildings-fr.json`](../../catalogue-sa
 
 #### Segment `real-estate-proptech` — Immobilier & proptech
 
-Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-saas/vendors/real-estate-proptech.json) (15 entrées)
+Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-saas/vendors/real-estate-proptech.json) (20 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -180,7 +180,7 @@ Fichier : [`catalogue-saas/vendors/real-estate-proptech.json`](../../catalogue-s
 | `bdnb` | BDNB (CSTB) | FR | strong | partial |
 | `kel-foncier` | Kel Foncier | FR | strong | partial |
 | `deepki` | Deepki | FR | strong | partial |
-| … | _+3 autres_ | | | |
+| … | _+8 autres_ | | | |
 
 Commandes :
 ```bash

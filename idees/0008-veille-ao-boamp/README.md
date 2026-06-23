@@ -34,7 +34,7 @@ d'attribution** (passé), traitée dans l'idée **0001** — pas sur la veille
 
 #### Segment `public-procurement-intel` — Intelligence marchés publics
 
-Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalogue-saas/vendors/public-procurement-intel.json) (15 entrées)
+Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalogue-saas/vendors/public-procurement-intel.json) (20 entrées)
 
 | ID | Nom | HQ | Marché FR | Vérification |
 |---|---|---|---|---|
@@ -50,7 +50,7 @@ Fichier : [`catalogue-saas/vendors/public-procurement-intel.json`](../../catalog
 | `data-economie-gouv` | data.economie.gouv.fr | FR | strong | partial |
 | `openbar` | OpenBar (Regards Citoyens) | FR | strong | partial |
 | `nextend-ai` | Nextend.ai | FR | strong | partial |
-| … | _+3 autres_ | | | |
+| … | _+8 autres_ | | | |
 
 Commandes :
 ```bash
