@@ -2,8 +2,17 @@
 
 - **ID** : 0025
 - **Statut** : 🔁 À retravailler
-- **Score** : 64 / 100
+- **Score** : 60 / 100
 - **Dernière mise à jour** : 2026-06-23
+- **Révision critique** : voir [`revue.md`](revue.md) — score abaissé de **64 à 60**
+  après audit adversarial. Le différenciateur unique (`RNIC.siret_syndic × DECP`)
+  est **conceptuellement cassé** : la DECP est la commande *publique*, or une
+  copropriété privée n'est pas pouvoir adjudicateur — ses travaux n'y figurent
+  jamais (le moat ne vaut que pour les bailleurs sociaux, non solvables / servis
+  gratuitement par Go Rénove PRO). Concurrents omis : **Powimo (Datahub)** pilote
+  déjà le parc DPE, **CoproFF (Cerema)** croise déjà RNIC × fichiers fonciers.
+  Le vrai point bloquant n'est pas la complétude du SIRET syndic (il est publié).
+  Les §3bis–§11 ci-dessous reflètent le passage initial et restent à corriger.
 - **Pitch (1 phrase)** : Pour syndics professionnels et bailleurs : croiser le
   registre national des copropriétés (RNIC), les DPE et les marchés publics de
   rénovation (DECP) pour prioriser les copropriétés à rénover et tracer les
