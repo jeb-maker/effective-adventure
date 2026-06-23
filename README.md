@@ -27,6 +27,7 @@ prototype**, pas d'en accumuler indéfiniment.
 - Le **catalogue SaaS** (veille marché RegTech, IDP, GRC, agents IA) est dans
   [`catalogue-saas/`](catalogue-saas/) — méthode dans
   [`docs/catalogue-saas-methode.md`](docs/catalogue-saas-methode.md).
+  **Explorateur web** : [jeb-maker.github.io/effective-adventure](https://jeb-maker.github.io/effective-adventure/) (GitHub Pages).
 - La **cartographie de l'existant** (SaaS vs public vs OSS — deux cartographies
   distinctes) est dans [`docs/cartographie-existant.md`](docs/cartographie-existant.md).
 - Chaque idée vit dans `idees/<id>-<slug>/README.md`.
